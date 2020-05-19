@@ -1,0 +1,149 @@
+<div align="left" class="row">
+    <div class="col-md-10">
+        <h1>{{dataset.title}} <a v-bind:href="'/edit-dataset/' + dataset._id" class="edit-link">(Edit)</a></h1>
+    </div>
+    <div class="col-md-2 stars">
+        <img v-bind:src="star_img(dataset)" v-bind:title="star_explain(dataset)" id="stars_img"/>
+    </div>
+</div>
+
+<h3>About this dataset</h3>
+<div class="row">
+    <div class="col-md-10">
+        {{dataset.description.en}}
+    </div>
+    <div class="col-md-2" v-if="dataset.image">
+        <img v-bind:src="dataset.image" v-bind:title="dataset.title" class="dataset-img"/>
+    </div>
+</div>
+
+<div class="license" v-if="dataset.license">
+    License: <a v-bind:href="dataset.license">{{dataset.license}}</a>
+</div>
+
+<div class="keywords">
+    <span class="badge badge-success">{{dataset.domain}}</span>
+    <span class="badge badge-primary" v-for="keyword in dataset.keywords">{{keyword}}
+    </span>
+</div>
+
+<h3>Contact Details</h3>
+<div v-if="dataset.contact_point" class="contactPoint">
+    Contact Point: <a v-bind:href="'mailto:' + dataset.contact_point.email">{{dataset.contact_point.name}}</a>
+</div>
+<div v-if="dataset.website" class="website">
+    Website: <a v-bind:href="dataset.website">{{dataset.website}}</a>
+</div>
+
+<h3>Download Links</h3>
+
+<div v-if="dataset.full_download.length>0">
+    <h4>Full Downloads</h4>
+    <ul>
+        <li v-for="fd in dataset.full_download">
+            <img v-if="fd.status && fd.status != 'OK'" src="/img/warn.png" 
+                 v-bind:title="'Resource may not be available:' + fd.status"
+                 class="warn-icon"/>
+            <a v-bind:href="fd.download_url">
+                <span v-if="fd.title">{{fd.title}}</span>
+                <span v-else>Download</span>
+            </a>
+            <span v-for="mirror in fd.mirror">
+                <br/><a href="/ipfs-how-to.html">
+                    <img src="/img/ipfs.png" title="IPFS link available" width="32"/></a>
+                <tt>{{mirror.substring(5)}}</tt>
+            </span>
+            <span v-if="fd.description">({{fd.description}})</span>
+        </li>
+    </ul>
+</div>
+
+<div v-if="dataset.sparql.length>0">
+    <h4>SPARQL Endpoints</h4>
+    <ul>
+        <li v-for="fd in dataset.sparql">
+            <img v-if="fd.status && fd.status != 'OK'" src="/img/warn.png" 
+                 v-bind:title="'Resource may not be available: ' + fd.status"
+                 class="warn-icon"/>
+            <a v-bind:href="fd.access_url">
+                <span v-if="fd.title">{{fd.title}}</span>
+                <span v-else>Access SPARQL endpoint</span>
+            </a>
+            <span v-if="fd.description">({{fd.description}})</span>
+        </li>
+    </ul>
+</div>
+
+<div v-if="dataset.example.length>0">
+    <h4>Examples</h4>
+    <ul>
+        <li v-for="fd in dataset.example">
+            <img v-if="fd.status && fd.status != 'OK'" src="/img/warn.png" 
+                 v-bind:title="'Resource may not be available: ' + fd.status"
+                 class="warn-icon"/>
+            <a v-bind:href="fd.access_url">
+                <span v-if="fd.title">{{fd.title}}</span>
+                <span v-else>Download</span>
+            </a>
+            <span v-if="fd.description">({{fd.description}})</span>
+        </li>
+    </ul>
+</div>
+
+
+<div v-if="dataset.other_download.length>0">
+    <h4>Other downloads</h4>
+    <ul>
+        <li v-for="fd in dataset.other_download">
+            <img v-if="fd.status && fd.status != 'OK'" src="/img/warn.png" 
+                 v-bind:title="'Resource may not be available: ' + fd.status"
+                 class="warn-icon"/>
+            <a v-bind:href="fd.access_url">
+                <span v-if="fd.title">{{fd.title}}</span>
+                <span v-else>Download</span>
+            </a>
+            <span v-for="(mirror, index) in fd.mirror">
+                <br/>
+                <a href="/ipfs-how-to.html">
+                    <img src="/img/ipfs.png" title="IPFS link available" width="32"/></a>
+                <tt>{{mirror.substring(5)}}</tt>
+            </span>
+            <span v-if="fd.description">({{fd.description}})</span>
+
+        </li>
+    </ul>
+</div>
+
+<h3>Data Facts</h3>
+
+<table class="table table-striped">
+    <tr>
+        <td>Total size</td>
+        <td class="triple_count">{{commaFormatted(dataset.triples)}}<span class="triples"> triples</span></td>
+    </tr>
+    <tr v-if="dataset.namespace">
+        <td>Namespace</td>
+        <td>{{dataset.namespace}}</td>
+    </tr>
+    <tr v-if="dataset.doi">
+        <td>DoI</td>
+        <td>{{dataset.doi}}</td>
+    </tr>
+    <tr v-for="l in sort_links(dataset.links)">
+        <td>Links to <a v-bind:href="'/dataset/' + l.target">{{l.target}}</a></td>
+        <td class="triple_count">{{commaFormatted(l.value)}}<span class="triples"> triples</span></td>
+    </tr>
+</table>
+
+<h3 v-if="dataset.show_luzzu">Data Quality Estimation by <a href="http://luzzu.adaptcentre.ie/">Luzzu</a></h3>
+
+<canvas id="myChart"></canvas>
+
+
+<b>Download metadata as:</b>
+<ul>
+    <li><a v-bind:href="'/json/' + dataset.identifier">JSON</a></li>
+    <li><a v-bind:href="'/rdf/' + dataset.identifier + '?format=rdf'">RDF/XML</a></li>
+    <li><a v-bind:href="'/rdf/' + dataset.identifier + '?format=ttl'">Turtle</a></li>
+    <li><a v-bind:href="'/rdf/' + dataset.identifier + '?format=nt'">N-Triples</a></li>
+</ul>

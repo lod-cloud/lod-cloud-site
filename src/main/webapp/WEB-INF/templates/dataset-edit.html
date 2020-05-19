@@ -1,0 +1,386 @@
+<div align="left">
+    <h4 class="modal-title">Edit dataset</h4>
+</div>
+
+<div v-if="dataset">
+    <form v-on:submit.prevent="EditDataset(dataset)">
+
+        <table id="viewDatasetTable" class="table table-bordred table-striped">
+            <tr>
+                <td>Identifier</td> 			
+                <td>
+                    <div class="form-group">
+                        <input type="text" v-model="dataset.identifier" 
+                               class="form-control" name="Identifier" id="dataset_identifier" required/>
+
+                    </div>	
+
+                </td>  
+            </tr>
+
+            <tr>
+                <td>Title</td>  	
+                <td>
+                    <div class="form-group">
+                        <input type="text" v-model="dataset.title" 
+                               class="form-control" name="Title" id="title" 
+                               required placeholder="Dataset title"/>
+
+                    </div>
+                </td>  
+            </tr>
+            <tr>
+                <td>Description</td> 
+                <td>
+                    <div class="form-group">
+                        <textarea class="form-control" v-model="dataset.description.en" 
+                                  name="Description" id="Description" 
+                                  required placeholder="Dataset description"></textarea>
+
+                    </div>			
+                </td>  
+            </tr>
+
+            <tr>
+                <td>Full Download</td> 
+                <td>
+                    <div class="form-group">
+                        <table>					
+                            <tr v-for="(full_download_,infd) in dataset.full_download">					
+                                <td>
+                                    <label for="full_download_title">Title:</label>
+                                    <input class="btn-xs btn-danger pull-right" type="button" 
+                                           v-on:click='deleteFull_download(infd)' value="[-]" />
+
+                                    <input placeholder="Title" class="form-control" v-model="full_download_.title" 
+                                           v-bind:name="'full_download_title-'+infd" id="full_download_title" required placeholder="Title"/> 
+
+
+                                    <label for="full_download_description">Description:</label>
+                                    <textarea placeholder="Download description" class="form-control" v-model="full_download_.description" 
+                                              v-bind:name="'full_download_description-'+infd" id="full_download_description"></textarea> <!---->
+
+                                    <label for="full_download_access_url">Download URL:</label>
+                                    <input placeholder="http://" class="form-control" type="url" pattern="https?://.+" v-model="full_download_.download_url" 
+                                           v-bind:name="'full_download_access_url-'+infd" id="full_download_access_url"  required/><!---->
+
+                                    <label for="full_download_media_type">Media type:</label>
+
+                                    <input placeholder="MIME type" class="form-control" v-model="full_download_.media_type" 
+                                           v-bind:name="'full_download_media_type-'+infd" id="full_download_media_type"  required/> 
+
+                                    <hr/>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>	
+                            <tr>
+                            <input class="btn-xs btn-primary pull-center" type="button" v-on:click='addFull_download()' value="[+]" />								
+                            </tr>
+                        </table>
+                    </div>	
+
+                </td> 
+            </tr>
+
+            <tr>
+                <td>SPARQL Endpoint</td> 
+                <td>
+                    <div class="form-group">
+                        <table>					
+                            <tr v-for="(sparql_,insp) in dataset.sparql">					
+                                <td>
+                                    <label for="sparql_title">Title:</label>
+                                    <input class="btn-xs btn-danger pull-right" type="button" 
+                                           v-on:click='deleteSparql(insp)' value="[-]" />
+
+                                    <input placeholder="Title" class="form-control" v-model="sparql_.title" 
+                                           v-bind:name="'sparql_title-'+insp" id="sparql_title" required placeholder="Title"/> 
+
+
+                                    <label for="sparql_description">Description:</label>
+                                    <textarea placeholder="Download description" class="form-control" v-model="sparql_.description" 
+                                              v-bind:name="'sparql_description-'+insp" id="sparql_description"></textarea> <!---->
+
+                                    <label for="sparql_access_url">Access URL:</label>
+                                    <input placeholder="http://" class="form-control" type="url" pattern="https?://.+" v-model="sparql_.access_url" 
+                                           v-bind:name="'sparql_access_url-'+insp" id="sparql_access_url"  required/><!---->
+
+
+                                    <hr/>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>	
+                            <input class="btn-xs btn-primary pull-center" type="button" v-on:click='addSparql()' value="[+]" />								
+                            </tr>
+                        </table>
+                    </div>	
+
+                </td> 
+            </tr>
+            <tr>
+                <td>Other Download</td> 
+                <td>
+                    <div class="form-group">
+                        <table>					
+                            <tr v-for="(other_download_,inod) in dataset.other_download">					
+                                <td>
+                                    <label for="other_download_title">Title:</label>
+                                    <input class="btn-xs btn-danger pull-right" type="button" 
+                                           v-on:click='deleteOther_download(inod)' value="[-]" />
+
+                                    <input placeholder="Title" class="form-control" v-model="other_download_.title" 
+                                           v-bind:name="'other_download_title-'+inod" id="other_download_title" required placeholder="Title"/> 
+
+                                    <label for="sparql_description">Description:</label>
+                                    <textarea placeholder="Download description" class="form-control" v-model="other_download_.description" 
+                                              v-bind:name="'other_download__description-'+inod" id="other_download_description"></textarea> <!---->
+
+                                    <label for="sparql_access_url">Access URL:</label>
+                                    <input placeholder="http://" class="form-control" type="url" pattern="https?://.+" v-model="other_download_.access_url" 
+                                           v-bind:name="'other_download__access_url-'+inod" id="other_download_access_url"  required/><!---->
+
+                                    <label for="other_download_media_type">Media type:</label>
+                                    <input placeholder="MIME type" class="form-control" v-model="other_download_.media_type" 
+                                           v-bind:name="'other_download_media_type-'+inod" id="other_download_media_type"  required/> 
+
+                                    <hr/>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>	
+                            <input class="btn-xs btn-primary pull-center" type="button" v-on:click='addOther_download()' value="[+]" />
+
+                            </tr>
+                        </table>
+                    </div>	
+
+                </td> 
+            </tr>
+            <tr>
+                <td>Example</td> 
+                <td>
+                    <div class="form-group">
+                        <table>					
+                            <tr v-for="(example_,inex) in dataset.example">					
+                                <td>
+                                    <label for="example_title">Title:</label>
+                                    <input class="btn-xs btn-danger pull-right" type="button" 
+                                           v-on:click='deleteExample(inex)' value="[-]" />
+
+                                    <input placeholder="Title" class="form-control pull-bottom" v-model="example_.title" 
+                                           v-bind:name="'example_title-'+inex" id="example_title" required placeholder="Title"/> 
+
+                                    <label for="example_description">Description:</label>
+                                    <textarea placeholder="Download description" class="form-control" v-model="example_.description" 
+                                              v-bind:name="'example_description-'+inex" id="sparql_description"></textarea> <!---->
+
+                                    <label for="example_access_url">Access URL:</label>
+                                    <input placeholder="http://" class="form-control" type="url" pattern="https?://.+" v-model="example_.access_url" 
+                                           v-bind:name="'example_access_url-'+inex" id="example_access_url"  required/><!---->
+
+                                    <hr/>
+                                </td>
+                            </tr>
+                        </table>	
+                        <table>	
+                            <tr>	
+                            <input class="btn-xs btn-primary pull-center" type="button" v-on:click='addExample()' value="[+]" />
+
+                            </tr>
+                        </table>
+                    </div>	
+
+                </td> 
+            </tr>
+
+            <tr>
+                <td>Keywords</td> 
+                <td>	
+                    <div class="keywords">
+                        <input name="keywords" type="tags" id="keywords" v-model="dataset.keywords" class="form-control" @change="keywordHandle(dataset)">
+                    </div>
+
+
+                </td> 
+            </tr>
+            <tr>
+                <td>Domain</td> 
+                <td>			
+                    <div class="form-group">
+                        <select class="form-control" v-model="dataset.domain" 
+                                name="Domain" id="Domain" required>
+                            <option v-for="dmn in domains" v-bind:value="dmn">{{domainsMap[dmn]}}</option>
+                        </select>
+
+                    </div>
+
+                </td>  
+            </tr>
+
+            <tr>
+                <td>Website</td> 
+                <td>			
+                    <div class="form-group">
+                        <input placeholder="Valid URL" class="form-control" type="url" pattern="https?://.+"  v-model="dataset.website"
+                               name="Website" id="Website"  required/>
+
+                    </div>				
+                </td>  			
+            </tr>
+
+            <tr>
+                <td>Contact Point</td> 
+                <td>
+                    <div class="form-group">
+
+                        <table>
+                            <td>
+                                <label for="ContactName">Name:</label>
+                                <input placeholder="Name" class="form-control" v-model="dataset.contact_point.name" 
+                                       name="ContactName" id="ContactName" required />
+
+                            </td>
+                            <td>
+                                <label for="ContactEmail">Email:</label>
+                                <input placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  class="form-control" v-model="dataset.contact_point.email" 
+                                       name="ContactEmail" id="ContactEmail" required />
+
+                            </td>						
+                        </table>
+                    </div>	
+
+                </td>
+            </tr>
+            <tr>
+                <td>Links</td> 
+                <td>
+                    <div class="form-group">
+                        <table>					
+                            <tr v-for="(onelink,inx) of dataset.links" class="spaceUnder">
+
+
+                                <td>
+                                    <input   type="number" class="form-control" v-model="onelink.value" 
+                                             v-bind:name="'linkvalue-'+inx" id="linkvalue" required />
+
+                                </td> 
+
+                                <td>
+                                    <select class="form-control" v-model="onelink.target" 
+                                            v-bind:name="'linktarget-'+inx" id="linktarget" autocomplete="on"  required>
+                                        <option v-for="linkfor in forLinks" v-bind:value="linkfor">{{linkfor}}</option>
+                                    </select>
+
+                                </td>	
+                                <td>
+                                    <img id="warningicon" v-if="!forLinks.includes(onelink.target)"									
+                                         src="/img/warn.png"
+                                         v-bind:title="'Dataset ' + onelink.target + ' is not in LLOD cloud'"
+                                         class="warn-icon"/>
+                                </td>
+                                <td>
+                                    <input class="btn-xs btn-danger" type="button" v-on:click='deleteLink(inx)' value="[-]" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr class="spaceUnder">
+                            <input class="btn-xs btn-primary pull-center" type="button" v-on:click='addLink()' value="[+]" />
+                            </tr>
+                        </table>
+                    </div>
+                </td>  
+            </tr>
+
+            <tr>
+                <td>Size</td> 
+                <td>
+                    <div class="form-group">
+                        <input type="number" class="form-control" v-model="dataset.triples" 
+                               name="Size2" id="Size2"/>
+                    </div>	
+                </td> 			
+            </tr>
+            <tr>
+                <td>License</td>
+                <td>
+                    <div class="form-group">
+                        <select class="form-control" v-model="dataset.license" 
+                                name="license" id="license" autocomplete="on"  required>
+                            <option value="http://www.opendefinition.org/licenses/cc-by">Creative Commons Attribution 4.0 (CC-BY)</option>
+                            <option value="http://www.opendefinition.org/licenses/cc-by-sa">Creative Commons Attribution Share-Alike 4.0 (CC-BY-SA)</option>
+                            <option value="http://www.opendefinition.org/licenses/cc-zero">Public Domain (CC-Zero)</option>
+                            <option value="http://www.opendefinition.org/licenses/gfdl">GNU Free Documentation License (GFDL)</option>
+                            <option value="http://www.opendefinition.org/licenses/odc-by">Open Data Commons Attribution License</option>
+                            <option value="http://www.opendefinition.org/licenses/odc-odbl">Open Database License (ODbL)</option>
+                            <option value="http://www.opendefinition.org/licenses/odc-pddl">Open Data Commons Public Domain Dedication and Licence (ODC PDDL)</option>
+                            <option value="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Non-Commercial</option>
+                            <option value="http://data.gc.ca/eng/open-government-licence-canada">Open Government Licence Canada 2.0</option>
+                            <option value="http://data.gov.tw/license">Open Government Data License Taiwan 1.0</option>
+                            <option value="http://reference.data.gov.uk/id/open-government-licence">Open Government License (UK)</option>
+                            <option value="http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html">CeCILL License</option>
+                            <option value="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence United Kingdom 3.0</option>
+                            <option value="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/">Open Government Licence United Kingdom 2.0</option>
+                            <option value="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike 3.0 (CC-BY-SA)</option>
+                            <option value="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 (CC-BY)</option>
+                            <option value="https://opendefinition.org/licenses/against-drm">Against DRM</option>
+                            <option value="https://opendefinition.org/licenses/dsl">Design Science License</option>
+                            <option value="https://opendefinition.org/licenses/eff-open-audio-license">EFF Open Audio License</option>
+                            <option value="https://opendefinition.org/licenses/fal">Free Art License (FAL)</option>
+                            <option value="https://opendefinition.org/licenses/miros">MirOS License</option>
+                            <option value="https://opendefinition.org/licenses/tcl">Talis Community License</option>
+                            <option value="https://opensource.org/licenses/MIT">MIT License</option>
+                            <option value="https://wordnet.princeton.edu/license-and-commercial-use">WordNet License</option>
+                            <option value="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0 License</option>
+                            <option value="https://www.govdata.de/dl-de/by-2-0">Data licence Germany – attribution – version 2.0</option>
+                            <option value="https://www.govdata.de/dl-de/zero-2-0">Data licence Germany – Zero – version 2.0</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Namespace</td> 
+                <td>
+                    <div class="form-group">
+                        <input class="form-control" v-model="dataset.namespace" 
+                               name="Namespace" id="Namespace"/>
+
+                    </div>
+
+                </td>		
+            </tr>	
+            <tr>
+                <td>DOI</td> 
+                <td>			
+                    <div class="form-group">
+                        <input placeholder="Valid Digital Object Identifier" class="form-control" pattern="^10.\d{4,9}/[-._;()/:A-Za-z0-9]+$"  v-model="dataset.doi" name="DOI" id="DOI"/>					
+                    </div>				
+                </td>  			
+            </tr>			
+            <tr>
+                <td>Image</td> 
+                <td>			
+                    <div class="form-group">
+                        <input placeholder="Valid Image URL" class="form-control" type="url" pattern="https?://.+"  v-model="dataset.image"
+                               name="Image" id="Image"/>                       
+
+                    </div>	
+                    <div><img v-bind:src="dataset.image" id="datasetImage"/></div>
+
+                </td>  		
+
+            </tr>
+
+
+        </table>
+        <button type="submit" class="btn btn-success btn-block">Submit</button>
+
+    </form>
+    <div style="margin:10px;" v-if="apiMessage" align="center" class="alert alert-success" role="alert">
+        <strong>{{apiMessage}}</strong> 
+    </div>
+</div>

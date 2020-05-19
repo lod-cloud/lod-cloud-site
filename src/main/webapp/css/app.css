@@ -1,0 +1,256 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+nav ul {
+   min-height: 48px;
+   width: auto;
+   /* left align the menu */
+   text-align: left;
+}
+nav ul li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+}
+
+/* Links */
+nav ul li a {
+   display: inline-block;
+   padding: 8px 11px;
+   line-height: 32px;
+   text-decoration: none;
+   text-align: left;
+   color: #8a8383;
+
+   -webkit-transition: color .2s ease-in-out;
+   -moz-transition: color .2s ease-in-out;
+   -o-transition: color .2s ease-in-out;
+   -ms-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;
+}
+
+nav ul li a:active { background-color: transparent !important; }
+nav ul li:hover > a,
+nav ul li.current a { color: #1A5276; }
+
+nav {background-color:white;}
+
+nav li {
+    padding-top:8px;
+    font-size: 16px;
+}
+
+nav .navbar-brand {
+    padding-top:23px;
+}
+
+h3{color: #FF9F1A}
+h3 a{color: #FF9F1A}
+
+.keywords .badge {
+    margin-right:5px;
+}
+
+.triples {
+    color:#aaa;
+}
+
+#stars_img {
+    height:30px;
+    margin-top:20px;
+}
+
+.warn-icon {
+    height:25px;
+    padding-bottom:5px;
+}
+
+.demo-chip-list {
+  width: 100%;
+}
+textarea {
+  resize: vertical; 
+  outline: none;
+  left:0;
+  right:300;
+  width: 100%;
+}
+mat-chip {
+  max-width: 200px;
+  height: 18px;
+}
+mat-chip-list {
+  width: 100%;
+}
+.chip-list {
+  width: 100%;
+}
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+#full_download_title {
+	left:0;
+	right:200%
+}
+.keywords .badge {
+    margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:'primary';
+}
+.keyword {
+    margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:'primary';
+}
+
+#linkvalue
+{
+	width: 160px;
+}
+
+table{
+	width:100%;
+	border-collapse:separate; 
+	border-spacing:0px;
+}
+tr.spaceUnder>td {
+  padding-bottom: 0px;
+}
+
+#vue-tags-input{
+	width: 500px;
+}
+#tags-input{
+	width: 500px;
+}
+#vue-tags-input tags-input{
+	width: 500px;
+}
+
+input {
+  color: inherit;
+  border: none;
+  height:25px;
+  width:25px;  
+  margin-left: 0px;
+}
+/*input:valid { 
+    background-color:#EDF9ED;
+}*/
+input:invalid { 
+    background-color:#F9E2E2;
+}
+select:invalid { 
+    background-color:#F9E2E2;
+}
+textarea:invalid { 
+    background-color:#F9E2E2;
+}
+.vue-tags-input .input {
+  padding: 4px 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.tag {
+  position: relative;
+}
+
+.tag.valid {
+  background-color: #04B404;
+}
+
+.tag.custom-class {
+  background-color: #fff;
+  color: rgba(100 ,100, 100, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0px 0px rgba(100, 100, 100, 1);
+  margin-right: 4px;
+  border: 1px solid rgba(100, 100, 100, 1);
+  border-radius: 0px;
+  font-size: 13px;
+}
+
+.tag.no-numbers {
+  background-color: #FE9A2E;
+}
+
+.duplicate {
+  text-decoration: line-through;
+}
+
+.new-tag-input.invalid, .item.invalid {
+  color: #e54d42;
+}
+
+.new-tag-input.no-numbers, .item.no-numbers {
+  color: #FE9A2E;
+}
+
+.tag:after {
+  transition: transform .2s;
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 108%;
+  left: -4%;
+  top: calc(50% - 1px);
+  background-color: #000;
+  transform: scaleX(0);
+}
+
+.deletion-mark :after {
+  transform: scaleX(1);
+}
+
+#warningicon {
+  margin: 10px;
+}
+
+#datasetImage {
+	display:block; 
+	max-width:450px; 
+	height:auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.tag-input::-ms-clear {
+  display: none;
+}
+
+.vue-tags-input {
+	max-width:100%;	
+}
+
+.edit-link {
+    font-size: .5em;
+}
+
+.tags-input {
+    width: 100%;
+}
+
+img.dataset-img {
+    width: 100%;
+}
+
+.btnsearch {
+    font: 1rem 'Fira Sans', sans-serif;
+    padding: .5rem;
+    background: #86d1f0;
+    border: none;
+    border-radius: 4px;
+    margin: 4px;
+    width: 50px;
+    height: 32px;
+}

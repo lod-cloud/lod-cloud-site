@@ -1,0 +1,142 @@
+<!--<input class="btn btn-primary" type="button" (click)='test()' value="TEST" />-->
+
+<h2 align="center">Datasets</h2>
+<!--
+<label>Javascript search</label>
+<input id="searchInput" 
+       type="text" 
+       text=""
+       class="form-control" 
+       name="searchInput" 
+       id="searchInput" 
+       v-model="searchQuery" 
+       v-on:input="onSearchChange(searchQuery);" />     
+
+<label>MongoDB Query search</label>-->
+<table>
+	<td>
+		<input id="searchInput2" 
+			   type="text" 
+			   text=""
+			   placeholder="Search dataset..."
+			   class="form-control" 
+			   name="searchInput2" 
+			   id="searchInput2" 
+			   v-model="searchQuery" 
+			   v-on:keyup.enter="onSearchInput()"/> 
+	</td>
+	<td>
+		<input type="button" 
+			   value="Search"
+			   name="searchButton" 
+			   id="searchButton" 
+			   class="btnsearch"
+			   v-on:click="onSearchInput()"/>				
+	</td>
+</table>
+
+<h4>{{datasetsNarrowed.length}} / {{collectionSize.$numberLong}} datasets</h4>
+
+<!--<div *ngIf="datasets.length > 0" class="DatasetListBox"> -->
+<!-- pager -->
+<div>
+    <div class="container">
+        <div class="text-center">
+
+            <!-- items being paged -->
+            <table id="mytable" class="table table-bordred table-striped">
+
+                <thead>               
+                    <!--<th>№</th>-->
+                <th>Title</th>
+                <th>Identifier</th>
+                <th>View</th>
+                <th>Edit</th>
+                <!--<th>Delete</th>-->
+                </thead>
+                <tbody>
+                    <tr v-for="(dataset,index) in datasetsToShow">	
+                        <!--<td>{{index+1}}</td>	-->
+                        <td>{{dataset.title}}</td>	 
+                        <td>{{dataset._id}}</td>
+                        <td>
+                            <p data-placement="top" data-toggle="tooltip" v-bind:title="'Click to Open ' + dataset.title">
+                                <a class="btn btn-info btn-xs" v-bind:href="'/dataset/' + dataset._id" 
+                                        data-title="Edit" data-toggle="modal" data-target="#edit" >
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </a>
+                            </p>
+                        </td>
+                        <td>
+                            <p data-placement="top" data-toggle="tooltip" v-bind:title="'Click to Open '+dataset.title">
+                                <a class="btn btn-primary btn-xs" v-bind:href="'/edit-dataset/' + dataset._id" 
+                                        data-title="Edit" data-toggle="modal" data-target="#edit" >
+                                    <span class="glyphicon glyphicon-edit"></span>
+                                </a>
+                            </p>
+                        </td>
+                        <!--<td>
+                            <p data-placement="top" data-toggle="tooltip" title="Delete">
+                                <button class="btn btn-danger btn-xs" v-on:click="showDeleteDataset(dataset)" 
+                                        data-title="Delete" data-toggle="modal" data-target="#delete" >
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </button>
+                            </p>
+                        </td>-->
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- pager -->
+            <ul v-if="pager.pages && pager.pages.length" class="pagination">
+                <li v-bind:class="{disabled:pager.currentPage === 1}">
+                    <a v-on:click="setPage(1)">First</a>
+                </li>
+                <li v-bind:class="{disabled:pager.currentPage === 1}">
+                    <a v-on:click="setPage(pager.currentPage - 1)">Previous</a>
+                </li>
+                <li v-for="page in pager.pages" v-bind:class="{active:pager.currentPage === page}">
+                    <a v-on:click="setPage(page)">{{page}}</a>
+                </li>
+                <li v-bind:class="{disabled:pager.currentPage === pager.totalPages}">
+                    <a v-on:click="setPage(pager.currentPage + 1)">Next</a>
+                </li>
+                <li v-bind:class="{disabled:pager.currentPage === pager.totalPages}">
+                    <a v-on:click="setPage(pager.totalPages)">Last</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Delete Modal -->
+    <!--<div class="modal fade" id="delete" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Delete Dataset</h4>
+                </div>
+                <div class="modal-body">
+                    <div align="center" class="DeleteDatasetBox">
+                        <div v-if="!apiMessage" align="center" class="alert alert-danger" role="alert">
+                            <p>Are you sure want to delete this Dataset?</p>
+                            <strong>{{datasetToDelete.title}}</strong>
+                        </div>
+                        <div style="margin:10px;" v-if="apiMessage" align="center" class="alert alert-success" role="alert">
+                            <strong>{{datasetToDelete.title}}</strong>  {{apiMessage}}
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" v-if="!apiMessage" v-on:click="DeleteDataset(datasetToDelete)">Confirm</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>-->
+</div>
+<div v-if="datasetsToShow.length <= 0" class="NoDatasetsBox">
+    <div align="center" class="alert alert-info" role="alert">
+        <strong>No Datasets Found</strong>
+    </div>
+</div>

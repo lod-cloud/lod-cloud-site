@@ -1,0 +1,12 @@
+oauth2
+node_modules/
+skip_auth
+src/main/webapp/versions/
+target
+datastoredir/StoredCredential
+*.swp
+src/main/webapp/lod-data.json
+/nbproject/
+Dockerfile.old
+lod-cloud.tar
+lod-data-mongo.json

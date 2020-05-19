@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>LOD Cloud</title>
+        <base href="/">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">    
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/tags-input.css">
+        <link href="/css/app.css" rel="stylesheet">
+        <script src="/tags-input.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">The Linked Open Data Cloud</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/datasets">Browse</a></li>
+						<li><a href="/add-dataset">Submit a dataset</a></li>
+                        <li routerLinkActive="active"><a href="/#diagram">Diagram</a></li>
+                        <li><a href="#subclouds">Subclouds</a></li>
+                        <li routerLinkActive="active"><a href="/#about">About</a></li>
+                        {{logout1}}
+                        <li><a href="/logout">Logout</a></li>
+                        {{logout2}}
+                        <!--<li><a (click)="showLoadDatasetsBox($event)" href="#" >+ Datasets from file</a></li>-->
+
+
+                        <!--<div id="googleBtn">Google</div>-->
+
+                        <hr>	
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        <div class="container" id="app">
+            {{body}}
+        </div>
+        <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+		
+		<script src="/js/vue.js"></script>
+                <script src="/js/vue-resource.js"></script>
+                <script src="/js/bootstrap.bundle.min.js"></script>
+                <script src="/js/jquery.min.js"></script>
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+                <script src="/js/luzzu.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.min.js"></script>
+        <script>
+            {{scriptFooter}}
+        </script>
+        <script>[].forEach.call(document.querySelectorAll('input[type="tags"]'), tagsInput);</script>
+    </body>
+</html>
