@@ -48,11 +48,11 @@
                 <span v-if="fd.title">{{fd.title}}</span>
                 <span v-else>Download</span>
             </a>
-            <span v-for="mirror in fd.mirror">
-                <br/><a href="/ipfs-how-to.html">
+            <div v-for="mirror in fd.mirror">
+                <a href="/ipfs-how-to.html">
                     <img src="/img/ipfs.png" title="IPFS link available" width="32"/></a>
                 <tt>{{mirror.substring(5)}}</tt>
-            </span>
+            </div>
             <span v-if="fd.description">({{fd.description}})</span>
         </li>
     </ul>
@@ -102,12 +102,11 @@
                 <span v-if="fd.title">{{fd.title}}</span>
                 <span v-else>Download</span>
             </a>
-            <span v-for="(mirror, index) in fd.mirror">
-                <br/>
+            <div v-for="(mirror, index) in fd.mirror">
                 <a href="/ipfs-how-to.html">
                     <img src="/img/ipfs.png" title="IPFS link available" width="32"/></a>
                 <tt>{{mirror.substring(5)}}</tt>
-            </span>
+            </div>
             <span v-if="fd.description">({{fd.description}})</span>
 
         </li>
