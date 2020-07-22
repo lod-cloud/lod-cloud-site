@@ -25,13 +25,14 @@
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
-          <div class="col-lg-4"></div>
-          <div class="col-lg-6">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-7">
           <ul>
               <li><a href="/datasets">Browse</a></li>
 	      <li><a href="/add-dataset">Submit a dataset</a></li>
               <li><a href="#diagram">Diagram</a></li>
               <li><a href="#subclouds">Subclouds</a></li>
+              <li><a href="#ipfs">IPFS cloud</a></li>
               <li><a href="#about">About</a></li>
           </ul>
           </div>
@@ -170,7 +171,26 @@
         </div>
 
     </section>
+    <section id="ipfs">
 
+      <div class="container">
+            <div class="row">
+                <div class="col">
+        <h1>IPFS Cloud</h1>
+
+      <a href="clouds/ipfs-lod.svg">
+                    <img src="clouds/ipfs-lod.png" 
+                         width="100%"
+                         alt="Linked Open Data IPFS Cloud"
+                         title="Click for Interactive SVG"/>
+                </a>
+      </div>
+    </div>
+  </div>
+
+
+
+    </section>
     <section class="more" id="about">
         <div class="container">
             <div class="row">
