@@ -1,5 +1,0 @@
-package org.insightcentre.lodcloud;
-
-public class iLOD exteneds HttpServlet {
-
-}
