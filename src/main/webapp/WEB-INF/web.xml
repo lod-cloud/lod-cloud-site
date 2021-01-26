@@ -101,4 +101,12 @@
         <servlet-name>DatasetDetail</servlet-name>
         <url-pattern>/dataset/*</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>iLOD</servlet-name>
+        <servlet-class>org.insightcentre.lodcloud.iLOD</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>iLOD</servlet-name>
+        <url-pattern>/ilod/*</url-pattern>
+    </servlet-mapping>
 </web-app>
