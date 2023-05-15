@@ -10,3 +10,8 @@ src/main/webapp/lod-data.json
 Dockerfile.old
 lod-cloud.tar
 lod-data-mongo.json
+
+lod-cloud-draw
+clouds
+
+lod-data.json
