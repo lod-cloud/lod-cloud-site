@@ -16,11 +16,11 @@ public class GenerateClouds {
     if(c > 0) { 
       proc = new ProcessBuilder(new String[] { new File("lod-cloud-draw").getAbsolutePath(),
           "-c", Integer.toString(c), 
-          "--settings=" + jsonFile, "-n", "10", "-i", "5000", "--ident=neighbour",
+          "--settings=" + jsonFile, "-i", "5000", "--ident=neighbour",
           data, target }).inheritIO();
     } else {
       proc = new ProcessBuilder(new String[] { new File("lod-cloud-draw").getAbsolutePath(),
-          "--settings=" + jsonFile, "-n", "10", "-i", "5000", "--ident=neighbour",
+          "--settings=" + jsonFile, "-i", "5000", "--ident=neighbour",
           data, target }).inheritIO();
     }
 
