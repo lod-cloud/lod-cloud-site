@@ -25,6 +25,16 @@ import java.security.NoSuchAlgorithmException;
 
 public class UpdateClouds {
 
+  private static String GH_TOKEN;
+
+  static {
+    try(BufferedReader reader = new BufferedReader(new FileReader("gh-token"))) {
+      GH_TOKEN = reader.readLine();
+    } catch(Exception x) {
+      x.printStackTrace();
+    }
+  }
+
   public static void updateIndex(String links, String dataset, String date) throws IOException {
     StringBuffer newTemplate = new StringBuffer();
     StringBuffer newIndex = new StringBuffer();
@@ -207,7 +217,8 @@ public class UpdateClouds {
       out.println("\"body\": \"This is an automated pull request\"");
       out.println("}");
     }
-        if(conn.getResponseCode() != 201 && conn.getResponseCode() != 200) {
+    
+    if(conn.getResponseCode() != 201 && conn.getResponseCode() != 200) {
       BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
       String line;
             while((line = reader.readLine()) != null) {
@@ -217,22 +228,44 @@ public class UpdateClouds {
     }
   }
 
+  public static Date getLatestDateFromGitHub(String repo) throws Exception {
+    String url = "https://api.github.com/repos/" + repo + "/contents/src/main/webapp/versions";
+
+    HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+    if(conn.getResponseCode() != 200) {
+      throw new RuntimeException("Error getting date info from GitHub repo " + repo + " : " + conn.getResponseCode() + " " + conn.getResponseMessage());
+    }
+    Date date = null;
+    List<Map<String, Object>> branches = new ObjectMapper().readValue(conn.getInputStream(), new TypeReference<List<Map<String, Object>>>(){});
+    for(Map<String, Object> b : branches) {
+      if(b.get("name").toString().matches("\\d{4}-\\d{2}-\\d{2}")) {
+        System.err.println(b.get("name"));
+        Date d = new SimpleDateFormat("YYYY-MM-dd").parse(b.get("name").toString());
+        if(date == null || d.after(date)) {
+          date = d;
+        }
+      }
+    }
+    return date;
+  }
+    
+
   public static void doCloudUpdate(String repo, String ghToken) throws Exception {
- //   Map<String, Object> data = GetData.getData(false, new HashMap<String, String>(), 50,
- //       new GetData.Logger() {
- //         public void log(String dataset, String message) {
- //           System.out.println("[" + dataset + "] " + message);
- //         }
- //         public void logError(String dataset, Exception x) {
- //           x.printStackTrace();
- //         }
- //       });
+    Map<String, Object> data = GetData.getData(false, new HashMap<String, String>(), 50,
+        new GetData.Logger() {
+          public void log(String dataset, String message) {
+            System.out.println("[" + dataset + "] " + message);
+          }
+          public void logError(String dataset, Exception x) {
+            x.printStackTrace();
+          }
+        });
 
- //   try(Writer out = new FileWriter("lod-data.json")) {
- //     new ObjectMapper().writeValue(out, data);
- //   }
+    try(Writer out = new FileWriter("lod-data.json")) {
+      new ObjectMapper().writeValue(out, data);
+    }
 
- //   GenerateClouds.main(null);
+    GenerateClouds.main(null);
 
     CountLinks cl = new CountLinks();
     cl.count("clouds/lod-cloud.svg");
@@ -284,6 +317,28 @@ public class UpdateClouds {
     updateFileToGitHub(repo, new File("index-template"), "src/main/webapp/index-template", branch, ghToken, indexTmpSha);
 
     makePullRequest(repo, branch, ghToken);
+  }
+
+  public static void triggerUpdate() {
+    if(GH_TOKEN == null) {
+      System.err.println("No GH_TOKEN, skipping update");
+    }
+    try {
+      Date lastUpdate = getLatestDateFromGitHub("lod-cloud/lod-cloud-site");
+      if(new Date().getTime() - lastUpdate.getTime() > 30 * 24 * 60 * 60 * 1000) {
+        new Thread(new Runnable() {
+          public void run() {
+            try {
+              doCloudUpdate("lod-cloud/lod-cloud-site", GH_TOKEN);
+            } catch(Exception x) {
+              x.printStackTrace();
+            }
+          }
+        }).start();
+      }
+    } catch(Exception x) {
+      x.printStackTrace();
+    }
   }
 
   public static void main(String[] args) throws Exception {

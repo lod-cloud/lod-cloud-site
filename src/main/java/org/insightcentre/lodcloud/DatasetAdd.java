@@ -136,6 +136,7 @@ public class DatasetAdd extends /*AbstractAuthorizationCodeServlet*/ HttpServlet
                         new Templates.JSTemplate("dataset-add", getServletContext())
                 );
             }
+	    UpdateClouds.triggerUpdate();
         } else {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
             try (PrintWriter out = response.getWriter()) {
