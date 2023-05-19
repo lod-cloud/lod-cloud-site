@@ -1,24 +1,34 @@
 package org.insightcentre.lodcloud;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.Map;
-import java.util.HashMap;
-import java.io.FileWriter;
-import java.io.Writer;
-import java.io.IOException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.InputStreamReader;
+import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.Writer;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.List;
+import java.io.FileInputStream;
+import java.util.Base64;
+import java.security.MessageDigest;
+import java.io.BufferedInputStream;
+import java.security.NoSuchAlgorithmException;
 
 public class UpdateClouds {
 
   public static void updateIndex(String links, String dataset, String date) throws IOException {
     StringBuffer newTemplate = new StringBuffer();
     StringBuffer newIndex = new StringBuffer();
-    try(BufferedReader reader = new BufferedReader(
-          new InputStreamReader(UpdateClouds.class.getResourceAsStream("index-template")))) {
+    try(BufferedReader reader = new BufferedReader(new FileReader("src/main/webapp/index-template"))) {
       String line;
       while((line = reader.readLine()) != null) {
         if(line.contains("==LINKS==")) {
@@ -51,28 +61,236 @@ public class UpdateClouds {
     }
   }
 
-  public void doCloudUpdate() throws Exception {
-    Map<String, Object> data = GetData.getData(false, new HashMap<String, String>(), 50,
-        new GetData.Logger() {
-          public void log(String dataset, String message) {
-            System.out.println("[" + dataset + "] " + message);
-          }
-          public void logError(String dataset, Exception x) {
-            x.printStackTrace();
-          }
-        });
-
-    try(Writer out = new FileWriter("lod-data.json")) {
-      new ObjectMapper().writeValue(out, data);
+  private static byte[] readFile(File file) throws IOException {
+    byte[] bytes = new byte[(int) file.length()];
+    try(FileInputStream fis = new FileInputStream(file)) {
+      fis.read(bytes);
     }
+    return bytes;
+  }
 
-    GenerateClouds.main(null);
+  private static String fileSha(String fileName) throws IOException {
+    byte[] buffer= new byte[8192];
+    int count;
+    try {
+      MessageDigest digest = MessageDigest.getInstance("SHA-256");
+      BufferedInputStream bis = new BufferedInputStream(new FileInputStream(fileName));
+      while ((count = bis.read(buffer)) > 0) {
+          digest.update(buffer, 0, count);
+      }
+      bis.close();
+
+      byte[] hash = digest.digest();
+      return Base64.getEncoder().encodeToString(hash);
+    } catch(NoSuchAlgorithmException ex) {
+      throw new RuntimeException(ex);
+    }
+  }
+
+  public static void addFileToGitHub(String repo, File file, String path, String branch,
+    String ghToken) throws IOException {
+    System.err.println("Adding " + path + " to GitHub repo " + repo);
+    String url = "https://api.github.com/repos/" + repo + "/contents/" + path;
+    System.err.println(url);
+    
+    HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+    conn.setRequestMethod("PUT");
+    conn.setRequestProperty("Authorization", "token " + ghToken);
+    conn.setRequestProperty("Content-Type", "application/json");
+    conn.setDoOutput(true);
+    conn.setDoInput(true);
+    
+    try(PrintWriter out = new PrintWriter(conn.getOutputStream())) {
+      out.println("{");
+      out.println("\"message\" : \"Add file " + path + "\",");
+      out.println("\"content\" : \"" + Base64.getEncoder().encodeToString(readFile(file)) + "\",");
+      out.println("\"branch\" : \"" + branch + "\"");
+      out.println("}");
+    }
+    if(conn.getResponseCode() != 201 && conn.getResponseCode() != 200) {
+      BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
+      String line;
+            while((line = reader.readLine()) != null) {
+        System.err.println(line);
+      }
+      throw new IOException("Error adding file " + path + " to GitHub repo " + repo + " : " + conn.getResponseCode() + " " + conn.getResponseMessage());
+    }
+  }
+
+
+  public static void updateFileToGitHub(String repo, File file, String path, String branch,
+    String ghToken, String sha) throws IOException {
+    System.err.println("Updating " + path + " to GitHub repo " + repo);
+    String url = "https://api.github.com/repos/" + repo + "/contents/" + path;
+    HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+    conn.setRequestMethod("PUT");
+    conn.setRequestProperty("Authorization", "token " + ghToken);
+    conn.setRequestProperty("Content-Type", "application/json");
+    conn.setDoOutput(true);
+    try(PrintWriter out = new PrintWriter(conn.getOutputStream())) {
+      out.println("{");
+      out.println("\"message\" : \"Add file " + path + "\",");
+      out.println("\"content\" : \"" + Base64.getEncoder().encodeToString(readFile(file)) + "\",");
+      out.println("\"branch\" : \"" + branch + "\",");
+      out.println("\"sha\" : \"" + sha + "\"");
+      out.println("}");
+    }
+    if(conn.getResponseCode() != 201 && conn.getResponseCode() != 200) {
+      BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
+      String line;
+            while((line = reader.readLine()) != null) {
+        System.err.println(line);
+      }
+      throw new IOException("Error adding file " + path + " to GitHub repo " + repo + " : " + conn.getResponseCode() + " " + conn.getResponseMessage());
+    }
+  }
+
+  public static void createBranch(String repo, String branch, String ghToken) throws IOException {
+    System.err.println("Creating branch " + branch + " in GitHub repo " + repo);
+    String urlHeads = "https://api.github.com/repos/" + repo + "/git/refs/heads";
+    HttpURLConnection conn = (HttpURLConnection) new URL(urlHeads).openConnection();
+    if(conn.getResponseCode() != 200) {
+      throw new RuntimeException("Error getting branches from GitHub repo " + repo + " : " + conn.getResponseCode() + " " + conn.getResponseMessage());
+    }
+    String sha = null;
+    List<Map<String, Object>> branches = new ObjectMapper().readValue(conn.getInputStream(), new TypeReference<List<Map<String, Object>>>(){});
+    for(Map<String, Object> b : branches) {
+      if(b.get("ref").equals("refs/heads/main")) {
+        sha = (String)((Map<String, Object>)b.get("object")).get("sha");
+      }
+    }
+    
+    if(sha == null) {
+      throw new RuntimeException("Could not find main branch in GitHub repo " + repo);
+    }
+    String url = "https://api.github.com/repos/" + repo + "/git/refs";
+    HttpURLConnection conn2 = (HttpURLConnection) new URL(url).openConnection();
+    conn2.setRequestMethod("POST");
+    conn2.setRequestProperty("Authorization", "token " + ghToken);
+    conn2.setRequestProperty("Content-Type", "application/json");
+    conn2.setDoOutput(true);
+    conn2.setDoInput(true);
+
+    try(PrintWriter out = new PrintWriter(conn2.getOutputStream())) {
+      out.println("{");
+      out.println("\"ref\": \"refs/heads/" + branch + "\",");
+      out.println("\"sha\": \"" + sha + "\"");
+      out.println("}");
+
+    }
+    if(conn2.getResponseCode() != 201 && conn2.getResponseCode() != 200) {
+      BufferedReader reader = new BufferedReader(new InputStreamReader(conn2.getErrorStream()));
+      String line;
+            while((line = reader.readLine()) != null) {
+        System.err.println(line);
+      }
+      throw new IOException("Error creating branch " + branch + " to GitHub repo " + repo + " : " + conn2.getResponseCode() + " " + conn2.getResponseMessage());
+    }
+    // curl -X POST  -H "Authorization: token $GH_TOKEN" https://api.github.com/repos/jmccrae/scratch/git/refs -d '{"ref": "refs/heads/foo", "sha": "25e8b7d84875490e3fe55b5c0fe15f7692548532"}'/
+  }
+
+  public static void makePullRequest(String repo, String branch, String ghToken) throws IOException {
+    System.err.println("Creating pull request for branch " + branch + " in GitHub repo " + repo);
+    String url = "https://api.github.com/repos/" + repo + "/pulls";
+    HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+    conn.setRequestMethod("POST");
+    conn.setRequestProperty("Authorization", "token " + ghToken);
+    conn.setRequestProperty("Content-Type", "application/json");
+    conn.setDoOutput(true);
+    conn.setDoInput(true);
+
+    try(PrintWriter out = new PrintWriter(conn.getOutputStream())) {
+      out.println("{");
+      out.println("\"title\": \"Update from LOD\",");
+      out.println("\"base\": \"main\",");
+      out.println("\"head\": \"" + branch + "\",");
+      out.println("\"body\": \"This is an automated pull request\"");
+      out.println("}");
+    }
+        if(conn.getResponseCode() != 201 && conn.getResponseCode() != 200) {
+      BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
+      String line;
+            while((line = reader.readLine()) != null) {
+        System.err.println(line);
+      }
+      throw new RuntimeException("Error creating pull request for branch " + branch + " to GitHub repo " + repo + " : " + conn.getResponseCode() + " " + conn.getResponseMessage());
+    }
+  }
+
+  public static void doCloudUpdate(String repo, String ghToken) throws Exception {
+ //   Map<String, Object> data = GetData.getData(false, new HashMap<String, String>(), 50,
+ //       new GetData.Logger() {
+ //         public void log(String dataset, String message) {
+ //           System.out.println("[" + dataset + "] " + message);
+ //         }
+ //         public void logError(String dataset, Exception x) {
+ //           x.printStackTrace();
+ //         }
+ //       });
+
+ //   try(Writer out = new FileWriter("lod-data.json")) {
+ //     new ObjectMapper().writeValue(out, data);
+ //   }
+
+ //   GenerateClouds.main(null);
 
     CountLinks cl = new CountLinks();
     cl.count("clouds/lod-cloud.svg");
 
     String date = new SimpleDateFormat("YYYY-MM-dd").format(new Date());
 
-    
+    String indexSha = fileSha("src/main/webapp/index.html");
+    String indexTmpSha = fileSha("src/main/webapp/index-template");
+
+    updateIndex("" + cl.links, "" + cl.datasets, date);
+
+    String branch = "lod-cloud-" + date;
+
+    createBranch(repo, branch, ghToken);
+
+    addFileToGitHub(repo, new File("clouds/cross-domain-lod.json"), "src/main/webapp/versions/" + date + "/clouds/cross-domain-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/cross-domain-lod.png"), "src/main/webapp/versions/" + date + "/clouds/cross-domain-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/cross-domain-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/cross-domain-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/geography-lod.json"), "src/main/webapp/versions/" + date + "/clouds/geography-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/geography-lod.png"), "src/main/webapp/versions/" + date + "/clouds/geography-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/geography-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/geography-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/government-lod.json"), "src/main/webapp/versions/" + date + "/clouds/government-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/government-lod.png"), "src/main/webapp/versions/" + date + "/clouds/government-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/government-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/government-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/ipfs-lod.json"), "src/main/webapp/versions/" + date + "/clouds/ipfs-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/life-sciences-lod.json"), "src/main/webapp/versions/" + date + "/clouds/life-sciences-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/life-sciences-lod.png"), "src/main/webapp/versions/" + date + "/clouds/life-sciences-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/life-sciences-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/life-sciences-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/linguistic-lod.json"), "src/main/webapp/versions/" + date + "/clouds/linguistic-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/linguistic-lod.png"), "src/main/webapp/versions/" + date + "/clouds/linguistic-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/linguistic-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/linguistic-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/lod-cloud.png"), "src/main/webapp/versions/" + date + "/clouds/lod-cloud.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/lod-cloud-settings.json"), "src/main/webapp/versions/" + date + "/clouds/lod-cloud-settings.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/lod-cloud.svg"), "src/main/webapp/versions/" + date + "/clouds/lod-cloud.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/media-lod.json"), "src/main/webapp/versions/" + date + "/clouds/media-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/media-lod.png"), "src/main/webapp/versions/" + date + "/clouds/media-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/media-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/media-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/publications-lod.json"), "src/main/webapp/versions/" + date + "/clouds/publications-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/publications-lod.png"), "src/main/webapp/versions/" + date + "/clouds/publications-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/publications-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/publications-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/social-networking-lod.json"), "src/main/webapp/versions/" + date + "/clouds/social-networking-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/social-networking-lod.png"), "src/main/webapp/versions/" + date + "/clouds/social-networking-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/social-networking-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/social-networking-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/user-generated-lod.json"), "src/main/webapp/versions/" + date + "/clouds/user-generated-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/user-generated-lod.png"), "src/main/webapp/versions/" + date + "/clouds/user-generated-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/user-generated-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/user-generated-lod.svg", branch, ghToken);
+
+    updateFileToGitHub(repo, new File("index.html"), "src/main/webapp/index.html", branch, ghToken, indexSha);
+    updateFileToGitHub(repo, new File("index-template"), "src/main/webapp/index-template", branch, ghToken, indexTmpSha);
+
+    makePullRequest(repo, branch, ghToken);
+  }
+
+  public static void main(String[] args) throws Exception {
+    if(args.length != 2) {
+      System.err.println("Usage: mvn exec:java -Dexec.mainClass=\"org.insightcentre.lodcloud.UpdateClouds\" -Dexec.args=\"repo/name $GH_TOKEN\"");
+      System.exit(-1);
+    }
+    doCloudUpdate(args[0], args[1]);
   }
 }
