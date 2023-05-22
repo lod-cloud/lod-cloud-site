@@ -13,6 +13,7 @@ import java.io.Writer;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -277,6 +278,16 @@ public class UpdateClouds {
             x.printStackTrace();
           }
         });
+
+    for(Map.Entry<String, Object> e : data.entrySet()) {
+      if(e.getValue() instanceof Map) {
+        Map<String, Object> m = (Map<String, Object>)e.getValue();
+        if(m.get("keywords") instanceof String) {
+          m.put("keywords", new ArrayList<>());
+        }
+      }
+    }
+    
 
     try(Writer out = new FileWriter("lod-data.json")) {
       new ObjectMapper().writeValue(out, data);
