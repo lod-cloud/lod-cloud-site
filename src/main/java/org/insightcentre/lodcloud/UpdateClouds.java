@@ -38,7 +38,8 @@ public class UpdateClouds {
   public static void updateIndex(String links, String dataset, String date) throws IOException {
     StringBuffer newTemplate = new StringBuffer();
     StringBuffer newIndex = new StringBuffer();
-    try(BufferedReader reader = new BufferedReader(new FileReader("src/main/webapp/index-template"))) {
+    try(BufferedReader reader = new BufferedReader(new InputStreamReader(
+      new URL("https://raw.githubusercontent.com/lod-cloud/lod-cloud-site/main/src/main/webapp/index-template").openStream()))) {
       String line;
       while((line = reader.readLine()) != null) {
         if(line.contains("==LINKS==")) {
@@ -199,7 +200,7 @@ public class UpdateClouds {
     // curl -X POST  -H "Authorization: token $GH_TOKEN" https://api.github.com/repos/jmccrae/scratch/git/refs -d '{"ref": "refs/heads/foo", "sha": "25e8b7d84875490e3fe55b5c0fe15f7692548532"}'/
   }
 
-  public static void makePullRequest(String repo, String branch, String ghToken) throws IOException {
+  public static void makePullRequest(String repo, String branch, String ghToken, String date) throws IOException {
     System.err.println("Creating pull request for branch " + branch + " in GitHub repo " + repo);
     String url = "https://api.github.com/repos/" + repo + "/pulls";
     HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
@@ -214,7 +215,23 @@ public class UpdateClouds {
       out.println("\"title\": \"Update from LOD\",");
       out.println("\"base\": \"main\",");
       out.println("\"head\": \"" + branch + "\",");
-      out.println("\"body\": \"This is an automated pull request\"");
+      out.println("\"body\": \"This pull request will update the LOD cloud to " + date + "\\n\\n" +
+        "The steps to deploy this after accepting this pull request are as follows:\\n" +
+        "    cd lod-cloud-site\\n" +
+                        "    git pull\\n" +
+                        "    rm src/main/webapp/versions/latest\\n" +
+                        "    ln -s " + date + " src/main/webapp/versions/latest\\n" +
+                        "    git add src/main/webapp/versions/latest\\n" +
+                        "    git commit -m \\\"Update symlink\\\"\\n" +
+                                "    cd lod-cloud-site\\n" +
+                        "    cd lod-cloud-site\\n" +
+        "    git push\\n" +
+        "    mvn clean package\\n" +
+        "    docker build -t nuig_uld/lod-cloud .\\n" +
+        "    docker stop lod-cloud\\n" +
+        "    docker rm lod-cloud\\n" +
+        "    docker run --restart=always -d --name lod-cloud -p 9001:8080 nuig_uld/lod-cloud\\n" +
+        "\"");
       out.println("}");
     }
     
@@ -281,42 +298,44 @@ public class UpdateClouds {
 
     createBranch(repo, branch, ghToken);
 
-    addFileToGitHub(repo, new File("clouds/cross-domain-lod.json"), "src/main/webapp/versions/" + date + "/clouds/cross-domain-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/cross-domain-lod.png"), "src/main/webapp/versions/" + date + "/clouds/cross-domain-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/cross-domain-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/cross-domain-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/geography-lod.json"), "src/main/webapp/versions/" + date + "/clouds/geography-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/geography-lod.png"), "src/main/webapp/versions/" + date + "/clouds/geography-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/geography-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/geography-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/government-lod.json"), "src/main/webapp/versions/" + date + "/clouds/government-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/government-lod.png"), "src/main/webapp/versions/" + date + "/clouds/government-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/government-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/government-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/ipfs-lod.json"), "src/main/webapp/versions/" + date + "/clouds/ipfs-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/life-sciences-lod.json"), "src/main/webapp/versions/" + date + "/clouds/life-sciences-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/life-sciences-lod.png"), "src/main/webapp/versions/" + date + "/clouds/life-sciences-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/life-sciences-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/life-sciences-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/linguistic-lod.json"), "src/main/webapp/versions/" + date + "/clouds/linguistic-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/linguistic-lod.png"), "src/main/webapp/versions/" + date + "/clouds/linguistic-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/linguistic-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/linguistic-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/lod-cloud.png"), "src/main/webapp/versions/" + date + "/clouds/lod-cloud.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/lod-cloud-settings.json"), "src/main/webapp/versions/" + date + "/clouds/lod-cloud-settings.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/lod-cloud.svg"), "src/main/webapp/versions/" + date + "/clouds/lod-cloud.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/media-lod.json"), "src/main/webapp/versions/" + date + "/clouds/media-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/media-lod.png"), "src/main/webapp/versions/" + date + "/clouds/media-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/media-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/media-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/publications-lod.json"), "src/main/webapp/versions/" + date + "/clouds/publications-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/publications-lod.png"), "src/main/webapp/versions/" + date + "/clouds/publications-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/publications-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/publications-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/social-networking-lod.json"), "src/main/webapp/versions/" + date + "/clouds/social-networking-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/social-networking-lod.png"), "src/main/webapp/versions/" + date + "/clouds/social-networking-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/social-networking-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/social-networking-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/user-generated-lod.json"), "src/main/webapp/versions/" + date + "/clouds/user-generated-lod.json", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/user-generated-lod.png"), "src/main/webapp/versions/" + date + "/clouds/user-generated-lod.png", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/user-generated-lod.svg"), "src/main/webapp/versions/" + date + "/clouds/user-generated-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/cross-domain-lod.json"), "src/main/webapp/versions/" + date + "/cross-domain-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/cross-domain-lod.png"), "src/main/webapp/versions/" + date + "/cross-domain-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/cross-domain-lod.svg"), "src/main/webapp/versions/" + date + "/cross-domain-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/geography-lod.json"), "src/main/webapp/versions/" + date + "/geography-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/geography-lod.png"), "src/main/webapp/versions/" + date + "/geography-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/geography-lod.svg"), "src/main/webapp/versions/" + date + "/geography-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/government-lod.json"), "src/main/webapp/versions/" + date + "/government-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/government-lod.png"), "src/main/webapp/versions/" + date + "/government-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/government-lod.svg"), "src/main/webapp/versions/" + date + "/government-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/ipfs-lod.json"), "src/main/webapp/versions/" + date + "/ipfs-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/life-sciences-lod.json"), "src/main/webapp/versions/" + date + "/life-sciences-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/life-sciences-lod.png"), "src/main/webapp/versions/" + date + "/life-sciences-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/life-sciences-lod.svg"), "src/main/webapp/versions/" + date + "/life-sciences-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/linguistic-lod.json"), "src/main/webapp/versions/" + date + "/linguistic-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/linguistic-lod.png"), "src/main/webapp/versions/" + date + "/linguistic-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/linguistic-lod.svg"), "src/main/webapp/versions/" + date + "/linguistic-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/lod-cloud.png"), "src/main/webapp/versions/" + date + "/lod-cloud.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/lod-cloud-settings.json"), "src/main/webapp/versions/" + date + "/lod-cloud-settings.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/lod-cloud.svg"), "src/main/webapp/versions/" + date + "/lod-cloud.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/media-lod.json"), "src/main/webapp/versions/" + date + "/media-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/media-lod.png"), "src/main/webapp/versions/" + date + "/media-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/media-lod.svg"), "src/main/webapp/versions/" + date + "/media-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/publications-lod.json"), "src/main/webapp/versions/" + date + "/publications-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/publications-lod.png"), "src/main/webapp/versions/" + date + "/publications-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/publications-lod.svg"), "src/main/webapp/versions/" + date + "/publications-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/social-networking-lod.json"), "src/main/webapp/versions/" + date + "/social-networking-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/social-networking-lod.png"), "src/main/webapp/versions/" + date + "/social-networking-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/social-networking-lod.svg"), "src/main/webapp/versions/" + date + "/social-networking-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/user-generated-lod.json"), "src/main/webapp/versions/" + date + "/user-generated-lod.json", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/user-generated-lod.png"), "src/main/webapp/versions/" + date + "/user-generated-lod.png", branch, ghToken);
+    addFileToGitHub(repo, new File("clouds/user-generated-lod.svg"), "src/main/webapp/versions/" + date + "/user-generated-lod.svg", branch, ghToken);
+
+    addFileToGitHub(repo, new File("lod-data.json"), "src/main/webapp/versions/" + date + "/lod-data.json", branch, ghToken);
 
     updateFileToGitHub(repo, new File("index.html"), "src/main/webapp/index.html", branch, ghToken, indexSha);
     updateFileToGitHub(repo, new File("index-template"), "src/main/webapp/index-template", branch, ghToken, indexTmpSha);
 
-    makePullRequest(repo, branch, ghToken);
+    makePullRequest(repo, branch, ghToken, date);
   }
 
   public static void triggerUpdate() {
