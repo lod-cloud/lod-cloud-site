@@ -235,7 +235,7 @@ public class UpdateClouds extends HttpServlet {
         "    docker build -t nuig_uld/lod-cloud .\\n" +
         "    docker stop lod-cloud\\n" +
         "    docker rm lod-cloud\\n" +
-        "    docker run --restart=always -d --name lod-cloud -p 9001:8080 nuig_uld/lod-cloud\\n" +
+        "   docker run -d --restart always -p 9001:8080 --network lod-cloud-net --name lod-cloud nuig_uld/lod-cloud\\n" + 
         "\"");
       out.println("}");
     }
