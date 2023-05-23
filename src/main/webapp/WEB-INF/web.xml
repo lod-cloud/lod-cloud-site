@@ -44,6 +44,10 @@
         <servlet-name>ExtractDB</servlet-name>
         <servlet-class>org.insightcentre.lodcloud.ExtractDB</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UpdateClouds</servlet-name>
+        <servlet-class>org.insightcentre.lodcloud.UpdateClouds</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LODCloudServlet</servlet-name>
         <url-pattern>/api/*</url-pattern>
@@ -88,7 +92,11 @@
         <servlet-name>ExtractDB</servlet-name>
         <url-pattern>/extract/*</url-pattern>
     </servlet-mapping>
-    <session-config>
+    <servlet-mapping>
+        <servlet-name>UpdateClouds</servlet-name>
+        <url-pattern>/update-clouds</url-pattern>
+    </servlet-mapping>
+     <session-config>
         <session-timeout>
             30
         </session-timeout>

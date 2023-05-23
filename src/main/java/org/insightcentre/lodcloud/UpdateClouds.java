@@ -23,8 +23,12 @@ import java.util.Base64;
 import java.security.MessageDigest;
 import java.io.BufferedInputStream;
 import java.security.NoSuchAlgorithmException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
 
-public class UpdateClouds {
+public class UpdateClouds extends HttpServlet {
 
   private static String GH_TOKEN;
 
@@ -347,6 +351,39 @@ public class UpdateClouds {
     updateFileToGitHub(repo, new File("index-template"), "src/main/webapp/index-template", branch, ghToken, indexTmpSha);
 
     makePullRequest(repo, branch, ghToken, date);
+  }
+
+  @Override
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+    // The point here is that we can trigger cloud updates with
+    //   curl http://localhost:8080/update-clouds
+    String ipAddr = request.getRemoteAddr();
+    if(!ipAddr.equals("localhost") && !ipAddr.equals("127.0.0.1")) {
+      response.sendError(403, "Access denied");
+    } else if(GH_TOKEN == null) {
+      response.sendError(500, "GitHub token not loaded. This installation does not support generating new cloud images");
+    } else {
+      try {
+        Date lastUpdate = getLatestDateFromGitHub("lod-cloud/lod-cloud-site");
+        if(new Date().getTime() - lastUpdate.getTime() > 30 * 24 * 60 * 60 * 1000) {
+          response.getWriter().println("Updating cloud images");
+          new Thread(new Runnable() {
+            public void run() {
+              try {
+                doCloudUpdate("lod-cloud/lod-cloud-site", GH_TOKEN);
+              } catch(Exception x) {
+                x.printStackTrace();
+              }
+            }
+          }).start();
+        } else {
+          response.sendError(500, "Cloud images updated less than 30 days ago");
+        }
+      } catch(Exception x) {
+        x.printStackTrace();
+      }
+    }
   }
 
   public static void triggerUpdate() {

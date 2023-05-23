@@ -187,7 +187,8 @@ public class GetData {
             });
                     
             counter++;
-            if(counter > 5) break;
+            // For testing
+            //if(counter > 5) break;
         }
 
         executor.shutdown();
