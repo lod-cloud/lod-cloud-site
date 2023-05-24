@@ -16,8 +16,8 @@ public class GenerateClouds {
   public static void generateCloud(int c, String jsonFile, String data, String target) throws Exception {
     if(!new File("lod-cloud-draw").exists()) {
       exportResource("lod-cloud-draw"); 
-      new File("lod-cloud-draw").setExecutable(true);
     }
+    new File("lod-cloud-draw").setExecutable(true);
     final ProcessBuilder proc;
     if(c > 0) { 
       proc = new ProcessBuilder(new String[] { new File("lod-cloud-draw").getAbsolutePath(),
@@ -128,10 +128,12 @@ public class GenerateClouds {
 
             int readBytes;
             byte[] buffer = new byte[4096];
-            resStreamOut = new FileOutputStream(resourceName);
+            File out = new File(resourceName);
+            resStreamOut = new FileOutputStream(out.getAbsolutePath());
             while ((readBytes = stream.read(buffer)) > 0) {
                 resStreamOut.write(buffer, 0, readBytes);
             }
+            System.err.println("Exported resource: " + resourceName + " to " + out.getAbsolutePath() + " " + out.length() + " bytes");
         } catch (Exception ex) {
             throw ex;
         } finally {
