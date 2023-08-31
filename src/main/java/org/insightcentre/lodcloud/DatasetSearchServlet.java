@@ -1,16 +1,14 @@
 package org.insightcentre.lodcloud;
 
-import com.mongodb.Function;
-import com.mongodb.client.MongoCursor;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.bson.Document;
 
 //import org.springframework.data.mongodb.core.query.*;
 //import org.springframework.data.mongodb.core.MongoOperations;
@@ -44,22 +42,18 @@ public class DatasetSearchServlet extends HttpServlet {
 		
         //final MongoCursor<Document> docs = MongoConnection.getDatasets().find(new Document("$title", new Document("$search", query).append("$caseSensitive", new Boolean(caseSensitive)).append("$diacriticSensitive", new Boolean(diacriticSensitive)))).map(new Function<Document, Document>() {
 		//query == null ? new Document() : query.getQuery()
-		final MongoCursor<Document> docs = MongoConnection.getDatasets().find( new Document("identifier", new Document("search", query))/*.append("caseSensitive", new Boolean(caseSensitive)).append("diacriticSensitive", new Boolean(diacriticSensitive)))*/ ).map(new Function<Document, Document>() {	
-																			
-			@Override
-            public Document apply(Document t) {
-				
-                Document d = new Document();
-                String id = t.get("identifier", "");
-                String title = t.get("title", "");
-                Object description = t.get("description");
-                d.put("_id", id);
-                d.put("title", title); 
-				System.err.println(title);
-                d.put("description", description);
-                return d;
-            }
-        }).iterator();
+        final Iterator<Document> docs = MongoConnection.getDatasets().stream()
+            .filter((d) -> d.get("identifier", "").toLowerCase().contains(query.toLowerCase()))
+            .map((d) -> {
+                Document doc = new Document();
+                String id = d.get("identifier", "");
+                String title = d.get("title", "");
+                Object description = d.get("description");
+                doc.put("_id", id);
+                doc.put("title", title);
+                doc.put("description", description);
+                return doc;
+            }).iterator();
 
         while (docs.hasNext()) {
             docList.add(docs.next());

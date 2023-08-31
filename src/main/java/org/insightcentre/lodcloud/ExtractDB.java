@@ -1,9 +1,9 @@
 package org.insightcentre.lodcloud;
 
-import com.mongodb.client.MongoCollection;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -12,8 +12,6 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFFormat;
-import org.bson.Document;
-import org.bson.json.JsonWriterSettings;
 
 /**
  *
@@ -34,29 +32,29 @@ public class ExtractDB extends HttpServlet {
             throws ServletException, IOException {
         String pathInfo = request.getPathInfo();
         if ("/datasets".equals(pathInfo)) {
-            MongoCollection<Document> docs = MongoConnection.getDatasets();
+            List<Document> docs = MongoConnection.getDatasets();
             Document docMap = new Document();
-            for (Document doc : docs.find()) {
+            for (Document doc : docs) {
                 docMap.put(doc.get("identifier", "doc" + doc.hashCode()), doc);
             }
 
             response.setContentType("application/json");
             try (PrintWriter out = response.getWriter()) {
-                out.println(docMap.toJson(JsonWriterSettings.builder().indent(true).build()));
+                out.println(docMap.toPrettyJson());
             }
         } else if ("/history".equals(pathInfo))  {
-            MongoCollection<Document> docs = MongoConnection.getHistory();
+            List<Document> docs = MongoConnection.getHistory();
             response.setContentType("text/plain");
             try (PrintWriter out = response.getWriter()) {
-                for (Document doc : docs.find()) {
+                for (Document doc : docs) {
                     out.println(doc.toJson());
 
                 }
             }
         } else if ("/rdf".equals(pathInfo)) {
-            MongoCollection<Document> docs = MongoConnection.getDatasets();
+            List<Document> docs = MongoConnection.getDatasets();
             Model model = ModelFactory.createDefaultModel();
-            for(Document doc : docs.find()) {
+            for(Document doc : docs) {
                 RDFView.createResource(doc, doc.get("identifier", ""), model);
             }
             try (OutputStream out = response.getOutputStream()) {

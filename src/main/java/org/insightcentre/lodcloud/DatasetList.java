@@ -1,20 +1,15 @@
 package org.insightcentre.lodcloud;
 
-import com.mongodb.Function;
-import com.mongodb.client.MongoCursor;
-import com.mongodb.BasicDBObject;
-import com.mongodb.BasicDBList;
-import com.mongodb.util.JSON;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.regex.Pattern;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.bson.Document;
 
 /**
  *
@@ -36,23 +31,32 @@ public class DatasetList extends HttpServlet {
 		final String searchString = (request.getParameter("search") != null) ? request.getParameter("search") : "";
 				
 		
-		Document regexQuery = new Document();
-		regexQuery.append("$regex", ".*" + Pattern.quote(searchString) + ".*");
-				
-		BasicDBList or = new BasicDBList();
-		or.add(new BasicDBObject("_id", regexQuery));
-		or.add(new BasicDBObject("title", regexQuery));
-		or.add(new BasicDBObject("description.en", regexQuery));
-		BasicDBObject findQuery = new BasicDBObject("$or", or);
+                Pattern regexQuery = Pattern.compile(".*" + Pattern.quote(searchString) + ".*", Pattern.CASE_INSENSITIVE);
+		//Document regexQuery = new Document();
+		//regexQuery.append("$regex", ".*" + Pattern.quote(searchString) + ".*");
+		//		
+		//BasicDBList or = new BasicDBList();
+		//or.add(new BasicDBObject("_id", regexQuery));
+		//or.add(new BasicDBObject("title", regexQuery));
+		//or.add(new BasicDBObject("description.en", regexQuery));
+		//BasicDBObject findQuery = new BasicDBObject("$or", or);
 		
-		final long collectionSize = MongoConnection.getDatasets().count();
+		final long collectionSize = MongoConnection.getDatasets().size();
 		//System.err.println(MongoConnection.getDatasets().count());
 		//System.err.println(collectionSize["$numberLong"]);
 		
         final ArrayList<Document> docList = new ArrayList<>();
-        final MongoCursor<Document> docs = MongoConnection.getDatasets().find(searchString == "" ? new Document() : findQuery).map(new Function<Document, Document>() {
-            @Override
-            public Document apply(Document t) {
+        final Iterator<Document> docs = MongoConnection.getDatasets().stream()
+            .filter((d) -> {
+                if(searchString.equals("")) {
+                    return true;
+                } else {
+                    String id = d.get("_id", "");
+                    String title = d.get("title", "");
+                    Object description = d.get("description");
+                    return regexQuery.matcher(id).matches() || regexQuery.matcher(title).matches() || regexQuery.matcher(description.toString()).matches();
+                }
+            }).map((t) -> {
                 Document d = new Document();
                 String id = t.get("identifier", "");
                 String title = t.get("title", "");
@@ -62,7 +66,6 @@ public class DatasetList extends HttpServlet {
                 d.put("title", title);
                 d.put("description", description);
                 return d;
-            }
         }).iterator();
 
         while (docs.hasNext()) {

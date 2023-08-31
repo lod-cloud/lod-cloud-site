@@ -8,7 +8,6 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 import javax.servlet.ServletContext;
-import org.bson.Document;
 
 /**
  * The main templates for the application

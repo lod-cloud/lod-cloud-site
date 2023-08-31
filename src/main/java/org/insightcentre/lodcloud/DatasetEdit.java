@@ -1,18 +1,15 @@
 package org.insightcentre.lodcloud;
 
-import com.mongodb.Function;
-import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoCursor;
-import static com.mongodb.client.model.Filters.eq;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Iterator;
 import static java.util.Collections.sort;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.bson.Document;
 import java.util.HashMap;
 
 /**
@@ -32,18 +29,14 @@ public class DatasetEdit extends /*AbstractAuthorizationCodeServlet*/ HttpServle
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        final MongoCollection<Document> datasets = MongoConnection.getDatasets();
+        final List<Document> datasets = MongoConnection.getDatasets();
         final User user = Authorize.getUser(request);
         if(user == null) {
             Authorize.redirectToAuthorize(response, "/edit-dataset/" + MongoConnection.getRequestIdentifier(request));
             return;
         }
-        final MongoCursor<String> docs = datasets.find().map(new Function<Document, String>() {
-            @Override
-            public String apply(Document t) {
-                return t.get("identifier", "");
-            }
-        }).iterator();
+        final Iterator<String> docs = datasets.stream().
+            map((d) -> d.get("identifier","")).iterator();
         final ArrayList<String> docList = new ArrayList<>();
         while (docs.hasNext()) {
             docList.add(docs.next());
@@ -74,7 +67,8 @@ public class DatasetEdit extends /*AbstractAuthorizationCodeServlet*/ HttpServle
 			put("user_generated", "User Generated");			
 			}};
 		//["cross-domain", "geography", "government", "life_sciences", "linguistics", "media", "publications", "social_networking", "user_generated"];
-        final Document dataset = datasets.find(eq("identifier", MongoConnection.getRequestIdentifier(request))).first();
+        final Document dataset = datasets.stream().
+            filter((d) -> d.get("identifier", "").equals(MongoConnection.getRequestIdentifier(request))).findFirst().orElse(null);
         if (dataset != null) {
 
         final Document doc = new Document();

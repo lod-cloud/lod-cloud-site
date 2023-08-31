@@ -67,7 +67,7 @@ public class GenerateClouds {
     generateCloud(350, "clouds/cross-domain-lod.json", "lod-data.json", "clouds/cross-domain-lod.svg");
     svg2png("clouds/cross-domain-lod.svg", "clouds/cross-domain-lod.png", 1875);
 
-    exportResource("clouds/cross-domain-lod.json");
+    exportResource("clouds/geography-lod.json");
     generateCloud(300, "clouds/geography-lod.json", "lod-data.json", "clouds/geography-lod.svg");
     svg2png("clouds/geography-lod.svg", "clouds/geography-lod.png", 1875);
 

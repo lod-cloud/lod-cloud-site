@@ -7,7 +7,7 @@ package org.insightcentre.lodcloud;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.bson.Document;
+import java.io.IOException;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -45,7 +45,7 @@ public class LODCloudServletTest {
      * Test of validate_json method, of class LODCloudServlet.
      */
     @Test
-    public void testValidate_json() {
+    public void testValidate_json() throws IOException {
         System.out.println("validate_json");
         Document doc = Document.parse("{\n" +
 "  \"_id\" : \"wordnet-rdf\",\n" +

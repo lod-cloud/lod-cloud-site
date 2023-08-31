@@ -27,6 +27,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.ServletException;
+import java.math.BigInteger;
 
 public class UpdateClouds extends HttpServlet {
 
@@ -85,22 +86,10 @@ public class UpdateClouds extends HttpServlet {
     return bytes;
   }
 
-  private static String fileSha(String fileName) throws IOException {
-    byte[] buffer= new byte[8192];
-    int count;
-    try {
-      MessageDigest digest = MessageDigest.getInstance("SHA-256");
-      BufferedInputStream bis = new BufferedInputStream(new FileInputStream(fileName));
-      while ((count = bis.read(buffer)) > 0) {
-          digest.update(buffer, 0, count);
-      }
-      bis.close();
-
-      byte[] hash = digest.digest();
-      return Base64.getEncoder().encodeToString(hash);
-    } catch(NoSuchAlgorithmException ex) {
-      throw new RuntimeException(ex);
-    }
+  private static String fileSha(String path) throws IOException {
+    String url = "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/" + path;
+    Map<String, Object> data = new ObjectMapper().readValue(new URL(url).openStream(), Map.class);
+    return (String) data.get("sha");
   }
 
   public static void addFileToGitHub(String repo, File file, String path, String branch,
@@ -129,7 +118,7 @@ public class UpdateClouds extends HttpServlet {
             while((line = reader.readLine()) != null) {
         System.err.println(line);
       }
-      throw new IOException("Error adding file " + path + " to GitHub repo " + repo + " : " + conn.getResponseCode() + " " + conn.getResponseMessage());
+       throw new IOException("Error adding file " + path + " to GitHub repo " + repo + " : " + conn.getResponseCode() + " " + conn.getResponseMessage());
     }
   }
 
@@ -273,6 +262,10 @@ public class UpdateClouds extends HttpServlet {
     
 
   public static void doCloudUpdate(String repo, String ghToken) throws Exception {
+    String date = new SimpleDateFormat("YYYY-MM-dd").format(new Date());
+    String branch = "lod-cloud-" + date;
+    createBranch(repo, branch, ghToken);
+
     Map<String, Object> data = GetData.getData(false, new HashMap<String, String>(), 50,
         new GetData.Logger() {
           public void log(String dataset, String message) {
@@ -302,16 +295,12 @@ public class UpdateClouds extends HttpServlet {
     CountLinks cl = new CountLinks();
     cl.count("clouds/lod-cloud.svg");
 
-    String date = new SimpleDateFormat("YYYY-MM-dd").format(new Date());
 
     String indexSha = fileSha("src/main/webapp/index.html");
     String indexTmpSha = fileSha("src/main/webapp/index-template");
 
     updateIndex("" + cl.links, "" + cl.datasets, date);
 
-    String branch = "lod-cloud-" + date;
-
-    createBranch(repo, branch, ghToken);
 
     addFileToGitHub(repo, new File("clouds/cross-domain-lod.json"), "src/main/webapp/versions/" + date + "/cross-domain-lod.json", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/cross-domain-lod.png"), "src/main/webapp/versions/" + date + "/cross-domain-lod.png", branch, ghToken);
@@ -322,7 +311,7 @@ public class UpdateClouds extends HttpServlet {
     addFileToGitHub(repo, new File("clouds/government-lod.json"), "src/main/webapp/versions/" + date + "/government-lod.json", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/government-lod.png"), "src/main/webapp/versions/" + date + "/government-lod.png", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/government-lod.svg"), "src/main/webapp/versions/" + date + "/government-lod.svg", branch, ghToken);
-    addFileToGitHub(repo, new File("clouds/ipfs-lod.json"), "src/main/webapp/versions/" + date + "/ipfs-lod.json", branch, ghToken);
+    //addFileToGitHub(repo, new File("clouds/ipfs-lod.json"), "src/main/webapp/versions/" + date + "/ipfs-lod.json", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/life-sciences-lod.json"), "src/main/webapp/versions/" + date + "/life-sciences-lod.json", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/life-sciences-lod.png"), "src/main/webapp/versions/" + date + "/life-sciences-lod.png", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/life-sciences-lod.svg"), "src/main/webapp/versions/" + date + "/life-sciences-lod.svg", branch, ghToken);

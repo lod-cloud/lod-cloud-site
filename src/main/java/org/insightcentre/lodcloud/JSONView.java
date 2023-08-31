@@ -1,14 +1,11 @@
 package org.insightcentre.lodcloud;
 
-import static com.mongodb.client.model.Filters.eq;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.bson.Document;
-import org.bson.json.JsonWriterSettings;
 import static org.insightcentre.lodcloud.MongoConnection.getDatasets;
 import static org.insightcentre.lodcloud.MongoConnection.getRequestIdentifier;
 
@@ -29,12 +26,13 @@ public class JSONView extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        final Document doc = getDatasets().find(eq("identifier", getRequestIdentifier(request))).first();
+        final Document doc = getDatasets().stream().
+            filter((d) -> d.get("identifier", "").equals(getRequestIdentifier(request))).
+            findFirst().orElse(null);
         if (doc != null) {
             response.setContentType("application/json;charset=UTF-8");
             try (PrintWriter out = response.getWriter()) {
-                JsonWriterSettings settings = JsonWriterSettings.builder().indent(true).build();
-                out.println(doc.toJson(settings));
+                out.println(doc.toPrettyJson());
             }
         } else {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);

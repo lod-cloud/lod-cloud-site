@@ -1,12 +1,9 @@
 package org.insightcentre.lodcloud;
 
-import com.mongodb.client.MongoCollection;
-import static com.mongodb.client.model.Filters.eq;
-import com.mongodb.client.result.DeleteResult;
-import com.mongodb.client.result.UpdateResult;
-
 import java.io.BufferedReader;
 import java.io.PrintWriter;
+import java.util.List;
+import java.util.ListIterator;
 import java.util.HashMap;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -14,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import static javax.servlet.http.HttpServletResponse.SC_OK;
 import org.apache.http.HttpStatus;
-import org.bson.Document;
 
 import static org.insightcentre.lodcloud.MongoConnection.getDatasets;
 import static org.insightcentre.lodcloud.MongoConnection.getRequestIdentifier;
@@ -45,8 +41,10 @@ public class LODCloudServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        final MongoCollection<Document> datasets = getDatasets();
-        final Document doc = datasets.find(eq("identifier", getRequestIdentifier(request))).first();
+        final List<Document> datasets = getDatasets();
+        final Document doc = datasets.stream().
+            filter((d) -> d.get("identifier", "").equals(getRequestIdentifier(request))).
+            findFirst().orElse(null);
         if (doc != null) {
             response.setContentType("application/javascript");
             response.setStatus(SC_OK);
@@ -157,7 +155,7 @@ public class LODCloudServlet extends HttpServlet {
             }
             return;
         }
-        final MongoCollection<Document> datasets = getDatasets();
+        final List<Document> datasets = getDatasets();
         final StringBuilder json = new StringBuilder();
         try (final BufferedReader reader = request.getReader()) {
             final String line = reader.readLine();
@@ -175,8 +173,16 @@ public class LODCloudServlet extends HttpServlet {
                 }
             });
            // if (validate_json(doc)) {
-                final UpdateResult result = datasets.replaceOne(eq("identifier", getRequestIdentifier(request)), doc);
-                if (result.getModifiedCount() > 0) {
+            int modifiedCount = 0;
+            ListIterator<Document> iter = datasets.listIterator();
+            while(iter.hasNext()) {
+                Document d = iter.next();
+                if(d.get("identifier").equals(getRequestIdentifier(request))) {
+                    iter.set(doc);
+                    modifiedCount++;
+                }
+            }
+                if (modifiedCount > 0) {
                     resp.setStatus(SC_OK);
                     try (final PrintWriter out = resp.getWriter()) {
                         out.println("OK");
@@ -192,7 +198,7 @@ public class LODCloudServlet extends HttpServlet {
                 String timeStamp = String.format("%016x", System.currentTimeMillis());
                 doc.put("time", timeStamp);
                 doc.put("_id", doc.get("identifier") + timeStamp);
-                MongoConnection.getHistory().insertOne(doc);
+                MongoConnection.getHistory().add(doc);
            // } else {
            //     resp.sendError(HttpServletResponse.SC_BAD_REQUEST);
            // }
@@ -221,9 +227,17 @@ public class LODCloudServlet extends HttpServlet {
             }
             return;
         }
-        final MongoCollection<Document> datasets = getDatasets();
-        final DeleteResult result = datasets.deleteOne(eq("identifier", getRequestIdentifier(req)));
-        if (result.getDeletedCount() > 0) {
+        final List<Document> datasets = getDatasets();
+        int deletedCount = 0;
+        ListIterator<Document> iter = datasets.listIterator();
+        while(iter.hasNext()) {
+            Document d = iter.next();
+            if(d.get("identifier").equals(getRequestIdentifier(req))) {
+                iter.remove();
+                deletedCount++;
+            }
+        }
+        if (deletedCount > 0) {
             Document doc = new Document();
             doc.put("identifier", getRequestIdentifier(req));
             doc.put("owner", new HashMap<String, String>() {
@@ -235,7 +249,7 @@ public class LODCloudServlet extends HttpServlet {
             String timeStamp = String.format("%016x", System.currentTimeMillis());
             doc.put("time", timeStamp);
             doc.put("_id", doc.get("identifier") + timeStamp);
-            MongoConnection.getHistory().insertOne(doc);
+            MongoConnection.getHistory().add(doc);
             resp.setStatus(SC_OK);
             try (final PrintWriter out = resp.getWriter()) {
                 out.println("OK");
@@ -267,12 +281,26 @@ public class LODCloudServlet extends HttpServlet {
             }
             return;
         }
+        if(getRequestIdentifier(req).equals("")) {
+            resp.setStatus(SC_BAD_REQUEST);
+            try (final PrintWriter out = resp.getWriter()) {
+                out.println("No identifier");
+            }
+            return;
+        }
+        if(getRequestIdentifier(req).contains(" ") || getRequestIdentifier(req).contains("/") || getRequestIdentifier(req).contains("\\") || getRequestIdentifier(req).contains("?")) {
+            resp.setStatus(SC_BAD_REQUEST);
+            try (final PrintWriter out = resp.getWriter()) {
+                out.println("Identifier contains invalid characters");
+            }
+            return;
+        }
 
-        final MongoCollection<Document> datasets = getDatasets();
+        final List<Document> datasets = getDatasets();
         final StringBuilder json = new StringBuilder();
         try (final BufferedReader reader = req.getReader()) {
             json.append(reader.readLine()).append("\n");
-            if (datasets.find(eq("identifier", getRequestIdentifier(req))).first() == null) {
+            if (datasets.stream().filter((d) -> d.get("identifier", "").equals(getRequestIdentifier(req))).findFirst().orElse(null) == null) {
                 Document doc = Document.parse(json.toString());
                 doc.put("_id", doc.get("identifier"));
                 if (doc.get("_id", "").equals("")) {
@@ -289,11 +317,11 @@ public class LODCloudServlet extends HttpServlet {
                         put("email", user.emailAddress);
                     }
                 });
-                datasets.insertOne(doc);
+                datasets.add(doc);
                 String timeStamp = String.format("%016x", System.currentTimeMillis());
                 doc.put("time", timeStamp);
                 doc.put("_id", doc.get("identifier") + timeStamp);
-                MongoConnection.getHistory().insertOne(doc);
+                MongoConnection.getHistory().add(doc);
                 resp.setStatus(SC_OK);
                 try (final PrintWriter out = resp.getWriter()) {
                     out.println("OK");

@@ -1,37 +1,43 @@
 package org.insightcentre.lodcloud;
 
-import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoClients;
-import com.mongodb.client.MongoCollection;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import javax.servlet.http.HttpServletRequest;
-import org.bson.Document;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * Access to Mongo database
+ * Access to in-memory store
  * @author jmccrae
  */
 public class MongoConnection {
-    private static String server;
+    private static final ArrayList<Document> documents = new ArrayList<>();
+    private static final ArrayList<Document> history = new ArrayList<>();
+
     static {
         try {
-            server = new BufferedReader(new FileReader("mongodb.txt")).readLine();
+            BufferedReader br = new BufferedReader(new FileReader(new File("lod-data.json")));
+            Map<String, Object> data = new ObjectMapper().readValue(br, Map.class);
+            for(Object o : data.values()) {
+                Document d = new Document((Map<String,Object>)o);
+                d.put("identifier", d.get("identifier", "").replaceAll(" ", "_").replaceAll("[?/\\\\]", ""));
+                d.put("_id", d.get("_id", "").replaceAll(" ", "_").replaceAll("[?/\\\\]", ""));
+                documents.add(d);
+            }
         } catch(Exception x) {
-            System.err.println("No file at " + new File("mongodb.txt").getAbsolutePath() + " defaulting to localhost for MongoDB");
-            server = "mongodb://localhost:27017";
+            x.printStackTrace();
         }
     }
 
-    private static final MongoClient mongo = MongoClients.create(server);
-
-    public static MongoCollection<Document> getDatasets() {
-        return mongo.getDatabase("mern-dataset-app").getCollection("datasets");
+    public static List<Document> getDatasets() {
+        return documents;
     }
 	
-    public static MongoCollection<Document> getHistory() {
-        return mongo.getDatabase("mern-dataset-app").getCollection("history");
+    public static List<Document> getHistory() {
+        return history;
     }
 
     public static String getRequestIdentifier(HttpServletRequest req) {

@@ -1,6 +1,5 @@
 package org.insightcentre.lodcloud;
 
-import static com.mongodb.client.model.Filters.eq;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -13,7 +12,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.bson.Document;
 import static org.insightcentre.lodcloud.ContentType.html;
 import static org.insightcentre.lodcloud.ContentType.json;
 import static org.insightcentre.lodcloud.ContentType.nt;
@@ -96,7 +94,9 @@ public class DatasetDetail extends HttpServlet {
             throws ServletException, IOException {
         switch (negotiate(request)) {
             case html:
-                final Document doc = MongoConnection.getDatasets().find(eq("identifier", MongoConnection.getRequestIdentifier(request))).first();
+                final Document doc = MongoConnection.getDatasets().stream().
+                    filter((d) -> d.get("identifier", "").equals(MongoConnection.getRequestIdentifier(request))).
+                    findFirst().orElse(null);
                 if (doc != null) {
                     response.setContentType("text/html;charset=UTF-8");
                     response.addHeader("Vary", "Accept");

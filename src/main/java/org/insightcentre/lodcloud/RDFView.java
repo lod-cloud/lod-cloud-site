@@ -20,7 +20,6 @@ import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.VOID;
 import org.apache.jena.vocabulary.XSD;
-import org.bson.Document;
 import static org.insightcentre.lodcloud.MongoConnection.getDatasets;
 import static org.insightcentre.lodcloud.MongoConnection.getRequestIdentifier;
 
@@ -42,7 +41,7 @@ public class RDFView extends HttpServlet {
         
         ds_node.addProperty(RDF.type, VOID.Dataset);
         ds_node.addProperty(DCTerms.title, model.createLiteral(document.get("title", ""), "en"));
-        for(Map.Entry<String,Object> e : document.get("description", Document.class).entrySet()) {
+        for(Map.Entry<String,Object> e : document.get("description", new Document()).entrySet()) {
             ds_node.addProperty(DCTerms.description, model.createLiteral(
                     e.getValue() != null ? e.getValue().toString() : "", e.getKey()));
         }
@@ -74,7 +73,7 @@ public class RDFView extends HttpServlet {
         if(document.containsKey("contact_point")) {
             Resource b = model.createResource();
             ds_node.addProperty(DCTerms.publisher, b);
-            Document cp = document.get("contact_point", Document.class);
+            Document cp = document.get("contact_point", new Document());
             if(cp.containsKey("name")) {
                 b.addProperty(RDFS.label, model.createLiteral(cp.get("name","")));
             }
@@ -127,7 +126,8 @@ public class RDFView extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        final Document doc = getDatasets().find(eq("identifier", getRequestIdentifier(request))).first();
+        final Document doc = getDatasets().stream()
+            .filter((d) -> d.get("identifier", "").equals(getRequestIdentifier(request))).findFirst().orElse(null);
         String format = request.getParameter("format");
         final String mimeType;
         if(format == null) {
