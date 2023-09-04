@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 import org.apache.batik.transcoder.TranscoderInput;
 import org.apache.batik.transcoder.TranscoderOutput;
 import org.apache.batik.transcoder.image.PNGTranscoder;
+import org.apache.batik.transcoder.image.JPEGTranscoder;
 import org.apache.batik.transcoder.image.ImageTranscoder;
 
 public class GenerateClouds {
@@ -50,6 +51,20 @@ public class GenerateClouds {
     OutputStream pngOstream = new FileOutputStream(pngFile);
     TranscoderOutput outputPngImage = new TranscoderOutput(pngOstream);              
     PNGTranscoder transcoder = new PNGTranscoder();
+    transcoder.addTranscodingHint(ImageTranscoder.KEY_BACKGROUND_COLOR, Color.WHITE);
+    transcoder.addTranscodingHint(PNGTranscoder.KEY_WIDTH, (Float)width);
+    transcoder.transcode(inputSvgImage, outputPngImage);
+    pngOstream.flush();
+    pngOstream.close();   
+  }
+
+
+  public static void svg2jpeg(String svgFile, String jpegFile, float width) throws Exception {
+    String svgURI = Paths.get(svgFile).toUri().toURL().toString();
+    TranscoderInput inputSvgImage = new TranscoderInput(svgURI);        
+    OutputStream pngOstream = new FileOutputStream(jpegFile);
+    TranscoderOutput outputPngImage = new TranscoderOutput(pngOstream);              
+    JPEGTranscoder transcoder = new JPEGTranscoder();
     transcoder.addTranscodingHint(ImageTranscoder.KEY_BACKGROUND_COLOR, Color.WHITE);
     transcoder.addTranscodingHint(PNGTranscoder.KEY_WIDTH, (Float)width);
     transcoder.transcode(inputSvgImage, outputPngImage);
@@ -102,7 +117,7 @@ public class GenerateClouds {
     exportResource("clouds/lod-cloud-settings.json");
     generateCloud(-1, "clouds/lod-cloud-settings.json", "lod-data.json", "clouds/lod-cloud.svg");
     svg2png("clouds/lod-cloud.svg", "clouds/lod-cloud.png", 6619);
-    svg2png("clouds/lod-cloud.svg", "clouds/lod-cloud-sm.png", 2648);
+    svg2jpeg("clouds/lod-cloud.svg", "clouds/lod-cloud-sm.jpg", 2648);
 
     //exportResource("clouds/ipfs-lod.json");
     //generateCloud(350, "clouds/ipfs-cloud-settings.json", "ipfs-lod.json", "clouds/ipfs-lod.svg");

@@ -20,14 +20,10 @@ import java.util.Map;
 import java.util.List;
 import java.io.FileInputStream;
 import java.util.Base64;
-import java.security.MessageDigest;
-import java.io.BufferedInputStream;
-import java.security.NoSuchAlgorithmException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.ServletException;
-import java.math.BigInteger;
 
 public class UpdateClouds extends HttpServlet {
 
@@ -49,23 +45,30 @@ public class UpdateClouds extends HttpServlet {
       String line;
       while((line = reader.readLine()) != null) {
         if(line.contains("==LINKS==")) {
-          newIndex.append(line.replace("==LINKS==", links));
-          newIndex.append(line.replace("==DATASET==", dataset));
+          newIndex.append(line.replace("==LINKS==", links)
+                  .replace("==DATASET==", dataset));
+          newIndex.append("\n");
         } else if(line.contains("--TABLE--")) {
           String toInsert = "<tr typeof=\"dctype:Image\" about=\"#cloud\" property=\"dc:title\" content=\"LOD cloud diagram\">\n"
             + "<th property=\"dc:modified\" datatype=\"xsd:date\" content=\"" + date + "\">" + date + "</th>\n" 
-            + "<td></td><td></td><td></td><td>"
-            + "<a href=\"versions/" + date + "/lod-cloud.png\">png</a></td>" 
-            + "<td></td>" 
-            + "<td><a href=\"versions/" + date + "/lod-cloud.svg\">svg</a></td>"
-            + "<td><a href=\"versions/" + date + "/lod-data.json\">json</a></td>" 
-            + "<td></td><td class=\"dataset-count\">" + dataset + "</td></tr>";
+            + "<td></td><td></td><td></td><td>\n"
+            + "<a href=\"versions/" + date + "/lod-cloud.png\">png</a></td>\n" 
+            + "<td></td>\n" 
+            + "<td><a href=\"versions/" + date + "/lod-cloud.svg\">svg</a></td>\n"
+            + "<td><a href=\"versions/" + date + "/lod-data.json\">json</a></td>\n" 
+            + "<td></td><td class=\"dataset-count\">" + dataset + "</td></tr>\n";
 
           newTemplate.append(line);
+          newTemplate.append("\n");
           newTemplate.append(toInsert);
+          newTemplate.append("\n");
           newIndex.append(line);
+          newIndex.append("\n");
         } else {
           newTemplate.append(line);
+          newTemplate.append("\n");
+          newIndex.append(line);
+          newIndex.append("\n");
         }
       }
 
@@ -217,9 +220,8 @@ public class UpdateClouds extends HttpServlet {
                         "    ln -s " + date + " src/main/webapp/versions/latest\\n" +
                         "    git add src/main/webapp/versions/latest\\n" +
                         "    git commit -m \\\"Update symlink\\\"\\n" +
-                                "    cd lod-cloud-site\\n" +
-                        "    cd lod-cloud-site\\n" +
         "    git push\\n" +
+        "    curl https://lod-cloud.net/extract/datasets > lod-data.json\\n" +
         "    mvn clean package\\n" +
         "    docker build -t nuig_uld/lod-cloud .\\n" +
         "    docker stop lod-cloud\\n" +
@@ -333,6 +335,8 @@ public class UpdateClouds extends HttpServlet {
     addFileToGitHub(repo, new File("clouds/user-generated-lod.json"), "src/main/webapp/versions/" + date + "/user-generated-lod.json", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/user-generated-lod.png"), "src/main/webapp/versions/" + date + "/user-generated-lod.png", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/user-generated-lod.svg"), "src/main/webapp/versions/" + date + "/user-generated-lod.svg", branch, ghToken);
+    addFileToGitHub(repo, new File("cloud/lod-cloud-sm.jpg"),
+        "src/main/webapp/" + date + "/lod-cloud-sm.jpg", branch, ghToken);
 
     addFileToGitHub(repo, new File("lod-data.json"), "src/main/webapp/versions/" + date + "/lod-data.json", branch, ghToken);
 
