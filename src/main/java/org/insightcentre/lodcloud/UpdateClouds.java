@@ -379,13 +379,18 @@ public class UpdateClouds extends HttpServlet {
     }
   }
 
+  public static Date lastTriggeredUpdate = null;
+
   public static void triggerUpdate() {
     if(GH_TOKEN == null) {
       System.err.println("No GH_TOKEN, skipping update");
     }
     try {
       Date lastUpdate = getLatestDateFromGitHub("lod-cloud/lod-cloud-site");
-      if(new Date().getTime() - lastUpdate.getTime() > 30 * 24 * 60 * 60 * 1000) {
+      if(new Date().getTime() - lastUpdate.getTime() > 30 * 24 * 60 * 60 * 1000 &&
+        (lastTriggeredUpdate == null ||
+              new Date().getTime() - lastTriggeredUpdate.getTime() > 30 * 24 * 60 * 60 * 1000)) {
+          lastTriggeredUpdate = new Date();
         new Thread(new Runnable() {
           public void run() {
             try {
