@@ -1,0 +1,995 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" width="700" height="742">
+<script type="text/javascript"><![CDATA[
+function mo(elem) {    
+    var  line =document.getElementsByTagName("line")
+ 
+  elem.setAttribute("class","circle-active");
+    for(i = 0; i < line.length; i++) {                                          
+                                                                                
+        if(line[i].getAttributeNode("targetId").value === elem.id) {            
+            line[i].setAttribute("class","link-activeIncoming");
+            document.getElementById(line[i].getAttributeNode("sourceId").value).setAttribute("class","circle-active");
+
+        } 
+        if(line[i].getAttributeNode("sourceId").value === elem.id) {            
+            line[i].setAttribute("class","link-activeOutgoung");
+            document.getElementById(line[i].getAttributeNode("targetId").value).setAttribute("class","circle-active");
+
+        }
+        if((line[i].getAttributeNode("targetId").value === elem.id)&&(line[i].getAttributeNode("sourceId").value === elem.id)) {            
+            line[i].setAttribute("class","link-activeBoth");
+             document.getElementById(line[i].getAttributeNode("targetId").value).setAttribute("class","circle-active");
+             document.getElementById(line[i].getAttributeNode("sourceId").value).setAttribute("class","circle-active");
+        }                                                                              
+    }                                                                           
+}
+
+function mleave(elem) {                   
+    elem.setAttribute("class","circle-pasive");                                      
+    var line = document.getElementsByTagName("line");                           
+    for(i = 0; i < line.length; i++) {                                          
+                                                                                
+        if(line[i].getAttributeNode("targetId").value === elem.id) {     
+        document.getElementById(line[i].getAttributeNode("sourceId").value).setAttribute("class","circle-pasive");       
+            line[i].setAttribute("class","link");       
+        }
+        if(line[i].getAttributeNode("sourceId").value === elem.id) {            
+            document.getElementById(line[i].getAttributeNode("targetId").value).setAttribute("class","circle-pasive");
+            line[i].setAttribute("class","link");       
+        }                                                                          
+    }                                                                           
+}
+]]></script>
+  <style>
+    circle { 
+        stroke: #333;
+        stroke-width: 1.5px;
+        fill-opacity: 0.8; 
+    } 
+    .bubble text {
+        text-anchor: middle;
+        font-size: .5em;
+    }
+    .circle-active circle { 
+        stroke: #e80000;  
+        stroke-width: 3px; 
+    } 
+    .link { 
+        stroke: #e0270b;  
+        stroke: #555;  
+        stroke-opacity: 0.7;  
+        stroke-width: 1px;  
+        stroke-dasharray:none;
+    } 
+    .link-activeIncoming {  
+        stroke-opacity: 1; 
+        stroke-width: 10;  
+        stroke: #be1b38; 
+    } 
+    .link-activeOutgoung {  
+        stroke-opacity: 1;  
+        stroke-width: 10; 
+        stroke: #1AC21D;  
+    } 
+    .link-activeBoth {  
+        stroke-opacity: 1;  
+        stroke: #1AC21D;  
+        stroke-width: 10;  
+        stroke-dasharray:5,10,5;}
+  </style>
+  <g transform="scale(0.5)">
+    <g id="legend">
+      <text transform="translate(30,30)" style="font-family:Verdana, Arial, DejaVu Sans;font-size:200%;text-decoration:underline;">Legend</text>
+      <rect width="310" height="35" style="fill:#c8a788" transform="translate(30,45)"/>
+      <text transform="translate(35,72)" style="font-family:Verdana, Arial;font-size:200%">Wikipedia Related</text>
+      <rect width="310" height="35" style="fill:lightgray" transform="translate(30,85)"/>
+      <text transform="translate(35,112)" style="font-family:Verdana, Arial;font-size:200%">Other</text>
+    </g>
+  </g>
+  <g class="links">
+    <line class="link" targetId="0" sourceId="1" x1="314.7109916640554" y1="148.1062717082495" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="2" sourceId="1" x1="412.5131553671481" y1="162.7083323266168" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="2" sourceId="3" x1="412.5131553671481" y1="162.7083323266168" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="4" sourceId="1" x1="351.2287785418927" y1="240.75627603460794" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="5" sourceId="4" x1="420.8621439031941" y1="103.85054900661163" x2="351.2287785418927" y2="240.75627603460794"/>
+    <line class="link" targetId="6" sourceId="1" x1="465.93870772323805" y1="140.60660224939784" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="7" sourceId="8" x1="538.1423691727787" y1="325.31729457135714" x2="162.63132314331915" y2="154.3994911738504"/>
+    <line class="link" targetId="9" sourceId="1" x1="404.1339515372041" y1="219.22950271539972" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="10" sourceId="1" x1="457.5776510844048" y1="197.78465305370608" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="11" sourceId="1" x1="448.8603315176855" y1="254.3508137175382" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="12" sourceId="1" x1="566.5207818199833" y1="154.41949475263428" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="13" sourceId="1" x1="395.89001062940315" y1="275.4784817353772" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="14" sourceId="1" x1="601.3411923452494" y1="248.89928036440855" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="3" sourceId="1" x1="377.51583282101853" y1="386.8315348336301" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="15" sourceId="1" x1="359.41678066546" y1="183.92234177772517" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="16" sourceId="1" x1="431.29528997853515" y1="366.6823660334685" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="16" sourceId="17" x1="431.29528997853515" y1="366.6823660334685" x2="637.4898969833157" y2="341.5711486995119"/>
+    <line class="link" targetId="16" sourceId="18" x1="431.29528997853515" y1="366.6823660334685" x2="264.6161312039217" y2="485.5992307743613"/>
+    <line class="link" targetId="19" sourceId="1" x1="511.9311352163628" y1="176.7118731197965" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="19" sourceId="20" x1="511.9311352163628" y1="176.7118731197965" x2="556.9103187059939" y2="211.3707328991291"/>
+    <line class="link" targetId="21" sourceId="1" x1="440.2717275642185" y1="310.6591987953058" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="22" sourceId="23" x1="171.62207560273214" y1="96.92666607338705" x2="245.98540992469208" y2="282.38767357635663"/>
+    <line class="link" targetId="24" sourceId="1" x1="502.35589647255813" y1="233.27480970916548" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="25" sourceId="1" x1="547.1518540619941" y1="268.786081208988" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="26" sourceId="1" x1="493.44796981622346" y1="289.72204327809504" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="27" sourceId="1" x1="484.78301066949666" y1="345.98429866728765" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="28" sourceId="1" x1="627.112411758155" y1="399.0677995205945" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="28" sourceId="29" x1="627.112411758155" y1="399.0677995205945" x2="147.43484481799342" y2="268.1274055688967"/>
+    <line class="link" targetId="30" sourceId="1" x1="582.6486863032189" y1="362.12494543014174" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="31" sourceId="1" x1="573.5859035564836" y1="419.2182297137524" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="32" sourceId="1" x1="475.5162191384822" y1="402.20058774686004" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="33" sourceId="1" x1="566.4622333926604" y1="476.69625016900824" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="34" sourceId="1" x1="520.1074033586002" y1="438.54633374074456" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="35" sourceId="1" x1="505.0490972315696" y1="552.4072137413548" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="36" sourceId="1" x1="511.8543194765019" y1="495.1705529417477" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="37" sourceId="1" x1="466.835863764472" y1="458.2390921434727" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="37" sourceId="14" x1="466.835863764472" y1="458.2390921434727" x2="601.3411923452494" y2="248.89928036440855"/>
+    <line class="link" targetId="38" sourceId="1" x1="458.18483169889294" y1="515.0248309043554" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="38" sourceId="39" x1="458.18483169889294" y1="515.0248309043554" x2="369.9313998125135" y2="443.3370768337334"/>
+    <line class="link" targetId="1" sourceId="40" x1="334.4723371191586" y1="352.2016717697848" x2="421.8385733623337" y2="422.284663456941"/>
+    <line class="link" targetId="1" sourceId="3" x1="334.4723371191586" y1="352.2016717697848" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="41" sourceId="1" x1="450.7067274324071" y1="572.4248581077088" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="42" sourceId="1" x1="360.8956211002325" y1="498.91003148881674" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="42" sourceId="43" x1="360.8956211002325" y1="498.91003148881674" x2="326.0137556540465" y2="408.3917330622286"/>
+    <line class="link" targetId="42" sourceId="44" x1="360.8956211002325" y1="498.91003148881674" x2="238.58321183778563" y2="338.86918662056905"/>
+    <line class="link" targetId="42" sourceId="45" x1="360.8956211002325" y1="498.91003148881674" x2="273.33980775297533" y2="429.1496927119795"/>
+    <line class="link" targetId="42" sourceId="4" x1="360.8956211002325" y1="498.91003148881674" x2="351.2287785418927" y2="240.75627603460794"/>
+    <line class="link" targetId="46" sourceId="1" x1="414.01329833664715" y1="479.0002442229306" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="47" sourceId="14" x1="635.3914109495944" y1="202.4408155999712" x2="601.3411923452494" y2="248.89928036440855"/>
+    <line class="link" targetId="48" sourceId="1" x1="405.0148024014634" y1="535.9263815269051" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="39" sourceId="1" x1="369.9313998125135" y1="443.3370768337334" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="49" sourceId="1" x1="397.28867545128946" y1="593.9744543306061" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="50" sourceId="1" x1="352.2074426494962" y1="557.6930481096365" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="51" sourceId="1" x1="343.8425646373528" y1="616.4442422457452" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="52" sourceId="1" x1="317.13818189161617" y1="464.06789487897106" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="52" sourceId="3" x1="317.13818189161617" y1="464.06789487897106" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="53" sourceId="1" x1="298.9707063249564" y1="580.1445168417906" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="43" sourceId="1" x1="326.0137556540465" y1="408.3917330622286" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="43" sourceId="40" x1="326.0137556540465" y1="408.3917330622286" x2="421.8385733623337" y2="422.284663456941"/>
+    <line class="link" targetId="43" sourceId="3" x1="326.0137556540465" y1="408.3917330622286" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="54" sourceId="1" x1="308.80655890162814" y1="520.7639871785354" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="54" sourceId="40" x1="308.80655890162814" y1="520.7639871785354" x2="421.8385733623337" y2="422.284663456941"/>
+    <line class="link" targetId="55" sourceId="1" x1="387.31613756753865" y1="331.3769978896242" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="56" sourceId="1" x1="255.899489734879" y1="542.7500299641249" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="18" sourceId="1" x1="264.6161312039217" y1="485.5992307743613" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="45" sourceId="1" x1="273.33980775297533" y1="429.1496927119795" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="45" sourceId="42" x1="273.33980775297533" y1="429.1496927119795" x2="360.8956211002325" y2="498.91003148881674"/>
+    <line class="link" targetId="45" sourceId="57" x1="273.33980775297533" y1="429.1496927119795" x2="282.43285184573205" y2="373.7160915675061"/>
+    <line class="link" targetId="58" sourceId="1" x1="203.28889032680402" y1="566.3124783279516" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="59" sourceId="1" x1="211.1635964980588" y1="507.44570301013295" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="60" sourceId="27" x1="592.1436010525236" y1="305.50778471907773" x2="484.78301066949666" y2="345.98429866728765"/>
+    <line class="link" targetId="61" sourceId="1" x1="166.12373159672748" y1="472.17028355438566" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="62" sourceId="1" x1="157.69363572471624" y1="529.910836173023" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="57" sourceId="1" x1="282.43285184573205" y1="373.7160915675061" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="57" sourceId="43" x1="282.43285184573205" y1="373.7160915675061" x2="326.0137556540465" y2="408.3917330622286"/>
+    <line class="link" targetId="57" sourceId="45" x1="282.43285184573205" y1="373.7160915675061" x2="273.33980775297533" y2="429.1496927119795"/>
+    <line class="link" targetId="57" sourceId="4" x1="282.43285184573205" y1="373.7160915675061" x2="351.2287785418927" y2="240.75627603460794"/>
+    <line class="link" targetId="57" sourceId="40" x1="282.43285184573205" y1="373.7160915675061" x2="421.8385733623337" y2="422.284663456941"/>
+    <line class="link" targetId="57" sourceId="54" x1="282.43285184573205" y1="373.7160915675061" x2="308.80655890162814" y2="520.7639871785354"/>
+    <line class="link" targetId="57" sourceId="3" x1="282.43285184573205" y1="373.7160915675061" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="63" sourceId="1" x1="111.79845767337818" y1="493.8017611656456" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="64" sourceId="1" x1="220.3054355370036" y1="450.6959138735527" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="65" sourceId="1" x1="120.59120841103268" y1="436.4689334496229" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="66" sourceId="19" x1="520.1356698451543" y1="119.04771739592977" x2="511.9311352163628" y2="176.7118731197965"/>
+    <line class="link" targetId="67" sourceId="1" x1="229.05487000344598" y1="394.57741259488597" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="68" sourceId="1" x1="175.61403437868094" y1="415.7483355715399" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="69" sourceId="1" x1="76.12252024869184" y1="396.87217742600876" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="20" sourceId="19" x1="556.9103187059939" y1="211.3707328991291" x2="511.9311352163628" y2="176.7118731197965"/>
+    <line class="link" targetId="44" sourceId="1" x1="238.58321183778563" y1="338.86918662056905" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="44" sourceId="43" x1="238.58321183778563" y1="338.86918662056905" x2="326.0137556540465" y2="408.3917330622286"/>
+    <line class="link" targetId="44" sourceId="45" x1="238.58321183778563" y1="338.86918662056905" x2="273.33980775297533" y2="429.1496927119795"/>
+    <line class="link" targetId="44" sourceId="42" x1="238.58321183778563" y1="338.86918662056905" x2="360.8956211002325" y2="498.91003148881674"/>
+    <line class="link" targetId="44" sourceId="57" x1="238.58321183778563" y1="338.86918662056905" x2="282.43285184573205" y2="373.7160915675061"/>
+    <line class="link" targetId="44" sourceId="4" x1="238.58321183778563" y1="338.86918662056905" x2="351.2287785418927" y2="240.75627603460794"/>
+    <line class="link" targetId="70" sourceId="1" x1="131.3369535248768" y1="380.16618290917165" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="70" sourceId="3" x1="131.3369535248768" y1="380.16618290917165" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="71" sourceId="1" x1="185.00793743719794" y1="359.4026264106756" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="71" sourceId="3" x1="185.00793743719794" y1="359.4026264106756" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="72" sourceId="1" x1="193.45977396654143" y1="303.46702749248317" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="72" sourceId="3" x1="193.45977396654143" y1="303.46702749248317" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="73" sourceId="1" x1="139.75208492131867" y1="324.1948876350774" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="73" sourceId="3" x1="139.75208492131867" y1="324.1948876350774" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="29" sourceId="1" x1="147.43484481799342" y1="268.1274055688967" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="74" sourceId="1" x1="154.88330845492874" y1="211.63633922751436" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="74" sourceId="75" x1="154.88330845492874" y1="211.63633922751436" x2="200.46537119197342" y2="246.8817177868408"/>
+    <line class="link" targetId="76" sourceId="1" x1="290.60022494904683" y1="317.49817894061715" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="76" sourceId="3" x1="290.60022494904683" y1="317.49817894061715" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="75" sourceId="1" x1="200.46537119197342" y1="246.8817177868408" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="77" sourceId="1" x1="253.68877352085417" y1="226.21894293126607" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="78" sourceId="1" x1="216.89071682191485" y1="133.39097223249672" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="79" sourceId="1" x1="343.14223597583515" y1="296.64132048269767" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="79" sourceId="3" x1="343.14223597583515" y1="296.64132048269767" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="23" sourceId="1" x1="245.98540992469208" y1="282.38767357635663" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="23" sourceId="3" x1="245.98540992469208" y1="282.38767357635663" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="80" sourceId="1" x1="208.417915799063" y1="190.38298148661787" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="81" sourceId="1" x1="270.0793292257637" y1="111.47615658490463" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="82" sourceId="1" x1="298.6482188468882" y1="261.6492675412294" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="82" sourceId="3" x1="298.6482188468882" y1="261.6492675412294" x2="377.51583282101853" y2="386.8315348336301"/>
+    <line class="link" targetId="83" sourceId="1" x1="261.81721802149224" y1="169.84457520134717" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="83" sourceId="44" x1="261.81721802149224" y1="169.84457520134717" x2="238.58321183778563" y2="338.86918662056905"/>
+    <line class="link" targetId="84" sourceId="19" x1="528.9767832966476" y1="381.91662013866454" x2="511.9311352163628" y2="176.7118731197965"/>
+    <line class="link" targetId="84" sourceId="64" x1="528.9767832966476" y1="381.91662013866454" x2="220.3054355370036" y2="450.6959138735527"/>
+    <line class="link" targetId="85" sourceId="1" x1="323.7335703314569" y1="89.43434546681459" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="86" sourceId="1" x1="367.88780464355193" y1="126.5978240939429" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="87" sourceId="1" x1="306.7495561997786" y1="205.4205228730791" x2="334.4723371191586" y2="352.2016717697848"/>
+    <line class="link" targetId="87" sourceId="40" x1="306.7495561997786" y1="205.4205228730791" x2="421.8385733623337" y2="422.284663456941"/>
+  </g>
+  <g class="nodes">
+    <g id="0"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.0" cx="314.7109916640554" cy="148.1062717082495" fill="lightgray"><title>semsol-crunchbase</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/semsol-crunchbase" target="_blank">
+          <text x="314.7109916640554" y="148.1062717082495">Semant...</text>
+      </a>
+    </g>
+    <g id="1"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="25.0" cx="334.4723371191586" cy="352.2016717697848" fill="#c8a788"><title>dbpedia</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia" target="_blank">
+          <text x="334.4723371191586" y="352.2016717697848">DBpedia</text>
+      </a>
+    </g>
+    <g id="2"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.0" cx="412.5131553671481" cy="162.7083323266168" fill="lightgray"><title>lexvo-org</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/lexvo-org" target="_blank">
+          <text x="412.5131553671481" y="162.7083323266168">Lexvo.org</text>
+      </a>
+    </g>
+    <g id="3"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.1" cx="377.51583282101853" cy="386.8315348336301" fill="lightgray"><title>yago</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/yago" target="_blank">
+          <text x="377.51583282101853" y="386.8315348336301">YAGO</text>
+      </a>
+    </g>
+    <g id="4"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.4" cx="351.2287785418927" cy="240.75627603460794" fill="lightgray"><title>dbpedia-pt</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-pt" target="_blank">
+          <text x="351.2287785418927" y="240.75627603460794">DBpedi...</text>
+      </a>
+    </g>
+    <g id="5"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="420.8621439031941" cy="103.85054900661163" fill="lightgray"><title>desaparecidos</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/desaparecidos" target="_blank">
+          <text x="420.8621439031941" y="103.85054900661163">Projet...</text>
+      </a>
+    </g>
+    <g id="6"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.7" cx="465.93870772323805" cy="140.60660224939784" fill="lightgray"><title>linked-crunchbase</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/linked-crunchbase" target="_blank">
+          <text x="465.93870772323805" y="140.60660224939784">Linked...</text>
+      </a>
+    </g>
+    <g id="7"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.3" cx="538.1423691727787" cy="325.31729457135714" fill="lightgray"><title>linked-open-vocabularies-lov</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/linked-open-vocabularies-lov" target="_blank">
+          <text x="538.1423691727787" y="325.31729457135714">Linked...</text>
+      </a>
+    </g>
+    <g id="8"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.8" cx="162.63132314331915" cy="154.3994911738504" fill="lightgray"><title>schemapedia</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/schemapedia" target="_blank">
+          <text x="162.63132314331915" y="154.3994911738504">Schema...</text>
+      </a>
+    </g>
+    <g id="9"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="20.9" cx="404.1339515372041" cy="219.22950271539972" fill="lightgray"><title>foodpedia</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/foodpedia" target="_blank">
+          <text x="404.1339515372041" y="219.22950271539972">FOODpe...</text>
+      </a>
+    </g>
+    <g id="10"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.1" cx="457.5776510844048" cy="197.78465305370608" fill="lightgray"><title>geoecuador</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/geoecuador" target="_blank">
+          <text x="457.5776510844048" y="197.78465305370608">GeoEcu...</text>
+      </a>
+    </g>
+    <g id="11"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.2" cx="448.8603315176855" cy="254.3508137175382" fill="lightgray"><title>jrc-names-mlode</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/jrc-names-mlode" target="_blank">
+          <text x="448.8603315176855" y="254.3508137175382">JRC-Na...</text>
+      </a>
+    </g>
+    <g id="12"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.7" cx="566.5207818199833" cy="154.41949475263428" fill="lightgray"><title>opencalais</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/opencalais" target="_blank">
+          <text x="566.5207818199833" y="154.41949475263428">OpenCa...</text>
+      </a>
+    </g>
+    <g id="13"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.5" cx="395.89001062940315" cy="275.4784817353772" fill="lightgray"><title>rkb-explorer-webscience</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/rkb-explorer-webscience" target="_blank">
+          <text x="395.89001062940315" y="275.4784817353772">Web Sc...</text>
+      </a>
+    </g>
+    <g id="14"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.2" cx="601.3411923452494" cy="248.89928036440855" fill="lightgray"><title>dnb-gemeinsame-normdatei</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dnb-gemeinsame-normdatei" target="_blank">
+          <text x="601.3411923452494" y="248.89928036440855">Gemein...</text>
+      </a>
+    </g>
+    <g id="15"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.7" cx="359.41678066546" cy="183.92234177772517" fill="lightgray"><title>museums-in-italy</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/museums-in-italy" target="_blank">
+          <text x="359.41678066546" y="183.92234177772517">Italia...</text>
+      </a>
+    </g>
+    <g id="16"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="16.7" cx="431.29528997853515" cy="366.6823660334685" fill="lightgray"><title>rubentaelman</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/rubentaelman" target="_blank">
+          <text x="431.29528997853515" y="366.6823660334685">Ruben ...</text>
+      </a>
+    </g>
+    <g id="17"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.3" cx="637.4898969833157" cy="341.5711486995119" fill="lightgray"><title>npm</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/npm" target="_blank">
+          <text x="637.4898969833157" y="341.5711486995119">NPM</text>
+      </a>
+    </g>
+    <g id="18"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.6" cx="264.6161312039217" cy="485.5992307743613" fill="lightgray"><title>rubenverborgh</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/rubenverborgh" target="_blank">
+          <text x="264.6161312039217" y="485.5992307743613">Ruben ...</text>
+      </a>
+    </g>
+    <g id="19"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.4" cx="511.9311352163628" cy="176.7118731197965" fill="lightgray"><title>epa-frs</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/epa-frs" target="_blank">
+          <text x="511.9311352163628" y="176.7118731197965">EPA-FRS</text>
+      </a>
+    </g>
+    <g id="20"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.1" cx="556.9103187059939" cy="211.3707328991291" fill="lightgray"><title>epa-rcra</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/epa-rcra" target="_blank">
+          <text x="556.9103187059939" y="211.3707328991291">EPA-RCRA</text>
+      </a>
+    </g>
+    <g id="21"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.5" cx="440.2717275642185" cy="310.6591987953058" fill="lightgray"><title>ecco-tcp-linked-data</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/ecco-tcp-linked-data" target="_blank">
+          <text x="440.2717275642185" y="310.6591987953058">ECCO-T...</text>
+      </a>
+    </g>
+    <g id="22"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.5" cx="171.62207560273214" cy="96.92666607338705" fill="lightgray"><title>smartlink</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/smartlink" target="_blank">
+          <text x="171.62207560273214" y="96.92666607338705">SmartL...</text>
+      </a>
+    </g>
+    <g id="23"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.4" cx="245.98540992469208" cy="282.38767357635663" fill="lightgray"><title>iserve</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/iserve" target="_blank">
+          <text x="245.98540992469208" y="282.38767357635663">iServe...</text>
+      </a>
+    </g>
+    <g id="24"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.9" cx="502.35589647255813" cy="233.27480970916548" fill="lightgray"><title>open-data-thesaurus</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/open-data-thesaurus" target="_blank">
+          <text x="502.35589647255813" y="233.27480970916548">Open D...</text>
+      </a>
+    </g>
+    <g id="25"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="547.1518540619941" cy="268.786081208988" fill="lightgray"><title>intervalue</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/intervalue" target="_blank">
+          <text x="547.1518540619941" y="268.786081208988">interv...</text>
+      </a>
+    </g>
+    <g id="26"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.1" cx="493.44796981622346" cy="289.72204327809504" fill="lightgray"><title>linked-open-numbers</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/linked-open-numbers" target="_blank">
+          <text x="493.44796981622346" y="289.72204327809504">Linked...</text>
+      </a>
+    </g>
+    <g id="27"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.4" cx="484.78301066949666" cy="345.98429866728765" fill="lightgray"><title>linked-open-data-of-ecology</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/linked-open-data-of-ecology" target="_blank">
+          <text x="484.78301066949666" y="345.98429866728765">Linked...</text>
+      </a>
+    </g>
+    <g id="28"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.5" cx="627.112411758155" cy="399.0677995205945" fill="lightgray"><title>Suface_Forestière_Mondiale_1990-2016</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/Suface_Forestière_Mondiale_1990-2016" target="_blank">
+          <text x="627.112411758155" y="399.0677995205945">Suface...</text>
+      </a>
+    </g>
+    <g id="29"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="147.43484481799342" cy="268.1274055688967" fill="lightgray"><title>w3c</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/w3c" target="_blank">
+          <text x="147.43484481799342" y="268.1274055688967">W3C</text>
+      </a>
+    </g>
+    <g id="30"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.4" cx="582.6486863032189" cy="362.12494543014174" fill="lightgray"><title>dbkwik</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbkwik" target="_blank">
+          <text x="582.6486863032189" y="362.12494543014174">DBkWik</text>
+      </a>
+    </g>
+    <g id="31"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.3" cx="573.5859035564836" cy="419.2182297137524" fill="lightgray"><title>productontology</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/productontology" target="_blank">
+          <text x="573.5859035564836" y="419.2182297137524">Produc...</text>
+      </a>
+    </g>
+    <g id="32"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.7" cx="475.5162191384822" cy="402.20058774686004" fill="lightgray"><title>notIdentifier</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/notIdentifier" target="_blank">
+          <text x="475.5162191384822" y="402.20058774686004">NITP</text>
+      </a>
+    </g>
+    <g id="33"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.4" cx="566.4622333926604" cy="476.69625016900824" fill="lightgray"><title>NITP</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/NITP" target="_blank">
+          <text x="566.4622333926604" y="476.69625016900824">NIT Patna</text>
+      </a>
+    </g>
+    <g id="34"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.0" cx="520.1074033586002" cy="438.54633374074456" fill="lightgray"><title>copyrighttermbank</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/copyrighttermbank" target="_blank">
+          <text x="520.1074033586002" y="438.54633374074456">Copyri...</text>
+      </a>
+    </g>
+    <g id="35"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.3" cx="505.0490972315696" cy="552.4072137413548" fill="lightgray"><title>beneficiaries-of-the-european-commission</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/beneficiaries-of-the-european-commission" target="_blank">
+          <text x="505.0490972315696" y="552.4072137413548">EU: fi...</text>
+      </a>
+    </g>
+    <g id="36"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.9" cx="511.8543194765019" cy="495.1705529417477" fill="lightgray"><title>metashare</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/metashare" target="_blank">
+          <text x="511.8543194765019" y="495.1705529417477">MetaSh...</text>
+      </a>
+    </g>
+    <g id="37"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.8" cx="466.835863764472" cy="458.2390921434727" fill="lightgray"><title>linklion</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/linklion" target="_blank">
+          <text x="466.835863764472" y="458.2390921434727">LinkLi...</text>
+      </a>
+    </g>
+    <g id="38"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="20.9" cx="458.18483169889294" cy="515.0248309043554" fill="lightgray"><title>serendipity</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/serendipity" target="_blank">
+          <text x="458.18483169889294" y="515.0248309043554">Serend...</text>
+      </a>
+    </g>
+    <g id="39"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.2" cx="369.9313998125135" cy="443.3370768337334" fill="lightgray"><title>loc</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/loc" target="_blank">
+          <text x="369.9313998125135" y="443.3370768337334">Linked...</text>
+      </a>
+    </g>
+    <g id="40"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.2" cx="421.8385733623337" cy="422.284663456941" fill="lightgray"><title>opencyc</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/opencyc" target="_blank">
+          <text x="421.8385733623337" y="422.284663456941">OpenCyc</text>
+      </a>
+    </g>
+    <g id="41"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.4" cx="450.7067274324071" cy="572.4248581077088" fill="lightgray"><title>provenanceweb</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/provenanceweb" target="_blank">
+          <text x="450.7067274324071" y="572.4248581077088">proven...</text>
+      </a>
+    </g>
+    <g id="42"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.8" cx="360.8956211002325" cy="498.91003148881674" fill="#c8a788"><title>dbpedia-ja</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-ja" target="_blank">
+          <text x="360.8956211002325" y="498.91003148881674">DBpedi...</text>
+      </a>
+    </g>
+    <g id="43"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.6" cx="326.0137556540465" cy="408.3917330622286" fill="#c8a788"><title>dbpedia-el</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-el" target="_blank">
+          <text x="326.0137556540465" y="408.3917330622286">DBpedi...</text>
+      </a>
+    </g>
+    <g id="44"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.2" cx="238.58321183778563" cy="338.86918662056905" fill="#c8a788"><title>dbpedia-es</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-es" target="_blank">
+          <text x="238.58321183778563" y="338.86918662056905">DBpedi...</text>
+      </a>
+    </g>
+    <g id="45"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.1" cx="273.33980775297533" cy="429.1496927119795" fill="#c8a788"><title>dbpedia-fr</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-fr" target="_blank">
+          <text x="273.33980775297533" y="429.1496927119795">DBpedi...</text>
+      </a>
+    </g>
+    <g id="46"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.3" cx="414.01329833664715" cy="479.0002442229306" fill="lightgray"><title>rdflicense</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/rdflicense" target="_blank">
+          <text x="414.01329833664715" y="479.0002442229306">RDFLic...</text>
+      </a>
+    </g>
+    <g id="47"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="20.1" cx="635.3914109495944" cy="202.4408155999712" fill="lightgray"><title>sandrart-net</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/sandrart-net" target="_blank">
+          <text x="635.3914109495944" y="202.4408155999712">sandra...</text>
+      </a>
+    </g>
+    <g id="48"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.1" cx="405.0148024014634" cy="535.9263815269051" fill="lightgray"><title>data-gov-ie</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/data-gov-ie" target="_blank">
+          <text x="405.0148024014634" y="535.9263815269051">DataGo...</text>
+      </a>
+    </g>
+    <g id="49"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="20.0" cx="397.28867545128946" cy="593.9744543306061" fill="lightgray"><title>twc-hub</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/twc-hub" target="_blank">
+          <text x="397.28867545128946" y="593.9744543306061">Instan...</text>
+      </a>
+    </g>
+    <g id="50"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.5" cx="352.2074426494962" cy="557.6930481096365" fill="lightgray"><title>geographic-names-information-system-gnis</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/geographic-names-information-system-gnis" target="_blank">
+          <text x="352.2074426494962" y="557.6930481096365">Geogra...</text>
+      </a>
+    </g>
+    <g id="51"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.5" cx="343.8425646373528" cy="616.4442422457452" fill="lightgray"><title>meducator</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/meducator" target="_blank">
+          <text x="343.8425646373528" y="616.4442422457452">mEduca...</text>
+      </a>
+    </g>
+    <g id="52"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.2" cx="317.13818189161617" cy="464.06789487897106" fill="lightgray"><title>wordlift-io-blog-it</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/wordlift-io-blog-it" target="_blank">
+          <text x="317.13818189161617" y="464.06789487897106">WordLi...</text>
+      </a>
+    </g>
+    <g id="53"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="298.9707063249564" cy="580.1445168417906" fill="lightgray"><title>lak-dataset</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/lak-dataset" target="_blank">
+          <text x="298.9707063249564" y="580.1445168417906">Learni...</text>
+      </a>
+    </g>
+    <g id="54"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="20.7" cx="308.80655890162814" cy="520.7639871785354" fill="lightgray"><title>umbel</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/umbel" target="_blank">
+          <text x="308.80655890162814" y="520.7639871785354">UMBEL ...</text>
+      </a>
+    </g>
+    <g id="55"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="387.31613756753865" cy="331.3769978896242" fill="lightgray"><title>influence-tracker-dataset</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/influence-tracker-dataset" target="_blank">
+          <text x="387.31613756753865" y="331.3769978896242">Influe...</text>
+      </a>
+    </g>
+    <g id="56"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.1" cx="255.899489734879" cy="542.7500299641249" fill="lightgray"><title>vulnerapedia</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/vulnerapedia" target="_blank">
+          <text x="255.899489734879" y="542.7500299641249">vulner...</text>
+      </a>
+    </g>
+    <g id="57"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.9" cx="282.43285184573205" cy="373.7160915675061" fill="#c8a788"><title>dbpedia-nl</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-nl" target="_blank">
+          <text x="282.43285184573205" y="373.7160915675061">DBpedi...</text>
+      </a>
+    </g>
+    <g id="58"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.2" cx="203.28889032680402" cy="566.3124783279516" fill="lightgray"><title>brazilian-politicians</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/brazilian-politicians" target="_blank">
+          <text x="203.28889032680402" y="566.3124783279516">Brazil...</text>
+      </a>
+    </g>
+    <g id="59"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.6" cx="211.1635964980588" cy="507.44570301013295" fill="lightgray"><title>enipedia</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/enipedia" target="_blank">
+          <text x="211.1635964980588" y="507.44570301013295">Eniped...</text>
+      </a>
+    </g>
+    <g id="60"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="592.1436010525236" cy="305.50778471907773" fill="lightgray"><title>crowdsourcing-fb</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/crowdsourcing-fb" target="_blank">
+          <text x="592.1436010525236" y="305.50778471907773">crowds...</text>
+      </a>
+    </g>
+    <g id="61"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.8" cx="166.12373159672748" cy="472.17028355438566" fill="lightgray"><title>fu-berlin-eures</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/fu-berlin-eures" target="_blank">
+          <text x="166.12373159672748" y="472.17028355438566">Europe...</text>
+      </a>
+    </g>
+    <g id="62"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.1" cx="157.69363572471624" cy="529.910836173023" fill="lightgray"><title>dbpedia-commons</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-commons" target="_blank">
+          <text x="157.69363572471624" y="529.910836173023">DBpedi...</text>
+      </a>
+    </g>
+    <g id="63"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.0" cx="111.79845767337818" cy="493.8017611656456" fill="lightgray"><title>linked-drugs</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/linked-drugs" target="_blank">
+          <text x="111.79845767337818" y="493.8017611656456">Linked...</text>
+      </a>
+    </g>
+    <g id="64"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.0" cx="220.3054355370036" cy="450.6959138735527" fill="lightgray"><title>epa-srs</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/epa-srs" target="_blank">
+          <text x="220.3054355370036" y="450.6959138735527">EPA-SRS</text>
+      </a>
+    </g>
+    <g id="65"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.6" cx="120.59120841103268" cy="436.4689334496229" fill="lightgray"><title>googleart-wrapper</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/googleart-wrapper" target="_blank">
+          <text x="120.59120841103268" y="436.4689334496229">Google...</text>
+      </a>
+    </g>
+    <g id="66"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.1" cx="520.1356698451543" cy="119.04771739592977" fill="lightgray"><title>epa-tri</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/epa-tri" target="_blank">
+          <text x="520.1356698451543" y="119.04771739592977">EPA-TRI</text>
+      </a>
+    </g>
+    <g id="67"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.2" cx="229.05487000344598" cy="394.57741259488597" fill="lightgray"><title>open-election-data-project</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/open-election-data-project" target="_blank">
+          <text x="229.05487000344598" y="394.57741259488597">Open E...</text>
+      </a>
+    </g>
+    <g id="68"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.7" cx="175.61403437868094" cy="415.7483355715399" fill="lightgray"><title>uriburner</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/uriburner" target="_blank">
+          <text x="175.61403437868094" y="415.7483355715399">URIBurner</text>
+      </a>
+    </g>
+    <g id="69"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.7" cx="76.12252024869184" cy="396.87217742600876" fill="lightgray"><title>orlando-womens-writing-linked-open-data-set</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/orlando-womens-writing-linked-open-data-set" target="_blank">
+          <text x="76.12252024869184" y="396.87217742600876">The Or...</text>
+      </a>
+    </g>
+    <g id="70"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.7" cx="131.3369535248768" cy="380.16618290917165" fill="lightgray"><title>webisalod</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/webisalod" target="_blank">
+          <text x="131.3369535248768" y="380.16618290917165">WebIsALOD</text>
+      </a>
+    </g>
+    <g id="71"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.3" cx="185.00793743719794" cy="359.4026264106756" fill="lightgray"><title>eventkg</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/eventkg" target="_blank">
+          <text x="185.00793743719794" y="359.4026264106756">EventKG</text>
+      </a>
+    </g>
+    <g id="72"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.6" cx="193.45977396654143" cy="303.46702749248317" fill="lightgray"><title>thecontentwrangler-com</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/thecontentwrangler-com" target="_blank">
+          <text x="193.45977396654143" y="303.46702749248317">The Co...</text>
+      </a>
+    </g>
+    <g id="73"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.8" cx="139.75208492131867" cy="324.1948876350774" fill="lightgray"><title>whisky-circle-info</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/whisky-circle-info" target="_blank">
+          <text x="139.75208492131867" y="324.1948876350774">Whisky...</text>
+      </a>
+    </g>
+    <g id="74"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.2" cx="154.88330845492874" cy="211.63633922751436" fill="lightgray"><title>warsampo</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/warsampo" target="_blank">
+          <text x="154.88330845492874" y="211.63633922751436">WarSampo</text>
+      </a>
+    </g>
+    <g id="75"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="22.6" cx="200.46537119197342" cy="246.8817177868408" fill="lightgray"><title>muninn-world-war-i</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/muninn-world-war-i" target="_blank">
+          <text x="200.46537119197342" y="246.8817177868408">Muninn...</text>
+      </a>
+    </g>
+    <g id="76"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="290.60022494904683" cy="317.49817894061715" fill="lightgray"><title>qboairbase</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/qboairbase" target="_blank">
+          <text x="290.60022494904683" y="317.49817894061715">QBOAir...</text>
+      </a>
+    </g>
+    <g id="77"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="18.6" cx="253.68877352085417" cy="226.21894293126607" fill="lightgray"><title>austrian_ski_racers</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/austrian_ski_racers" target="_blank">
+          <text x="253.68877352085417" y="226.21894293126607">Alpine...</text>
+      </a>
+    </g>
+    <g id="78"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.0" cx="216.89071682191485" cy="133.39097223249672" fill="lightgray"><title>uberblic</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/uberblic" target="_blank">
+          <text x="216.89071682191485" y="133.39097223249672">Uberbl...</text>
+      </a>
+    </g>
+    <g id="79"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.9" cx="343.14223597583515" cy="296.64132048269767" fill="lightgray"><title>nobelprizes</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/nobelprizes" target="_blank">
+          <text x="343.14223597583515" y="296.64132048269767">Nobel ...</text>
+      </a>
+    </g>
+    <g id="80"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.2" cx="208.417915799063" cy="190.38298148661787" fill="lightgray"><title>associations</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/associations" target="_blank">
+          <text x="208.417915799063" y="190.38298148661787">associ...</text>
+      </a>
+    </g>
+    <g id="81"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.0" cx="270.0793292257637" cy="111.47615658490463" fill="lightgray"><title>temple-ov-thee-lemur-datasets</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/temple-ov-thee-lemur-datasets" target="_blank">
+          <text x="270.0793292257637" y="111.47615658490463">Temple...</text>
+      </a>
+    </g>
+    <g id="82"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="15.0" cx="298.6482188468882" cy="261.6492675412294" fill="lightgray"><title>imagesnippets</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/imagesnippets" target="_blank">
+          <text x="298.6482188468882" y="261.6492675412294">Images...</text>
+      </a>
+    </g>
+    <g id="83"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="19.7" cx="261.81721802149224" cy="169.84457520134717" fill="lightgray"><title>icane</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/icane" target="_blank">
+          <text x="261.81721802149224" y="169.84457520134717">ICANE</text>
+      </a>
+    </g>
+    <g id="84"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="21.3" cx="528.9767832966476" cy="381.91662013866454" fill="lightgray"><title>epa-cdr</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/epa-cdr" target="_blank">
+          <text x="528.9767832966476" y="381.91662013866454">EPA-CDR</text>
+      </a>
+    </g>
+    <g id="85"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.3" cx="323.7335703314569" cy="89.43434546681459" fill="#c8a788"><title>dbpedia-lite</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/dbpedia-lite" target="_blank">
+          <text x="323.7335703314569" y="89.43434546681459">dbpedi...</text>
+      </a>
+    </g>
+    <g id="86"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="23.7" cx="367.88780464355193" cy="126.5978240939429" fill="lightgray"><title>talis-openlibrary</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/talis-openlibrary" target="_blank">
+          <text x="367.88780464355193" y="126.5978240939429">Open L...</text>
+      </a>
+    </g>
+    <g id="87"
+        onmouseover="mo(this)" onmouseout="mleave(this)">
+      <circle class="node" r="24.2" cx="306.7495561997786" cy="205.4205228730791" fill="lightgray"><title>secold</title></circle>
+      <a class="bubble" href="https://lod-cloud.net/dataset/secold" target="_blank">
+          <text x="306.7495561997786" y="205.4205228730791">Source...</text>
+      </a>
+    </g>
+    <g transform="translate(20,717) scale(1)">
+      <text style="font-family: Verdana, Arial;">The Cross-Domain Linked Open Data Cloud from lod-cloud.net</text>
+    </g>
+      <g transform="translate(580, 700)">
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120"
+   height="42"
+   id="svg2759"
+   sodipodi:version="0.32"
+   inkscape:version="0.45+devel"
+   version="1.0"
+   sodipodi:docname="by.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2761" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#8b8b8b"
+     borderopacity="1"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="179"
+     inkscape:cy="89.569904"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="120px"
+     height="42px"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1198"
+     inkscape:window-height="624"
+     inkscape:window-x="396"
+     inkscape:window-y="242" />
+  <metadata
+     id="metadata2764">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.9937728,0,0,0.9936696,-177.69267,6.25128e-7)"
+       id="g260"
+       inkscape:export-filename="/mnt/hgfs/Bov/Documents/Work/2007/cc/identity/srr buttons/big/by.png"
+       inkscape:export-xdpi="300.23013"
+       inkscape:export-ydpi="300.23013">
+	<path
+   id="path3817_1_"
+   nodetypes="ccccccc"
+   d="M 181.96579,0.51074 L 296.02975,0.71338 C 297.6235,0.71338 299.04733,0.47705 299.04733,3.89404 L 298.90768,41.46093 L 179.08737,41.46093 L 179.08737,3.75439 C 179.08737,2.06934 179.25046,0.51074 181.96579,0.51074 z"
+   style="fill:#aab2ab" />
+
+	<path
+   d="M 297.29636,0 L 181.06736,0 C 179.82078,0 178.80613,1.01416 178.80613,2.26074 L 178.80613,41.75732 C 178.80613,42.03906 179.03513,42.26757 179.31687,42.26757 L 299.04734,42.26757 C 299.32908,42.26757 299.55808,42.03905 299.55808,41.75732 L 299.55808,2.26074 C 299.55807,1.01416 298.54343,0 297.29636,0 z M 181.06735,1.02148 L 297.29635,1.02148 C 297.98043,1.02148 298.53658,1.57714 298.53658,2.26074 C 298.53658,2.26074 298.53658,18.20898 298.53658,29.71045 L 215.19234,29.71045 C 212.14742,35.21631 206.28121,38.95459 199.54879,38.95459 C 192.81344,38.95459 186.94869,35.21973 183.90524,29.71045 L 179.8276,29.71045 C 179.8276,18.20899 179.8276,2.26074 179.8276,2.26074 C 179.82761,1.57715 180.38376,1.02148 181.06735,1.02148 z"
+   id="path263" />
+
+	<g
+   enable-background="new    "
+   id="g265">
+		<path
+   d="M 253.07761,32.95605 C 253.39499,32.95605 253.68503,32.98437 253.94773,33.04003 C 254.20945,33.09569 254.43308,33.18749 254.62058,33.31542 C 254.8071,33.44237 254.95261,33.6123 255.05515,33.82323 C 255.15769,34.03514 255.20945,34.29589 255.20945,34.60741 C 255.20945,34.94335 255.13328,35.22264 254.97996,35.44628 C 254.82762,35.67089 254.60105,35.85351 254.30223,35.99706 C 254.71434,36.11522 255.02196,36.32226 255.22508,36.61815 C 255.4282,36.91404 255.52977,37.27049 255.52977,37.68749 C 255.52977,38.02343 255.46434,38.31444 255.33348,38.56054 C 255.20262,38.80566 255.02586,39.00683 254.80516,39.1621 C 254.58348,39.31835 254.33055,39.43358 254.04735,39.5078 C 253.76317,39.583 253.47215,39.6201 253.17235,39.6201 L 249.936,39.6201 L 249.936,32.95604 L 253.07761,32.95604 L 253.07761,32.95605 z M 252.89011,35.65137 C 253.15183,35.65137 253.36667,35.58887 253.53562,35.46485 C 253.70359,35.34083 253.78757,35.13965 253.78757,34.86036 C 253.78757,34.70509 253.75925,34.57716 253.70359,34.47852 C 253.64695,34.37891 253.57273,34.30176 253.47898,34.24512 C 253.38523,34.18946 253.27781,34.15039 253.15671,34.12891 C 253.03561,34.10743 252.90866,34.09668 252.77878,34.09668 L 251.40476,34.09668 L 251.40476,35.65137 L 252.89011,35.65137 z M 252.97604,38.47949 C 253.11959,38.47949 253.25631,38.46582 253.38717,38.4375 C 253.51803,38.40918 253.63326,38.3623 253.73385,38.29785 C 253.83346,38.23242 253.91256,38.14355 253.97213,38.03125 C 254.0317,37.91992 254.061,37.77637 254.061,37.60254 C 254.061,37.26074 253.96432,37.0166 253.77096,36.87012 C 253.5776,36.72461 253.32174,36.65137 253.00436,36.65137 L 251.40475,36.65137 L 251.40475,38.47949 L 252.97604,38.47949 z"
+   id="path267"
+   style="fill:#ffffff" />
+
+		<path
+   d="M 255.78854,32.95605 L 257.43209,32.95605 L 258.99264,35.58789 L 260.54342,32.95605 L 262.17721,32.95605 L 259.70358,37.0625 L 259.70358,39.62012 L 258.23483,39.62012 L 258.23483,37.02539 L 255.78854,32.95605 z"
+   id="path269"
+   style="fill:#ffffff" />
+
+	</g>
+
+	<g
+   id="g5908_1_"
+   transform="matrix(0.872921,0,0,0.872921,50.12536,143.2144)">
+		
+			<path
+   id="path5906_1_"
+   cx="296.35416"
+   ry="22.939548"
+   cy="264.3577"
+   type="arc"
+   rx="22.939548"
+   d="M 186.90065,-141.46002 C 186.90623,-132.77923 179.87279,-125.73852 171.19257,-125.73291 C 162.51235,-125.72736 155.47051,-132.76025 155.46547,-141.44098 C 155.46547,-141.44714 155.46547,-141.45331 155.46547,-141.46002 C 155.46043,-150.14081 162.49333,-157.18152 171.17355,-157.18658 C 179.8549,-157.19213 186.89561,-150.15924 186.90065,-141.47845 C 186.90065,-141.4729 186.90065,-141.46619 186.90065,-141.46002 z"
+   style="fill:#ffffff" />
+
+		<g
+   id="g5706_1_"
+   transform="translate(-289.6157,99.0653)">
+			<path
+   id="path5708_1_"
+   d="M 473.57574,-253.32751 C 477.06115,-249.8421 478.80413,-245.5736 478.80413,-240.52532 C 478.80413,-235.47594 477.09136,-231.25329 473.66582,-227.85741 C 470.03051,-224.28081 465.734,-222.49309 460.77635,-222.49309 C 455.87858,-222.49309 451.65648,-224.26628 448.11122,-227.81261 C 444.56541,-231.35845 442.79277,-235.59563 442.79277,-240.52532 C 442.79277,-245.45391 444.56541,-249.7213 448.11122,-253.32751 C 451.56642,-256.81402 455.7885,-258.557 460.77635,-258.557 C 465.82465,-258.55701 470.09039,-256.81403 473.57574,-253.32751 z M 450.45776,-250.98267 C 447.51104,-248.00629 446.03823,-244.51978 446.03823,-240.52033 C 446.03823,-236.52198 447.49651,-233.06507 450.41247,-230.14966 C 453.32897,-227.23316 456.80096,-225.77545 460.82952,-225.77545 C 464.85808,-225.77545 468.35967,-227.24768 471.33605,-230.19385 C 474.16198,-232.9303 475.57549,-236.37091 475.57549,-240.52033 C 475.57549,-244.63837 474.13903,-248.13379 471.26781,-251.00501 C 468.39714,-253.87568 464.9179,-255.31159 460.82952,-255.31159 C 456.74112,-255.31158 453.28314,-253.86841 450.45776,-250.98267 z M 458.21225,-242.27948 C 457.76196,-243.26117 457.08795,-243.75232 456.18903,-243.75232 C 454.59986,-243.75232 453.80558,-242.68225 453.80558,-240.54321 C 453.80558,-238.40368 454.59986,-237.33471 456.18903,-237.33471 C 457.23841,-237.33471 457.98795,-237.85546 458.43769,-238.89922 L 460.64045,-237.72625 C 459.59052,-235.86077 458.01536,-234.92779 455.91496,-234.92779 C 454.29506,-234.92779 452.99733,-235.42449 452.0229,-236.4168 C 451.0468,-237.41021 450.56016,-238.77953 450.56016,-240.52532 C 450.56016,-242.24035 451.06245,-243.60186 452.06764,-244.61034 C 453.07283,-245.61888 454.32466,-246.12291 455.82545,-246.12291 C 458.04557,-246.12291 459.63526,-245.24803 460.59626,-243.50005 L 458.21225,-242.27948 z M 468.57562,-242.27948 C 468.12475,-243.26117 467.46417,-243.75232 466.5932,-243.75232 C 464.97217,-243.75232 464.16107,-242.68225 464.16107,-240.54321 C 464.16107,-238.40368 464.97217,-237.33471 466.5932,-237.33471 C 467.64429,-237.33471 468.38037,-237.85546 468.80048,-238.89922 L 471.05249,-237.72625 C 470.00421,-235.86077 468.43127,-234.92779 466.33478,-234.92779 C 464.7171,-234.92779 463.42218,-235.42449 462.44831,-236.4168 C 461.47614,-237.41021 460.98896,-238.77953 460.98896,-240.52532 C 460.98896,-242.24035 461.48341,-243.60186 462.47181,-244.61034 C 463.45966,-245.61888 464.71711,-246.12291 466.24531,-246.12291 C 468.4615,-246.12291 470.04896,-245.24803 471.0066,-243.50005 L 468.57562,-242.27948 z" />
+
+		</g>
+
+	</g>
+
+	<g
+   id="g275">
+		<circle
+   cx="255.55124"
+   cy="15.31348"
+   r="10.80664"
+   id="circle277"
+   sodipodi:cx="255.55124"
+   sodipodi:cy="15.31348"
+   sodipodi:rx="10.80664"
+   sodipodi:ry="10.80664"
+   style="fill:#ffffff" />
+
+		<g
+   id="g279">
+			<path
+   d="M 258.67819,12.18701 C 258.67819,11.77051 258.3403,11.4331 257.92526,11.4331 L 253.15182,11.4331 C 252.73678,11.4331 252.39889,11.7705 252.39889,12.18701 L 252.39889,16.95996 L 253.72994,16.95996 L 253.72994,22.61182 L 257.34713,22.61182 L 257.34713,16.95996 L 258.67818,16.95996 L 258.67818,12.18701 L 258.67819,12.18701 z"
+   id="path281" />
+
+			<circle
+   cx="255.53854"
+   cy="9.1723604"
+   r="1.63281"
+   id="circle283"
+   sodipodi:cx="255.53854"
+   sodipodi:cy="9.1723604"
+   sodipodi:rx="1.63281"
+   sodipodi:ry="1.63281" />
+
+		</g>
+
+		<path
+   clip-rule="evenodd"
+   d="M 255.5239,3.40723 C 252.29148,3.40723 249.55515,4.53516 247.31589,6.79102 C 245.01804,9.12452 243.8696,11.88672 243.8696,15.07569 C 243.8696,18.26466 245.01804,21.00733 247.31589,23.30225 C 249.61374,25.59668 252.35007,26.74414 255.5239,26.74414 C 258.73679,26.74414 261.52195,25.58789 263.87742,23.27295 C 266.09715,21.07568 267.2075,18.34326 267.2075,15.07568 C 267.2075,11.8081 266.07762,9.04687 263.8198,6.79101 C 261.56003,4.53516 258.79538,3.40723 255.5239,3.40723 z M 255.55319,5.50684 C 258.20163,5.50684 260.45065,6.44092 262.30026,8.30811 C 264.1694,10.15528 265.10397,12.41114 265.10397,15.07569 C 265.10397,17.75928 264.18893,19.98633 262.35885,21.75587 C 260.43014,23.66212 258.16256,24.61476 255.55319,24.61476 C 252.94284,24.61476 250.69381,23.67189 248.80612,21.78517 C 246.91647,19.89845 245.97311,17.66212 245.97311,15.0757 C 245.97311,12.48879 246.92721,10.23341 248.83541,8.30812 C 250.6655,6.44092 252.90475,5.50684 255.55319,5.50684 z"
+   id="path285"
+   style="fill-rule:evenodd" />
+
+	</g>
+
+</g>
+  </g>
+</svg>
+
+      </g>
+  </g>
+</svg>
