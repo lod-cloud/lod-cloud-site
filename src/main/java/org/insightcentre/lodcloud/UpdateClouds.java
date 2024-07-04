@@ -64,6 +64,8 @@ public class UpdateClouds extends HttpServlet {
           newTemplate.append("\n");
           newIndex.append(line);
           newIndex.append("\n");
+          newIndex.append(toInsert);
+          newIndex.append("\n");
         } else {
           newTemplate.append(line);
           newTemplate.append("\n");
@@ -336,7 +338,7 @@ public class UpdateClouds extends HttpServlet {
     addFileToGitHub(repo, new File("clouds/user-generated-lod.png"), "src/main/webapp/versions/" + date + "/user-generated-lod.png", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/user-generated-lod.svg"), "src/main/webapp/versions/" + date + "/user-generated-lod.svg", branch, ghToken);
     addFileToGitHub(repo, new File("clouds/lod-cloud-sm.jpg"),
-        "src/main/webapp/" + date + "/lod-cloud-sm.jpg", branch, ghToken);
+        "src/main/webapp/versions/" + date + "/lod-cloud-sm.jpg", branch, ghToken);
 
     addFileToGitHub(repo, new File("lod-data.json"), "src/main/webapp/versions/" + date + "/lod-data.json", branch, ghToken);
 
