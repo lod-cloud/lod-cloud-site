@@ -14,6 +14,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.insightcentre.lodcloud.GenerateClouds;
 
 /**
  *
@@ -98,5 +99,18 @@ public class LODCloudServletTest {
         assertEquals(false, instance.validate_json(doc2));
     }
 
+    @Test
+    public void testSvg2Jpg() {
+        System.out.println("svg2jpeg");
+        String svg = "clouds/lod-cloud.svg";
+        String jpg = "clouds/lod-cloud-sm.jpg";
+        int width = 2648;
+        try {
+            GenerateClouds.svg2jpeg(svg, jpg, width);
+        } catch (Exception x) {
+            fail(x.getMessage());
+        }
+        assertTrue(new java.io.File(jpg).exists());
+    }
     
 }

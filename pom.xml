@@ -58,7 +58,7 @@
         <dependency>
             <groupId>org.apache.jena</groupId>
             <artifactId>jena-arq</artifactId>
-            <version>3.9.0</version>
+            <version>4.2.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.oauth-client/google-oauth-client -->
         <dependency>

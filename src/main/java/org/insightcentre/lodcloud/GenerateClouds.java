@@ -65,6 +65,7 @@ public class GenerateClouds {
     OutputStream pngOstream = new FileOutputStream(jpegFile);
     TranscoderOutput outputPngImage = new TranscoderOutput(pngOstream);              
     JPEGTranscoder transcoder = new JPEGTranscoder();
+    //transcoder.addTranscodingHint(JPEGTranscoder.KEY_QUALITY, 0.8);
     transcoder.addTranscodingHint(ImageTranscoder.KEY_BACKGROUND_COLOR, Color.WHITE);
     transcoder.addTranscodingHint(PNGTranscoder.KEY_WIDTH, (Float)width);
     transcoder.transcode(inputSvgImage, outputPngImage);

@@ -7,6 +7,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.HashMap;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -41,23 +42,23 @@ public class RDFView extends HttpServlet {
         
         ds_node.addProperty(RDF.type, VOID.Dataset);
         ds_node.addProperty(DCTerms.title, model.createLiteral(document.get("title", ""), "en"));
-        for(Map.Entry<String,Object> e : document.get("description", new Document()).entrySet()) {
+        for(Map.Entry<String,Object> e : document.get("description", new HashMap<String, Object>()).entrySet()) {
             ds_node.addProperty(DCTerms.description, model.createLiteral(
                     e.getValue() != null ? e.getValue().toString() : "", e.getKey()));
         }
-        for(Document d : document.get("full_download", new ArrayList<Document>())) {
-            ds_node.addProperty(VOID.dataDump, mkUri(model, d.get("download_url", "")));
+        for(Map<String, Object> d : document.get("full_download", new ArrayList<Map<String, Object>>())) {
+            ds_node.addProperty(VOID.dataDump, mkUri(model, d.getOrDefault("download_url", "").toString()));
         }
-        for(Document d : document.get("sparql", new ArrayList<Document>())) {
-            ds_node.addProperty(VOID.sparqlEndpoint, mkUri(model, d.get("access_url", "")));
+        for(Map<String, Object> d : document.get("sparql", new ArrayList<Map<String, Object>>())) {
+            ds_node.addProperty(VOID.sparqlEndpoint, mkUri(model, d.getOrDefault("access_url", "").toString()));
         }
-        for(Document d : document.get("example", new ArrayList<Document>())) {
-            ds_node.addProperty(VOID.exampleResource, mkUri(model, d.get("access_url", "")));
+        for(Map<String, Object> d : document.get("example", new ArrayList<Map<String, Object>>())) {
+            ds_node.addProperty(VOID.exampleResource, mkUri(model, d.getOrDefault("access_url", "").toString()));
         }
-        for(Document d : document.get("other_download", new ArrayList<Document>())) {
+        for(Map<String, Object> d : document.get("other_download", new ArrayList<Map<String, Object>>())) {
             Resource b = model.createResource();
             ds_node.addProperty(DCAT.distribution, b);
-            b.addProperty(DCAT.accessURL, mkUri(model, d.get("access_url", "")));
+            b.addProperty(DCAT.accessURL, mkUri(model, d.getOrDefault("access_url", "").toString()));
         }
         for(String keyword : document.get("keywords", new ArrayList<String>())) {
             ds_node.addProperty(DCTerms.subject, model.createLiteral(keyword));
