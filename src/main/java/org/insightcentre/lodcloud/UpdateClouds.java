@@ -254,8 +254,7 @@ public class UpdateClouds extends HttpServlet {
     List<Map<String, Object>> branches = new ObjectMapper().readValue(conn.getInputStream(), new TypeReference<List<Map<String, Object>>>(){});
     for(Map<String, Object> b : branches) {
       if(b.get("name").toString().matches("\\d{4}-\\d{2}-\\d{2}")) {
-        System.err.println(b.get("name"));
-        Date d = new SimpleDateFormat("YYYY-MM-dd").parse(b.get("name").toString());
+        Date d = new SimpleDateFormat("yyyy-MM-dd").parse(b.get("name").toString());
         if(date == null || d.after(date)) {
           date = d;
         }
