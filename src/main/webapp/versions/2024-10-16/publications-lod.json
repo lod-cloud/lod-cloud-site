@@ -1,0 +1,22 @@
+{
+    "legend": [
+        {
+            "title": "Bibliographic",
+            "keywords": ["bibliographic","bibliographic data"],
+            "colour": "#c9a281"
+        },
+        {
+            "title": "Other",
+            "keywords": [],
+            "colour": "#bcb582"
+        }
+    ],
+    "fixed_points": {},
+    "selection": "domain",
+    "selected": "publications",
+    "datasets": ["dbpedia"],
+    "rights_text": "The Publications Linked Open Data Cloud from lod-cloud.net"
+
+}
+        
+            
