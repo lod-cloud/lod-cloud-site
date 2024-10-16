@@ -388,9 +388,12 @@ public class UpdateClouds extends HttpServlet {
     }
     try {
       Date lastUpdate = getLatestDateFromGitHub("lod-cloud/lod-cloud-site");
-      if(new Date().getTime() - lastUpdate.getTime() > 30 * 24 * 60 * 60 * 1000 &&
+      System.err.println("LAST UPDATE: " + lastUpdate);
+      System.err.println("LAST TRIGGERED UPDATE: " + lastTriggeredUpdate);
+      System.err.println("NOW: " + new Date());
+      if(new Date().getTime() - lastUpdate.getTime() > 30L * 24L * 60L * 60L * 1000L &&
         (lastTriggeredUpdate == null ||
-              new Date().getTime() - lastTriggeredUpdate.getTime() > 30 * 24 * 60 * 60 * 1000)) {
+              new Date().getTime() - lastTriggeredUpdate.getTime() > 30L * 24L * 60L * 60L * 1000L)) {
           lastTriggeredUpdate = new Date();
         new Thread(new Runnable() {
           public void run() {

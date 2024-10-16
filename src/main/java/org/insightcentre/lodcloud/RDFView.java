@@ -74,22 +74,22 @@ public class RDFView extends HttpServlet {
         if(document.containsKey("contact_point")) {
             Resource b = model.createResource();
             ds_node.addProperty(DCTerms.publisher, b);
-            Document cp = document.get("contact_point", new Document());
+            HashMap<String, String> cp = document.get("contact_point", new HashMap<String, String>());
             if(cp.containsKey("name")) {
-                b.addProperty(RDFS.label, model.createLiteral(cp.get("name","")));
+                b.addProperty(RDFS.label, model.createLiteral(cp.getOrDefault("name","")));
             }
             if(cp.containsKey("email")) {
                 b.addProperty(model.createProperty(FOAF, "mbox"),
-                        model.createLiteral(cp.get("email","")));
+                        model.createLiteral(cp.getOrDefault("email","")));
                 
             }
         }
-        for(Document l : document.get("links", new ArrayList<Document>())) {
+        for(HashMap<String, String> l : document.get("links", new ArrayList<HashMap<String, String>>())) {
             Resource b = model.createResource();
             b.addProperty(VOID.target, ds_node);
-            Resource targ = model.createResource("http://lod-cloud.net/dataset/" + l.get("target", ""));
+            Resource targ = model.createResource("http://lod-cloud.net/dataset/" + l.getOrDefault("target", ""));
             b.addProperty(VOID.target, targ);
-            b.addProperty(VOID.triples, model.createTypedLiteral(l.get("value", ""), XSD.integer.getURI()));
+            b.addProperty(VOID.triples, model.createTypedLiteral(l.getOrDefault("value", ""), XSD.integer.getURI()));
         }
         if(document.containsKey("triples")) {
             Object o = document.get("triples");

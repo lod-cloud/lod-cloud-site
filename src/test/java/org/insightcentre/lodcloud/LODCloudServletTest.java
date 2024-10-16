@@ -15,6 +15,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.insightcentre.lodcloud.GenerateClouds;
+import java.util.Date;
 
 /**
  *
@@ -113,4 +114,10 @@ public class LODCloudServletTest {
         assertTrue(new java.io.File(jpg).exists());
     }
     
+    //@Test
+    //public void testDateCheck() throws Exception {
+    //    Date d = UpdateClouds.getLatestDateFromGitHub("lod-cloud/lod-cloud-site");
+    //    System.err.println(d);
+    //    assertTrue(d == null);
+    //}
 }
