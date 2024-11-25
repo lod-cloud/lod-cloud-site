@@ -251,45 +251,45 @@
 
     <table class="versions">
       <tr>
-        <td></td><th style="text-align: center" colspan="3">White</th><th style="text-align: center" colspan="3">Colored</th><th>Graph file</th><th> &nbsp;Dataset list &nbsp;</th><th> &nbsp;Datasets</th>
+        <td></td><th style="text-align: center" colspan="3">White</th><th style="text-align: center" colspan="3">Colored</th><th>Graph file</th><th> &nbsp;Datasets</th>
       </tr>
       <!--TABLE-->
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-11-24">2024-11-24</th>
-<td></td>
-<a href="versions/2024-11-24/lod-cloud.png">png</a></td>
+<td colspan="3"></td>
+<td colspan="2"><a href="versions/2024-11-24/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-11-24/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-11-24/lod-data.json">json</a></td>
 <td class="dataset-count">1349</td></tr>
 
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-10-25">2024-10-25</th>
-<td></td>
-<a href="versions/2024-10-25/lod-cloud.png">png</a></td>
+<td colspan="3"></td>
+<td colspan="2"><a href="versions/2024-10-25/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-10-25/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-10-25/lod-data.json">json</a></td>
 <td class="dataset-count">1349</td></tr>
 
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-09-26">2024-09-26</th>
-<td></td>
-<a href="versions/2024-09-26/lod-cloud.png">png</a></td>
+<td colspan="3"></td>
+<td colspan="2"><a href="versions/2024-09-26/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-09-26/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-09-26/lod-data.json">json</a></td>
 <td class="dataset-count">1346</td></tr>
 
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-08-25">2024-08-25</th>
-<td></td>
-<a href="versions/2024-08-25/lod-cloud.png">png</a></td>
+<td colspan="3"></td>
+<td colspan="2"><a href="versions/2024-08-25/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-08-25/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-08-25/lod-data.json">json</a></td>
 <td class="dataset-count">1346</td></tr>
 
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-07-04">2024-07-04</th>
-<td></td>
-<a href="versions/2024-07-04/lod-cloud.png">png</a></td>
+<td colspan="3"></td>
+<td colspan="2"><a href="versions/2024-07-04/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-07-04/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-07-04/lod-data.json">json</a></td>
 <td class="dataset-count">1345</td></tr>
@@ -297,133 +297,133 @@
 
         <tr typeof="dctype:Image" about="#cloud", property="dc:title" content="LOD cloud diagram">
             <th property="dc:modified" datatype="xsd:date" content="2023-09-03">2023-09-03</th>
-            <td></td>
-            <td><a href="versions/2023-09-03/lod-cloud.png">png</a></td><td>
+            <td colspan="3"></td>
+            <td colspan="2"><a href="versions/2023-09-03/lod-cloud.png">png</a></td><td>
             </td><td><a href="versions/2023-09-03/lod-cloud.svg">svg</a></td>
             <td><a href="versions/2023-09-03/lod-data.json">json</a></td>
             <td class="dataset-count">1314</td>
         </tr>
         <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
             <th property="dc:modified" datatype="xsd:date" content="2022-11-03">2022-11-03</th>
-            <td></td>
-            <td><a href="versions/2022-11-03/lod-cloud.png">png</a></td>
+            <td colspan="3"></td>
+            <td colspan="2"><a href="versions/2022-11-03/lod-cloud.png">png</a></td>
             <td><a href="versions/2022-11-03/lod-cloud.svg">svg</a></td>
             <td><a href="versions/2022-11-03/lod-data.json">json</a></td>
             <td class="dataset-count">1268</td>
         </tr>
       <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2020-05-20">2020-05-20</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2020-05-20/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2020-05-20/lod-cloud.png">png</a></td>
         <td><a href="versions/2020-05-20/lod-cloud.svg">svg</a></td>
         <td><a href="versions/2020-05-20/lod-data.json">json</a></td>
         <td class="dataset-count">1,255</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2019-03-29">2019-03-29</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2019-03-29/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2019-03-29/lod-cloud.png">png</a></td>
         <td><a href="versions/2019-03-29/lod-cloud.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,239</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2019-01-08">2019-01-08</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2019-01-08/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2019-01-08/lod-cloud.png">png</a></td>
         <td><a href="versions/2019-01-08/lod-cloud.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,234</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2018-11-26">2018-11-26</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2018-11-26/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2018-11-26/lod-cloud.png">png</a></td>
         <td><a href="versions/2018-11-26/lod-cloud.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,231</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2018-10-31">2018-10-31</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2018-10-31/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2018-10-31/lod-cloud.png">png</a></td>
         <td><a href="versions/2018-10-31/lod-cloud.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,229</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2018-08-28">2018-08-28</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2018-08-28/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2018-08-28/lod-cloud.png">png</a></td>
         <td><a href="versions/2018-08-28/lod-cloud.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,224</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2018-07-30">2018-07-30</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2018-07-30/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2018-07-30/lod-cloud.png">png</a></td>
         <td><a href="versions/2018-07-30/lod-cloud.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,220</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2018-06-28">2018-06-28</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2018-28-06/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2018-28-06/lod-cloud.png">png</a></td>
         <td><a href="versions/2018-28-06/lod-cloud.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,205</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2018-05-30">2018-05-30</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2018-30-05/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2018-30-05/lod-cloud.png">png</a></td>
         <td><a href="versions/2018-30-05/lod-cloud.svg">svg</a></td>
         <td><a href="versions/2018-30-05/lod-data.json">json</a></td>
         <td class="dataset-count">1,186</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2018-04-30">2018-04-30</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2018-30-04/lod-cloud.png">png</a></td>
+        <td colspan="2"><a href="versions/2018-30-04/lod-cloud.png">png</a></td>
         <td><a href="versions/2018-30-04/lod-cloud.svg">svg</a></td>
         <td><a href="versions/2018-30-04/lod-data.json">json</a></td>
         <td class="dataset-count">1,184</td>
       </tr>
        <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2017-08-22">2017-08-22</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2017-08-22/lod.png">png</a></td>
+        <td colspan="2"><a href="versions/2017-08-22/lod.png">png</a></td>
         <td><a href="versions/2017-08-22/lod.svg">svg</a></td>
         <td><a href="versions/2017-08-22/graphFile22-08-2017.json">json</a></td>
         <td class="dataset-count">1,163</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2017-02-20">2017-02-20</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2017-02-20/lod.png">png</a></td>
+        <td colspan="2"><a href="versions/2017-02-20/lod.png">png</a></td>
         <td><a href="versions/2017-02-20/lod.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,139</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
         <th property="dc:modified" datatype="xsd:date" content="2017-01-26">2017-01-26</th>
-        <td></td>
+        <td colspan="3"></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td><a href="versions/2017-01-26/cloudImage2017.png">png</a></td>
+        <td colspan="2"><a href="versions/2017-01-26/cloudImage2017.png">png</a></td>
         <td><a href="versions/2017-01-26/cloudImage2017.svg">svg</a></td>
         <td></td>
         <td class="dataset-count">1,146</td>
@@ -438,7 +438,6 @@
         <td><a href="versions/2014-08-30/lod-cloud_colored.pdf"><span>pdf</span></a></td>
         <td><a href="versions/2014-08-30/lod-cloud_colored.svg"><span>svg</span></a></td>
         <td></td>
-        <td></td>
         <td class="dataset-count">570</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud_2011-09-19" property="dc:title" content="LOD cloud diagram, version 2011-09-19">
@@ -450,7 +449,6 @@
         <td><a href="versions/2011-09-19/lod-cloud_colored.png"><span>png</span></a></td>
         <td><a href="versions/2011-09-19/lod-cloud_colored.pdf"><span>pdf</span></a></td>
         <td><a href="versions/2011-09-19/lod-cloud_colored.svg"><span>svg</span></a></td>
-        <td></td>
         <td></td>
         <td class="dataset-count">295</td>
       </tr>
@@ -464,7 +462,6 @@
         <td><a href="versions/2010-09-22/lod-cloud_colored.pdf"><span>pdf</span></a></td>
         <td><a href="versions/2010-09-22/lod-cloud_colored.svg"><span>svg</span></a></td>
         <td></td>
-        <td></td>
         <td class="dataset-count">203</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud_2009-07-14" property="dc:title" content="LOD cloud diagram, version 2009-07-14">
@@ -473,7 +470,6 @@
         <td><a rel="dc:hasFormat" href="versions/2009-07-14/lod-cloud.pdf"><span property="dc:format" content="application/pdf">pdf</span></a></td>
         <td><a rel="dc:hasFormat" href="versions/2009-07-14/lod-cloud.svg"><span property="dc:format" content="image/svg+xml">svg</span></a></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -490,7 +486,6 @@
         <td><a href="versions/2009-03-27/lod-cloud_colored.pdf"><span>pdf</span></a></td>
         <td><a href="versions/2009-03-27/lod-cloud_colored.svg"><span>svg</span></a></td>
         <td></td>
-        <td></td>
         <td class="dataset-count">93</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud_2009-03-05" property="dc:title" content="LOD cloud diagram, version 2009-03-05">
@@ -503,7 +498,6 @@
         <td><a href="versions/2009-03-05/lod-cloud_colored.pdf"><span>pdf</span></a></td>
         <td><a href="versions/2009-03-05/lod-cloud_colored.svg"><span>svg</span></a></td>
         <td></td>
-        <td></td>
         <td class="dataset-count">89</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud_2008-09-18" property="dc:title" content="LOD cloud diagram, version 2008-09-18">
@@ -512,7 +506,6 @@
         <td><a rel="dc:hasFormat" href="versions/2008-09-18/lod-cloud.pdf"><span property="dc:format" content="application/pdf">pdf</span></a></td>
         <td><a rel="dc:hasFormat" href="versions/2008-09-18/lod-cloud.svg"><span property="dc:format" content="image/svg+xml">svg</span></a></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -529,7 +522,6 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
         <td class="dataset-count">34</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud_2008-02-28" property="dc:title" content="LOD cloud diagram, version 2008-02-28">
@@ -538,7 +530,6 @@
         <td><a rel="dc:hasFormat" href="versions/2008-02-28/lod-cloud.pdf"><span property="dc:format" content="application/pdf">pdf</span></a></td>
         <td><a rel="dc:hasFormat" href="versions/2008-02-28/lod-cloud.svg"><span property="dc:format" content="image/svg+xml">svg</span></a></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -555,7 +546,6 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
         <td class="dataset-count">28</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud_2007-11-07" property="dc:title" content="LOD cloud diagram, version 2007-11-07">
@@ -564,7 +554,6 @@
         <td></td>
         <td></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -581,7 +570,6 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
         <td class="dataset-count">25</td>
       </tr>
       <tr typeof="dctype:Image" about="#cloud_2007-05-01" property="dc:title" content="LOD cloud diagram, version 2007-05-01">
@@ -590,7 +578,6 @@
         <td></td>
         <td></td>
         <!-- TODO RDFa markup for the colored versions -->
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
