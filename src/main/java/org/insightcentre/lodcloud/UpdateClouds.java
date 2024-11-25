@@ -51,12 +51,11 @@ public class UpdateClouds extends HttpServlet {
         } else if(line.contains("--TABLE--")) {
           String toInsert = "<tr typeof=\"dctype:Image\" about=\"#cloud\" property=\"dc:title\" content=\"LOD cloud diagram\">\n"
             + "<th property=\"dc:modified\" datatype=\"xsd:date\" content=\"" + date + "\">" + date + "</th>\n" 
-            + "<td></td><td></td><td></td><td>\n"
+            + "<td></td>\n"
             + "<a href=\"versions/" + date + "/lod-cloud.png\">png</a></td>\n" 
-            + "<td></td>\n" 
             + "<td><a href=\"versions/" + date + "/lod-cloud.svg\">svg</a></td>\n"
             + "<td><a href=\"versions/" + date + "/lod-data.json\">json</a></td>\n" 
-            + "<td></td><td class=\"dataset-count\">" + dataset + "</td></tr>\n";
+            + "<td class=\"dataset-count\">" + dataset + "</td></tr>\n";
 
           newTemplate.append(line);
           newTemplate.append("\n");

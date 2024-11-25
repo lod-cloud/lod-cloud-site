@@ -256,30 +256,27 @@
       <!--TABLE-->
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-11-24">2024-11-24</th>
-<td></td><td></td><td></td><td>
-<a href="versions/2024-11-24/lod-cloud.png">png</a></td>
 <td></td>
+<a href="versions/2024-11-24/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-11-24/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-11-24/lod-data.json">json</a></td>
-<td></td><td class="dataset-count">1349</td></tr>
+<td class="dataset-count">1349</td></tr>
 
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-10-25">2024-10-25</th>
-<td></td><td></td><td></td><td>
-<a href="versions/2024-10-25/lod-cloud.png">png</a></td>
 <td></td>
+<a href="versions/2024-10-25/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-10-25/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-10-25/lod-data.json">json</a></td>
-<td></td><td class="dataset-count">1349</td></tr>
+<td class="dataset-count">1349</td></tr>
 
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-09-26">2024-09-26</th>
-<td></td><td></td><td></td><td>
-<a href="versions/2024-09-26/lod-cloud.png">png</a></td>
 <td></td>
+<a href="versions/2024-09-26/lod-cloud.png">png</a></td>
 <td><a href="versions/2024-09-26/lod-cloud.svg">svg</a></td>
 <td><a href="versions/2024-09-26/lod-data.json">json</a></td>
-<td></td><td class="dataset-count">1346</td></tr>
+<td class="dataset-count">1346</td></tr>
 
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 <th property="dc:modified" datatype="xsd:date" content="2024-08-25">2024-08-25</th>
