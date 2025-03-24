@@ -1,0 +1,466 @@
+[
+  {
+    "name": "2007-05-01",
+    "path": "src/main/webapp/versions/2007-05-01",
+    "sha": "3d6a6bf98038d0c730793e52024efac794cce1a2",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-05-01?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-05-01",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/3d6a6bf98038d0c730793e52024efac794cce1a2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-05-01?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/3d6a6bf98038d0c730793e52024efac794cce1a2",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-05-01"
+    }
+  },
+  {
+    "name": "2007-10-08",
+    "path": "src/main/webapp/versions/2007-10-08",
+    "sha": "58bd2af17a592b6be71ce10467e3527a780d32cf",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-10-08?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-10-08",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/58bd2af17a592b6be71ce10467e3527a780d32cf",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-10-08?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/58bd2af17a592b6be71ce10467e3527a780d32cf",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-10-08"
+    }
+  },
+  {
+    "name": "2007-11-07",
+    "path": "src/main/webapp/versions/2007-11-07",
+    "sha": "ff900a24e3b0584e99c3477eecf434e233e7cbd1",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-11-07?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-11-07",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/ff900a24e3b0584e99c3477eecf434e233e7cbd1",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-11-07?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/ff900a24e3b0584e99c3477eecf434e233e7cbd1",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-11-07"
+    }
+  },
+  {
+    "name": "2007-11-10",
+    "path": "src/main/webapp/versions/2007-11-10",
+    "sha": "fe1bcac850d3918d61e5b7be9ca3f7c9fb8b233a",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-11-10?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-11-10",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/fe1bcac850d3918d61e5b7be9ca3f7c9fb8b233a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2007-11-10?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/fe1bcac850d3918d61e5b7be9ca3f7c9fb8b233a",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2007-11-10"
+    }
+  },
+  {
+    "name": "2008-02-28",
+    "path": "src/main/webapp/versions/2008-02-28",
+    "sha": "110691d595e0d5489e27f9b0686577c0581141a2",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2008-02-28?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2008-02-28",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/110691d595e0d5489e27f9b0686577c0581141a2",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2008-02-28?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/110691d595e0d5489e27f9b0686577c0581141a2",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2008-02-28"
+    }
+  },
+  {
+    "name": "2008-03-31",
+    "path": "src/main/webapp/versions/2008-03-31",
+    "sha": "fc2c46063c559f45e3cedaa2542cad85e2f88a73",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2008-03-31?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2008-03-31",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/fc2c46063c559f45e3cedaa2542cad85e2f88a73",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2008-03-31?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/fc2c46063c559f45e3cedaa2542cad85e2f88a73",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2008-03-31"
+    }
+  },
+  {
+    "name": "2008-09-18",
+    "path": "src/main/webapp/versions/2008-09-18",
+    "sha": "5a69e88efa8645b87cbe761889bd6955b99778a5",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2008-09-18?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2008-09-18",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/5a69e88efa8645b87cbe761889bd6955b99778a5",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2008-09-18?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/5a69e88efa8645b87cbe761889bd6955b99778a5",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2008-09-18"
+    }
+  },
+  {
+    "name": "2009-03-05",
+    "path": "src/main/webapp/versions/2009-03-05",
+    "sha": "b5b72e8352f1c12c803e5611f860f0e6c4712c76",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2009-03-05?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2009-03-05",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/b5b72e8352f1c12c803e5611f860f0e6c4712c76",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2009-03-05?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/b5b72e8352f1c12c803e5611f860f0e6c4712c76",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2009-03-05"
+    }
+  },
+  {
+    "name": "2009-03-27",
+    "path": "src/main/webapp/versions/2009-03-27",
+    "sha": "b0c903e2ca336bb9e5a149723bcaeccf12c6d0b0",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2009-03-27?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2009-03-27",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/b0c903e2ca336bb9e5a149723bcaeccf12c6d0b0",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2009-03-27?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/b0c903e2ca336bb9e5a149723bcaeccf12c6d0b0",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2009-03-27"
+    }
+  },
+  {
+    "name": "2009-07-14",
+    "path": "src/main/webapp/versions/2009-07-14",
+    "sha": "9d7615016df0c62bdcc245c1ebd3d90523ade94c",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2009-07-14?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2009-07-14",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/9d7615016df0c62bdcc245c1ebd3d90523ade94c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2009-07-14?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/9d7615016df0c62bdcc245c1ebd3d90523ade94c",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2009-07-14"
+    }
+  },
+  {
+    "name": "2010-09-22",
+    "path": "src/main/webapp/versions/2010-09-22",
+    "sha": "00c05da4ce795dac7cea75446bb809f262a48846",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2010-09-22?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2010-09-22",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/00c05da4ce795dac7cea75446bb809f262a48846",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2010-09-22?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/00c05da4ce795dac7cea75446bb809f262a48846",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2010-09-22"
+    }
+  },
+  {
+    "name": "2011-09-19",
+    "path": "src/main/webapp/versions/2011-09-19",
+    "sha": "96ad8f2d33409c012f6dcdd57d9a9d7a199cbc51",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2011-09-19?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2011-09-19",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/96ad8f2d33409c012f6dcdd57d9a9d7a199cbc51",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2011-09-19?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/96ad8f2d33409c012f6dcdd57d9a9d7a199cbc51",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2011-09-19"
+    }
+  },
+  {
+    "name": "2014-08-30",
+    "path": "src/main/webapp/versions/2014-08-30",
+    "sha": "4d9016cfe4fc4ec43679d97e86aeccf813be75ed",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2014-08-30?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2014-08-30",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/4d9016cfe4fc4ec43679d97e86aeccf813be75ed",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2014-08-30?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/4d9016cfe4fc4ec43679d97e86aeccf813be75ed",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2014-08-30"
+    }
+  },
+  {
+    "name": "2017-01-26",
+    "path": "src/main/webapp/versions/2017-01-26",
+    "sha": "e9f4796dcff70a58921336a79c50d91a4342da71",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2017-01-26?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2017-01-26",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/e9f4796dcff70a58921336a79c50d91a4342da71",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2017-01-26?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/e9f4796dcff70a58921336a79c50d91a4342da71",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2017-01-26"
+    }
+  },
+  {
+    "name": "2017-02-20",
+    "path": "src/main/webapp/versions/2017-02-20",
+    "sha": "4648543badf82bb2f5b892df77f5a1e0cc5f8842",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2017-02-20?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2017-02-20",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/4648543badf82bb2f5b892df77f5a1e0cc5f8842",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2017-02-20?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/4648543badf82bb2f5b892df77f5a1e0cc5f8842",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2017-02-20"
+    }
+  },
+  {
+    "name": "2017-08-22",
+    "path": "src/main/webapp/versions/2017-08-22",
+    "sha": "d4940ea326e1562c72f2f5a342be51ab1da4a2dc",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2017-08-22?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2017-08-22",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/d4940ea326e1562c72f2f5a342be51ab1da4a2dc",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2017-08-22?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/d4940ea326e1562c72f2f5a342be51ab1da4a2dc",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2017-08-22"
+    }
+  },
+  {
+    "name": "2018-07-30",
+    "path": "src/main/webapp/versions/2018-07-30",
+    "sha": "1dfebffe3622ffc8aff724391c36b76ec88d2866",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-07-30?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-07-30",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1dfebffe3622ffc8aff724391c36b76ec88d2866",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-07-30?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1dfebffe3622ffc8aff724391c36b76ec88d2866",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-07-30"
+    }
+  },
+  {
+    "name": "2018-10-31",
+    "path": "src/main/webapp/versions/2018-10-31",
+    "sha": "7a1fdd99723947bc8a8ab4858acbfbe895181dbe",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-10-31?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-10-31",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/7a1fdd99723947bc8a8ab4858acbfbe895181dbe",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-10-31?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/7a1fdd99723947bc8a8ab4858acbfbe895181dbe",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-10-31"
+    }
+  },
+  {
+    "name": "2018-11-26",
+    "path": "src/main/webapp/versions/2018-11-26",
+    "sha": "bf4732407fc32d98ce6f7134afd7979267d71153",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-11-26?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-11-26",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/bf4732407fc32d98ce6f7134afd7979267d71153",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-11-26?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/bf4732407fc32d98ce6f7134afd7979267d71153",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-11-26"
+    }
+  },
+  {
+    "name": "2018-28-06",
+    "path": "src/main/webapp/versions/2018-28-06",
+    "sha": "8a0eeb14f0bd93ab0b8f03eb4f869541a95f8f4f",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-28-06?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-28-06",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/8a0eeb14f0bd93ab0b8f03eb4f869541a95f8f4f",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-28-06?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/8a0eeb14f0bd93ab0b8f03eb4f869541a95f8f4f",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-28-06"
+    }
+  },
+  {
+    "name": "2018-30-04",
+    "path": "src/main/webapp/versions/2018-30-04",
+    "sha": "1cfdc6180dca35e150d93ee8edb70a057204900e",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-30-04?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-30-04",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1cfdc6180dca35e150d93ee8edb70a057204900e",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-30-04?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1cfdc6180dca35e150d93ee8edb70a057204900e",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-30-04"
+    }
+  },
+  {
+    "name": "2018-30-05",
+    "path": "src/main/webapp/versions/2018-30-05",
+    "sha": "2431a4aaa2d9a9fe0a07c786b26ffee13afc8257",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-30-05?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-30-05",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/2431a4aaa2d9a9fe0a07c786b26ffee13afc8257",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2018-30-05?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/2431a4aaa2d9a9fe0a07c786b26ffee13afc8257",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2018-30-05"
+    }
+  },
+  {
+    "name": "2019-01-08",
+    "path": "src/main/webapp/versions/2019-01-08",
+    "sha": "5886f0b0235b964232c90ae5ed8a118a810ee51c",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2019-01-08?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2019-01-08",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/5886f0b0235b964232c90ae5ed8a118a810ee51c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2019-01-08?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/5886f0b0235b964232c90ae5ed8a118a810ee51c",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2019-01-08"
+    }
+  },
+  {
+    "name": "2019-03-29",
+    "path": "src/main/webapp/versions/2019-03-29",
+    "sha": "1a01d7d51b4248a44f28ac77d714564c192cfeb6",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2019-03-29?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2019-03-29",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1a01d7d51b4248a44f28ac77d714564c192cfeb6",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2019-03-29?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1a01d7d51b4248a44f28ac77d714564c192cfeb6",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2019-03-29"
+    }
+  },
+  {
+    "name": "2020-05-20",
+    "path": "src/main/webapp/versions/2020-05-20",
+    "sha": "fa0a1476c9364ebf11ed18c059410798608e9119",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2020-05-20?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2020-05-20",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/fa0a1476c9364ebf11ed18c059410798608e9119",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2020-05-20?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/fa0a1476c9364ebf11ed18c059410798608e9119",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2020-05-20"
+    }
+  },
+  {
+    "name": "2022-11-03",
+    "path": "src/main/webapp/versions/2022-11-03",
+    "sha": "5fd842f02b8bc65bb805c05d338776b367fa6e95",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2022-11-03?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2022-11-03",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/5fd842f02b8bc65bb805c05d338776b367fa6e95",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2022-11-03?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/5fd842f02b8bc65bb805c05d338776b367fa6e95",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2022-11-03"
+    }
+  },
+  {
+    "name": "2023-09-03",
+    "path": "src/main/webapp/versions/2023-09-03",
+    "sha": "ef72d954fa1f9084549b640bfd84d129037fd935",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2023-09-03?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2023-09-03",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/ef72d954fa1f9084549b640bfd84d129037fd935",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2023-09-03?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/ef72d954fa1f9084549b640bfd84d129037fd935",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2023-09-03"
+    }
+  },
+  {
+    "name": "2024-07-04",
+    "path": "src/main/webapp/versions/2024-07-04",
+    "sha": "1ee9fed06bc3c8ef9111fbb8676f69386aa5106c",
+    "size": 0,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2024-07-04?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2024-07-04",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1ee9fed06bc3c8ef9111fbb8676f69386aa5106c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/2024-07-04?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/trees/1ee9fed06bc3c8ef9111fbb8676f69386aa5106c",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/tree/main/src/main/webapp/versions/2024-07-04"
+    }
+  },
+  {
+    "name": "latest",
+    "path": "src/main/webapp/versions/latest",
+    "sha": "a8e12dc2109e1765f79e3a579c67fee50b58bf73",
+    "size": 10,
+    "url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/latest?ref=main",
+    "html_url": "https://github.com/lod-cloud/lod-cloud-site/blob/main/src/main/webapp/versions/latest",
+    "git_url": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/blobs/a8e12dc2109e1765f79e3a579c67fee50b58bf73",
+    "download_url": "https://raw.githubusercontent.com/lod-cloud/lod-cloud-site/main/src/main/webapp/versions/latest",
+    "type": "symlink",
+    "_links": {
+      "self": "https://api.github.com/repos/lod-cloud/lod-cloud-site/contents/src/main/webapp/versions/latest?ref=main",
+      "git": "https://api.github.com/repos/lod-cloud/lod-cloud-site/git/blobs/a8e12dc2109e1765f79e3a579c67fee50b58bf73",
+      "html": "https://github.com/lod-cloud/lod-cloud-site/blob/main/src/main/webapp/versions/latest"
+    }
+  }
+]
