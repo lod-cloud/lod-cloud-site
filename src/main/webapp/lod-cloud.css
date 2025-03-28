@@ -90,3 +90,8 @@ nav ul li.current a { color: #1A5276; }
   color: white;
 }
 
+table.versions td {
+    padding: 8px;
+    text-align: center;
+}
+
