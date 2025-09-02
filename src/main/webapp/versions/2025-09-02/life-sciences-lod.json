@@ -1,0 +1,27 @@
+{
+    "legend": [
+        {
+            "title": "BioPortal",
+            "keywords": ["bioportal"],
+            "colour": "#e8ac67"
+        },
+        {
+            "title": "Bio2RDF",
+            "keywords": ["bio2rdf"],
+            "colour": "#a972e8"
+        },
+        {
+            "title": "Other",
+            "keywords": [],
+            "colour": "#db777f"
+        }
+    ],
+    "fixed_points": {},
+    "selection": "domain",
+    "selected": "life_sciences",
+    "datasets": ["dbpedia"],
+    "rights_text": "The Life Sciences Linked Open Data Cloud from lod-cloud.net"
+
+}
+        
+            
