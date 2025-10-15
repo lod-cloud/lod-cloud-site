@@ -1,0 +1,54 @@
+{
+    "legend": [
+        {
+            "title": "Cross Domain",
+            "domain": "cross_domain",
+            "colour": "#c8a788"
+        },
+        {
+            "title": "Geography",
+            "domain": "geography",
+            "colour": "#29c9cc"
+        },
+        {
+            "title": "Government",
+            "domain": "government",
+            "colour": "#f6b33c"
+        },
+        {
+            "title": "Life Sciences",
+            "domain": "life_sciences",
+            "colour": "#db777f"
+        },
+        {
+            "title": "Linguistics",
+            "domain": "linguistics",
+            "colour": "#36bc8d"
+        },
+        {
+            "title": "Media",
+            "domain": "media",
+            "colour": "#6372C7"
+        },
+        {
+            "title": "Publications",
+            "domain": "publications",
+            "colour": "#BCB582"
+        },
+        {
+            "title": "Social Networking",
+            "domain": "social_networking",
+            "colour": "#b5b5b5"
+        },
+        {
+            "title": "User Generated",
+            "domain": "user_generated",
+            "colour": "#d84d8c"
+        }
+    ],
+    "fixed_points": {"dbpedia": [0,0]},
+    "selection": "all",
+    "rights_text": "The Linked Open Data Cloud from lod-cloud.net"
+
+}
+
