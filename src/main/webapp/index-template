@@ -255,6 +255,14 @@
       </tr>
       <!--TABLE-->
 <tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
+<th property="dc:modified" datatype="xsd:date" content="2025-12-19">2025-12-19</th>
+<td colspan="3"></td>
+<td colspan="2"><a href="versions/2025-12-19/lod-cloud.png">png</a></td>
+<td><a href="versions/2025-12-19/lod-cloud.svg">svg</a></td>
+<td><a href="versions/2025-12-19/lod-data.json">json</a></td>
+<td class="dataset-count">1358</td></tr>
+
+<tr typeof="dctype:Image" about="#cloud" property="dc:title" content="LOD cloud diagram">
 
 <th property="dc:modified" datatype="xsd:date" content="2025-11-14">2025-11-14</th>
 <td colspan="3"></td>
@@ -706,6 +714,7 @@
   </body>
 
 </html>
+
 
 
 
