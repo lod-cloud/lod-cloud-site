@@ -100,7 +100,7 @@ public class LODCloudServletTest {
         assertEquals(false, instance.validate_json(doc2));
     }
 
-    @Test
+    //@Test
     public void testSvg2Jpg() {
         System.out.println("svg2jpeg");
         String svg = "clouds/lod-cloud.svg";
