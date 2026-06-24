@@ -42,7 +42,7 @@ var app = new Vue({
                 //alert(JSON.stringify(response));
 				// redirect to 
 				// 		"'/edit-dataset/' + dataset._id" 
-				window.location.href = '/dataset/' + dataset._id;
+				window.location.href = '/dataset/' + dataset.identifier;
 
             }, function (response) {
                 console.log(JSON.stringify(response))

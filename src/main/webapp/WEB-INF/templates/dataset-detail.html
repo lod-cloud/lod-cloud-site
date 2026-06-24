@@ -1,6 +1,6 @@
 <div align="left" class="row">
     <div class="col-md-10">
-        <h1>{{dataset.title}} <a v-bind:href="'/edit-dataset/' + dataset._id" class="edit-link">(Edit)</a></h1>
+        <h1>{{dataset.title}} <a v-bind:href="'/edit-dataset/' + dataset.identifier" class="edit-link">(Edit)</a></h1>
     </div>
     <div class="col-md-2 stars">
         <img v-bind:src="star_img(dataset)" v-bind:title="star_explain(dataset)" id="stars_img"/>
