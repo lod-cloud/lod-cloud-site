@@ -1,0 +1,42 @@
+{
+  "identifier": "example-dataset",
+  "title": "Example Dataset",
+  "description": {
+    "en": "A small example dataset used to illustrate the record format."
+  },
+  "domain": "linguistics",
+  "website": "https://example.org/dataset",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "triples": 120000,
+  "namespace": "https://example.org/resource/",
+  "doi": "10.5281/zenodo.0000000",
+  "contact_point": {
+    "name": "A. Maintainer",
+    "email": "maintainer@example.org"
+  },
+  "keywords": ["example", "format-rdf"],
+  "links": [
+    { "target": "dbpedia", "value": 1500 },
+    { "target": "wordnet" }
+  ],
+  "full_download": [
+    {
+      "title": "Complete dump",
+      "media_type": "text/turtle",
+      "download_url": "https://example.org/dump.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/turtle",
+      "access_url": "https://example.org/resource/1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "https://example.org/sparql"
+    }
+  ]
+}
