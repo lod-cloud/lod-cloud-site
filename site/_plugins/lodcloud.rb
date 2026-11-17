@@ -38,7 +38,7 @@ module LODCloud
   # scripts/check_site_paths.py checks the two agree on the built site.
   UNSAFE = /["<>:|*?\\\r\n]/.freeze
 
-  # Directory / file name under dataset/, json/, rdf/ ... for an identifier.
+  # Directory / file name under dataset/, json/, rdf/, ttl/, nt/ ... for an identifier.
   # Identifiers with an unsafe character are percent-encoded; 404.html
   # redirects requests for the original spelling.
   def self.dataset_path(identifier)
@@ -89,14 +89,14 @@ module LODCloud
   end
 
   class DatasetPage < PlacedPage
-    ALTERNATES = [["application/json", "json", nil], ["text/turtle", "rdf", "ttl"],
-                  ["application/rdf+xml", "rdf", "rdf"], ["application/n-triples", "rdf", "nt"]].freeze
+    ALTERNATES = [["application/json", "json"], ["application/rdf+xml", "rdf"],
+                  ["text/turtle", "ttl"], ["application/n-triples", "nt"]].freeze
 
     def initialize(site, record)
       super(site, "dataset", record["identifier"])
       # Static hosting cannot negotiate content, so advertise the other formats.
-      links = ALTERNATES.map do |type, dir, ext|
-        href = "#{site.baseurl}/#{dir}/#{LODCloud.url_path(record['identifier'])}#{ext && ".#{ext}"}"
+      links = ALTERNATES.map do |type, dir|
+        href = "#{site.baseurl}/#{dir}/#{LODCloud.url_path(record['identifier'])}"
         %(<link rel="alternate" type="#{type}" href="#{ERB::Util.html_escape(href)}">)
       end
       @data = { "layout" => "dataset", "title" => record["title"], "dataset" => record,
@@ -157,14 +157,10 @@ module LODCloud
       "#{@context.registers[:site].baseurl}/dataset/#{LODCloud.url_path(identifier.to_s)}/"
     end
 
-    # URL of the dataset's metadata as JSON (the old /json/<id>).
-    def json_url(identifier)
-      "#{@context.registers[:site].baseurl}/json/#{LODCloud.url_path(identifier.to_s)}"
-    end
-
-    # URL of the dataset's metadata as RDF; ext is ttl, rdf or nt.
-    def rdf_url(identifier, ext)
-      "#{@context.registers[:site].baseurl}/rdf/#{LODCloud.url_path(identifier.to_s)}.#{ext}"
+    # URL of the dataset's metadata in a given format: json, rdf (RDF/XML),
+    # ttl (Turtle) or nt (N-Triples).
+    def format_url(identifier, format)
+      "#{@context.registers[:site].baseurl}/#{format}/#{LODCloud.url_path(identifier.to_s)}"
     end
 
     # Name of the record's file in data/datasets, percent-encoded for use in a URL.

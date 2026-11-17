@@ -69,10 +69,10 @@ layout: default
 
   <b>Download metadata as:</b>
   <ul>
-    <li><a href="{{ d.identifier | json_url }}">JSON</a></li>
-    <li><a href="{{ d.identifier | rdf_url: 'rdf' }}">RDF/XML</a></li>
-    <li><a href="{{ d.identifier | rdf_url: 'ttl' }}">Turtle</a></li>
-    <li><a href="{{ d.identifier | rdf_url: 'nt' }}">N-Triples</a></li>
+    <li><a href="{{ d.identifier | format_url: 'json' }}">JSON</a></li>
+    <li><a href="{{ d.identifier | format_url: 'rdf' }}">RDF/XML</a></li>
+    <li><a href="{{ d.identifier | format_url: 'ttl' }}">Turtle</a></li>
+    <li><a href="{{ d.identifier | format_url: 'nt' }}">N-Triples</a></li>
     <li><a href="{{ site.github_url }}/blob/{{ site.github_branch }}/data/datasets/{{ file }}">Source record on GitHub</a></li>
   </ul>
 </div>

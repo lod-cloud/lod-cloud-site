@@ -24,8 +24,8 @@ def main():
     for rec in records:
         p = dataset_path(rec["identifier"])
         expected = [site / "dataset" / p / "index.html", site / "edit-dataset" / p / "index.html",
-                    site / "json" / p, site / "api" / p, site / "rdf" / p]
-        expected += [site / "rdf" / (p + ext) for ext in (".ttl", ".rdf", ".nt")]
+                    site / "json" / p, site / "api" / p,
+                    site / "rdf" / p, site / "ttl" / p, site / "nt" / p]
         missing += [str(e.relative_to(site)) for e in expected if not e.is_file()]
 
     redirects = json.loads((site / "dataset-redirects.json").read_text(encoding="utf-8"))

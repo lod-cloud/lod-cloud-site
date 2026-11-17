@@ -8,8 +8,8 @@ data/datasets it writes (paths are relative to the output directory):
 
     lod-data.json, extract/datasets   all datasets, old lod-data.json format
     json/<id>, api/<id>               one dataset, old format
-    rdf/<id>.ttl|.rdf|.nt             one dataset as RDF (port of RDFView.java)
-    rdf/<id>                          the same Turtle, for old /rdf/<id>[?format=ttl] links
+    rdf/<id>, ttl/<id>, nt/<id>       one dataset as RDF/XML, Turtle, N-Triples
+                                      (port of RDFView.java)
     extract/rdf                       all datasets, N-Triples
     dataset-redirects.json            identifier -> path, for 404.html
 
@@ -40,7 +40,7 @@ UNSAFE = re.compile(r'["<>:|*?\\\r\n]')
 
 
 def dataset_path(identifier):
-    """Directory / file name under dataset/, json/, rdf/ ... for an identifier."""
+    """Directory / file name under dataset/, json/, rdf/, ttl/, nt/ ... for an identifier."""
     if UNSAFE.search(identifier):
         return urllib.parse.quote(identifier, safe="")
     return identifier
@@ -204,13 +204,8 @@ def export(records, out):
         g = new_graph()
         add_dataset(g, rec)
         add_dataset(all_rdf, rec)
-        for ext, fmt in (("ttl", "turtle"), ("rdf", "xml"), ("nt", "nt")):
-            serialized = g.serialize(format=fmt)
-            write(out / "rdf" / (p + "." + ext), serialized)
-            if ext == "ttl":
-                # A static server ignores ?format=, so /rdf/<id> can only be one
-                # format; the old default was Turtle.
-                write(out / "rdf" / p, serialized)
+        for directory, fmt in (("rdf", "xml"), ("ttl", "turtle"), ("nt", "nt")):
+            write(out / directory / p, g.serialize(format=fmt))
     write(out / "extract" / "rdf", all_rdf.serialize(format="nt"))
 
     redirects = {i: p for p, i in paths.items() if p != i}

@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from rdflib import Graph, Literal, URIRef
+from rdflib.compare import isomorphic
 from rdflib.namespace import DCTERMS, RDF, XSD
 
 import export_site_data as ex
@@ -108,12 +109,16 @@ class ExportTest(unittest.TestCase):
             self.assertEqual(ex.export([FULL, MINIMAL, {"identifier": "x:y", "title": "T"}], tmp), (3, 1))
             out = Path(tmp)
             for name in ("lod-data.json", "extract/datasets", "extract/rdf", "json/full", "api/full",
-                         "rdf/full", "rdf/full.ttl", "rdf/full.rdf", "rdf/full.nt", "json/x%3Ay", "rdf/x%3Ay.ttl"):
+                         "rdf/full", "ttl/full", "nt/full", "json/x%3Ay", "rdf/x%3Ay", "ttl/x%3Ay", "nt/x%3Ay"):
                 self.assertTrue((out / name).is_file(), name)
             self.assertEqual(json.loads((out / "extract/datasets").read_text()), json.loads((out / "lod-data.json").read_text()))
             self.assertEqual(json.loads((out / "dataset-redirects.json").read_text()), {"x:y": "x%3Ay"})
             self.assertEqual(json.loads((out / "json/full").read_text())["identifier"], "full")
-            self.assertEqual((out / "rdf/full").read_text(), (out / "rdf/full.ttl").read_text())
+            # each directory holds the format its name says
+            expected = graph_of(FULL)
+            for directory, fmt in (("rdf", "xml"), ("ttl", "turtle"), ("nt", "nt")):
+                g = Graph().parse(out / directory / "full", format=fmt)
+                self.assertTrue(isomorphic(g, expected), directory)
 
 
 if __name__ == "__main__":

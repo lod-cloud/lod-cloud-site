@@ -42,7 +42,7 @@ jobs:
 
       - run: pip install -r scripts/requirements.txt
 
-      # lod-data.json, extract/, json/, api/ and rdf/ (the old dynamic URLs)
+      # lod-data.json, extract/, json/, api/, rdf/, ttl/ and nt/ (the old dynamic URLs)
       - name: Export data files
         run: python scripts/export_site_data.py _site
 

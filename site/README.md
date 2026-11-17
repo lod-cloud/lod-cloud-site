@@ -10,7 +10,7 @@ With Ruby 3.3, Bundler and Python 3 (`pip install -r scripts/requirements.txt`):
     bundle install
     bundle exec jekyll build --destination ../_site
     cd ..
-    python3 scripts/export_site_data.py _site     # json/, rdf/, lod-data.json ... (see below)
+    python3 scripts/export_site_data.py _site     # json/, rdf/, ttl/, nt/, lod-data.json ... (see below)
 
 `bundle exec jekyll serve` previews the pages, but not the exported files. Without Ruby, the Jekyll step runs in a container:
 
@@ -44,9 +44,9 @@ The Java application served these routes. Static hosting cannot do everything th
 
 | Old route | Now |
 |---|---|
-| `/dataset/<id>` | `/dataset/<id>/` (HTML). **No content negotiation**: a request with `Accept: text/turtle` etc. used to be redirected to the RDF, and now gets the HTML page. Each page advertises the other formats with `<link rel="alternate">`. |
+| `/dataset/<id>` | `/dataset/<id>/` (HTML). **No content negotiation**: a request with `Accept: text/turtle` etc. used to be redirected to the RDF, and now gets the HTML page. Each page advertises the other formats with `<link rel="alternate">` in its `<head>` (and links to them), which is the only discovery mechanism available. |
 | `/json/<id>`, `/api/<id>` (GET) | Same paths, the dataset in the old JSON format. |
-| `/rdf/<id>?format=ttl\|rdf\|nt` | `/rdf/<id>.ttl`, `.rdf`, `.nt`. A static server ignores `?format=`, so `/rdf/<id>` (with or without a query) is Turtle, the old default; `?format=rdf` and `?format=nt` links get Turtle. |
+| `/rdf/<id>?format=ttl\|rdf\|nt` | `/rdf/<id>` (RDF/XML), `/ttl/<id>` (Turtle), `/nt/<id>` (N-Triples). A static server ignores `?format=`, so an old link to `/rdf/<id>` now returns **RDF/XML whatever the query says**: `?format=rdf` links are right; bare `/rdf/<id>` and `?format=ttl` (the old default) now return RDF/XML, not Turtle, and `?format=nt` links likewise. Use `/ttl/<id>` and `/nt/<id>`. |
 | `/extract/datasets` | Same path, and `/lod-data.json` (identical content), in the old format. |
 | `/extract/rdf` | Same path, all datasets as N-Triples. |
 | `/datasets` | `/datasets/` |
@@ -69,7 +69,7 @@ The Java application served these routes. Static hosting cannot do everything th
 
 ### The RDF
 
-`rdf/<id>.*` and `extract/rdf` are a port of `RDFView.java`, with the same VoID/DCAT/DCTerms/FOAF terms and dataset URIs (`http://lod-cloud.net/dataset/<id>`). Differences: the license is now emitted (the Java code read a field that never existed), IRIs with spaces and similar are percent-encoded instead of producing invalid N-Triples, and link targets are encoded the same way as dataset URIs. The model itself is unchanged; moving to DCAT-3 is #101.
+`rdf/<id>`, `ttl/<id>`, `nt/<id>` and `extract/rdf` are a port of `RDFView.java`, with the same VoID/DCAT/DCTerms/FOAF terms and dataset URIs (`http://lod-cloud.net/dataset/<id>`). Differences: the license is now emitted (the Java code read a field that never existed), IRIs with spaces and similar are percent-encoded instead of producing invalid N-Triples, and link targets are encoded the same way as dataset URIs. The model itself is unchanged; moving to DCAT-3 is #101.
 
 ### Identifiers that cannot be file names
 
