@@ -67,8 +67,12 @@ layout: default
     {% endfor %}
   </table>
 
-  <b>Metadata:</b>
+  <b>Download metadata as:</b>
   <ul>
-    <li><a href="{{ site.github_url }}/blob/{{ site.github_branch }}/data/datasets/{{ file }}">Source record (JSON) on GitHub</a></li>
+    <li><a href="{{ d.identifier | json_url }}">JSON</a></li>
+    <li><a href="{{ d.identifier | rdf_url: 'rdf' }}">RDF/XML</a></li>
+    <li><a href="{{ d.identifier | rdf_url: 'ttl' }}">Turtle</a></li>
+    <li><a href="{{ d.identifier | rdf_url: 'nt' }}">N-Triples</a></li>
+    <li><a href="{{ site.github_url }}/blob/{{ site.github_branch }}/data/datasets/{{ file }}">Source record on GitHub</a></li>
   </ul>
 </div>

@@ -33,24 +33,74 @@ module LODCloud
     "#{name}.json"
   end
 
-  class DatasetPage < Jekyll::PageWithoutAFile
-    def initialize(site, record)
-      @identifier = record["identifier"]
-      raise "Invalid dataset identifier #{@identifier.inspect}" if [".", ".."].include?(@identifier)
+  # Characters GitHub's upload-artifact refuses in a path (and NTFS forbids).
+  # Keep in sync with UNSAFE in scripts/export_site_data.py;
+  # scripts/check_site_paths.py checks the two agree on the built site.
+  UNSAFE = /["<>:|*?\\\r\n]/.freeze
 
-      super(site, site.source, File.join("dataset", @identifier), "index.html")
+  # Directory / file name under dataset/, json/, rdf/ ... for an identifier.
+  # Identifiers with an unsafe character are percent-encoded; 404.html
+  # redirects requests for the original spelling.
+  def self.dataset_path(identifier)
+    identifier.match?(UNSAFE) ? ERB::Util.url_encode(identifier) : identifier
+  end
+
+  # The same, as it appears in a URL.
+  def self.url_path(identifier)
+    ERB::Util.url_encode(dataset_path(identifier))
+  end
+
+  # Jekyll's URL handling rewrites some identifiers (e.g. one ending in "."),
+  # so these pages are placed explicitly: <dir>/<dataset path>/index.html.
+  class PlacedPage < Jekyll::PageWithoutAFile
+    def initialize(site, dir, identifier)
+      @identifier = identifier
+      raise "Invalid dataset identifier #{identifier.inspect}" if [".", ".."].include?(identifier)
+
+      @placed_dir = dir
+      super(site, site.source, File.join(dir, LODCloud.dataset_path(identifier)), "index.html")
       @content = ""
-      @data = { "layout" => "dataset", "title" => record["title"], "dataset" => record }
+      @data = {}
     end
 
-    # Jekyll's URL handling rewrites some identifiers (e.g. one ending in "."),
-    # so place the page explicitly: /dataset/<identifier>/index.html.
     def url
-      "/dataset/#{ERB::Util.url_encode(@identifier)}/"
+      "/#{@placed_dir}/#{LODCloud.url_path(@identifier)}/"
     end
 
     def destination(dest)
-      File.join(dest, "dataset", @identifier, "index.html")
+      File.join(dest, @placed_dir, LODCloud.dataset_path(@identifier), "index.html")
+    end
+  end
+
+  # An old URL that now goes somewhere else (static hosting has no redirects).
+  class RedirectPage < PlacedPage
+    def initialize(site, dir, identifier, target)
+      super(site, dir, identifier)
+      href = ERB::Util.html_escape(target)
+      @content = <<~HTML
+        <!DOCTYPE html>
+        <html lang="en"><head><meta charset="utf-8"><title>Redirecting</title>
+        <meta name="robots" content="noindex">
+        <link rel="canonical" href="#{href}">
+        <meta http-equiv="refresh" content="0; url=#{href}">
+        </head><body><p>Moved to <a href="#{href}">#{href}</a>.</p></body></html>
+      HTML
+    end
+  end
+
+  class DatasetPage < PlacedPage
+    ALTERNATES = [["application/json", "json", nil], ["text/turtle", "rdf", "ttl"],
+                  ["application/rdf+xml", "rdf", "rdf"], ["application/n-triples", "rdf", "nt"]].freeze
+
+    def initialize(site, record)
+      super(site, "dataset", record["identifier"])
+      # Static hosting cannot negotiate content, so advertise the other formats.
+      links = ALTERNATES.map do |type, dir, ext|
+        href = "#{site.baseurl}/#{dir}/#{LODCloud.url_path(record['identifier'])}#{ext && ".#{ext}"}"
+        %(<link rel="alternate" type="#{type}" href="#{ERB::Util.html_escape(href)}">)
+      end
+      @data = { "layout" => "dataset", "title" => record["title"], "dataset" => record,
+                "extra_head" => links.join("\n    ") }
     end
   end
 
@@ -82,7 +132,19 @@ module LODCloud
           "count" => records.count { |r| r["domain"] == key } }
       end
 
-      records.each { |r| site.pages << DatasetPage.new(site, r) }
+      edit_base = "#{site.config.fetch('github_url')}/edit/#{site.config.fetch('github_branch')}/data/datasets/"
+      records.each do |r|
+        site.pages << DatasetPage.new(site, r)
+        site.pages << RedirectPage.new(site, "edit-dataset", r["identifier"],
+                                       edit_base + ERB::Util.url_encode(LODCloud.filename(r["identifier"])))
+      end
+      site.pages << Jekyll::PageWithoutAFile.new(site, site.source, "add-dataset", "index.html").tap do |p|
+        href = ERB::Util.html_escape(site.config.fetch("submit_url"))
+        p.content = %(<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Redirecting</title>) +
+                    %(<link rel="canonical" href="#{href}"><meta http-equiv="refresh" content="0; url=#{href}">) +
+                    %(</head><body><a href="#{href}">Submit a dataset</a></body></html>)
+        p.data = {}
+      end
       DOMAINS.each do |key, (label, stem)|
         site.pages << DomainPage.new(site, key, label, stem, records.select { |r| r["domain"] == key })
       end
@@ -90,9 +152,19 @@ module LODCloud
   end
 
   module Filters
-    # URL of a dataset page, percent-encoding any identifier.
+    # URL of a dataset page.
     def dataset_url(identifier)
-      "#{@context.registers[:site].baseurl}/dataset/#{ERB::Util.url_encode(identifier.to_s)}/"
+      "#{@context.registers[:site].baseurl}/dataset/#{LODCloud.url_path(identifier.to_s)}/"
+    end
+
+    # URL of the dataset's metadata as JSON (the old /json/<id>).
+    def json_url(identifier)
+      "#{@context.registers[:site].baseurl}/json/#{LODCloud.url_path(identifier.to_s)}"
+    end
+
+    # URL of the dataset's metadata as RDF; ext is ttl, rdf or nt.
+    def rdf_url(identifier, ext)
+      "#{@context.registers[:site].baseurl}/rdf/#{LODCloud.url_path(identifier.to_s)}.#{ext}"
     end
 
     # Name of the record's file in data/datasets, percent-encoded for use in a URL.
