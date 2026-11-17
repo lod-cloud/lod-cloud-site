@@ -1,5 +1,7 @@
 # Dataset data
 
+**This is a snapshot, not yet the live data.** Until the site moves to GitHub Pages (#105) the old server remains authoritative and new submissions still go there. Do not edit these files before cutover: they will be regenerated from a fresh pull of the live data and edits would be overwritten.
+
 One JSON file per dataset in `datasets/`, following `../schema/dataset.schema.json` (see `../schema/README.md` for the field reference and filename rule).
 
 These files were generated from the legacy `lod-data.json` by `../scripts/migrate_lod_data.py`:

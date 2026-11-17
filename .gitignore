@@ -30,3 +30,5 @@ lod-data-old.json
 2024-04-22.json
 2024-07-01.json
 restore.json
+__pycache__/
+*.pyc
