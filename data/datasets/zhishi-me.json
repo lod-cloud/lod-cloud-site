@@ -1,0 +1,42 @@
+{
+  "identifier": "zhishi-me",
+  "title": "Zhishi.me",
+  "description": {
+    "en": "Structured data extracted and integrated from three major web-based Chinese-language encyclopaedias:\r\n\r\n* [Chinese Wikipedia](http://zh.wikipedia.org/)\r\n* [Hudong Baike](http://www.hudong.com/)\r\n* [Baidu Baike](http://baike.baidu.com/)\r\n\r\nEach page is available in an RDF version. There is a SPARQL endpoint (although it only returns HTML, no machine-readable data, at the moment).\r\n\r\n[An ISWC2011 paper](iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320209.pdf) describes technical aspects of the project in detail."
+  },
+  "domain": "linguistics",
+  "website": "http://zhishi.me",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://zhishi.me/",
+  "triples": 125000000,
+  "contact_point": {
+    "name": "Shanghai Jaio Tong University and Southeast University"
+  },
+  "keywords": [
+    "chinese",
+    "crossdomain",
+    "format-rdf",
+    "llod",
+    "lod",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 193000
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://zhishi.me/data/zhwiki/resource/Shanghai"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://zhishi.me/sparql"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "Terrorist_Attack_1",
+  "title": "Terrorist Attack1",
+  "description": {
+    "en": "Terrorist"
+  },
+  "domain": "user_generated",
+  "website": "http://www.semanticweb.org/sanatsoni/ontologies/2019/5/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "varsha",
+    "email": "varshathakur510@gmail.com"
+  }
+}

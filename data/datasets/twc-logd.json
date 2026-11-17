@@ -1,0 +1,60 @@
+{
+  "identifier": "twc-logd",
+  "title": "TWC: Linking Open Government Data",
+  "description": {
+    "en": "The Tetherless World Constellation (TWC) at Rensselaer Polytechnic Institute (RPI) maintains Linked Open Government Data (LOGD), an RDF version of the datasets published by package:data-gov and other government-related sources.\r\n\r\nLOGD replaces the old TWC Data-gov Corpus published in May 2010."
+  },
+  "domain": "government",
+  "website": "http://logd.tw.rpi.edu",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://logd.tw.rpi.edu/",
+  "triples": 9803142573,
+  "contact_point": {
+    "name": "Tetherless World Constellation, Rensselaer Polytechnic Institute"
+  },
+  "keywords": [
+    "country-us",
+    "deref-vocab",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2039
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1839
+    },
+    {
+      "target": "govtrack",
+      "value": 1909
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (Turtle, gzipped)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://logd.tw.rpi.edu/twc-logd"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "media_type": "api/query",
+      "access_url": "http://logd.tw.rpi.edu/sparql"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://logd.tw.rpi.edu/source/dfid-gov-uk/dataset/statistics-on-international-development-2009/version/2009-Nov-10/foreignAid_158_6"
+    }
+  ]
+}

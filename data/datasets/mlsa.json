@@ -1,0 +1,64 @@
+{
+  "identifier": "mlsa",
+  "title": "MLSA - A Multi-layered Reference Corpus for German Sentiment Analysis",
+  "description": {
+    "en": "Sentence-layer annotation represents the most coarse-grained annotation in this\r\ncorpus. We adhere to definitions of objectivity and subjectivity introduced in\r\n(Wiebe et al., 2005). Additionally, we followed guidelines drawn from (Balahur &\r\nSteinberger, 2009). Their clarifications proved to be quite effective, raising\r\ninter-annotator agreement in a sentence-layer polarity annotation task from\r\nabout 50% to >80%. All sentences were annotated in two dimensions.\r\n\r\nThe first dimension covers the factual nature of the sentence, i.e. whether it\r\nprovides objective information or if it is intended to express an opinion,\r\nbelief or subjective argument. Therefore, it is either objective or subjective.\r\nThe second dimension covers the semantic orientation of the sentence, i.e. its\r\npolarity. Thus, it is either positive, negative or neutral.\r\n\r\nIn the second layer, we model the contextually interpreted sentiments on the\r\nlevels of words and NP/PP phrases. That is, the annotation decisions\r\nare based on the meaning of the words in the context of the sentence.\r\n\r\nWord sentiment markers:\r\nThe sentiments on the level of individual words are expressed by\r\nsingle character markers added at the end of the words.\r\n\r\nA word might be positive (+), negative(-), neutral(empty), a shifter\r\n(~), an intensifier (^), or a diminisher (%).\r\n\r\nIf a word ends with a hyphen (e.g., \"auf beziehungs-_ bzw.\r\npartnerschaftliche Probleme-\", an underscore is added to the word in\r\norder to prevent missinterpretations of the hyphen as a negative\r\nmarker.\r\n\r\nCurrently, only words that are part of an NP/PP are marked with\r\nsentiment markers. Annotated words are nouns, adjectives, negation\r\nparticles, prepositions, adverbs.\r\n\r\nThe world level annotation was done by 3 persons individually. The\r\nindividual results were harmonized into a single reference annotation.\r\n\r\n\r\nPhrase level markers:\r\n\r\nEach phrase is marked up textually by brackets, e.g. \"[auf\r\nbeziehungs-_ bzw. partnerschaftliche Probleme-]\". The type of a phrase\r\n(NP/PP) is not written to the brackets. We follow largely the\r\nannotation model of TIGER for structuring embedded NPs and PPs.\r\n\r\nCurrently, the following limitations with regard to TIGER exist: (1)\r\nAdjectival phrases are not marked up (2) Relative or infinitival\r\nsentences are not included in NPs/PPs if they appear at the end of a\r\nphrase or if the are discontiguous. We do not only annotate the\r\nphrases which immediately contain words that are marked up as polar.\r\nAny dependent subphrase (NP/PP) is integrated into all its dominating\r\nNPs/PPs, e.g. \"[Die tieferen Ursachen [der Faszination+]]\". Dependent\r\nsubphrases without any polar words are also included, however, there\r\nis no internal bracketing for them, e.g. \"[hohe+ Ansprüche an Qualität\r\nund Lage]\"\r\n\r\nAt the level of phrases, we distinguish the following markers:\r\npositive (+), negative (-), neutral(0), bipolar (#). The category\r\n'bipolar' is used mainly for coordinations where negative and positive\r\nsentiments of something are kept in balance by the writer. This is\r\nquite common for a lot of binomial constructions as \"Krieg und\r\nFrieden\"."
+  },
+  "domain": "linguistics",
+  "website": "http://iggsa.sentimental.li/index.php/downloads/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 21000,
+  "contact_point": {
+    "name": "Interest Group on German Sentiment Analysis (IGGSA)",
+    "email": "iggsa@sentimental.li"
+  },
+  "keywords": [
+    "crossdomain",
+    "linguistics",
+    "lod",
+    "sentiment"
+  ],
+  "links": [
+    {
+      "target": "glottolog-langdoc",
+      "value": 2373
+    },
+    {
+      "target": "lexvo",
+      "value": 2373
+    },
+    {
+      "target": "wals",
+      "value": 2373
+    },
+    {
+      "target": "wiktionary-dbpedia-org",
+      "value": 1371
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Diagram of the MLSA linked data model",
+      "media_type": "PNG",
+      "access_url": "https://dl.dropbox.com/u/65483422/mlsa-model-diagram.png"
+    },
+    {
+      "title": "RDF dump",
+      "description": "2 layers of MLSA corpus, languages linked to wals, glottolog and lexvo, words linked to wiktionary",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/mlsa.nt.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example sentence resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://mlode.nlp2rdf.org/sparql?default-graph-uri=http%3A%2F%2Fmlode.nlp2rdf.org&query=DESCRIBE+%3Chttp%3A%2F%2Fasv.informatik.uni-leipzig.de%2Fmlsa%2Fsentence%2F1%3E&format=text%2Fturtle"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://mlode.nlp2rdf.org/sparql"
+    }
+  ]
+}

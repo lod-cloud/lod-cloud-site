@@ -1,0 +1,28 @@
+{
+  "identifier": "SDG",
+  "title": "A Knowledge Organization System for the United Nations Sustainable Development Goals",
+  "description": {
+    "en": "In December 2017, an informal working group led by the Department of Economic and Social Affairs and the Secretariat of the United Nations High Level Committee on Management, and composed by technical experts from across the UN System, started working on a proposal to developed a system of Internationalized Resource Identifiers (IRIs) for Sustainable Development Goals, Targets, Indicators and related statistical series to support the development of a United Nations system-wide ecosystem of machine-readable data and documents based on Linked Open Data (LOD) principles.\n\nIn order to ensure their fullest possible use, the Identifiers and a formal Statement of Adoption were presented at the second regular session of the UN System Chief Executives Board for Coordination (CEB), in November 2019. At the CEB, the Secretary-General invited all UN organizations to use them to map their SDG-related resources and sign the Statement.\n\nUnique Identifiers for the sustainable development goals, targets and indicators\n\nThe system of Internationalized Resource Identifiers (IRIs) for Sustainable Development Goals, Targets, Indicators and related statistical series is now part of the Semantic Web infrastructure that the UN Dag Hammarskjold Library makes available to IT developers and the public at large under http://metadata.un.org/sdg/?lang=en.  It formalizes links between the goals, targets, indicators and series, and two other crucial elements in the Linked Open Data infrastructure maintained by the United Nation System, namely: (1) the UN Bibliographic Information System maintained by the UN Dag Hammarskjold Library, and (2) the SDG Interface Ontology, maintained by UN Environment. \n\nThe identifiers allow the use of Semantic Web technologies to:\n\n•             Provide a web-based mechanism to make SDG-related data and information assets accessible, inter-operable and re-usable,\n\n•             Organically discover relevant and authoritative SDG data and information among the multitude of available sources on the web\n\n•             Enable the development of applications that integrate authoritative data, concepts and definitions from a large number of formerly unknown sources.\n\nMetadata about the SDG Ontology/KOS in a machine-accessible VoID/LIME file is available at http://metadata.un.org/sdg/void.ttl"
+  },
+  "domain": "user_generated",
+  "website": "http://metadata.un.org/sdg/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://metadata.un.org/sdg/",
+  "triples": 5,
+  "contact_point": {
+    "name": "Armando Stellato",
+    "email": "stellato@uniroma2.it"
+  },
+  "keywords": [
+    "Sustainable Development",
+    "SDG",
+    "United Nations"
+  ],
+  "full_download": [
+    {
+      "title": "SDG Taxonomy and Ontology",
+      "description": "SDG Taxonomy and Ontology",
+      "download_url": "https://github.com/UNStats/LOD4Stats/blob/master/sdg-data/sdg-ontology-with-taxonomy.ttl"
+    }
+  ]
+}

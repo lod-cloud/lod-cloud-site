@@ -1,0 +1,15 @@
+{
+  "identifier": "urn_webprotege_ontology_c0b8701e-374c-4d5a-bc60-970f0cba1976",
+  "title": "Vocabularios de los Códigos de Derecho de la Ciberseguridad en España",
+  "description": {
+    "en": "Vocabularios de los Códigos de Derecho de la Ciberseguridad en España"
+  },
+  "domain": "publications",
+  "website": "https://archive.org/details/urn_webprotege_ontology_c0b8701e-374c-4d5a-bc60-970f0cba1976",
+  "license": "http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html",
+  "triples": 0,
+  "contact_point": {
+    "name": "Yixian Chen",
+    "email": "100438312@alumnos.uc3m.es"
+  }
+}

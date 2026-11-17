@@ -1,0 +1,15 @@
+{
+  "identifier": "sinh-CLSPIRData",
+  "title": "2019-2022 Analysis of the π Index in China's Life Sciences and Basic Medicine",
+  "description": {
+    "en": "The π index is a metric for evaluating research institutions' paper output, focusing on the Life Sciences and Basic Medicine fields, and incorporating factors like peer review, journal impact, and author contribution. Since its launch in 2016, the π index has annually reflected the quantity, quality, and contribution of research output from institutions. The report 'Development of Life Sciences and Basic Medicine in China from the π Index: 8-Year Analysis (2016-2023)' analyzes nearly 400,000 papers, highlighting China's exceptional performance in global research output, particularly since 2018, when Chinese institutions led the world in publication volume and π factor growth. This release of 2019-2022 data and the comparison with the TOP500 institutions' standards provides further insights for research evaluation and innovation decision-making."
+  },
+  "domain": "cross_domain",
+  "website": "http://semweb.csdb.cn/dataset/sinh-CLSPIRData",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Zhang Yongjuan",
+    "email": "zhangyj@sinh.ac.cn"
+  }
+}

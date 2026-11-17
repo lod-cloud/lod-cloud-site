@@ -1,0 +1,33 @@
+{
+  "identifier": "multext-east",
+  "title": "Multext-East",
+  "description": {
+    "en": "From the web site: Version 4 of the MULTEXT-East resources, a multilingual dataset for language engineering research and development. This dataset contains, for Bulgarian, Croatian, Czech, English, Estonian, Hungarian, Lithuanian, Macedonian, Persian, Polish, Resian, Romanian, Russian, Serbian, Slovak, Slovene, Ukrainian, some or all of the following resources:"
+  },
+  "domain": "linguistics",
+  "website": "http://nl.ijs.si/ME/V4/",
+  "triples": 127651,
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "gold",
+      "value": 15355
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Annotated Parallel \"1984\" Corpus",
+      "description": "15144 phrases taken from the George Orwell novel 1984. Each phrase is one resource, containing rdfs:labels in 3 languages: en, bg and cs in parallel. License information is contained",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/multext1984.ttl.gz"
+    },
+    {
+      "title": "MULTEXT-East speech corpus.",
+      "description": "Multext East speech corpus, containing 215 phrases, each with rdfs:labels in Romanian, Slovene, Estonian, Hungarian, (English, Czech, Bulgarian) in parallel.",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/multextspch.ttl.gz"
+    }
+  ]
+}

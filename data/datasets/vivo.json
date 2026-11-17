@@ -1,0 +1,69 @@
+{
+  "identifier": "vivo",
+  "title": "VIVO",
+  "description": {
+    "en": "VIVO has been funded by NIH to create a semantic Facebook for scientist. It utilizes Semantic Web technologies to model scientists and provides federated search to enhance the discovery of researchers and collaborators across the country. The PI is the lead for the VIVO ontology team that is developing a core ontology for modeling scientists, publications, resources, grants, locations, and services. There are 236 classes in VIVO core version 1.0 ontology with 278 object properties and 222 data properties, incorporating classes from popular ontologies, such as BIBO, Dublin Core, Event, FOAF, geopolitical, and SKOS. VIVO data is based on high quality personnel data for VIVO partner institutions (i.e., University of Florida, Cornell University, Indiana University, Washington University, Weill Cornell Medical College, Scripps, and Ponce School of Medicine) that comes primarily from faculty annual reports, with additional publication data from Scopus and PubMed. VIVO data is for scientists with a focus on research (i.e., educational background, publications, expertise, grants), teaching (i.e., courses, seminars, training), and service (i.e., organizing conferences, editorial boards, other community services).\r\n\r\nIndividual packages are available:\r\n\r\n* package:vivo-cornell-university\r\n* package:vivo-indiana-university\r\n* package:vivo-university-of-florida"
+  },
+  "domain": "social_networking",
+  "website": "http://vivoweb.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://vivo.cornell.edu/individual/",
+  "triples": 4514025,
+  "contact_point": {
+    "name": "VIVO",
+    "email": "dingying@indiana.edu"
+  },
+  "keywords": [
+    "crossdomain",
+    "dataset-collection",
+    "deref-vocab",
+    "education",
+    "format-rdf",
+    "lod",
+    "published-by-producer",
+    "science",
+    "social-networks",
+    "vivo",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 58
+    }
+  ],
+  "other_download": [
+    {
+      "description": "VIVO University of Florida",
+      "media_type": "text/turtle",
+      "access_url": "http://vivo.ufl.edu/data/all.n3"
+    },
+    {
+      "description": "VIVO Indiana University",
+      "media_type": "text/turtle",
+      "access_url": "http://vivo.iu.edu/IU-VIVO.n3"
+    },
+    {
+      "description": "VIVO Cornell University",
+      "media_type": "text/turtle",
+      "access_url": "http://vivo.cornell.edu/Cornell-VIVO.n3"
+    },
+    {
+      "description": "Site Map for VIVO",
+      "media_type": "meta/sitemap",
+      "access_url": "http://vivo-onto.slis.indiana.edu/sitemap.xml"
+    },
+    {
+      "title": "VIVO Ponce",
+      "description": "VIVO dump from Ponce School of Medicine",
+      "access_url": "http://thedatahub.org/dataset/vivo-ponce/resource/7c353a8e-92f4-4aa5-8af5-53857d6c483c"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://vivo.ufl.edu/display/n1622"
+    }
+  ]
+}

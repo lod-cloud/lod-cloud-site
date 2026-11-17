@@ -1,0 +1,61 @@
+{
+  "identifier": "ecco-tcp-linked-data",
+  "title": "ECCO-TCP Eighteenth Century Texts Linked Data",
+  "description": {
+    "en": "Linked Data conversion of the metadata about the texts in the ECCO-TCP Eighteenth Century Collections Online Texts dataset.\r\n\r\nThe conversion was done from the csv and plain text files linked to from http://ckan.net/package/tcp-ecco-18th-century-texts"
+  },
+  "website": "http://kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://data.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/",
+  "triples": 35215,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "keithalexander@keithalexander.co.uk"
+  },
+  "keywords": [
+    "18thc",
+    "books",
+    "deref-vocab",
+    "eighteenth-century",
+    "format-bibo",
+    "format-foaf",
+    "format-rdf",
+    "literature",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "publications",
+    "published-by-third-party",
+    "publishing",
+    "texts"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 50
+    }
+  ],
+  "other_download": [
+    {
+      "description": "VoID Description",
+      "access_url": "http://data.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts"
+    }
+  ],
+  "example": [
+    {
+      "description": "example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/text/CW110133203"
+    },
+    {
+      "description": "Example Resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/person/Susanna_Centlivre_1667-1723"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/apis/sparql"
+    }
+  ]
+}

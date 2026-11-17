@@ -1,0 +1,44 @@
+{
+  "identifier": "DanteLatinLoanwords",
+  "title": "Dante Latin Loanwords in LiLa",
+  "description": {
+    "en": "This glossary linked to the LiLa Knowledge Base collects the Latin loanwords attested in the four Italian works by XIIIth Century writer and poet Dante Alighieri (Rime, Vita Nova, Convivio and Commedia)"
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/DanteLatinLoanwords/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/DanteLatinLoanwords",
+  "triples": 18400,
+  "doi": "10.5281/zenodo.7456962",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Dante"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 765
+    }
+  ],
+  "full_download": [
+    {
+      "title": "DanteLatinLoanwords",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/DanteLatinLoanWords"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "identifier": "bioportal-atmo",
+  "title": "African Traditional Medicine",
+  "description": {
+    "en": "African Traditional Medicine Ontology (ATMO) describes the actors' function (healer, fetishist or soothsayer); the different types of proposed process treatment, the symptom's roles and the disease consideration."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1099",
+  "triples": 1460,
+  "contact_point": {
+    "name": "Ghislain Atemezing"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 24
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 21
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 13
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 18
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 11
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 46
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 14
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 17
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 14
+    },
+    {
+      "target": "bioportal-mcv",
+      "value": 41
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 108
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 82
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 100
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 17
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 44
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 89
+    },
+    {
+      "target": "bioportal-rs",
+      "value": 13
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 138
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/40223?apikey=BP_API_KEY"
+    }
+  ]
+}

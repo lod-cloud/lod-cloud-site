@@ -1,0 +1,22 @@
+{
+  "identifier": "sadi-semantic-web-services-framework-registry",
+  "title": "SADI Semantic Web Services framework registry",
+  "description": {
+    "en": "Collection of RDF metadata about SADI services. Services registered at http://sadiframework.org/registry/register/ are dereferenced and the RDF returned is available in the SPARQL endpoint http://biordf.net/sparql in named graph http://sadiframework.org/registry/.\r\n\r\nThis CKAN entry was not created by the SADI development group, but by an interested third party."
+  },
+  "website": "http://sadiframework.org/registry",
+  "triples": 16238,
+  "contact_point": {
+    "name": "SADI development group"
+  },
+  "keywords": [
+    "lod"
+  ],
+  "sparql": [
+    {
+      "title": "BioRDF.net SPARQL enpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://biordf.net/sparql"
+    }
+  ]
+}

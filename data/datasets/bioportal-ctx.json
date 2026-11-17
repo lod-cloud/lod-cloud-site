@@ -1,0 +1,195 @@
+{
+  "identifier": "bioportal-ctx",
+  "title": "Cerebrotendinous xanthomatosis",
+  "description": {
+    "en": "The ontology represents CTX phenotypes, genetic variants, and bidirectional relationships between them though a patient model. The CTX ontology was build reusing the Human Phenotype Ontology (HPO) and the Snomed ct ontologies. \nThree groups of SQWRL queries were designed to query phenotype-genotype bidirectional relationships."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3025",
+  "triples": 8131,
+  "contact_point": {
+    "name": "Maria Taboada"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 13
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 103
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 11
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 45
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 44
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 37
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 14
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 32
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 31
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 16
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 32
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 16
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 106
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 12
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 11
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 22
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 42
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 42
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 36
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 73
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 33
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 129
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 29
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 71
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 100
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 43
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 50
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 10
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 81
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 108
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 35
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 325
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 39
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 11
+    },
+    {
+      "target": "bioportal-who",
+      "value": 31
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47142?apikey=BP_API_KEY"
+    }
+  ]
+}

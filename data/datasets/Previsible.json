@@ -1,0 +1,16 @@
+{
+  "identifier": "Previsible",
+  "title": "Previsible",
+  "description": {
+    "en": "SEO Consulting, Content & Education - Enterprise AI Search - https://previsible.io"
+  },
+  "domain": "media",
+  "website": "https://previsible.io",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Previsible-SEO-Logo.png/500px-Previsible-SEO-Logo.png",
+  "contact_point": {
+    "name": "Previsible Team",
+    "email": "contact@previsible.io"
+  }
+}

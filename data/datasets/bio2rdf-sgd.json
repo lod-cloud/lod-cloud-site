@@ -1,0 +1,148 @@
+{
+  "identifier": "bio2rdf-sgd",
+  "title": "Bio2RDF::Sgd",
+  "description": {
+    "en": "The Saccharomyces Genome Database (SGD) collects and organizes information about the molecular biology and genetics of the yeast Saccharomyces cerevisiae. SGD contains a variety of biological information and tools with which to search and analyze it."
+  },
+  "domain": "life_sciences",
+  "website": "http://sgd.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/sgd:",
+  "triples": 12494945,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-apo",
+      "value": 241
+    },
+    {
+      "target": "bio2rdf-chebi",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-ec",
+      "value": 870
+    },
+    {
+      "target": "bio2rdf-eco",
+      "value": 17
+    },
+    {
+      "target": "bio2rdf-gene3d",
+      "value": 893
+    },
+    {
+      "target": "bio2rdf-gi",
+      "value": 37605
+    },
+    {
+      "target": "bio2rdf-go",
+      "value": 5105
+    },
+    {
+      "target": "bio2rdf-goa",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 5906
+    },
+    {
+      "target": "bio2rdf-obi",
+      "value": 10475
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 15442
+    },
+    {
+      "target": "bio2rdf-refseq",
+      "value": 5824
+    },
+    {
+      "target": "bio2rdf-sgd",
+      "value": 875109
+    },
+    {
+      "target": "bio2rdf-so",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download sgd.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/sgd/sgd.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/sgd/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/sgd/sgd.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/sgd/bio2rdf-sgd.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/sgd/sgd.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/sgd/bio2rdf_sgd_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/sgd/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/sgd:S000006169"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://sgd.bio2rdf.org/sparql"
+    }
+  ]
+}

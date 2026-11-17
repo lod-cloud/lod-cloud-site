@@ -1,0 +1,34 @@
+{
+  "identifier": "bio2rdf-nextprot",
+  "title": "Bio2RDF::neXtProt",
+  "description": {
+    "en": "This dataset contains the protein data offered by neXtProt."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/nextprot:",
+  "triples": 276183203,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "lifesciences",
+    "lod"
+  ],
+  "other_download": [
+    {
+      "title": "Exemple resource (RDF)",
+      "description": "RDF/XML data about the Hexokinase-1 protein from neXtProt",
+      "media_type": "RDF",
+      "access_url": "http://bio2rdf.org/nextprot/describe/rdf?uri=http://bio2rdf.org/nextprot:NX_P19367"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "NextProt SPARQL endpoint",
+      "access_url": "http://nextprot.bio2rdf.org/sparql"
+    }
+  ]
+}

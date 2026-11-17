@@ -1,0 +1,69 @@
+{
+  "identifier": "museums-in-italy",
+  "title": "Italian Museums",
+  "description": {
+    "en": "List of geo-referenced italian museums. Places are linked to Geonames. Museum categories are linked to dbpedia.\r\nMore info at [http://www.linkedopendata.it/datasets/musei](http://www.linkedopendata.it/datasets/musei)"
+  },
+  "domain": "cross_domain",
+  "website": "http://www.linkedopendata.it/datasets/musei",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.linkedopendata.it/data/musei/resource/",
+  "triples": 49897,
+  "contact_point": {
+    "name": "linkedopendata.it",
+    "email": "info@linkedopendata.it"
+  },
+  "keywords": [
+    "country-italy",
+    "crossdomain",
+    "deref-vocab",
+    "format-rdf",
+    "format-vcard",
+    "license-metadata",
+    "linked-open-data",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "museum",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2894
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1570
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download dump",
+      "media_type": "rdf+xml",
+      "access_url": "http://dump.linkedopendata.it/musei"
+    },
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://void.linkedopendata.it/musei"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.linkedopendata.it/musei/resource/Musei_Vaticani_Collezione_d%27arte_religiosa_Moderna-Roma"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL enpdoint",
+      "access_url": "http://sparql.linkedopendata.it/musei"
+    }
+  ]
+}

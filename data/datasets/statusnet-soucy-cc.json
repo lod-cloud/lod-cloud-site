@@ -1,0 +1,120 @@
+{
+  "identifier": "statusnet-soucy-cc",
+  "title": "statusnet-soucy-cc",
+  "description": {
+    "en": "StatusNet instance hosted at http://soucy.cc"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 5
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-deuxpi-ca",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 16
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ilikefreedom-ro",
+      "value": 1
+    },
+    {
+      "target": "statusnet-imirhil-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-lebsanft-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 4
+    },
+    {
+      "target": "statusnet-orangeseeds-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 2
+    },
+    {
+      "target": "statusnet-recit-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.soucy.cc/hs0ucy/foaf"
+    }
+  ]
+}

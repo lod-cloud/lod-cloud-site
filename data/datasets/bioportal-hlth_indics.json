@@ -1,0 +1,151 @@
+{
+  "identifier": "bioportal-hlth_indics",
+  "title": "HEALTH_INDICATORS",
+  "description": {
+    "en": "Standardized health outcome and health determinant indicators as maintained by the CDCâ??s National Center for Health Statistics"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1581",
+  "triples": 2183,
+  "contact_point": {
+    "name": "Ketty Mobed"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 10
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 34
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 42
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 10
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 16
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 23
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 18
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 44
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 18
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 22
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 52
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 17
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 25
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 36
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 240
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 127
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 128
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 18
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 32
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 10
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 70
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 66
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 13
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 156
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 16
+    },
+    {
+      "target": "bioportal-who",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45294?apikey=BP_API_KEY"
+    }
+  ]
+}

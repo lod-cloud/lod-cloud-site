@@ -1,0 +1,51 @@
+{
+  "identifier": "bioportal-teddy",
+  "title": "Terminology for the Description of Dynamics",
+  "description": {
+    "en": "The TErminology for the Description of DYnamics (TEDDY) project aims to provide an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems Biology and Synthetic Biology."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1407",
+  "triples": 15301,
+  "contact_point": {
+    "name": "Christian Knuepfer"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-gaz",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 24
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46199?apikey=BP_API_KEY"
+    }
+  ]
+}

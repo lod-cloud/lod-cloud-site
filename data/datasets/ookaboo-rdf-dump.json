@@ -1,0 +1,63 @@
+{
+  "identifier": "ookaboo-rdf-dump",
+  "title": "Ookaboo RDF dump",
+  "description": {
+    "en": "The Ookaboo RDF dump contains metadata for nearly 1,000,000 public domain and Creative Commons images of more than 500,000 precise topics such as places, people and organism classifications linked to DBpedia and Freebase.\r\n\r\nExpressed in industry standard RDF, the Ookaboo dump is available with a CC-BY-SA/3.0 license that is friendly for both academic and commercial use. Precision is in excess of 0.98, enabling a new range of applications for image search and classification. See the latest release for downloads and documentation."
+  },
+  "website": "http://rdf.ookaboo.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 49000000,
+  "contact_point": {
+    "name": "Paul Houle",
+    "email": "paul@ontology2.com"
+  },
+  "keywords": [
+    "dbpedia",
+    "freebase",
+    "images",
+    "multimedia",
+    "rdf"
+  ],
+  "other_download": [
+    {
+      "title": "Ookaboo Core",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-core.nt.gz"
+    },
+    {
+      "title": "Ookaboo DBpedia",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-dbpedia.nt.gz"
+    },
+    {
+      "title": "Ookaboo Freebase",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-freebase.nt.gz"
+    },
+    {
+      "title": "Ookaboo Size L",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-size-l.nt.gz"
+    },
+    {
+      "title": "Ookaboo Size M",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-size-m.nt.gz"
+    },
+    {
+      "title": "Ookaboo Size S",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-size-s.nt.gz"
+    },
+    {
+      "title": "Ookaboo Size Sq",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-size-sq.nt.gz"
+    },
+    {
+      "title": "Ookaboo Size T",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-size-t.nt.gz"
+    },
+    {
+      "title": "Ookaboo Topic Labels",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-topic-labels.nt.gz"
+    },
+    {
+      "title": "Ookaboo Schema",
+      "access_url": "http://rdf.ookaboo.com/data/latest/ookaboo-schema.ttl.gz"
+    }
+  ]
+}

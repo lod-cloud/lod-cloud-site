@@ -1,0 +1,37 @@
+{
+  "identifier": "lexvo-org",
+  "title": "Lexvo.org",
+  "description": {
+    "en": "Lexvo.org brings information about languages, words, characters, and other human language-related entities to the Linked Data Web and Semantic Web. The Linked Data Web is a worldwide initiative to create a Web of Data that exposes the relationships between entities in our world. Lexvo.org adds a new perspective to this Web by exposing how everything in our world is connected in terms of language, e.g. by considering semantic relationships between multilingual labels (like book or New York). Lexvo not only defines global IDs (URIs) for language-related objects, but also ensures that these identifiers are dereferenceable and highly interconnected as well as externally linked to a variety of resources on the Web."
+  },
+  "website": "http://www.lexvo.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 1000000,
+  "contact_point": {
+    "name": "Gerard de Melo"
+  },
+  "keywords": [
+    "language linguistics crossdomain deref-vocab format-rdf linkeddata lod provenance-metadata rdf"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 4364
+    },
+    {
+      "target": "yago",
+      "value": 4362
+    }
+  ],
+  "other_download": [
+    {
+      "media_type": "RDF",
+      "access_url": "http://www.lexvo.org/resources/lexvo_latest.rdf.gz"
+    },
+    {
+      "title": "Lexvo.org dump",
+      "media_type": "RDF",
+      "access_url": "http://www.lexvo.org/resources/lexvo_latest.rdf.gz"
+    }
+  ]
+}

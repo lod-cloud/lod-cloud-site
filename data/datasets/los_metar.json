@@ -1,0 +1,57 @@
+{
+  "identifier": "los_metar",
+  "title": "Weather Stations",
+  "description": {
+    "en": "Airports producing METAR weather reports with URI scheme based on (pseudo-)ICAO (and IATA) codes (with raw original codes as skos:notation) interlinked with OurAirports, Geonames and DBPedia airports"
+  },
+  "domain": "geography",
+  "website": "http://www.linkedopenservices.org/services/geo/SpatialResources/point/ICAO/",
+  "namespace": "http://www.linkedopenservices.org/services/geo/SpatialResources/point/ICAO/",
+  "triples": 75184,
+  "contact_point": {
+    "name": "Barry Norton",
+    "email": "barry.norton@kit.edu"
+  },
+  "keywords": [
+    "geographic",
+    "iata",
+    "icao",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "metar",
+    "no-deref-vocab",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1123
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 107
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Data dump",
+      "media_type": "RDF",
+      "access_url": "http://www.linkedopenservices.org/data/METARStations.rdf.xml"
+    },
+    {
+      "description": "ICAO resources",
+      "access_url": "http://www.linkedopenservices.org/services/geo/SpatialResources/point/ICAO/"
+    },
+    {
+      "description": "IATA resources",
+      "access_url": "http://www.linkedopenservices.org/services/geo/SpatialResources/point/IATA/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.linkedopenservices.org/services/geo/SpatialResources/point/ICAO/PADK"
+    }
+  ]
+}

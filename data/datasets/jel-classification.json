@@ -1,0 +1,37 @@
+{
+  "identifier": "jel-classification",
+  "title": "JEL Classification",
+  "description": {
+    "en": "The [Journal of Economic Literature (JEL) Classification System](http://www.aeaweb.org/econlit/jelCodes.php) was created and is maintained by the [American Economic Association](http://www.aeaweb.org/). The AEA provides this widely used resource freely for scholarly purposes.\r\n\r\nThe JEL dataset (as of 2012-09) is mirrored to mint preliminary identifiers for semantic web applications and to publish the translations from the original (English) version to German, French and Spanish which were created by André Davids, K.U. Leuven. This site and especially the translations are not authorized by AEA."
+  },
+  "triples": 7000,
+  "keywords": [
+    "economics",
+    "format-rdf",
+    "format-rdfa",
+    "format-skos",
+    "lld",
+    "publications"
+  ],
+  "other_download": [
+    {
+      "title": "Web page (RDFa)",
+      "access_url": "http://zbw.eu/beta/external_identifiers/jel"
+    },
+    {
+      "title": "Download RDF/XML",
+      "media_type": "application/zip",
+      "access_url": "http://zbw.eu/beta/external_identifiers/jel/download/jel.rdf.zip"
+    },
+    {
+      "title": "Download Turtle",
+      "media_type": "application/zip",
+      "access_url": "http://zbw.eu/beta/external_identifiers/jel/download/jel.ttl.zip"
+    },
+    {
+      "title": "Download ntriples",
+      "media_type": "application/zip",
+      "access_url": "http://zbw.eu/beta/external_identifiers/jel/download/jel.nt.zip"
+    }
+  ]
+}

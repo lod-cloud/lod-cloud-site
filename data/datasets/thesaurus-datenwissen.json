@@ -1,0 +1,31 @@
+{
+  "identifier": "thesaurus-datenwissen",
+  "title": "Thesaurus Datenwissen",
+  "description": {
+    "en": "This service exposes the data from openthesaurus.de as Linked Data."
+  },
+  "website": "http://thesaurus.datenwissen.de/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 64154,
+  "contact_point": {
+    "name": "Angelo Veltens",
+    "email": "angelo.veltens@online.de"
+  },
+  "keywords": [
+    "lod",
+    "lodcloud.needsinfo",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party"
+  ],
+  "example": [
+    {
+      "description": "Example link (have to set application to rdf+xml)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://thesaurus.datenwissen.de/hervorragend#term"
+    }
+  ]
+}

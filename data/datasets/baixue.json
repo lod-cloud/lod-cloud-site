@@ -1,0 +1,28 @@
+{
+  "identifier": "baixue",
+  "title": "红色经典歌曲",
+  "description": {
+    "en": "收集了135首歌曲的相关数据。"
+  },
+  "domain": "cross_domain",
+  "website": "http://agegahgrggh.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "wageawgw",
+    "email": "ewagrehawg@qage.com"
+  },
+  "full_download": [
+    {
+      "title": "hh",
+      "media_type": "MIME type",
+      "download_url": "http://baixue.com"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "hongsejingdian gequ",
+      "access_url": "http://baixue.com"
+    }
+  ]
+}

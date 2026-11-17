@@ -1,0 +1,66 @@
+{
+  "identifier": "GWR",
+  "title": "Geographically Weighted Regression Model",
+  "description": {
+    "en": "GWR4 is a new release of a Microsoft Windows-based application software for calibrating geographically weighted regression (GWR) models, which can be used to explore geographically varying relationships between dependent/response variables and independent/explanatory variables. A GWR model can be considered a type of regression model with geographically varying parameters."
+  },
+  "domain": "geography",
+  "website": "https://geomodeling.njnu.edu.cn/modelItem/6078f0f2-f754-44a7-b3de-77f82b726347",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "Geographical weighted regression",
+    "回归"
+  ],
+  "other_download": [
+    {
+      "title": "TRMM 3B43 data",
+      "description": "InputData",
+      "access_url": "http://trmm.gsfc.nasa.gov/"
+    },
+    {
+      "title": "MODIS data with 1km spatial resolution",
+      "description": "InputData",
+      "access_url": "https://ladsweb.modaps.eosdis.nasa.gov"
+    },
+    {
+      "title": "SRTM-DEM data with 90m spatial resolution",
+      "description": "InputData",
+      "media_type": "data",
+      "access_url": "http://srtm.csi.cgiar.org/SELECTION/inputCoord.asp"
+    },
+    {
+      "title": "NDVI data of Weihe River Basin from 2000 to 2020",
+      "description": "InputData",
+      "media_type": "data",
+      "access_url": "https://landweb.nascom.nasa.gov/"
+    },
+    {
+      "title": "Precipitation, temperature and sunshine data of Weihe River basin",
+      "description": "InputData",
+      "access_url": "http://data.cma.cn/"
+    },
+    {
+      "title": "Downscale simulation of TRMM precipitation data over Mongolia Plateau based on GWR model",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ioT0BO4yQ4m_mOgeS2ml3UOebZHlXTg1FT8wONfHSAdBKUFZBH-cITtmzS6Ls2_f1&uniplatform=NZKPT"
+    },
+    {
+      "title": "Temporal and spatial changes of vegetation coverage and its driving mechanism in Weihe River Basin based on GWR model",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ioT0BO4yQ4m_mOgeS2ml3UK1wONf2ew-V95rtnFcnzUij2_IDt8BGdulJ3AxUPvkX&uniplatform=NZKPT"
+    },
+    {
+      "title": "Geographically Weighted Regression Model code",
+      "description": "ImplementedByAlgorithm",
+      "media_type": "code",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/fcf84557-3264-405e-93cc-0827b29fae63"
+    }
+  ]
+}

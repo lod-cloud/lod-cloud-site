@@ -1,0 +1,29 @@
+{
+  "identifier": "Norway_Fishery_",
+  "title": "Norway fishery stocks dataset",
+  "description": {
+    "en": "Stock data from Norway, transformed and published as Linked Data. Data source was the list of all stocks for all years retrieved in XML (transformed initially to JSON), collected from service: http://standardgraphs.ices.dk/StandardGraphsWebServices.asmx/getListStocks?year=0."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://standardgraphs.ices.dk/stocks/",
+  "triples": 1270280,
+  "image": "https://box.psnc.pl/f/ba0a07005e/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "fishery",
+    "stock",
+    "norway fishery",
+    "life science"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

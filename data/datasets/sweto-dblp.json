@@ -1,0 +1,45 @@
+{
+  "identifier": "sweto-dblp",
+  "title": "SwetoDblp",
+  "description": {
+    "en": "Data exposed: ontology focused on bibliography data of publications from DBLP with additions that include affiliations, universities, and publishers\r\n\r\nSize of dump and data set: 11M triples (1.1GB)\r\n\r\n\r\nNo dereferenceable URIs found."
+  },
+  "domain": "publications",
+  "website": "http://knoesis.wright.edu/library/ontologies/swetodblp/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lsdis.cs.uga.edu/projects/semdis/opus#",
+  "triples": 11000000,
+  "contact_point": {
+    "name": "Boanerges Aleman-Meza",
+    "email": "bam75@yahoo.com"
+  },
+  "keywords": [
+    "bibliographic",
+    "ckanupload.esw.200910",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "library",
+    "linkeddata",
+    "lod",
+    "lodcloud.needsfixing",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "ontology",
+    "rdf",
+    "size-large"
+  ],
+  "other_download": [
+    {
+      "title": "SwetoDblp Schema",
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://knoesis.wright.edu/resources/library-resources/ontologies/swetodblp/august2007/opus_august2007.rdf"
+    },
+    {
+      "description": "Download instances (gzip)",
+      "media_type": "RDF",
+      "access_url": "http://knoesis.wright.edu/resources/library-resources/ontologies/swetodblp/april2008/swetodblp_april_2008.rdf.gz"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "ABC",
+  "title": "Test_m",
+  "description": {
+    "en": "Test"
+  },
+  "domain": "user_generated",
+  "website": "https://lod-cloud.net",
+  "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Suheyb",
+    "email": "abc@gmail.com"
+  }
+}

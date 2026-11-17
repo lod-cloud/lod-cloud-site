@@ -1,0 +1,64 @@
+{
+  "identifier": "googleart-wrapper",
+  "title": "GoogleArt wrapper",
+  "description": {
+    "en": "The GoogleArtProject is a place to explore museums from around the world, seeing and learning about the artwork they contain. It is a cool service, offering very high res images of the paintings, but not providing a machine-friendly access to the data shown. This server provides a wrapper around the HTML page for paintings and museums. It exposes part of the information using FOAF and Dublin Core ontologies and links the resource to DBpedia"
+  },
+  "website": "http://linkeddata.few.vu.nl/googleart/",
+  "namespace": "http://linkeddata.few.vu.nl/googleart/museums/",
+  "triples": 37717,
+  "contact_point": {
+    "name": "Christophe Guéret",
+    "email": "c.d.m.gueret@vu.nl"
+  },
+  "keywords": [
+    "art",
+    "crossdomain",
+    "format-dbp",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "latc",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "opendatachallenge",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1632
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Data dump",
+      "media_type": "application/x-ntriples",
+      "download_url": "https://github.com/downloads/cgueret/GoogleArt-wrapper/gartwrapper.nq.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource (Night Watch)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.few.vu.nl/googleart/museums/rijks/night-watch"
+    },
+    {
+      "description": "Example resource (The birth of Venus)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.few.vu.nl/googleart/museums/uffizi/the-birth-of-venus"
+    },
+    {
+      "description": "Example resource (Rijks Museum)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.few.vu.nl/googleart/museums/rijks"
+    },
+    {
+      "description": "Example resource (Uffizi Gallery)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.few.vu.nl/googleart/museums/uffizi"
+    }
+  ]
+}

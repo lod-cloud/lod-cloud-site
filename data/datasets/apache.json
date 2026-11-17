@@ -1,0 +1,46 @@
+{
+  "identifier": "apache",
+  "title": "apache",
+  "domain": "user_generated",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-admin",
+    "format-cc",
+    "format-dcterm",
+    "format-doap",
+    "format-foaf",
+    "format-owl",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-rss",
+    "format-w3con",
+    "format-wot",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "provenance-metadata",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 104
+    },
+    {
+      "target": "w3c",
+      "value": 5
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=ISO-8859-1",
+      "access_url": "http://lucene.apache.org/core/doap.rdf"
+    }
+  ]
+}

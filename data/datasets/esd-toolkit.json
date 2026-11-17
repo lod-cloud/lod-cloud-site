@@ -1,0 +1,37 @@
+{
+  "identifier": "esd-toolkit",
+  "title": "ESD-Toolkit",
+  "description": {
+    "en": "Controlled lists for the public sector in Europe"
+  },
+  "domain": "government",
+  "website": "http://standards.esd-toolkit.eu/EuOverview.aspx",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcterm",
+    "format-owl",
+    "format-rdf",
+    "format-skos",
+    "government",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 10
+    },
+    {
+      "target": "esd-standards",
+      "value": 2806
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://doc.esd-toolkit.eu/service/644.rdf"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "identifier": "ISSN:_0080-3626",
+  "title": "Pierwszy polski podręcznik bibliotekarski",
+  "description": {
+    "en": "Analiza pracy Lelewela poświęconej bibliotekoznawstwu i porównanie jej do współczesnych osiągnięć bibliotekoznawstwa."
+  },
+  "domain": "linguistics",
+  "website": "http://rocznikibiblioteczne.ibi.uni.wroc.pl/wp-content/uploads/2019/04/treichel.pdf",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "rocznikibiblioteczne.ibi.uni.wroc.pl",
+  "triples": 81800,
+  "contact_point": {
+    "name": "Alicja Kiełczewska",
+    "email": "a.kielczewska96@gmail.com"
+  },
+  "keywords": [
+    "Lelewel",
+    "bibliotekoznawstwo",
+    "podręcznik",
+    "Treichel"
+  ],
+  "full_download": [
+    {
+      "title": "Pierwszy polski podręcznik bibliotekarski",
+      "description": "Analiza pracy Lelewela poświęconej bibliotekoznawstwu i porównanie jej do współczesnych osiągnięć bibliotekoznawstwa.",
+      "media_type": "application/pdf",
+      "download_url": "http://rocznikibiblioteczne.ibi.uni.wroc.pl/wp-content/uploads/2019/04/treichel.pdf"
+    }
+  ]
+}

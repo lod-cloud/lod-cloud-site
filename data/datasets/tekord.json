@@ -1,0 +1,45 @@
+{
+  "identifier": "tekord",
+  "title": "TEKORD",
+  "description": {
+    "en": "RDF-ized controlled vocabulary of Norwegian terms with Universal Decimal Classification numbers; library metadata from the Norwegian University of Science and Technology."
+  },
+  "domain": "cross_domain",
+  "website": "http://www.ntnu.no/ub/data/tekord/about",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://www.ntnu.no/ub/data/tekord",
+  "triples": 100000,
+  "contact_point": {
+    "name": "NTNU University Library",
+    "email": "rurik.greenall@ub.ntnu.no"
+  },
+  "keywords": [
+    "controlled-vocabulary",
+    "crossdomain",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "norwegian",
+    "published-by-producer",
+    "rdf"
+  ],
+  "other_download": [
+    {
+      "description": "Downloadable Dataset",
+      "access_url": "http://www.ntnu.no/ub/data/tekord"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example Resource",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.ntnu.no/ub/data/tekord#NTUB01506"
+    }
+  ]
+}

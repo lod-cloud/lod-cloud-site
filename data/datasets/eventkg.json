@@ -1,0 +1,40 @@
+{
+  "identifier": "eventkg",
+  "title": "EventKG",
+  "description": {
+    "en": "The EventKG is a novel multilingual resource incorporating event-centric information extracted from several large-scale knowledge graphs such as Wikidata, DBpedia and YAGO, as well as less structured sources such as Wikipedia Current Events and Wikipedia event lists in five languages. The EventKG is an extensible event-centric resource modeled in RDF. It relies on Open Data and best practices to make event data spread across different sources available through a common representation and reusable for a variety of novel algorithms and real-world applications."
+  },
+  "website": "http://eventkg.l3s.uni-hannover.de",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 200000000,
+  "contact_point": {
+    "name": "Simon Gottschalk",
+    "email": "gottschalk@L3S.de"
+  },
+  "keywords": [
+    "events",
+    "knowledge graph"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 15235024
+    },
+    {
+      "target": "wikidata",
+      "value": 39234796
+    },
+    {
+      "target": "yago",
+      "value": 2358699
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EventKG: All data in TTL",
+      "description": "Seven TTL files:\r\n\r\n* Events with labels and descriptions: events.nq\r\n* Entities with labels: entities.nq\r\n* Locations, start times and end times of events: relations_base.nq\r\n* Link relations between events and other events or entities: relations_links.nq\r\n* Other relations between events and other events or entities: relations_other.nq\r\n* Data sets used in EventKG: graphs.ttl\r\n* Schema of EventKG: schema.ttl",
+      "media_type": "nq",
+      "access_url": "http://eventkg.l3s.uni-hannover.de/data/eventkg.tar.gz"
+    }
+  ]
+}

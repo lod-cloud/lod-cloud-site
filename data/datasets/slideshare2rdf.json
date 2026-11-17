@@ -1,0 +1,35 @@
+{
+  "identifier": "slideshare2rdf",
+  "title": "Slideshare2RDF Server",
+  "description": {
+    "en": "### Description\r\n\r\nAn API for [Slideshare.net](http://slideshare.net/), it provides RDF metadata for the presentations uploaded to Slideshare. The RDF representation uses the SIOC ontology."
+  },
+  "website": "http://linkeddata.few.vu.nl/slideshare/",
+  "namespace": "http://linkeddata.few.vu.nl/slideshare/",
+  "triples": 10000000,
+  "contact_point": {
+    "name": "Paul Groth",
+    "email": "pgroth@few.vu.nl"
+  },
+  "keywords": [
+    "api",
+    "format-dc",
+    "format-rdf",
+    "format-sioc",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud.nolinks",
+    "metadata",
+    "presentations",
+    "published-by-third-party",
+    "slides",
+    "usergeneratedcontent"
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.few.vu.nl/slideshare/mhelmke/presentation-zen"
+    }
+  ]
+}

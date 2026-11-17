@@ -1,0 +1,155 @@
+{
+  "identifier": "bioportal-ms",
+  "title": "Mass spectrometry",
+  "description": {
+    "en": "A structured controlled vocabulary for the annotation of mass spectrometry experiments. Developed by the HUPO Proteomics Standards Initiative."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1105",
+  "triples": 20027,
+  "contact_point": {
+    "name": "PSI-MS Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bao",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 31
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 24
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 22
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 16
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 24
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 14
+    },
+    {
+      "target": "bioportal-jerm",
+      "value": 15
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 20
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 36
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 10
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 29
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 115
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 13
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 36
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 11
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 21
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 10
+    },
+    {
+      "target": "bioportal-propreo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 32
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 10
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 67
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 19
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-uo",
+      "value": 35
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47293?apikey=BP_API_KEY"
+    }
+  ]
+}

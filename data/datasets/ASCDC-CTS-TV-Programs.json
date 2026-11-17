@@ -1,0 +1,88 @@
+{
+  "identifier": "ASCDC-CTS-TV-Programs",
+  "title": "The Chinese Television System Educational and Cultural Programs Digital Archive (CTS-TV-Programs)",
+  "description": {
+    "en": "The LOD dataset of ASCDC_The Chinese Television System Educational and Cultural Programs Digital Archive (CTS-TV-Programs) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from “The Chinese Television System Educational and Cultural Programs Digital Archive” (華視教育文化節目之數位典藏) in the “Taiwan Union Catalog” (數位典藏與數位學習聯合目錄, https://catalog.digitalarchives.tw/Organization/List.jsp?CID=61756). Originally, the metadata was established by the Multimedia & Game Science Department at the Lunghwa University of Science and Technology (龍華科技大學多媒體與遊戲發展科學系). The data includes collections of digital information about 5 educational and cultural programs, such as Nature Classroom, One Word a Day, Voices of the Hokkien, Harvest Season and Hometown Yearnings, which were produced by the Chinese Television System (CTS) in the 1980s. Containing 726 data records and 31,711 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC 0), while the digitized items are under CC-BY-NC-ND."
+  },
+  "domain": "media",
+  "website": "https://data.ascdc.tw/en/data.php",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.ascdc.tw/uc/media/lhu/",
+  "triples": 31711,
+  "contact_point": {
+    "name": "Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.)",
+    "email": "sophy@gate.sinica.edu.tw"
+  },
+  "keywords": [
+    "ASCDC",
+    "Media",
+    "Video-clips",
+    "Chinese Television System",
+    "Television Programs",
+    "Education",
+    "Culture",
+    "Lunghwa University of Science and Technology",
+    "Taiwan Union Catalog"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2306
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 806
+    },
+    {
+      "target": "getty-aat",
+      "value": 726
+    },
+    {
+      "target": "viaf",
+      "value": 685
+    }
+  ],
+  "full_download": [
+    {
+      "title": "ASCDC LODDatasets",
+      "description": "Launched in 2018, ASCDC LODDatasets is an online portal platform for publishing LOD-based datasets, which are converted and provided by the ASCDC in Taiwan (R.O.C), with service for SPARQL queries and data downloads.",
+      "media_type": "XML, JSON, TTL, CSV.",
+      "download_url": "https://data.ascdc.tw/en/index.php"
+    },
+    {
+      "title": "ASCDC LODDataset of AS-CTS-TV-Programs",
+      "description": "Full download of ASCDC LODDataset of AS-CTS-TV-Programs in ttl format.",
+      "media_type": "ttl",
+      "download_url": "https://data.ascdc.tw/dataset/ASCDC-CTS-TV-Programs.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ASCDC LODDatasets - Downloads",
+      "description": "Webpage of ASCDC LODDatasets for downloads of entire published LOD-based datasets.",
+      "media_type": "text/html",
+      "access_url": "https://data.ascdc.tw/en/data.php"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource: Hill Town in Nantou (1st Episode) /南投山城(上)",
+      "description": "Resource contains the LOD-based data on the video clip about “Hill town in Nantou, 1st episode” (南投山城-上) in the CTS TV program of “Hometown Yearnings”/ 鄉土情深.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.ascdc.tw/uc/media/lhu/005f94e6"
+    },
+    {
+      "title": "Example Resource: One Word a Day-Ting /每日一字-聽",
+      "description": "Resource contains the LOD-based data on the video clip about “One Word a Day-Ting” (每日一字-聽) in the CTS TV program of “One Word a Day”/ 每日一字.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.ascdc.tw/uc/media/lhu/005f9746"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ASCDC LODDatasets - SPARQL Queries",
+      "description": "Access to the SPARQL endpoint of ASCDC's LOD datasets for data retrieval (with template-based examples), downloads and further reuse.",
+      "access_url": "https://data.ascdc.tw/en/sparql.php"
+    }
+  ]
+}

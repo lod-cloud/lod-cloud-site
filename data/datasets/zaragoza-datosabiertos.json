@@ -1,0 +1,66 @@
+{
+  "identifier": "zaragoza-datosabiertos",
+  "title": "Datos Abiertos de Zaragoza",
+  "description": {
+    "en": "Datos Abiertos Zaragoza es una iniciativa del Ayuntamiento de Zaragoza para el fomento de la reutilización de la información publicada en su web por parte de la ciudadanía, las empresas y otros organismos, lo que ofrece un aumento de la transparencia de la administración, el incremento de la participación ciudadana y la posibilidad de crecimiento económico en distintos sectores."
+  },
+  "domain": "government",
+  "website": "http://www.zaragoza.es/ciudad/risp/presentacion.htm",
+  "namespace": "http://www.zaragoza.es/datosabiertos/id/",
+  "triples": 2744,
+  "contact_point": {
+    "name": "Ayuntamiento de Zaragoza",
+    "email": "webmunicipal@zaragoza.es"
+  },
+  "keywords": [
+    "country-es",
+    "deref-vocab",
+    "government",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "published-by-producer"
+  ],
+  "other_download": [
+    {
+      "title": "Catálogo Conjuntos de Datos",
+      "description": "RDF-Turlte",
+      "media_type": "application/x-turtle",
+      "access_url": "http://www.zaragoza.es/datosabiertos/sparql?query=CONSTRUCT+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}%0D%0AWHERE+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}&format=application/x-turtle"
+    },
+    {
+      "title": "Catálogo Conjuntos de Datos",
+      "description": "RDF-XML",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.zaragoza.es/datosabiertos/sparql?query=CONSTRUCT+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}%0D%0AWHERE+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}&format=application%2Frdf%2Bxml"
+    },
+    {
+      "title": "Catálogo Conjuntos de Datos",
+      "description": "RDF-N3",
+      "media_type": "text/rdf+n3",
+      "access_url": "http://www.zaragoza.es/datosabiertos/sparql?query=CONSTRUCT+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}%0D%0AWHERE+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}&format=text%2Frdf%2Bn3"
+    },
+    {
+      "title": "Catálogo Conjuntos de Datos",
+      "description": "SPARQL-JSON",
+      "media_type": "application/sparql-results+xml",
+      "access_url": "http://www.zaragoza.es/datosabiertos/sparql?query=SELECT+*+WHERE+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}&format=application/sparql-results+json"
+    },
+    {
+      "title": "Catálogo Conjuntos de Datos",
+      "description": "SPARQL-XML",
+      "media_type": "application/sparql-results+xml",
+      "access_url": "http://www.zaragoza.es/datosabiertos/sparql?query=SELECT+*+WHERE+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}&format=application/sparql-results+xml"
+    },
+    {
+      "title": "Catálogo Conjuntos de Datos",
+      "description": "RSS",
+      "access_url": "http://www.zaragoza.es/ciudad/rss/hilo/ver_Risp"
+    },
+    {
+      "title": "Catálogo Conjuntos de Datos",
+      "description": "Acceso al buscador facetado: SOLR",
+      "access_url": "http://www.zaragoza.es/ciudad/risp/camposindizados.htm#risp"
+    }
+  ]
+}

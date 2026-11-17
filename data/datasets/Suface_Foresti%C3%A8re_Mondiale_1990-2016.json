@@ -1,0 +1,59 @@
+{
+  "identifier": "Suface_Forestière_Mondiale_1990-2016",
+  "title": "Suface Forestière Mondiale 1990-2016",
+  "description": {
+    "en": "Surface boisée de chaque pays (ou groupe de pays, e.g UE ou continents), en pourcentage de leur superficie totale, entre 1990 et 2016. Les régions boisées sont des terres naturelles ou plantées abritant des arbres d’au moins 5 mètres in situ, qu’elles soient productives ou pas, et excluent les zones boisées des systèmes de production agricole (par exemple, dans les plantations fruitières et les systèmes d’agrosylviculture) et les arbres des parcs et jardins urbains."
+  },
+  "domain": "cross_domain",
+  "website": "https://data.world/mhoangvslev/suface-forestire-mondiale-1990-2016",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 34875,
+  "image": "https://cdn.pixabay.com/photo/2015/10/05/15/37/forest-972792_960_720.jpg",
+  "contact_point": {
+    "name": "Minh-Hoang DANG",
+    "email": "minhhoangdang@hotmail.com"
+  },
+  "keywords": [
+    "surface forestiere"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 4024
+    },
+    {
+      "target": "w3c",
+      "value": 9389
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF/XML",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=rdf&iri=https://mmisw.org/ont/~mhoangvslev/surface_forestiere"
+    },
+    {
+      "title": "JSON-LD",
+      "media_type": "application/json+ld;charset=UTF-8",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=jsonld&iri=https://mmisw.org/ont/~mhoangvslev/surface_forestiere"
+    },
+    {
+      "title": "Turtle",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=ttl&iri=https://mmisw.org/ont/~mhoangvslev/surface_forestiere"
+    },
+    {
+      "title": "N-Triples",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=nt&iri=https://mmisw.org/ont/~mhoangvslev/surface_forestiere"
+    },
+    {
+      "title": "N-Quads",
+      "media_type": "application/rdf+json;charset=UTF-8",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=rj&iri=https://mmisw.org/ont/~mhoangvslev/surface_forestiere"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "https://mmisw.org/ont/sparql",
+      "access_url": "https://mmisw.org/sparql"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "identifier": "Corine_linked_dataset",
+  "title": "Corine linked dataset @PSNC",
+  "description": {
+    "en": "this dataset contains linked data from agriculture related lands (hilucs_code<200) & for main cities in Czech Republic (centers of NUTS3 regions), Poland (agglomeration areas from Urban Atlas) and Spain (agglomeration areas from Urban Atlas)."
+  },
+  "domain": "government",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/corine/",
+  "triples": 16777595,
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "corine",
+    "landuse",
+    "Czech Republic",
+    "Poland",
+    "Spain"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

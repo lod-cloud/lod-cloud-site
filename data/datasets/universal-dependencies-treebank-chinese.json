@@ -1,0 +1,36 @@
+{
+  "identifier": "universal-dependencies-treebank-chinese",
+  "title": "Universal Dependencies Treebank Chinese",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Chinese treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Chinese",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 123283,
+  "contact_point": {
+    "name": "Shen, Mo; McDonald, Ryan"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Chinese Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Chinese/archive/master.zip"
+    },
+    {
+      "title": "UD_Chinese RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "access_url": "https://datahub.io/dataset/fa3f45e4-41a7-48b0-904e-07303d79a83b/resource/3d0684aa-c9c1-4ea9-a066-89a98e1b2f0e/download/udchinese.rdf"
+    }
+  ]
+}

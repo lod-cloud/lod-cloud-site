@@ -1,0 +1,55 @@
+{
+  "identifier": "thecontentwrangler-com",
+  "title": "The Content Wrangler",
+  "description": {
+    "en": "The Content Wrangler dataset, built with WordLift from the website https://thecontentwrangler.com/"
+  },
+  "domain": "cross_domain",
+  "website": "https://thecontentwrangler.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 3914,
+  "image": "https://thecontentwrangler.com/wp-content/uploads/imgres.png",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "content strategy",
+    "the content wrangler",
+    "wordlift"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 119
+    },
+    {
+      "target": "freebase",
+      "value": 112
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 5
+    },
+    {
+      "target": "wikidata",
+      "value": 3
+    },
+    {
+      "target": "yago",
+      "value": 70
+    }
+  ],
+  "full_download": [
+    {
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/wl0345.rdf"
+    }
+  ],
+  "example": [
+    {
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.wordlift.io/wl0345/entity/lisa_l-_trager"
+    }
+  ]
+}

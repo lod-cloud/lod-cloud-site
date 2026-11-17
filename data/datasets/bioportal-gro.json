@@ -1,0 +1,36 @@
+{
+  "identifier": "bioportal-gro",
+  "title": "Cereal Plant Development",
+  "description": {
+    "en": "A structured controlled vocabulary for describing cereal plant development and growth stages. Please note that this ontology has now been superseded by the Plant Ontology."
+  },
+  "website": "http://bioportal.bioontology.org/ontologies/1047",
+  "triples": 2417,
+  "contact_point": {
+    "name": "Plant Ontology Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/13404?apikey=BP_API_KEY"
+    }
+  ]
+}

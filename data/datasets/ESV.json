@@ -1,0 +1,22 @@
+{
+  "identifier": "ESV",
+  "title": "The European Science Vocabulary (EuroSciVoc)",
+  "description": {
+    "en": "EuroSciVoc is a multilingual taxonomy that represents all the main fields of science that were discovered from CORDIS content and organised through a semi-automatic process based on NLP techniques. It contains more than 1000 categories in 6 languages (English, French, German, Italian, Polish and Spanish) and each category is enriched with relevant keywords extracted from the textual description of CORDIS projects.\n\nEuroSciVoc is managed by the Publications Office of the EU, and is currently used by the CORDIS website. It is specifically developed as a reference vocabulary for the Open Science community and is aligned with Linked Open Data standards."
+  },
+  "domain": "cross_domain",
+  "website": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/euroscivoc",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Baya Remaoun",
+    "email": "baya.remaoun@publications.europa.eu"
+  },
+  "full_download": [
+    {
+      "title": "EuroSciVoc SKOS full release",
+      "description": "The latest release of the  European Science Vocabulary (EuroSciVoc), in RDF/TTL format",
+      "download_url": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/euroscivoc"
+    }
+  ]
+}

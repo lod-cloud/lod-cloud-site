@@ -1,0 +1,133 @@
+{
+  "identifier": "data-bnf-fr",
+  "title": "data.bnf.fr - Bibliothèque nationale de France",
+  "description": {
+    "en": "data.bnf.fr gathers data from the different databases of the Bibliothèque nationale de France, so as to create Web pages about Works, Authors, Subjects and Places together with a RDF view on the extracted data. \r\n\r\nThere are links to id.loc.gov for languages and nationalities, to dewey.info  for subjects, and to DCMI type for types.\r\n\r\nThe authors and subjects are matched to Agrovoc,Geonames, DBpedia, Wikipedia, VIAF, Stitch, Dewey, ISNI, the library of Congress, and the German national library.\r\n\r\nWe use SKOS, FOAF, DC and RDA vocabularies, in a FRBR model."
+  },
+  "domain": "publications",
+  "website": "http://data.bnf.fr",
+  "namespace": "http://data.bnf.fr/",
+  "triples": 409712948,
+  "contact_point": {
+    "name": "data.bnf.fr project team - French national Library",
+    "email": "data@bnf.fr"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-skos",
+    "library",
+    "lld",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "agrovoc-skos",
+      "value": 682
+    },
+    {
+      "target": "datos-bne-es",
+      "value": 15588
+    },
+    {
+      "target": "dbpedia",
+      "value": 185149
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 25976
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 105055
+    },
+    {
+      "target": "idreffr",
+      "value": 1059765
+    },
+    {
+      "target": "isni",
+      "value": 1516663
+    },
+    {
+      "target": "lcsh",
+      "value": 114024
+    },
+    {
+      "target": "musicbrainz",
+      "value": 42381
+    },
+    {
+      "target": "thesaurus-w",
+      "value": 1039
+    },
+    {
+      "target": "viaf",
+      "value": 2352029
+    },
+    {
+      "target": "wikidata",
+      "value": 356614
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Full dump of data.bnf.fr",
+      "description": "Bulk download of the RDF data from data.bnf.fr (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "ftp://databnf:databnf@pef.bnf.fr/DATA/databnf_all_rdf_xml.tar.gz"
+    },
+    {
+      "title": "Country codes list",
+      "description": "Over 250 countries, with their codes (2 characters alphabetic string), compliant with standard ISO 3166. \r\nThey are matched with the Marc list for countries from the Library of Congress: http://id.loc.gov/vocabulary/countries.html.",
+      "access_url": "http://data.bnf.fr/vocabulary/countrycodes/rdf.xml"
+    },
+    {
+      "title": "Relator codes list",
+      "description": "500 types of role or relationships between a person or a corporate body and a resource (Example: translator). They are used at the BnF for bibliographic records in Intermarc. \r\nMost of them are matched with Marc codes from the relator codes list maintained by the Library of Congress: http://id.loc.gov/vocabulary/relators.html.",
+      "access_url": "http://data.bnf.fr/vocabulary/roles/rdf.xml"
+    },
+    {
+      "title": "Types of RAMEAU subject headings",
+      "description": "RAMEAU subject headings are used at the BnF, in Intermarc, so as to identify the subjects of a resource.",
+      "access_url": "http://data.bnf.fr/vocabulary/scheme/rdf.xml"
+    },
+    {
+      "title": "List of geographic area codes",
+      "description": "They are used as geographic schemes for geographic authority records.",
+      "access_url": "http://data.bnf.fr/vocabulary/geo-scheme/rdf.xml"
+    },
+    {
+      "title": "Musical genre codes list",
+      "description": "They are used to specify the musical genre of a musical work (authority record for musical works).",
+      "access_url": "http://data.bnf.fr/vocabulary/musical-genre/rdf.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example",
+      "description": "Alexandre Dumas, La Reine Margot (rdf/xml)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://data.bnf.fr/12417486/alexandre_dumas_la_reine_margot/rdf.xml"
+    },
+    {
+      "title": "Example",
+      "description": "Alexandre Dumas, La Reine Margot (rdf/n3)",
+      "media_type": "text/plain; charset=UTF-8",
+      "access_url": "http://data.bnf.fr/12417486/alexandre_dumas_la_reine_margot/rdf.nt"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL Endpoint data.bnf.fr",
+      "access_url": "http://data.bnf.fr/sparql"
+    }
+  ]
+}

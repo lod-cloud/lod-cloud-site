@@ -1,0 +1,60 @@
+{
+  "identifier": "GeoDetector",
+  "title": "Geographic detector model",
+  "description": {
+    "en": "spatial stratified heterogeneity is widespread, such as land type, climate zoning, Hu Huanyong line, remote sensing classification, etc., which is the embodiment of world law in geographical space. In order to analyze the spatial differentiation of nature and its driving force, Wang Jinfeng and his team proposed a new statistical method: GeoDetector, which realized the measurement of spatial differentiation degree, significance test and attribution analysis. This method has no linear assumption and has elegant form and clear geological meaning. The axiom is that if X causes Y, then the spatial differentiation of the two variables tends to be coupled. This method has been used by scholars in different fields of natural and social sciences, and many results have been published in international professional and comprehensive journals."
+  },
+  "domain": "geography",
+  "website": "https://geomodeling.njnu.edu.cn/modelItem/1704b5ba-4e4b-401a-8244-a40f7d96742f",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "GeoDetector"
+  ],
+  "other_download": [
+    {
+      "title": "Landsat remote sensing image data",
+      "description": "InputData",
+      "access_url": "https://earthexplorer.usgs.gov/"
+    },
+    {
+      "title": "ASTER GDEM 30M resolution digital elevation data",
+      "description": "InputData",
+      "access_url": "https://www.gscloud.cn/phonesources/details/310"
+    },
+    {
+      "title": "Geodetectors: Principles and prospects",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iAEhECQAQ9aTiC5BjCgn0RhkblDJCuKOSX8xwueZx8kZhUv9WeGRFJjD-Ig7_Iptb&uniplatform=NZKPT"
+    },
+    {
+      "title": "A method for predicting the distribution trend of urban settled population based on geographical detector",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=kxaUMs6x7-4I2jr5WTdXti3zQ9F92xu0Qg-R0xSsdGdCfhLaAHW6RBA0Bp6YnP2dXb-2FfSmECm6SJ8rkiKH82Ih8XBCGi_-&uniplatform=NZKPT"
+    },
+    {
+      "title": "A method for evaluating urban greenness space based on quantitative analysis of geographic detector",
+      "description": "ImplementedByAlgorithm",
+      "media_type": "model",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=kxaUMs6x7-4I2jr5WTdXti3zQ9F92xu0IES_dQYC5QiRib7Ie6CXGptn5C80KOTJejAgk_0xcPZni2j-tNDCVGGN_bNpvZoq&uniplatform=NZKPT"
+    },
+    {
+      "title": "Geographic detector model code",
+      "description": "ImplementedByAlgorithm",
+      "media_type": "code",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/resource/download/3d76430c-5a44-4660-bda2-f2085de4b74f/0"
+    },
+    {
+      "title": "Geo probe model using tutorial",
+      "description": "DescribedByDocument",
+      "media_type": "Document",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/resource/download/3d76430c-5a44-4660-bda2-f2085de4b74f/2"
+    }
+  ]
+}

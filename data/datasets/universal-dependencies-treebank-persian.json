@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-persian",
+  "title": "Universal Dependencies Treebank Persian",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Persian treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Persian",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 151625,
+  "contact_point": {
+    "name": "Seraji, Mojgan; Ginter, Filip; Nivre, Joakim",
+    "email": "mojgan@stp.lingfil.uu.se"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Persian Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Persian/archive/master.zip"
+    },
+    {
+      "title": "UD_Persian RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "access_url": "https://datahub.io/dataset/d785e076-8d76-440a-9745-87193dd084f2/resource/f9ae7160-2b97-455b-a7a3-129f0a7227c8/download/udpersian.rdf"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "identifier": "data-incubator-smcjournals",
+  "title": "Scottish Mountaineering Council Journals Issues 1-36",
+  "description": {
+    "en": "This is a Linked Data representation of a digital archive of 'Scottish Mountaineering Club Journal Issues 1 to 36, 1890-1901', which was created by Alan Dawson, Centre for Digital Library Research, University of Strathclyde, with funding from the Scottish Mountaineering Trust.\r\n  The Linked Data representation currently covers the relationships between places, people, journal issues and articles gathered from the Cumulative Indexes of Authors, Hills, People and Articles.\r\n  \r\n  TODO:\r\n    \r\n  (from the Cumulative Indexes)\r\n  Events\r\n  Illustrations\r\n  Reviews\r\n  Topics  \r\n\r\n  And:\r\n\r\n  \"The SMC in 1894: Rules, officers, members\" (http://gdl.cdlr.strath.ac.uk/smcj/smc1894.htm)"
+  },
+  "website": "http://smcjournals.dataincubator.org",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://smcjournals.dataincubator.org/",
+  "triples": 15801,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "keithalexander@keithalexander.co.uk"
+  },
+  "keywords": [
+    "19thcentury",
+    "climbing",
+    "club",
+    "format-bib",
+    "format-foaf",
+    "format-geovocab",
+    "format-rdf",
+    "geographic",
+    "journals",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "mountaineering",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party",
+    "sport"
+  ],
+  "links": [
+    {
+      "target": "data-incubator-climb",
+      "value": 123
+    },
+    {
+      "target": "dbpedia",
+      "value": 11
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 10
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "VoID Description",
+      "media_type": "meta/void",
+      "access_url": "http://smcjournals.dataincubator.org/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example Resource",
+      "media_type": "example/*",
+      "access_url": "http://smcjournals.dataincubator.org/hills/A'cailliach"
+    },
+    {
+      "description": "Example Resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://smcjournals.dataincubator.org/hills/A'cailliach.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/smcjournals/services/sparql"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "identifier": "openlylocal",
+  "title": "Openly Local :: Making Local Government More Transparent",
+  "description": {
+    "en": "The project provides a unified way of accessing UK Local Government information. It has information on (as per 2011-12-03):\r\n\r\n* 163 councils\r\n* 11,418 councillors\r\n* 6,728 committees\r\n* 77,830 committee meetings\r\n* 498 hyperlocal sites\r\n* 44,855 documents\r\n* Over 270,956 pieces of data\r\n* 2,368,794 financial transactions\r\n\r\nMost of the data is accessible as XML, JSON and RDF through a simple API (just add .json or .xml to the URL). There is also a Google Gadget, an app for Hyperlocal sites using Ning, and a javascript widget.\r\n\r\n### Openness\r\n\r\n  * Open. CC-BY-SA and ODbL. See [license info](http://openlylocal.com/info/licence_info) page.\r\n  * No bulk download though API access to most of the underlying data."
+  },
+  "domain": "government",
+  "website": "http://openlylocal.com/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://openlylocal.com/id/",
+  "triples": 10000000,
+  "contact_point": {
+    "name": "Chris Taggart http://countculture.wordpress.com/"
+  },
+  "keywords": [
+    "access.api",
+    "access.www",
+    "country.uk",
+    "deref-vocab",
+    "format.foaf",
+    "format.geonames",
+    "gov",
+    "government",
+    "local-authorities",
+    "local-government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 400
+    },
+    {
+      "target": "opencorporates",
+      "value": 60000
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 13500
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 13500
+    }
+  ],
+  "other_download": [
+    {
+      "title": "API",
+      "description": "API documentation",
+      "access_url": "http://openlylocal.com/info/api"
+    },
+    {
+      "title": "councils.json",
+      "description": "List of councils in JSON",
+      "access_url": "http://openlylocal.com/councils.json"
+    }
+  ],
+  "example": [
+    {
+      "title": "example.rdf",
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://openlylocal.com/councils/156.rdf"
+    }
+  ]
+}

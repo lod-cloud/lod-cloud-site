@@ -1,0 +1,15 @@
+{
+  "identifier": "Kronika_naukowa_Biblioteki_Jagiellońskiej",
+  "title": "Kronika naukowa Biblioteki Uniwersyteckiej w Łodzi",
+  "description": {
+    "en": "Kronika"
+  },
+  "domain": "publications",
+  "website": "http://rocznikibiblioteczne.ibi.uni.wroc.pl/woluminy/tom-i-zeszyty-1-2-1957/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Aleksandra Szpak",
+    "email": "aleksa.szp@gmail.com"
+  }
+}

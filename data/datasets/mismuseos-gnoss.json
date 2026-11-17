@@ -1,0 +1,139 @@
+{
+  "identifier": "mismuseos-gnoss",
+  "title": "Mis Museos, índice semántico de museos, artistas y obras de arte (GNOSS)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://mismuseos.net/en/community/museos\">MisMuseos.net</a> is a semantic index of artistic resources (museums, artists and artwork) powered by <a href=\"http://gnoss.com/\">GNOSS</a>. MisMuseos.net structures, organizes and offers you, in accordance with the principles promoted by the Linked Data Project, an extensive catalog of works of art that museums publish on the Web. MisMuseos.net connects them with educational recommendations and contexts. <p> The information on public cultural goods comes from data published in the Europeana dataset as RDF (Resource Description Framework), CER.ES Collection (Red Digital de Colecciones de Museos de España) and online public museums collections in Spain not included in CER.ES. MisMuseos.net offers a selection of 8,947 resources (November 2012).</p>\r\n</p>\r\n\r\n<p>\r\nMuseos, Obras de Arte y Artistas componen la colección de <a href=\"http://mismuseos.net/\">MisMuseos.net</a>, el gran índice de recursos artísticos en Internet promovido por \r\n<a href=\"http://gnoss.com/\">GNOSS</a> y destinado al enriquecimiento de la Web Semántica. MisMuseos.net estructura, organiza y pone a tu alcance, de acuerdo con los principios promovidos por el Linked Data Project, un extenso catálogo de las obras de arte que los museos publican en la Red conectándolo con otras bases de conocimiento educativas existentes en la iniciativa Linking Open permitiendo la generación de contextos educativos relacionados con los bienes culturales. </p>\r\n<p> La información sobre bienes culturales públicos procede de los datos publicados en el Europeana dataset como RDF (Resource Description Framework), de la colección CER.ES (Red Digital de Colecciones de Museos de España), y de las colecciones online de los museos públicos de España no incluidos en CER.ES. MisMuseos.net dispone en la actualidad de 8.947 obras de arte (Noviembre 2012)</p>"
+  },
+  "domain": "publications",
+  "website": "http://mismuseos.net/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://mismuseos.net/",
+  "triples": 1235894,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "artista",
+    "artistas",
+    "catálogo de arte",
+    "catálogo de obras de arte",
+    "catálogo semántico",
+    "colecciones de arte",
+    "colección de arte",
+    "colección de obras de arte",
+    "country-spain",
+    "country.es",
+    "cuadro",
+    "dc",
+    "escuelas artísticas",
+    "escultores",
+    "escultura",
+    "exposiciones",
+    "exposiciones de museos",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "instalaciones",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "mncars",
+    "museo de bellas artes de bilbao",
+    "museo del prado",
+    "museo nacional centro de arte reina sofía",
+    "museos",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "obras de arte",
+    "obras de arte por autor",
+    "obras de arte por estilo",
+    "obras de arte por museo",
+    "obras de arte por época",
+    "obras de museos",
+    "pinacoteca",
+    "pinacoteca digital",
+    "pinacoteca virtual",
+    "pintores",
+    "pintura",
+    "provenance-metadata",
+    "published-by-third-party",
+    "recursos artísticos",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper",
+    "índice de obras de arte"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1129
+    },
+    {
+      "target": "didactalia",
+      "value": 44745
+    },
+    {
+      "target": "freebase",
+      "value": 28715
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1071
+    },
+    {
+      "target": "gnoss",
+      "value": 2
+    },
+    {
+      "target": "museosespania-gnoss",
+      "value": 8949
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 59
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://mismuseos.net/voidMisMuseosGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in MisMuseos.net. Currently, almost 9000 resources have been published in the platform.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://mismuseos.net/comunidad/museos/recurso/Guernica/cac61948-81db-4f01-a505-8718e92bb414?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in MisMuseos.net. Currently, almost 9000 resources have been published in the platform.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://mismuseos.net/comunidad/museos/recurso/La-maja-vestida/28347478-566c-445d-b6e6-339a10f9cdc6?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://mismuseos.net/en/community/museos/advanced-search/tag/barroco?rdf"
+    }
+  ]
+}

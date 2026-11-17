@@ -1,0 +1,91 @@
+{
+  "identifier": "sitc-v4",
+  "title": "SITC-V4",
+  "description": {
+    "en": "The Standard International Trade Classification V4 is used by the United Nations to create statistics. \r\n\r\nAuthors of the linked data version:\r\n\r\n-Jose María Alvarez Rodríguez & Jose Emilio Labra Gayo\r\n\r\nWESO-University of Oviedo"
+  },
+  "website": "http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://purl.org/weso/pscs/sitc/v4/resource",
+  "triples": 70887,
+  "contact_point": {
+    "name": "Jose María Alvarez Rodríguez at WESO (University of Oviedo)",
+    "email": "josem.alvarez@weso.es"
+  },
+  "keywords": [
+    "10ders",
+    "deref-vocab",
+    "e-procurement",
+    "euroalert",
+    "format-dc",
+    "format-dcterms",
+    "format-gr",
+    "format-skos",
+    "format-skosxl",
+    "geodata",
+    "government",
+    "license-metadata",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "oviedo",
+    "procurement",
+    "provenance-metadata",
+    "pscs",
+    "public_contracts",
+    "published-by-third-party",
+    "stic",
+    "uniovi",
+    "university-of-oviedo",
+    "v4",
+    "vocab-mappings",
+    "weso"
+  ],
+  "links": [
+    {
+      "target": "http://productontology.org",
+      "value": 23534
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Standard International Trade Classification V4",
+      "description": "Data Dump Standard International Trade Classification V4",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/weso/datasets/pscs/sitc/v4/sitc-v4.ttl"
+    },
+    {
+      "title": "Linked Data Frontend-Standard International Trade Classification V4",
+      "description": "Linked Data Frontend-Standard International Trade Classification V4",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/weso/pscs/sitc/v4/resource/ds"
+    },
+    {
+      "title": "VoID of Standard International Trade Classification V4",
+      "description": "VoID of Standard International Trade Classification V4",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/weso/pscs/sitc/v4/resource/ds"
+    },
+    {
+      "title": "Custom definitions of Standard International Trade Classification V4",
+      "description": "Custom definitions of Standard International Trade Classification V4",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/weso/datasets/pscs/psc-ontology.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of resource-Standard International Trade Classification V4",
+      "description": "Example of resource-Standard International Trade Classification V4",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/weso/pscs/data/sitc/v4/resource/01112?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WESO SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://purl.org/weso/sparql"
+    }
+  ]
+}

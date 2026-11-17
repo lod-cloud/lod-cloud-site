@@ -1,0 +1,68 @@
+{
+  "identifier": "loius",
+  "title": "Linking Italian University Statistics Project",
+  "description": {
+    "en": "The MIUR is the Italian Ministry of Education, University and Research and each year publishes a set of useful information about the University student data.\r\nThe LOIUS project represents an attempt towards the adoption of semantic standards in publishing statistical data coming from MIUR Government."
+  },
+  "domain": "government",
+  "website": "http://sw.unime.it/loius/info.html",
+  "namespace": "http://sw.unime.it/loius/",
+  "triples": 586000000,
+  "contact_point": {
+    "name": "Giovanni Pirrotta",
+    "email": "giovanni.pirrotta@gmail.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-owl",
+    "format-rdf",
+    "government",
+    "italy",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "miur",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "statistic",
+    "university",
+    "university-students"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 311
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDFa starting point",
+      "access_url": "http://sw.unime.it/loius"
+    },
+    {
+      "description": "Download",
+      "access_url": "http://sw.unime.it/loius/download.html"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdfa",
+      "access_url": "http://sw.unime.it/loius/index.py?area=iscritti&year=2001_2002&model=modello12&university=05806"
+    },
+    {
+      "description": "Example resource (RDF+XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://sw.unime.it/loius/dimension/faculty/143"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sw.unime.it:8890/sparql"
+    }
+  ]
+}

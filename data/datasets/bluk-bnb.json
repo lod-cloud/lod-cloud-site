@@ -1,0 +1,172 @@
+{
+  "identifier": "bluk-bnb",
+  "title": "British National Bibliography (BNB) - Linked Open Data",
+  "description": {
+    "en": "British National Bibliography (BNB) published as Linked Data by the British Library, linked to external sources including: [VIAF](http://viaf.org/), [ISNI](http://isni.org), [LCSH](http://id.loc.gov/authorities/), [Lexvo](http://www.lexvo.org/), [GeoNames](http://www.geonames.org/ontology/documentation.html), MARC [country](http://id.loc.gov/vocabulary/countries.html), and [language](http://id.loc.gov/vocabulary/languages.html), [Dewey.info](http://dewey.info/).  Published to [this data model for books](https://www.bl.uk/bibliographic/pdfs/bldatamodelbook.pdf); [this data model for serials](https://www.bl.uk/bibliographic/pdfs/bldatamodelserial.pdf) and this data model for forthcoming books (http://www.bl.uk/bibliographic/pdfs/bldatamodelcip.pdf).\r\n\r\nCurrent release of approximately 3.9 million descriptions (146,901,135 triples) of books (including monographs published over time); forthcoming books and serials published in the UK over the last 60 years.The dataset, covering UK publications since 1950, is updated monthly."
+  },
+  "domain": "publications",
+  "website": "http://bnb.data.bl.uk",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://bnb.data.bl.uk/id/",
+  "triples": 146901135,
+  "contact_point": {
+    "name": "The British Library Metadata Services",
+    "email": "metadata@bl.uk"
+  },
+  "keywords": [
+    "bibliographic",
+    "british-library",
+    "cc0",
+    "crossdomain",
+    "format-rdf",
+    "format-xhtml",
+    "format-xml",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "ddc (books)",
+      "value": 222110
+    },
+    {
+      "target": "ddc (forthcoming books)",
+      "value": 100687
+    },
+    {
+      "target": "ddc (serials)",
+      "value": 29263
+    },
+    {
+      "target": "isni (books)",
+      "value": 775485
+    },
+    {
+      "target": "isni (forthcoming books)",
+      "value": 273293
+    },
+    {
+      "target": "isni (serials)",
+      "value": 7592
+    },
+    {
+      "target": "lcsh (books)",
+      "value": 142026
+    },
+    {
+      "target": "lcsh (forthcoming books)",
+      "value": 83189
+    },
+    {
+      "target": "lcsh (serials)",
+      "value": 18642
+    },
+    {
+      "target": "viaf (books)",
+      "value": 1127476
+    },
+    {
+      "target": "viaf (forthcoming books)",
+      "value": 359437
+    },
+    {
+      "target": "viaf (serials)",
+      "value": 22286
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Search Service",
+      "description": "Search Service",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/search"
+    },
+    {
+      "title": "Example resource RDF - ttl/json/html - default html",
+      "description": "Example resource RDF - ttl/json/html - default html",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/doc/resource/006893251"
+    },
+    {
+      "title": "British Library Terms RDF Schema",
+      "description": "British Library Terms RDF Schema",
+      "media_type": "XML",
+      "access_url": "http://www.bl.uk/schemas/bibliographic/blterms"
+    },
+    {
+      "title": "Current Information on releases and documentation",
+      "description": "Current Information on releases and documentation",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.bl.uk/bibliographic/datafree.html"
+    },
+    {
+      "title": "Data model (Book)",
+      "description": "This is a diagram detailing the data model developed for books, including books published over time.",
+      "media_type": "application/pdf",
+      "access_url": "http://www.bl.uk/bibliographic/pdfs/bldatamodelbook.pdf"
+    },
+    {
+      "title": "Data model (Serial)",
+      "description": "This is the diagram detailing the data model developed for serials, i.e. journals, newpapers, etc.",
+      "media_type": "application/pdf",
+      "access_url": "http://www.bl.uk/bibliographic/pdfs/bldatamodelserial.pdf"
+    },
+    {
+      "title": "SPARQL Editor",
+      "description": "This SPARQL editor enables the query of the BNB using SPARQL.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/flint"
+    },
+    {
+      "title": "Bulk downloads",
+      "description": "This page provides access to bulk downloads of the datasets (Books, Serials)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.bl.uk/bibliographic/download.html#lodbnb"
+    },
+    {
+      "title": "Data model (Forthcoming book)",
+      "description": "This is a diagram detailing the data model developed for forthcoming books",
+      "media_type": "application/pdf",
+      "access_url": "http://www.bl.uk/bibliographic/pdfs/bldatamodelcip.pdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource - RDF",
+      "description": "Example resource - RDF",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/doc/resource/006893251.rdf"
+    },
+    {
+      "title": "Example resource - Turtle",
+      "description": "Example resource - Turtle",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/doc/resource/006893251.ttl"
+    },
+    {
+      "title": "Example resource - JSON",
+      "description": "Example resource - JSON",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/doc/resource/006893251.json"
+    },
+    {
+      "title": "Example resource - html",
+      "description": "Example resource - html",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/doc/resource/006893251.html"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL Endpoint",
+      "access_url": "http://bnb.data.bl.uk/sparql"
+    }
+  ]
+}

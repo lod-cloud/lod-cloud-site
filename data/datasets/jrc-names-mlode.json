@@ -1,0 +1,56 @@
+{
+  "identifier": "jrc-names-mlode",
+  "title": "JRC-Names-MLODE",
+  "description": {
+    "en": "From their web site: JRC-Names is a highly multilingual named entity resource for person and organisation names (called 'entities'). It consists of large lists of names and their many spelling variants (up to hundreds for a single person), including across scripts (Latin, Greek, Arabic, Cyrillic, Japanese, Chinese, etc.)."
+  },
+  "website": "https://ec.europa.eu/jrc/en/language-technologies/jrc-names",
+  "triples": 1458828,
+  "contact_point": {
+    "name": "Original Data: Ralf Steinberger, RDF-Conversion by M. Sherif",
+    "email": "Ralf.Steinberger@jrc.ec.europa.eu"
+  },
+  "keywords": [
+    "AKSW",
+    "crossdomain",
+    "jrc",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 124651
+    }
+  ],
+  "other_download": [
+    {
+      "title": "JRC-Names named entity resource file",
+      "description": "This file contains the list of names and their variants. It is planned that this file will be updated daily in order to include the most recently added entity names.",
+      "media_type": "application/octet-stream",
+      "access_url": "http://optima.jrc.it/data/entities.gzip"
+    },
+    {
+      "title": "RDF conversion",
+      "description": "File was converted for MLODE by M. Sherif",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/jrcNames.ttl.gz"
+    },
+    {
+      "title": "Links to DBpedia",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/jrcNamesInterlink.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to the example turtle resource Muammar Gaddafi",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://mlode.nlp2rdf.org/resource/jrc-names/Muammar_Gaddafi"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://mlode.nlp2rdf.org/sparql"
+    }
+  ]
+}

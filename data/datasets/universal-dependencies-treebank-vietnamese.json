@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-vietnamese",
+  "title": "Universal Dependencies Treebank Vietnamese",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Vietnamese treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Vietnamese",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 43754,
+  "contact_point": {
+    "name": "Nguyễn Thị, Lương; Hà Mỹ, Linh; Lê Hồng, Phương; Nguyễn Thị Minh, Huyền",
+    "email": "luongnt@dlu.edu.vn, halinh.hus@gmail.com, phuonglh@gmail.com, ntmhuyen@gmail.com"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Vietnamese Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Vietnamese/archive/master.zip"
+    },
+    {
+      "title": "UD_Vietnamese RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/1b6bef97-224b-4365-b814-1811ba07754a/resource/634b0c44-cdb7-4fd5-997e-37a5f89a5d81/download/udvietnamese.rdf"
+    }
+  ]
+}

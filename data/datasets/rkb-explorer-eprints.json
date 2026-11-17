@@ -1,0 +1,191 @@
+{
+  "identifier": "rkb-explorer-eprints",
+  "title": "ePrints3 Institutional Archive Collection (RKBExplorer)",
+  "description": {
+    "en": "Linked Data version of a number of eprints3 archives."
+  },
+  "domain": "publications",
+  "website": "http://eprints.rkbexplorer.com/",
+  "namespace": "http://eprints.rkbexplorer.com/id/",
+  "triples": 8417840,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 71613
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 16
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 99778
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 82
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 7
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 102307
+    },
+    {
+      "target": "rkb-explorer-deepblue",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 31
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 689624
+    },
+    {
+      "target": "rkb-explorer-epsrc",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 22
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 154
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 570
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 306
+    },
+    {
+      "target": "rkb-explorer-jisc",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 44
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 63
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 371
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 16
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 600388
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 15
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 25223
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 11
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 33
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 25786
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 12
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 10
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 804
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://eprints.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://eprints.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://eprints.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://eprints.rkbexplorer.com/id/caltech/eprints-7189"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://eprints.rkbexplorer.com/sparql/"
+    }
+  ]
+}

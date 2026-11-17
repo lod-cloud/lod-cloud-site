@@ -1,0 +1,58 @@
+{
+  "identifier": "tcga-roadmap",
+  "title": "TCGA Roadmap",
+  "description": {
+    "en": "TCGA Roadmap provides an index of the files listed in the [TCGA's open access HTTP site](tcga-data.nci.nih.gov/tcgafiles/ftp_auth/distro_ftpusers/anonymous/tumor/) as Linked Data.\r\n\r\n## Schema\r\n\r\nThe Schema used to represent resources in the TCGA is available as a [Turtle File](http://purl.org/tcga/core).\r\n\r\nAs used below, the prefix ``tcga`` represents ``http://purl.org/tcga/core``, while ``tcgaRoot`` represents ``https://tcga-data.nci.nih.gov/tcgafiles/ftp_auth/distro_ftpusers/anonymous/tumor/``.\r\n\r\n[Class](https://docs.google.com/open?id=0Bzu4cytkv4B8Y1VMVXNOMFhvaGM) and [Instance](https://docs.google.com/open?id=0Bzu4cytkv4B8V3lsc0VzQWE2c28) diagrams of the schema are also available.\r\n\r\n### Types\r\n\r\nSee the [TCGA Data Primer](https://wiki.nci.nih.gov/display/TCGA/TCGA+Data+Primer) and [Code Tables](https://tcga-data.nci.nih.gov/datareports/codeTablesReport.htm?codeTable=center) for details on these types.\r\n\r\n* ``tcga:DiseaseStudy``\r\n* ``tcga:CenterType``\r\n* ``tcga:CenterDomain``\r\n* ``tcga:Platform``\r\n* ``tcga:DataType``\r\n* ``tcga:Archive``\r\n* ``tcga:File``\r\n\r\nData Types correspond to the directory structure:\r\n\r\n``tcgaRoot:DiseaseStudy/CenterType/CenterDomain/Platform/DataType/Archive/File``\r\n\r\ne.g.\r\n\r\n``tcgaRoot:gbm/cgcc/mdanderson.org/mda_rppa_core/protein_exp/mdanderson.org_GBM.MDA_RPPA_Core.Level_2.1.0.0/mdanderson.org_GBM.MDA_RPPA_Core.SuperCurve.Level_2.00da2077-778c-418a-9c92-01febd970ed8.txt``\r\n\r\n### Properties\r\n\r\nEntities of all types may have the following properties.\r\n\r\n* ``rdfs:label``\r\n* ``rdf:type``\r\n* ``tcga:url``\r\n* ``tcga:lastModified``\r\n* ``tcga:firstSeen``\r\n* ``tcga:lastSeen``\r\n\r\n### Properties Exclusive to ``tcga:File`` Resources\r\n\r\nOnly entities of type ``tcga:File`` have the following properties.\r\n\r\n* ``tcga:diseaseStudy``\r\n* ``tcga:centerType``\r\n* ``tcga:centerDomain``\r\n* ``tcga:platform``\r\n* ``tcga:dataType``\r\n* ``tcga:archive``"
+  },
+  "domain": "life_sciences",
+  "website": "http://tcga.github.com/Roadmap/",
+  "namespace": "http://purl.org/tcga/core#",
+  "triples": 6000000,
+  "contact_point": {
+    "name": "David Robbins",
+    "email": "robbinsd@uab.edu"
+  },
+  "keywords": [
+    "deref-vocab",
+    "lifesciences",
+    "lod",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 33
+    },
+    {
+      "target": "linkedct",
+      "value": 45
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF XML Dump",
+      "media_type": "RDF",
+      "access_url": "http://agalpha.mathbiol.org/repositories/tcga/statements"
+    },
+    {
+      "title": "Schema",
+      "description": "Schema for the TCGA Roadmap as a Turtle File",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://purl.org/tcga/core"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource",
+      "description": "A sample file with it's links to other entities.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://agalpha.mathbiol.org/repositories/tcga/statements?subj=%3Chttp%3A%2F%2Fpurl.org%2Ftcga%2Fcore%23c92261c2-84fe-4a15-9dd9-8bb89ca8301d%3E"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://agalpha.mathbiol.org/repositories/tcga"
+    }
+  ]
+}

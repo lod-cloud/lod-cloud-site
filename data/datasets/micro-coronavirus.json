@@ -1,0 +1,41 @@
+{
+  "identifier": "micro-coronavirus",
+  "title": "Coronavirus dataset",
+  "description": {
+    "en": "Coronavirus species dataset 6,128 Triples This dataset contains metadata about the species of coronavirus.\nCategory of coronavirus species dataset 714 Triples This dataset contains the species classification of coronavirus.\nCoronavirus strain dataset 7,124,947 Triples This dataset contains metadata about the strains of the coronavirus.\nCoronavirus nucleotide dataset 19,707,510 Triples This dataset contains the coronavirus nucleic acid metadata.\nCoronavirus gene dataset 18,891,854 Triples This dataset contains metadata about the genes of the coronavirus.\nCoronavirus protein dataset 25,018,370 Triples This dataset contains metadata about proteins of the coronavirus.\nCoronavirus structure dataset 10,751 Triples This dataset contains metadata about the structure of the coronavirus.\nCoronavirus antibody dataset 25,989 Triples This dataset contains metadata for antibodies to the coronavirus.\nCoronavirus literature dateset 56,840 Triples This dataset contains published literature related to the coronavirus.\ncoronavirus patent dataset 14,001 Triples This dataset contains published patents related to the coronavirus.\nDataset of topics in coronavirus literature 24 Triples This dataset contains the classification of research topics in the coronavirus literature.\nMedical classification dataset with coronavirus literature 12,516 Triples This dataset contains the medical subject classification of the coronavirus literature.\nCoronavirus distributed country dataset 540 Triples This dataset contains the countries where the coronavirus was collected."
+  },
+  "domain": "life_sciences",
+  "website": "http://semweb.csdb.cn/micro",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 70870184,
+  "contact_point": {
+    "name": "范国梅",
+    "email": "gmfan@im.ac.cn"
+  },
+  "keywords": [
+    "Coronavirus",
+    "species",
+    "strain",
+    "gene",
+    "protein",
+    "nucleotide",
+    "antibody",
+    "Medical"
+  ],
+  "links": [
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 7
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 7412
+    }
+  ],
+  "sparql": [
+    {
+      "title": "micro SPARQL Endpoint",
+      "access_url": "http://micro.semweb.csdb.cn/sparql"
+    }
+  ]
+}

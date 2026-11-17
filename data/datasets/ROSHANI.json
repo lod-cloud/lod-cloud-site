@@ -1,0 +1,22 @@
+{
+  "identifier": "ROSHANI",
+  "title": "ontology terrorist attack",
+  "description": {
+    "en": "ONTOLOGY OF TERRORIST ATTACK"
+  },
+  "domain": "user_generated",
+  "website": "https://drive.google.com/open?id=13BxztYE_p5n3EZhyLpiU30J8EoRdvH10",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "ROSHANI",
+    "email": "roshani2203@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "https://drive.google.com/file/d/13BxztYE_p5n3EZhyLpiU30J8EoRdvH10/view",
+      "media_type": "text/html; charset=utf-8",
+      "download_url": "https://drive.google.com/file/d/13BxztYE_p5n3EZhyLpiU30J8EoRdvH10/view"
+    }
+  ]
+}

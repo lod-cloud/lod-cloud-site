@@ -1,0 +1,46 @@
+{
+  "identifier": "universidad-de-cuenca-linkeddata",
+  "title": "Universidad de Cuenca - LinkedData",
+  "description": {
+    "en": "Linked Data from the \"Universidad de Cuenca, Cuenca, Ecuador\"  includes data about its academic structure and researchers."
+  },
+  "domain": "user_generated",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://ucuenca.edu.ec/institucion",
+  "triples": 377,
+  "contact_point": {
+    "name": "Universidad de Cuenca",
+    "email": "hernan.gonzalezt@ucuenca.edu.ec"
+  },
+  "keywords": [
+    "Ecuador",
+    "lod",
+    "organizations",
+    "university"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Data",
+      "description": "Data",
+      "media_type": "ZIP",
+      "access_url": "http://bibliold.cedia.org.ec/download/data.zip"
+    },
+    {
+      "title": "Sparql Endpoint",
+      "description": "Sparql Endpoint",
+      "access_url": "http://190.15.141.102:8890/sparql"
+    },
+    {
+      "title": "ucuenca-org-0.0.1",
+      "description": "Dataset on Turtle format",
+      "media_type": "ttl",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-08-11T22:46:37.901Z/ucuenca2014.ttl"
+    }
+  ]
+}

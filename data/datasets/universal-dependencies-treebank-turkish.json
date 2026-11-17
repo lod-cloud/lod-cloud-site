@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-turkish",
+  "title": "Universal Dependencies Treebank Turkish",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Turkish treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Turkish",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 56418,
+  "contact_point": {
+    "name": "Çöltekin, Çağrı; Cebiroğlu Eryiğit, Gülşen; Gökırmak, Memduh; Kaşıkara, Hüner; Sulubacak, Umut; Tyers, Francis",
+    "email": "memduhg@gmail.com"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Turkish Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Turkish/archive/master.zip"
+    },
+    {
+      "title": "UD_Turkish RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/28dc5265-58c7-46d9-ba1d-4a2122c99c9e/resource/641c152a-bdd2-45cc-9422-26e955761d58/download/udturkish.rdf"
+    }
+  ]
+}

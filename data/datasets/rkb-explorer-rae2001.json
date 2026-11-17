@@ -1,0 +1,167 @@
+{
+  "identifier": "rkb-explorer-rae2001",
+  "title": "Research Assessment Exercise 2001 (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://rae2001.rkbexplorer.com",
+  "namespace": "http://rae2001.rkbexplorer.com/id/",
+  "triples": 2718105,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 5438
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 5831
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 451
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 7668
+    },
+    {
+      "target": "rkb-explorer-deepblue",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 11864
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 21001
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 19
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 168
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 19
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 257
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 10478
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 1106
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 3
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 7
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://rae2001.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://rae2001.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://rae2001.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://rae2001.rkbexplorer.com/id/resource-Id-227384"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://rae2001.rkbexplorer.com/sparql/"
+    }
+  ]
+}

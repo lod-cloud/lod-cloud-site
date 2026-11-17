@@ -1,0 +1,32 @@
+{
+  "identifier": "KG:Course_Submission",
+  "title": "EU Soccer League",
+  "description": {
+    "en": "THis ontology allows the user to be able to link Football (Soccer for my American people) matches with players who played in the match, From which team the players are. Also allows to query/store player statistics and team statistics.\nKindly download the OWL/RDF file provided and load it onto tools like protege or GraphDB or AllegroGraph (depending on your use case). We have tested the ontology on the tools mentioned. It can be visualized and queried easily."
+  },
+  "domain": "user_generated",
+  "website": "http://nu.edu.pk/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 9724,
+  "contact_point": {
+    "name": "Maaz Asad",
+    "email": "i180474@nu.edu.pk"
+  },
+  "keywords": [
+    "Soccer",
+    "European Soccer",
+    "Leagues",
+    "Matches",
+    "Players",
+    "Football",
+    "Team"
+  ],
+  "full_download": [
+    {
+      "title": "MSM OWL Ontology",
+      "description": "Kindly donot alter this file :)",
+      "media_type": "text/html; charset=utf-8",
+      "download_url": "https://drive.google.com/file/d/1eQoZrKw2i1UsxYaqG2HRK8JzQ_EeZNL4/view?usp=sharing"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "statusnet-m-kuttner-com",
+  "title": "statusnet-m-kuttner-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://m-kuttner.com"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://m-kuttner.com/status/admin/foaf"
+    }
+  ]
+}

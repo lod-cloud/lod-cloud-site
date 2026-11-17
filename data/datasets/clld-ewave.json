@@ -1,0 +1,32 @@
+{
+  "identifier": "clld-ewave",
+  "title": "CLLD-EWAVE",
+  "description": {
+    "en": "eWAVE published by the CLLD project"
+  },
+  "domain": "linguistics",
+  "website": "http://ewave-atlas.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 320130,
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "lexvo"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "access_url": "http://ewave-atlas.org/void.ttl"
+    },
+    {
+      "title": "RDF dump",
+      "media_type": "text/n3",
+      "access_url": "http://ewave-atlas.org/static/download/ewave-dataset.n3.gz"
+    }
+  ]
+}

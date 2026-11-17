@@ -1,0 +1,174 @@
+{
+  "identifier": "statusnet-fragdev-com",
+  "title": "statusnet-fragdev-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://fragdev.com"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 21
+    },
+    {
+      "target": "personal-homepages",
+      "value": 235
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 2
+    },
+    {
+      "target": "statusnet-chickenkiller-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 28
+    },
+    {
+      "target": "statusnet-cooleysekula-net",
+      "value": 5
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 5
+    },
+    {
+      "target": "statusnet-dtdns-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 5
+    },
+    {
+      "target": "statusnet-fcestrada-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 44
+    },
+    {
+      "target": "statusnet-ilikefreedom-ro",
+      "value": 1
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 25
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 5
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 35
+    },
+    {
+      "target": "statusnet-lydiastench-com",
+      "value": 11
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 21
+    },
+    {
+      "target": "statusnet-maymay-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 90
+    },
+    {
+      "target": "statusnet-mrblog-nl",
+      "value": 4
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 5
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 3
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 34
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 11
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 575
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 9
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 51
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 98
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 2
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 16
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 19
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 45
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 12
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 35
+    },
+    {
+      "target": "statusnet-thornton2-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 38
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://micro.fragdev.com/navigium/foaf"
+    }
+  ]
+}

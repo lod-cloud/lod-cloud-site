@@ -1,0 +1,34 @@
+{
+  "identifier": "eclap",
+  "title": "ECLAP",
+  "description": {
+    "en": "Information about performing arts related content"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 2650000,
+  "contact_point": {
+    "name": "ECLAP (Paolo Nesi)",
+    "email": "paolo.nesi@unifi.it"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-dcterms",
+    "format-foaf",
+    "format-oa",
+    "format-skos",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "geonames",
+      "value": 40729
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://www.eclap.eu/sparql"
+    }
+  ]
+}

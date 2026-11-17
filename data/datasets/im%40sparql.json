@@ -1,0 +1,29 @@
+{
+  "identifier": "im@sparql",
+  "title": "im@sparql",
+  "description": {
+    "en": "im@s + sparql = im@sparql\n\n広がるアイマスワールドをオープンデータ化\nWebやアプリからSPARQLで検索・利用可能なエンドポイント"
+  },
+  "domain": "media",
+  "website": "https://sparql.crssnky.xyz/imas/",
+  "license": "https://opensource.org/licenses/MIT",
+  "triples": 78728,
+  "image": "https://sparql.crssnky.xyz/imas/css/img/top.png",
+  "contact_point": {
+    "name": "crssnky",
+    "email": "vindicare28@yahoo.co.jp"
+  },
+  "full_download": [
+    {
+      "title": "Linked RDF",
+      "description": "Dataset:RDF\nschema:Turtle",
+      "download_url": "https://github.com/imas/imasparql"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Endpoint",
+      "access_url": "https://sparql.crssnky.xyz/spql/imas/query?query="
+    }
+  ]
+}

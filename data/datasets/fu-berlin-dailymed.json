@@ -1,0 +1,81 @@
+{
+  "identifier": "fu-berlin-dailymed",
+  "title": "DailyMed",
+  "description": {
+    "en": "The Linked Data version of DailyMed which is published by the National Library of Medicine, and provides high quality information about marketed drugs. DailyMed provides much information including general background on the chemical structure of the compound and its therapeutic purpose, details on the compound's clinical pharmacology, indication and usage, contraindications, warnings, precautions, adverse reactions, overdosage, and patient counseling."
+  },
+  "domain": "life_sciences",
+  "website": "http://www4.wiwiss.fu-berlin.de/dailymed/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/dailymed/resource/",
+  "triples": 164276,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2552
+    },
+    {
+      "target": "fu-berlin-diseasome",
+      "value": 6124
+    },
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 5908
+    },
+    {
+      "target": "fu-berlin-sider",
+      "value": 1592
+    },
+    {
+      "target": "linkedct",
+      "value": 27729
+    },
+    {
+      "target": "tcmgenedit_dataset",
+      "value": 58
+    }
+  ],
+  "full_download": [
+    {
+      "description": "N-Triples, bz2 packed",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www4.wiwiss.fu-berlin.de/dailymed/dailymed_dump.nt.bz2"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/dailymed/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/dailymed/resource/drugs/1"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/dailymed/sparql"
+    }
+  ]
+}

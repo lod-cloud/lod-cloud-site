@@ -1,0 +1,107 @@
+{
+  "identifier": "garnicaplywood",
+  "title": "Garnica Plywood Catalogue",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://www.garnicaplywood.com/\">Garnica Plywood</a>\r\n is the first international poplar plywood manufacturer in terms of volume (and combinations with other tropical species). The company owns 4 factories in Spain and 1 in France, with more than 500 employees, and the annual production capacity exceeds 200,000m3 plywood. The group offers the widest product range in the market with over 2000 references,  present in different areas such as Marine, Caravan, Construction, Furniture, Decoration, Toys, etc., produced under the most demanding international quality labels. Garnica Plywood exports 80% of the total production to more than 25 countries in the world.\r\n</p>\r\n<p>\r\nGarnica Plywood’s LOD project works with\r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets.\r\n<a href=\"http://products.garnicaplywood.com/comunidad/garnicacatalogo\">Garnica offers a product catalogue</a>\r\nwith a facet-based search engine and enriched contexts. Both are developments by GNOSS. The catalogue has 42 products (November 2012).\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://www.garnicaplywood.com/\">Garnica Plywood</a>\r\nes el primer productor internacional de tablero contrachapado de chopo (y combinaciones con especies tropicales). La compañía consta de 4 fábricas en España y 1 en Francia, con más de 500 empleados, y una capacidad productiva anual superior a los 200,000m3 de contrachapado. El grupo ofrece la mayor gama del mercado con más de 2000 referencias, presentes en sectores como Náutica, Caravana, Construcción, Mobiliario, Decoración, Juguetes, etc., producidos con los certificados internacionales de calidad más exigentes. Garnica Plywood exporta el 80% de su producción a más de 25 países del mundo.\r\n</p>\r\n<p>\r\nEl proyecto de Garnica Plywood en la Web de los Datos trabaja con\r\n<a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Garnica ofrece en este caso\r\n<a href=\"http://products.garnicaplywood.com/\">un catálogo de productos</a>\r\ncon un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS. El catálogo incluye 42 productos (Noviembre 2012).\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://products.garnicaplywood.com/comunidad/garnicacatalogo",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://products.garnicaplywood.com/comunidad/garnicacatalogo",
+  "triples": 6527,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "catálogo",
+    "chopo",
+    "contrachapado de chopo",
+    "country-spain",
+    "country.es",
+    "dc",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "garnica plywood",
+    "grupo garnica plywood",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "populicultura",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "tablero de chopo",
+    "tienda",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 14
+    },
+    {
+      "target": "freebase",
+      "value": 393
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 4
+    },
+    {
+      "target": "gnoss",
+      "value": 207
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://products.garnicaplywood.com/voidGarnicaPlywoodGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in Garnica Plywood.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://products.garnicaplywood.com/comunidad/garnicacatalogo/Catalogo/tag/contrachapado?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in Garnica Plywood.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://products.garnicaplywood.com/comunidad/garnicacatalogo/recurso/GARNICA-FR-DECORPLY-HPL/5739710d-2470-44e7-87d1-5e56b90e08b8?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://products.garnicaplywood.com/en/community/garnicacatalogo/Catalogo/tag/contrachapado?rdf"
+    }
+  ]
+}

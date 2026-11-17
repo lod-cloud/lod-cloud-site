@@ -1,0 +1,215 @@
+{
+  "identifier": "bioportal-aeo",
+  "title": "Anatomical Entity Ontology",
+  "description": {
+    "en": "AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology, to about 200 classes using the is_a relationship; it thus provides a detailed type classification for tissues. The new classes were chosen for their use in categorizing the major vertebrate and invertebrate anatomy ontologies at a granularity adequate for tissues of a single cell type. The ontology should be useful in increasing the amount of knowledge in anatomy ontologies, facilitating annotation and enabling interoperability across anatomy ontologies"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1568",
+  "triples": 3167,
+  "contact_point": {
+    "name": "EMAP Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 97
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 92
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 86
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 50
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 80
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 44
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 69
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 46
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 68
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 710
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 155
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 148
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 71
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 69
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 53
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 56
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 10
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 13
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 27
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 28
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 143
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 20
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 54
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 137
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 35
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 21
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 21
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 47
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 18
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 85
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 66
+    },
+    {
+      "target": "bioportal-tads",
+      "value": 44
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 172
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 32
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 140
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 63
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 51
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 19
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 93
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 161
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46628?apikey=BP_API_KEY"
+    }
+  ]
+}

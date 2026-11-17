@@ -1,0 +1,40 @@
+{
+  "identifier": "http:rdf.naturallexicon.orgzhontCedict",
+  "title": "CEDICT",
+  "description": {
+    "en": "An RDF translation of the original CEDICT , which is written in\n  its own tabular format.\nOriginal source: https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz, from https://www.mdbg.net/chinese/dictionary?page=cedict"
+  },
+  "domain": "linguistics",
+  "website": "https://github.com/ont-app/cedict",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "triples": 2353589,
+  "contact_point": {
+    "name": "Eric Scott",
+    "email": "cedict@ericdscott.com"
+  },
+  "keywords": [
+    "Chinese",
+    "Chinese-English",
+    "bilingual dictionary"
+  ],
+  "full_download": [
+    {
+      "title": "cedict_1_0_ts_utf-8_mdbg",
+      "description": "The contents of the original https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz, translated to RDF.",
+      "download_url": "https://github.com/ont-app/cedict/blob/master/data/cedict_1_0_ts_utf-8_mdbg.ttl.gz"
+    },
+    {
+      "title": "cedict-schema",
+      "description": "Defines the schema informing cedict_1_0_ts_utf-8_mdbg. Aligned to Ontolex.",
+      "download_url": "https://github.com/ont-app/cedict/blob/master/data/cedict-schema.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "CEDICT test sample",
+      "description": "An excerpt relating to the entry for \"王\" in CEDICT",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/ont-app/cedict/blob/master/data/test-sample.ttl"
+    }
+  ]
+}

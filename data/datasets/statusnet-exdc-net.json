@@ -1,0 +1,48 @@
+{
+  "identifier": "statusnet-exdc-net",
+  "title": "statusnet-exdc-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://exdc.net"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-datenfahrt-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 2
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://mexdc.exdc.net/silvia/foaf"
+    }
+  ]
+}

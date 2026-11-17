@@ -1,0 +1,87 @@
+{
+  "identifier": "bioportal-tok",
+  "title": "TOK_Ontology",
+  "description": {
+    "en": "An Ontology describing Resources having different formats. This Ontology can be used to annotate and describe Terminological, Ontological Knowledge resources."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1418",
+  "triples": 5306,
+  "contact_point": {
+    "name": "Nizar ghoula"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 12
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 17
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 15
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 16
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 96
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 18
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42834?apikey=BP_API_KEY"
+    }
+  ]
+}

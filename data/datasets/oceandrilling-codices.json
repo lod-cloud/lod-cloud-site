@@ -1,0 +1,63 @@
+{
+  "identifier": "oceandrilling-codices",
+  "title": "Ocean Drilling - Codices",
+  "description": {
+    "en": "Codices:  Drill Site and Expedition Data\r\n\r\nCodices exposes general site data (location, depth, recovery, etc) along with publication links and other associated data.\r\n\r\n\r\nWe are still in a development mode and working in particular and the namespace URI's and their hosting. So some elements here will change as we tweak responsibility for maintaining namespaces and curating them. You are welcome (encouraged) to explore our sparql endpoint (http://data.oceandrilling.org/sparql) and engage us, comment and criticize. (Doug)\r\n\r\nThis site is guided by the linked data pattern (http://linkeddata.org/). Information on this effort and the steps being taken to expose data in this approach are described here.\r\n\r\nThis data represents only a small percentage of the data available but is sufficient for testing at this time. Additional data related to log files from LDEO, timescales from CHRONOS and data from TAMU are yet to be loaded. \r\n\r\nhttp://data.oceandrilling.org/linkeddata.html"
+  },
+  "domain": "geography",
+  "website": "http://data.oceandrilling.org/codices/",
+  "namespace": "http://data.oceandrilling.org/codices/",
+  "triples": 24489366,
+  "contact_point": {
+    "name": "Consortium for Ocean Leadership",
+    "email": "dfils@oceanleadership.org"
+  },
+  "keywords": [
+    "drilling",
+    "format-geo",
+    "format-owl",
+    "format-skos",
+    "geographic",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "ocean",
+    "provenance-metadata",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3022
+    },
+    {
+      "target": "freebase",
+      "value": 3022
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Turtle serialization of Codices data",
+      "access_url": "http://data.oceandrilling.org/models/codices.ttl"
+    },
+    {
+      "description": "voiD document",
+      "access_url": "http://data.oceandrilling.org/descriptions/codices.void"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.oceandrilling.org/codices/lsh/313/1/C"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://data.oceandrilling.org/sparql"
+    }
+  ]
+}

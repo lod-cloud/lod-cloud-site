@@ -1,0 +1,50 @@
+{
+  "identifier": "fu-berlin-dblp",
+  "title": "DBLP Bibliography Database in RDF (FU Berlin)",
+  "description": {
+    "en": "This is an RDF conversion of DBLP. The DBLP database provides bibliographic information on major computer science journals and conference proceedings including the WWW2006. The database contains more than 800.000 articles and 400.000 authors. \r\n\r\nThis RDF conversion hasn't been updated since 2007.\r\n\r\nOther RDF conversions of DBLP are available as package:l3s-dblp and package:rkb-explorer-dblp"
+  },
+  "website": "http://www4.wiwiss.fu-berlin.de/dblp/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/dblp/resource/",
+  "triples": 28000000,
+  "contact_point": {
+    "name": "Christian Bizer",
+    "email": "chris@bizer.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2007-05-01",
+    "lodcloud-diagram-2007-10-08",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 100000
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 1000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/dblp/resource/person/100018"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/dblp/sparql"
+    }
+  ]
+}

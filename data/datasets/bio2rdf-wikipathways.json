@@ -1,0 +1,140 @@
+{
+  "identifier": "bio2rdf-wikipathways",
+  "title": "Bio2RDF::Wikipathways",
+  "description": {
+    "en": "WikiPathways is a resource providing an open and public collection of  pathway maps created and curated by the community in a Wiki like style. All content is under the Creative Commons Attribution 3.0 Unported license."
+  },
+  "website": "http://wikipathways.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/wikipathways:",
+  "triples": 514397,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/wikipathways.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/bio2rdf-wikipathways.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/wikipathways/wikipathways.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/wikipathways/bio2rdf_wikipathways_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/wikipathways/sitemap.xml"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Anopheles+gambiae.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Anopheles+gambiae.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Arabidopsis+thaliana.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Arabidopsis+thaliana.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Bacillus+subtilis.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Bacillus+subtilis.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Bos+taurus.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Bos+taurus.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Caenorhabditis+elegans.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Caenorhabditis+elegans.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Canis+familiaris.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Canis+familiaris.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Danio+rerio.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Danio+rerio.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Drosophila+melanogaster.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Drosophila+melanogaster.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Equus+caballus.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Equus+caballus.xml.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download Escherichia+coli.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/wikipathways/Escherichia+coli.xml.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/wikipathways:WP100"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://wikipathways.bio2rdf.org/sparql"
+    }
+  ]
+}

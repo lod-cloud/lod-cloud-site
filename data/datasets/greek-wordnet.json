@@ -1,0 +1,52 @@
+{
+  "identifier": "greek-wordnet",
+  "title": "Greek Wordnet",
+  "description": {
+    "en": "Greek lexical database. Links to package:vu-wordnet and package:w3c-wordnet ."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://wordnet.okfn.gr/",
+  "triples": 356595,
+  "contact_point": {
+    "name": "Sofia Karampataki",
+    "email": "sofiakara7@gmail.com"
+  },
+  "keywords": [
+    "linguistics",
+    "linguistics lod",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "vu-wordnet",
+      "value": 16718
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 18457
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example rdf-xml",
+      "media_type": "text/html",
+      "access_url": "http://wordnet.okfn.gr/page/synset-?????-verb-0"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "media_type": "text/html",
+      "access_url": "http://wordnet.okfn.gr/page/synset-?????-verb-0"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql endpoint",
+      "access_url": "http://wordnet.okfn.gr:8890/sparql/"
+    }
+  ]
+}

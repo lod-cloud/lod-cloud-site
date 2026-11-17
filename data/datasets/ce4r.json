@@ -1,0 +1,129 @@
+{
+  "identifier": "ce4r",
+  "title": "CE4R Knowledge Centre Corporate Excellence – Centre for Reputation Leadership",
+  "description": {
+    "en": "<p> Knowledge plataform launched by Corporate Excellence – Centre for reputation leadership, a new think tank to professionalize management of intangible assets and contribute to the development of strong brands with good reputation and able to compete in to the global market. In this community, members will be able to access to a lot of contents as article, thesis, insights, cases and so on, related to intangible management. In addition, It is possible to share knowledge and make comments.</p>\r\n<p>CE4R works with <a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.</p>\r\n\r\n<p> Plataforma de conocimiento impulsada por Corporate Excellence – Centre for reputation leadership, un laboratorio de ideas para profesionalizar la gestión de los activos intangibles y para contribuir al desarrollo de marcas con una reputación excelente capaces de competir en los mercados globales. En la comunidad podrás acceder a numerosos contenidos (artículos, casos, noticias, tesis, insights, etc.) en torno a la gestión de intangibles, así como comentarlos y compartirlos.</p>\r\n<p>CE4R trabaja con <a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://corporateexcellence.net/en/community/patronato",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://corporateexcellence.net/en/community/patronato",
+  "triples": 4866,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "Brand",
+    "Corporate gobernance",
+    "RSC",
+    "asuntos públicos",
+    "centre for reputation leadership",
+    "communication",
+    "comunicación",
+    "corporate Excellence",
+    "corporate excellence",
+    "country reputation",
+    "country-spain",
+    "country.es",
+    "dc",
+    "economía de la reputación",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "gobierno corporativo",
+    "intangible assets",
+    "intangibles",
+    "laboratorio de ideas",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "marca",
+    "marca país",
+    "metrics",
+    "métricas",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "public affairs",
+    "published-by-third-party",
+    "reputación",
+    "reputación país",
+    "reputation",
+    "reputation economy",
+    "schemata",
+    "scr",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper",
+    "ética"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 181
+    },
+    {
+      "target": "freebase",
+      "value": 169
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "gnoss",
+      "value": 144
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 178
+    },
+    {
+      "target": "prospect-and-trends-gnoss",
+      "value": 128
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://museos.gnoss.com/voidLaboratorioDeIdeas.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Laboratorio de ideas community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://corporateexcellence.net/en/community/patronato/resource/Tesis-Creacion-de-una-nueva-metodologia-multistak/46f6bdff-6268-4b82-9ed7-7359c4036285"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Laboratorio de ideas community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://corporateexcellence.net/en/community/patronato/resource/Study-The-Chief-Communications-Officer-Korn-Ferr/b032b83c-93f7-4200-ba8b-2d5be7389247?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://corporateexcellence.net/en/community/patronato/advanced-search/tag/stakeholders?rdf"
+    }
+  ]
+}

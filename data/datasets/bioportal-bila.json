@@ -1,0 +1,207 @@
+{
+  "identifier": "bioportal-bila",
+  "title": "Bilateria anatomy",
+  "description": {
+    "en": "Anatomy of Bilateria."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1114",
+  "triples": 1136,
+  "contact_point": {
+    "name": "Thorsten Heinrich"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 74
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 10
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 92
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 45
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 28
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 57
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 87
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 24
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 10
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 47
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 595
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 146
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 45
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 54
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 43
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 26
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 53
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 28
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 14
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 42
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 36
+    },
+    {
+      "target": "bioportal-mfo",
+      "value": 32
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 28
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 73
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 17
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 24
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 18
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 35
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 54
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 32
+    },
+    {
+      "target": "bioportal-tads",
+      "value": 46
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 63
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 30
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 117
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 95
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 39
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 16
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 56
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 57
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42455?apikey=BP_API_KEY"
+    }
+  ]
+}

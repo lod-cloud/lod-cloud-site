@@ -1,0 +1,21 @@
+{
+  "identifier": "esislearning",
+  "title": "Dataset Esis",
+  "description": {
+    "en": "Esis is an institute university of democratic republic of congo."
+  },
+  "domain": "user_generated",
+  "website": "http://www.esisalama.org",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Bradaus Jean-Luc",
+    "email": "jluc13112@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "E-Learning Esis",
+      "download_url": "http://www.esisalama.org"
+    }
+  ]
+}

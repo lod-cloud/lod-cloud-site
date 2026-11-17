@@ -1,0 +1,51 @@
+{
+  "identifier": "epa-tri",
+  "title": "EPA-TRI",
+  "description": {
+    "en": "Toxics Release Inventory (TRI) is a resource for learning about toxic chemical releases and pollution prevention activities reported by industrial and federal facilities. TRI data support informed decision-making by communities, government agencies, companies, and others."
+  },
+  "website": "https://opendata.epa.gov",
+  "triples": 137423327,
+  "contact_point": {
+    "name": "EPA Office of Environmental Information",
+    "email": "admin@3roundstones.com"
+  },
+  "keywords": [
+    "environmental",
+    "government",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "epa-frs",
+      "value": 58562
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EPA Linked Data Services",
+      "description": "Platform for accessing all EPA Linked Data sets using query tools, services, applications, URI resolution, mapping and more.",
+      "access_url": "https://opendata.epa.gov"
+    },
+    {
+      "title": "TRI Schema",
+      "description": "RDF schema in TTL format describing the classes and predicates in the data.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/tri/schema.ttl"
+    },
+    {
+      "title": "VoID description",
+      "description": "VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/tri/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example TRI report",
+      "description": "Sample report from a nuclear plant regarding Zinc Compounds",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/data/trireport/1399130026545.ttl"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "identifier": "emn",
+  "title": "EMN",
+  "description": {
+    "en": "The Terminology of the European Migration Network in RDF"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 117115,
+  "contact_point": {
+    "name": "John McCrae",
+    "email": "john@mccr.ae"
+  },
+  "keywords": [
+    "lexicon",
+    "linguistic"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 1322
+    },
+    {
+      "target": "iate-rdf",
+      "value": 2033
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dump",
+      "description": "Complete dump of lexicon",
+      "media_type": "application/x-gzip",
+      "access_url": "http://data.lider-project.eu/emn/emn.nt.gz"
+    }
+  ]
+}

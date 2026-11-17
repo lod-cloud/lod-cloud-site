@@ -1,0 +1,59 @@
+{
+  "identifier": "edublogs",
+  "title": "Edublogs",
+  "description": {
+    "en": "El premio anual \"Edublogs\" pretende valorar la importancia y repercusión de los blogs en ​​la educación, como herramienta didáctica para el desarrollo de contenidos curriculares y motivación de los alumnos . Otros objetivos son : reconocer el trabajo del profesorado en la red demostrando su utilidad pedagógica ; servir de escaparate motivador de una corriente educativa dentro de la blogosfera , que ayuda a la generalización del uso de las TIC en la aula y favorecer espacios de opinión y debate sobre la necesidad de avanzar en el uso de los blogs en el entorno educativo . Las categorías del premio se organizan en : bloque de profesores, bloques colectivos de profesorado, blogs de centros educativos, blogs de aula y bloques de asesoramiento, formación y asociaciones educativas. A este premio pueden presentarse bloques de cualquier país siempre y cuando estén escritos en alguna de las lenguas oficiales del Estado Español: castellano, catalán, euskera y gallego. Además, también se admiten bloques escritos en otra lengua que forme parte de las asignaturas cursadas en los centros educativos de España ."
+  },
+  "domain": "media",
+  "triples": 286653,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "blogs",
+    "edublogs",
+    "educaci",
+    "formación",
+    "gnoss"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 18300
+    },
+    {
+      "target": "didactalia",
+      "value": 18595
+    },
+    {
+      "target": "freebase",
+      "value": 6397
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 612
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1376
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Ejemplo de blog recursos educativos",
+      "description": "Ejemplo de blog recursos educativos",
+      "access_url": "http://espiraledublogs.org/comunidad/Edublogs/recurso/experimentos-en-educacion-primaria-e-infantil/1622470d-3d39-4dac-b1eb-6d71b020c439?rdf"
+    },
+    {
+      "title": "Búsqueda de blogs",
+      "description": "Búsqueda de blogs",
+      "access_url": "http://espiraledublogs.org/comunidad/Edublogs/edublogs?rdf"
+    },
+    {
+      "title": "Ejemplo de blog centros educativos",
+      "description": "Ejemplo de blog centros educativos",
+      "access_url": "http://espiraledublogs.org/comunidad/Edublogs/recurso/ceip-valdespartera-nuestro-proyecto-colaborativo-d/7dd43c06-9132-1fff-a184-8785c595c94e?rdf"
+    }
+  ]
+}

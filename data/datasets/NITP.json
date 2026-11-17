@@ -1,0 +1,45 @@
+{
+  "identifier": "NITP",
+  "title": "NIT Patna",
+  "description": {
+    "en": "This dataset contains information about National Institute of Technology, Patna"
+  },
+  "domain": "cross_domain",
+  "website": "http://www.nitp.ac.in/php/home.php",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "foaf, rdf, rdfs, dct, dbo, dbr",
+  "triples": 2500,
+  "contact_point": {
+    "name": "Rupali",
+    "email": "rupalitiwary0311@gmail.com"
+  },
+  "keywords": [
+    "college",
+    "patna",
+    "National Institute of Technology"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 150
+    }
+  ],
+  "full_download": [
+    {
+      "title": "nitpInfo",
+      "description": "Information about NIT Patna",
+      "download_url": "https://raw.githubusercontent.com/Rupali0311/RDF/main/nitpInfo-xlsx.ttl"
+    },
+    {
+      "title": "professors",
+      "description": "Information about professors of NIT Patna",
+      "download_url": "https://raw.githubusercontent.com/Rupali0311/RDF/main/professors.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "nitpInfo RDF data",
+      "access_url": "https://raw.githubusercontent.com/Rupali0311/RDF/main/nitpInfo-xlsx.rdf"
+    }
+  ]
+}

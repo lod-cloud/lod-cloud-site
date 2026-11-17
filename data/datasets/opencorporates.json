@@ -1,0 +1,48 @@
+{
+  "identifier": "opencorporates",
+  "title": "OpenCorporates - The Open Database Of The Corporate World",
+  "description": {
+    "en": "Open Database of corporate entities. As of 2011-04-09 has information on 7,841,828 companies from around the world. Jurisdictions covered include:\r\n\r\n * 41,292 Bermuda\r\n * 3,886,733 United Kingdom\r\n * 96,104 Gibraltar\r\n * 105,640 Isle of Man\r\n * 77,693 Iceland\r\n * 60,827 Jersey\r\n * 92,795 Luxembourg\r\n * 2,188,873 Netherlands\r\n * 97,653 Alaska (US) \r\n * 197,798 District of Columbia (US)\r\n * 996,420 Michigan (US)\r\n\r\nThere is good API access but currently but no bulk availablitity.\r\n\r\n### License\r\n\r\nSee <http://opencorporates.com/info/licence>. However, should note that most data in OpenCorporates is scraped from elsewhere so this license only covers the 'IP' that OpenCorporates has obtained as a result of their efforts (and license of original databases, e.g. Companies House in the UK, is unclear)."
+  },
+  "domain": "government",
+  "website": "http://opencorporates.com/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://opencorporates.com/companies",
+  "triples": 750000000,
+  "contact_point": {
+    "name": "OpenCorporates (Chris Taggart)"
+  },
+  "keywords": [
+    "access-nobulk",
+    "corporations",
+    "database",
+    "ecommerce",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "opendatachallenge",
+    "published-by-third-party",
+    "scraped",
+    "size.xlarge"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 500
+    }
+  ],
+  "example": [
+    {
+      "description": "Example JSON record from the API (for Google)",
+      "media_type": "text/html",
+      "access_url": "http://opencorporates.com/companies/gb/03977902.json"
+    },
+    {
+      "description": "Example RDF record",
+      "media_type": "text/html",
+      "access_url": "http://opencorporates.com/companies/us_ak/124437.rdf"
+    }
+  ]
+}

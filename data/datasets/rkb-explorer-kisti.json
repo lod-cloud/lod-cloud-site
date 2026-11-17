@@ -1,0 +1,170 @@
+{
+  "identifier": "rkb-explorer-kisti",
+  "title": "Korean Institute of Science Technology and Information (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://kisti.rkbexplorer.com",
+  "namespace": "http://kisti.rkbexplorer.com/id/",
+  "triples": 12815726,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "format-scovo",
+    "format-void",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "test",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 63800
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 31
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 183945
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 17
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 106009
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 43
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 101
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 561
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 155
+    },
+    {
+      "target": "rkb-explorer-italy",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-jisc",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 25
+    },
+    {
+      "target": "rkb-explorer-lisbon",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 239
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 10
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 25
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 695
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 5
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://kisti.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://kisti.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://kisti.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://kisti.rkbexplorer.com/id/PER_00000000000000131417"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://kisti.rkbexplorer.com/sparql/"
+    }
+  ]
+}

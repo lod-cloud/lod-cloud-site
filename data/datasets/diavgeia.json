@@ -1,0 +1,109 @@
+{
+  "identifier": "diavgeia",
+  "title": "Diavgeia",
+  "description": {
+    "en": "The Clarity program introduces for the first time in Greece the obligation to publish all the decisions on the Internet, with the exception of decisions that contain sensitive personal data and/or information on national security. It is quite an innovative program, even by European standards, aiming first of all to bring about the maximum publicity of the government policy and administrative action. The use of Internet guarantees wide publicity and access to information, progressively contributing to a culture change in the whole of the Public Administration."
+  },
+  "domain": "government",
+  "website": "http://opendata.diavgeia.gov.gr/?lang=en",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://diavgeia.math.auth.gr/resource/",
+  "triples": 48051108,
+  "contact_point": {
+    "name": "Spiros Alexiou",
+    "email": "spiros.alexiou@gmail.com"
+  },
+  "keywords": [
+    "clarity",
+    "diavgeia",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-skos",
+    "government",
+    "greece",
+    "greek",
+    "license-metadata",
+    "linked data",
+    "lod",
+    "no-proprietary-vocab",
+    "opendata",
+    "openspending",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 13
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 676
+    },
+    {
+      "target": "eurostat",
+      "value": 12
+    },
+    {
+      "target": "hellenic-fire-brigade",
+      "value": 156
+    },
+    {
+      "target": "hellenic-police",
+      "value": 45
+    },
+    {
+      "target": "kalikratis-municipalities",
+      "value": 355
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Diavgeia SPARQL endpoint",
+      "media_type": "CSV",
+      "access_url": "http://diavgeia.math.auth.gr/sparql"
+    },
+    {
+      "title": "Spending Visualization - example #1",
+      "description": "Visualizing spending data (querying sparql endpoint) using Google's API",
+      "media_type": "HTML",
+      "access_url": "http://www.greek-lod.gr/DiavgeiaTreeMap/dapanes/General.html"
+    },
+    {
+      "title": "Diavgeia / Example data item within the dataset (RDF/XML)",
+      "description": "Uploaded file with SPARQL Query results (RDF/XML output) listing 100 expenses greater than 1000 Euros",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-08-27T163756/Diavgeia_demo_RDF_XML.rdf"
+    },
+    {
+      "title": "Diavgeia / Example data item within the dataset (NTriples)",
+      "description": "Example data - SPARQL Query results (NTriples output) listing 100 expenses greater than 1000 Euros",
+      "media_type": "TXT",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-08-27T164145/Diavgeia_demo_NTriples.nt"
+    },
+    {
+      "title": "voiD description file",
+      "media_type": "meta/void",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-09-27T161432/void.ttl"
+    },
+    {
+      "title": "2013-02-08T154930/MinistriesSpending2012_1.csv",
+      "media_type": "XLS",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-02-08T154930/MinistriesSpending2012_1.csv"
+    },
+    {
+      "title": "2013-02-08T164424/PolicePerRegion_1.csv",
+      "media_type": "XLS",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-02-08T164424/PolicePerRegion_1.csv"
+    }
+  ],
+  "example": [
+    {
+      "title": "2012-08-27T164505/Diavgeia_demo_RDF_XML.rdf",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-08-27T164505/Diavgeia_demo_RDF_XML.rdf"
+    }
+  ]
+}

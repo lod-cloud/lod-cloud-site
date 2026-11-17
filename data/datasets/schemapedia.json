@@ -1,0 +1,41 @@
+{
+  "identifier": "schemapedia",
+  "title": "Schemapedia: RDF schema compendium",
+  "description": {
+    "en": "A compendium of RDF schemas and vocabularies, including various metadata and examples."
+  },
+  "website": "http://schemapedia.com/",
+  "namespace": "http://schemapedia.com/",
+  "triples": 6000,
+  "contact_point": {
+    "name": "Ian Davis",
+    "email": "nospam@iandavis.com"
+  },
+  "keywords": [
+    "format-ctag",
+    "format-dcterms",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "published-by-producer",
+    "schemas",
+    "talis",
+    "usergeneratedcontent"
+  ],
+  "example": [
+    {
+      "title": "Example (Turtle)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://schemapedia.com/schemas/qb.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/schemapedia/services/sparql"
+    }
+  ]
+}

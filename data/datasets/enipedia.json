@@ -1,0 +1,66 @@
+{
+  "identifier": "enipedia",
+  "title": "Enipedia - Energy Industry Data",
+  "description": {
+    "en": "Enipedia is an active exploration into the applications of wikis and the semantic web for energy and industry issues. Through this we seek to create a collaborative environment for discussion, while also providing the tools that allow for data from different sources to be connected, queried, and visualized from different perspectives."
+  },
+  "domain": "cross_domain",
+  "website": "http://enipedia.tudelft.nl",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://enipedia.tudelft.nl/wiki/",
+  "triples": 4180734,
+  "contact_point": {
+    "name": "Enipedia Team @ Energy and Industry Section, TBM, Delft University of Technology",
+    "email": "c.b.davis@tudelft.nl"
+  },
+  "keywords": [
+    "crossdomain",
+    "energy",
+    "format-wiki",
+    "industry",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "published-by-producer",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1365
+    },
+    {
+      "target": "open-energy-info-wiki",
+      "value": 189
+    },
+    {
+      "target": "world-factbook-fu-berlin",
+      "value": 204
+    }
+  ],
+  "other_download": [
+    {
+      "description": "weblog",
+      "access_url": "http://enipedia.tudelft.nl/blog"
+    },
+    {
+      "description": "Downloads (RDF/XML)",
+      "access_url": "http://enipedia.tudelft.nl/downloads/enipedia.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://enipedia.tudelft.nl/wiki/Special:ExportRDF/Navajo_Powerplant"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql endpoint",
+      "access_url": "http://enipedia.tudelft.nl/sparql"
+    }
+  ]
+}

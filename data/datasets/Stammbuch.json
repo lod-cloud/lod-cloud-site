@@ -1,0 +1,15 @@
+{
+  "identifier": "Stammbuch",
+  "title": "Stammbuch",
+  "description": {
+    "en": "Stammbuch"
+  },
+  "domain": "social_networking",
+  "website": "https://www.test.de",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Andz",
+    "email": "andzhandz@googlemail.com"
+  }
+}

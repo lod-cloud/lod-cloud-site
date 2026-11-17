@@ -1,0 +1,76 @@
+{
+  "identifier": "staff-organograms-and-pay-thurrock-thames-gateway-development-corporation",
+  "title": "Organogram and staff pay data for Thurrock Thames Gateway Development Corporation",
+  "description": {
+    "en": "A list of most Senior Civil Service posts in the Thurrock Thames Gateway Development Corporation including title, contact details, their line manager, and where disclosed, the name of the officer. Vacant posts are listed as \"Vacant\", and posts where the jobholder is not disclosed are listed as \"N/D\". Note that a number of officers are not listed for security reasons.\r\n\r\nAuthorization required:\r\nhttp://organogram.data.gov.uk/data/thurrocktgdc/2011-03-31/government-staff-and-salary-data---March-2011---ThurrockTGDC#totalPay4"
+  },
+  "website": "http://data.gov.uk/dataset/staff-organograms-and-pay-thurrock-thames-gateway-development-corporation",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "http://organogram.data.gov.uk/data/thurrocktgdc",
+  "triples": 310,
+  "contact_point": {
+    "name": "Thurrock Thames Gateway Development Corporation"
+  },
+  "keywords": [
+    "accountability",
+    "british-civil-service",
+    "civil-service",
+    "data.gov.uk",
+    "debug-tinylod",
+    "eutransparency",
+    "format-copmv",
+    "format-dct",
+    "format-dgu",
+    "format-foaf",
+    "format-gov",
+    "format-grade",
+    "format-opmv",
+    "format-org",
+    "format-organogram",
+    "format-owl",
+    "format-payband",
+    "format-poststatus",
+    "format-qb",
+    "format-rdf",
+    "format-rdfs",
+    "format-sdmxa",
+    "format-sdmxc",
+    "format-skos",
+    "format-time",
+    "format-void",
+    "government",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "organogram",
+    "organograms-and-salaries",
+    "published-by-producer",
+    "senior-civil-service",
+    "thurrock-thames-gateway-development-corporation",
+    "transparency"
+  ],
+  "links": [
+    {
+      "target": "uk-organogram",
+      "value": 45
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Junior and Senior organogram data in RDF, as of 31/03/2011",
+      "access_url": "http://www.thurrocktgdc.org.uk/data/Transparency/government-staff-and-salary-data---March-2011---ThurrockTGDC.xml"
+    },
+    {
+      "description": "Dataset description (voID)",
+      "access_url": "http://www.thurrocktgdc.org.uk/data/Transparency/government-staff-and-salary-data---March-2011---ThurrockTGDC.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://organogram.data.gov.uk/data/thurrocktgdc/2011-03-31/government-staff-and-salary-data---March-2011---ThurrockTGDC#totalPay1"
+    }
+  ]
+}

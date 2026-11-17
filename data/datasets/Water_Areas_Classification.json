@@ -1,0 +1,29 @@
+{
+  "identifier": "Water_Areas_Classification",
+  "title": "FAO water areas classification as linked data @PSNC",
+  "description": {
+    "en": "FAO water areas classification, including inland and marine codes, published as linked data."
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://www.fao.org/aims/aos/fi/water_FAO_areas/",
+  "triples": 22697,
+  "image": "https://box.psnc.pl/f/263eddb24b/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "FAO",
+    "water areas",
+    "marine",
+    "inland"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

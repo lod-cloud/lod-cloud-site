@@ -1,0 +1,44 @@
+{
+  "identifier": "isil-dbpedia",
+  "title": "ISIL->DBpedia",
+  "description": {
+    "en": "This package contains BEACON files linking [http://lobid.org/organisation] (ISIL-URIs) to  international DBpedia and German DBpedia. An ISIL is an \"International Standard Identifier for Libraries and Related Organisations\".\r\nThe BEACON was constructed using the [file which automatically extracts the ISIL in the wikipdia infobox](http://ws.gbv.de/wpextract/dewiki-isil.beacon) and some more relations computated through simple pattern matching of the name of the institution and some further heuristics, see https://gist.github.com/2910449 ."
+  },
+  "domain": "publications",
+  "website": "http://lobid.org/organisation",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "pascal christoph",
+    "email": "christoph by hbz-nrw.de"
+  },
+  "keywords": [
+    "dbpedia",
+    "library",
+    "organisations",
+    "organizations",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 4018
+    },
+    {
+      "target": "dbpedia-de",
+      "value": 1305
+    }
+  ],
+  "other_download": [
+    {
+      "title": "isil-de.dbpedia.beacon",
+      "description": "Concordance: ISIL -> German DBpedia",
+      "access_url": "http://lobid.org/download/dumps/DE-605/enrich/isil-de.dbpedia.beacon"
+    },
+    {
+      "title": "isil-dbpedia.beacon",
+      "description": "Concordance ISIL -> international DBpedia",
+      "access_url": "http://lobid.org/download/dumps/DE-605/enrich/isil-dbpedia.beacon"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "identifier": "bioportal-epileponto",
+  "title": "Epilepsy",
+  "description": {
+    "en": "Ontology about the epilepsy domain and epileptic seizures. Based on the diagnosis proposed by the International League Against Epilepsy (ILAE)."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1639",
+  "triples": 879,
+  "contact_point": {
+    "name": "Antonio Dourado"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-csp",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 36
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 18
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 16
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 18
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 36
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45987?apikey=BP_API_KEY"
+    }
+  ]
+}

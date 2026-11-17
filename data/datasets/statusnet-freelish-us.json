@@ -1,0 +1,53 @@
+{
+  "identifier": "statusnet-freelish-us",
+  "title": "statusnet-freelish-us",
+  "description": {
+    "en": "StatusNet instance hosted at http://freelish.us"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 136
+    },
+    {
+      "target": "personal-homepages",
+      "value": 2
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 4
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 8
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 242
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://freelish.us/drubin/foaf"
+    }
+  ]
+}

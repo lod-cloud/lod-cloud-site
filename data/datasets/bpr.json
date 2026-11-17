@@ -1,0 +1,56 @@
+{
+  "identifier": "bpr",
+  "title": "BPR ? Bibliography of the Italian Parliament and electoral studies",
+  "description": {
+    "en": "**dati.camera.it - Linked Open Data della Camera dei deputati**  \r\n**The BPR - Bibliografia del Parlamento italiano e degli studi elettorali**  (Bibliography of the Italian Parliament and Electoral Studies) is a database of bibliographic references of books and articles in periodical journals addressing the history of the Italian Parliament and the history of elections. In particular the BPR provides references to studies on:  \r\n\r\n* the Italian Parliament, from the concession of the Statuto Albertino (Albertine Statute) in 1848, the National Consultative Assembly and the Constituent Assembly;\r\n* elections (laws, procedures, results), with reference to general elections as from 1848.  \r\n\r\nThe BPR addresses primarily studies in law, plus studies in political science, organisational science, political sociology, as well as related historiographical literature. In 2002 the BPR started reporting documents posted on the leading juridical websites.  \r\nEach bibliographic reference is assigned one or more classification codes, which are taken from a directory of over 100 classifications organized into seven major fields.  \r\nThe BPR is also a digital library updated non-stop. By using documents in the public domain or available thanks to agreements with private publishers, it provides a selection of full-text documents (monographs, judgements, articles from periodicals, contributions to miscellaneous works) attached to the bibliographic reference."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://dati.camera.it/ocd/bpr/",
+  "triples": 366800,
+  "contact_point": {
+    "name": "Library of the Italian Chamber of Deputies",
+    "email": "bib_segreteria@camera.it"
+  },
+  "keywords": [
+    "bibliographic data",
+    "bibliography",
+    "country-italy",
+    "library",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodlam",
+    "rdf",
+    "rdf-format"
+  ],
+  "links": [
+    {
+      "target": "viaf",
+      "value": 54
+    }
+  ],
+  "other_download": [
+    {
+      "title": "dump download page",
+      "access_url": "http://dati.camera.it/it/download/bpr.html"
+    },
+    {
+      "title": "VOID description",
+      "access_url": "http://dati.camera.it/void.ttl#BPR"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dati.camera.it/ocd/bpr/monografia.rdf/1745"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "main sparql EndPoint",
+      "description": "it's possible to use the GRAPH http:/dati.camera.it/ocd/bpr/",
+      "access_url": "http://dati.camera.it/sparql"
+    }
+  ]
+}

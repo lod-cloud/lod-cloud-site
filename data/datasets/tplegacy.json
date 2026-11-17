@@ -1,0 +1,54 @@
+{
+  "identifier": "tplegacy",
+  "title": "True Parents Legacy Teaching Archive",
+  "description": {
+    "en": "Digital archive of 3,700+ sermons, speeches, prayers, and book passages by Sun Myung Moon (1920–2012) and Hak Ja Han Moon (1943–present), spanning 1946–2012. RDF dump uses schema.org vocabulary with sameAs links to Wikidata entities."
+  },
+  "domain": "publications",
+  "website": "https://tplegacy.net/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://tplegacy.net/",
+  "triples": 3500,
+  "doi": "10.5281/zenodo.20442104",
+  "image": "https://tplegacy.net/content/images/size/w640/format/webp/2025/11/logo_tp_l-1-1.png",
+  "contact_point": {
+    "name": "Andres",
+    "email": "tplegacy.net@icloud.com"
+  },
+  "keywords": [
+    "sermons",
+    "religion",
+    "Unification Movement",
+    "theology",
+    "speeches",
+    "prayers",
+    "Sun Myung Moon",
+    "Hak Ja Han Moon",
+    "digital archive"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 3400
+    }
+  ],
+  "full_download": [
+    {
+      "title": "True Parents Legacy Teaching Archive",
+      "download_url": "https://raw.githubusercontent.com/Jon-tplegacy/tplegacy-lod/main/tplegacy.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "True Parents Legacy Teaching Archive",
+      "access_url": "https://raw.githubusercontent.com/Jon-tplegacy/tplegacy-lod/main/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "The True Owners in Establishing the Kingdom of Peace and Unity in Heaven and on Earth I",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://tplegacy.net/the-true-owners-in-establishing-the-kingdom-of-peace-and-unity-in-heaven-and-on-earth/"
+    }
+  ]
+}

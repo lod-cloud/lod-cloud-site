@@ -1,0 +1,49 @@
+{
+  "identifier": "uk-postcodes",
+  "title": "UK Postcodes",
+  "description": {
+    "en": "Linked data for every UK Postcode.\r\n\r\n## License\r\n\r\nContent is licensed under the [OS OpenData License](http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/index.html)"
+  },
+  "domain": "geography",
+  "website": "http://www.uk-postcodes.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.uk-postcodes.com/postcode/",
+  "triples": 27137408,
+  "contact_point": {
+    "name": "Stuart Harrison (@pezholio)"
+  },
+  "keywords": [
+    "country-uk",
+    "format-geo",
+    "format-owl",
+    "format-rdf",
+    "geographic",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "postcodes",
+    "published-by-third-party",
+    "uk"
+  ],
+  "links": [
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 3392176
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 11872616
+    }
+  ],
+  "example": [
+    {
+      "description": "Example postcode (RDF/XML)",
+      "media_type": "text/html",
+      "access_url": "http://www.uk-postcodes.com/postcode/KT172NG.rdf"
+    }
+  ]
+}

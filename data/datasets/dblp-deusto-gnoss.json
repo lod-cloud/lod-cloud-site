@@ -1,0 +1,96 @@
+{
+  "identifier": "dblp-deusto-gnoss",
+  "title": "DBLP Research Groups (University of Deusto-GNOSS)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://researchgroups.gnoss.com/\">DBLP Research Groups (University of Deusto-GNOSS) </a>\r\nis the platform for creating research communities enriched with scientific contexts from\r\n<a href=\"http://www.informatik.uni-trier.de/~ley/db/\">DBLP</a>\r\n. The recommendation contexts of Deusto-GNOSS Research Groups are a part of an index with over two million scientific publications in IT developed by GNOSS in collaboration with the\r\n<a href=\"http://www.deusto.es/\">University of Deusto</a>\r\n. You can use the contexts for your community or research group.\r\n</p>\r\n<p>\r\n<a href=\"http://researchgroups.gnoss.com/\">DBLP Research Groups (University of Deusto-GNOSS) </a>\r\nworks with\r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>\r\n. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. GNOSS works within the philosophy of Open Data and proposes a solution so that data can be linked (Linked Data). Data are expressed in OWL-RDF files. We are implementing semantic technology in Education (educational communities and social learning), semantic catalogs for companies, corporate e-commerce portals and platforms to realize the concept of Open Government and Enterprise 2.0 (corporate social networks).\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://researchgroups.gnoss.com",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://researchgroups.gnoss.com",
+  "triples": 222375855,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "computer science",
+    "country-spain",
+    "country.es",
+    "dblp",
+    "dc",
+    "deusto",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "indice científico",
+    "informática",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 72
+    },
+    {
+      "target": "freebase",
+      "value": 582
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://researchgroups.gnoss.com/voidDBLPDeustoResearchGroupsGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the DBLP Research Groups (Deusto University - GNOSS) community. Currently, more than 2 million resources have been published in the community.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://researchgroups.gnoss.com/comunidad/publicaciones/recurso/Linked-Open-Data-Perspectives-Incorporating-Linke/4995cbcb-0543-40b5-b5af-05e6d04acc09?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the DBLP Research Groups (Deusto University - GNOSS) community. Currently, more than 2 million resources have been published in the community.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://researchgroups.gnoss.com/comunidad/publicaciones/recurso/A-reasonable-Semantic-Web/5ac2b9d8-534c-4cca-b6e2-a5ff4758fc83?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://researchgroups.gnoss.com/en/community/publicaciones/advanced-search/tag/web?rdf"
+    }
+  ]
+}

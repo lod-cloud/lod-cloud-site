@@ -1,0 +1,92 @@
+{
+  "identifier": "babelnet",
+  "title": "BabelNet",
+  "description": {
+    "en": "BabelNet is both a multilingual encyclopedic dictionary, with lexicographic and encyclopedic coverage of terms, and an ontology which connects concepts and named entities in a very large network of semantic relations, made up of 13,801,844 millions of nodes, called Babel synsets. Each Babel synset represents a given meaning and contains all the synonyms which in different languages express that meaning. The BabelNet resource is made available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license. The different resources from which BabelNet originates are made available under different licenses, as follows: WordNet: http://wordnet.princeton.edu/wordnet/license/, Wikipedia: Creative Commons Attribution-ShareAlike 3.0 Unported license, Wiktionary: Creative Commons Attribution-ShareAlike 3.0 Unported license, OmegaWiki: Creative Commons Attribution 2.5 Generic license or higher, ItalWordNet: Open Data Commons Attribution 1.0 License, and Open Multilingual WordNet: different licenses according to the language, as indicated at http://compling.hss.ntu.edu.sg/omw/. When applicable, specific license rights are specified through the property dcterms:license. Please make sure of using data in compliance with their respective licenses."
+  },
+  "domain": "linguistics",
+  "namespace": "http://babelnet.org/rdf/",
+  "triples": 1971744856,
+  "contact_point": {
+    "name": "Roberto Navigli",
+    "email": "navigli@di.uniroma1.it"
+  },
+  "keywords": [
+    "access-web",
+    "format-rdf",
+    "ldl-2014",
+    "lemon",
+    "lexical-resources",
+    "lexico",
+    "linguistics",
+    "llod",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 27585374
+    },
+    {
+      "target": "freebase",
+      "value": 3850334
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 474189
+    },
+    {
+      "target": "lemonuby",
+      "value": 22298
+    },
+    {
+      "target": "lexinfo",
+      "value": 75326283
+    },
+    {
+      "target": "wikipedia",
+      "value": 86241042
+    },
+    {
+      "target": "wiktionary-dbpedia-org",
+      "value": 285912
+    },
+    {
+      "target": "wordnet-rdf",
+      "value": 322519
+    },
+    {
+      "target": "yago",
+      "value": 3517616
+    }
+  ],
+  "other_download": [
+    {
+      "title": "BabelNet in Lemon RDF format (IRIs) version 2.0 (March 2014)",
+      "media_type": "RDF",
+      "access_url": "http://babelnet.org/data/babelnet-2.0-lemon-IRIs.tar.xz"
+    },
+    {
+      "title": "BabelNet in Lemon RDF format (URIs) version 2.0",
+      "media_type": "RDF",
+      "access_url": "http://babelnet.org/data/babelnet-2.0-lemon-URIs.tar.xz"
+    },
+    {
+      "title": "Linked Data interface",
+      "description": "Home page",
+      "access_url": "http://babelnet.org/rdf/"
+    },
+    {
+      "title": "BabelNet interface",
+      "description": "Home page",
+      "access_url": "http://babelnet.org"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://babelnet.org/sparql/"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "identifier": "odc-lsoa",
+  "title": "Open Data Communities - Lower layer Super Output Areas",
+  "description": {
+    "en": "This dataset describes the 'Lower layer Super Output Areas' used by the Office for National Statistics for many of its statistical outputs. \r\n\r\nExample resource:\r\nhttp://opendatacommunities.org/id/geography/lsoa/E01000001\r\n\r\nDownload\r\nhttp://opendatacommunities-downloads.s3.amazonaws.com/lsoa.ttl.zip"
+  },
+  "domain": "government",
+  "website": "http://opendatacommunities.org/datasets/geography",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "http://opendatacommunities.org/id/geography/lsoa/",
+  "triples": 341894,
+  "contact_point": {
+    "name": "http://www.ons.gov.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "government",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "stats",
+      "value": 32482
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voID",
+      "access_url": "http://opendatacommunities.org/datasets/geography.rdf"
+    },
+    {
+      "description": "Download",
+      "media_type": "application/zip",
+      "access_url": "http://opendatacommunities-downloads.s3.amazonaws.com/lsoa.ttl.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://opendatacommunities.org/id/geography/lsoa/E01000001"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://opendatacommunities.org/sparql"
+    }
+  ]
+}

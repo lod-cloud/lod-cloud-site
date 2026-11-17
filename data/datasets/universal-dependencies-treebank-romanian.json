@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-romanian",
+  "title": "Universal Dependencies Treebank Romanian",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Romanian treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Romanian",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 218516,
+  "contact_point": {
+    "name": "Mititelu, Verginica; Irimia, Elena; Perez, Cenel-Augusto; Ion, Radu; Simionescu, Radu; Mărănduc, Cătălina",
+    "email": "vergi@racai.ro"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Romanian Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Romanian/archive/master.zip"
+    },
+    {
+      "title": "UD_Romanian RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/45bbfb77-9de4-42a8-8e71-05f08a5d3b76/resource/75f51566-8cc4-45fe-94a0-fd012e10c757/download/udromanian.rdf"
+    }
+  ]
+}

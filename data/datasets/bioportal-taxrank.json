@@ -1,0 +1,59 @@
+{
+  "identifier": "bioportal-taxrank",
+  "title": "Taxonomic rank vocabulary",
+  "description": {
+    "en": "A vocabulary of taxonomic ranks intended to replace the sets of rank terms found in the Teleost Taxonomy Ontology, the OBO translation of the NCBI taxonomy and similar OBO taxonomy ontologies.  It provides terms for taxonomic ranks drawn from both the NCBI taxonomy database and from a rank vocabulary developed for the TDWG biodiversity information standards group.  Cross references to appearances of each term in each source are provided.  Consistent with its intended use as a vocabulary of labels, there is no relation specifying an ordering of the rank terms."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1419",
+  "triples": 384,
+  "contact_point": {
+    "name": "Peter Midford"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-ato",
+      "value": 29
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 23
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 57
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 55
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44946?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "identifier": "muziekweb",
+  "title": "Muziekweb",
+  "description": {
+    "en": "Muziekweb is the music library of the Netherlands. Musicweb aims to offer music and the information about music accessible to everyone. Muziekweb has since 1961 built a collection of 600,000 CDs, 300,000 LPs and 30,000 music DVDs. The site is a source of information about music that has been released in the Netherlands during the past fifty years, and an ideal place to get to know more music.\n\nOn Muziekweb you will find:\nInformation about pop, classical, jazz and world music. \nLinks to streaming services to fully listen to music.                                                                                                                                                                                          \nObjective and reliable descriptions of albums, artists and music styles.                                                                                                                                                                        \nCollections of historical value made accessible digitally via the special collections page.                                                                              \nIn-depth and accessible pieces on numerous musical topics, written by experts."
+  },
+  "domain": "media",
+  "website": "https://data.muziekweb.nl/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "https://data.muziekweb.nl/Link/",
+  "triples": 31579141,
+  "image": "https://data.muziekweb.nl/imgs/logos/logo.svg?v=9",
+  "contact_point": {
+    "name": "Muziekweb",
+    "email": "info@muziekweb.nl"
+  },
+  "keywords": [
+    "Music",
+    "Dutch",
+    "Media",
+    "Records"
+  ],
+  "links": [
+    {
+      "target": "data-incubator-discogs",
+      "value": 482265
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 391073
+    },
+    {
+      "target": "wikidata",
+      "value": 39067
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Full download trig",
+      "description": "Gzipped full download of the .trig file.",
+      "media_type": "application/trig",
+      "download_url": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/download.trig.gz"
+    },
+    {
+      "title": "Full download ntriples",
+      "description": "Gzipped full download of the .nt file.",
+      "media_type": "application/n-triples",
+      "download_url": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/download.nt.gz"
+    },
+    {
+      "title": "Full download nquads",
+      "description": "Gzipped full download of the .nq file.",
+      "media_type": "application/n-quads",
+      "download_url": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/download.nq.gz"
+    },
+    {
+      "title": "Full download turtle",
+      "description": "Gzipped full download of the .ttl file.",
+      "download_url": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/download.ttl.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Mirror 1",
+      "description": "Mirror for the gzipped full download of the .trig file.",
+      "media_type": "application/trig",
+      "access_url": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/assets/5e96feb56ac1c3036f26eaa4"
+    }
+  ],
+  "example": [
+    {
+      "title": "Who's that girl : Original motion picture soundtrack",
+      "media_type": "text/turtle",
+      "access_url": "https://data.muziekweb.nl/Link/HFX0244"
+    },
+    {
+      "title": "Confessions on a dancefloor",
+      "media_type": "text/turtle",
+      "access_url": "https://data.muziekweb.nl/Link/JK132334"
+    },
+    {
+      "title": "Chansons de la belle epoque ; vol.1",
+      "media_type": "text/turtle",
+      "access_url": "https://data.muziekweb.nl/Link/HBX0637"
+    },
+    {
+      "title": "Madonna",
+      "media_type": "text/turtle",
+      "access_url": "https://data.muziekweb.nl/Link/M00000023349"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "YASGUI interface",
+      "description": "YASGUI interface to the SPARQL service.",
+      "access_url": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb/sparql/Muziekweb"
+    },
+    {
+      "title": "API path",
+      "access_url": "https://api.data.muziekweb.nl/datasets/muziekweborganization/Muziekweb/services/Muziekweb/sparql"
+    }
+  ]
+}

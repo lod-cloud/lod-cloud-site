@@ -1,0 +1,65 @@
+{
+  "identifier": "geodomainwn",
+  "title": "geodomainwn",
+  "description": {
+    "en": "This dataset contains the geographical resource, geonames, in a wordnet-like picture. They are 657 concepts extracted from the GLOSS Project. Available in English and Italian. \r\nAlso a lemonization (lemon model)"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Riccardo Del Gratta",
+    "email": "riccardo.delgratta@ilc.cnr.it"
+  },
+  "keywords": [
+    "Linguistic Dataset LOD RDF"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 3939
+    }
+  ],
+  "other_download": [
+    {
+      "title": "English collection of geonames synset",
+      "description": "English collection of geonames synset. This is the list of the concepts extracted from the geonames resource. It contains entries such as http://www.languagelibrary.eu/owl/geodomainWN/eng/instances/geosynset-abandoned_camp-N-1",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/eng/geonames-synset"
+    },
+    {
+      "title": "Italian collection of geonames synset",
+      "description": "Italian colection of geonames synset. This file contains the list of concepts extracted from the geonames resource. It contains entries such as http://www.languagelibrary.eu/owl/geodomainWN/ita/instances/geosynset-zona_umida_stagionale-N-1",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/ita/geonames-synset"
+    },
+    {
+      "title": "Italian collection of words and wordsenses",
+      "description": "Italian collection of words and wordsenses. This file contains links to words (http://www.languagelibrary.eu/owl/geodomainWN/ita/instances/geoword-argine) and wordsenses (http://www.languagelibrary.eu/owl/geodomainWN/ita/instances/geowordsense-centro_spaziale-N-1)",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/ita/schema/wordsenseandwords"
+    },
+    {
+      "title": "English collection of words and wordsenses",
+      "description": "English collection of words and wordsenses. This file contains links to words (http://www.languagelibrary.eu/owl/geodomainWN/eng/instances/geoword-shelf_edge) and wordsenses (http://www.languagelibrary.eu/owl/geodomainWN/eng/instances/geowordsense-deep-N-1)",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/eng/schema/wordsenseandwords"
+    },
+    {
+      "title": "English list of lemon entries",
+      "description": "This file contains the entries which point to lemon version of the geoword:\r\nhttp://www.languagelibrary.eu/owl/geodomainWN/eng/lemon/c/ca4/crater",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/eng/lemon/geodomainWNeng-lemon-list"
+    },
+    {
+      "title": "Italian list of lemon entries",
+      "description": "This file contains the entries which point to lemon version of the geoword:\r\nhttp://www.languagelibrary.eu/owl/geodomainWN/ita/lemon/3/3bd/sfioratore",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/ita/lemon/geodomainWNita-lemon-list"
+    },
+    {
+      "title": "Italian list of lemon lexical entries",
+      "description": "This file contains the full entries of the words in the lemon format",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/ita/lemon/geodomainWNita-lemon"
+    },
+    {
+      "title": "English list of lemon lexical entries",
+      "description": "This file contains all lexical entries (in lemon)  in the same file",
+      "access_url": "http://www.languagelibrary.eu/owl/geodomainWN/eng/lemon/geodomainWNeng-lemon"
+    }
+  ]
+}

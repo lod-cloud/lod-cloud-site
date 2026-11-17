@@ -1,0 +1,559 @@
+{
+  "identifier": "ckan",
+  "title": "Comprehensive Knowledge Archive Network",
+  "domain": "life_sciences",
+  "website": "http://www.ckan.net/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 50000,
+  "keywords": [
+    "access-api",
+    "bio2rdf",
+    "catalog",
+    "catalogue",
+    "format-dcat",
+    "format-opmv",
+    "format-rdf",
+    "format-void",
+    "lodcloud-diagram-2014-08-30",
+    "package-type.catalog",
+    "published-by-producer",
+    "registry",
+    "resource-deref"
+  ],
+  "links": [
+    {
+      "target": "2000-us-census-rdf",
+      "value": 1
+    },
+    {
+      "target": "austrian_ski_racers",
+      "value": 1
+    },
+    {
+      "target": "bbc-music",
+      "value": 1
+    },
+    {
+      "target": "bbc-programmes",
+      "value": 1
+    },
+    {
+      "target": "bbc-wildlife-finder",
+      "value": 1
+    },
+    {
+      "target": "bibbase",
+      "value": 1
+    },
+    {
+      "target": "business-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "chronicling-america",
+      "value": 4
+    },
+    {
+      "target": "ckan",
+      "value": 3
+    },
+    {
+      "target": "cornetto",
+      "value": 2
+    },
+    {
+      "target": "data-gov-uk-time-intervals",
+      "value": 4
+    },
+    {
+      "target": "data-incubator-discogs",
+      "value": 1
+    },
+    {
+      "target": "data-incubator-moseley",
+      "value": 1
+    },
+    {
+      "target": "data-incubator-musicbrainz",
+      "value": 3
+    },
+    {
+      "target": "data-incubator-nasa",
+      "value": 1
+    },
+    {
+      "target": "data-incubator-pokedex",
+      "value": 1
+    },
+    {
+      "target": "data-open-ac-uk",
+      "value": 3
+    },
+    {
+      "target": "dbpedia",
+      "value": 3
+    },
+    {
+      "target": "dbpedia-lite",
+      "value": 1
+    },
+    {
+      "target": "dbtropes",
+      "value": 1
+    },
+    {
+      "target": "dbtune-artists-last-fm",
+      "value": 1
+    },
+    {
+      "target": "dcs-sheffield",
+      "value": 3
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 4
+    },
+    {
+      "target": "ecs",
+      "value": 2
+    },
+    {
+      "target": "education-data-gov-uk",
+      "value": 2
+    },
+    {
+      "target": "enakting-co2emission",
+      "value": 1
+    },
+    {
+      "target": "enakting-mortality",
+      "value": 1
+    },
+    {
+      "target": "enakting-population",
+      "value": 1
+    },
+    {
+      "target": "environment-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "environmental-applications-reference-thesaurus",
+      "value": 1
+    },
+    {
+      "target": "esd-standards",
+      "value": 2
+    },
+    {
+      "target": "eurostat-ontologycentral",
+      "value": 1
+    },
+    {
+      "target": "eurostat-rdf",
+      "value": 3
+    },
+    {
+      "target": "event-media",
+      "value": 1
+    },
+    {
+      "target": "fishes-of-texas",
+      "value": 2
+    },
+    {
+      "target": "flickr-wrappr",
+      "value": 1
+    },
+    {
+      "target": "fu-berlin-eurostat",
+      "value": 1
+    },
+    {
+      "target": "gemeenschappelijke-thesaurus-audiovisuele-archieven",
+      "value": 2
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "geospecies",
+      "value": 1
+    },
+    {
+      "target": "gesis-thesoz",
+      "value": 1
+    },
+    {
+      "target": "govtrack",
+      "value": 1
+    },
+    {
+      "target": "hungarian-national-library-catalog",
+      "value": 4
+    },
+    {
+      "target": "iserve",
+      "value": 1
+    },
+    {
+      "target": "john-goodwins-family-tree",
+      "value": 1
+    },
+    {
+      "target": "knoesis-linked-sensor-data",
+      "value": 1
+    },
+    {
+      "target": "lexvo",
+      "value": 1
+    },
+    {
+      "target": "linked-open-numbers",
+      "value": 1
+    },
+    {
+      "target": "linkedlccn",
+      "value": 2
+    },
+    {
+      "target": "london-gazette",
+      "value": 1
+    },
+    {
+      "target": "lotico",
+      "value": 2
+    },
+    {
+      "target": "marc-codes",
+      "value": 2
+    },
+    {
+      "target": "my-experiment",
+      "value": 2
+    },
+    {
+      "target": "national-diet-library-subject-headings",
+      "value": 1
+    },
+    {
+      "target": "opencalais",
+      "value": 3
+    },
+    {
+      "target": "openlibrary",
+      "value": 1
+    },
+    {
+      "target": "openlylocal",
+      "value": 1
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 2
+    },
+    {
+      "target": "patents-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "printed-book-auction-catalogues",
+      "value": 1
+    },
+    {
+      "target": "rdfize-lastfm",
+      "value": 1
+    },
+    {
+      "target": "rechtspraak",
+      "value": 1
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 2
+    },
+    {
+      "target": "research-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "revyu",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-darmstadt",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-deepblue",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-era",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-jisc",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-unlocode",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-wordnet",
+      "value": 1
+    },
+    {
+      "target": "semantic-xbrl",
+      "value": 1
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "stw-thesaurus-for-economics",
+      "value": 2
+    },
+    {
+      "target": "surge-radio",
+      "value": 1
+    },
+    {
+      "target": "t4gm-info",
+      "value": 1
+    },
+    {
+      "target": "talis-openlibrary",
+      "value": 3
+    },
+    {
+      "target": "taxonconcept",
+      "value": 6
+    },
+    {
+      "target": "telegraphis",
+      "value": 1
+    },
+    {
+      "target": "the-view-from",
+      "value": 1
+    },
+    {
+      "target": "transport-data-gov-uk",
+      "value": 3
+    },
+    {
+      "target": "uberblic",
+      "value": 1
+    },
+    {
+      "target": "ugent_biblio",
+      "value": 1
+    },
+    {
+      "target": "uk-legislation-api",
+      "value": 1
+    },
+    {
+      "target": "uk-postcodes",
+      "value": 1
+    },
+    {
+      "target": "university-plymouth-reading-lists",
+      "value": 1
+    },
+    {
+      "target": "uriburner",
+      "value": 2
+    },
+    {
+      "target": "viaf",
+      "value": 1
+    },
+    {
+      "target": "vivo-cornell-university",
+      "value": 2
+    },
+    {
+      "target": "vivo-indiana-university",
+      "value": 2
+    },
+    {
+      "target": "vivo-university-of-florida",
+      "value": 2
+    },
+    {
+      "target": "vu-wordnet",
+      "value": 2
+    },
+    {
+      "target": "zbw-pressemappe20",
+      "value": 3
+    },
+    {
+      "target": "zitgist-musicbrainz",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "description": "NTriples",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "http://semantic.ckan.net/catalogue.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.ckan.net/dump/ckan.net-daily.json.gz"
+    },
+    {
+      "description": "RDF/XML",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://semantic.ckan.net/catalogue.rdf"
+    },
+    {
+      "description": "N3",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://semantic.ckan.net/catalogue.n3"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example N3 Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://semantic.ckan.net/package/c/k/ckan.n3"
+    },
+    {
+      "description": "Example RDF/XML Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://semantic.ckan.net/package/c/k/ckan.rdf"
+    },
+    {
+      "description": "Example NTriples Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://semantic.ckan.net/package/c/k/ckan.nt"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://semantic.ckan.net/sparql/"
+    }
+  ]
+}

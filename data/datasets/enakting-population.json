@@ -1,0 +1,50 @@
+{
+  "identifier": "enakting-population",
+  "title": "EnAKTing Population Dataset",
+  "description": {
+    "en": "Data extracted from the census data provided by UK's Office for National Statistics grouped by parliamentary constituencies.\r\n\r\nDates from mid 2001 to mid 2007."
+  },
+  "domain": "government",
+  "website": "http://population.psi.enakting.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://population.psi.enakting.org/id/",
+  "triples": 2316831,
+  "contact_point": {
+    "name": "Tope Omitola",
+    "email": "t.omitola@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 533
+    },
+    {
+      "target": "rkbexplorer",
+      "value": 2
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://population.psi.enakting.org/id/void"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://population.psi.enakting.org/id/St_Albans/rdf"
+    }
+  ]
+}

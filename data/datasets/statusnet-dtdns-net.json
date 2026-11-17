@@ -1,0 +1,48 @@
+{
+  "identifier": "statusnet-dtdns-net",
+  "title": "statusnet-dtdns-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://dtdns.net"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 11
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 5
+    },
+    {
+      "target": "wordpress",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://compgeek.dtdns.net/netgeek/foaf"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "identifier": "statusnet-ourcoffs-org-au",
+  "title": "statusnet-ourcoffs-org-au",
+  "description": {
+    "en": "StatusNet instance hosted at http://ourcoffs.org.au"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 10
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 5
+    },
+    {
+      "target": "statusnet-panda-id-au",
+      "value": 2
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 21
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 7
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://microblog.ourcoffs.org.au/ender76/foaf"
+    }
+  ]
+}

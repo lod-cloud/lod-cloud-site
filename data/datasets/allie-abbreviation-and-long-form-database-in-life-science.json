@@ -1,0 +1,69 @@
+{
+  "identifier": "allie-abbreviation-and-long-form-database-in-life-science",
+  "title": "Allie Abbreviation And Long Form Database in Life Science",
+  "description": {
+    "en": "A database of abbreviations and long forms utilized in Lifesciences. It provides a solution to the issue that many abbreviations are used in the literature, and polysemous or synonymous abbreviations appear frequently, making it difficult to read and understand scientific papers that are not relevant to the reader's expertise. Allie contains abbreviations and their corresponding long forms extracted from titles and abstracts in the entire MEDLINE®, a database of the U.S. National Library of Medicine. MEDLINE stores over 20 million bibliographic information in life science and is suitable for extracting domain specific abbreviations and their long forms appearing in actual literature."
+  },
+  "domain": "life_sciences",
+  "website": "http://allie.dbcls.jp/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://purl.org/allie/",
+  "triples": 94420988,
+  "contact_point": {
+    "name": "Database Center for Life Science",
+    "email": "info AT dbcls.rois.ac.jp"
+  },
+  "keywords": [
+    "abbreviation",
+    "biomedical",
+    "dictionary",
+    "format-owl",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 95280
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page",
+      "description": "FTP site for downloading Allie datasets in RDF.",
+      "media_type": "index/ftp",
+      "access_url": "ftp://ftp.dbcls.jp/allie/allie_rdf/"
+    },
+    {
+      "title": "Download",
+      "description": "The latest Allie dataset in RDF.",
+      "media_type": "gzip:ntriples",
+      "access_url": "ftp://ftp.dbcls.jp/allie/allie_rdf/allie_rdf_nt_latest.gz"
+    },
+    {
+      "title": "voiD description",
+      "description": "VoID description of the Allie RDF dataset.",
+      "media_type": "meta/void",
+      "access_url": "http://allie.dbcls.jp/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset",
+      "description": "A dataset of a long form.",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://purl.org/allie/id/longform/531855"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "URI for SPARQL API interface.",
+      "access_url": "http://data.allie.dbcls.jp/sparql"
+    }
+  ]
+}

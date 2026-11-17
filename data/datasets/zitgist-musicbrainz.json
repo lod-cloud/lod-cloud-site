@@ -1,0 +1,38 @@
+{
+  "identifier": "zitgist-musicbrainz",
+  "title": "MusicBrainz (zitgist.com)",
+  "description": {
+    "en": "RDF for artists, records, performances etc., generated from package:musicbrainz."
+  },
+  "domain": "media",
+  "website": "http://fgiasson.com/blog/index.php/2007/05/22/browsing-musicbrainzs-dataset-via-uri-dereferencing/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://zitgist.com/music",
+  "triples": 60000000,
+  "contact_point": {
+    "name": "Frédérick Giasson",
+    "email": "fred@fgiasson.com"
+  },
+  "keywords": [
+    "format-mo",
+    "format-rdf",
+    "format-rdfs",
+    "lod",
+    "lodcloud.nolinks",
+    "media",
+    "music",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "example": [
+    {
+      "title": "hhhh",
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html",
+      "access_url": "http://zitgist.com/music/artist/79239441-bfd5-4981-a70c-55c3f15c1287"
+    }
+  ]
+}

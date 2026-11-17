@@ -1,0 +1,43 @@
+{
+  "identifier": "n-lex-as-linked-data",
+  "title": "N-Lex as Linked Data",
+  "description": {
+    "en": "The original N-LEX is a portal developed by the EU publications office and EU governments. It offers a unified search form to national legislation databases, a multilingual dictionary (EUROVOC) as well as a context-sensitive help. The project started with 4 national databases and has grown to 23 databases today.\r\nBesides the unified search form (which is not very useful for extraction purposes), the website also contains links to the respective national websites of the databases. All national databases offer a non-standardized access to their data, which in all cases is HTML or worse (e.g. PDF documents). Given the fact, that there are also no dumps of raw data (e.g. CSV) available, there is no unified N-LEX dataset that can be converted and published as Linked Data. Rather each countries legislation database has to be treated as an autonomous dataset. Thus we have chosen one country, namely Germany and converted this database into Linked Data via scraping."
+  },
+  "domain": "government",
+  "website": "http://n-lex.publicdata.eu/",
+  "namespace": "http://n-lex.publicdata.eu/ontology",
+  "triples": 1792054,
+  "contact_point": {
+    "name": "Philipp Frischmuth",
+    "email": "frischmuth@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "government",
+    "latc",
+    "legal",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example resource",
+      "access_url": "http://n-lex.publicdata.eu/germany/id/BJNR036900005"
+    },
+    {
+      "title": "Example resource",
+      "access_url": "http://n-lex.publicdata.eu/resource/export/f/rdfxml?r=http%3A%2F%2Fn-lex.publicdata.eu%2Fgermany%2Fid%2FBJNR036900005"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://n-lex.publicdata.eu/sparql"
+    }
+  ]
+}

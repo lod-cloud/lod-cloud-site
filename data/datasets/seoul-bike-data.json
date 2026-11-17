@@ -1,0 +1,31 @@
+{
+  "identifier": "seoul-bike-data",
+  "title": "seoul-bike-data",
+  "description": {
+    "en": "This dataset contains data from the seoul, Korea about bike rental et al."
+  },
+  "domain": "user_generated",
+  "website": "http://13.125.246.132",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://ec2-13-125-246-132.ap-northeast-2.compute.amazonaws.com/DAV/home/takheekim/rdf_sink/bike.ttl",
+  "triples": 15746,
+  "contact_point": {
+    "name": "takhee kim",
+    "email": "takfeb@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "turtle format",
+      "description": "turtle format file about data",
+      "media_type": "turtle",
+      "download_url": "http://ec2-13-125-246-132.ap-northeast-2.compute.amazonaws.com/DAV/home/takheekim/rdf_sink/bike.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Custom server",
+      "description": "AWS EC2 Private Server",
+      "access_url": "http://13.125.246.132/sparql"
+    }
+  ]
+}

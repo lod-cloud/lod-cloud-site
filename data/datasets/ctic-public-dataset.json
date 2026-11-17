@@ -1,0 +1,62 @@
+{
+  "identifier": "ctic-public-dataset",
+  "title": "CTIC Public Dataset Catalogs",
+  "description": {
+    "en": "Overview of worldwide data catalogues."
+  },
+  "domain": "government",
+  "website": "http://datos.fundacionctic.org/en/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.fundacionctic.org/dataset-catalog/",
+  "triples": 535230,
+  "contact_point": {
+    "name": "Fundacion CTIC",
+    "email": "opendata@fundacionctic.org"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dcterms",
+    "format-foaf",
+    "format-rdf",
+    "geographic",
+    "government",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 3000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download link of rdf file",
+      "media_type": "RDF",
+      "access_url": "http://data.fundacionctic.org/sparql?query=select+*+where+{%3Fs+a+%3Chttp://data.fundacionctic.org/vocab/catalog/datasets%23Catalog%3E;+%3Fp+%3Fo.}&format=rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example: City of Saragossa Open Data initiative",
+      "description": "Description of the Open Data Portal and catalogue of Saragossa (Zaragoza)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.fundacionctic.org/sparql?default-graph-uri=&query=describe+%3Fcatalog+%3Fspatial+%3FparentCountry%0D%0Awhere+%7B%0D%0A%3Fcatalog+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fidentifier%3E+%22zaragoza.es%22%3B%0D%0A%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fspatial%3E+%3Fspatial.%0D%0A%0D%0A%3Fspatial+%3Chttp%3A%2F%2Fsws.geonames.org%2Fontology%23parentCountry%3E+%3FparentCountry.%0D%0A%0D%0A%7D&format=rdf"
+    },
+    {
+      "description": "Example link RDF/XML",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.fundacionctic.org/sparql?default-graph-uri=http%3A%2F%2Fdata.fundacionctic.org%2Fdataset-catalog&query=DESCRIBE%20%3Chttp%3A%2F%2Fdata.fundacionctic.org%2Fdataset-catalog%2Ftoronto.ca%3E&output=rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql endpoint",
+      "access_url": "http://data.fundacionctic.org/sparql"
+    }
+  ]
+}

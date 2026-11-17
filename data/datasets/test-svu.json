@@ -1,0 +1,22 @@
+{
+  "identifier": "test-svu",
+  "title": "test-svu",
+  "description": {
+    "en": "test-svu"
+  },
+  "domain": "user_generated",
+  "website": "https://lod-cloud.net/add-dataset",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "safi test",
+    "email": "safi95dev@gmail.com"
+  },
+  "sparql": [
+    {
+      "title": "test-svu",
+      "description": "test-svu",
+      "access_url": "https://test-svu/sparql"
+    }
+  ]
+}

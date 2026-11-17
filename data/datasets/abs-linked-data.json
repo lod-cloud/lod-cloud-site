@@ -1,0 +1,114 @@
+{
+  "identifier": "abs-linked-data",
+  "title": "Australian Bureau of Statistics (ABS) Linked Data",
+  "description": {
+    "en": "ABS data and metadata"
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://abs.270a.info/dataset/",
+  "triples": 2357400000,
+  "contact_point": {
+    "name": "Sarven Capadisli",
+    "email": "info@csarven.ca"
+  },
+  "keywords": [
+    "country-codes",
+    "economics",
+    "format-dcterms",
+    "format-prov",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "indicators",
+    "license-metadata",
+    "linked-data",
+    "lod",
+    "lodcloud",
+    "lodcloud.candidate",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party",
+    "statistics",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "bfs-linked-data",
+      "value": 99
+    },
+    {
+      "target": "bis-linked-data",
+      "value": 198
+    },
+    {
+      "target": "dbpedia",
+      "value": 99
+    },
+    {
+      "target": "ecb-linked-data",
+      "value": 99
+    },
+    {
+      "target": "fao-linked-data",
+      "value": 99
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 99
+    },
+    {
+      "target": "the-eurostat-linked-data",
+      "value": 99
+    },
+    {
+      "target": "transparency-linked-data",
+      "value": 99
+    },
+    {
+      "target": "uis-linked-data",
+      "value": 495
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 99
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID",
+      "description": "A VoID Description of the abs.270a.info dataset",
+      "media_type": "meta/void",
+      "access_url": "http://abs.270a.info/.well-known/void"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "Schema and metadata used for all of the data in the ABS dataset",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://abs.270a.info/data/meta.tar.gz"
+    },
+    {
+      "title": "ABS Datasets",
+      "description": "ABS Datasets which contain the statistical observations",
+      "media_type": "RDF",
+      "access_url": "http://abs.270a.info/data/data.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF/XML",
+      "description": "Example RDF/XML of a dataset which contains statistical observations.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://abs.270a.info/dataset/ABS_CENSUS2011_T03_LGA"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ABS SPARQL Endpoint",
+      "access_url": "http://abs.270a.info/sparql"
+    }
+  ]
+}

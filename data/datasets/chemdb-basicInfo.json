@@ -1,0 +1,46 @@
+{
+  "identifier": "chemdb-basicInfo",
+  "title": "chemdb  dataset",
+  "description": {
+    "en": "This dataset collects information on the commonly used chemical identifiers (e.g. CAS-RN, SMILES, InChIKey, et. al.) and basic information (e.g. Name, Formulas, et. al.) of compounds and on the thermochemical properties and basic physicochemical properties of compounds at gaseous state and condensed state, including heat capacity, standard entropy and standard enthalpy, et. al.This dataset also collects information on the entropy, enthalpy, temperature, pressure,et. al. that associated with phase change of compounds.And critical properties for compounds are also collected. And this dataset collects information on the estimated properties of compounds, including ALogP,ALogP_MR, Minimized_Energy,et. al. via the law of corresponding states (LCS), the method of group contributions (GC), and the like."
+  },
+  "domain": "life_sciences",
+  "website": "http://semweb.csdb.cn/chemdb",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 12286615,
+  "contact_point": {
+    "name": "赵月红",
+    "email": "yhzhao@ipe.ac.cn"
+  },
+  "keywords": [
+    "compound",
+    "chemical identifier",
+    "chemical basic information",
+    "thermochemical properties",
+    "phase change",
+    "estimated properties",
+    "physicochemical properties",
+    "LCS",
+    "GC"
+  ],
+  "links": [
+    {
+      "target": "bioportal-chebi",
+      "value": 387448
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 1937240
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 3874479
+    }
+  ],
+  "sparql": [
+    {
+      "title": "chemdb-basicInfo SPARQL endpoint",
+      "access_url": "http://chemdb.semweb.csdb.cn/sparql"
+    }
+  ]
+}

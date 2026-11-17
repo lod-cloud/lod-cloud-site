@@ -1,0 +1,36 @@
+{
+  "identifier": "universal-dependencies-treebank-japanese-ktc",
+  "title": "Universal Dependencies Treebank Japanese-KTC",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Japanese-KTC treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Japanese-KTC",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 267631,
+  "contact_point": {
+    "name": "Asahara, Masayuki; Kanayama, Hiroshi; Matsumoto, Yuji; Miyao, Yusuke; Mori, Shunsuke; Tanaka, Takaaki; Uematsu, Sumire"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Japanese-KTC Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Japanese-KTC/archive/master.zip"
+    },
+    {
+      "title": "UD_Japanese-KTC RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "access_url": "https://datahub.io/dataset/f861988b-eac3-4949-95b8-27504d0365b0/resource/236a8317-989f-4ebc-a580-03432c3403ce/download/udjapanese-ktc.rdf"
+    }
+  ]
+}

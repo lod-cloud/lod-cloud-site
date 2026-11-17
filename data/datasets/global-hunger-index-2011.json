@@ -1,0 +1,53 @@
+{
+  "identifier": "global-hunger-index-2011",
+  "title": "Global Hunger Index (2011)",
+  "description": {
+    "en": "The Global Hunger Index (GHI) offers a useful multidimensional overview of global hunger. The 2011 GHI is the sixth in an annual series that records the state of global, regional, and national hunger.\r\n\r\nThe GHI captures three dimensions of hunger: insufficient availability of calories, shortfalls in the nutritional status of children, and child mortality. Accordingly, the Index includes the following three equally weighted indicators: the proportion of people who are undernourished, as estimated by the Food and Agriculture Organization of the United Nations (FAO); the prevalence of underweight in children under the age of five, as compiled by the World Health Organization (WHO); and the under-five mortality rate, as reported by the United Nations Children’s Fund (UNICEF). The 2011 index includes GHI values for four time periods, recalculated using the latest source data, to allow an exploration of change over time."
+  },
+  "domain": "cross_domain",
+  "website": "http://www.ifpri.org/publication/2011-global-hunger-index",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.kasabi.com/dataset/global-hunger-index",
+  "triples": 19369,
+  "contact_point": {
+    "name": "International Food Policy Research Institute",
+    "email": "ifpri@cgiar.org"
+  },
+  "keywords": [
+    "crossdomain",
+    "development",
+    "food",
+    "format-qb",
+    "hunger",
+    "license-metadata",
+    "lod",
+    "lodcloud",
+    "no-proprietary-vocab",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 260
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Excel Data Spreadsheet",
+      "description": "Raw data, structured for presentation",
+      "media_type": "text/html",
+      "access_url": "http://www.ifpri.org/sites/default/files/ghi2011data.xlsx"
+    },
+    {
+      "title": "2011 Global Hunger Index (RDF/XML)",
+      "description": "Data cube model of Global Hunger Index. Raw RDF dump",
+      "media_type": "RDF",
+      "access_url": "http://data.ifpri.org/rdf/ghi/raw/Global-Hunger-Index-2011.rdf"
+    },
+    {
+      "title": "VoID Data",
+      "description": "Available via Kasabi",
+      "access_url": "http://data.kasabi.com/dataset/global-hunger-index"
+    }
+  ]
+}

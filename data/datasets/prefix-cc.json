@@ -1,0 +1,55 @@
+{
+  "identifier": "prefix-cc",
+  "title": "prefix.cc",
+  "description": {
+    "en": "A community-curated collection of namespace prefix mappings for use in RDF applications.\r\n\r\nFeatures a lookup API and bulk download."
+  },
+  "domain": "user_generated",
+  "website": "http://prefix.cc/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://prefix.cc/",
+  "triples": 8000,
+  "contact_point": {
+    "name": "Richard Cyganiak",
+    "email": "richard@cyganiak.de"
+  },
+  "keywords": [
+    "format-vann",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "namespace",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "prefix",
+    "published-by-producer",
+    "rdf",
+    "usergeneratedcontent"
+  ],
+  "other_download": [
+    {
+      "title": "CSV bulk download",
+      "access_url": "http://prefix.cc/popular/all.file.csv"
+    },
+    {
+      "title": "JSON bulk download",
+      "media_type": "application/json",
+      "access_url": "http://prefix.cc/popular/all.file.json"
+    },
+    {
+      "title": "RDF bulk download",
+      "access_url": "http://prefix.cc/popular/all.file.vann"
+    },
+    {
+      "title": "API docmentation",
+      "access_url": "http://prefix.cc/about/api"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://prefix.cc/foaf.file.vann"
+    }
+  ]
+}

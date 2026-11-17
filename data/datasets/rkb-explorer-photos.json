@@ -1,0 +1,47 @@
+{
+  "identifier": "rkb-explorer-photos",
+  "title": "photos",
+  "domain": "publications",
+  "website": "http://photos.rkbexplorer.com",
+  "namespace": "http://photos.rkbexplorer.com/id/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "broken_link",
+    "format-rdf",
+    "lod",
+    "provenance-metadata",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 100
+    },
+    {
+      "target": "flickr-wrappr",
+      "value": 99
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://photos.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://photos.rkbexplorer.com/models/void.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://photos.rkbexplorer.com/sparql"
+    }
+  ]
+}

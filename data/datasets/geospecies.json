@@ -1,0 +1,119 @@
+{
+  "identifier": "geospecies",
+  "title": "GeoSpecies Knowledge Base",
+  "description": {
+    "en": "Data exposed: Information on Biological Orders, Families, Species as well as species occurrence records and related data\r\n\r\nThe data set currently contains information and linked data for: 19,230 Species, 1,671 Familes, 221 Orders. We have approximately 6,500 species observations, but are awaiting release on the majority of those.\r\n\r\nAlso see TaxonConcept, where species are modeled differently.\r\n\r\nSize of dump and data set: 6.7 MB gzip"
+  },
+  "domain": "life_sciences",
+  "website": "http://lod.geospecies.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lod.geospecies.org/",
+  "triples": 2163922,
+  "contact_point": {
+    "name": "Peter J. DeVries, UW - Madison <http://people.geospecies.org/people/Peter_J_DeVries/>",
+    "email": "pdevries@wisc.edu"
+  },
+  "keywords": [
+    "bio",
+    "biodiversity",
+    "ckanupload.esw.200910",
+    "deref-vocab",
+    "format-bibo",
+    "format-cc",
+    "format-dbp",
+    "format-dc",
+    "format-doap",
+    "format-foaf",
+    "format-geo",
+    "format-geonames",
+    "format-geospecies",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-txn",
+    "format-umbel",
+    "format-uniprot",
+    "license-metadata",
+    "lifesciences",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 30404
+    },
+    {
+      "target": "bio2rdf-uniprot-taxonomy",
+      "value": 37809
+    },
+    {
+      "target": "dbpedia",
+      "value": 11805
+    },
+    {
+      "target": "freebase",
+      "value": 171
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 298476
+    },
+    {
+      "target": "opencyc",
+      "value": 24
+    },
+    {
+      "target": "umbel",
+      "value": 2
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://lod.geospecies.org/sitemap.xml.gz"
+    },
+    {
+      "title": "GeoSpecies Knowledge Base Dataset Description",
+      "description": "voiD description",
+      "access_url": "http://lod.geospecies.org/ontology/void.rdf"
+    },
+    {
+      "title": "GeoSpecies Ontology",
+      "description": "Ontology",
+      "access_url": "http://lod.geospecies.org/ontology/geospecies.owl"
+    },
+    {
+      "description": "Ontology Document",
+      "access_url": "http://lod.geospecies.org/ontology/doc/index.html"
+    },
+    {
+      "description": "A crawl of the entire site's data",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lod.geospecies.org/geospecies.rdf.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "About: Species Puma concolor, Family Felidae",
+      "description": "Link to an example data item",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.geospecies.org/ses/v6n7p.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://lsd.taxonconcept.org/sparql"
+    }
+  ]
+}

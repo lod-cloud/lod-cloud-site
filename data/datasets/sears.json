@@ -1,0 +1,41 @@
+{
+  "identifier": "sears",
+  "title": "sears.com",
+  "description": {
+    "en": "Sears (sears.com) has GoodRelations markup in all > 15,000,000 item pages"
+  },
+  "domain": "social_networking",
+  "website": "http://www.sears.com/",
+  "triples": 75000000,
+  "contact_point": {
+    "name": "Sears Brands, LLC"
+  },
+  "keywords": [
+    "ecommerce",
+    "format-gr",
+    "format-po",
+    "lod",
+    "lodcloud-diagram-2011-09-19"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 100
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://www.sears.com/Sitemap_Index.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Ty Pennington Mayfield 4 pc. Deep Seating Set",
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.sears.com/shc/s/p_10153_12605_07180844000P"
+    }
+  ]
+}

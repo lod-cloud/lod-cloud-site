@@ -1,0 +1,71 @@
+{
+  "identifier": "nlr-dataset-mod",
+  "title": "National Library of Russia BibCore Dataset",
+  "description": {
+    "en": "Dataset includes initial set of interlinked authority records at work, subject heading and personal name level, which is supposed to be expanded in future to represent catalogue of the National Library of Russia."
+  },
+  "triples": 2372,
+  "contact_point": {
+    "name": "National RUSMARC Service",
+    "email": "vskv3@mail.ru"
+  },
+  "keywords": [
+    "Authority Data",
+    "Library catalogue",
+    "National Library of Russia",
+    "Personal Names",
+    "Subject Headings",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "Авторитетные данные",
+    "Российская национальная библиотека"
+  ],
+  "other_download": [
+    {
+      "title": "National Library of Russia BibCore Dataset",
+      "description": "Dataset includes initial set of interlinked authority records at work, subject heading and personal name level, which is supposed to be expanded in future to represent catalogue of the National Library of Russia.",
+      "access_url": "http://www.rusmarc.ru/RDF/nlr-bibcore.html"
+    },
+    {
+      "title": "VoID Description of Dataset",
+      "description": "VoID Description of Dataset",
+      "access_url": "http://www.rusmarc.ru/RDF/DatasetVoID.rdf"
+    },
+    {
+      "title": "Entire List of downloads",
+      "description": "Download page with list of downloads.",
+      "media_type": "TXT",
+      "access_url": "http://www.rusmarc.ru/RDF/entirelist"
+    },
+    {
+      "title": "Entire List of downloads",
+      "description": "Download page with list of downloads.",
+      "media_type": "TXT",
+      "access_url": "http://www.rusmarc.ru/RDF/EntireList.txt"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of resource",
+      "description": "Example of Description at Work level",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.rusmarc.ru/RDF/Work/title5.rdf#1"
+    },
+    {
+      "title": "Example of resource 2",
+      "description": "Subject Heading Description Example",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.rusmarc.ru/RDF/SubjHead/nlr66147783.rdf#concept"
+    },
+    {
+      "title": "Example of resource 3",
+      "description": "Personal Name Description Example",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.rusmarc.ru/RDF/PersName/nlr771515.rdf#person"
+    }
+  ]
+}

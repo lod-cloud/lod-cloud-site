@@ -1,0 +1,36 @@
+{
+  "identifier": "makg",
+  "title": "Microsoft Academic Knowledge Graph",
+  "description": {
+    "en": "We provide the Microsoft Academic Knowledge Graph (MAKG), a large RDF data set with over eight billion triples with information about scientific publications and related entities, such as authors, institutions, journals, and fields of study. The data set is based on the Microsoft Academic Graph and licensed under the Open Data Attributions license. Furthermore, we provide entity embeddings for all 210M represented scientific papers."
+  },
+  "domain": "publications",
+  "website": "http://ma-graph.org",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Michael Färber",
+    "email": "michael.faerber@kit.edu"
+  },
+  "keywords": [
+    "scholarly data",
+    "papers",
+    "publications",
+    "authors",
+    "venues",
+    "academia",
+    "bibliometrics"
+  ],
+  "full_download": [
+    {
+      "title": "MAKG dump",
+      "download_url": "https://zenodo.org/record/3936556"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://ma-graph.org/sparql"
+    }
+  ]
+}

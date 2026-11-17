@@ -1,0 +1,110 @@
+{
+  "identifier": "hebis-bibliographic-resources",
+  "title": "HeBIS - Bibliographic Resources of the Library Union Catalogues of Hessen and parts of the Rhineland Palatinate",
+  "description": {
+    "en": "This site contains links to metadata about all types of publications (print media, E-books, E-journals,online resources) originating from the central union database of HeBIS. HeBIS - The Hessische BibliotheksInformationsSystem is one of the six regional library unions in Germany. It is the electronic information and service union of academic libraries in Hessen and parts of the Rhineland Palatinate. The metadata was catalogued by 27 independent cataloging libraries/library systems which are active within the union.\r\n\r\nAdditional information about the producer of this data can be found here:\r\n\r\nhttp://www.hebis.de/eng/englisch_index.php"
+  },
+  "domain": "publications",
+  "website": "http://www.hebis.de",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://lod.hebis.de/resource/",
+  "triples": 267038676,
+  "contact_point": {
+    "name": "Hessisches BibliotheksInformationsSystem (HeBIS)",
+    "email": "striffler@hebis.uni-frankfurt.de"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-bibo",
+    "format-dc",
+    "format-dcterms",
+    "format-frbr",
+    "format-owl",
+    "format-rdf",
+    "format-wdrs",
+    "frankfurt",
+    "germany",
+    "hesse",
+    "hessen",
+    "library",
+    "license-metadata",
+    "lld",
+    "lod",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "university"
+  ],
+  "links": [
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 15315081
+    }
+  ],
+  "other_download": [
+    {
+      "title": "voID description",
+      "description": "voID description of HeBIS-Bibliographic-Resources",
+      "media_type": "meta/void",
+      "access_url": "http://lod.hebis.de/lod/void.ttl"
+    },
+    {
+      "title": "Download Page Containing all 6 Parts of the HeBIS Library Union Catalogue",
+      "description": "Download page for all 6 parts of the HeBIS Library Union Catalogue in RDF/XML",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.hebis.de/de/1ueber_uns/projekte/lod/lod_download.php"
+    },
+    {
+      "title": "Download hebis-00000001-05051126.rdf.gz",
+      "description": "This is the 1. part of a dump of the HeBIS central union database containing metadata about all types of publication (print media, E-books, E-journals,online resources). The 1. part contains metadata belonging to 2491960 titles having IDs (IPNs) in the range from 00000001 to 05051126.",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-07-17T084118/hebis-00000001-05051126.rdf.gz"
+    },
+    {
+      "title": "Download hebis-05051128-10174115.rdf.gz",
+      "description": "This is the 2. part of a dump of the HeBIS central union database containing metadata about all types of publication (print media, E-books, E-journals,online resources). The 2. part contains metadata belonging to 3421372 titles having IDs (IPNs) in the range from 05051128 to 10174115.",
+      "media_type": "RDF",
+      "access_url": "http://lod.hebis.de/lod/hebis-05051128-10174115.rdf.gz"
+    },
+    {
+      "title": "Download hebis-10174116-13050073.rdf.gz",
+      "description": "This is the 3. part of a dump of the HeBIS central union database containing metadata about all types of publication (print media, E-books, E-journals,online resources). The 3. part contains metadata belonging to 2239444 titles having IDs (IPNs) in the range from 10174116 to 13050073.",
+      "media_type": "RDF",
+      "access_url": "http://lod.hebis.de/lod/hebis-10174116-13050073.rdf.gz"
+    },
+    {
+      "title": "Download hebis-13050074-21257739.rdf.gz",
+      "description": "This is the 4. part of a dump of the HeBIS central union database containing metadata about all types of publication (print media, E-books, E-journals,online resources). The 4. part contains metadata belonging to 3127844 titles having IDs (IPNs) in the range from 13050074 to 21257739.",
+      "media_type": "RDF",
+      "access_url": "http://lod.hebis.de/lod/hebis-13050074-21257739.rdf.gz"
+    },
+    {
+      "title": "Download hebis-21257740-26887667.rdf.gz",
+      "description": "This is the 5. part of a dump of the HeBIS central union database containing metadata about all types of publication (print media, E-books, E-journals,online resources). The 5. part contains metadata belonging to 3127844 titles having IDs (IPNs) in the range from 21257740 to 26887667.",
+      "media_type": "RDF",
+      "access_url": "http://lod.hebis.de/lod/hebis-21257740-26887667.rdf.gz"
+    },
+    {
+      "title": "Download hebis-26887668-29873805.rdf.gz",
+      "description": "This is the 6. part and last part of a dump of the HeBIS central union database containing metadata about all types of publication (print media, E-books, E-journals,online resources). The 6. part contains metadata belonging to 1870582 titles having IDs (IPNs) in the range from 26887668 to 29873805.",
+      "media_type": "RDF",
+      "access_url": "http://lod.hebis.de/lod/hebis-26887668-29873805.rdf.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "example resource",
+      "description": "example resource http://lod.hebis.de/resource/06073998 in rdf/xml format",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-07-18T131849/06073998.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "HeBIS SPARQL-Endpoint",
+      "description": "This SPARQL-Endpoint enables running queries against the central union database of HeBIS, which contains more than 17 million records as linked open data for all types of publication (print media, E-books, E-journals,online resources).",
+      "access_url": "http://lod.hebis.de/sparql"
+    }
+  ]
+}

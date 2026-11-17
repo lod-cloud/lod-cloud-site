@@ -1,0 +1,19 @@
+{
+  "identifier": "http:www.atif-sajjad.comSemster-Project#",
+  "title": "Pakistan Stock Market Data",
+  "description": {
+    "en": "Pakistan Stock Market Data"
+  },
+  "domain": "user_generated",
+  "website": "http://www.atif-sajjad.com/Semster-Project#",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://www.atif-sajjad.com/Semster-Project#",
+  "triples": 0,
+  "contact_point": {
+    "name": "Muhammad Atif Saeed",
+    "email": "atifsaeedarts@gmail.com"
+  },
+  "keywords": [
+    "Pakistan Stock Market"
+  ]
+}

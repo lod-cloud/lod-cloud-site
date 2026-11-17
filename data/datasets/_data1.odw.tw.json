@@ -1,0 +1,15 @@
+{
+  "identifier": "_data1.odw.tw",
+  "title": "土地利用",
+  "description": {
+    "en": "包含2001年湖北丹江口、咸宁及秭归三个地区的土地利用图及属性表。项目来源：国家重点基础研究项目“中国主要水蚀区土壤侵蚀过程与调控研究”。用于研究水土流失规律，服务对象为从事水土流失研究的学生和科研人员。数据收集时间为2009年，数据采集地点湖北咸宁、丹江口、秭归，经度最大115.67；最小109.72。 纬度最大32.55；最小29.85 采用krasovsky_1940_albers投影"
+  },
+  "domain": "geography",
+  "website": "http://baidu",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "lilll",
+    "email": "5722@qq.com"
+  }
+}

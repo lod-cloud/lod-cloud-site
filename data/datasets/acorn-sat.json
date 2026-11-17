@@ -1,0 +1,104 @@
+{
+  "identifier": "acorn-sat",
+  "title": "Australian Climate Observations Reference Network - Surface Air Temperature Dataset",
+  "description": {
+    "en": "ACORN-SAT, the Australian Climate Observations Reference Network - Surface Air Temperature data set, is a homogenized daily maximum and minimum temperature data set containing data from 112 locations across Australia extending from 1910 to the present."
+  },
+  "domain": "government",
+  "website": "http://lab.environment.data.gov.au",
+  "triples": 61406503,
+  "contact_point": {
+    "name": "Armin Haller",
+    "email": "armin.haller@csiro.au"
+  },
+  "keywords": [
+    "australia",
+    "bureau-of-meteorology",
+    "climate",
+    "deref-vocab",
+    "format-dct",
+    "format-foaf",
+    "format-geo",
+    "format-qb",
+    "format-skos",
+    "format-ssn",
+    "format-time",
+    "government",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "temperature"
+  ],
+  "links": [
+    {
+      "target": "geonames",
+      "value": 583
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Australian Climate Observations Reference Network - Surface Air Temperature Dataset",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn.rdf"
+    },
+    {
+      "title": "All Slices Data dump",
+      "access_url": "http://lab.environment.data.gov.au/dumps/release/all_slices.zip"
+    },
+    {
+      "title": "All Observations Data dump",
+      "access_url": "http://lab.environment.data.gov.au/dumps/release/observations.zip"
+    },
+    {
+      "title": "ACORN-SAT observations ontology (RDF/XML)",
+      "access_url": "http://lab.environment.data.gov.au/def/acorn/sat.rdf"
+    },
+    {
+      "title": "ACORN-SAT series ontology (RDF/XML)",
+      "access_url": "http://lab.environment.data.gov.au/def/acorn/time-series.rdf"
+    },
+    {
+      "title": "ACORN-SAT climate ontology (RDF/XML)",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn/climate.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Data Cube Yearly Slices of Observations (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.rdf"
+    },
+    {
+      "title": "Data Cube Yearly Slices of Observations (TTL)",
+      "media_type": "example/turtle",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.ttl"
+    },
+    {
+      "title": "Data Cube Yearly Slices of Observations (HTML)",
+      "media_type": "example/html",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year.html"
+    },
+    {
+      "title": "Data Cube Monthly Slices of Observations (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.rdf"
+    },
+    {
+      "title": "Data Cube Monthly Slices of Observations (TTL)",
+      "media_type": "example/turtle",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.ttl"
+    },
+    {
+      "title": "Data Cube Monthly Slices of Observations (HTML)",
+      "media_type": "example/html",
+      "access_url": "http://lab.environment.data.gov.au/data/acorn/climate/slice/station/year/month.html"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql endpoint",
+      "description": "Sparql endpoint",
+      "access_url": "http://lab.environment.data.gov.au/sparql"
+    }
+  ]
+}

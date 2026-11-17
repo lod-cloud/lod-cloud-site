@@ -1,0 +1,167 @@
+{
+  "identifier": "bioportal-jerm",
+  "title": "SysMO-JERM",
+  "description": {
+    "en": "an ontology to describe the entities and relationships in SysMO-DB, a Systems Biology environment for the sharing and exchange of data and models."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1488",
+  "triples": 1533,
+  "contact_point": {
+    "name": "Katy Wolstencroft"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 25
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 15
+    },
+    {
+      "target": "bioportal-bro_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 51
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 11
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 44
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 16
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 34
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 12
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 18
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 11
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 11
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 15
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 40
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 71
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 14
+    },
+    {
+      "target": "bioportal-mo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ms",
+      "value": 15
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 49
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 135
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 42
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 25
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 34
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 19
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 18
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 43
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 16
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 12
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46047?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "identifier": "bioportal-rex",
+  "title": "Physico-chemical process",
+  "description": {
+    "en": "REX is an ontology of physico-chemical processes, i.e. physico-chemical changes occurring in course of time. REX includes both microscopic processes (involving molecular entities or subatomic particles) and macroscopic processes. Some biochemical processes from Gene Ontology (GO Biological process) can be described as instances of REX."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1043",
+  "triples": 5046,
+  "contact_point": {
+    "name": "Chebi Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bao",
+      "value": 19
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 42
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 10
+    },
+    {
+      "target": "bioportal-iev",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 15
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 120
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 10
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 48
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 60
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 15
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 53
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45248?apikey=BP_API_KEY"
+    }
+  ]
+}

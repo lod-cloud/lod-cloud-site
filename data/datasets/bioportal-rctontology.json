@@ -1,0 +1,75 @@
+{
+  "identifier": "bioportal-rctontology",
+  "title": "Randomized Controlled Trials (RCT) Ontology",
+  "description": {
+    "en": "We developed and evaluated an ontology\nspecifically for Randomized Controlled Trials in order to facilitate the production of systematic reviews and metaanalysis."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1676",
+  "triples": 2091,
+  "contact_point": {
+    "name": "Amrapali Zaveri"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 16
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 17
+    },
+    {
+      "target": "bioportal-diagnosticont",
+      "value": 77
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 10
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 52
+    },
+    {
+      "target": "bioportal-nonrctontology",
+      "value": 133
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 23
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46410?apikey=BP_API_KEY"
+    }
+  ]
+}

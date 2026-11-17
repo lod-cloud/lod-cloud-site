@@ -1,0 +1,87 @@
+{
+  "identifier": "bioportal-cmo",
+  "title": "Clinical Measurement Ontology",
+  "description": {
+    "en": "The Clinical Measurement Ontology is designed to be used to standardize morphological and physiological measurement records generated from clinical and model organism research and health programs"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1583",
+  "triples": 7026,
+  "contact_point": {
+    "name": "Mary Shimoyama"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 15
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 14
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 68
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 37
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 84
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 27
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 35
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 77
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 260
+    },
+    {
+      "target": "bioportal-vt",
+      "value": 31
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47157?apikey=BP_API_KEY"
+    }
+  ]
+}

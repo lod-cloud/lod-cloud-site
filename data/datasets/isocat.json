@@ -1,0 +1,57 @@
+{
+  "identifier": "isocat",
+  "title": "ISOcat",
+  "description": {
+    "en": "ISO 12620 provides a framework for defining data categories compliant with the ISO/IEC 11179 family of standards. According to this model, each data category is assigned a unique administrative identifier, together with information on the status or decision-making process associated with the data category. In addition, data category specifications in the DCR contain linguistic descriptions, such as data category definitions, statements of associated value domains, and examples. Data category specifications can be associated with a variety of data element names and with language-specific versions of definitions, names, value domains and other attributes.\r\n\r\nThe RDF dumps of different profiles are dynamically generated at query time over the https://catalog.clarin.eu/isocat/rest/profile/$x.rdf with $x being the profile number.\r\n\r\nTriple counts on May 16, 2014:\r\n3.rdf 2647\r\n5.rdf 12358\r\n6.rdf 4492\r\n7.rdf 366\r\n10.rdf 2629\r\n11.rdf 712\r\n13.rdf 58\r\n14.rdf 572\r\n15.rdf 131\r\n16.rdf 76\r\n17.rdf 149\r\n19.rdf 383\r\n20.rdf 561\r\n22.rdf 6"
+  },
+  "domain": "linguistics",
+  "website": "http://www.isocat.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 25000,
+  "contact_point": {
+    "name": "S.E. Wright, M. Kemps-Snijders, M.A. Windhouwer",
+    "email": "isocat@mpi.nl"
+  },
+  "keywords": [
+    "crossdomain",
+    "isocat",
+    "linguistics",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "gold",
+      "value": 503
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Data category (DC-1333 \"noun\", Example)",
+      "description": "Part of speech assigned to words that designate a person, place, action, property or thing etc. that may have morphosyntactic properties like number or case and syntactic combination like modification by an adjective or determination by a determiner",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.isocat.org/datcat/DC-1333"
+    },
+    {
+      "title": "ISOcat data categories (rest)",
+      "description": "html, cat, dcif, rdf files",
+      "media_type": "text/html;charset=ISO-8859-1",
+      "access_url": "http://www.isocat.org/rest/dc/"
+    },
+    {
+      "title": "ISOcat links",
+      "description": "owl:sameAs, rdfs:isDefinedBy as generated from http://www.isocat.org/rest/dc/*.cat",
+      "media_type": "text/ttl",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2015-09-11T20:00:12.605Z/isocat-links.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Data category RDF example",
+      "description": "A sample resource describing a category for the part of speech tag \"noun\"",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.isocat.org/rest/dc/1333.rdf"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "http:www.semanticweb.orgmcaontologies20188untitled-ontology-47",
+  "title": "Indian Biodiversity",
+  "description": {
+    "en": "Indian Biodiversity"
+  },
+  "domain": "life_sciences",
+  "website": "http://www.semanticweb.org/mca/ontologies/2018/8/untitled-ontology-47",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Vishal Lama",
+    "email": "iamvishallama@gmail.com"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "identifier": "statusnet-glou-org",
+  "title": "statusnet-glou-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://glou.org"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 2
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://statusnet.glou.org/arnaud/foaf"
+    }
+  ]
+}

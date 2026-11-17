@@ -1,0 +1,70 @@
+{
+  "identifier": "apertium-rdf-fr-ca",
+  "title": "Apertium RDF FR-CA",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary FR-CA. The original dataset (in LMF) comes from http://hdl.handle.net/10230/17097 . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 152002,
+  "contact_point": {
+    "name": "Jimmy O'Reagan; Eleka Ingenieritza Linguistikoa S.L.; Universitat d'Alacant. Grup Transducens; Prompsit Language Engineering S.L.; Universitat Pompeu Fabra. Institut Universitari de Lingüiística Aplicada (IULA)"
+  },
+  "keywords": [
+    "Apertium",
+    "Catalan",
+    "French",
+    "bilingual",
+    "dictionary",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 13361
+    },
+    {
+      "target": "lexinfo",
+      "value": 12355
+    }
+  ],
+  "other_download": [
+    {
+      "title": "French lexicon URI",
+      "description": "This online lexicon not only contains the FR lexical entries from the FR-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in FR coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconFR"
+    },
+    {
+      "title": "Catalan lexicon URI",
+      "description": "This online lexicon not only contains the CA lexical entries from the FR-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in CA coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconCA"
+    },
+    {
+      "title": "FR-CA translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetFR-CA"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-fr-ca.rdf with licence and provenance.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-06T17:03:49.398Z/apertium-fr-ca-dataset-metadata.rdf"
+    },
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (FR, CA) and the Translation Set FR_CA, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-07T15:13:23.941Z/apertium-fr-ca-rdf.zip"
+    }
+  ]
+}

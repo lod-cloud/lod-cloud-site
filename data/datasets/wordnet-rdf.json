@@ -1,0 +1,43 @@
+{
+  "identifier": "wordnet-rdf",
+  "title": "WordNet-RDF",
+  "description": {
+    "en": "RDF version of WordNet from Princeton"
+  },
+  "domain": "linguistics",
+  "triples": 8903374,
+  "contact_point": {
+    "name": "Christiane Fellbaum",
+    "email": "fellbaum@princeton.edu"
+  },
+  "keywords": [
+    "lexicon",
+    "linguistics"
+  ],
+  "links": [
+    {
+      "target": "lemonuby",
+      "value": 475503
+    },
+    {
+      "target": "lexvo",
+      "value": 458907
+    },
+    {
+      "target": "verbnet",
+      "value": 26353
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 99927
+    }
+  ],
+  "other_download": [
+    {
+      "title": "WordNet 3.1 RDF data dump",
+      "description": "The complete data dump",
+      "media_type": "application/octet-stream",
+      "access_url": "http://wordnet-rdf.princeton.edu/wn31.nt.gz"
+    }
+  ]
+}

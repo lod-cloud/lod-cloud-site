@@ -1,0 +1,160 @@
+{
+  "identifier": "bio2rdf-omim",
+  "title": "Bio2RDF::Omim",
+  "description": {
+    "en": "OMIM is a comprehensive, authoritative, and timely compendium of human genes and genetic phenotypes. The full-text, referenced overviews in OMIM contain information on all known mendelian disorders and over 12,000 genes. OMIM focuses on the relationship between phenotype and genotype."
+  },
+  "domain": "life_sciences",
+  "website": "http://omim.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/omim:",
+  "triples": 7980621,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-dbsnp",
+      "value": 8501
+    },
+    {
+      "target": "bio2rdf-do",
+      "value": 902
+    },
+    {
+      "target": "bio2rdf-eom",
+      "value": 45
+    },
+    {
+      "target": "bio2rdf-gi",
+      "value": 576766
+    },
+    {
+      "target": "bio2rdf-hp",
+      "value": 4835
+    },
+    {
+      "target": "bio2rdf-hprd",
+      "value": 12915
+    },
+    {
+      "target": "bio2rdf-icd10",
+      "value": 1022
+    },
+    {
+      "target": "bio2rdf-icd9",
+      "value": 820
+    },
+    {
+      "target": "bio2rdf-img",
+      "value": 45
+    },
+    {
+      "target": "bio2rdf-mgi",
+      "value": 12869
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 15738
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 95397
+    },
+    {
+      "target": "bio2rdf-ordr",
+      "value": 2954
+    },
+    {
+      "target": "bio2rdf-orphanet",
+      "value": 7026
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 121566
+    },
+    {
+      "target": "bio2rdf-snomedct",
+      "value": 4833
+    },
+    {
+      "target": "bio2rdf-umls",
+      "value": 29602
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download omim.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/omim/omim.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/omim/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/omim/omim.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/omim/bio2rdf-omim.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/omim/omim.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/omim/bio2rdf_omim_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/omim/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/omim:603903"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://omim.bio2rdf.org/sparql"
+    }
+  ]
+}

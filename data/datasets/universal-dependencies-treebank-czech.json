@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-czech",
+  "title": "Universal Dependencies Treebank Czech",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Czech treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Czech",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 1503732,
+  "contact_point": {
+    "name": "Zeman, Daniel; Hajič, Jan",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Czech Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Czech/archive/master.zip"
+    },
+    {
+      "title": "UD_Czech RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/15e61cac-1f5c-4998-85fa-940e50fbf59e/resource/584cf002-f7e1-4d40-a90d-f028e47d44b8/download/udczech.rdf"
+    }
+  ]
+}

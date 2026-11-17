@@ -1,0 +1,73 @@
+{
+  "identifier": "socialsemweb-thesaurus",
+  "title": "Social Semantic Web Thesaurus",
+  "description": {
+    "en": "People, organisations, applications and technologies etc. relevant for the area of the Social Semantic Web"
+  },
+  "domain": "social_networking",
+  "website": "http://vocabulary.semantic-web.at/PoolParty/wiki/semweb",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://vocabulary.semantic-web.at/semweb/",
+  "triples": 20000,
+  "contact_point": {
+    "name": "Semantic Web Company",
+    "email": "office@semantic-web.at"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-owl",
+    "format-skos",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "people",
+    "published-by-producer",
+    "research",
+    "semanticweb",
+    "socialweb",
+    "technology",
+    "thesaurus",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 300
+    },
+    {
+      "target": "freebase",
+      "value": 200
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 100
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://ckan.net/storage/f/file/80d5f096-e1ad-489f-9ff4-793e6f5f04d2"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID",
+      "access_url": "http://vocabulary.semantic-web.at/semweb.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://vocabulary.semantic-web.at/semweb/253"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://vocabulary.semantic-web.at/PoolParty/sparql/semweb"
+    }
+  ]
+}

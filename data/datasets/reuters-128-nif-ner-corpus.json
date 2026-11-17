@@ -1,0 +1,50 @@
+{
+  "identifier": "reuters-128-nif-ner-corpus",
+  "title": "Reuters-128 NIF NER Corpus",
+  "description": {
+    "en": "This English corpus is based on the well known Reuters-21578 corpus which contains economic news articles. In particular, we chose 128 articles containing at least one NE. Compared to the News-100 corpus the documents of Reuters-128 are significantly shorter and thus carry a smaller context.\r\n\r\nTo create the annotation of NEs with URIs, we implemented a supporting judgement tool.\r\n.\r\nThe input for the tool was a subset of more than 150 Reuters-21578 news articles sampled randomly. First, FOX (Ngonga Ngomo et al., 2011) was used for recognizing a first set of NEs. This reduced the amount of work to a feasible portion regarding the size of this dataset. Afterwards, the domain experts corrected the mistakes of FOX manually using the annotation tool. Therefore, the tool highlighted the entities in the texts and added initial URI candidates via simple string matching algorithms. Two scientists determined the correct URI for each named entity manually with an initial voter agreement of 74%. This low\r\ninitial agreement rate hints towards the difficulty of the disambiguation task.\r\nIn some cases judges did not agree initially, but came to an agreement shortly after reviewing the cases. While annotating, we left out ticker symbols of companies (e.g., GOOG for Google Inc.), abbreviations and job descriptions be-\r\ncause those are always preceded by the full company name respectively a person’s name."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 6967,
+  "contact_point": {
+    "name": "Ricardo Usbeck",
+    "email": "ricardo.usbeck@googlemail.com"
+  },
+  "keywords": [
+    "corpus",
+    "evaluation",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "ner",
+    "nif",
+    "rdf",
+    "training"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 650
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Complete Reuters-128 Corpus",
+      "description": "Full corpus in single Turtle format file",
+      "access_url": "https://raw.githubusercontent.com/AKSW/n3-collection/master/Reuters-128.ttl"
+    },
+    {
+      "title": "Documentation paper",
+      "description": "Title: N3 - A Collection of Datasets for Named Entity Recognition and Disambiguation in the NLP Interchange Format \r\nAuthors: Michael Röder, Ricardo Usbeck, Sebastian Hellmann, Daniel Gerber und Andreas Both \r\nIn: The 9th edition of the Language Resources and Evaluation Conference, 26-31 May, Reykjavik, Iceland",
+      "media_type": "application/pdf",
+      "access_url": "http://svn.aksw.org/papers/2014/LREC_N3NIFNERNED/public.pdf"
+    },
+    {
+      "title": "DataID",
+      "description": "Metadata description of the corpus",
+      "media_type": "text/turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-10-29T16:24:39.177Z/dataid.ttl"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "identifier": "ldt@library",
+  "title": "Linked Open Data Taiwan @ Library",
+  "description": {
+    "en": "LDT@Library provides human readable and machine access to broadly used controlled vocabularies and ontologies between libraries in Taiwan including \"List of Chinese Subject Terms\", \"New Classification Scheme For Chinese Libraries Tables\", and Chinese Names and Title Authorities."
+  },
+  "domain": "publications",
+  "website": "https://ld.ncl.edu.tw/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://ld.ncl.edu.tw/",
+  "triples": 22308421,
+  "contact_point": {
+    "name": "Hsuan-I Wu",
+    "email": "hsuaniwu@ntu.edu.tw"
+  },
+  "keywords": [
+    "taiwan",
+    "ntu",
+    "ntulibrary",
+    "ncl",
+    "ldt@l",
+    "national taiwan university",
+    "national taiwan university library",
+    "national central library",
+    "linked open data @ library taiwan",
+    "linked open data @ library",
+    "library",
+    "bibliography",
+    "catalogue",
+    "name authority",
+    "subject term",
+    "classification",
+    "subjects",
+    "authority"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 1798
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Name Authority",
+      "description": "LDT@Library Name Authority RDF Download",
+      "media_type": "application/zip",
+      "download_url": "https://ld.ncl.edu.tw/download/Name_RDF_20230502.zip"
+    },
+    {
+      "title": "Subject Terms Authority",
+      "description": "LDT@Library Subject Terms Authority RDF Download",
+      "media_type": "application/zip",
+      "download_url": "https://ld.ncl.edu.tw/download/Subject_RDF_20230502.zip"
+    },
+    {
+      "title": "Classification Authority",
+      "description": "LDT@Library Classification Authority TTL Download",
+      "media_type": "application/zip",
+      "download_url": "https://ld.ncl.edu.tw/download/Classification_RDF_20230502.zip"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dataset Download Page",
+      "description": "Dataset Download Page",
+      "access_url": "https://ld.ncl.edu.tw/download.jsp"
+    },
+    {
+      "title": "API Access",
+      "description": "SPARQL Endpoint and OpenRefine Reconciliation Page",
+      "access_url": "https://ld.ncl.edu.tw/graph.jsp"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Person URI",
+      "description": "Lee, Ang URI",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/authority/332805"
+    },
+    {
+      "title": "Example Person RDFXML",
+      "description": "Lee, Ang RDFXML",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/authority/332805.rdfxml.xml"
+    },
+    {
+      "title": "Example Person Turtle",
+      "description": "Lee, Ang Turtle",
+      "media_type": "application/x-turtle;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/authority/332805.ttl"
+    },
+    {
+      "title": "Example Person N-Triple",
+      "description": "Lee, Ang N-Triple",
+      "media_type": "text/plain;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/authority/332805.nt"
+    },
+    {
+      "title": "Example Person JSONLD",
+      "description": "Lee, Ang JSONLD",
+      "media_type": "application/ld+json;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/authority/332805.jsonld"
+    },
+    {
+      "title": "Example Subject URI",
+      "description": "Example Subject URI",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/subject/89269"
+    },
+    {
+      "title": "Example Subject RDFXML",
+      "description": "Example Subject RDFXML",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/subject/89269.rdfxml.xml"
+    },
+    {
+      "title": "Example Subject Turtle",
+      "description": "Example Subject Turtle",
+      "media_type": "application/x-turtle;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/subject/89269.ttl"
+    },
+    {
+      "title": "Example Subject N-Triples",
+      "description": "Example Subject N-Triples",
+      "media_type": "text/plain;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/subject/89269.nt"
+    },
+    {
+      "title": "Example Subject JSONLD",
+      "description": "Example Subject JSONLD",
+      "media_type": "application/ld+json;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/subject/89269.jsonld"
+    },
+    {
+      "title": "Example Classification URI",
+      "description": "Example Classification URI",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://ld.ncl.edu.tw/classification/136835"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "https://ld.ncl.edu.tw/graph.jsp"
+    }
+  ]
+}

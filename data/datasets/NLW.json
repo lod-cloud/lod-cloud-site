@@ -1,0 +1,43 @@
+{
+  "identifier": "NLW",
+  "title": "Neulateinische Wortliste in LiLa",
+  "description": {
+    "en": "The Neolatin Wordlist (Neulateinische Wortliste; NLW) is a lexical resource linked to the LiLa Knowledge Base that collects entries from Latin texts written in Europe between 1300 and 1600. The wordlist consists of circa 22000 lemmas. The data published in LiLa were provided by the author Johann Ramminger."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/NLW/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/NLW",
+  "triples": 305285,
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "NeoLatin"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 13477
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Neulateinische Wortliste",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization). \nWork in progress",
+      "download_url": "https://github.com/CIRCSE/NeulateinischeWortliste"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

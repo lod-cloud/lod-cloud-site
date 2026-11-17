@@ -1,0 +1,39 @@
+{
+  "identifier": "sli_galnet_rdf",
+  "title": "SLI Galnet, the Galician wordnet, at version 3.0.26,  in RDF format",
+  "description": {
+    "en": "SLI Galnet, the Galician wordnet, at version 3.0.26 (http://sli.uvigo.gal/galnet) in RDF (Resource Description Framework) format. This distribution includes linked multilingual lexical data for Galician, Catalan, Basque, Spanish, Portuguese and English, and integrates ontological knowledge from WordNet Domains, Adimen-SUMO, Top Ontology and Galnet Epinonyms"
+  },
+  "website": "http://sli.uvigo.gal/download/SLI_Galnet/SLI_Galnet_RDF_3.0.26.tar.gz",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 22478245,
+  "contact_point": {
+    "name": "Miguel Anxo Solla Portela",
+    "email": "miguelsolla@uvigo.es"
+  },
+  "keywords": [
+    "lexic",
+    "linguistics",
+    "multilingual",
+    "semantics",
+    "wordnet"
+  ],
+  "links": [
+    {
+      "target": "lemonuby",
+      "value": 665226
+    },
+    {
+      "target": "wordnet-rdf",
+      "value": 665190
+    }
+  ],
+  "other_download": [
+    {
+      "title": "SLI_Galnet_RDF.3.0.26",
+      "description": "SLI Galnet, the Galician wordnet, at version 3.0.26 (http://sli.uvigo.gal/galnet) in RDF (Resource Description Framework) format. This distribution includes linked multilingual lexical data for Galician, Catalan, Basque, Spanish, Portuguese and English, and integrates ontological knowledge from WordNet Domains, Adimen-SUMO, Top Ontology and Galnet Epinonyms",
+      "media_type": "application/x-gzip",
+      "access_url": "http://sli.uvigo.gal/download/SLI_Galnet/SLI_Galnet_RDF_3.0.26.tar.gz"
+    }
+  ]
+}

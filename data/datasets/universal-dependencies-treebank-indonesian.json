@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-indonesian",
+  "title": "Universal Dependencies Treebank Indonesian",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Indonesian treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Indonesian",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 121923,
+  "contact_point": {
+    "name": "McDonald, Ryan; Nivre, Joakim",
+    "email": "ryanmcd@google.com joakim.nivre@lingfil.uu.se slav@google.com"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Indonesian Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Indonesian/archive/master.zip"
+    },
+    {
+      "title": "UD_Indonesian RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/84c78a3a-a29e-4f34-b546-1dfaec9a211c/resource/e711acb3-a79c-4a40-a00e-308e79a46886/download/udindonesian.rdf"
+    }
+  ]
+}

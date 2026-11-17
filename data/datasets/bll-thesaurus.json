@@ -1,0 +1,45 @@
+{
+  "identifier": "bll-thesaurus",
+  "title": "Bibliography of Linguistic Literature (BLL) Thesaurus",
+  "description": {
+    "en": "The Thesaurus of the Bibliography of Linguistic Literature (BLL Thesaurus) represents a comprehensive bilingual vocabulary for indexing and documentation of linguistically relevant publications. Since 1971, it has been continuously developed and enhanced. The BLL Thesaurus covers the field in its entirety: language identifiers, levels of language description, sub-domains and sub-disciplines as well as theoretical frameworks.\r\nThe BLL Thesaurus is hosted and maintained by the University Library Johann Christian Senckenberg in Frankfurt, Germany. The dataset is published as RDF/XML, NT and Turtle and licensed under Creative Commons Attribution (CC-BY)."
+  },
+  "website": "http://data.linguistik.de/bll",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "University Library Johann Christian Senckenberg"
+  },
+  "keywords": [
+    "language_description",
+    "linguistic",
+    "linguistics",
+    "llod",
+    "ontology",
+    "terminology",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 262
+    }
+  ],
+  "other_download": [
+    {
+      "title": "BLL Ontology",
+      "description": "The BLL Ontology represents an ontological model of the BLL Thesaurus (subset), manually reorganized and remodeled by rigidly applying OWL/DL constraints.",
+      "access_url": "http://data.linguistik.de/bll/bll-ontology"
+    },
+    {
+      "title": "BLL Thesaurus",
+      "description": "This is a SKOS version of the BLL Thesaurus.",
+      "access_url": "http://data.linguistik.de/bll/bll-thesaurus"
+    },
+    {
+      "title": "Documentation",
+      "description": "Download links for the BLL Thesaurus (SKOS) and its ontological model (BLL Ontology).",
+      "access_url": "http://data.linguistik.de/bll"
+    }
+  ]
+}

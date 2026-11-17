@@ -1,0 +1,44 @@
+{
+  "identifier": "coins-openuplabs",
+  "title": "OpenUpLabs COINS",
+  "description": {
+    "en": "COINS – the Combined On-line Information System – is used by the Treasury to collect financial data from across the public sector to support fiscal management, the production of Parliamentary Supply Estimates and public expenditure statistics, the preparation of Whole of Government Accounts (WGA) and to meet data requirements of the Office for National Statistics (ONS). Up to nine years of data are actively maintained : five historic (or outturn) years, the current year and up to three future (or plan) years depending on the timing of the latest spending review. COINS is a consolidation system rather than an accounts application, so it does not hold details of individual financial transactions by departments.\r\n\r\n\r\npart of package:openuplabs"
+  },
+  "website": "http://data.gov.uk/resources/coins",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "http://finance.data.gov.uk/def/coins/",
+  "triples": 5000000,
+  "contact_point": {
+    "name": "The Stationery Office Limited",
+    "email": "customer.services@tso.co.uk"
+  },
+  "keywords": [
+    "country.uk",
+    "government",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "Schema",
+      "media_type": "meta/rdf+schema",
+      "access_url": "http://source.data.gov.uk/finance/coins/2010-06-14/schema"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://finance.data.gov.uk/def/coins/department-code/des022"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://gov.tso.co.uk/coins/sparql"
+    }
+  ]
+}

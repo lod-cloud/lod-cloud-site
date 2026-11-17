@@ -1,0 +1,35 @@
+{
+  "identifier": "rkb-explorer-roni",
+  "title": "roni",
+  "website": "http://roni.rkbexplorer.com",
+  "triples": 621,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "broken_link",
+    "format-rdf",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected"
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://roni.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://roni.rkbexplorer.com/models/void.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://roni.rkbexplorer.com/sparql"
+    }
+  ]
+}

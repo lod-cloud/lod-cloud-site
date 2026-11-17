@@ -1,0 +1,64 @@
+{
+  "identifier": "qboairbase",
+  "title": "QBOAirbase",
+  "description": {
+    "en": "QBAirbase is a multidimensional provenance-augmented version of the Airbase dataset. AirBase is the European air quality dataset maintained by the EEA (Environmental European Agency). The dataset is publicly available on the Web, and contains air quality monitoring data for 40 European countries. QBOAirbase represents air pollution information as an RDF data cube, which has been linked to the YAGO and DBpedia knowledge bases. QBOAirbase is based on the version 8 of the Airbase dataset."
+  },
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://qweb.cs.aau.dk/airbase/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Luis Galárraga",
+    "email": "galarraga@luisgalarraga.de"
+  },
+  "keywords": [
+    "PROV-O",
+    "QB",
+    "QB4OLAP",
+    "RDF",
+    "air pollution",
+    "data cubes",
+    "europe",
+    "multidimensional data",
+    "provenance",
+    "semantic web"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3596
+    },
+    {
+      "target": "yago",
+      "value": 3596
+    }
+  ],
+  "other_download": [
+    {
+      "title": "QBOAirbase data",
+      "description": "Tarball with a set of n-quad files, one per country.",
+      "access_url": "http://qweb.cs.aau.dk/airbase/qboairbase.tar.gz"
+    },
+    {
+      "title": "QBOAirbase cube structure",
+      "description": "Cube structure in QB4OLAP",
+      "access_url": "http://qweb.cs.aau.dk/airbase/QBOAirbase.ttl"
+    },
+    {
+      "title": "Example queries",
+      "description": "Example queries and their descriptions",
+      "access_url": "http://qweb.cs.aau.dk/airbase/queries/queries.tgz"
+    },
+    {
+      "title": "Provenance diagram",
+      "description": "A full version of the provenance workflow of a triple.",
+      "access_url": "http://qweb.cs.aau.dk/airbase/provenance-extended-large.png"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://lod.cs.aau.dk:8891/sparql"
+    }
+  ]
+}

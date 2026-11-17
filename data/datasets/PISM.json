@@ -1,0 +1,53 @@
+{
+  "identifier": "PISM",
+  "title": "Parallel ice sheet model",
+  "description": {
+    "en": "The Parallel Ice Sheet Model PISM v1.2 is open source and capable of high resolution. It has been widely adopted as a tool for doing science."
+  },
+  "domain": "geography",
+  "website": "https://geomodeling.njnu.edu.cn/modelItem/810ddc8a-3b04-411c-a42c-71445b34fb4f",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "PISM",
+    "Antarctic region data"
+  ],
+  "other_download": [
+    {
+      "title": "Antarctic region data set",
+      "description": "InputData",
+      "access_url": "https://www.semanticscholar.org/paper/An-improved-Antarctic-dataset-for-high-resolution-Brocq-Payne/80300e252e211b08638078cb0cf8f55704e85a49"
+    },
+    {
+      "title": "Remote sensing of ice velocity",
+      "description": "InputData",
+      "access_url": "https://nsidc.org/data/nsidc-0484/versions/2"
+    },
+    {
+      "title": "Applicability of PISM ice sheet model to Amery ice shelf velocity field simulation",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ir5D84hng_y4D11vwp0rrtUM47X1fChuMmQ6RnlxUPwdhRgoezJxjMKPf4E3xIS_O&uniplatform=NZKPT"
+    },
+    {
+      "title": "Parallel ice sheet model code",
+      "description": "ImplementedByAlgorithm",
+      "media_type": "code",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/060cf140-91f2-4598-96eb-c5cc0ee69124"
+    },
+    {
+      "title": "Parallel ice sheet model description document",
+      "description": "DescribedByDocument",
+      "access_url": "http://pism-docs.org/sphinx/"
+    },
+    {
+      "title": "PISM-LakeCC: Implementing an adaptive proglacial lake boundary in an ice sheet model",
+      "description": "DescribedByPaper",
+      "access_url": "https://oceanrep.geomar.de/id/eprint/55496/1/tc-2020-353.pdf"
+    }
+  ]
+}

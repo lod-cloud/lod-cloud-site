@@ -1,0 +1,135 @@
+{
+  "identifier": "bioportal-tads",
+  "title": "Tick gross anatomy",
+  "description": {
+    "en": "The anatomy of the Tick, <i>Families: Ixodidae, Argassidae</i>"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1065",
+  "triples": 9121,
+  "contact_point": {
+    "name": "Daniel Sonenshine"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 44
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 44
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 46
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 22
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 22
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 45
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 16
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 273
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 84
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 29
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 45
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 45
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 18
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 13
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 23
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 17
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 13
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 32
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 42
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 45
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 45
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 17
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 28
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 30
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47059?apikey=BP_API_KEY"
+    }
+  ]
+}

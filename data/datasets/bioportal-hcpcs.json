@@ -1,0 +1,111 @@
+{
+  "identifier": "bioportal-hcpcs",
+  "title": "HCPCS",
+  "description": {
+    "en": "Healthcare Common Procedure Coding System"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1529",
+  "triples": 96969,
+  "contact_point": {
+    "name": "Cynthia Hake"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-rdf",
+    "format-rrf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 10
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 16
+    },
+    {
+      "target": "bioportal-cpt",
+      "value": 108
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 21
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 23
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 41
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 76
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 69
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 58
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 21
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 45
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 21
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 65
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 21
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 76
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 187
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 60
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44454?apikey=BP_API_KEY"
+    }
+  ]
+}

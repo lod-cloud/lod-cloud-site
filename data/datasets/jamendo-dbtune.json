@@ -1,0 +1,64 @@
+{
+  "identifier": "jamendo-dbtune",
+  "title": "DBTune.org Jamendo RDF Server",
+  "description": {
+    "en": "### Description\r\n\r\nThe package holds data from package:jamendo converted to RDF, available under the same license than the raw Jamendo data itself.\r\n\r\nThe package also holds links towards Geonames and Musicbrainz. The links are available under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License] (subject to change).\r\n\r\nThis is part of package:dbtune."
+  },
+  "domain": "media",
+  "website": "http://dbtune.org/jamendo/",
+  "namespace": "http://dbtune.org/jamendo/",
+  "triples": 1100000,
+  "contact_point": {
+    "name": "Yves Raimond",
+    "email": "yves@dbtune.org"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "dbtune",
+    "format-foaf",
+    "format-mo",
+    "format-rdf",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2007-05-01",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "music",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 289
+    },
+    {
+      "target": "zitgist-musicbrainz",
+      "value": 119
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (RDF/XML)",
+      "access_url": "http://moustaki.org/resources/jamendo-rdf.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://dbtune.org/jamendo/artist/1005"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://dbtune.org/jamendo/sparql/"
+    }
+  ]
+}

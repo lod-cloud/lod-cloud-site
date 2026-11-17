@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-catalan",
+  "title": "Universal Dependencies Treebank Catalan",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Catalan treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Catalan",
+  "triples": 530766,
+  "contact_point": {
+    "name": "Martínez Alonso, Héctor; Pascual, Elena; Zeman, Daniel",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Catalan Treebank",
+      "description": "GNU GPL 3.0",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Catalan/archive/master.zip"
+    },
+    {
+      "title": "UD_Catalan RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/cca2b820-e5e9-428e-8454-8df56ddfe403/resource/a94f67fc-a16d-4198-9516-889fe689f6c2/download/udcatalan.rdf"
+    }
+  ]
+}

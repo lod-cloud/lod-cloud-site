@@ -1,0 +1,38 @@
+{
+  "identifier": "lime",
+  "title": "Linguistic Metadata (LIME) vocabulary",
+  "description": {
+    "en": "LIME (LInguistic MEtadata) is a vocabulary for expressing linguistic metadata about linguistic resources and linguistically grounded datasets. \r\n\r\nThe metadata vocabulary has been initially presented at the LDL conference and then contributed as the metadata module of the OntoLex suite of Ontology-Lexicon vocabularies. The last publication about it has been presented at ESWC2015\r\n\r\nMore info about its current status of development, its related scientific publications and software, and future evolutions, can be gathered here: http://art.uniroma2.it/lime/\r\n\r\nThe LIME section of the Final model specification of OntoLex contains the latest version of the vocabulary: https://www.w3.org/community/ontolex/wiki/Final_Model_Specification#Metadata_.28lime.29"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 158,
+  "contact_point": {
+    "name": "Armando Stellato",
+    "email": "stellato@info.uniroma2.it"
+  },
+  "keywords": [
+    "ESWC",
+    "ESWC-2015",
+    "LDL",
+    "LDL-2014",
+    "OntoLex",
+    "linguistic",
+    "llod",
+    "lod",
+    "lrec-2014",
+    "metadata"
+  ],
+  "other_download": [
+    {
+      "title": "description",
+      "description": "description",
+      "media_type": "text/html",
+      "access_url": "http://www.essepuntato.it/lode/owlapi/reasoner/http://art.uniroma2.it/ontologies/lime"
+    },
+    {
+      "title": "ontology",
+      "media_type": "text/plain;charset=UTF-8",
+      "access_url": "http://eelst.cs.unibo.it/apps/LODE/source?url=http://art.uniroma2.it/ontologies/lime"
+    }
+  ]
+}

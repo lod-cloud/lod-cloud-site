@@ -1,0 +1,21 @@
+{
+  "identifier": "EOKP-Datasets",
+  "title": "Earth Observation Knowledge Packages",
+  "description": {
+    "en": "EOKP, as the governance object of the Earth Observation Knowledge Hub (EOKH), is designed for a specific knowledge landscape with organic coupling of domain knowledge, applications, relationships and processes. The EOKH is governed by the Knowledge Package, which is an organic coupling of knowledge, applications, relationships and processes for a specific knowledge field, and is used to present the various elements required in a complete application case in a structured way. This is an organic coupling of domain knowledge, applications, relationships and processes in a specific knowledge landscape, which is used to structurally present the various elements and relationships required in a complete application case. The knowledge in these packages is organised and provided by the knowledge producers, and includes most of the knowledge, resources and methods required to complete an application. These packages are organised and provided by the knowledge producers and contain most of the knowledge, resources and methodologies required to complete an application, enabling other researchers and practitioners to learn and use the knowledge at a low cost. This enables other researchers and domain practitioners to learn and reproduce the knowledge, resources and methodologies at low cost, and then use them in other similar application scenarios. application scenarios.\nThis document shares the RDF file, which contains detailed metadata, and collates some of the knowledge packages for distribution at LOD, a list of which is available at https://github.com/cks1999/EOKP"
+  },
+  "domain": "geography",
+  "website": "https://github.com/cks1999/EOKP",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 39221,
+  "contact_point": {
+    "name": "kuangsheng cai",
+    "email": "caikuangsheng@126.com"
+  },
+  "full_download": [
+    {
+      "title": "EOKP.rdf",
+      "download_url": "https://github.com/cks1999/EOKP/blob/master/EOKP.rdf"
+    }
+  ]
+}

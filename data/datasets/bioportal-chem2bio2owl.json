@@ -1,0 +1,131 @@
+{
+  "identifier": "bioportal-chem2bio2owl",
+  "title": "Systems Chemical Biology/Chemogenomics",
+  "description": {
+    "en": "Ontology for Systems Chemical Biology and Chemogenomics"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1615",
+  "triples": 1368,
+  "contact_point": {
+    "name": "Bin Chen, Ying Ding, David Wild"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bao",
+      "value": 13
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 17
+    },
+    {
+      "target": "bioportal-bp",
+      "value": 35
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 14
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 18
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 32
+    },
+    {
+      "target": "bioportal-dikb-evidence",
+      "value": 17
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 10
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 16
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 16
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 17
+    },
+    {
+      "target": "bioportal-iev",
+      "value": 18
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 30
+    },
+    {
+      "target": "bioportal-ixno",
+      "value": 33
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 16
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 81
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 22
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 27
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 68
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 21
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 19
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 18
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 23
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46232?apikey=BP_API_KEY"
+    }
+  ]
+}

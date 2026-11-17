@@ -1,0 +1,86 @@
+{
+  "identifier": "bio2rdf-pathwaycommons",
+  "title": "Bio2RDF::Pathwaycommons",
+  "description": {
+    "en": "Pathway Commons is a convenient point of access to biological pathway information collected from public pathway databases"
+  },
+  "website": "http://pathwaycommons.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/pathwaycommons:",
+  "triples": 5700724,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/pathwaycommons/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/pathwaycommons/pathwaycommons.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/pathwaycommons/bio2rdf-pathwaycommons.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/pathwaycommons/pathwaycommons.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/pathwaycommons/bio2rdf_pathwaycommons_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/pathwaycommons/sitemap.xml"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download pathwaycommons.xml.gz (n-quads, gzipped)",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/pathwaycommons/pathwaycommons.xml.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/pathwaycommons:485991"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://pathwaycommons.bio2rdf.org/sparql"
+    }
+  ]
+}

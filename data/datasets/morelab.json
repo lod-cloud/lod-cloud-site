@@ -1,0 +1,95 @@
+{
+  "identifier": "morelab",
+  "title": "MORElab",
+  "description": {
+    "en": "A dataset that describes staff, publications and proyects of MoreLab, an ICT research group within the Deusto Institute of Technology (DeustoTech) at University of Deusto.\r\n\r\nData is available in RDF format through resolvable URIs and a SPARQL endpoint."
+  },
+  "domain": "publications",
+  "website": "http://www.morelab.deusto.es",
+  "namespace": "http://www.morelab.deusto.es/resource/",
+  "triples": 3561,
+  "contact_point": {
+    "name": "Morelab",
+    "email": "m.emaldi@deusto.es"
+  },
+  "keywords": [
+    "computer-science",
+    "format-bibo",
+    "format-contact",
+    "format-dc",
+    "format-dcterms",
+    "format-foaf",
+    "format-geo",
+    "format-geonames",
+    "format-meta",
+    "format-mvcb",
+    "format-owl",
+    "format-prv",
+    "format-prvtypes",
+    "format-rdf",
+    "format-rdfs",
+    "format-re",
+    "format-rel",
+    "format-sioc",
+    "format-skos",
+    "format-swrc",
+    "format-units",
+    "format-uranai",
+    "format-xsd",
+    "format-yago",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "opendata",
+    "projects",
+    "publications",
+    "published-by-producer",
+    "research"
+  ],
+  "links": [
+    {
+      "target": "data-incubator-our-airports",
+      "value": 2
+    },
+    {
+      "target": "dbpedia",
+      "value": 38
+    },
+    {
+      "target": "geonames",
+      "value": 5
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 128
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 35
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Sitemap",
+      "description": "Sitemap of Morelab's resources",
+      "access_url": "http://www.morelab.deusto.es/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example data",
+      "description": "Example RDF/XML data of a publication from Morelab.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://apps.morelab.deusto.es/labman/data/people/diego-lopez-de-ipina"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "Morelab's SPARQL endpoint",
+      "access_url": "http://apps.morelab.deusto.es/labman/sparql"
+    }
+  ]
+}

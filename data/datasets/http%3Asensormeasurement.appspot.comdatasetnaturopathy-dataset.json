@@ -1,0 +1,63 @@
+{
+  "identifier": "http:sensormeasurement.appspot.comdatasetnaturopathy-dataset",
+  "title": "Naturopathy knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.",
+  "description": {
+    "en": "The Naturopathy knowledge Graph (Ontology and Dataset) describes relationships between foods, their nutrients, their color, mood, diseases, diets, and allergies. The Naturopathy knowledge Graph (Ontology and Dataset) has been extended to describe food as beneficial to boost the immune system."
+  },
+  "domain": "life_sciences",
+  "website": "http://sensormeasurement.appspot.com/dataset/naturopathy-dataset",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "namespace": "http://sensormeasurement.appspot.com/dataset/naturopathy-dataset",
+  "triples": 0,
+  "doi": "10.1016/j.smhl.2019.100083",
+  "contact_point": {
+    "name": "Gyrard amelie",
+    "email": "ameliegyrard@gmail.com"
+  },
+  "keywords": [
+    "\"naturopathy\"",
+    "\"food\"",
+    "\"immune system\"",
+    "\"Vitamin A\"",
+    "\"Vitamin B\"",
+    "\"Vitamin C\"",
+    "\"Vitamin D\"",
+    "\"Vitamin E\"",
+    "\"Zinc\"",
+    "\"Sufur\"",
+    "\"Recommendation\"",
+    "\"vocabulary\"",
+    "\"semantics\"",
+    "\"ontology\"",
+    "\"Knowledge Graph\"",
+    "\"dataset\""
+  ],
+  "links": [
+    {
+      "target": "dbpedia"
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Naturopathy knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.",
+      "description": "The Naturopathy knowledge Graph (Ontology and Dataset) describes relationships between foods, their nutrients, their color, mood, diseases, diets, and allergies. The Naturopathy knowledge Graph (Ontology and Dataset) has been extended to describe food as beneficial to boost the immune system.",
+      "media_type": "application/octet-stream",
+      "download_url": "http://sensormeasurement.appspot.com/dataset/naturopathy-dataset"
+    }
+  ],
+  "example": [
+    {
+      "title": "Naturopathy knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.",
+      "description": "The Naturopathy knowledge Graph (Ontology and Dataset) describes relationships between foods, their nutrients, their color, mood, diseases, diets, and allergies. The Naturopathy knowledge Graph (Ontology and Dataset) has been extended to describe food as beneficial to boost the immune system.",
+      "media_type": "application/octet-stream",
+      "access_url": "http://sensormeasurement.appspot.com/dataset/naturopathy-dataset"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Naturopathy knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.",
+      "description": "The Naturopathy knowledge Graph (Ontology and Dataset) describes relationships between foods, their nutrients, their color, mood, diseases, diets, and allergies. The Naturopathy knowledge Graph (Ontology and Dataset) has been extended to describe food as beneficial to boost the immune system.",
+      "access_url": "http://sensormeasurement.appspot.com/dataset/naturopathy-dataset"
+    }
+  ]
+}

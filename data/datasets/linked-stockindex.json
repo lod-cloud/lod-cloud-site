@@ -1,0 +1,40 @@
+{
+  "identifier": "linked-stockindex",
+  "title": "Linked Index",
+  "description": {
+    "en": "Providing information on market indices as Linked Data."
+  },
+  "domain": "government",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcterm",
+    "format-foaf",
+    "format-owl",
+    "format-rdfs",
+    "government",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    },
+    {
+      "target": "linked-edgar",
+      "value": 501
+    },
+    {
+      "target": "personal-homepages",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://indexwrap.ontologycentral.com/sp500"
+    }
+  ]
+}

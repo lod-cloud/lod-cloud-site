@@ -1,0 +1,87 @@
+{
+  "identifier": "trackloaded",
+  "title": "Trackloaded Linked Open Data",
+  "description": {
+    "en": "The Trackloaded Dataset is a curated, open Linked Data collection representing African music artists, record labels, and cultural metadata published on Trackloaded.com.\n\nEach entity includes structured attributes such as artist or label name, biography, birth date, social media links, homepage, and external identity connections (e.g. Wikidata, Instagram, MusicBrainz, Discogs ).\n\nData is published as RDF, Turtle, JSON-LD, and accessible via a live SPARQL endpoint. \n\n Vocabularies Used\n\n    foaf:name, foaf:homepage, foaf:bio\n    schema:birthDate, schema:founder, schema:location\n    mo:member – Music Ontology\n    owl:sameAs – External identity links"
+  },
+  "domain": "media",
+  "website": "https://trackloaded.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "Trackloaded",
+  "triples": 3,
+  "doi": "10.5281/zenodo.16777415",
+  "image": "https://i0.wp.com/trackloaded.com/wp-content/uploads/2025/04/Trackloaded-New-scaled.png?resize=400%2C240&ssl=1",
+  "contact_point": {
+    "name": "Aperoja Taofeek",
+    "email": "tao@trackloaded.com"
+  },
+  "keywords": [
+    "Trackloaded",
+    "Artist Profiles",
+    "Nigeria Artists",
+    "Label Profiles",
+    "Semantic-first"
+  ],
+  "links": [
+    {
+      "target": "doi",
+      "value": 1
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID Metadata (Turtle)",
+      "description": "Linked Open Data dataset of African artists, labels, and charts curated by Trackloaded. Includes RDF metadata, SPARQL endpoint, and VoID description for semantic discovery.",
+      "access_url": "https://trackloaded.com/.well-known/void.ttl"
+    },
+    {
+      "title": "RDF Sitemap (Turtle)",
+      "description": "Both Artists and Labels",
+      "access_url": "https://trackloaded.com/?build_rdf_sitemap"
+    },
+    {
+      "title": "SPARQL Browser (UI)",
+      "description": "Trackloaded SPARQL Explorer",
+      "access_url": "https://trackloaded.com/sparql-browser"
+    },
+    {
+      "title": "Figshare",
+      "description": "also hosted on figshare",
+      "access_url": "https://figshare.com/articles/dataset/Trackloaded_Artist_Dataset/29900933"
+    },
+    {
+      "title": "Kaggle",
+      "description": "Kaggle Download",
+      "access_url": "https://doi.org/10.34740/kaggle/dsv/13316886"
+    },
+    {
+      "title": "Github",
+      "description": "Download On Github",
+      "access_url": "https://github.com/trackloaded/data"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example on each artists",
+      "description": "Each artist tag page supports RDF export via query parameters:\n    ?rdf=ttl or ?format=ttl – Turtle\n    ?rdf=xml or ?format=xml – RDF/XML\n    ?rdf=jsonld or ?format=jsonld – JSON",
+      "access_url": "https://trackloaded.com/tag/olamide/?rdf=ttl"
+    },
+    {
+      "title": "Example on each labels",
+      "description": "Each label tag page supports RDF export via query parameters:\n    ?rdf=ttl or ?format=ttl – Turtle\n    ?rdf=xml or ?format=xml – RDF/XML\n    ?rdf=json or ?format=json – JSON",
+      "access_url": "https://trackloaded.com/tag/mavin-records/?rdf=jsonld"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Trackloaded RDF Endpoint",
+      "description": "A public SPARQL endpoint exposing structured RDF data of Nigerian artists featured on Trackloaded, including name, homepage, birth date, aliases, biography, and social profiles.",
+      "access_url": "https://trackloaded.com/sparql-endpoint.php"
+    },
+    {
+      "title": "RDF Endpoint",
+      "description": "https://trackloaded.com/sparql-endpoint.php?query=CONSTRUCT{?s ?p ?o}WHERE{?s ?p ?o}&format=text/turtle",
+      "access_url": "https://trackloaded.com/sparql-endpoint.php?query=SELECT+?name+?url+WHERE+{+?x+foaf:name+?name+;+foaf:homepage+?url+}"
+    }
+  ]
+}

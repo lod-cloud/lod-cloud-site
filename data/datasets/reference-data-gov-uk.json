@@ -1,0 +1,92 @@
+{
+  "identifier": "reference-data-gov-uk",
+  "title": "reference.data.gov.uk",
+  "description": {
+    "en": "Reference data for linked UK government data:\r\n\r\n* People\r\n* Departments\r\n* Namespace for various time intervals (separate sub-package package:data-gov-uk-time-intervals)\r\n\r\n### Linked Data API\r\n\r\nRoots:\r\n\r\nhttp://reference.data.gov.uk/doc/department\r\nhttp://reference.data.gov.uk/doc/mp"
+  },
+  "domain": "government",
+  "website": "http://reference.data.gov.uk/",
+  "namespace": "http://reference.data.gov.uk/id/",
+  "triples": 45809,
+  "contact_point": {
+    "name": "Data.gov.uk Team",
+    "email": "team@data.gov.uk"
+  },
+  "keywords": [
+    "broken_link",
+    "country-uk",
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-org",
+    "format-skos",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "uk",
+    "ukgov"
+  ],
+  "links": [
+    {
+      "target": "data-gov-uk-time-intervals",
+      "value": 1518
+    },
+    {
+      "target": "dbpedia",
+      "value": 22
+    },
+    {
+      "target": "london-gazette",
+      "value": 1405
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://reference.data.gov.uk/def/central-government"
+    },
+    {
+      "description": "Downloads",
+      "access_url": "http://source.data.gov.uk/data/reference/"
+    },
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/reference/search"
+    },
+    {
+      "description": "Linked Data API for MPs",
+      "media_type": "api/linked-data",
+      "access_url": "http://reference.data.gov.uk/doc/mp"
+    },
+    {
+      "description": "Linked Data API for departments",
+      "media_type": "api/linked-data",
+      "access_url": "http://reference.data.gov.uk/doc/department"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example: David Cameron (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reference.data.gov.uk/id/mp/witney/david-cameron"
+    },
+    {
+      "description": "Example: Department for Education (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reference.data.gov.uk/id/department/dfe"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/reference/sparql"
+    }
+  ]
+}

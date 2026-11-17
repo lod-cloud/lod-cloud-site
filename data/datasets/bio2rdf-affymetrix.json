@@ -1,0 +1,110 @@
+{
+  "identifier": "bio2rdf-affymetrix",
+  "title": "Bio2RDF::Affymetrix",
+  "description": {
+    "en": "This dataset contains the probesets used in the Affymetrix microarrays."
+  },
+  "domain": "life_sciences",
+  "website": "http://affymetrix.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/affymetrix:",
+  "triples": 86942371,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-affymetrix",
+      "value": 1398264
+    },
+    {
+      "target": "bio2rdf-interpro",
+      "value": 5999
+    },
+    {
+      "target": "bio2rdf-mgi",
+      "value": 18818
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 400798
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 17078
+    },
+    {
+      "target": "bio2rdf-sgd",
+      "value": 6122
+    },
+    {
+      "target": "bio2rdf-wormbase",
+      "value": 14768
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download affymetrix.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/affymetrix/affymetrix.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/affymetrix/affymetrix.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/affymetrix/bio2rdf-affymetrix.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/affymetrix/affymetrix.schema.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/affymetrix/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/affymetrix:185061_at"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://affymetrix.bio2rdf.org/sparql"
+    }
+  ]
+}

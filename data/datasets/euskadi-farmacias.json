@@ -1,0 +1,48 @@
+{
+  "identifier": "euskadi-farmacias",
+  "title": "Farmacias en Euskadi",
+  "description": {
+    "en": "Cada ZIP contiene las farmacias de una provincia: Bizkaia, Gipuzkoa y Álava.\r\n\r\nFarmacias existentes en Euskadi. Los datos incluyen, entre otros, dirección, datos de contacto, horarios y coordenadas GPS."
+  },
+  "domain": "government",
+  "website": "http://opendata.euskadi.net/w79-contdata/es/contenidos/ds_localizaciones/farmacias_de_euskadi/es_farmacia/farmacias.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 35,
+  "contact_point": {
+    "name": "Departamento de Sanidad y Consumo. Gobierno Vasco."
+  },
+  "keywords": [
+    "botica",
+    "drug",
+    "farmacia",
+    "format-cc",
+    "government",
+    "health",
+    "lod",
+    "lodcloud.unconnected",
+    "medicamentos",
+    "no-deref-vocab",
+    "published-by-third-party",
+    "salud"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 5
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "media_type": "RDF",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_localizaciones/farmacias_de_euskadi/opendata/r01DataSet.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=ISO-8859-1",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_localizaciones/farmacias_de_euskadi/farmacia"
+    }
+  ]
+}

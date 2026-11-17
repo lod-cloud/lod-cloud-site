@@ -1,0 +1,23 @@
+{
+  "identifier": "Bioportal_link",
+  "title": "Indian Terrorism Ontology (InTO)",
+  "description": {
+    "en": "Creating the largest comprehensive knowledge base of terrorism and related activities, people and agencies involved, and extremist movements; and providing a platform to the society, the government, and the military personnel in order to combat the evolving threat of the global menace of terrorism."
+  },
+  "domain": "publications",
+  "website": "https://bioportal.bioontology.org/ontologies/INTO",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Archana PATEL",
+    "email": "archanamca92@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "Indian Terrorism Ontology (InTO)",
+      "description": "Creating the largest comprehensive knowledge base of terrorism and related activities, people and agencies involved, and extremist movements; and providing a platform to the society, the government, and the military personnel in order to combat the evolving threat of the global menace of terrorism.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://data.bioontology.org/ontologies/INTO/submissions/1/download?apikey=c1855b5e-ec88-4604-bbf5-54d1b8591f7f"
+    }
+  ]
+}

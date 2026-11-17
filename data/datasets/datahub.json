@@ -1,0 +1,41 @@
+{
+  "identifier": "datahub",
+  "title": "datahub",
+  "description": {
+    "en": "Publish information about datasets"
+  },
+  "domain": "publications",
+  "website": "http://datahub.io",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcat",
+    "format-dcterm",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "openlinksw-dataspaces",
+      "value": 14
+    },
+    {
+      "target": "w3c",
+      "value": 8
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://datahub.io/dataset/hellenic-fire-brigade"
+    }
+  ]
+}

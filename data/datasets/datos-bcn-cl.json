@@ -1,0 +1,67 @@
+{
+  "identifier": "datos-bcn-cl",
+  "title": "Datos.bcn.cl",
+  "description": {
+    "en": "Linked Open Data about Chile and the political environment of the country. Some important graphs published are: Legislative norms, International treaties (linking countries to dbpedia and geonames), geographical data and parliamentary biographies, and we are publishing every day more."
+  },
+  "domain": "government",
+  "website": "https://datos.bcn.cl/es/",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "namespace": "http://datos.bcn.cl/recurso/",
+  "triples": 8285886,
+  "contact_point": {
+    "name": "Library of Congress of Chile",
+    "email": "fcifuentes@bcn.cl"
+  },
+  "keywords": [
+    "format-bcnnorms",
+    "format-dbpedia-owl",
+    "format-dc",
+    "format-foaf",
+    "format-skos",
+    "government",
+    "lod",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 568
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Legislative Norms",
+      "description": "The documentation about how to consume legislative norms published as linked open data. That includes URI formats, rdf of example and content types of the published resources.",
+      "access_url": "https://datos.bcn.cl/es/documentacion/normas"
+    },
+    {
+      "title": "XML Sitemap",
+      "access_url": "https://datos.bcn.cl/sitemap.xml"
+    },
+    {
+      "title": "Download",
+      "media_type": "application/zip",
+      "access_url": "http://datos.bcn.cl/downloads/2011-10-25/all_ontologies.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (RDF/XML)",
+      "description": "A treaty with Germany published as linked data.",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://datos.bcn.cl/recurso/cl/dto/ministerio-de-relaciones-exteriores/2008-02-07/267/es@2008-02-07"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "A sparql endpoint for query",
+      "access_url": "http://datos.bcn.cl/sparql"
+    }
+  ]
+}

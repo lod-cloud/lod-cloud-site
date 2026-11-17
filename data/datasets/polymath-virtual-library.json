@@ -1,0 +1,85 @@
+{
+  "identifier": "polymath-virtual-library",
+  "title": "Polymath Virtual Library (Authority data) - Fundación Ignacio Larramendi",
+  "description": {
+    "en": "The Polymath Virtual Library aims to bring together the works of the most important Hispanic polymaths and to establish semantic relationships between them, expressing the different schools of thought, from Seneca to Octavio Paz. The aim is to bring together information, data, digital texts and web resources about Spanish, Hispano-American, Brazilian and Portuguese polymaths from all times. These datasets consists of  polymath authority data (Spanish, Latin American, Brasilian and Portuguese)  expressed in <a href=\"http://pro.europeana.eu/web/guest/edm-documentation\" title=\"Europeana Data Model\">\r\nEuropeana Data Model</a>. Links to VIAF and DBpedia in progress."
+  },
+  "domain": "linguistics",
+  "website": "http://www.larramendi.es/i18n/estaticos/contenido.cmd?pagina=estaticos/bibliotecaIL",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Xavier Agenjo",
+    "email": "xavier.agenjo@larramendi.es"
+  },
+  "keywords": [
+    "authority",
+    "bibliographic data",
+    "crossdomain",
+    "europeana data model",
+    "format-edm",
+    "format-skos",
+    "library",
+    "lld",
+    "lod",
+    "no-proprietary-vocab",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 57
+    },
+    {
+      "target": "oclc-fast",
+      "value": 25
+    },
+    {
+      "target": "viaf",
+      "value": 321
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Polígrafos españoles = Spanish Polymath",
+      "description": "Zipped RDF/XML file",
+      "media_type": "application/rdf xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T160246/Poligrafos_espanoles_edm.zip"
+    },
+    {
+      "title": "Polígrafos hispanoamericanos = Hispanoamerican Polymath",
+      "description": "Zipped RDF/XML file",
+      "media_type": "application/rdf xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T160611/Poligrafos_hispanoamericanos_edm.zip"
+    },
+    {
+      "title": "Polígrafos portugueses = Portuguese Polymath",
+      "description": "Zipped RDF/XML file",
+      "media_type": "application/rdf xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T160728/Poligrafos_portugueses_edm.zip"
+    },
+    {
+      "title": "Polígrafos brasileños = Brazilian Polymath",
+      "description": "Zipped RDF/XML file",
+      "media_type": "application/rdf xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T160857/Poligrafos_brasilenos_edm.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example: Francisco Sánchez",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T161002/Francisco_Sanchez.rdf"
+    },
+    {
+      "title": "Example: Marcelino Menéndez Pelayo",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T161117/Menendez_Pelayo.rdf"
+    },
+    {
+      "title": "Example: Miguel de Unamuno",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T161210/Unamuno_Miguel-de.rdf"
+    }
+  ]
+}

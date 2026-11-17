@@ -1,0 +1,183 @@
+{
+  "identifier": "bioportal-cl",
+  "title": "Cell type",
+  "description": {
+    "en": "The Cell Ontology is designed as a structured controlled vocabulary for cell types. This ontology was constructed for use by the model organism and other bioinformatics databases, where there is a need for a controlled vocabulary of cell types. This ontology is not organism specific; indeed it includes cell types from prokaryotes to mammals, including plants and fungi. A full description of the Cell Ontology can be found in <a href=\"http://genomebiology.com/2005/6/2/R21\">Bard, Rhee and Ashburner. 2005. An Ontology for Cell Types</a>."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1006",
+  "triples": 29166,
+  "contact_point": {
+    "name": "Alex Diehl"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 41
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 69
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 603
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 473
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 59
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 103
+    },
+    {
+      "target": "bioportal-dc_cl",
+      "value": 44
+    },
+    {
+      "target": "bioportal-ddanat",
+      "value": 31
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 52
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 155
+    },
+    {
+      "target": "bioportal-fao",
+      "value": 43
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 155
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 71
+    },
+    {
+      "target": "bioportal-gro_x1",
+      "value": 59
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 15
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 2064
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 17
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 88
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 177
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 340
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 70
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 60
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 22
+    },
+    {
+      "target": "bioportal-po",
+      "value": 102
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 62
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 45
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 45
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 183
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 202
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 777
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 30
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 21
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 35
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 162
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 783
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46604?apikey=BP_API_KEY"
+    }
+  ]
+}

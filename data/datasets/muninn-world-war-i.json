@@ -1,0 +1,129 @@
+{
+  "identifier": "muninn-world-war-i",
+  "title": "Muninn World War I",
+  "description": {
+    "en": "The Muninn Project is a multi-disciplinary, multi-national, academic research project investigating millions of records pertaining to the First World War in archives around the world."
+  },
+  "domain": "cross_domain",
+  "website": "http://rdf.muninn-project.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://rdf.muninn-project.org/ww1",
+  "triples": 38927740,
+  "contact_point": {
+    "name": "Rob Warren",
+    "email": "warren@muninn-project.org"
+  },
+  "keywords": [
+    "access-api",
+    "access-bulk",
+    "access-www",
+    "crossdomain",
+    "deref-vocab",
+    "format-cc",
+    "format-dbpedia",
+    "format-dc",
+    "format-dcterms",
+    "format-doap",
+    "format-foaf",
+    "format-graves",
+    "format-mil",
+    "format-naval",
+    "format-owl",
+    "format-prov",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-time",
+    "format-void",
+    "license-metadata",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "search",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "GeoNames",
+      "value": 32306
+    },
+    {
+      "target": "LCSH",
+      "value": 10
+    },
+    {
+      "target": "Orlando",
+      "value": 2
+    },
+    {
+      "target": "dbpedia",
+      "value": 1895
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 311
+    },
+    {
+      "target": "ww1lod",
+      "value": 973
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download",
+      "description": "Weekly dump in n-quand (triple + graph) format.",
+      "download_url": "http://rdf.muninn-project.org/Downloads/muninn-Dump-Latest.nq"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (N-Triples, bz2-compressed)",
+      "description": "Raw dumps of the triples are located here.",
+      "access_url": "http://rdf.muninn-project.org/Downloads"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "All of the OWL files used by Muninn, newest versions.",
+      "media_type": "application/x-bzip2",
+      "access_url": "http://rdf.muninn-project.org/Downloads/muninn-ontologies-latest.tar.bz2"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "access_url": "http://rdf.muninn-project.org/sitemap.xml"
+    },
+    {
+      "title": "voiD description",
+      "access_url": "http://rdf.muninn-project.org/Muninn.rdf"
+    },
+    {
+      "title": "Mappings",
+      "description": "Mappings are contained as part of the ontologies.",
+      "media_type": "application/x-bzip2",
+      "access_url": "http://rdf.muninn-project.org/Downloads/muninn-ontologies-latest.tar.bz2"
+    },
+    {
+      "title": "Download triples",
+      "description": "Weekly data dump in n3 triple format",
+      "access_url": "http://rdf.muninn-project.org/Downloads/muninn-Dump-Latest.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF Example Link",
+      "description": "The resource will be resolved via content negotiation to RDF or HTML.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://rdf.muninn-project.org/modern/2011/11/11/Cenotaph/ca12581df8bc9fc3c1535de9daa1814a"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint with all triples including ontologies. This endpoint is CORS compliant.",
+      "access_url": "http://rdf.muninn-project.org/sparql"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "identifier": "myontologytest",
+  "title": "My ontology test",
+  "description": {
+    "en": "My ontology test"
+  },
+  "domain": "government",
+  "website": "http://example.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "alexpapapa",
+    "email": "alexpapapa2021@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "myontologytest",
+      "download_url": "http://www.example.org"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "myontologytest",
+      "access_url": "http://www.example.org"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "identifier": "FHIR_STU3",
+  "title": "FHIR STU3",
+  "description": {
+    "en": "FHIR STU3"
+  },
+  "domain": "user_generated",
+  "website": "http://hl7.org/fhir/STU3/",
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
+  "triples": 0,
+  "contact_point": {
+    "name": "Adolph Trudeau",
+    "email": "adolph.trudeau@mdanderson.org"
+  },
+  "full_download": [
+    {
+      "title": "RDF Turtle File",
+      "download_url": "http://hl7.org/fhir/STU3/fhir.ttl"
+    }
+  ]
+}

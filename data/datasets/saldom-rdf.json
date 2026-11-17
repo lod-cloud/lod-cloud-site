@@ -1,0 +1,46 @@
+{
+  "identifier": "saldom-rdf",
+  "title": "SALDOM-RDF",
+  "description": {
+    "en": "SALDO morphology, a morphological Swedish lexicon in RDF."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 8349115,
+  "contact_point": {
+    "name": "Dana Dannells",
+    "email": "dana.dannells@svenska.gu.se"
+  },
+  "keywords": [
+    "lexical-resource",
+    "linguistic",
+    "llod",
+    "lod",
+    "morphology"
+  ],
+  "links": [
+    {
+      "target": "isocat",
+      "value": 69
+    }
+  ],
+  "other_download": [
+    {
+      "title": "SALDOM N-triple dump",
+      "description": "SALDOM N-triple dump",
+      "media_type": "gzip:ntriples",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-10-14T10:32:42.453Z/saldom-nt.gz"
+    },
+    {
+      "title": "SALDOM XML/RDF serialization format",
+      "access_url": "http://spraakbanken.gu.se/rdf/saldom.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://demo.spraakdata.gu.se/ltlod/test/"
+    }
+  ]
+}

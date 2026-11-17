@@ -1,0 +1,25 @@
+{
+  "identifier": "Generalized_Super_Ontology",
+  "title": "Super Ontology",
+  "description": {
+    "en": "Concept of realityUpper OntologyEHCPRSuper OntologyLivingMatterSpaceTimeMedium of restMedium of motion."
+  },
+  "domain": "cross_domain",
+  "website": "http://dataset.ga/tanay/new.owl",
+  "license": "https://opendefinition.org/licenses/fal",
+  "namespace": "wdq",
+  "triples": 45,
+  "contact_point": {
+    "name": "Tanay Aggarwal",
+    "email": "tanayaggarwal@outlook.com"
+  },
+  "keywords": [
+    "Concept of realityUpper OntologyEHCPRSuper OntologyLivingMatterSpaceTimeMedium of restMedium of motion."
+  ],
+  "sparql": [
+    {
+      "title": "Big Data End Point",
+      "access_url": "https://query.wikidata.org/bigdata/namespace/wdq/sparql?query={SPARQL}"
+    }
+  ]
+}

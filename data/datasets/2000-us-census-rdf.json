@@ -1,0 +1,63 @@
+{
+  "identifier": "2000-us-census-rdf",
+  "title": "2000 U.S. Census in RDF (rdfabout.com)",
+  "description": {
+    "en": "2000 U.S. Census converted into over a billion RDF triples.\r\n\r\nPopulation statistics at various geographic levels, from the U.S. as a whole, down through states, counties, sub-counties (roughly, cities and incorporated towns)\r\n\r\nNotes: also found in the of SPARQL Endpoints.\r\n\r\nFrom home page:\r\n\r\n> * For the detailed Census statistics, you'll have to download the raw Census data files from the Census Bureau, my Perl script and the patch file below and run it yourself because the files are too big for me to offer as a download!\r\n> \r\n> * The data and scripts can be reused under Creative Commons Attribution-NonCommercial-ShareAlike."
+  },
+  "domain": "government",
+  "website": "http://www.rdfabout.com/demo/census/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://www.rdfabout.com/rdf/usgov/geo/",
+  "triples": 1002848918,
+  "contact_point": {
+    "name": "Joshua Tauberer",
+    "email": "http://razor.occams.info/"
+  },
+  "keywords": [
+    "census",
+    "data",
+    "demographics",
+    "deref-vocab",
+    "format-dc",
+    "format-geonames",
+    "format-politico",
+    "format-rdf",
+    "geographic",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2007-05-01",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud.nolinks",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "population",
+    "published-by-third-party",
+    "rdf",
+    "statistics",
+    "us"
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://www.rdfabout.com/demo/census/"
+    },
+    {
+      "description": "XML Sitemap",
+      "access_url": "http://www.rdfabout.com/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.rdfabout.com/rdf/usgov/geo/us/ny"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL enpdoint",
+      "access_url": "http://www.rdfabout.com/sparql"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "identifier": "bioportal-lhn",
+  "title": "Loggerhead nesting",
+  "description": {
+    "en": "A demonstration of ontology construction as a general technique for coding ethograms and other descriptions of behavior into machine understandable forms. An ontology for Loggerhead sea turtle (<i>Caretta caretta</i>) nesting behavior, based on the published ethogram of Hailman and Elowson."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1024",
+  "triples": 2623,
+  "contact_point": {
+    "name": "Peter Midford"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 20
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 14
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 15
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 30
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 58
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 19
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 12
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 19
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 43
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44831?apikey=BP_API_KEY"
+    }
+  ]
+}

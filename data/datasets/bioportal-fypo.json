@@ -1,0 +1,79 @@
+{
+  "identifier": "bioportal-fypo",
+  "title": "Fission Yeast Phenotype Ontology",
+  "description": {
+    "en": "FYPO is a formal ontology of phenotypes observed in fission yeast. FYPO is being developed to support the comprehensive and detailed representation of phenotypes in PomBase, the new online fission yeast resource (www.pombaes.org). Its scope is similar to that of the Ascomycete Phenotype Ontology (APO), but FYPO includes more detailed pre-composed terms as well as computable definitions."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1689",
+  "triples": 33885,
+  "contact_point": {
+    "name": "Midoria Harris"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-apo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 479
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 326
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 13
+    },
+    {
+      "target": "bioportal-nigo",
+      "value": 95
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 21
+    },
+    {
+      "target": "bioportal-spto",
+      "value": 18
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47344?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "identifier": "eutc-productions",
+  "title": "Edinburgh University Theatre Company Productions",
+  "description": {
+    "en": "A dataset of productions put on by the Edinburgh University Theatre Company past and present, including linked cast & crew lists."
+  },
+  "domain": "media",
+  "website": "http://www.bedlamtheatre.co.uk/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://www.bedlamtheatre.co.uk/",
+  "triples": 31223,
+  "contact_point": {
+    "name": "Luke Blaney",
+    "email": "ckan@lukeblaney.co.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "theatre"
+  ],
+  "links": [
+    {
+      "target": "bbc-programmes",
+      "value": 55
+    },
+    {
+      "target": "dbpedia",
+      "value": 166
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "access_url": "http://purl.org/theatre"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.bedlamtheatre.co.uk/people/79"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/eutc-productions/services/sparql"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "identifier": "AVsOnto",
+  "title": "AVsOnto",
+  "description": {
+    "en": "The ontology AVsOnto is built to represent knowledge in the context of autonomous vehicle systems designed for parcel delivery. AVsOnto follows a standardized process to identify and model the critical tasks, interactions, and relationships between entities such as vehicles, parcels, routes, traffic conditions, and environmental factors. This ontology enables the seamless transformation of real-time raw data, such as vehicle status and traffic updates, into a structured ontological model represented in the OWL language."
+  },
+  "domain": "user_generated",
+  "website": "https://github.com/Bochra-guer/AVsOnto.git",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Guerroudj Bochra",
+    "email": "guerroudj.bochra@univ-khenchela.dz"
+  },
+  "full_download": [
+    {
+      "title": "AVsOnto RDF.rdf",
+      "media_type": "application/rdf+xml",
+      "download_url": "https://github.com/Bochra-guer/AVsOnto/blob/main/AVsOnto%20RDF.rdf"
+    },
+    {
+      "title": "JSON.owl",
+      "media_type": "application/Id+json",
+      "download_url": "https://github.com/Bochra-guer/AVsOnto/blob/main/JSON.owl"
+    }
+  ]
+}

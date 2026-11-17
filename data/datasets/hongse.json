@@ -1,0 +1,22 @@
+{
+  "identifier": "hongse",
+  "title": "gseg",
+  "description": {
+    "en": "sergsge"
+  },
+  "domain": "cross_domain",
+  "website": "http://baixue.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "wageawgw",
+    "email": "ewagrehawg@qage.com"
+  },
+  "full_download": [
+    {
+      "title": "composer",
+      "media_type": "application/octet-stream",
+      "download_url": "https://demo.ckan.org/dataset/27ddc796-ff3b-472f-9ff2-c613b22911b7/resource/0cdae291-2588-4ae5-a13b-dcc074d66262/download/composer.ttl"
+    }
+  ]
+}

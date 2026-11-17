@@ -1,0 +1,42 @@
+{
+  "identifier": "uniprotkb",
+  "title": "UniProtKB",
+  "description": {
+    "en": "UniProtKB is the central hub for the collection of functional information on proteins, with accurate, consistent and rich annotation. In addition to capturing the core data mandatory for each UniProtKB entry (mainly, the amino acid sequence, protein name or description, taxonomic data and citation information), as much annotation information as possible is added. This includes widely accepted biological ontologies, classifications and cross-references, and clear indications of the quality of annotation in the form of evidence attribution of experimental and computational data."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.uniprot.org/uniprot/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://purl.uniprot.org/uniprot/",
+  "triples": 55343596553,
+  "contact_point": {
+    "name": "UniProt consortium",
+    "email": "help@uniprot.org"
+  },
+  "keywords": [
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "uniprot"
+  ],
+  "other_download": [
+    {
+      "title": "Official ftp site",
+      "description": "Download",
+      "media_type": "RDF",
+      "access_url": "http://ftp.expasy.org/databases/uniprot/current_release/rdf/uniprot*.rdf.xz"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Official SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "https://sparql.uniprot.org/sparql"
+    }
+  ]
+}

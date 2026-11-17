@@ -1,0 +1,89 @@
+{
+  "identifier": "cpv-2003",
+  "title": "CPV  2003",
+  "description": {
+    "en": "The Common Procurement Vocabulary (CPV) establishes a single classification system for public procurement aimed at standardising the references used by contracting authorities and entities to describe the subject of procurement contracts.\r\n\r\nThe dataset created is comprised of CPV 2008 and CPV 2003 codes and the mappings between them. \r\n\r\nAuthors:\r\n\r\nAuthors:\r\n\r\nJose María Alvarez Rodríguez & Jose Emilio Labra Gayo \r\n\r\nWESO-University of Oviedo"
+  },
+  "website": "http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://purl.org/weso/pscs/cpv/2003/resource",
+  "triples": 546135,
+  "contact_point": {
+    "name": "Jose María Alvarez Rodríguez at WESO (University of Oviedo)",
+    "email": "josem.alvarez@weso.es"
+  },
+  "keywords": [
+    "10ders",
+    "deref-vocab",
+    "e-procurement",
+    "euroalert",
+    "format-dc",
+    "format-dcterms",
+    "format-qb",
+    "format-skos",
+    "format-skosxl",
+    "geodata",
+    "government",
+    "license-metadata",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "oviedo",
+    "procurement",
+    "provenance-metadata",
+    "public_contracts",
+    "published-by-third-party",
+    "uniovi",
+    "university",
+    "university-of-oviedo",
+    "vocab-mappings",
+    "weso"
+  ],
+  "links": [
+    {
+      "target": "http://productontology.org",
+      "value": 21761
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Common Procurement Vocabulary 2003",
+      "description": "Data Dump Common Procurement Vocabulary 2003",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/weso/datasets/pscs/cpv/2003/cpv-2003.ttl"
+    },
+    {
+      "title": "Linked Data Frontend-Common Procurement Vocabulary 2003",
+      "description": "Linked Data Frontend-Common Procurement Vocabulary 2003",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/weso/pscs/cpv/2003/resource/ds"
+    },
+    {
+      "title": "VoID of Common Procurement Vocabulary 2003",
+      "description": "VoID of Common Procurement Vocabulary 2003",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/weso/pscs/data/cpv/2003/resource/ds?output=ttl"
+    },
+    {
+      "title": "Custom definitions of Common Procurement Vocabulary 2003",
+      "description": "Custom definitions of Common Procurement Vocabulary 2003",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/weso/datasets/pscs/cpv/cpv-ontology.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of resource-Common Procurement Vocabulary 2003",
+      "description": "Example of resource-Common Procurement Vocabulary 2003",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/weso/pscs/data/cpv/2003/resource/13000000?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WESO SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://156.35.31.156/sparql"
+    }
+  ]
+}

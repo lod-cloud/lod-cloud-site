@@ -1,0 +1,62 @@
+{
+  "identifier": "knoesis-linked-sensor-data",
+  "title": "Linked Sensor Data (Kno.e.sis)",
+  "description": {
+    "en": "Datasets for sensors and sensor observations, created at Kno.e.sis Center, and converted from weather data at Mesowest. Contains descriptions of 20 thousand weather stations and 160 million observations."
+  },
+  "domain": "geography",
+  "website": "http://wiki.knoesis.org/index.php/SSW_Datasets",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://knoesis.wright.edu/ssw/",
+  "triples": 1730284735,
+  "contact_point": {
+    "name": "Harshal Patni (Kno.e.sis)",
+    "email": "harshal@knoesis.org"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-xhtml",
+    "geographic",
+    "linked",
+    "linked-data",
+    "linked-open-data",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "semantic-web",
+    "sensor-web-enablement"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 18000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "media_type": "RDF",
+      "access_url": "http://sonicbanana.cs.wright.edu/knoesis_linkedsensordata.tar.gz"
+    },
+    {
+      "description": "Download Charley hurricane's data",
+      "access_url": "http://sonicbanana.cs.wright.edu/knoesis_linkedobservationdata_charley.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Linked Data entry point",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://knoesis.wright.edu/ssw/"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sonicbanana.cs.wright.edu:8890/sparql"
+    }
+  ]
+}

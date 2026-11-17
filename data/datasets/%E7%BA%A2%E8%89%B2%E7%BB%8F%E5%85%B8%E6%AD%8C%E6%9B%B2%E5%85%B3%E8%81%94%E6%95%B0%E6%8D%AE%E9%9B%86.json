@@ -1,0 +1,21 @@
+{
+  "identifier": "红色经典歌曲关联数据集",
+  "title": "红色经典歌曲关联数据集",
+  "description": {
+    "en": "红色经典歌曲关联数据集"
+  },
+  "domain": "cross_domain",
+  "website": "http://agegahgrggh.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 135,
+  "contact_point": {
+    "name": "wageawgw",
+    "email": "ewagrehawg@qage.com"
+  },
+  "full_download": [
+    {
+      "title": "lyricist",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/Lyricist.ttl"
+    }
+  ]
+}

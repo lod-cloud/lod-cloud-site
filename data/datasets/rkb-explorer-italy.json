@@ -1,0 +1,91 @@
+{
+  "identifier": "rkb-explorer-italy",
+  "title": "Diverse Italian ReSIST Partner Institutions (RKBExplorer)",
+  "description": {
+    "en": "This repository contains data supplied from diverse Italian institutions."
+  },
+  "domain": "publications",
+  "website": "http://italy.rkbexplorer.com",
+  "namespace": "http://italy.rkbexplorer.com/id/",
+  "triples": 32901,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-coref",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-lisbon",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 12
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://italy.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://italy.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://italy.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://italy.rkbexplorer.com/id/person-dsi-791ee4e9a5072fc1718f93265f87d072"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://italy.rkbexplorer.com/sparql"
+    }
+  ]
+}

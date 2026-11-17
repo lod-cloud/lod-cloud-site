@@ -1,0 +1,36 @@
+{
+  "identifier": "bioportal-hom_harvard",
+  "title": "HOM-HARVARD",
+  "description": {
+    "en": "HOM-HARVARD demographics for i2b2"
+  },
+  "website": "http://bioportal.bioontology.org/ontologies/1631",
+  "triples": 1107,
+  "contact_point": {
+    "name": "Ketty Mobed"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45879?apikey=BP_API_KEY"
+    }
+  ]
+}

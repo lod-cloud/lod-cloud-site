@@ -1,0 +1,49 @@
+{
+  "identifier": "l3s-dblp",
+  "title": "DBLP in RDF (L3S)",
+  "description": {
+    "en": "D2R Server publishing the DBLP Bibliography Database, hosted at L3S Research Center"
+  },
+  "domain": "publications",
+  "website": "http://dblp.l3s.de/d2r/",
+  "namespace": "http://dblp.l3s.de/d2r/resource/",
+  "triples": 57674239,
+  "contact_point": {
+    "name": "Jörg Diederich",
+    "email": "diederich@l3s.de"
+  },
+  "keywords": [
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "format-swrc",
+    "lod",
+    "lodcloud.nolinks",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party"
+  ],
+  "full_download": [
+    {
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://dblp.l3s.de/dblp.rdf.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dblp.l3s.de/d2r/resource/authors/Chris_Bizer"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://dblp.l3s.de/d2r/sparql"
+    }
+  ]
+}

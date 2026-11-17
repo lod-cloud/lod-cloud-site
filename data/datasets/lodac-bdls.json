@@ -1,0 +1,91 @@
+{
+  "identifier": "lodac-bdls",
+  "title": "LODAC BDLS",
+  "description": {
+    "en": "LODAC BDLS (Building Dictionary for Life Sciense) provides two types of datasets. One is relationships between scientific names and common names of species. Another is relationships of Japanese and English scientific terms in Life Science. Datasets also include links to DBpedia, DBpedia Japanese and LODAC Species."
+  },
+  "domain": "life_sciences",
+  "website": "http://lod.ac/wiki/LODAC_BDLS",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lod.ac/bdls/",
+  "triples": 5764962,
+  "contact_point": {
+    "name": "Fumihiro Kato",
+    "email": "fumi@fumi.me"
+  },
+  "keywords": [
+    "biology",
+    "deref-vocab",
+    "format-dcndl",
+    "format-dcterms",
+    "format-rdfs",
+    "format-skos",
+    "license-metadata",
+    "lifesciences",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 18545
+    },
+    {
+      "target": "dbpedia-ja",
+      "value": 7367
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download directory",
+      "description": "it includes dump files of BDLS.",
+      "access_url": "http://lod.ac/dumps/bdls/"
+    },
+    {
+      "title": "Link to a resource",
+      "access_url": "http://lod.ac/bdls/species/Pygoscelis_adeliae"
+    },
+    {
+      "title": "Link to the species schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://lod.ac/ns/species"
+    },
+    {
+      "title": "VoID Description",
+      "access_url": "http://lod.ac/bdls/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example species data (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.ac/bdls/species/Pygoscelis_adeliae.rdf"
+    },
+    {
+      "title": "LInk to an example species data (Turtle)",
+      "media_type": "example/turtle",
+      "access_url": "http://lod.ac/bdls/species/Pygoscelis_adeliae.ttl"
+    },
+    {
+      "title": "Link to an example term (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.ac/bdls/term/ET.rdf"
+    },
+    {
+      "title": "Link to an example term (Turtle)",
+      "media_type": "example/turtle",
+      "access_url": "http://lod.ac/bdls/term/ET.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://lod.ac/bdls/sparql"
+    }
+  ]
+}

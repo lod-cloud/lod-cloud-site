@@ -1,0 +1,66 @@
+{
+  "identifier": "amsterdam-museum-as-edm-lod",
+  "title": "Amsterdam Museum as Linked Open Data in the Europeana Data Model",
+  "description": {
+    "en": "The Amsterdam Museum dataset describes more than 70.000 cultural heritage objects related to the city of Amsterdam described by the museum. \r\n\r\nThe metadata was retrieved from an XML Web API of the museum's Adlib collection database and converted to RDF compliant with the Europeana Data Model (EDM). This makes the Amsterdam Museum data the first of its kind to be officially converted and made available in this format."
+  },
+  "domain": "publications",
+  "website": "http://semanticweb.cs.vu.nl/lod/am/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://purl.org/collections/nl/am/",
+  "triples": 5000000,
+  "contact_point": {
+    "name": "Victor de Boer, Jan Wielemaker, Jacco van Ossenbruggen, Antoine Isaac, Guus Schreiber",
+    "email": "v.de.boer@vu.nl"
+  },
+  "keywords": [
+    "amsterdam",
+    "country-netherlands",
+    "crossdomain",
+    "cultural",
+    "culturalheritage",
+    "datagovuk",
+    "deref-vocab",
+    "edm",
+    "europeana",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "museum",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "rdf",
+    "vu"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 43
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 658
+    }
+  ],
+  "other_download": [
+    {
+      "title": "GIT at Bitbucket",
+      "access_url": "https://bitbucket.org/biktorrr/amlod/"
+    },
+    {
+      "title": "DIVE+ Cliopatria Triple store",
+      "description": "DIVE+ Cliopatria triple store web frontend. This contains the AM LOD data",
+      "media_type": "HTML",
+      "access_url": "http://d"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL endpoint for the DIVE+ data layer, which also includes Amsterdam Museum",
+      "access_url": "http://data.dive.beeldengeluid.nl/sparql/"
+    }
+  ]
+}

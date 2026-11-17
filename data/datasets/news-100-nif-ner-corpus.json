@@ -1,0 +1,50 @@
+{
+  "identifier": "news-100-nif-ner-corpus",
+  "title": "News-100 NIF NER Corpus",
+  "description": {
+    "en": "This corpus comprises 100 German news articles from the online news platform news.de. All of the articles were published in the year of 2010 and contain the word Golf. This word is a homonym that can have the following meanings:\r\n* A gulf like the Gulf of Mexico or the Persian Gulf, \r\n* the ball sport or\r\n* a car model produced by the German manufacturer Volkswagen.\r\n\r\nOne researcher annotated the documents manually. Another researcher resolved occurring conflicts after supervising the corpus. Although the sport golf as well as the car are not within the class range of NER, they are kept for evaluation purposes"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 12289,
+  "contact_point": {
+    "name": "Ricardo Usbeck",
+    "email": "ricardo.usbeck@googlemail.com"
+  },
+  "keywords": [
+    "corpus",
+    "evaluation",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "ner",
+    "nif",
+    "rdf",
+    "training"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1547
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Complete corpus",
+      "description": "Complete corpus file in turtle format",
+      "access_url": "https://raw.githubusercontent.com/AKSW/n3-collection/master/News-100.ttl"
+    },
+    {
+      "title": "Documentation paper",
+      "description": "Title: N3 - A Collection of Datasets for Named Entity Recognition and Disambiguation in the NLP Interchange Format \r\nAuthors: Michael Röder, Ricardo Usbeck, Sebastian Hellmann, Daniel Gerber und Andreas Both \r\nIn: The 9th edition of the Language Resources and Evaluation Conference, 26-31 May, Reykjavik, Iceland",
+      "media_type": "application/pdf",
+      "access_url": "http://svn.aksw.org/papers/2014/LREC_N3NIFNERNED/public.pdf"
+    },
+    {
+      "title": "DataID",
+      "description": "Metadata description of the corpus",
+      "media_type": "text/turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-10-29T16:27:30.087Z/dataid.ttl"
+    }
+  ]
+}

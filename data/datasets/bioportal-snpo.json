@@ -1,0 +1,287 @@
+{
+  "identifier": "bioportal-snpo",
+  "title": "SNP-Ontology",
+  "description": {
+    "en": "SNP-Ontology is a domain ontology that provides a formal representation (OWL-DL) of genomic variations. Despite its name, SNP-Ontology, is not limited to the representation of SNPs but it encompasses genomic variations in a broader meaning. SNP-Ontology is general enough to enable the representation of variations observed in genome of various species. Latest versions of SNP-Ontology include the representation of haplotype and of CNV. The unambiguous representation of genomic variations provided by SNP-Ontology enables to integrate heterogeneous data related to genomic variations. To achieve this goal SNP-Ontology enables (1) to represent one variation in accordance with various ways that exist for describing it, (2) to represent the equivalence between two distinct descriptions of one variation, and (3) to represent correspondence between a genomic variation and its outcome at the transcriptome and proteome levels."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1058",
+  "triples": 42131,
+  "contact_point": {
+    "name": "Adrien Coulet"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-amino-acid",
+      "value": 65
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 30
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 27
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 59
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 48
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 53
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 15
+    },
+    {
+      "target": "bioportal-cdao",
+      "value": 71
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 64
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 12
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 117
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 21
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 41
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 27
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 52
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 12
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 60
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 20
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 20
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 48
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 12
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 11
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 14
+    },
+    {
+      "target": "bioportal-imgt",
+      "value": 13
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 10
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 141
+    },
+    {
+      "target": "bioportal-mao",
+      "value": 20
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 56
+    },
+    {
+      "target": "bioportal-mego",
+      "value": 31
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 213
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 29
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 201
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 304
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 43
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 111
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 1766
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 25
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 25
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 57
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 23
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 33
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 37
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 10
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 15
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 10
+    },
+    {
+      "target": "bioportal-peo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 73
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 15
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 41
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 16
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 38
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 174
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 76
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 2417
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 36
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 21
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 38
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 13
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/39215?apikey=BP_API_KEY"
+    }
+  ]
+}

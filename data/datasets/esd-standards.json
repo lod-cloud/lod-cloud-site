@@ -1,0 +1,52 @@
+{
+  "identifier": "esd-standards",
+  "title": "ESD Standards: Controlled lists for the UK public sector",
+  "description": {
+    "en": "Standard controlled vocabularies used within the UK public sector."
+  },
+  "domain": "government",
+  "website": "http://standards.esd.org.uk/",
+  "namespace": "http://id.esd.org.uk/",
+  "triples": 234230,
+  "contact_point": {
+    "email": "support@esd.org.uk"
+  },
+  "keywords": [
+    "country-uk",
+    "format-skos",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "ukgov"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 25
+    },
+    {
+      "target": "uk-legislation-api",
+      "value": 937
+    }
+  ],
+  "example": [
+    {
+      "title": "Annual review of child care provision and establishment/maintenance of information service",
+      "description": "Annual review of child care provision and establishment/maintenance of information service",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://id.esd.org.uk/duty/208.rdf"
+    },
+    {
+      "title": "Primary school places",
+      "description": "Dealing with requests for places at primary schools from parents of prospective pupils. Allocation of school places according to education authority policy.",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://id.esd.org.uk/service/13.rdf"
+    }
+  ]
+}

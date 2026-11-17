@@ -1,0 +1,67 @@
+{
+  "identifier": "bioportal-fao",
+  "title": "Fungal gross anatomy",
+  "description": {
+    "en": "A structured controlled vocabulary for the anatomy of fungi."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1019",
+  "triples": 1011,
+  "contact_point": {
+    "name": "Fungal_anatomy Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bto",
+      "value": 24
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 43
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 14
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 14
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 22
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45817?apikey=BP_API_KEY"
+    }
+  ]
+}

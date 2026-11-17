@@ -1,0 +1,75 @@
+{
+  "identifier": "core",
+  "title": "CORE - Semantic Similarity of Open Access publications",
+  "description": {
+    "en": "The CORE dataset contains information about similarities between scientific papers stored across Open Access repositories. The similarities are calculated using Natural Language Processing techniques based on the full-text.  The similarities are provided only for research articles with an accessible and machine readable full-text. More information about the data structure can be found at:http://core-project-local.kmi.open.ac.uk/data-description.\r\n\r\n#### RDF Statistics\r\n\r\nAt the moment we expose more than 92 million RDF triples describing similarities calculated on a set of more than 400k full-text articles harvested from over 230 Open Access repositories.\r\n\r\n#### Links\r\n\r\nThe data about the similarities are represented using the  MuSIM ontology (http://kakapo.dcs.qmul.ac.uk/ontology/musim/0.2/musim.html) BIBO ontologies (http://bibliontology.com/) with links to the OAI (RKBExplorer) repository available in the Linked Data cloud."
+  },
+  "domain": "media",
+  "website": "http://core-project.kmi.open.ac.uk/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://core.kmi.open.ac.uk/data/",
+  "triples": 101526714,
+  "contact_point": {
+    "name": "Petr Knoth",
+    "email": "p.knoth@open.ac.uk"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-rdfs",
+    "license-metadata",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "oai",
+    "openuniversity",
+    "publications",
+    "published-by-producer",
+    "similarity"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-oai",
+      "value": 200000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download data (application/rdf+xml)",
+      "description": "Main part of the dataset",
+      "access_url": "http://core-project.kmi.open.ac.uk/files/download_20120123.rdf"
+    },
+    {
+      "title": "voiD",
+      "description": "voiD Description of the CORE Dataset",
+      "access_url": "http://core-project.kmi.open.ac.uk/files/core-voiD.n3"
+    },
+    {
+      "title": "Data structure diagram",
+      "description": "Diagram of example RDF instance data.",
+      "access_url": "http://core-project.kmi.open.ac.uk/data-description"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource",
+      "description": "Example of a document resource and a simNode resource.",
+      "media_type": "text/xml;charset=UTF-8",
+      "access_url": "http://core-project.kmi.open.ac.uk/files/test.rdf"
+    },
+    {
+      "title": "RDF Example Link",
+      "description": "RDF example link to OAI",
+      "media_type": "text/xml;charset=UTF-8",
+      "access_url": "http://core-project.kmi.open.ac.uk/files/example-link.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint for CORE data",
+      "access_url": "http://core.kmi.open.ac.uk/squery"
+    }
+  ]
+}

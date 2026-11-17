@@ -1,0 +1,54 @@
+{
+  "identifier": "fu-berlin-stitch",
+  "title": "STITCH: Chemical-Protein Interactions",
+  "description": {
+    "en": "Linked Data version of STITCH which contains information on chemicals and proteins as well as their interactions and links. The links were derived from experiments, databases and the literature. STITCH contains interactions for over 68,000 chemicals and over 1.5 million proteins in 373 species."
+  },
+  "domain": "life_sciences",
+  "website": "http://www4.wiwiss.fu-berlin.de/stitch/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/stitch/resource/",
+  "triples": 55099700,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-chebi",
+      "value": 6882
+    },
+    {
+      "target": "bio2rdf-pubchem",
+      "value": 9840
+    },
+    {
+      "target": "dbpedia",
+      "value": 123
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/stitch/resource/organisms/Aeropyrum_pernix"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/stitch/sparql"
+    }
+  ]
+}

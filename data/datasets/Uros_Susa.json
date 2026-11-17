@@ -1,0 +1,19 @@
+{
+  "identifier": "Uros_Susa",
+  "title": "Legija",
+  "description": {
+    "en": "Najvisi Cin-Legija-\nU ime Legije"
+  },
+  "domain": "publications",
+  "website": "http://www.facebook.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "Americka Foka",
+  "triples": 10,
+  "contact_point": {
+    "name": "Uros Susa",
+    "email": "susauros56@yahoo.com"
+  },
+  "keywords": [
+    "Numbers"
+  ]
+}

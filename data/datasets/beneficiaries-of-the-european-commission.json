@@ -1,0 +1,71 @@
+{
+  "identifier": "beneficiaries-of-the-european-commission",
+  "title": "EU: fintrans.publicdata.eu",
+  "description": {
+    "en": "The names of the beneficiaries of ca. ?10 billion of grants and other forms of support, awarded (in budgetary terms: 'committed') by the Commission every year, either directly or through 'executive agencies' set up to help it run EU funded programmes. The site also contains certain procurement contracts, excluding for the moment those linked to administrative expenditure of the Commission.\r\nThis information is separate from information on funds managed by EU or non-EU national governments or other parties on the behalf of the Commission.\r\nThe original site of the European Commission shows only lists of awarded amounts and beneficiaries - it does not provide amounts consolidated per country, budget line, etc. .\r\nThe original dataset can be found at EU Commission Financial Transparency System which is also listed at ckan."
+  },
+  "website": "http://fintrans.publicdata.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://fintrans.publicdata.eu/ec/resource/",
+  "triples": 1897840,
+  "contact_point": {
+    "name": "Michael Martin",
+    "email": "martin@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "budget",
+    "business",
+    "date-2007",
+    "date-2008",
+    "date-2009",
+    "deref-vocab",
+    "eu",
+    "european-commission",
+    "finance",
+    "financial",
+    "format-foaf",
+    "format-html",
+    "format-rdf",
+    "fts",
+    "government",
+    "latc",
+    "linked-data",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "ontowiki",
+    "procurement",
+    "published-by-third-party",
+    "region-eu",
+    "system",
+    "transparency"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 199168
+    }
+  ],
+  "other_download": [
+    {
+      "description": "HTML Web Interface over OntoWiki",
+      "access_url": "http://fintrans.publicdata.eu/"
+    },
+    {
+      "description": "HTML Web Interface over OntoWiki : link to model resource",
+      "access_url": "http://fintrans.publicdata.eu/ec/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource (Subvention SCR.706541.1)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://fintrans.publicdata.eu/ec/resource/su/SCR.706541.1"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql Endpoint",
+      "access_url": "http://fintrans.publicdata.eu/sparql"
+    }
+  ]
+}

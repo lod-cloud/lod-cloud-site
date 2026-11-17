@@ -1,0 +1,69 @@
+{
+  "identifier": "GTS",
+  "title": "Geological Timescale",
+  "description": {
+    "en": "RDF representation of the Geological Timescale, as described in the International Chronostratigraphic Chart from the International Commission on Stratigraphy."
+  },
+  "domain": "geography",
+  "website": "https://github.com/CGI-IUGS/timescale-data",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://resource.geosciml.org/classifier/ics/ischart/",
+  "triples": 15421,
+  "doi": "10.25919/5f0510d750f67",
+  "contact_point": {
+    "name": "Simon Cox",
+    "email": "simon.cox@csiro.au"
+  },
+  "keywords": [
+    "stratigraphy",
+    "geology",
+    "timescale",
+    "chronology",
+    "reference system",
+    "time"
+  ],
+  "links": [
+    {
+      "target": "GTS-ont",
+      "value": 1700
+    },
+    {
+      "target": "dbpedia",
+      "value": 342
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Geological Timescale - 2020 edition - TTL",
+      "description": "Download TTL from Research Vocabularies Australia",
+      "download_url": "https://vocabs.ardc.edu.au/registry/api/resource/downloads/1211/isc2020.ttl"
+    },
+    {
+      "title": "Geological Timescale - 2020 edition - JSON-LD",
+      "description": "Download JSON-LD from Research Vocabularies Australia",
+      "media_type": "application/ld+json;charset=UTF-8",
+      "download_url": "https://vocabs.ardc.edu.au/registry/api/resource/downloads/1213/csiro_international-chronostratigraphic-chart_geologic-time-scale-2020.jsonld"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Geological Timescale - 2020 edition - TTL",
+      "description": "Download from GitHub",
+      "access_url": "http://raw.githack.com/CGI-IUGS/timescale-data/master/rdf/isc2020.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Jurassic Period in TTL",
+      "description": "Graph for Jurassic period",
+      "access_url": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/international-chronostratigraphic-chart/geologic-time-scale-2020/resource.ttl?uri=http://resource.geosciml.org/classifier/ics/ischart/Jurassic"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Geological Timescale - 2020 edition - SPARQL Endpoint",
+      "description": "SPARQL Endpoint from Research Vocabularies Australia",
+      "access_url": "http://vocabs.ardc.edu.au/repository/api/sparql/csiro_international-chronostratigraphic-chart_geologic-time-scale-2020"
+    }
+  ]
+}

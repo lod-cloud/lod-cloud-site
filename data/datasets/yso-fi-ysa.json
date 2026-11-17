@@ -1,0 +1,27 @@
+{
+  "identifier": "yso-fi-ysa",
+  "title": "yso-fi-ysa",
+  "domain": "publications",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-rdf",
+    "format-skos",
+    "lodcloud-diagram-2014-08-30",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "yso-fi-allars",
+      "value": 29657
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://www.yso.fi/onto/ysa/Y99974?rdf=xml"
+    }
+  ]
+}

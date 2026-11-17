@@ -1,0 +1,42 @@
+{
+  "identifier": "AntiqueCarsCollection",
+  "title": "Antique Cars Collection (Linked Cars)",
+  "description": {
+    "en": "This dataset concerns a collection of 21 antique cars owned by different organizations around the world. It has been used in a proof-of-concept Semantic Web application (demonstrating Web components and JSON-LD data).\nCreated by Markopoulos Athanasios, student of the University of the Aegean, Dept. of Cultural Technology and Communication, 2021 (as part of his graduate thesis)."
+  },
+  "domain": "user_generated",
+  "website": "http://linkedcars.mywebcommunity.org/Main.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 504,
+  "image": "https://ibb.co/9VMcqG0",
+  "contact_point": {
+    "name": "Kotis Konstantinos",
+    "email": "kotis@aegean.gr"
+  },
+  "keywords": [
+    "Linked Data",
+    "Antique Cars",
+    "Cars",
+    "Web Components",
+    "JSON-LD",
+    "Car Collection"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 21
+    },
+    {
+      "target": "wikidata",
+      "value": 25
+    }
+  ],
+  "full_download": [
+    {
+      "title": "LinkedCars.json",
+      "description": "JSON-LD encoding of antique cars collection (Linked Cars)",
+      "media_type": "application/ld+json",
+      "download_url": "http://linkedcars.mywebcommunity.org/LinkedCars.json"
+    }
+  ]
+}

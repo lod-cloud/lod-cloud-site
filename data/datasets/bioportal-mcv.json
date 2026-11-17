@@ -1,0 +1,115 @@
+{
+  "identifier": "bioportal-mcv",
+  "title": "MIxS Controlled Vocabularies",
+  "description": {
+    "en": "Controlled vocabularies for the MIxS family of metadata checklists. See http://gensc.org/gc_wiki/index.php/MIxS for details on the MIxS checklists."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3000",
+  "triples": 3121,
+  "contact_point": {
+    "name": "Doug Wendel"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-adw",
+      "value": 11
+    },
+    {
+      "target": "bioportal-atmo",
+      "value": 41
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 18
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 73
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 178
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 29
+    },
+    {
+      "target": "bioportal-envo",
+      "value": 37
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 12
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 294
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 43
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 29
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 467
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 248
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 285
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 206
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 197
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 232
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46823?apikey=BP_API_KEY"
+    }
+  ]
+}

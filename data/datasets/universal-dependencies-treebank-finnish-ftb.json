@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-finnish-ftb",
+  "title": "Universal Dependencies Treebank Finnish-FTB",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Finnish-FTB treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Finnish-FTB",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 159314,
+  "contact_point": {
+    "name": "Piitulainen, Jussi; Nurmi, Hanna"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Finnish-FTB Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Finnish-FTB/archive/master.zip"
+    },
+    {
+      "title": "UD_Finnish-FTB RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/32284135-64fb-4042-9de9-eec4aad43cb2/resource/694dc13a-9117-4c71-a9ef-0a9c6878f9e0/download/udfinnish-ftb.rdf"
+    }
+  ]
+}

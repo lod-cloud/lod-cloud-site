@@ -1,0 +1,79 @@
+{
+  "identifier": "bioportal-imgt",
+  "title": "IMGT-ONTOLOGY",
+  "description": {
+    "en": "IMGT-ONTOLOGY is the first ontology for immunogenetics and immunoinformatics. It provides a semantic specification of the terms to be used in immunogenetics and immunoinformatics and manages the related knowledge, thus allowing the standardization for immunogenetics data from genome, proteome, genetics, two-dimensional (2D) and three-dimensional (3D) structures.\r\nIMGT-ONTOLOGY manages the knowledge through diverse facets relying on seven axioms, \"IDENTIFICATION\", \"CLASSIFICATION\", \"DESCRIPTION\", \"NUMEROTATION\", \"LOCALIZATION\", \"ORIENTATION\" and \"OBTENTION\". These axioms postulate that any object, any process and any relation can be identified, classified, described, numbered, localized and orientated, and the way it is obtained can be characterized. The axioms constitute the Formal IMGT-ONTOLOGY, also designated as IMGT-Kaleidoscope. As the same axioms can be used to generate concepts for multi-scale level approaches, the Formal IMGT-ONTOLOGY represents a paradigm for system biology ontologies, which need to identify, to classify, to describe, to number, to localize and to orientate objects, processes and relations at the molecule, cell, tissue, organ, organism or population levels.\r\nIMGT®, the international ImMunoGeneTics information system®, has been built on IMGT-ONTOLOGY.\r\nThe version 1.0.1 of IMGT-ONTOLOGY, edited with Protégé (v4.2.0), includes the concepts of IDENTIFICATION which are \"ChainType\", \"Classtype\", \"ConfigurationType\", \"EntityType\", \"FormatType\", \"FunctionalityType\", \"GeneType\", \"LevelChainType\", \"LocationType\", \"MolecularComponent\", \"MoleculeType\", \"MoleculeUnit\",  \"StructureType\", and  \"TaxonRank\"."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1491",
+  "triples": 8283,
+  "contact_point": {
+    "name": "Véronique Giudicelli, Patrice Duroux, Professor Marie-Paule Lefranc"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 13
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 13
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 10
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 16
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 48
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 35
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 21
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 20
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 20
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46787?apikey=BP_API_KEY"
+    }
+  ]
+}

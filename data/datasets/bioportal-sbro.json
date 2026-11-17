@@ -1,0 +1,59 @@
+{
+  "identifier": "bioportal-sbro",
+  "title": "Smoking Behavior Risk Ontology",
+  "description": {
+    "en": "An ontology representing a causal model of smoking behavior risk, including genetic and environmental components.  It also includes concepts for describing smoking-related phenotypes."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1249",
+  "triples": 738,
+  "contact_point": {
+    "name": "Paul Thomas"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-lnc",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 18
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 24
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44448?apikey=BP_API_KEY"
+    }
+  ]
+}

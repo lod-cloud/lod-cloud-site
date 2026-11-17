@@ -1,0 +1,50 @@
+{
+  "identifier": "national-diet-library-subject-headings",
+  "title": "National Diet Library of Japan subject headings",
+  "description": {
+    "en": "duplicate:national-diet-library-authorities"
+  },
+  "domain": "government",
+  "website": "http://id.ndl.go.jp/auth/ndlsh",
+  "namespace": "http://id.ndl.go.jp/auth/ndlsh/",
+  "triples": 1294669,
+  "contact_point": {
+    "name": "Kanzaki Masahide",
+    "email": "mkanzaki@gmail.com"
+  },
+  "keywords": [
+    "duplicate",
+    "lodcloud-diagram-2011-09-19",
+    "meta.duplicate"
+  ],
+  "links": [
+    {
+      "target": "lcsh",
+      "value": 588
+    }
+  ],
+  "other_download": [
+    {
+      "description": "SPARQL query form",
+      "access_url": "http://id.ndl.go.jp/auth/docs/sparql"
+    },
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://id.ndl.go.jp/auth/files/ndlsh-rdf.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example subject (RDF/XML)",
+      "media_type": "application/ld+json; charset=utf-8",
+      "access_url": "http://id.ndl.go.jp/auth/ndlsh/01017771"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://id.ndl.go.jp/auth/ndlsh/"
+    }
+  ]
+}

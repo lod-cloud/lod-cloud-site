@@ -1,0 +1,22 @@
+{
+  "identifier": "NoiPA",
+  "title": "NoiPA",
+  "description": {
+    "en": "Open Data NoiPA is a project created to make available, transparent and fully usable the extensive information assets managed by the Information and Innovation Systems Department of the Ministry of Economy and Finance."
+  },
+  "domain": "government",
+  "website": "https://noipa.mef.gov.it",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "triples": 340000000,
+  "image": "https://dati-noipa.mef.gov.it/cl/o/noipa-theme-opendata/images/noipa/NoiPaLogo.png",
+  "contact_point": {
+    "name": "NoiPA",
+    "email": "black@email.it"
+  },
+  "sparql": [
+    {
+      "title": "NoiPA SPARQL Endpoint",
+      "access_url": "https://sparql-noipa.mef.gov.it/sparql"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "identifier": "SocialLink",
+  "title": "SocialLink",
+  "description": {
+    "en": "We present SocialLink, a publicly available Linked Open Data dataset that matches social media accounts on Twitter to the corresponding entities in multiple language chapters of DBpedia. By effectively bridging the Twitter social media world and the Linked Open Data cloud, SocialLink enables knowledge transfer between the two: on the one hand, it supports Semantic Web practitioners in better harvesting the vast amounts of valuable, up-to-date information available in Twitter; on the other hand, it permits Social Media researchers to leverage DBpedia data when processing the noisy, semi-structured data of Twitter."
+  },
+  "domain": "social_networking",
+  "website": "http://sociallink.futuro.media",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://sociallink.futuro.media/ontology",
+  "triples": 80101425,
+  "doi": "10.5281/zenodo.1451797",
+  "image": "https://zenodo.org/api/iiif/v2/7fe750b6-94b1-40be-b706-2a5796edd6d7:7907f006-a60b-47ca-8c44-d633373a0cc0:approach.png/full/750,/0/default.png",
+  "contact_point": {
+    "name": "Yaroslav Nechaev",
+    "email": "remper@me.com"
+  },
+  "keywords": [
+    "twitter",
+    "social media",
+    "dbpedia",
+    "machine learning"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 643235
+    }
+  ],
+  "full_download": [
+    {
+      "title": "SocialLink RDF version",
+      "media_type": "application/x-gzip",
+      "download_url": "http://sociallink.futuro.media/v3.0/sociallink.final.tql.gz"
+    },
+    {
+      "title": "Complete SocialLink on Zenodo",
+      "download_url": "https://zenodo.org/record/1451797"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SocialLink's SPARQL endpoint",
+      "access_url": "http://sociallink.futuro.media/sparql"
+    }
+  ]
+}

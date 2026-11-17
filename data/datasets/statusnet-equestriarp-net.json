@@ -1,0 +1,33 @@
+{
+  "identifier": "statusnet-equestriarp-net",
+  "title": "statusnet-equestriarp-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://equestriarp.net"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 141
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://equestriarp.net/efflora/foaf"
+    }
+  ]
+}

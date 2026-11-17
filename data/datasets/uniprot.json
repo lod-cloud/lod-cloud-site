@@ -1,0 +1,58 @@
+{
+  "identifier": "uniprot",
+  "title": "UniProt",
+  "description": {
+    "en": "### About\r\n\r\nData exposed: a large life sciences data set about proteins and their function.\r\n\r\n### Openness\r\n\r\nNot open. [Copyright page](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/README) states:\r\n\r\nCopyright 2007-2012 UniProt Consortium. We have chosen to apply the Creative Commons Attribution-NoDerivs License (http://creativecommons.org/licenses/by-nd/3.0/) to all copyrightable parts (http://sciencecommons.org/) of our databases. This means that you are free to copy, distribute, display and make commercial use of these databases, provided you give us credit. However, if you intend to distribute a modified version of one of our databases, you must ask us for permission first. All databases and documents in the UniProt FTP directory may be copied and redistributed freely, without advance permission, provided that this copyright statement is reproduced with each copy."
+  },
+  "domain": "life_sciences",
+  "website": "http://www.uniprot.org/",
+  "namespace": "http://purl.uniprot.org/",
+  "triples": 13081788247,
+  "contact_point": {
+    "name": "Swiss Institute of Bioinformatics"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "format-uniprot",
+    "lifesciences",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "go",
+      "value": 183549278
+    }
+  ],
+  "other_download": [
+    {
+      "title": "FTP",
+      "description": "Download",
+      "media_type": "RDF",
+      "access_url": "http://ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/void.rdf"
+    },
+    {
+      "description": "Example citation",
+      "access_url": "http://purl.uniprot.org/citations/12116199"
+    },
+    {
+      "description": "Example protein",
+      "access_url": "http://purl.uniprot.org/uniprot/Q5VVX1"
+    },
+    {
+      "description": "Vocabulary (OWL)",
+      "access_url": "http://purl.uniprot.org/core/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://sparql.uniprot.org"
+    }
+  ]
+}

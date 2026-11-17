@@ -1,0 +1,33 @@
+{
+  "identifier": "cipfa",
+  "title": "CIPFA",
+  "description": {
+    "en": "Chartered Institute of Public Finance and Accountancy"
+  },
+  "website": "http://www.cipfa.org.uk",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "deref-vocab",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "government",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "esd-standards",
+      "value": 1158
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://doc.cipfa.org.uk/Objective/1063.rdf"
+    }
+  ]
+}

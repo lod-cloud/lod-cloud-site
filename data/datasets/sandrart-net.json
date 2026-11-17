@@ -1,0 +1,56 @@
+{
+  "identifier": "sandrart-net",
+  "title": "sandrart.net",
+  "description": {
+    "en": "This dataset offers objects (persons, places, works of art, bibliographic items as well as their relations) from an online edition of Joachim von Sandrart’s “Teutsche Academie der Bau-, Bild- und Mahlerey-Künste”, a German three-volume book from the late 17th century.\r\n\r\nPlease note: Data is not yet complete."
+  },
+  "domain": "cross_domain",
+  "website": "http://ta.sandrart.net/edition-information/services/linked-open-data-rdf/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 140000,
+  "contact_point": {
+    "name": "Various"
+  },
+  "keywords": [
+    "art",
+    "art-history",
+    "arts",
+    "crossdomain",
+    "format-ecrm",
+    "format-foaf",
+    "format-geonames",
+    "format-rdaGr2",
+    "lod",
+    "no-proprietary-vocab",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 2970
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 425
+    },
+    {
+      "target": "viaf",
+      "value": 2880
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Data dump",
+      "description": "RDF dump",
+      "media_type": "RDF",
+      "access_url": "http://ta.sandrart.net/data/lod.rdf.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example person",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://ta.sandrart.net/-person-2162"
+    }
+  ]
+}

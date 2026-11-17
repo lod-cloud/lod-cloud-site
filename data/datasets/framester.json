@@ -1,0 +1,50 @@
+{
+  "identifier": "framester",
+  "title": "Framester",
+  "description": {
+    "en": "The Framester resource is the main outcome of the framester project (https://w3id.org/framester). All the RDF files are serialized in TURTLE format. The corresponding triples can be also found uploaded on the Framester's SPARQL endpoint available at (https://w3id.org/framester/sparql).\r\nA series of statistics (e.g. number of triples, predicats, classes) are available at (https://w3id.org/framester/stats) of the dataset are available.\r\nThe void description of the dataset is available at https://w3id.org/framester/dataset"
+  },
+  "website": "https://w3id.org/framester",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://w3id.org/framester",
+  "triples": 32105685,
+  "contact_point": {
+    "name": "Aldo Gangemi",
+    "email": "aldo.gangemi@cnr.it"
+  },
+  "keywords": [
+    "BabelNet",
+    "D0",
+    "DOLCE",
+    "FoundationalOntologies",
+    "Frame",
+    "FrameNet",
+    "Framester",
+    "LOD",
+    "Semantics",
+    "VerbNet",
+    "WordNet",
+    "llod"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 171296
+    },
+    {
+      "target": "dbpedia",
+      "value": 6100025
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Framester",
+      "description": "This archive contains the Framester resource, the main outcome of the framester project (https://w3id.org/framester). All the RDF files are serialized in TURTLE format. The corresponding triples can be also found uploaded on the Framester's SPARQL endpoint available at (https://w3id.org/framester/sparql).\r\nA series of statistics (e.g. number of triples, predicats, classes) are available at (https://w3id.org/framester/stats) of the dataset are available.",
+      "access_url": "https://doi.org/10.6084/m9.figshare.4994537"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "https://w3id.org/framester/sparql"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "identifier": "data-incubator-discogs",
+  "title": "Discogs in RDF",
+  "description": {
+    "en": "This dataset contains information about audio recordings, including commercial releases, promotional releases and bootleg or off-label releases. Discogs is one of the largest online databases of electronic music releases and of releases on vinyl media. The source data comes from submissions contributed by users who have registered accounts on discogs.com. This version is based on the regularly monthly data releases from the website which have been placed into the Public Domain.\r\n\r\n*Note* this RDF version of Discogs is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "media",
+  "website": "http://kasabi.com/dataset/discogs",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://kasabi.com/dataset/discogs",
+  "triples": 191968935,
+  "contact_point": {
+    "name": "Leigh Dodds",
+    "email": "leigh@ldodds.com"
+  },
+  "keywords": [
+    "format-dc",
+    "format-exif",
+    "format-foaf",
+    "format-mo",
+    "format-owl",
+    "format-rdf",
+    "format-sioc",
+    "license-metadata",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "music",
+    "records"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 1740
+    },
+    {
+      "target": "dbpedia",
+      "value": 5169
+    },
+    {
+      "target": "dbtune-myspace",
+      "value": 6350
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to internet archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/discogs.gz"
+    }
+  ]
+}

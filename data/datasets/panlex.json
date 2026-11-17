@@ -1,0 +1,63 @@
+{
+  "identifier": "panlex",
+  "title": "PanLex",
+  "description": {
+    "en": "A lexical database documenting translations among lexemes of language varieties."
+  },
+  "domain": "linguistics",
+  "website": "http://panlex.org",
+  "namespace": "http://ld.panlex.org/plx/",
+  "triples": 786205297,
+  "contact_point": {
+    "name": "PanLex",
+    "email": "info@panlex.org"
+  },
+  "keywords": [
+    "lexicon",
+    "linguistics",
+    "machine_translation"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2536556
+    },
+    {
+      "target": "lexvo",
+      "value": 372
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page",
+      "description": "Download page",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://ld.panlex.org/downloads/releases/"
+    },
+    {
+      "title": "Documentation page",
+      "description": "Documentation page",
+      "media_type": "text/html",
+      "access_url": "http://ld.panlex.org/rdf.html"
+    },
+    {
+      "title": "N-triples dump (2013-02-14)",
+      "description": "N-triples dump (2013-02-14)",
+      "media_type": "text/ntriples",
+      "access_url": "http://ld.panlex.org/downloads/releases/2013-02-14/2013-02-14-panlex-dump.nt"
+    },
+    {
+      "title": "Ontology (2013-02-14)",
+      "description": "Ontology (2013-02-14)",
+      "media_type": "text/turtle",
+      "access_url": "http://ld.panlex.org/downloads/releases/2013-02-14/2013-02-14-panlex-ontology.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://ld.panlex.org/sparql"
+    }
+  ]
+}

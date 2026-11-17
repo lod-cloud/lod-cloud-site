@@ -1,0 +1,71 @@
+{
+  "identifier": "bioportal-mmo",
+  "title": "Measurement Method Ontology",
+  "description": {
+    "en": "The Measurement Method Ontology is designed to represent the variety of methods used to make qualitative and quantitative clincial and phenotype measurements both in the clinic and with model organisms."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1584",
+  "triples": 2018,
+  "contact_point": {
+    "name": "Mary Shimoyama"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-csp",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 11
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 11
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 42
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 20
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 17
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 43
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47158?apikey=BP_API_KEY"
+    }
+  ]
+}

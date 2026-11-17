@@ -1,0 +1,22 @@
+{
+  "identifier": "wl-kg",
+  "title": "The World Literature Knowledge Graph",
+  "description": {
+    "en": "Digital media have enabled the access to unprecedented literary knowledge. Authors, readers, and scholars are now able to discover and share an increasing amount of information about books and their authors. However, these sources of knowledge are fragmented and do not adequately represent non-Western writers and their works. In this paper we present The World Literature Knowledge Graph, a semantic resource containing 194 , 346 writers and 965, 210 works, specifically designed for\nexploring facts about literary works and authors from different parts of the world. The knowledge graph integrates information about the reception of literary works gathered from 3 different communities of readers, aligned according to a single semantic model. The resource is accessible through an online visualization platform, which can be found at the following URL: https://literaturegraph.di.unito.it/3. This platform has been rigorously tested and validated by 3 distinct categories of experts who have found it to be highly beneficial for their respective work domains. These categories include teachers, researchers in the humanities, and professionals in the publishing industry. The feedback received from these experts confirms that they can effectively utilize the platform to enhance their work processes and achieve valuable outcomes."
+  },
+  "domain": "cross_domain",
+  "website": "https://literaturegraph.di.unito.it/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 4,
+  "doi": "10.5281/zenodo.13830349",
+  "contact_point": {
+    "name": "Marco Antonio Stranisci",
+    "email": "marcoantonio.stranisci@unito.it"
+  },
+  "sparql": [
+    {
+      "title": "WL-KG SPARQL endpoint",
+      "access_url": "https://kgccc.di.unito.it/sparql/"
+    }
+  ]
+}

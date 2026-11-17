@@ -1,0 +1,63 @@
+{
+  "identifier": "influence-tracker-dataset",
+  "title": "Influence Tracker Dataset",
+  "description": {
+    "en": "Datasets regarding the Influence Tracker (http://www.influencetracker.com) service.\r\nThe SPARQL endpoint can be found at http://www.influencetracker.com:8890/sparql ."
+  },
+  "website": "http://www.influencetracker.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.influencetracker.com/resource/",
+  "contact_point": {
+    "name": "Gerasimos Razis",
+    "email": "makisraz@gmail.com"
+  },
+  "keywords": [
+    "LOD",
+    "access-api",
+    "access-bulk",
+    "access-www",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "influence",
+    "microblog",
+    "network",
+    "ontology",
+    "rdf",
+    "social",
+    "socialweb",
+    "twitter",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 390
+    }
+  ],
+  "other_download": [
+    {
+      "title": "The full dataset",
+      "description": "The full _Influence Tracker_ dataset. The compressed file (318 MB) contains all the triples (26.600.990) of the following graphs:\r\n\r\n1. http://influenceTracker/twitterGraph : Twitter related information of accounts (26.586.210 triples)\r\n2. http://influenceTracker/twitterSimilarity : Similar accounts (in terms of diffused content) (14.273 triples)\r\n3. http://influenceTracker/dbpediaGraph : DBpedia related information (relating DBpedia and InfluenceTracker URIs) (406 triples)\r\n4. http://influenceTracker/elodGraph : Relates InfluenceTracker and eLOD URIs (101 triples)",
+      "access_url": "https://www.dropbox.com/s/y1cjh9m8zls1qcy/IT%20graphs%202017-11-20.rar?dl=0"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "The OWL file of the InfluenceTracker ontology",
+      "access_url": "http://www.influencetracker.com/ontology#"
+    },
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "description": "Link to an example data item within the dataset (RDF/XML). The actual URI is http://www.influencetracker.com/resource/User/barackobama, which redirects via 303 to application/rdf+xml.",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/22501d75-4348-4e67-a1c2-7ecf58420ff7/resource/05eb2dfa-97e6-45ba-8aec-3b9ac3b8e826/download/barackobama.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "The SPARQL endpoint of \"Infulence Tracker\" service",
+      "access_url": "http://www.influencetracker.com:8890/sparql"
+    }
+  ]
+}

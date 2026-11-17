@@ -1,0 +1,144 @@
+{
+  "identifier": "rkb-explorer-budapest",
+  "title": "Budapest University of Technology and Economics (RKBExplorer)",
+  "description": {
+    "en": "Linked Data version of the data supplied from Budapest University of Technology and Economics."
+  },
+  "domain": "publications",
+  "website": "http://budapest.rkbexplorer.com/",
+  "namespace": "http://budapest.rkbexplorer.com/id/",
+  "triples": 42378,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 86
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 100
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 172
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 38
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-italy",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 38
+    },
+    {
+      "target": "rkb-explorer-lisbon",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 9
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 42
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 24
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 19
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 7
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 5
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://budapest.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://budapest.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://budapest.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://budapest.rkbexplorer.com/id/person-0eae26b92535edf8537257d195f5e5d3"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://budapest.rkbexplorer.com/sparql/"
+    }
+  ]
+}

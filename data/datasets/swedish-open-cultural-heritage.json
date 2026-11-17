@@ -1,0 +1,68 @@
+{
+  "identifier": "swedish-open-cultural-heritage",
+  "title": "Swedish Open Cultural Heritage",
+  "description": {
+    "en": "SOCH is a set of 10 million cultural heritage objects harvested from a large number of museums and other local, regional and national cultural heritage organizations.\n\nDifferent Creative Commons licenses are used for different datasets in SOCH. The main goal is to provide as open licenses as possible."
+  },
+  "domain": "publications",
+  "website": "http://www.ksamsok.se/in-english/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://kulturarvsdata.se/",
+  "triples": 1000000000,
+  "contact_point": {
+    "name": "-",
+    "email": "ksamsok@raa.se"
+  },
+  "keywords": [
+    "cultural",
+    "cultural-institutions",
+    "culturalheritage",
+    "format-dc",
+    "linked-open-data",
+    "lod",
+    "lodcloud.nolinks",
+    "no-deref-vocab",
+    "openaccess",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "europeana-lod-v1",
+      "value": 1000000
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 10000
+    },
+    {
+      "target": "libris",
+      "value": 10000
+    },
+    {
+      "target": "viaf",
+      "value": 10000
+    },
+    {
+      "target": "wikidata",
+      "value": 5000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "void",
+      "description": "Enterence page for browsing the data",
+      "access_url": "http://kringla.nu"
+    },
+    {
+      "title": "API Documentation",
+      "description": "description for how to use the SOCH API",
+      "access_url": "http://www.ksamsok.se/in-english/api/"
+    },
+    {
+      "title": "Sample record",
+      "description": "RDF sample",
+      "access_url": "http://kulturarvsdata.se/nomu/object/rdf/NM0200898"
+    }
+  ]
+}

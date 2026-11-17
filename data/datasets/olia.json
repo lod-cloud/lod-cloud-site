@@ -1,0 +1,67 @@
+{
+  "identifier": "olia",
+  "title": "OLiA",
+  "description": {
+    "en": "The Ontologies of Linguistic Annotations (OLiA) provide an OWL/DL taxonomy of data categories as a reference for linguistic annotation (OLiA Reference Model), plus OWL/DL models for a large number of annotation schemes (OLiA Annotation Models) and their relationship to reference data categories (OLiA Linking Models).\r\nThe OLiA Reference Model itself is linked to community-maintained repositories such as GOLD (http://linguistics-ontology.org/) and ISOcat (http://www.isocat.org)\r\n\r\nThe OLiA ontologies were originally developed as part of an infrastructure for the sustainable maintenance of linguistic resources (http://www.sfb441.uni-tuebingen.de/c2/index-engl.html), their fields of application include the formalization of annotation schemes, concept-based querying over heterogeneously annotated corpora, and the development of interoperable NLP pipelines."
+  },
+  "domain": "linguistics",
+  "website": "http://purl.org/olia",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 43775,
+  "contact_point": {
+    "name": "Christian Chiarcos",
+    "email": "christian.chiarcos@web.de"
+  },
+  "keywords": [
+    "annotation",
+    "corpus",
+    "crossdomain",
+    "language_description",
+    "linguistics",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "nlp",
+    "terminology"
+  ],
+  "links": [
+    {
+      "target": "gold",
+      "value": 264
+    },
+    {
+      "target": "isocat",
+      "value": 361
+    },
+    {
+      "target": "tds",
+      "value": 83
+    }
+  ],
+  "full_download": [
+    {
+      "title": "full data set",
+      "description": "Latest download from Sourceforge, including the Reference Model, released Annotation Models, and their linking.\r\nDoes not include experimental Annotation Models and extensions.",
+      "download_url": "https://sourceforge.net/projects/olia/files/latest/download"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Documentation",
+      "description": "Contains download links for the OLiA Reference Model and the OLiA Annotation Models",
+      "access_url": "http://purl.org/olia"
+    },
+    {
+      "title": "OLiA Reference Model",
+      "description": "Core taxonomy",
+      "access_url": "http://purl.org/olia/olia.owl"
+    }
+  ],
+  "example": [
+    {
+      "title": "JJ tag from Penn tag set",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://purl.org/olia/penn.owl#JJ"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-croatian",
+  "title": "Universal Dependencies Treebank Croatian",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Croatian treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Croatian",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 139023,
+  "contact_point": {
+    "name": "Agić, Željko; Ljubešić, Nikola"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Croatian Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Croatian/archive/master.zip"
+    },
+    {
+      "title": "UD_Croatian RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/40a0a2ef-9736-45fe-bf59-afd7db934929/resource/fe313ade-b4d4-4de2-b362-af115381d06f/download/udcroatian.rdf"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "identifier": "statusnet-tekk-com-ar",
+  "title": "statusnet-tekk-com-ar",
+  "description": {
+    "en": "StatusNet instance hosted at http://tekk.com.ar"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 5
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 4
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 12
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 5
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://tekk.com.ar/statusnet/tekk/foaf"
+    }
+  ]
+}

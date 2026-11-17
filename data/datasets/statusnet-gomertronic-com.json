@@ -1,0 +1,110 @@
+{
+  "identifier": "statusnet-gomertronic-com",
+  "title": "statusnet-gomertronic-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://gomertronic.com"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 16
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 40
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 4
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 4
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 9
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 4
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 4
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 40
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 6
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 7
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 4
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dent.gomertronic.com/gomerx/foaf"
+    }
+  ]
+}

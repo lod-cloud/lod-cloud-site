@@ -1,0 +1,66 @@
+{
+  "identifier": "rkb-explorer-ecs",
+  "title": "School of Electronics and Computer Science, University of Southampton",
+  "description": {
+    "en": "Semantic repository that contains and publishes co-reference information, forming the underlying distributed storage model behind the RKB Explorer initiative."
+  },
+  "domain": "cross_domain",
+  "website": "http://ecs.rkbexplorer.com",
+  "namespace": "http://ecs.rkbexplorer.com/id/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 552
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://ecs.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://ecs.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://ecs.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.rkbexplorer.com/ontologies/coref#coreferenceData"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://ecs.rkbexplorer.com/sparql"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "identifier": "my-experiment",
+  "title": "myExperiment",
+  "description": {
+    "en": "[myExperiment](http://www.myexperiment.org) is a social web site for researchers sharing scientific workflows and \"packs\" (aggregations of resources).\r\n\r\nAs of September 2010 it has several thousand members and a collection of around 1300 workflows, 350 files and 130 packs. It is the largest public collection of scientific workflows.\r\n\r\nmyExperiment contains user-generated content, The RDF description of the public content is available under PDDL, while the actual user-generated content has separate licenses on a per-item basis.\r\n\r\nThe site was the subject of the keynote \"[Repositories and Linked Open Data: the view from myExperiment](http://www.myexperiment.org/packs/131)\" by David De Roure at Open Repositories 2010 in Madrid, Spain.\r\n\r\nmyExperiment has three sister projects:\r\n\r\n* The [BioCatalogue](http://www.biocatalogue.org/) - see package:biocatalogue\r\n* [SysmoDB](http://www.sysmo-db.org/) - see package:sysmo-db\r\n* [MethodBox](http://www.methodbox.org/)"
+  },
+  "domain": "user_generated",
+  "website": "http://www.myexperiment.org",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "triples": 660342,
+  "contact_point": {
+    "name": "David De Roure",
+    "email": "david.deroure@oerc.ox.ac.uk"
+  },
+  "keywords": [
+    "bioinformatics",
+    "deref-vocab",
+    "format-dbo",
+    "format-dc",
+    "format-foaf",
+    "format-ore",
+    "format-rdf",
+    "format-sioc",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "openscience",
+    "provenance-metadata",
+    "published-by-third-party",
+    "reproducible",
+    "science",
+    "usergeneratedcontent",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2586
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 168
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 48
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://rdf.myexperiment.org/myexperiment.rdf.gz"
+    },
+    {
+      "description": "VoiD description updated daily",
+      "media_type": "meta/void",
+      "access_url": "http://rdf.myexperiment.org/void.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example workflow (RDF/XML)",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://www.myexperiment.org/workflows/12"
+    },
+    {
+      "description": "Example user (RDF/XML)",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://www.myexperiment.org/users/26"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://rdf.myexperiment.org/sparql/"
+    }
+  ]
+}

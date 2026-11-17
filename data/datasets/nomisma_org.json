@@ -1,0 +1,51 @@
+{
+  "identifier": "nomisma_org",
+  "title": "Nomisma.org",
+  "description": {
+    "en": "Nomisma.org is an international collaborative project to define the intellectual concepts of numismatics following the principles of Linked Open Data"
+  },
+  "domain": "cross_domain",
+  "website": "http://nomisma.org",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "namespace": "http://nomisma.org/",
+  "triples": 0,
+  "image": "https://avatars2.githubusercontent.com/u/5949443",
+  "contact_point": {
+    "name": "Ethan Gruber",
+    "email": "ewg4xuva@gmail.com"
+  },
+  "keywords": [
+    "numismatics"
+  ],
+  "full_download": [
+    {
+      "title": "RDF/XML",
+      "download_url": "http://nomisma.org/nomisma.org.rdf"
+    },
+    {
+      "title": "Turtle",
+      "download_url": "http://nomisma.org/nomisma.org.ttl"
+    },
+    {
+      "title": "JSON-LD",
+      "media_type": "application/ld+json;charset=utf-8",
+      "download_url": "http://nomisma.org/nomisma.org.jsonld"
+    }
+  ],
+  "example": [
+    {
+      "title": "Rome",
+      "access_url": "http://nomisma.org/id/rome"
+    },
+    {
+      "title": "Denarius",
+      "access_url": "http://nomisma.org/id/denarius"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Nomisma.org SPARQL endpoint",
+      "access_url": "http://nomisma.org/sparql"
+    }
+  ]
+}

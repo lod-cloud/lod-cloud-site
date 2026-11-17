@@ -1,0 +1,53 @@
+{
+  "identifier": "fu-berlin-medicare",
+  "title": "MediCare",
+  "domain": "life_sciences",
+  "website": "http://www4.wiwiss.fu-berlin.de/medicare/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/medicare/resource/",
+  "triples": 44500,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "fu-berlin-dailymed",
+      "value": 3302
+    },
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 1657
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www4.wiwiss.fu-berlin.de/medicare/medicare_dump.nt.bz2"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/medicare/resource/drugs/10001"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/medicare/sparql"
+    }
+  ]
+}

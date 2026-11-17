@@ -1,0 +1,36 @@
+{
+  "identifier": "iso-639-oasis",
+  "title": "Published subjects for languages in ISO 639",
+  "description": {
+    "en": "Published Subject Identifiers (URIs) for languages defined in ISO 639. This list is published by OASIS.\r\n\r\nIt is available in HTML, RDF/XML, and XTM.\r\n\r\nThe list was last updated in 2005 and was considered experimental at that time."
+  },
+  "domain": "linguistics",
+  "website": "http://psi.oasis-open.org/iso/639/",
+  "namespace": "http://psi.oasis-open.org/iso/639/",
+  "triples": 2546,
+  "contact_point": {
+    "name": "OASIS"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-rdf",
+    "format-xtm",
+    "iso",
+    "iso639",
+    "languages",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.unresolvable",
+    "oasis",
+    "schemata"
+  ],
+  "other_download": [
+    {
+      "title": "Core assertions in XTM",
+      "access_url": "http://psi.oasis-open.org/iso/639/639-core.xtm"
+    },
+    {
+      "title": "Core assertions in RDF/XML",
+      "access_url": "http://psi.oasis-open.org/iso/639/639-core.rdf"
+    }
+  ]
+}

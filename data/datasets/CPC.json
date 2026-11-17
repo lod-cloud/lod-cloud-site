@@ -1,0 +1,50 @@
+{
+  "identifier": "CPC",
+  "title": "Cooperative Patent Classification",
+  "description": {
+    "en": "This data set contains the Cooperative Patent Classification scheme. It is a hierarchical ontology with skos:narrower and skos:broader relations between its about 250 000 nodes (aka \"CPC symbols\") covering the complete technical domain. It is a refinement of the older International Patent Classification (IPC). CPC is used by major patent offices to classify patent documents.\nFor more details see https://www.cooperativepatentclassification.org/"
+  },
+  "domain": "government",
+  "website": "https://www.epo.org/linked-data/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.epo.org/linked-data/def/cpc/",
+  "triples": 3450000,
+  "contact_point": {
+    "name": "Martin Kracker / European Patent Office",
+    "email": "mkracker@epo.org"
+  },
+  "keywords": [
+    "Patent Classification",
+    "CPC",
+    "Cooperative Patent Classification",
+    "IPC",
+    "International Patent Classification"
+  ],
+  "links": [
+    {
+      "target": "European_Patent_Information",
+      "value": 177000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download of the CPC",
+      "description": "Always the newest version of the CPC is available for download. There are about 3-5 new versions / year.",
+      "download_url": "https://data.epo.org/linked-data/download/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of CPC symbol in ttl",
+      "description": "CPC symbol \"C21B 13/0046\"",
+      "access_url": "https://data.epo.org/linked-data/def/cpc/C21B13-0046.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint for the CPC",
+      "description": "SPARQL form is available in https://data.epo.org/linked-data/sparql.html",
+      "access_url": "https://data.epo.org/linked-data/query"
+    }
+  ]
+}

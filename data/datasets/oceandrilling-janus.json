@@ -1,0 +1,43 @@
+{
+  "identifier": "oceandrilling-janus",
+  "title": "Ocean Drilling - Janus LOD",
+  "description": {
+    "en": "Janus LOD is a test of exposing Janus data using a linked data application.\r\n\r\nhttp://data.oceandrilling.org/januslod/\r\n\r\nData in Janus comes from the Deep Sea Drilling Program and Ocean Drilling Program.  Authority for this data is at Texas A&M implementing organization  (ref: http://www-odp.tamu.edu/database/)"
+  },
+  "website": "http://data.oceandrilling.org/linkeddata.html",
+  "namespace": "http://data.oceandrilling.org/januslod/",
+  "triples": 11800000,
+  "contact_point": {
+    "name": "Douglas Fils",
+    "email": "dfils@oceanleadership.org"
+  },
+  "keywords": [
+    "drilling",
+    "geographic",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "ocean",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "coreref",
+      "value": 100000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.oceandrilling.org/januslod/parameter/core_images_count/201/1225"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://data.oceandrilling.org/sparql"
+    }
+  ]
+}

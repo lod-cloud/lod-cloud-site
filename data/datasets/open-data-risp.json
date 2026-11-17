@@ -1,0 +1,115 @@
+{
+  "identifier": "open-data-risp",
+  "title": "Open Data RISP, the Spanish Open Data community",
+  "description": {
+    "en": "<p>\r\nThe <a href=\"http://red.gnoss.com/en/community/OpenData\">Open Data RISP / Spanish Open Data Community</a> is a space to discuss issues related to the opening of the public data and reuse. This group is open to any participant with a minimum of interest in the subject. The community is being coordinated by the W3C with the help of the main initiatives in Spain and its re-users (citizens and companies). Open Data RISP offers a selection of 30 resources (November 2012).\r\n</p>\r\n\r\n<p>\r\nLa <a href=\"http://red.gnoss.com/comunidad/OpenData\">comunidad de Trabajo Open Data en España / Open Data RISP</a>  es un espacio para discutir temas relacionados con la apertura de datos de la administración pública y sobre su reutilización. Este grupo es abierto a cualquier participante con un mínimo de interés sobre el tema y está siendo coordinado desde la Oficina del W3C y con el impulso de las principales iniciativas RISP en España y sus reutilizadores (ciudadanía y empresas infomediarias). Open Data RISP ofrece una selección de 30 recursos (Noviembre 2012).\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://red.gnoss.com/comunidad/OpenData",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://red.gnoss.com/comunidad/OpenData",
+  "triples": 150203,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "España",
+    "administracion",
+    "country-spain",
+    "country.es",
+    "dc",
+    "estandares",
+    "estándares w3c",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "open administration",
+    "open data",
+    "open gov",
+    "open government",
+    "provenance-metadata",
+    "psi",
+    "published-by-third-party",
+    "risp",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "technology",
+    "tecnología",
+    "usergeneratedcontent",
+    "w3c",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dblp-deusto-gnoss",
+      "value": 184
+    },
+    {
+      "target": "dbpedia",
+      "value": 53
+    },
+    {
+      "target": "freebase",
+      "value": 81
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 3
+    },
+    {
+      "target": "gnoss",
+      "value": 112
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 48
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://red.gnoss.com/voidOpenDataRISP.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Open Data RISP community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/OpenData/resource/Publicando-datos-extraidos-de-un-PDF/deca5597-f39d-46cf-ae1c-8e5f9057f1ea?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Open Data RISP community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/OpenData/resource/IOGDS-International-Open-Government-Dataset-Searc/34cc8744-b38f-44bb-9292-fe1cd54f4406?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/OpenData/advanced-search/tag/web?rdf"
+    }
+  ]
+}

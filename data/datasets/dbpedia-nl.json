@@ -1,0 +1,222 @@
+{
+  "identifier": "dbpedia-nl",
+  "title": "DBpedia in Dutch",
+  "description": {
+    "en": "DBpedia is a \"community effort to extract structured information from Wikipedia and to make this information available on the Web. DBpedia allows you to ask sophisticated queries against Wikipedia, and to link other data sets on the Web to Wikipedia data. We hope this will make it easier for the amazing amount of information in Wikipedia to be used in new and interesting ways, and that it might inspire new mechanisms for navigating, linking and improving the encyclopaedia itself.\""
+  },
+  "domain": "cross_domain",
+  "website": "http://nl.dbpedia.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://nl.dbpedia.org/resource/",
+  "triples": 79674010,
+  "contact_point": {
+    "name": "Dutch DBpedia Team - http://nl.dbpedia.org/",
+    "email": "dbpedia-dutch@lists.sourceforge.net"
+  },
+  "keywords": [
+    "access-api",
+    "access-bulk",
+    "access-www",
+    "crossdomain",
+    "deref-vocab",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-xhtml",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "rdf",
+    "search",
+    "void-sparql-endpoint",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "2000-us-census-rdf",
+      "value": 11769
+    },
+    {
+      "target": "amsterdam-museum-as-edm-lod",
+      "value": 180
+    },
+    {
+      "target": "bbc-wildlife-finder",
+      "value": 237
+    },
+    {
+      "target": "dblp",
+      "value": 28
+    },
+    {
+      "target": "dbpedia",
+      "value": 566737
+    },
+    {
+      "target": "dbpedia-de",
+      "value": 359909
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 40921
+    },
+    {
+      "target": "dbpedia-fr",
+      "value": 406628
+    },
+    {
+      "target": "dbpedia-pt",
+      "value": 303833
+    },
+    {
+      "target": "dbtune",
+      "value": 48
+    },
+    {
+      "target": "drugbank",
+      "value": 755
+    },
+    {
+      "target": "eunis",
+      "value": 541
+    },
+    {
+      "target": "freebase",
+      "value": 415255
+    },
+    {
+      "target": "fu-berlin-cordis",
+      "value": 41
+    },
+    {
+      "target": "fu-berlin-dailymed",
+      "value": 329
+    },
+    {
+      "target": "fu-berlin-diseasome",
+      "value": 308
+    },
+    {
+      "target": "fu-berlin-sider",
+      "value": 947
+    },
+    {
+      "target": "gadm-geovocab",
+      "value": 1902
+    },
+    {
+      "target": "geonames",
+      "value": 46025
+    },
+    {
+      "target": "geospecies",
+      "value": 4273
+    },
+    {
+      "target": "gutenberg",
+      "value": 874
+    },
+    {
+      "target": "italian-public-schools-linkedopendata-it",
+      "value": 5686
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 47397
+    },
+    {
+      "target": "linkedmdb",
+      "value": 3712
+    },
+    {
+      "target": "musicbrainz",
+      "value": 5993
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 4829
+    },
+    {
+      "target": "opencyc",
+      "value": 15016
+    },
+    {
+      "target": "openei",
+      "value": 367
+    },
+    {
+      "target": "revyu",
+      "value": 5
+    },
+    {
+      "target": "tcmgenedit_dataset",
+      "value": 182
+    },
+    {
+      "target": "umbel",
+      "value": 112698
+    },
+    {
+      "target": "wordnet",
+      "value": 85486
+    },
+    {
+      "target": "world-factbook-fu-berlin",
+      "value": 280
+    },
+    {
+      "target": "yago",
+      "value": 303500
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download",
+      "description": "Download",
+      "download_url": "http://nl.dbpedia.org/downloads/nlwiki/"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Link to an example Linked Data entry",
+      "description": "The resource will be resolved via content negotiation to either:\r\nhttp://nl.dbpedia.org/page/Amsterdam\r\nor \r\nhttp://nl.dbpedia.org/data/Amsterdam.rdf\r\nhttp://nl.dbpedia.org/data/Amsterdam.n3\r\nhttp://nl.dbpedia.org/data/Amsterdam.json",
+      "access_url": "http://nl.dbpedia.org/resource/Amsterdam"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset (RDFa)",
+      "description": "Link to an example data item within the dataset (RDFa)\r\nThe actual URI is http://nl.dbpedia.org/resource/Amsterdam, which redirect via 303 to http://nl.dbpedia.org/page/Amsterdam",
+      "media_type": "example/rdfa",
+      "access_url": "http://nl.dbpedia.org/page/Amsterdam"
+    },
+    {
+      "title": "Link to an example data item within the dataset (Turtle)",
+      "description": "Link to an example data item within the dataset (Turtle)\r\nThe actual URI is http://nl.dbpedia.org/resource/Amsterdam, which redirect via 303 to http://nl.dbpedia.org/data/Amsterdam.n3",
+      "media_type": "example/turtle",
+      "access_url": "http://nl.dbpedia.org/data/Amsterdam.n3"
+    },
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "description": "Link to an example data item within the dataset (RDF/XML)\r\nThe actual URI is http://nl.dbpedia.org/resource/Amsterdam, which redirect via 303 to application/rdf+xml",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://nl.dbpedia.org/data/Amsterdam.rdf"
+    },
+    {
+      "title": "Link to an example data item within the dataset (NTriples)",
+      "media_type": "example/ntriples",
+      "access_url": "http://nl.dbpedia.org/data/Amsterdam.nt"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL Endpoint",
+      "access_url": "http://nl.dbpedia.org/sparql"
+    }
+  ]
+}

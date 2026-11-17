@@ -1,0 +1,84 @@
+{
+  "identifier": "geowordnet",
+  "title": "GeoWordNet",
+  "description": {
+    "en": "GeoWordNet is a semantic resource built from the full integration of WordNet, GeoNames and the Italian part of MultiWordNet.\r\n\r\nGeoWordNet Public Dataset contains 3,698,238 entities, 3,698,237 part-of relations between entities, 334 concepts, 182 relations between concepts, 3,698,238 relations between instances and concepts, and 13,562 (English and Italian) alternative entity names.\r\n\r\nCC-BY licence, please refer to \r\nGiunchiglia, Fausto and Maltese, Vincenzo and Farazi, Feroz and Dutta, Biswanath. GeoWordNet: A Resource for Geo-spatial Applications. Technical Report DIT-09-071, Department of Information Engineering and Computer Science, University of Trento. In Proc. of 7th Extended Semantic Web Conference, ESWC 2010, Heraklion, Crete, Greece, pp. 121-136."
+  },
+  "domain": "geography",
+  "website": "http://geowordnet.semanticmatching.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://geowordnet.semanticmatching.org/3.0/",
+  "triples": 53390969,
+  "contact_point": {
+    "name": "Fausto Giunchiglia",
+    "email": "http://disi.unitn.it/~fausto/"
+  },
+  "keywords": [
+    "english",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-vu-wordnet",
+    "format-w3c-wordnet",
+    "format-wn20schema",
+    "format-wordnet",
+    "geographic",
+    "geonames",
+    "italian",
+    "license-metadata",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "nlp",
+    "no-deref-vocab",
+    "provenance-metadata",
+    "published-by-producer",
+    "wordnet"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 7396476
+    },
+    {
+      "target": "vu-wordnet",
+      "value": 2054873
+    }
+  ],
+  "other_download": [
+    {
+      "description": "GeoWordNet VOID description",
+      "access_url": "http://geowordnet.semanticmatching.org/void.rdf"
+    },
+    {
+      "description": "GeoWordNet in RDF from SourceForge",
+      "access_url": "http://sourceforge.net/projects/s-match/files/datasets/geowordnet-rdf-20110330.zip/download"
+    },
+    {
+      "description": "Semantic Site Map",
+      "access_url": "http://geowordnet.semanticmatching.org/sitemap.xml"
+    },
+    {
+      "description": "GeoWordNet in CSV from SourceForge",
+      "access_url": "http://sourceforge.net/projects/s-match/files/datasets/geowordnet-public-20101123.zip/download"
+    },
+    {
+      "description": "Sample entry in HTML",
+      "access_url": "http://geowordnet.semanticmatching.org/synset-dependent_political_entity-noun-1.html"
+    },
+    {
+      "description": "GeoWordNet in WordNet dict from SourceForge",
+      "access_url": "http://sourceforge.net/projects/s-match/files/datasets/geowordnet-dict-full-20110330.zip/download"
+    }
+  ],
+  "example": [
+    {
+      "description": "Sample entry in RDF",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://geowordnet.semanticmatching.org/synset-dependent_political_entity-noun-1.rdf"
+    }
+  ]
+}

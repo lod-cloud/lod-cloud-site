@@ -1,0 +1,140 @@
+{
+  "identifier": "locv",
+  "title": "Linked Open Computer Vision",
+  "description": {
+    "en": "Interconnecting computer vision datasets"
+  },
+  "triples": 10781,
+  "contact_point": {
+    "name": "Timothy Lebo",
+    "email": "lebot@rpi.edu"
+  },
+  "keywords": [
+    "computer vision",
+    "format-con",
+    "format-conv",
+    "format-dc",
+    "format-dcat",
+    "format-doap",
+    "format-foaf",
+    "format-oboro",
+    "format-opm",
+    "format-ov",
+    "format-pml",
+    "format-pmlj",
+    "format-pmlp",
+    "format-prov",
+    "format-rdf",
+    "format-rdfs",
+    "format-sd",
+    "format-vann",
+    "format-void",
+    "linked data"
+  ],
+  "full_download": [
+    {
+      "title": "N-Triples Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://locv.tw.rpi.edu/source/us/file/cr-full-dump/version/latest/conversion/locv-tw-rpi-edu.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "GitHub Repository",
+      "access_url": "https://github.com/timrdf/locv"
+    },
+    {
+      "title": "rdfs RDF Schema",
+      "access_url": "http://www.w3.org/2000/01/rdf-schema"
+    },
+    {
+      "title": "void RDF Schema",
+      "access_url": "http://rdfs.org/ns/void"
+    },
+    {
+      "title": "sd RDF Schema",
+      "access_url": "http://www.w3.org/ns/sparql-service-description"
+    },
+    {
+      "title": "prov RDF Schema",
+      "access_url": "http://www.w3.org/ns/prov"
+    },
+    {
+      "title": "dcat RDF Schema",
+      "access_url": "http://www.w3.org/ns/dcat"
+    },
+    {
+      "title": "dc RDF Schema",
+      "access_url": "http://purl.org/dc/terms/"
+    },
+    {
+      "title": "conv RDF Schema",
+      "access_url": "http://purl.org/twc/vocab/conversion/"
+    },
+    {
+      "title": "vann RDF Schema",
+      "access_url": "http://purl.org/vocab/vann/"
+    },
+    {
+      "title": "doap RDF Schema",
+      "access_url": "http://usefulinc.com/ns/doap"
+    },
+    {
+      "title": "prov RDF Schema",
+      "access_url": "http://purl.org/net/provenance/ns"
+    },
+    {
+      "title": "opm RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://openprovenance.org/ontology"
+    },
+    {
+      "title": "con RDF Schema",
+      "access_url": "http://www.w3.org/2000/10/swap/pim/contact"
+    },
+    {
+      "title": "ov RDF Schema",
+      "media_type": "text/html",
+      "access_url": "http://open.vocab.org/terms/"
+    },
+    {
+      "title": "pmlp RDF Schema",
+      "access_url": "http://inference-web.org/2.0/pml-provenance.owl"
+    },
+    {
+      "title": "pmlj RDF Schema",
+      "access_url": "http://inference-web.org/2.0/pml-justification.owl"
+    },
+    {
+      "title": "oboro RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://obofoundry.org/ro/ro.owl"
+    },
+    {
+      "title": "pml RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://provenanceweb.org/ns/pml"
+    },
+    {
+      "title": "rdf RDF Schema",
+      "access_url": "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    },
+    {
+      "title": "foaf RDF Schema",
+      "access_url": "http://xmlns.com/foaf/0.1/"
+    },
+    {
+      "title": "VoID Listing",
+      "description": "Listing of all RDF datasets available, using the Vocabulary of Interlinked Datasets (VoID)",
+      "media_type": "meta/void",
+      "access_url": "http://locv.tw.rpi.edu/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://locv.tw.rpi.edu/source/us/dataset/cv-lineage/vision-mas-ecp-fr/facades-benchmark-2011/esat-kuleuven-be/three-layered-facade"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "identifier": "open-election-data-project",
+  "title": "Open Election Data Project",
+  "description": {
+    "en": "This is the official list of registered political parties sourced from the Electoral Commission's website. The Resource URI refers to the linked-data resource URI that should be used to identify parties in a linked-data context, such as when making election results available as data.\r\n\r\nOpenness: Open data logo but no explicit license mentioned."
+  },
+  "website": "http://openelectiondata.org/parties",
+  "namespace": "http://openelectiondata.org/parties/",
+  "triples": 16789,
+  "contact_point": {
+    "name": "Chris Taggart",
+    "email": "info@openelectiondata.org.uk"
+  },
+  "keywords": [
+    "country-uk",
+    "election",
+    "format-dct",
+    "format-rdf",
+    "format-skos",
+    "government",
+    "linked-open-data",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "policy",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 87
+    }
+  ],
+  "other_download": [
+    {
+      "description": "List of parties",
+      "media_type": "XML",
+      "access_url": "http://openelectiondata.org/parties.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://openelectiondata.org/parties/280.rdf"
+    }
+  ]
+}

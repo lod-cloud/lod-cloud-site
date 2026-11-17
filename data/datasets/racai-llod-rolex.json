@@ -1,0 +1,37 @@
+{
+  "identifier": "racai-llod-rolex",
+  "title": "RoLEX",
+  "description": {
+    "en": "RoLEX  is a Romanian lexicon in which for each entry there is information about its lemma, part of speech, phonetic transcription, syllabification and lexical stress."
+  },
+  "domain": "cross_domain",
+  "website": "https://racai.ro/p/llod/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 2501194,
+  "contact_point": {
+    "name": "Elena Irimia",
+    "email": "elena@racai.ro"
+  },
+  "keywords": [
+    "Romanian lexicon",
+    "phonetic transcription",
+    "syllabification",
+    "lexical stress",
+    "lemma",
+    "part of speech"
+  ],
+  "full_download": [
+    {
+      "title": "RoLEX LLOD",
+      "media_type": "application/zip",
+      "download_url": "https://www.racai.ro/p/llod/resources/lexicon_reterom_final.zip"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "RoLEX SPARQL endpoint",
+      "description": "SPARQL endpoint for RoLEX hosted at RACAI. A query form is available at https://relate.racai.ro/datasets/dataset.html?tab=query&ds=/rolex",
+      "access_url": "https://relate.racai.ro/datasets/rolex/query"
+    }
+  ]
+}

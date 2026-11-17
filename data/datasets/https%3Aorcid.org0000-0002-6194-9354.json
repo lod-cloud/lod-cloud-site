@@ -1,0 +1,25 @@
+{
+  "identifier": "https:orcid.org0000-0002-6194-9354",
+  "title": "Diretrizes organizacionais de métodos quantitativos e computação científica",
+  "description": {
+    "en": "O projeto está inserido no Plano Ação 3 - Bases estruturantes para constituição de uma Rede de MQCC na Embrapa,\ndo Projeto Governança do Arranjo AgroMQCC. Este estudo tem o objetivo de estabelecer diretrizes organizacionais\nde métodos quantitativos e computação científica (MQCC) para a Empresa Brasileira de Pesquisa Agropecuária\n(Embrapa), uma instituição pública vinculada ao Ministério da Agricultura, Pecuária e Abastecimento (MAPA), do\ngoverno federal brasileiro. O estudo será realizado a partir de uma perspectiva estratégica e sistêmica e co.ntribuirá\npara viabilizar a governança da área de pesquisa,, desenvolvimento e inovaçaão (PD&I) da Empresa."
+  },
+  "domain": "government",
+  "website": "https://www.embrapa.br/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "MARCIA IZABEL FUGISAWA SOUZA",
+    "email": "marcia.fugisawa@gmail.com"
+  },
+  "keywords": [
+    "Data management; Quantitative method; Scientific computation; Governance"
+  ],
+  "full_download": [
+    {
+      "title": "Diretrizes organizacionais de métodos quantitativos e computação científica",
+      "description": "O projeto está inserido no Plano Ação 3 - Bases estruturantes para constituição de uma Rede de MQCC na Embrapa,\ndo Projeto Governança do Arranjo AgroMQCC. Este estudo tem o objetivo de estabelecer diretrizes organizacionais\nde métodos quantitativos e computação científica (MQCC) para a Empresa Brasileira de Pesquisa Agropecuária\n(Embrapa), uma instituição pública vinculada ao Ministério da Agricultura, Pecuária e Abastecimento (MAPA), do\ngoverno federal brasileiro. O estudo será realizado a partir de uma perspectiva estratégica e sistêmica e co.ntribuirá\npara viabilizar a governança da área de pesquisa,, desenvolvimento e inovaçaão (PD&I) da Empresa.",
+      "download_url": "https://www.embrapa.br/equipe/-/empregado/192789/marcia-izabel-fugisawa-souza"
+    }
+  ]
+}

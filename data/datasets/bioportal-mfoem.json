@@ -1,0 +1,311 @@
+{
+  "identifier": "bioportal-mfoem",
+  "title": "Emotion Ontology",
+  "description": {
+    "en": "An ontology of affective phenomena such as emotions, moods, appraisals and subjective feelings, designed to support interdisciplinary research by providing unified annotations.  The ontology is a domain specialisation of the broader Mental Functioning Ontology."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1666",
+  "triples": 3676,
+  "contact_point": {
+    "name": "Janna Hastings"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 42
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 185
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 103
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 21
+    },
+    {
+      "target": "bioportal-bfo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 11
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 54
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 64
+    },
+    {
+      "target": "bioportal-cao",
+      "value": 49
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 162
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 148
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 148
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 53
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 163
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 57
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 61
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 148
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 28
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 12
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 45
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 97
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 17
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 51
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 56
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 39
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 11
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 55
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 162
+    },
+    {
+      "target": "bioportal-miro",
+      "value": 39
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 30
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 96
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 67
+    },
+    {
+      "target": "bioportal-neomark",
+      "value": 15
+    },
+    {
+      "target": "bioportal-neumore",
+      "value": 17
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 179
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 52
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 52
+    },
+    {
+      "target": "bioportal-nmr",
+      "value": 37
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 36
+    },
+    {
+      "target": "bioportal-oae",
+      "value": 47
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 136
+    },
+    {
+      "target": "bioportal-ocre",
+      "value": 15
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 48
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 41
+    },
+    {
+      "target": "bioportal-ogms",
+      "value": 50
+    },
+    {
+      "target": "bioportal-omrse",
+      "value": 50
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 162
+    },
+    {
+      "target": "bioportal-ontodt",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ooevv",
+      "value": 11
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 51
+    },
+    {
+      "target": "bioportal-pvonto",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 24
+    },
+    {
+      "target": "bioportal-rnao",
+      "value": 39
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 37
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 53
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 72
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 55
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 45
+    },
+    {
+      "target": "bioportal-swo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 162
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 96
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 42
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46852?apikey=BP_API_KEY"
+    }
+  ]
+}

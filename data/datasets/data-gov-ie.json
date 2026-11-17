@@ -1,0 +1,71 @@
+{
+  "identifier": "data-gov-ie",
+  "title": "DataGovIE - Irish Government Data",
+  "description": {
+    "en": "Irish Government Data. Includes:\r\n\r\n* Irish Census Data from Central Statistics Office\r\n* Service Indicators of Ireland"
+  },
+  "website": "http://data-gov.ie/",
+  "namespace": "http://stats.data-gov.ie/",
+  "triples": 12390973,
+  "contact_point": {
+    "name": "Sarven Capadisli",
+    "email": "sarven.capadisli@deri.org"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-geo",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "provenance-metadata",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 70
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Datadump",
+      "media_type": "text/turtle",
+      "access_url": "http://data-gov.ie/data/cso-dataset.tar.gz"
+    },
+    {
+      "description": "A VoiD Description of the DataGov.IE Dataset",
+      "media_type": "meta/void",
+      "access_url": "http://data-gov.ie/void.ttl"
+    },
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://data-gov.ie/data/ie-linked-data.tar.gz"
+    },
+    {
+      "description": "subClassOf, subPropertyOf",
+      "media_type": "mapping/rdfs",
+      "access_url": "http://data-gov.ie/data/ie-linked-data.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://geo.data-gov.ie/city/galway.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data-gov.ie/sparql"
+    }
+  ]
+}

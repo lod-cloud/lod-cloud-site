@@ -1,0 +1,82 @@
+{
+  "identifier": "biolod-pdb",
+  "title": "BioLOD for Protein Data Bank Japan",
+  "description": {
+    "en": "Data source of this content; PDBj (Protein Data Bank Japan)<br>\r\nGo to <a href=\"http://www.pdbj.org/index.html\">source site</a>."
+  },
+  "domain": "life_sciences",
+  "website": "http://biolod.org/database/ria1i/Protein_Data_Bank",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 362823,
+  "keywords": [
+    "lifesciences"
+  ],
+  "links": [
+    {
+      "target": "dppedia"
+    },
+    {
+      "target": "geonames"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Protein Data Bank",
+      "access_url": "http://biolod.org/class/cria1u1i/PDB_Protein_Data_Bank"
+    },
+    {
+      "description": "PDB (Protein Data Bank) / Label Table / vol1",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u1i~archives~table~label_table.tsv.en.UTF8.1.txt"
+    },
+    {
+      "description": "PDB (Protein Data Bank) / Label Table / vol2",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u1i~archives~table~label_table.tsv.en.UTF8.2.txt"
+    },
+    {
+      "description": "PDB (Protein Data Bank) / Label Table / vol3",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u1i~archives~table~label_table.tsv.en.UTF8.3.txt"
+    },
+    {
+      "description": "PDB (Protein Data Bank) / Link Table / vol1",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u1i~archives~table~link_table.tsv.en.UTF8.1.txt"
+    },
+    {
+      "description": "PDB (Protein Data Bank) / Link Table / vol2",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u1i~archives~table~link_table.tsv.en.UTF8.2.txt"
+    },
+    {
+      "description": "PDB (Protein Data Bank) / Link Table / vol3",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u1i~archives~table~link_table.tsv.en.UTF8.3.txt"
+    },
+    {
+      "description": "CCI (Chemical Component Identifier)",
+      "access_url": "http://biolod.org/class/cria1u2i/CCI_chemical_component_identifier"
+    },
+    {
+      "description": "CCI (Chemical Component Identifier) / Label Table",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u2i~archives~table~label_table.tsv.en.UTF8.txt"
+    },
+    {
+      "description": "CCI (Chemical Component Identifier) / Link Table",
+      "media_type": "TXT",
+      "access_url": "https://database.riken.jp/sw/download/cria1u2i~archives~table~link_table.tsv.en.UTF8.txt"
+    },
+    {
+      "title": "PDB_test-sample.xls",
+      "media_type": "XLS",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-21T121038/PDB_test-sample.xls"
+    },
+    {
+      "title": "PDB_test.xls",
+      "media_type": "XLS",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-21T121133/PDB_test.xls"
+    }
+  ]
+}

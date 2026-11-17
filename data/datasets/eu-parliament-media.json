@@ -1,0 +1,63 @@
+{
+  "identifier": "eu-parliament-media",
+  "title": "EU Parliament Media Library",
+  "description": {
+    "en": "This dataset contains information about multi-media content published by the European Parliament at http://audiovisual.europarl.europa.eu/. Media assets of type video, audio and image are contained. All assests are annotated with primary metadata (e.g., length, resolution, size, etc.), as well as topic metadata. Where topics are people, those are represented as complex resources in their own right, with names, roles in organisations, etc. Organisations are located in countries according to the Kasabi country dataset."
+  },
+  "website": "http://eupmedia.publicdata.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://eupmedia.publicdata.eu/data/",
+  "triples": 532957,
+  "contact_point": {
+    "name": "Knud Möller",
+    "email": "knud.moeller"
+  },
+  "keywords": [
+    "deref-vocab",
+    "eu",
+    "eu-institution",
+    "eu-parliament",
+    "format-foaf",
+    "format-nfo",
+    "format-places",
+    "government",
+    "latc",
+    "lod",
+    "media",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "politics",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "eu-who-is-who",
+      "value": 1000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID Description of the dataset",
+      "access_url": "http://eupmedia.publicdata.eu/void.ttl"
+    },
+    {
+      "title": "Turtle Data Dump",
+      "access_url": "http://eupmedia.publicdata.eu/dump/eup_media_assets.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "\"EP Subcommittee on Human Rights: Exchange of views with Jerzy BUZEK, EP President\"",
+      "description": "Data about a video from the EU Parliament audio-visual library.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eupmedia.publicdata.eu/data/video/eu_parliament/9cbc7cbf-4a97-41b9-91a4-14baad45bb94.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://api.talis.com/stores/eupmedia/services/sparql"
+    }
+  ]
+}

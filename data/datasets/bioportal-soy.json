@@ -1,0 +1,83 @@
+{
+  "identifier": "bioportal-soy",
+  "title": "SoyOntology",
+  "description": {
+    "en": "Growth, trait and development ontology for soybean"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3028",
+  "triples": 33895,
+  "contact_point": {
+    "name": "Rex Nelson"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-go_x1",
+      "value": 11
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 11
+    },
+    {
+      "target": "bioportal-gro_x1",
+      "value": 16
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 16
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 17
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 11
+    },
+    {
+      "target": "bioportal-po",
+      "value": 16
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 18
+    },
+    {
+      "target": "bioportal-spto",
+      "value": 13
+    },
+    {
+      "target": "bioportal-to",
+      "value": 52
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47150?apikey=BP_API_KEY"
+    }
+  ]
+}

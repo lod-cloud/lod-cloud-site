@@ -1,0 +1,42 @@
+{
+  "identifier": "fiesta",
+  "title": "FiESTA",
+  "description": {
+    "en": "FiESTA (short for \"Format for extensive spatiotemporal annotations\") is a generic format for linguistic and behavioral annotations."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 245,
+  "contact_point": {
+    "name": "Peter Menke",
+    "email": "pmenke@TechFak.Uni-Bielefeld.DE"
+  },
+  "keywords": [
+    "format-rdf",
+    "general ontology of linguistic description",
+    "linguistics",
+    "lod",
+    "published-by-producer",
+    "rdf",
+    "schemata",
+    "topic.schemata"
+  ],
+  "links": [
+    {
+      "target": "isocat",
+      "value": 14
+    },
+    {
+      "target": "provenanceweb",
+      "value": 3
+    }
+  ],
+  "other_download": [
+    {
+      "title": "FiESTA data model, RDF (Turtle) representation",
+      "description": "RDF representation of the central classes and relations of the FiESTA data model.",
+      "media_type": "text/turtle",
+      "access_url": "http://data.sfb673.org/fiesta/fiesta-1.0.ttl"
+    }
+  ]
+}

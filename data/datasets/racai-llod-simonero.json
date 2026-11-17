@@ -1,0 +1,33 @@
+{
+  "identifier": "racai-llod-simonero",
+  "title": "SiMoNERo - the Romanian medical treebank",
+  "description": {
+    "en": "This is a medical corpus annotated morphologically, syntactically and with 4 types of Named Entities from the medical domain: ANAT (body parts), CHEM (Chemicals and Drugs), DISO (disorders), and PROC (procedures)."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.racai.ro/p/llod/index.html",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 1396182,
+  "contact_point": {
+    "name": "Maria Mitrofan",
+    "email": "maria@racai.ro"
+  },
+  "keywords": [
+    "medical treebank",
+    "medical Named Entities"
+  ],
+  "full_download": [
+    {
+      "title": "SiMoNERo LLOD",
+      "media_type": "application/zip",
+      "download_url": "https://www.racai.ro/p/llod/resources/simonero-llod.zip"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SiMoNERo SPARQL endpoint",
+      "description": "SPARQL endpoint for SiMoNERo hosted at RACAI. A query form is available at https://relate.racai.ro/datasets/dataset.html?tab=query&ds=/simonero",
+      "access_url": "https://relate.racai.ro/datasets/simonero/query"
+    }
+  ]
+}

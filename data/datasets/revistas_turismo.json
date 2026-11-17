@@ -1,0 +1,35 @@
+{
+  "identifier": "revistas_turismo",
+  "title": "Revista Excelencias Turísticas",
+  "description": {
+    "en": "Muestra térmnos relacionados con el turismo"
+  },
+  "domain": "media",
+  "website": "https://tematres.seriadas.com/vocab/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Cristina",
+    "email": "100483959@alumnos.uc3m.es"
+  },
+  "full_download": [
+    {
+      "title": "rev",
+      "media_type": "MIME Type",
+      "download_url": "http://tematres.seriadas.com/vocab/services.php"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "prueba",
+      "media_type": "media",
+      "access_url": "http://tematres.seriadas.com/vocab/xml.php?skosTema=33"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Revistas Turísticas",
+      "access_url": "https://tematres.seriadas.com/vocab/sparql.php"
+    }
+  ]
+}

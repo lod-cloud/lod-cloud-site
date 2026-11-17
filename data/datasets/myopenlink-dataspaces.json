@@ -1,0 +1,74 @@
+{
+  "identifier": "myopenlink-dataspaces",
+  "title": "myopenlink dataspaces",
+  "description": {
+    "en": "dataspaces at myopenlink.net"
+  },
+  "domain": "user_generated",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "format-cert",
+    "format-dcterm",
+    "format-foaf",
+    "format-gr",
+    "format-owl",
+    "format-pingback",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "format-tsioc",
+    "format-void",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "sparql",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 27
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 2
+    },
+    {
+      "target": "enipedia",
+      "value": 1
+    },
+    {
+      "target": "lod2-project-wiki",
+      "value": 1
+    },
+    {
+      "target": "openlinksw-dataspaces",
+      "value": 48
+    },
+    {
+      "target": "personal-homepages",
+      "value": 101
+    },
+    {
+      "target": "pub-bielefeld",
+      "value": 1
+    },
+    {
+      "target": "w3c",
+      "value": 4
+    },
+    {
+      "target": "wordpress",
+      "value": 5
+    }
+  ],
+  "example": [
+    {
+      "title": "Example demo user",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://id.myopenlink.net/describe/?url=http%3A%2F%2Fid.myopenlink.net%2Fdataspace%2Fperson%2Fdemo%2Fabout.rdf"
+    }
+  ]
+}

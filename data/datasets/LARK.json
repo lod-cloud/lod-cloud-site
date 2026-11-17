@@ -1,0 +1,54 @@
+{
+  "identifier": "LARK",
+  "title": "Lark",
+  "description": {
+    "en": "Lark is a Lexicon for Adjective Representations over Knowledge bases. It specifies how to transform adjectives in natural language questions to SPARQL query patterns over knowledge bases (currently we focus on DBpedia-202105). For example, the adjective “Chinese” in “Chinese artists” is represented as “?x dbo:nationality dbr:China”, taking the meaning that a Chinese artist should have a fact about his/her nationality with value dbr:China. The adjective “tall” in “tall people” is represented as “?x dbo:height ?y . filter (?y>V)”, taking the meaning that a tall person should have a large value of dbo:height. \nCurrently, Lark contains about 22.4K SPARQL query patterns for 2.7K adjectives over DBpedia, in Ontolex-lemon (https://www.w3.org/2016/05/ontolex/) format. All representations have been manually checked before publication. Besides, an online interface for searching adjective representations in Lark is available at http://ws.nju.edu.cn/lark/interface/ . We will enlarge Lark and consider other knowledge bases such as Freebase and Wikidata in future work."
+  },
+  "domain": "linguistics",
+  "website": "http://ws.nju.edu.cn/adj2sp/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://ws.nju.edu.cn/lark/",
+  "triples": 145596,
+  "contact_point": {
+    "name": "Jiwei Ding",
+    "email": "jwdingnju@outlook.com"
+  },
+  "keywords": [
+    "adjective",
+    "DBpedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 22434
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Lark Ontology",
+      "description": "OWL Format",
+      "media_type": "RDF/XML",
+      "download_url": "http://ws.nju.edu.cn/lark/ontology"
+    },
+    {
+      "title": "Lark Triples",
+      "description": "Turtle Format",
+      "media_type": "Turtle",
+      "download_url": "http://ws.nju.edu.cn/adj2sp/data/lark.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Lark Interface",
+      "description": "Interface for searching adjective representations",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://ws.nju.edu.cn/lark/interface/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Lark SPARQL Endpoint",
+      "access_url": "http://ws.nju.edu.cn/lark/sparql"
+    }
+  ]
+}

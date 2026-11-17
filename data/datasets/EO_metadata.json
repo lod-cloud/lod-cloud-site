@@ -1,0 +1,28 @@
+{
+  "identifier": "EO_metadata",
+  "title": "Micka (EO metadata) @PSNC",
+  "description": {
+    "en": "EO metadata collected from the public Lesproject Micka registry (https://micka.lesprojekt.cz/en/), which includes information of over 100K geospatial datasets. Micka is a software for spatial data / services metadata management according to ISO, OGC and INSPIRE standards. It allows to retrieve the metadata in RDF forms using Geo-DCAT (an extension of DCAT) for the representation of geographic metadata compliant with the DCAT application profile for European data portals. As such metadata cannot be queried as Linked Data therefore the goal was to make it available in the form of Linked Data in order to enable its integration with other datasets, e.g., Open Land Use (OLU). The process for publication was straightforward: a dump of all the metadata in RDF format was generated from Micka, which was then loaded into the Virtuoso triplestore. Some exemplary SPARQL queries were then generated to identify connection points for integration, e.g., get OLU entries and their metadata given a municipal code and type of area (e.g., agricultural lands)."
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://micka.lesprojekt.cz/catalog/dataset/",
+  "triples": 10456676,
+  "image": "https://box.psnc.pl/f/18a6bd35d8/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "geospatial",
+    "EO",
+    "metadata"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

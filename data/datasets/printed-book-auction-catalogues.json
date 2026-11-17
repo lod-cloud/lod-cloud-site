@@ -1,0 +1,64 @@
+{
+  "identifier": "printed-book-auction-catalogues",
+  "title": "English Language Books listed in Printed Book Auction Catalogues from 17th Century Holland",
+  "description": {
+    "en": "The books are those listed in the English language section of Dutch printed book auction catalogues of collections of scholars and religious ministers. In some cases, the prior owner of the books listed was from England; in others they were of dutch nationality. For more information about printed book auction catalogues, see http://bibliopolis.nl"
+  },
+  "domain": "publications",
+  "website": "http://keithalexander.co.uk/pbac",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://keithalexander.co.uk/pbac",
+  "triples": 55214,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "keithalexander@keithalexander.co.uk"
+  },
+  "keywords": [
+    "auction",
+    "bibliographic",
+    "book",
+    "catalogue",
+    "deref-vocab",
+    "dutch",
+    "english",
+    "format-rdf",
+    "format-rdfs",
+    "historical",
+    "holland",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-vocab-mappings",
+    "printed",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "puritans"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1607
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "access_url": "http://keithalexander.co.uk/pbac"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html",
+      "access_url": "http://keithalexander.co.uk/pbac/identified/agents/405.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/pbac/services/sparql"
+    }
+  ]
+}

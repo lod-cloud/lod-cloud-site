@@ -1,0 +1,77 @@
+{
+  "identifier": "english-heritage-periods-list",
+  "title": "English Heritage Periods List",
+  "description": {
+    "en": "English Heritage Periods List"
+  },
+  "domain": "user_generated",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 557,
+  "keywords": [
+    "archaeology",
+    "format-skos",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata"
+  ],
+  "other_download": [
+    {
+      "title": "Example resource (JSON)",
+      "description": "ROMAN",
+      "media_type": "JSON",
+      "access_url": "http://<http://purl.org/heritagedata/schemes/eh_period/concepts/RO.json"
+    },
+    {
+      "title": "Example resource (HTML)",
+      "description": "ROMAN",
+      "media_type": "HTML",
+      "access_url": "http://<http://purl.org/heritagedata/schemes/eh_period/concepts/RO.html"
+    },
+    {
+      "title": "Example resource (NTriples)",
+      "description": "ROMAN",
+      "media_type": "application/n-triples",
+      "access_url": "http://<http://purl.org/heritagedata/schemes/eh_period/concepts/RO.n3"
+    },
+    {
+      "title": "Example resource (Turtle)",
+      "description": "ROMAN",
+      "media_type": "text/turtle",
+      "access_url": "http://<http://purl.org/heritagedata/schemes/eh_period/concepts/RO.ttl"
+    },
+    {
+      "title": "RDF/XML download",
+      "description": "Download of entire thesaurus",
+      "access_url": "http://heritagedata.org/live/seneschal_eh_period_20130717.rdf"
+    },
+    {
+      "title": "Concept Scheme URI",
+      "description": "Linked Data URI of the Concept Scheme",
+      "access_url": "http://purl.org/heritagedata/schemes/eh_period"
+    },
+    {
+      "title": "VoID file",
+      "description": "VoID description of the dataset",
+      "access_url": "http://purl.org/heritagedata/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF/XML)",
+      "description": "ROMAN",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://<http://purl.org/heritagedata/schemes/eh_period/concepts/RO.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint on the HeritageData site giving access to the RDF data for the thesaurus",
+      "access_url": "http://heritagedata.org/live/sparql"
+    }
+  ]
+}

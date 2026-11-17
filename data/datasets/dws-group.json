@@ -1,0 +1,65 @@
+{
+  "identifier": "dws-group",
+  "title": "DWS-Group",
+  "description": {
+    "en": "Information about people and publications from the Research Group Data and Web Science at University of Mannheim"
+  },
+  "domain": "publications",
+  "website": "http://dws.informatik.uni-mannheim.de/",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "format-admin",
+    "format-dcterm",
+    "format-doap",
+    "format-foaf",
+    "format-hartigprov",
+    "format-org",
+    "format-owl",
+    "format-prvt",
+    "format-rdf",
+    "format-rdfs",
+    "format-sd",
+    "format-void",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "publications",
+    "social web",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 8
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 14
+    },
+    {
+      "target": "personal-homepages",
+      "value": 6
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 1
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 20
+    },
+    {
+      "target": "w3c",
+      "value": 7
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://wifo5-04.informatik.uni-mannheim.de/dws-group/data/events/WWW2005_-_14th_International_World_Wide_Web_Conference_2005"
+    }
+  ]
+}

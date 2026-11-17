@@ -1,0 +1,41 @@
+{
+  "identifier": "clld-wold",
+  "title": "CLLD-WOLD",
+  "description": {
+    "en": "WOLD published by the CLLD project"
+  },
+  "domain": "linguistics",
+  "website": "http://wold.clld.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 1764648,
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "clld-glottolog",
+      "value": 223
+    },
+    {
+      "target": "dbpedia",
+      "value": 229
+    },
+    {
+      "target": "lexvo",
+      "value": 229
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "access_url": "http://wold.clld.org/void.ttl"
+    },
+    {
+      "title": "RDF dump",
+      "media_type": "text/n3",
+      "access_url": "http://wold.clld.org/static/download/wold-dataset.n3.gz"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "identifier": "agrinepaldata",
+  "title": "AgriNepalData",
+  "description": {
+    "en": "Ontology Based Data Access and Integration for Improving the Effectiveness of Farming in Nepal"
+  },
+  "domain": "government",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://agrinepaldata.com/",
+  "triples": 1433631,
+  "contact_point": {
+    "name": "Mohamed Sherif",
+    "email": "sherif@informatic.uni-leipzig.de"
+  },
+  "keywords": [
+    "aksw",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "agrovoc",
+      "value": 32294
+    },
+    {
+      "target": "dbpedia",
+      "value": 38469
+    }
+  ],
+  "other_download": [
+    {
+      "title": "agrinepaldata web site",
+      "description": "agrinepaldata web site",
+      "access_url": "http://agrinepaldata.com/"
+    },
+    {
+      "title": "Dataset dump",
+      "description": "Dataset dump",
+      "media_type": "rdf-turtle",
+      "access_url": "http://agrinepaldata.com/downloads/agrinepal.zip"
+    },
+    {
+      "title": "agrinepaldata ontology",
+      "description": "agrinepaldata ontology",
+      "media_type": "meta/owl",
+      "access_url": "http://agrinepaldata.com/download/agrinepaldataont.owl"
+    },
+    {
+      "title": "metadata void",
+      "description": "metadata void",
+      "media_type": "meta/void",
+      "access_url": "http://agrinepaldata.com/download/void.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql End Point",
+      "access_url": "http://agrinepaldata.com/sparql"
+    }
+  ]
+}

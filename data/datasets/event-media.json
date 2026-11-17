@@ -1,0 +1,107 @@
+{
+  "identifier": "event-media",
+  "title": "EventMedia",
+  "description": {
+    "en": "This dataset is composed of events and media descriptions associated with these events. It is obtained from three large public event directories (last.fm, eventful and upcoming) represented with the LODE ontology and from large media directories (flickr, youtube) represented with the W3C Media Ontology. It is interlinked with the larger Linked Open Data cloud and in particular with DBpedia, Freebase, Geonames. It also contains links to numerous related web pages, including MusicBrainz, Geonames, Last.fm, Eventful, Upcoming and Foursquare."
+  },
+  "domain": "media",
+  "website": "http://eventmedia.eurecom.fr/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.linkedevents.org/",
+  "triples": 36274454,
+  "contact_point": {
+    "name": "Raphael Troncy",
+    "email": "raphael.troncy@eurecom.fr"
+  },
+  "keywords": [
+    "deref-vocab",
+    "events",
+    "format-dc",
+    "format-foaf",
+    "format-lode",
+    "format-ma",
+    "format-rdf",
+    "format-sioc",
+    "lod",
+    "media",
+    "no-license-metadata",
+    "provenance-metadata",
+    "published-by-third-party",
+    "usergeneratedcontent",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 15420
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 42889
+    },
+    {
+      "target": "flickr-wrappr",
+      "value": 14000000
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 955
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 21
+    },
+    {
+      "target": "uberblic",
+      "value": 40498
+    }
+  ],
+  "full_download": [
+    {
+      "description": "sameAs linkset for artists",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www.eurecom.fr/~troncy/ic2011/Artists_sameAs.nt"
+    },
+    {
+      "description": "sameAs linkset for venues",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www.eurecom.fr/~troncy/ic2011/Venues_sameAs.nt"
+    },
+    {
+      "description": "sameAs linkset for events",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www.eurecom.fr/~troncy/ic2011/Events_sameAs.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "LODE ontology",
+      "access_url": "http://linkedevents.org/ontology/2010-10-07/rdfxml/"
+    },
+    {
+      "description": "LODE ontology including vocab mappings",
+      "access_url": "http://linkedevents.org/ontology/2010-10-07/rdfxml/"
+    },
+    {
+      "description": "W3C Ontology for Media Resources 1.0",
+      "access_url": "http://www.w3.org/ns/ma-ont#"
+    },
+    {
+      "description": "Dump for events and media (in zip archive)",
+      "access_url": "http://www.eurecom.fr/~troncy/ldtc2010/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://data.linkedevents.org/agent/0a5a771a-5410-4c15-b695-b8059616e52f"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://eventmedia.eurecom.fr/sparql"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "identifier": "clld-wals",
+  "title": "CLLD-WALS",
+  "description": {
+    "en": "WALS Online published by the CLLD project"
+  },
+  "domain": "linguistics",
+  "website": "http://wals.info",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1478985,
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2621
+    },
+    {
+      "target": "geonames",
+      "value": 3044
+    },
+    {
+      "target": "lexvo",
+      "value": 2621
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "access_url": "http://wals.info/void.ttl"
+    },
+    {
+      "title": "RDF dump",
+      "media_type": "text/n3",
+      "access_url": "http://wals.info/static/download/wals-dataset.n3.gz"
+    }
+  ]
+}

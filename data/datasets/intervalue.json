@@ -1,0 +1,50 @@
+{
+  "identifier": "intervalue",
+  "title": "intervalue",
+  "description": {
+    "en": "INTERVALUE data using LOD principle.\r\nINTERVALUE project (http://www.urenio.org/intervalue/) aims to bridge the gap between R&D creators, producers, financiers and marketers by creating a trans-national mechanism that facilitates the valorization of research results. In other words INTERVALUE aims to connect R&D Institutions and their projects with the business sector and the market."
+  },
+  "website": "http://www.greek-lod.gr/intervalue/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://www.greek-lod.gr/intervalue/",
+  "contact_point": {
+    "name": "Kavargiris Kostas and Bratsas Charalampos",
+    "email": "cbratsas@math.auth.gr"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "published-by-producer",
+    "sparql-endpoint",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Intervalue D2R Server",
+      "description": "Intervalue D2R Server",
+      "access_url": "http://www.greek-lod.gr/intervalue/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://greek-lod.math.auth.gr/intervalue/data/projects/170?output=rdfxml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://greek-lod.math.auth.gr/intervalue/sparql"
+    }
+  ]
+}

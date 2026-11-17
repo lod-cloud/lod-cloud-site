@@ -1,0 +1,161 @@
+{
+  "identifier": "bncf-ns",
+  "title": "Thesaurus BNCF",
+  "description": {
+    "en": "Nuovo soggettario (NS), edited by the National Central Library of Florence, is the Italian subject indexing tool for various types of resources. It has been developed in compliance with the IFLA recommendations, and other international standards in the field of subject indexing. This tool has been created for general and specialized Italian libraries, and for museums, multimedia libraries, archives and documentation centres. The main component of the NS is a general thesaurus available on the web since 2007 (http://thes.bncf.firenze.sbn.it/ricerca.php). The thesaurus comprises nowadays approximately 77.280  terms and it is updated on a regular basis.\nAll metadata can be used, in accordance with Creative Commons Attribution 4.0 licence."
+  },
+  "domain": "publications",
+  "website": "http://thes.bncf.firenze.sbn.it/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://thes.bncf.firenze.sbn.it",
+  "triples": 872215,
+  "contact_point": {
+    "name": "BNCF - settore Ricerche e strumenti di indicizzazione semantica",
+    "email": "bnc-fi.nuovosoggettario@cultura.gov.it"
+  },
+  "keywords": [
+    "publications",
+    "bibliographics",
+    "format-rdf",
+    "format-skos",
+    "library",
+    "authorities",
+    "linkeddata"
+  ],
+  "links": [
+    {
+      "target": "agrovoc",
+      "value": 3200
+    },
+    {
+      "target": "data-bnf-fr",
+      "value": 16617
+    },
+    {
+      "target": "datos-bne-es",
+      "value": 7414
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 11243
+    },
+    {
+      "target": "eurovoc",
+      "value": 185
+    },
+    {
+      "target": "getty-aat",
+      "value": 1132
+    },
+    {
+      "target": "lcsh",
+      "value": 18204
+    },
+    {
+      "target": "wikidata",
+      "value": 14342
+    }
+  ],
+  "full_download": [
+    {
+      "title": "BNCF-NS-201803",
+      "description": "RDF/XML version of Thesaurus BNCF (update of march 2018)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns201803.zip"
+    },
+    {
+      "title": "BNCF-NS-201810",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2018)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns201810.zip"
+    },
+    {
+      "title": "BNCF-NS-201904",
+      "description": "RDF/XML version of Thesaurus BNCF (update of april 2019)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns201904.zip"
+    },
+    {
+      "title": "BNCF-NS-201910",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2019)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns201910.zip"
+    },
+    {
+      "title": "BNCF-NS-202004",
+      "description": "RDF/XML version of Thesaurus BNCF (update of april 2020)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202004.zip"
+    },
+    {
+      "title": "BNCF-NS-202010",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2020)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202010.zip"
+    },
+    {
+      "title": "BNCF-NS-202104",
+      "description": "RDF/XML version of Thesaurus BNCF (update of april 2021)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202104.zip"
+    },
+    {
+      "title": "BNCF-NS-202110",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2021)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202110.zip"
+    },
+    {
+      "title": "BNCF-NS-202203",
+      "description": "RDF/XML version of Thesaurus BNCF (update of march 2022)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202203.zip"
+    },
+    {
+      "title": "BNCF-NS-202210",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2022)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202210.zip"
+    },
+    {
+      "title": "BNCF-NS-202303",
+      "description": "RDF/XML version of Thesaurus BNCF (update of march 2023)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202303.zip"
+    },
+    {
+      "title": "BNCF-NS-202310",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2023)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202310.zip"
+    },
+    {
+      "title": "BNCF-NS-202403",
+      "description": "RDF/XML version of Thesaurus BNCF (update of march 2024)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202403.zip"
+    },
+    {
+      "title": "BNCF-NS-202410",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2024)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202410.zip"
+    },
+    {
+      "title": "BNCF-NS-202503",
+      "description": "RDF/XML version of Thesaurus BNCF (update of march 2025)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202503.zip"
+    },
+    {
+      "title": "BNCF-NS-202510",
+      "description": "RDF/XML version of Thesaurus BNCF (update of october 2025)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202510.zip"
+    },
+    {
+      "title": "BNCF-NS-202603",
+      "description": "RDF/XML version of Thesaurus BNCF (update of march 2026)",
+      "download_url": "https://github.com/m-pepe/BNCF-NS/blob/main/ns202603.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Download",
+      "description": "RDF/XML Example",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://thes.bncf.firenze.sbn.it/dati.php?id=50006"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "https://digitale.bncf.firenze.sbn.it/openrdf-workbench/repositories/NS/query",
+      "description": "Thesaurus BNCF - Endpoint SPARQL",
+      "access_url": "https://digitale.bncf.firenze.sbn.it/openrdf-workbench/repositories/NS/query"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "identifier": "environment-data-gov-uk",
+  "title": "environment.data.gov.uk",
+  "description": {
+    "en": "Farming statistics (farm sizes, land use, livestock) on local authority level, represented in RDF. This is a conversion of the [June 2008 DEFRA survey on land use and livestock](http://www.defra.gov.uk/evidence/statistics/foodfarm/landuselivestock/junesurvey/index.htm). The source Excel file is listed in the resources.\r\n\r\nThe data is modelled using the SCOVO vocabulary as six SCOVO datasets with a total of ~26000 SCOVO items.\r\n\r\nThe data was loaded on 2009-09-30.\r\n\r\nPart of package:data-gov-uk\r\n\r\n## Issues\r\n\r\nDespite being in the Linked Data part of data.gov.uk, the data cannot be accessed via resolving of URIs. This might be because of the use of hash URIs."
+  },
+  "domain": "government",
+  "website": "http://environment.data.gov.uk/",
+  "triples": 185338,
+  "contact_point": {
+    "name": "Data.gov.uk Team",
+    "email": "team@data.gov.uk"
+  },
+  "keywords": [
+    "broken_link",
+    "farming",
+    "format-dc",
+    "format-scovo",
+    "government",
+    "lod",
+    "lodcloud.needsfixing",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "published-by-producer",
+    "statistics",
+    "ukgov"
+  ],
+  "other_download": [
+    {
+      "description": "Download (Turtle, Zip archive)",
+      "media_type": "text/turtle",
+      "access_url": "http://source.data.gov.uk/data/environment/environment/2009-09-30/environment-stats.zip"
+    },
+    {
+      "description": "Download (Excel)",
+      "media_type": "XLS",
+      "access_url": "http://www.defra.gov.uk/evidence/statistics/foodfarm/landuselivestock/junesurvey/documents/RegCountUA_08.xls"
+    },
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/environment/search"
+    },
+    {
+      "description": "SCOVO dataset",
+      "access_url": "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#livestock"
+    },
+    {
+      "description": "SCOVO dataset",
+      "access_url": "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#crops"
+    },
+    {
+      "description": "SCOVO dataset",
+      "access_url": "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#farm-types"
+    },
+    {
+      "description": "SCOVO dataset",
+      "access_url": "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#farm-sizes"
+    },
+    {
+      "description": "SCOVO dataset",
+      "access_url": "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#labour"
+    },
+    {
+      "description": "SCOVO dataset",
+      "access_url": "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#land-use"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html",
+      "access_url": "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#land-use-B8"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/environment/sparql"
+    }
+  ]
+}

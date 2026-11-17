@@ -1,0 +1,81 @@
+{
+  "identifier": "HASM",
+  "title": "High Accuracy Surface Modeling",
+  "description": {
+    "en": "In order to solve the theoretical problems of spatial surface modeling such as error, multi-scale, nonlinearity, operation speed and big data processing, Yue Tianxiang's team has organically combined surface theory, system theory, optimization cybernetics and modern computer technology. A high-precision surface modeling (HASM) method integrating extrinsic data (such as satellite remote sensing information) and intrinsic data (such as ground observation information) is created, and then the basic theorems of Earth surface system modeling and ecological environment surface modeling are refined and their inferences and algorithms concerning spatial interpolation, scale transformation, data fusion and model-data assimilation are derived."
+  },
+  "domain": "geography",
+  "website": "https://geomodeling.njnu.edu.cn/modelItem/7756b02e-893f-459c-89b9-7bc8c176ef11",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "HASM",
+    "data fusion"
+  ],
+  "other_download": [
+    {
+      "title": "Observation data of meteorological stations and stations in Jiangxi Province and its surrounding areas",
+      "description": "InputData",
+      "media_type": "data",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/resource/download/879da5ee-47df-4215-a62c-bfddbd84c7c9/0"
+    },
+    {
+      "title": "The successive least squares algorithm of high precision surface modeling method (HASM)",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C467SBiOvrai6S0v32EBguHnM4c5glNtQ3kYebX98LpXP9ig71uDjBtdVbdtP0a8YzhtC0XM94yn9WPqmdep2-qI&uniplatform=NZKPT"
+    },
+    {
+      "title": "Principles and methods of earth surface system simulation analysis",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "http://www.igsnrr.cas.cn/sourcedb_igsnrr_cas/zw/zjrck/200906/t20090626_1842564.html"
+    },
+    {
+      "title": "High precision surface modeling :HASM4",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7aLpFYbsPrqHPr0mFgcu-_o1k_-zabvCbMaO35Cpp5n0KtbG64x1TTROGbFdsoO1R&uniplatform=NZKPT"
+    },
+    {
+      "title": "Numerical experimental analysis of the best expression form of high precision surface modeling",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7eWoVfj7plMzOB-hfnZ-37rj-s_DQAGFhnerrGSGDJxGpTbh4X-3lFqC6oiGwA-CJ&uniplatform=NZKPT"
+    },
+    {
+      "title": "HASM method for interpolating random data",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7aLpFYbsPrqHNpcPqaxaNHT2wiq4crOmnsl3bVGVckYQszeZO0IIJYuqCFEOBomMy&uniplatform=NZKPT"
+    },
+    {
+      "title": "A regional climate simulation method and system coupled with deep learning and HASM",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=kxaUMs6x7-4I2jr5WTdXti3zQ9F92xu0Qg-R0xSsdGdCfhLaAHW6RNM9LxnH25Pic0g8M4zym37_ABWttgWj7zd1_69dSV5s&uniplatform=NZKPT"
+    },
+    {
+      "title": "A high precision surface modeling method and system for spatiotemporal collaboration",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=kxaUMs6x7-4I2jr5WTdXti3zQ9F92xu0Qg-R0xSsdGdCfhLaAHW6RGaK6WHo16ErFxQKwU9sdLxiGiyF5f9iWGvQep2oY_eZ&uniplatform=NZKPT"
+    },
+    {
+      "title": "HASM hyperparameter optimization method and system based on parallel computing",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=kxaUMs6x7-4I2jr5WTdXti3zQ9F92xu0djlSA8-Y0a-w2p-ld1Ocs0GCfKvYRm_MHae6KNR70gY7tI3Q0mN91yyHUJUY7iyg&uniplatform=NZKPT"
+    },
+    {
+      "title": "HASM model",
+      "description": "DescribedByPaper",
+      "media_type": "model",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/resource/download/879da5ee-47df-4215-a62c-bfddbd84c7c9/1"
+    }
+  ]
+}

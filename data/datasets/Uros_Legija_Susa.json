@@ -1,0 +1,19 @@
+{
+  "identifier": "Uros_Legija_Susa",
+  "title": "Legija Stranaca",
+  "description": {
+    "en": "U ime Legije"
+  },
+  "domain": "user_generated",
+  "website": "http://www.legion-etrangere.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "Moje Ime je Legija",
+  "triples": 5,
+  "contact_point": {
+    "name": "Uros Susa",
+    "email": "urossusa56@yahoo.com"
+  },
+  "keywords": [
+    "Numbers"
+  ]
+}

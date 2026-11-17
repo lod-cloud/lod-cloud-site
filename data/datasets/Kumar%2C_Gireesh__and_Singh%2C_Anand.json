@@ -1,0 +1,32 @@
+{
+  "identifier": "Kumar,_Gireesh__and_Singh,_Anand",
+  "title": "Informatics Studies",
+  "description": {
+    "en": "Heritage Informatics"
+  },
+  "domain": "publications",
+  "website": "https://www.researchgate.net/publication/361227359_Intangible_Cultural_Heritage_Knowledge_Classification_and_Management/citation/download",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "doi": "10.1108/JCHMSD-03-2022-0043",
+  "contact_point": {
+    "name": "Gireesh  Kumar",
+    "email": "gireeshkumar.bhu@gmail.com"
+  },
+  "keywords": [
+    "Cultural Heritage",
+    "Heritage Classification"
+  ],
+  "full_download": [
+    {
+      "title": "Intangible Cultural Heritage: Knowledge Classification and Management.",
+      "description": "Culture builds up the identity of a society and it is a reflection of the intellectual wealth of a civilization. Cultural information is essential for assessing the social, spiritual, symbolic, aesthetic and educational values cherished in our interconnected world. Heritage exists to make the past part of our present and future. Cultural Heritage (CH) has to be preserved to understand the legacies of the past, the base on which we stand, and to bring unity among individuals and communities for peace and progress. CH is classified into tangible (touchable), movable, immovable and intangible (thinkable). Different forms of Intangible Cultural Heritage (ICH) such as text, image, audio and are added to traditional ones using 2D and 3D scanning, 3D modeling and image processing, digital photography and videoing. Informatics tools make it possible to organize, preserve and transfer such knowledge transcending time and space. The knowledge associated with ICH needs to be classified by a rational standard for its effective management and access. We lack a standardized and reliable classification system for managing ICH stock. The classification of ICH information now completely depend on UNESCO's five hierarchical divisions which is insufficient. A comprehensive classification system is essential for all countries to develop national ICH databases and to achieve feasibility and interoperability. The present study taking India as a sample examines the status of classification and attempts to develop an elaborate categorization of ICH for development of a classification system.",
+      "media_type": "Journal Article",
+      "download_url": "https://www.researchgate.net/publication/361227359_Intangible_Cultural_Heritage_Knowledge_Classification_and_Management/citation/download"
+    },
+    {
+      "title": "Knowledge Classification and Management.",
+      "download_url": "https://www.emerald.com/insight/content/doi/10.1108/JCHMSD-03-2022-0043/full/html?skipTracking=true"
+    }
+  ]
+}

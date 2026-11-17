@@ -1,0 +1,64 @@
+{
+  "identifier": "aragodbpedia",
+  "title": "AragoDBpedia - aragon open data",
+  "description": {
+    "en": "This dataset contains data obtained through an automatic extraction process from Aragopedia (http://opendata.aragon.es/aragopedia/), and contains information about all the municipalities, boroughs, and provinces of the region of Aragón, in Spain."
+  },
+  "domain": "government",
+  "website": "https://opendata.aragon.es",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Aragón Open Data",
+    "email": "opendata@aragon.es"
+  },
+  "keywords": [
+    "Aragón",
+    "Aragón Government",
+    "Spain",
+    "geographic",
+    "geography",
+    "government",
+    "lod",
+    "no-proprietary-vocab",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia-es",
+      "value": 768
+    },
+    {
+      "target": "ei2a",
+      "value": 768
+    }
+  ],
+  "other_download": [
+    {
+      "title": "AragoDBpedia ontology",
+      "description": "Ontology used for the AragoDBpedia data",
+      "access_url": "http://opendata.aragon.es/def/Aragopedia.html"
+    }
+  ],
+  "example": [
+    {
+      "title": "AragoDBpedia sample municipality",
+      "description": "A sample municipality in Turtle.",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "https://opendata.aragon.es/sparql?query=define%20sql%3Adescribe-mode%20%22CBD%22%20%20DESCRIBE%20%3Chttp%3A%2F%2Fopendata.aragon.es%2Frecurso%2Fterritorio%2FMunicipio%2FAbabuj%3E&output=text%2Fturtle"
+    },
+    {
+      "title": "AragoDBpedia sample municipality in RDF/XML",
+      "description": "A sample municipality in RDF/XML.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "https://opendata.aragon.es/sparql?query=define%20sql%3Adescribe-mode%20%22CBD%22%20%20DESCRIBE%20%3Chttp%3A%2F%2Fopendata.aragon.es%2Frecurso%2Fterritorio%2FMunicipio%2FAbabuj%3E&output=application%2Frdf%2Bxml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Aragon Open Data SPARQL endpoint",
+      "description": "SPARQL endpoint of Aragon Open Data",
+      "access_url": "http://opendata.aragon.es/sparql"
+    }
+  ]
+}

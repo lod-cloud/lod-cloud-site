@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-estonian",
+  "title": "Universal Dependencies Treebank Estonian",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Estonian treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Estonian",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 234351,
+  "contact_point": {
+    "name": "Muischnek, Kadri; Müürisep, Kaili; Puolakainen, Tiina"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Estonian Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Estonian/archive/master.zip"
+    },
+    {
+      "title": "UD_Estonian RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/74f858f4-c411-46bd-8676-eee91ada1c96/resource/4eabacdc-1139-425b-bd9d-35c4bd203f95/download/udestonian.rdf"
+    }
+  ]
+}

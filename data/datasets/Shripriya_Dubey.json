@@ -1,0 +1,16 @@
+{
+  "identifier": "Shripriya_Dubey",
+  "title": "Person",
+  "description": {
+    "en": "An ontology showing ah hierarchy of persons in a university and subjects. It specifies a relationship between teachers and subjects and students and subjects."
+  },
+  "domain": "publications",
+  "website": "http://www.semanticweb.org/user/ontologies/2020/0/untitled-ontology-30",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "image": "http://www.semanticweb.org/user/ontologies/2020/0/untitled-ontology-30",
+  "contact_point": {
+    "name": "Shripriya Dubey",
+    "email": "shriya2021@gmail.com"
+  }
+}

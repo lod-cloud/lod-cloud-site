@@ -1,0 +1,44 @@
+{
+  "identifier": "vivo-weill-cornell-medical-college",
+  "title": "VIVO Weill Cornell Medical College",
+  "description": {
+    "en": "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines. VIVO contains information about researchers associated with the Clinical and Translational Science Center."
+  },
+  "domain": "social_networking",
+  "website": "http://vivo.med.cornell.edu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 193000,
+  "contact_point": {
+    "name": "VIVO"
+  },
+  "keywords": [
+    "deref-vocab",
+    "education",
+    "format-rdf",
+    "format-rdfs",
+    "format-vitro",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "science",
+    "social-networks",
+    "vivo"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 58
+    }
+  ],
+  "other_download": [
+    {
+      "title": "2012-04-02T142918/weill-rdf-dump.rdf",
+      "description": "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines. VIVO contains information about researchers associated with the Clinical and Translational Science Center.",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-04-02T142918/weill-rdf-dump.rdf"
+    }
+  ]
+}

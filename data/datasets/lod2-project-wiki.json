@@ -1,0 +1,43 @@
+{
+  "identifier": "lod2-project-wiki",
+  "title": "LOD2 Project Wiki",
+  "description": {
+    "en": "Projekt Wiki of the LOD2 EU Project"
+  },
+  "website": "http://lod2.eu",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcterm",
+    "format-doap",
+    "format-foaf",
+    "format-lod2",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "format-skos",
+    "format-tsioc",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 75
+    },
+    {
+      "target": "personal-homepages",
+      "value": 24
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://lod2.eu/model/export/?m=http://lod2.eu/&f=rdfxml"
+    }
+  ]
+}

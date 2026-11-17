@@ -1,0 +1,34 @@
+{
+  "identifier": "wordpress",
+  "title": "wordpress",
+  "domain": "user_generated",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-admin",
+    "format-content",
+    "format-dcterm",
+    "format-rdf",
+    "format-rss",
+    "lodcloud-diagram-2014-08-30",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "lexvo",
+      "value": 1
+    },
+    {
+      "target": "w3c",
+      "value": 20
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://johngoodwin225.wordpress.com/feed/rdf/"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "identifier": "biblioteca-nacional-escolar-bnescolar",
+  "title": "Biblioteca Nacional Escolar (BNEscolar)",
+  "description": {
+    "en": "La Biblioteca Nacional Escolar (BNEscolar) es una colección de más de 8.500 documentos digitalizados de la Biblioteca Digital Hispánica. Está constituida por un conjunto de contenidos elegidos, además de por su indudable valor cultural, por su utilidad para enriquecer y complementar los contenidos educativos del currículo de enseñanzas medias. \r\n\r\nLa BNEscolar nació en el marco de la colaboración entre la Bliblioteca Nacional de España (BNE) y GNOSS en el proyecto Spanish Culture in Linked Open Data: Explotación semántica y valorización educativa de los bienes culturales españoles.\r\n\r\nEstá estructurada en tres secciones: Arte, Dibujos de los niños de la guerra y Otras colecciones. La primera de ellas engloba más de  2400 obras de arte de las colecciones de Grabados de Durero, Obras de Goya, Estampas Japonesas, Grabados flamencos y holandeses...de gran riqueza cultural. La  segunda de ellas comprende íntegramente la colección de Dibujos de los niños de la guerra. Un conjunto de cerca de 1200 dibujos, pintados por niños acogidos en diversas instituciones de España y Francia, que representa la mirada infantil del conflicto bélico y de escenas de la vida cotidiana en esa época. La tercera de ellas, Otras Colecciones, incluye más de 5.000 obras culturales sobre diversas disciplinas pertenecientes a quince diferentes colecciones de la BNE como: Teatro del Siglo de Oro, Quijotes, Material Cartográfico Manuscrito, Historia de la Ciencia, entre otras.\r\n\r\n\r\nNational School Library\r\n\r\nThe National School Library (BNEscolar) is a collection of over 8,500 digitalized documents of the Hispanic Digital Library. It is constituted for a set of chosen contents, in addition to its indubitable cultural value, because of its usefulness to enrich and complement educational contents of the intermediate education curriculum.\r\n\r\nThe BNEscolar was born in the context of teamwork between Spanish School Library BNE and GNOSS on the project Spanish Culture in Linked Open Data: semantic exploitation and educational valorization of Spanish cultural goods.\r\n\r\nIt is structured into three sections: Art, Children’s drawings of war and Other collections. The first of them includes more than 2,400 artworks from collections of Engravings by Dürer, Works of Goya, Japanese Prints, Flemish and Dutch Engravings … culturally rich. The second of them includes entirely the collection of Children’s drawings of war. A whole of about 1,200 drawings, painted by fostered children by different institutions of Spain and France, which represents childish look of the war conflict and scenes of daily life at this time. The third of them, Other collections, includes over 5,000 artworks about several disciplines belonging to fifteen different collections of BNE like: Spanish Golden Age Theatre, Quijotes, Manuscript Cartographic Material, History of Science, among other artworks.\r\n\r\nBibliothèque National Scolaire\r\n\r\nLa Bibliothèque National Scolaire (BNEscolar) est une collection de plus de 8.500 documents digitalisés de la Bibliothèque National Hispanique. Elle est constituée d’un ensemble de contenus sélectionnés, en plus de son indubitable valeur culturelle, pour son utilité pour enrichir et complémenter les contenus éducatifs du curriculum d’enseignements secondaires.\r\n\r\nLa BNEscolar est né dans le cadre de collaboration entre la Bibliothèque Nationale Espagnole BNE et GNOSS dans le projet Spanish Culture in Linked Open Data : exploitation sémantique et valorisation éducative des biens culturels espagnols.\r\n\r\nElle est divisée en trois sections : Art, Dessins des enfants de la guerre et Autres collections. La première comprend plus de 2.400 œuvres d’art des collections des Gravures de Dürer, des Ouvres de Goya, des Estampes japonaises, des Gravures flamands et hollandais … d’une grande richesse culturelle. La deuxième comprend entièrement la collection des Dessins des enfants de la guerre. Un ensemble d’environ 1.200 dessins, peint par des enfants accueillis par des institutions d’Espagne et de la France, que représente le regard enfantin de la guerre et des scènes de la vie quotidienne dans cette époque. La troisième, Autres collections, comprend plus de 5.000 œuvres culturelles sur diverses disciplines dans quinze différents collections de la BNE comme : Théâtre de l’Age d’Or, Quijotes, Matériel Cartographique Manuscrit, Histoire de la Science, entre autres."
+  },
+  "domain": "publications",
+  "triples": 426746,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "biblioteca nacional",
+    "biblioteca nacional escolar",
+    "bne",
+    "gnoss"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 17327
+    },
+    {
+      "target": "didactalia",
+      "value": 31685
+    },
+    {
+      "target": "freebase",
+      "value": 6199
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1324
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1414
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Ejemplo de un dibujo de un niño de la guerra",
+      "description": "Ejemplo de un dibujo de un niño de la guerra",
+      "access_url": "http://bnescolar.net/comunidad/BNEscolar/recurso/paisaje-con-casa-y-avion/048e37d6-ac88-41b2-a30d-d6caad090ff7?rdf"
+    },
+    {
+      "title": "Ejemplo colección Independencia Americana",
+      "description": "Ejemplo colección Independencia Americana",
+      "access_url": "http://bnescolar.net/comunidad/BNEscolar/recurso/segunda-legislatura-constitucional-de-durango/2277565f-7952-4845-b07a-c24ab9074662?rdf"
+    },
+    {
+      "title": "Ejemplo de búsqueda de colecciones",
+      "description": "Ejemplo de búsqueda de colecciones",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://bnescolar.net/comunidad/BNEscolar/otrascolecciones?rdf"
+    }
+  ]
+}

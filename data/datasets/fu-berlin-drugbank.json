@@ -1,0 +1,105 @@
+{
+  "identifier": "fu-berlin-drugbank",
+  "title": "DrugBank",
+  "description": {
+    "en": "The Linked Data version of DrugBank which is a repository of almost 5000 FDA-approved small molecule and biotech drugs. It contains detailed information about drugs including chemical, pharmacological and pharmaceutical data; along with comprehensive drug target data such as sequence, structure, and pathway information\r\n\r\nlinks:bio2rdf-kegg 913\r\nlinks:bio2rdf-symbol 1533"
+  },
+  "domain": "life_sciences",
+  "website": "http://www4.wiwiss.fu-berlin.de/drugbank/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/",
+  "triples": 765936,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-cas",
+      "value": 2240
+    },
+    {
+      "target": "bio2rdf-chebi",
+      "value": 736
+    },
+    {
+      "target": "bio2rdf-hgnc",
+      "value": 1675
+    },
+    {
+      "target": "bio2rdf-kegg-compound",
+      "value": 1331
+    },
+    {
+      "target": "bio2rdf-pdb",
+      "value": 3379
+    },
+    {
+      "target": "bio2rdf-pfam",
+      "value": 19028
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 96
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 4660
+    },
+    {
+      "target": "dbpedia",
+      "value": 4220
+    },
+    {
+      "target": "fu-berlin-dailymed",
+      "value": 1597
+    },
+    {
+      "target": "linkedct",
+      "value": 6064
+    },
+    {
+      "target": "tcmgenedit_dataset",
+      "value": 385
+    }
+  ],
+  "full_download": [
+    {
+      "description": "N-Triples, bz2 packed",
+      "media_type": "application/x-bzip2",
+      "download_url": "http://www4.wiwiss.fu-berlin.de/drugbank/drugbank_dump.nt.bz2"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "application/xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/drugbank/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugs/DB00001"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/drugbank/sparql"
+    }
+  ]
+}

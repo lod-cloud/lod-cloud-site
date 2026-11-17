@@ -1,0 +1,15 @@
+{
+  "identifier": "abhay_intro",
+  "title": "my intro",
+  "description": {
+    "en": "this is my intro"
+  },
+  "domain": "user_generated",
+  "website": "https://drive.google.com/open?id=1H7rHLasWZ2nAvkbY_IE3UTZlOW9dgFt7",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "abhay",
+    "email": "abhaygupta190@gmail.com"
+  }
+}

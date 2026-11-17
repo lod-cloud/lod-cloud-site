@@ -1,0 +1,73 @@
+{
+  "identifier": "statusnet-fcac-com",
+  "title": "statusnet-fcac-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://fcac.com"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 4
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ilikefreedom-ro",
+      "value": 1
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 9
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://laconica.fcac.com/salyavin/foaf"
+    }
+  ]
+}

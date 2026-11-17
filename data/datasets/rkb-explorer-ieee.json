@@ -1,0 +1,137 @@
+{
+  "identifier": "rkb-explorer-ieee",
+  "title": "IEEE Papers (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://ieee.rkbexplorer.com",
+  "namespace": "http://ieee.rkbexplorer.com/id/",
+  "triples": 91564,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 2949
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 1182
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 5867
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 50
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 643
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 29
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 516
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 97
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 73
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 417
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 18
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 17
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 7
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 9
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://ieee.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://ieee.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://ieee.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://ieee.rkbexplorer.com/id/person-21757c2767705194600b55ff6b0ef692-1e427d6bbb6d2bb2aa5434059d6c58f4"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://ieee.rkbexplorer.com/sparql/"
+    }
+  ]
+}

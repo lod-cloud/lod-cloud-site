@@ -1,0 +1,33 @@
+{
+  "identifier": "Upper_Ontology",
+  "title": "Sup_Ont: An Upper Ontology",
+  "description": {
+    "en": "This is the Ontology that defines the structure of universe and concept of reality. In super ontology  there is a distinction between defining and characteristic features. The devised super ontology and hence the domain ontologies can be reused across applications because of the generalized representation scheme used that is an EHCPR. An Extended Hierarchical Censored Production Rules (EHCPRs) system is a knowledge representation system for reasoning with real life problems and a step towards a generalized representation system."
+  },
+  "domain": "user_generated",
+  "website": "https://sonika-malik.github.io/super-ontology/sup_proton.xml",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 120,
+  "contact_point": {
+    "name": "Sonika",
+    "email": "sonika.malik@gmail.com"
+  },
+  "keywords": [
+    "Matter",
+    "Space",
+    "Time",
+    "EHCPR"
+  ],
+  "links": [
+    {
+      "target": "Generalized_Super_Ontology",
+      "value": 33
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Big Data",
+      "access_url": "https://query.wikidata.org/bigdata/namespace/wdq/sparql?query={SPARQL}"
+    }
+  ]
+}

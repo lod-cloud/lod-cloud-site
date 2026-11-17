@@ -1,0 +1,44 @@
+{
+  "identifier": "linked-life-data",
+  "title": "Linked Life Data",
+  "description": {
+    "en": "Linked Life Data is aggregation of more than 25 popular biomedical data sources.\r\n\r\n### DOWNLOADS\r\nhttp://linkedlifedata.com/sources\r\n\r\n### SPARQL\r\nhttp://linkedlifedata.com/sparql"
+  },
+  "domain": "life_sciences",
+  "website": "http://linkedlifedata.com/",
+  "namespace": "http://linkedlifedata.com/resource/",
+  "triples": 5120886447,
+  "contact_point": {
+    "name": "Ontotext AD",
+    "email": "lifeskim@ontotext.com"
+  },
+  "keywords": [
+    "dataset-collection",
+    "deref-vocab",
+    "format-po",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "pdds",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://linkedlifedata.com/sources"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/ntriples",
+      "access_url": "http://linkedlifedata.com/resource/entrezgene/id/5742"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql endpoint",
+      "access_url": "http://linkedlifedata.com/sparql"
+    }
+  ]
+}

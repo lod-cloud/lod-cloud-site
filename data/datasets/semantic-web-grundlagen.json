@@ -1,0 +1,29 @@
+{
+  "identifier": "semantic-web-grundlagen",
+  "title": "semantic-web-grundlagen",
+  "domain": "publications",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "deref-vocab",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "lodcloud-diagram-2014-08-30",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/xml; charset=UTF-8",
+      "access_url": "http://semantic-web-grundlagen.de/wiki/Spezial:ExportRDF/Praxisvortrag_(14._Vorlesung_SWebT1_WS12/13)"
+    }
+  ]
+}

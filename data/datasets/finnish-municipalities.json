@@ -1,0 +1,58 @@
+{
+  "identifier": "finnish-municipalities",
+  "title": "Finnish municipalities and regional classifications",
+  "description": {
+    "en": "An RDF vocabulary describing Finnish municipalities and many regional classifications, including \r\n\r\n* Centres for Economic Development, Transport and the Environment\r\n* Provinces\r\n* Regional State Administrative Agencies\r\n* Regions\r\n* Major regions\r\n* Statistical grouping of municipalities\r\n* Employment and economic development centres\r\n\r\nThe data is based on classifications by Statistics Finland. The format is SKOS-based, but extends SKOS by defining separate classes (subclasses of skos:Concept) for each entity type and similarly uses subproperties of SKOS properties to relate the entities.\r\n\r\nLinks to DBpedia and Wikipedia are also provided for the municipalities."
+  },
+  "domain": "government",
+  "website": "http://onki.fi/en/browser/overview/kunnat",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.yso.fi/onto/kunnat/",
+  "triples": 11380,
+  "contact_point": {
+    "name": "Osma Suominen",
+    "email": "osma.suominen@tkk.fi"
+  },
+  "keywords": [
+    "country-finland",
+    "deref-vocab",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "geographic",
+    "government",
+    "local-government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "municipal",
+    "opendatachallenge",
+    "provenance-metadata",
+    "published-by-third-party",
+    "regional",
+    "regions",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 336
+    },
+    {
+      "target": "wikipedia",
+      "value": 336
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download as Turtle RDF",
+      "access_url": "http://onki.fi/en/browser/downloadfile/kunnat?o=http%3A%2F%2Fwww.yso.fi%2Fonto%2Fkunnat&f=kunnat%2Fkunnat2011-skos.ttl"
+    }
+  ],
+  "example": [
+    {
+      "description": "example for access as a Linked Data URI space",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://www.yso.fi/onto/kunnat/k91"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "university-sussex-reading-lists",
+  "title": "University of Sussex Reading Lists",
+  "description": {
+    "en": "To find and access your readings:\r\nSearch using the course title or course code\r\nFollow the links through to a reading list provided for your course\r\nClick on individual items to show library availability and/or full text of online resources\r\nSign in with your ITS username and password to add personal study notes to items in your list\r\nIf your reading list is not available, check your Study Direct course site."
+  },
+  "website": "http://liblists.sussex.ac.uk",
+  "namespace": "http://liblists.sussex.ac.uk/items/",
+  "triples": 1762492,
+  "contact_point": {
+    "name": "Ian Davis",
+    "email": "ian.davis@talis.com"
+  },
+  "keywords": [
+    "education",
+    "format-dc",
+    "format-rdf",
+    "format-sioc",
+    "higher-education",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "talis"
+  ],
+  "links": [
+    {
+      "target": "openlibrary",
+      "value": 27751
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://liblists.sussex.ac.uk/lists/0B9D65E5-BB0B-F4CD-7BD9-E55B18BF7400"
+    }
+  ]
+}

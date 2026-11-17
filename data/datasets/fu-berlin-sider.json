@@ -1,0 +1,73 @@
+{
+  "identifier": "fu-berlin-sider",
+  "title": "SIDER: Side Effect Resource",
+  "description": {
+    "en": "The Linked Data version of SIDER which contains information on marketed drugs and their adverse effects. The information is extracted from public documents and package inserts.\r\n\r\nLicensing\r\n\r\nThe data is available under a mix of Creative Commons Zero and Creative SA-BY-NC."
+  },
+  "domain": "life_sciences",
+  "website": "http://www4.wiwiss.fu-berlin.de/sider/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/sider/resource/",
+  "triples": 192515,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2126
+    },
+    {
+      "target": "fu-berlin-dailymed",
+      "value": 1986
+    },
+    {
+      "target": "fu-berlin-diseasome",
+      "value": 238
+    },
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 1140
+    },
+    {
+      "target": "fu-berlin-stitch",
+      "value": 14894
+    },
+    {
+      "target": "tcmgenedit_dataset",
+      "value": 171
+    }
+  ],
+  "full_download": [
+    {
+      "description": "N-Triples, bz2 packed",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www4.wiwiss.fu-berlin.de/sider/sider_dump.nt.bz2"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/sider/resource/drugs/1003"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/sider/sparql"
+    }
+  ]
+}

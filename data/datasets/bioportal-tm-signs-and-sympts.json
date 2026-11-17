@@ -1,0 +1,159 @@
+{
+  "identifier": "bioportal-tm-signs-and-sympts",
+  "title": "Traditional Medicine Signs and Symptoms Value Set",
+  "description": {
+    "en": "The value set for the Signs and Symptoms property of the International Classification of Traditional Medicine (ICTM)."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1572",
+  "triples": 2697,
+  "contact_point": {
+    "name": "Tania Tudorache"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 35
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 16
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 38
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 53
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 36
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 35
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 37
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 12
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 24
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 23
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 16
+    },
+    {
+      "target": "bioportal-icpc",
+      "value": 12
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 64
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 30
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 23
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 72
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 29
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 132
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 22
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 53
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 69
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 45
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 11
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 42
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 63
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 211
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 35
+    },
+    {
+      "target": "bioportal-sso",
+      "value": 15
+    },
+    {
+      "target": "bioportal-who",
+      "value": 44
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45217?apikey=BP_API_KEY"
+    }
+  ]
+}

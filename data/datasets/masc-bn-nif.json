@@ -1,0 +1,34 @@
+{
+  "identifier": "masc-bn-nif",
+  "title": "MASC-BN-NIF",
+  "description": {
+    "en": "This dataset contains the MASC 3.0 corpus, a large English corpus covering a wide range of genres of written and spoken text, enhanced with semantic annotations, both word senses and named entities. Annotations are drawn from the sense/entity inventory derived from BabelNet 2.0, a multilingual semantic network which integrates both lexicographic and  encyclopedic knowledge."
+  },
+  "domain": "linguistics",
+  "triples": 5620229,
+  "contact_point": {
+    "name": "Roberto Navigli",
+    "email": "navigli@di.uniroma1.it"
+  },
+  "keywords": [
+    "annotation",
+    "babelnet",
+    "format-nif",
+    "linguistic",
+    "llod",
+    "masc",
+    "nif"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 286416
+    }
+  ],
+  "other_download": [
+    {
+      "title": "MASC 3.0 with BabelNet annotations in NIF format",
+      "access_url": "http://lcl.uniroma1.it/MASC-NEWS/"
+    }
+  ]
+}

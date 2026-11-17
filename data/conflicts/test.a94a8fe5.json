@@ -1,0 +1,15 @@
+{
+  "identifier": "test",
+  "title": "test",
+  "description": {
+    "en": "Test"
+  },
+  "domain": "user_generated",
+  "website": "https://lod-cloud.net/add-dataset",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Test",
+    "email": "test@gmail.com"
+  }
+}

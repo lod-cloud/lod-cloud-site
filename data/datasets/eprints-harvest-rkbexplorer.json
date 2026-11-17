@@ -1,0 +1,123 @@
+{
+  "identifier": "eprints-harvest-rkbexplorer",
+  "title": "ePrints Harvest (RKBExplorer)",
+  "description": {
+    "en": "The data here comes from harvesting ePrints Open Archives, as listed at [http://roar.eprints.org](http://roar.eprints.org).\r\n\r\nThere is a [list of the 190 repositories](http://foreign.rkbexplorer.com/models/sites.html) we have managed to harvest.\r\n\r\nWe can't provide a typical URI to resolve, as none of the URIs are ours. You can use this URI to do a SPARQL query: http://researchrepository.napier.ac.uk/id/eprint/1615"
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "bibliographic data",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "sparql",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 337
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 15
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 155
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 490
+    },
+    {
+      "target": "rkb-explorer-biolit",
+      "value": 100
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 115
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 1275
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 100
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 48944
+    },
+    {
+      "target": "rkb-explorer-jisc",
+      "value": 19
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 52
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 567620
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 75
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 25584
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 2291
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 49979
+    }
+  ],
+  "other_download": [
+    {
+      "title": "A bibliographic entry",
+      "description": "http://researchrepository.napier.ac.uk/id/eprint/1615 resolves to the original source.\r\nBut the link here \"resolves\" the URI in the RDF store.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://foreign.rkbexplorer.com/browse/?type=resource&forceLocal=true&uri=http%3A%2F%2Fresearchrepository.napier.ac.uk%2Fid%2Feprint%2F1615"
+    },
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://foreign.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "description": "Semantic Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://foreign.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "Co-reference Service (sameAs)",
+      "media_type": "RDF",
+      "access_url": "http://foreign.rkbexplorer.com/crs/"
+    },
+    {
+      "description": "Landing Page",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://foreign.rkbexplorer.com/"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://foreign.rkbexplorer.com/sparql/"
+    }
+  ]
+}

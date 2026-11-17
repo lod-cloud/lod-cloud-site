@@ -1,0 +1,22 @@
+{
+  "identifier": "God_",
+  "title": "1121",
+  "description": {
+    "en": "alles"
+  },
+  "domain": "cross_domain",
+  "website": "https://rss.itunes.apple.com/api/v1/us/apple-music/coming-soon/all/10/non-explicit.json",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "Noosphericus",
+  "triples": 0,
+  "contact_point": {
+    "name": "Комета Каталина Орлова-Полянская",
+    "email": "godygoole@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "https://rss.itunes.apple.com/api/v1/us/apple-music/coming-soon/all/10/non-explicit.json",
+      "download_url": "https://rss.itunes.apple.com/api/v1/us/apple-music/coming-soon/all/10/non-explicit.json"
+    }
+  ]
+}

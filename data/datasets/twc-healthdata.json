@@ -1,0 +1,104 @@
+{
+  "identifier": "twc-healthdata",
+  "title": "HealthData.gov Platform (HDP) on the Semantic Web",
+  "description": {
+    "en": "Linked Data version of the metadata and data listed at http://hub.healthdata.gov."
+  },
+  "website": "http://healthdata.tw.rpi.edu/index.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://purl.org/twc/health/",
+  "triples": 1934046908,
+  "contact_point": {
+    "name": "James McCusker",
+    "email": "mccusj@rpi.edu"
+  },
+  "keywords": [
+    "deref-vocab",
+    "ecommerce",
+    "format-con",
+    "format-doap",
+    "format-foaf",
+    "format-owl",
+    "format-prov",
+    "format-qb",
+    "format-rdf",
+    "format-rdfs",
+    "format-vann",
+    "format-vcard",
+    "geographic",
+    "government",
+    "lifesciences",
+    "lod",
+    "no-license-metadata",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "vocab-mappings"
+  ],
+  "other_download": [
+    {
+      "title": "Download File",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/twc/health/source/hub-healthdata-gov/file/2008-basic-stand-alone-skilled/version/2012-Mar-15/conversion/hub-healthdata-gov-2008-basic-stand-alone-skilled-2012-Mar-15.void.ttl.gz"
+    },
+    {
+      "title": "VoID Listing",
+      "description": "Listing of all RDF datasets available, using the Vocabulary of Interlinked Datasets (VoID)",
+      "media_type": "meta/void",
+      "access_url": "http://healthdata.tw.rpi.edu/void"
+    },
+    {
+      "title": "rdf RDF Schema",
+      "access_url": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "title": "rdfs RDF Schema",
+      "access_url": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "title": "doap RDF Schema",
+      "access_url": "http://usefulinc.com/ns/doap#"
+    },
+    {
+      "title": "foaf RDF Schema",
+      "access_url": "http://xmlns.com/foaf/0.1/"
+    },
+    {
+      "title": "owl RDF Schema",
+      "access_url": "http://www.w3.org/2002/07/owl#"
+    },
+    {
+      "title": "prov RDF Schema",
+      "access_url": "http://www.w3.org/ns/prov#"
+    },
+    {
+      "title": "qb RDF Schema",
+      "access_url": "http://purl.org/linked-data/cube#"
+    },
+    {
+      "title": "vann RDF Schema",
+      "access_url": "http://purl.org/vocab/vann/"
+    },
+    {
+      "title": "vcard RDF Schema",
+      "access_url": "http://www.w3.org/2006/vcard/ns#"
+    },
+    {
+      "title": "con RDF Schema",
+      "access_url": "http://www.w3.org/2000/10/swap/pim/contact#"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/twc/health/source/hub-healthdata-gov/dataset/hospital-compare/version/2012-Jul-17/provider/010054"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://healthdata.tw.rpi.edu/sparql"
+    }
+  ]
+}

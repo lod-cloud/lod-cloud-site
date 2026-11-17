@@ -1,0 +1,79 @@
+{
+  "identifier": "yovisto",
+  "title": "Yovisto - academic video search",
+  "description": {
+    "en": "Yovisto is a video search engine specialized in academic lecture recordings and conference talks. Unlike other video search engines, Yovisto provides a time based video index,\r\nwhich allows to search within the videos? content. Automated analysis techniques such as scene detection\r\nand intelligent character recognition are used for metadata generation. Time dependent collaborative annotation enables the user to annotate tags and comments at any\r\npoint within a video."
+  },
+  "domain": "user_generated",
+  "website": "http://www.yovisto.com/ontology/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://www.yovisto.com/resource",
+  "triples": 4932352,
+  "contact_point": {
+    "name": "Yovisto.com",
+    "email": "info@yovisto.com"
+  },
+  "keywords": [
+    "academic",
+    "crossdomain",
+    "deref-vocab",
+    "e-learning",
+    "education",
+    "format-cc",
+    "format-dc",
+    "format-foaf",
+    "format-mpeg7",
+    "format-tag",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "multimedia",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "science",
+    "usergeneratedcontent",
+    "video",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 300
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Embedded RDFa in Yovisto website.",
+      "access_url": "http://www.yovisto.com/"
+    },
+    {
+      "description": "Turtle Dump (gzipped)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://www.yovisto.com/labs/dumps/latest.ttl.tar.gz"
+    },
+    {
+      "description": "OWL-DL Description",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://www.yovisto.com/ontology/0.9/index.owl"
+    },
+    {
+      "description": "Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://www.yovisto.com/sitemapext.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.yovisto.com/resource/speaker/470"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Public SPARQL-Endpoint",
+      "access_url": "http://sparql.yovisto.com/"
+    }
+  ]
+}

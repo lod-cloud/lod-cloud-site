@@ -1,0 +1,63 @@
+{
+  "identifier": "kupkb",
+  "title": "Kidney and Urinary Pathway Knowledge Base",
+  "description": {
+    "en": "The KUPKB is a collection of omics datasets that have been extracted from scientific publications and other related renal databases. The iKUP browser provides a single point of entry for you to query and browse these datasets. http://www.kupkb.org. SPARQL endpoint http://sparql.kupkb.org/sparql"
+  },
+  "domain": "life_sciences",
+  "namespace": "http://www.kupkb.org/",
+  "triples": 7000000,
+  "keywords": [
+    "biological database",
+    "format-efo",
+    "gene expression",
+    "kidney",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "urinary pathway"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-genbank",
+      "value": 789483
+    },
+    {
+      "target": "uniprotkb",
+      "value": 1339019
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gudmap, GSE17138",
+      "description": "Example experiment from the KUPKB.",
+      "access_url": "http://www.kupkb.org/data/kupkb/experiment/gse17138_adult_assay"
+    },
+    {
+      "title": "dataset descripton",
+      "description": "basic metadata about the KUPKB dataset",
+      "access_url": "http://www.kupkb.org/data/kupkb/dataset/010913"
+    },
+    {
+      "title": "KUPKB ontology",
+      "description": "Kidney and Urinary pathway ontology.",
+      "access_url": "http://www.kupkb.org/public/kupkb/kupkb.owl"
+    },
+    {
+      "title": "Kidney and Urinary Pathway Ontology",
+      "description": "Ontology describing kidney and urinary pathways cell, anatomy, and disease.",
+      "access_url": "http://www.kupkb.org/public/kupo/kupo.owl"
+    },
+    {
+      "title": "void description",
+      "access_url": "http://www.kupkb.org/data/kupkb/dataset/010913"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "KUPKB SPARQL",
+      "description": "SPARQL endpoint to the KUPKB",
+      "access_url": "http://sparql.kupkb.org/sparql"
+    }
+  ]
+}

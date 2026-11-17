@@ -1,0 +1,41 @@
+{
+  "identifier": "dbtune-audioscrobbler",
+  "title": "DBTune.org AudioScrobbler RDF Service",
+  "description": {
+    "en": "### Description\r\n\r\nThis service provides a live RDF representation of your last 10 tracks submitted to [AudioScrobbler/Last.fm](http://www.audioscrobbler.net/). There are many AudioScrobbler clients for a wide range of media players. It now also provides you with the list of your friends (using their URI on this service, allowing to access their friends and scrobbles).\r\n\r\nThis representations is designed using the Music Ontology, FOAF and a small AudioScrobble ontology. Moreover, it is interlinked with corresponding dereferencable URIs in the Musicbrainz repository (see this quick explanation of why this is important).\r\n\r\n### Statistics\r\n\r\nThe triple count and MusicBrainz link count are based on estimates of total user numbers."
+  },
+  "domain": "media",
+  "website": "http://dbtune.org/last-fm/",
+  "namespace": "http://dbtune.org/last-fm/",
+  "triples": 600000000,
+  "contact_point": {
+    "name": "Yves Raimond",
+    "email": "yves@dbtune.org"
+  },
+  "keywords": [
+    "dbtune",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "music",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "zitgist-musicbrainz",
+      "value": 15000000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dbtune.org/last-fm/anjeve"
+    }
+  ]
+}

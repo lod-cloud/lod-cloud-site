@@ -1,0 +1,73 @@
+{
+  "identifier": "statusnet-legadolibre-com-ar",
+  "title": "statusnet-legadolibre-com-ar",
+  "description": {
+    "en": "StatusNet instance hosted at http://legadolibre.com.ar"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 20
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 5
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 5
+    },
+    {
+      "target": "statusnet-mamalibre-com-ar",
+      "value": 5
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 8
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 21
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 8
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 3
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://legadolibre.com.ar/serafasto/foaf"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "flyted",
+  "title": "Flyted",
+  "website": "http://code.google.com/p/open-biomed/wiki/Flyted",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 63004,
+  "contact_point": {
+    "name": "Jun Zhao"
+  },
+  "keywords": [
+    "flyted",
+    "linkeddata",
+    "linktoflybase",
+    "open-biomed"
+  ],
+  "other_download": [
+    {
+      "description": "Data dump, tar.gz format",
+      "access_url": "http://www.open-biomed.org.uk/open-biomed-data/flyted-release-fm3-20110210.tar.gz"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/flyted/probes"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/flyted/records/probe/{probe}"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/flyted/records/flybase/{fbgn}"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/flyted/probes/flybase/{fbgn}"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www.open-biomed.org.uk/sparql/endpoint/flyted"
+    }
+  ]
+}

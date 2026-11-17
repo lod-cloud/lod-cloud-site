@@ -1,0 +1,33 @@
+{
+  "identifier": "crowdsourcing-fb",
+  "title": "crowdsourcing-fb",
+  "description": {
+    "en": "Data extracted from facebook interest groups of roadkilled and moth observation."
+  },
+  "namespace": "http://140.109.28.64:2020/resource/",
+  "triples": 0,
+  "keywords": [
+    "biodiversity",
+    "crowd-sourced",
+    "ecology",
+    "lod",
+    "moth",
+    "roadkilled"
+  ],
+  "links": [
+    {
+      "target": "linked-open-data-of-ecology",
+      "value": 500
+    },
+    {
+      "target": "taiwan-geographic-names",
+      "value": 300
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL ENDPOINT",
+      "access_url": "http://140.109.28.64:2020/sparql"
+    }
+  ]
+}
