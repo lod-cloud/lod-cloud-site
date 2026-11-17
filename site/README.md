@@ -23,7 +23,7 @@ Check the result with `python3 scripts/check_site_links.py _site`. CI (`.github/
 |---|---|
 | `_plugins/lodcloud.rb` | Reads `data/datasets/*.json`, creates `/dataset/<identifier>/` and `/domain/<domain>/` pages and the Liquid filters |
 | `_layouts/` | `default` (page frame), `dataset`, `domain` |
-| `_includes/versions-table.html` | History table on the home page (one row per published diagram) |
+| `_data/versions.yml`, `_includes/versions-table.html` | History table on the home page: one entry per published diagram in the data file, rendered as rows (see the comments at the top of the file for the fields) |
 | `index.html`, `datasets/index.html` | Home page and the list of all datasets |
 | `privacy.html`, `ipfs-how-to.html` | Static pages carried over unchanged |
 
