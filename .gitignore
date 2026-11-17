@@ -38,3 +38,4 @@ __pycache__/
 site/.jekyll-cache/
 site/.bundle/
 site/vendor/
+!site/**/index.html
