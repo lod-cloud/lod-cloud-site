@@ -27,107 +27,24 @@ title: The Linked Open Data Cloud
                 <div class="col">
         <h1>Subclouds by domain</h1>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
+            {% for dom in site.data.domains %}
             <li class="nav-item">
-                <a class="nav-link active" id="cross_domain-tab" data-toggle="tab" href="#cross_domain" role="tab" aria-controls="cross_domain" aria-selected="true">Cross-Domain</a>
+                <a class="nav-link{% if forloop.first %} active{% endif %}" id="{{ dom.key }}-tab" data-toggle="tab" href="#{{ dom.key }}" role="tab" aria-controls="{{ dom.key }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{ dom.label }}</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" id="geography-tab" data-toggle="tab" href="#geography" role="tab" aria-controls="geography" aria-selected="false">Geography</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="government-tab" data-toggle="tab" href="#government" role="tab" aria-controls="government" aria-selected="false">Government</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="life_sciences-tab" data-toggle="tab" href="#life_sciences" role="tab" aria-controls="life_sciences" aria-selected="false">Life Sciences</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="linguistic-tab" data-toggle="tab" href="#linguistic" role="tab" aria-controls="linguistic" aria-selected="false">Linguistics</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="media-tab" data-toggle="tab" href="#media" role="tab" aria-controls="media" aria-selected="false">Media</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" role="tab" aria-controls="publications" aria-selected="false">Publications</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="social_networking-tab" data-toggle="tab" href="#social_networking" role="tab" aria-controls="social_networking" aria-selected="false">Social Networking</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="user_generated-tab" data-toggle="tab" href="#user_generated" role="tab" aria-controls="user_generated" aria-selected="false">User-Generated</a>
-            </li>
+            {% endfor %}
         </ul>
         <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="cross_domain" role="tabpanel" aria-labelledby="cross_domain-tab">
-                <a href="{{ site.cloud_base }}/clouds/cross-domain-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/cross-domain-lod.png" 
+            {% for dom in site.data.domains %}
+            <div class="tab-pane fade{% if forloop.first %} show active{% endif %}" id="{{ dom.key }}" role="tabpanel" aria-labelledby="{{ dom.key }}-tab">
+                <a href="{{ site.cloud_base }}/clouds/{{ dom.stem }}.svg">
+                    <img src="{{ site.cloud_base }}/clouds/{{ dom.stem }}.png"
                          width="100%"
-                         alt="Cross-Domain Linked Open Data Cloud"
+                         alt="{{ dom.label }} Linked Open Data Cloud"
                          title="Click for Interactive SVG"/>
                 </a>
             </div>
-            <div class="tab-pane fade" id="geography" role="tabpanel" aria-labelledby="geography-tab">
-                <a href="{{ site.cloud_base }}/clouds/geography-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/geography-lod.png" 
-                         width="100%"
-                         alt="Geography Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
-            <div class="tab-pane fade" id="government" role="tabpanel" aria-labelledby="government-tab">
-                <a href="{{ site.cloud_base }}/clouds/government-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/government-lod.png" 
-                         width="100%"
-                         alt="Government Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
-            <div class="tab-pane fade" id="life_sciences" role="tabpanel" aria-labelledby="life_sciences-tab">
-                <a href="{{ site.cloud_base }}/clouds/life-sciences-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/life-sciences-lod.png" 
-                         width="100%"
-                         alt="Life Sciences Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
-            <div class="tab-pane fade" id="linguistic" role="tabpanel" aria-labelledby="linguistic-tab">
-                <a href="{{ site.cloud_base }}/clouds/linguistic-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/linguistic-lod.png" 
-                         width="100%"
-                         alt="Linguistic Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
-            <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="media-tab">
-                <a href="{{ site.cloud_base }}/clouds/media-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/media-lod.png" 
-                         width="100%"
-                         alt="Media Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
-            <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications-tab">
-                <a href="{{ site.cloud_base }}/clouds/publications-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/publications-lod.png" 
-                         width="100%"
-                         alt="Publications Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
-            <div class="tab-pane fade" id="social_networking" role="tabpanel" aria-labelledby="social_networking-tab">
-                <a href="{{ site.cloud_base }}/clouds/social-networking-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/social-networking-lod.png" 
-                         width="100%"
-                         alt="Social Networking Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
-            <div class="tab-pane fade" id="user_generated" role="tabpanel" aria-labelledby="user_generated-tab">
-                <a href="{{ site.cloud_base }}/clouds/user-generated-lod.svg">
-                    <img src="{{ site.cloud_base }}/clouds/user-generated-lod.png" 
-                         width="100%"
-                         alt="User-Generated Content Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
-                </a>
-            </div>
+            {% endfor %}
+        </div>
         </div>
                 </div>
             </div>
