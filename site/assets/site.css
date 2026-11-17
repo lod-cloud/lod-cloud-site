@@ -1,0 +1,8 @@
+.container.dataset, .container { padding-top: 1rem; padding-bottom: 1rem; }
+.dataset h3 { margin-top: 1.5rem; }
+.dataset .edit-link { font-size: 1rem; }
+.dataset-img { max-width: 100%; }
+.dataset .keywords { margin-top: 0.75rem; }
+.dataset .badge { margin-right: 0.15rem; }
+.dataset td.triple_count { text-align: right; }
+ul.dataset-list { columns: 2 20rem; }

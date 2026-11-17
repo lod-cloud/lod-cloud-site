@@ -1,0 +1,52 @@
+name: Site
+
+# Builds the Jekyll site in site/ from data/datasets. It is not deployed yet;
+# publishing to GitHub Pages is part of the cutover (#105).
+on:
+  pull_request:
+    branches: [main, dev]
+  push:
+    branches: [main, dev]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # No LFS: the site's own images are stored normally, and the old
+      # versions/ images (several GB in LFS) are not needed to build it.
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+          working-directory: site
+
+      - name: Build
+        working-directory: site
+        run: bundle exec jekyll build --strict_front_matter --destination ../_site
+
+      - name: Every dataset has a page
+        run: |
+          pages=$(find _site/dataset -mindepth 2 -maxdepth 2 -name index.html | wc -l)
+          files=$(find data/datasets -name '*.json' | wc -l)
+          echo "$pages pages for $files dataset files"
+          test "$pages" -eq "$files"
+
+      # /lod-data.json is produced by #95
+      - name: Internal links resolve
+        run: python3 scripts/check_site_links.py _site --allow /lod-data.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          retention-days: 7
