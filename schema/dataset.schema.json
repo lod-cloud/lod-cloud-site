@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lod-cloud.net/schema/dataset.schema.json",
+  "title": "LOD Cloud dataset record",
+  "description": "One dataset in the LOD Cloud. Stored as data/datasets/<filename>.json, see schema/README.md for the filename rule and for checks this schema cannot express (unique identifiers, link targets that exist).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["identifier", "title", "description", "domain", "website", "contact_point"],
+  "properties": {
+    "identifier": {
+      "description": "Stable identifier used in URLs (/dataset/<identifier>). No whitespace, '/', '\\' or '?'. Must be unique ignoring case.",
+      "type": "string",
+      "pattern": "^[^\\s/\\\\?]+$",
+      "maxLength": 200
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "description": "Description keyed by BCP 47 language tag. An English description is required.",
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$" },
+      "additionalProperties": { "type": "string", "minLength": 1 },
+      "required": ["en"]
+    },
+    "domain": {
+      "description": "The cloud the dataset is drawn in.",
+      "enum": [
+        "cross_domain",
+        "geography",
+        "government",
+        "life_sciences",
+        "linguistics",
+        "media",
+        "publications",
+        "social_networking",
+        "user_generated"
+      ]
+    },
+    "website": {
+      "description": "Home page of the dataset.",
+      "$ref": "#/$defs/httpUrl"
+    },
+    "contact_point": {
+      "description": "Public contact for the dataset. Published with the dataset.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["email"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "email": { "type": "string", "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" }
+      }
+    },
+    "license": {
+      "description": "URI of the license.",
+      "$ref": "#/$defs/httpUrl"
+    },
+    "triples": {
+      "description": "Number of triples.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "namespace": {
+      "description": "URI namespace of the dataset's resources.",
+      "$ref": "#/$defs/httpUrl"
+    },
+    "doi": {
+      "description": "Bare DOI, e.g. 10.5281/zenodo.4772094 (no https://doi.org/ prefix).",
+      "type": "string",
+      "pattern": "^10\\.\\d{4,9}/\\S+$"
+    },
+    "image": {
+      "description": "URL of a logo or image for the dataset.",
+      "$ref": "#/$defs/httpUrl"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "links": {
+      "description": "Outgoing links to other datasets in the cloud. Directed: stored only on the source dataset. At most one entry per target (checked by the validator, not by this schema).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["target"],
+        "properties": {
+          "target": {
+            "description": "identifier of the target dataset.",
+            "type": "string",
+            "pattern": "^[^\\s/\\\\?]+$"
+          },
+          "value": {
+            "description": "Number of links. Omitted when unknown.",
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "full_download": {
+      "description": "Complete dumps of the dataset.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/fullDownload" }
+    },
+    "other_download": {
+      "description": "Other downloadable material (partial dumps, vocabularies, documentation).",
+      "type": "array",
+      "items": { "$ref": "#/$defs/resource" }
+    },
+    "example": {
+      "description": "Example resources.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/resource" }
+    },
+    "sparql": {
+      "description": "SPARQL endpoints.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/resource" }
+    }
+  },
+  "$defs": {
+    "httpUrl": {
+      "type": "string",
+      "pattern": "^https?://\\S+$"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^(https?|ftp)://\\S+$"
+    },
+    "resource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["access_url"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "media_type": { "type": "string", "minLength": 1 },
+        "access_url": { "$ref": "#/$defs/url" }
+      }
+    },
+    "fullDownload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["download_url"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "media_type": { "type": "string", "minLength": 1 },
+        "download_url": { "$ref": "#/$defs/url" },
+        "access_url": { "$ref": "#/$defs/url" }
+      }
+    }
+  }
+}
