@@ -45,8 +45,13 @@ jobs:
       - name: Internal links resolve
         run: python3 scripts/check_site_links.py _site --allow /lod-data.json
 
+      # Tarred first: upload-artifact rejects file names containing ":" and
+      # 28 dataset identifiers contain one.
+      - name: Archive site
+        run: tar czf site.tar.gz -C _site .
+
       - uses: actions/upload-artifact@v4
         with:
           name: site
-          path: _site
+          path: site.tar.gz
           retention-days: 7
