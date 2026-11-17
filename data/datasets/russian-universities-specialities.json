@@ -1,0 +1,49 @@
+{
+  "identifier": "russian-universities-specialities",
+  "title": "Russian Universities Specialities",
+  "description": {
+    "en": "This ontology describes a degree of higher education and the direction of bachelor's and master's degrees in the Russian Federation and their compliance with the various official lists. It is assumed that a given ontology can be used in various applications of the Semantic Web in Russian higher education."
+  },
+  "website": "http://sparql.sstu.ru:3030/speciality-vocabulary/query",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "triples": 17376,
+  "contact_point": {
+    "name": "Alexey Dmitriev",
+    "email": "aleks23041996@gmail.com"
+  },
+  "keywords": [
+    "education",
+    "format-rdfs",
+    "lod",
+    "lodcloud.nolinks",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "published-by-producer",
+    "russian",
+    "speciality",
+    "university",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "rdfs",
+      "value": 10000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Russian University Specialities",
+      "description": "This ontology describes a degree of higher education and the direction of bachelor's and master's degrees in the Russian Federation and their compliance with the various official lists. It is assumed that a given ontology can be used in various applications of the Semantic Web in Russian higher education.",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/c8bb2280-5919-4fbb-85b1-52d03d403e21/resource/38b05231-715e-411e-9c04-4752d08dfa6d/download/specialitydatahub.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.sstu.ru:3030/speciality-vocabulary/query"
+    }
+  ]
+}

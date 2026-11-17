@@ -1,0 +1,22 @@
+{
+  "identifier": "E1",
+  "title": "E1 - Nuvem dados",
+  "description": {
+    "en": "Nuvem de dados gerados a partir da transcrição do entrevistado E1"
+  },
+  "domain": "user_generated",
+  "website": "http://www.nathycampos.com.br",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "image": "http://www.nathycampos.com.br",
+  "contact_point": {
+    "name": "Nathielly",
+    "email": "nathielly@gmail.com"
+  },
+  "example": [
+    {
+      "title": "E1",
+      "access_url": "http://www.nathycampos.com.br"
+    }
+  ]
+}

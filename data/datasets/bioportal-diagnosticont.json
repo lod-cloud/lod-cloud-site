@@ -1,0 +1,59 @@
+{
+  "identifier": "bioportal-diagnosticont",
+  "title": "Diagnostic Ontology",
+  "description": {
+    "en": "We built a computational diagnostic ontology containing 91 elements, including classes and sub-classes, which are required to conduct SR-MA (Systematic Review - Meta Analysis) for diagnostic studies, that will assist in standardized reporting of diagnostic articles. We also report high percentage of agreement among five observers as a result of the inter-observer agreement that we conducted among them to tag 13 articles using the diagnostic ontology. Moreover, we extend our existing repository CERR-N (Center of Excellence in Research Reporting in Neurosurgery) to include diagnostic studies."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3013",
+  "triples": 729,
+  "contact_point": {
+    "name": "Amrapali Zaveri"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-lnc",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 30
+    },
+    {
+      "target": "bioportal-nonrctontology",
+      "value": 79
+    },
+    {
+      "target": "bioportal-rctontology",
+      "value": 77
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46968?apikey=BP_API_KEY"
+    }
+  ]
+}

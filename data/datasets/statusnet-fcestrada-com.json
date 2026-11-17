@@ -1,0 +1,35 @@
+{
+  "identifier": "statusnet-fcestrada-com",
+  "title": "statusnet-fcestrada-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://fcestrada.com"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://micro.fcestrada.com/fcestrada/foaf"
+    }
+  ]
+}

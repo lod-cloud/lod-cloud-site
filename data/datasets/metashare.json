@@ -1,0 +1,33 @@
+{
+  "identifier": "metashare",
+  "title": "MetaShare metadata model",
+  "description": {
+    "en": "Ontology\t\r\nMetadata as LOD\t\r\n\r\nAvailability: Freely Avalable\t\r\n\r\nUsage: \tStatus:Newly created-in progress\r\n\r\nDescription: \tLOD prelimnary version of the MetaShare metadata model.\r\n\r\n(http://www.resourcebook.eu/shareyourlr/index.php#)"
+  },
+  "triples": 8334,
+  "keywords": [
+    "NLP",
+    "linguistics",
+    "llod",
+    "lod",
+    "lrec-2014",
+    "metadata"
+  ],
+  "links": [
+    {
+      "target": "dblp",
+      "value": 161
+    },
+    {
+      "target": "dbpedia",
+      "value": 227
+    }
+  ],
+  "other_download": [
+    {
+      "title": "LREC-2014 Share your resources data submission",
+      "media_type": "text/rdf+ttl",
+      "access_url": "http://gilmere.upf.edu/corpus_data/rdf/IULA-UPF-MetashareRecordsOntology.ttl"
+    }
+  ]
+}

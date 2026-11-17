@@ -1,0 +1,87 @@
+{
+  "identifier": "rkb-explorer-wordnet",
+  "title": "WordNet (RKBExplorer)",
+  "description": {
+    "en": "This is one of several semantic repositories that contains and publishes RDF linked data and co-reference information, forming the underlying distributed storage model behind the RKB Explorer initiative.\r\n\r\nThe data published here comes from the dataset of [Wordnet](http://wordnet.princeton.edu/) published as part of the Billion Triple Challenge.\r\n\r\nServices offered ?\r\n\r\nAll URIs on this domain are resolvable, and deliver html or RDF, depending on content negotiation\r\nBrowse interface for viewing and navigating RDF triples\r\nQuery interface providing access via the SPARQL query language for RDF\r\nCoreference Resolution Service, which identifies and manages duplicate URIs\r\nThe URL of the RDF file in which each URI can be found is also available, under the \"Source\" column when browsing.\r\nThe semantic sitemap is available.\r\nA voiD description is available.\r\nA typical URI you can try resolving is http://wordnet.rkbexplorer.com/id/synset-odd-toed_ungulate-noun-1.\r\n\r\nThe RDF is presented in accordance with the AKT Reference Ontology.\r\n\r\nCurrent statistics for this RDF repository (http://wordnet.rkbexplorer.com/sparql/) ?\r\n\r\nLast data assertion  2011-04-13 00:14:43\r\nNumber of triples    2727068\r\nNumber of symbols    1306694\r\nSize of RDF dataset  851M\r\n      \r\nCurrent statistics for this CRS (http://wordnet.rkbexplorer.com/crs/) ?\r\n\r\nLast data assertion   2009-11-14 17:25:07\r\nNumber of URIs        227\r\nNumber of bundles     416\r\nof which active       38\r\n\r\n      \r\nThe major funding for the RKB Explorer Initiative was provided by the ReSIST EU-funded Network of Excellence (contract number 026764).\r\n\r\nThese services are hosted by the School of Electronics and Computer Science at the University of Southampton (UK).\r\n\r\nIf you have any enquiries, please email the administrator of this repository."
+  },
+  "domain": "linguistics",
+  "website": "http://wordnet.rkbexplorer.com",
+  "namespace": "http://wordnet.rkbexplorer.com/id/",
+  "triples": 2727001,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 38
+    },
+    {
+      "target": "lingvoj",
+      "value": 38
+    },
+    {
+      "target": "opencyc",
+      "value": 37
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 38
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 38
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://wordnet.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://wordnet.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://wordnet.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://wordnet.rkbexplorer.com/id/synset-odd-toed_ungulate-noun-1"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://wordnet.rkbexplorer.com/id/synset-odd-toed_ungulate-noun-1"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://wordnet.rkbexplorer.com/sparql/"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "identifier": "bioportal-vhog",
+  "title": "vertebrate Homologous Organ Groups",
+  "description": {
+    "en": "vHOG is a multi-species anatomical ontology for the vertebrate lineage, developed as part of the Bgee project.\nThe mapping to species-specific anatomical ontologies is provided as a separated file:\nhttp://bgee.unil.ch/download/organ_association_vHOG.txt\nThis mapping represents homology-strict relationships, in the sense of HOM:0000007 \"historical homology\". Each mapping has been manually reviewed, and we provide confidence codes and references when available."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1574",
+  "triples": 14059,
+  "contact_point": {
+    "name": "Bgee team"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 263
+    },
+    {
+      "target": "bioportal-aba",
+      "value": 18
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 38
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 51
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 15
+    },
+    {
+      "target": "bioportal-basic-vertebrate-gross-anatomy",
+      "value": 15
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 21
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 39
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 342
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 70
+    },
+    {
+      "target": "bioportal-bodysystem",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 251
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 360
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 30
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 21
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 239
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 44
+    },
+    {
+      "target": "bioportal-dc_cl",
+      "value": 10
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 321
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 2581
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 672
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 417
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 634
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 68
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 277
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 42
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 11
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 94
+    },
+    {
+      "target": "bioportal-icf_x1",
+      "value": 26
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 45
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 10
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 216
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 469
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 148
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 57
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 403
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 423
+    },
+    {
+      "target": "bioportal-mfo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 308
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 762
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 95
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 22
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 17
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 18
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 34
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 283
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 293
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 47
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 746
+    },
+    {
+      "target": "bioportal-spd",
+      "value": 13
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 359
+    },
+    {
+      "target": "bioportal-tads",
+      "value": 17
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 806
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 25
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 1111
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 57
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 37
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 261
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 318
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46559?apikey=BP_API_KEY"
+    }
+  ]
+}

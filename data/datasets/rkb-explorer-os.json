@@ -1,0 +1,71 @@
+{
+  "identifier": "rkb-explorer-os",
+  "title": "Ordnance Survey (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://os.rkbexplorer.com",
+  "namespace": "http://os.rkbexplorer.com/id/",
+  "triples": 161227,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-osag",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 156
+    },
+    {
+      "target": "opencyc",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-unlocode",
+      "value": 7
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://os.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://os.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://os.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://os.rkbexplorer.com/id/osr7000000000017765"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://os.rkbexplorer.com/sparql/"
+    }
+  ]
+}

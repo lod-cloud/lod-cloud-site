@@ -1,0 +1,163 @@
+{
+  "identifier": "bioportal-fbsp",
+  "title": "Fly taxonomy",
+  "description": {
+    "en": "The taxonomy of the family <i>Drosophilidae</i> (largely after Baechli) and of other taxa referred to in FlyBase."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1064",
+  "triples": 36207,
+  "contact_point": {
+    "name": "Evidence_code Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bao",
+      "value": 27
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 152
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 27
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 248
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 12
+    },
+    {
+      "target": "bioportal-eo",
+      "value": 24
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 111
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 36
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 138
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 18
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 14
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 14
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 94
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 71
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 899
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 465
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 22
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 1491
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 206
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 18
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 194
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 323
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 18
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 234
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 620
+    },
+    {
+      "target": "bioportal-tto",
+      "value": 25
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 12
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 94
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45249?apikey=BP_API_KEY"
+    }
+  ]
+}

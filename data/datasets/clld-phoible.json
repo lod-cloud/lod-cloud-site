@@ -1,0 +1,45 @@
+{
+  "identifier": "clld-phoible",
+  "title": "CLLD-PHOIBLE",
+  "description": {
+    "en": "PHOIBLE Online published by the CLLD project"
+  },
+  "domain": "linguistics",
+  "website": "http://phoible.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1664872,
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "clld-wals",
+      "value": 1666
+    },
+    {
+      "target": "dbpedia",
+      "value": 1672
+    },
+    {
+      "target": "gold",
+      "value": 61973
+    },
+    {
+      "target": "lexvo",
+      "value": 1672
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "access_url": "http://phoible.org/void.ttl"
+    },
+    {
+      "title": "RDF dump",
+      "media_type": "text/n3",
+      "access_url": "http://phoible.org/static/download/phoible-dataset.n3.gz"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "identifier": "europeana-lod-v1",
+  "title": "Europeana Linked Open Data V1.0",
+  "description": {
+    "en": "[data.europeana.eu](http://data.europeana.eu)</a> started as an experimental pilot  in February 2012 with a small number of data providers who committed at an early stage to Europeana's initiative of promoting more open data and new data exchange agreements.\r\n\r\nThe current version of data.europeana.eu contains all the data available on the [Europeana Portal](www.europeana.eu/). Check the description of the data at [http://datahub.io/dataset/europeana-lod](http://datahub.io/dataset/europeana-lod)\r\n\r\nThe first version of data.europeana.eu as used in the W3C Library Linked Data  group contained [open](http://creativecommons.org/publicdomain/zero/1.0/) metadata on 2.4 million texts, images, videos and sounds gathered by Europeana. These collections came from 8 direct Europeana providers encompassing over 200 cultural institutions from 15 countries. They cover a great variety of heritage objects, such as this [slovenian version of O Sole Mio](http://data.europeana.eu/item/92056/BD9D5C6C6B02248F187238E9D7CC09EAF17BEA59) from the National Library of Slovenia, or Neil Robson's [memories of the herring business](http://data.europeana.eu/item/09405f/533F9A826CB038D02C05A9814CF97E5D1B49BBEE) from the Tyne and Wear Archives & Museums. \r\nHere is an example URI to get started with:\r\nhttp://data.europeana.eu/item/92037/25F9104787668C4B5148BE8E5AB8DBEF5BE5FE03\r\n\r\nThe project has been described in a [paper](http://dcevents.dublincore.org/index.php/IntConf/dc-2011/paper/view/55) presented at the Dublin Core 2011 conference."
+  },
+  "domain": "publications",
+  "website": "http://data.europeana.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.europeana.eu",
+  "triples": 117000000,
+  "contact_point": {
+    "name": "Bernhard Haslhofer and Antoine Isaac",
+    "email": "bernhard.haslhofer@cornell.edu; aisaac@few.vu.nl"
+  },
+  "keywords": [
+    "culturalheritage",
+    "culture",
+    "eu",
+    "europe",
+    "europeana",
+    "format-dc",
+    "format-ore",
+    "format-rdf",
+    "library",
+    "license-metadata",
+    "lld",
+    "lod",
+    "metadata",
+    "no-deref-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1304
+    },
+    {
+      "target": "gemet",
+      "value": 863247
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1650634
+    },
+    {
+      "target": "swedish-open-cultural-heritage",
+      "value": 100489
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Portugal (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/92039_Ag_EU_TEL_a0005_Portugal.nt.bz2"
+    },
+    {
+      "description": "Jewish Lives (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09405g_Ag_UK_ELocal_TWAM-JL.nt.bz2"
+    },
+    {
+      "description": "Det Danske Filminstitut / Danish Film Institute (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/08601_Ag_EU_EFG_DFI.nt.bz2"
+    },
+    {
+      "description": "Filmarchiv Austria (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/08603_Ag_EU_EFG_FilmArchiv.nt.bz2"
+    },
+    {
+      "description": "Culture Shock (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09405e_Ag_UK_ELocal_TWAM-CS.nt.bz2"
+    },
+    {
+      "description": "MemoryNet (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09405f_Ag_UK_ELocal_TWAM-MN.nt.bz2"
+    },
+    {
+      "description": "Discovering Bewick (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09405h_Ag_UK_ELocal_TWAM-DB.nt.bz2"
+    },
+    {
+      "description": "Tyne & Wear Archive and museum (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09405i_Ag_UK_ELocal_TWAM-AOL.nt.bz2"
+    },
+    {
+      "description": "Geofinder (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09405j_Ag_UK_ELocal_TWAM-GF.nt.bz2"
+    },
+    {
+      "description": "Tyne & Wear Imagine (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09405p_Ag_UK_ELocal_TyneWearImagine.nt.bz2"
+    },
+    {
+      "description": "Swedish Open Cultural Heritage (Download 1)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/91622_Ag_SE_SwedishNationalHeritage_raa_kmb.nt.bz2"
+    },
+    {
+      "description": "Swedish Open Cultural Heritage (Download 2/2)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/91611_Ag_SE_SwedishNationalHeritage_fornvannen.nt.bz2"
+    },
+    {
+      "description": "Austrian Library (Download 1/5)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/92060_Ag_EU_TEL_a0478_Austria.nt.bz2"
+    },
+    {
+      "description": "Serbian Library (Download 1/11)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/92040_Ag_EU_TEL_a0155_Serbia.nt.bz2"
+    },
+    {
+      "description": "Czech Republic (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/92003_Ag_EU_TEL_a0078_TEL_NKP_kramerius.nt.bz2"
+    },
+    {
+      "description": "Luxemburg (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/92038_Ag_EU_TEL_a0327_Luxemburg.nt.bz2"
+    },
+    {
+      "description": "Slovenia (Download 1/10)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/92019_Ag_EU_TEL_a0425E.nt.bz2"
+    },
+    {
+      "description": "Ireland (Download)",
+      "download_url": "http://data.europeana.eu/download/1.0/datasets/nt/92022_Ag_EU_TEL_a0430E.nt.bz2"
+    },
+    {
+      "description": "United Kingdom (Download)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/92037_Ag_EU_TEL_a0444_BritishLibrary.nt.bz2"
+    },
+    {
+      "description": "Hispana (Ministry of Culture – Spain) (Download 1/3)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09407a_Ag_ES_ELocal_esegen.nt.bz2"
+    },
+    {
+      "description": "eLocal Norway called ABM-utvikling (Download 1/2)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09414b_Ag_NO_ELocal_Foto-SF.nt.bz2"
+    },
+    {
+      "description": "Erfgoedplus.be, province of Limburg Belgium (Download 1/11)",
+      "download_url": "http://data.europeana.eu/download/1.1/datasets/nt/09421a_Ag_BE_Elocal_Bokrijk.nt.bz2"
+    },
+    {
+      "title": "Global dump",
+      "description": "Global dump",
+      "download_url": "http://data.europeana.eu/download/1.1/europeana_lod_1.1.nt.bz2"
+    }
+  ],
+  "other_download": [
+    {
+      "access_url": "http://data.europeana.eu/download/1.1/datasets/nt/92022_Ag_EU_TEL_a0430E.nt.bz2"
+    },
+    {
+      "description": "voiD dataset description",
+      "access_url": "http://data.europeana.eu/void.ttl"
+    },
+    {
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://data.europeana.eu/data/item/09404/C3C50BD0958EE18ECE1B8F93780DC84D8273664F"
+    },
+    {
+      "description": "Semantic Web Sitemap",
+      "access_url": "http://data.europeana.eu/download/1.0/sitemap.xml"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "identifier": "bio2rdf-pubmed",
+  "title": "Bio2RDF::Pubmed",
+  "description": {
+    "en": "PubMed is a service of the U.S. National Library of Medicine that includes citations from MEDLINE and other life science journals for biomedical articles back to the 1950s."
+  },
+  "domain": "life_sciences",
+  "website": "http://pubmed.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/pubmed:",
+  "triples": 5005343905,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 412593710
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "media_type": "RDF",
+      "access_url": "http://download.bio2rdf.org/current/pubmed/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/pubmed/pubmed.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/pubmed/bio2rdf-pubmed.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/pubmed/pubmed.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/pubmed/bio2rdf_pubmed_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/pubmed/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/pubmed:23735196"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://pubmed.bio2rdf.org/sparql"
+    }
+  ]
+}

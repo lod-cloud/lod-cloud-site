@@ -1,0 +1,103 @@
+{
+  "identifier": "temple-ov-thee-lemur-datasets",
+  "title": "Temple ov thee Lemur",
+  "description": {
+    "en": "This resource provides 3 groups of RDF datasets. 1. Esoteric subjects such as tarot and alchemy. These all interlink and the Horoscope, Tarot, Planets and Elements sets link into DBPedia resources for Starsigns, Metals, Tarot Suits, Planets, Gems, and the Narnia novels(!)\r\n\r\n2. Descriptions of Game States such as tic-tac-toe and chess. Do not attmpt to spider these as they are effectively infinite.\r\n\r\n3. Deliberately perverse datasets including Daily Mail cancer. Where possible, the causes and preventions of cancer are linked to their DBPedia indentifiers. Other perverse datasets are considered 'toys' and not linked here. They are listed on the homepage."
+  },
+  "domain": "cross_domain",
+  "website": "http://data.totl.net/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.totl.net/",
+  "triples": 10000,
+  "contact_point": {
+    "name": "Christopher Gutteridge",
+    "email": "cjg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "chess",
+    "crossdomain",
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "games",
+    "humour",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "occult",
+    "perverse",
+    "published-by-producer",
+    "tarot"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 500
+    },
+    {
+      "target": "semantictweet",
+      "value": 1
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download: The Tree of Life (esoteric)",
+      "access_url": "http://data.totl.net/kabbalah/"
+    },
+    {
+      "description": "Download: Hebrew Characters (esoteric)",
+      "access_url": "http://data.totl.net/he/"
+    },
+    {
+      "description": "Download: Western Zodiac (esoteric)",
+      "access_url": "http://data.totl.net/zodiac/"
+    },
+    {
+      "description": "Download: Tarot Cards (esoteric)",
+      "access_url": "http://data.totl.net/tarot/"
+    },
+    {
+      "description": "Download: Rider Waite Tarot Cards (esoteric)",
+      "access_url": "http://data.totl.net/tarot-rwcs/"
+    },
+    {
+      "description": "Download: Alchemical Elements (esoteric)",
+      "access_url": "http://data.totl.net/element/"
+    },
+    {
+      "description": "Download: Alchemical Planets (esoteric)",
+      "access_url": "http://data.totl.net/planet/"
+    },
+    {
+      "description": "Download: Playing Cards (games)",
+      "access_url": "http://data.totl.net/playingcards/"
+    },
+    {
+      "description": "Download: Tic Tac Toe (games)",
+      "access_url": "http://data.totl.net/tictactoe/"
+    },
+    {
+      "description": "Download: 4-in-a-Row (games) (do not spider)",
+      "access_url": "http://data.totl.net/4inarow/"
+    },
+    {
+      "description": "Download: Chess (games) (do not spider)",
+      "access_url": "http://data.totl.net/chess/"
+    },
+    {
+      "description": "Download: Daily Mail Causes and Preventions of Cancer",
+      "access_url": "http://data.totl.net/cancer_causes.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource (deck of cards)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.totl.net/playingcards/deck"
+    }
+  ]
+}

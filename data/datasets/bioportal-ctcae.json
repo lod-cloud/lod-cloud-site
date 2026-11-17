@@ -1,0 +1,227 @@
+{
+  "identifier": "bioportal-ctcae",
+  "title": "Common Terminology Criteria for Adverse Events",
+  "description": {
+    "en": "A coding system for reporting adverse events that occur in the course of cancer therapy.  It was derived from the Common Toxicity Criteria (CTC) v2.0 and is maintained by the Cancer Therapy Evaluation Program (CTEP) at the National Cancer Institution (NCI)."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1415",
+  "triples": 50880,
+  "contact_point": {
+    "name": "CTCAE Help"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 25
+    },
+    {
+      "target": "bioportal-air",
+      "value": 23
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 191
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 13
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 89
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 175
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 306
+    },
+    {
+      "target": "bioportal-ctx",
+      "value": 14
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 128
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 62
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 176
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 212
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 62
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 114
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 95
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 50
+    },
+    {
+      "target": "bioportal-icpc",
+      "value": 28
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 255
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 11
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 95
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 190
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 801
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 117
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 606
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 134
+    },
+    {
+      "target": "bioportal-mpath",
+      "value": 20
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 296
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 113
+    },
+    {
+      "target": "bioportal-nbo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 1391
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 237
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 130
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 16
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 233
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 58
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 28
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 22
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 16
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 297
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 70
+    },
+    {
+      "target": "bioportal-shr",
+      "value": 18
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 953
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 159
+    },
+    {
+      "target": "bioportal-sso",
+      "value": 54
+    },
+    {
+      "target": "bioportal-tm-signs-and-sympts",
+      "value": 36
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-who",
+      "value": 225
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46081?apikey=BP_API_KEY"
+    }
+  ]
+}

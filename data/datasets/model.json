@@ -1,0 +1,61 @@
+{
+  "identifier": "model",
+  "title": "Atmospheric Correction of High Resolution Optical Images model",
+  "description": {
+    "en": "This model corrects the proximity effect of the GF-1 satellite image with different proximity effect Windows,  and analyzes the corrected image according to the spectral characteristics and image details."
+  },
+  "domain": "geography",
+  "website": "https://www.chinageoss.cn/knowledgehub/model/modelDetail/636c865be4e3044051784f8f",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "atmospheric correction",
+    "GF images"
+  ],
+  "other_download": [
+    {
+      "title": "GF Data",
+      "description": "InputData",
+      "media_type": "data",
+      "access_url": "http://www.cresda.com.cn/CN/Satellite/3128.shtml"
+    },
+    {
+      "title": "Himawari-8 AOD",
+      "description": "InputData",
+      "access_url": "https://www.eorc.jaxa.jp/ptree/index.html#pic_center"
+    },
+    {
+      "title": "Coefficient of calibration",
+      "description": "InputData",
+      "media_type": "data",
+      "access_url": "http://218.247.138.119/CN/Downloads/dbcs/index.shtml"
+    },
+    {
+      "title": "explanatory document",
+      "description": "DescribedByDocument",
+      "access_url": "https://www.chinageoss.cn/knowledgehub/video/videoDetail/636c86ade4e3044051784f91"
+    },
+    {
+      "title": "A parallel method of atmospheric correction for multispectral high spatial resolution remote sensing images",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://www.researchgate.net/publication/323651324_A_parallel_method_of_atmospheric_correction_for_multispectral_high_spatial_resolution_remote_sensing_images"
+    },
+    {
+      "title": "An automatic atmospheric synchronous correction method for a geostationary satellite supporting a Gaofen satellite",
+      "description": "ImplementedByAlgorithm",
+      "media_type": "model",
+      "access_url": "https://cprs.patentstar.com.cn/Search/Detail?ANE=5BCA1BAA9HBB2AAA6FAA9DGA1ABA9AGBDFGA3BCA9GCC8ABA"
+    },
+    {
+      "title": "Measurement Data Correction of Proximity Effect in Remote Sensing Images (Ⅱ)",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://www.ygxb.ac.cn/thesis/91/10647688/zh/"
+    }
+  ]
+}

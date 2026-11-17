@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-swedish-sign-language",
+  "title": "Universal Dependencies Treebank Swedish_Sign_Language",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Swedish_Sign_Language treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Swedish_Sign_Language",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 672,
+  "contact_point": {
+    "name": "Gärdenfors, Moa; Börstell, Carl; Östling, Robert; Wallin, Lars; Wirén, Mats",
+    "email": "robert@ling.su.se"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Swedish_Sign_Language Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Swedish_Sign_Language/archive/master.zip"
+    },
+    {
+      "title": "UD_Swedish_Sign_Language RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/a8358247-8be1-43d9-8f83-1faab89ba27a/resource/17217240-f1d1-4541-82d8-d8bc4a5592cc/download/udswedishsignlanguage.ttl"
+    }
+  ]
+}

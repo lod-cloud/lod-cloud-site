@@ -1,0 +1,58 @@
+{
+  "identifier": "jiscopenbib-bl_bnb-1",
+  "title": "JISC Open Bibliography British National Bibliography dataset",
+  "description": {
+    "en": "British Library British National Bibliography package, with records of all new books published in the UK since 1950.\r\n\r\nUse of Data: This data is being made available under a Creative Commons CC0 1.0 Universal Public Domain Dedication licence. This means that the British Library Board makes no copyright, related or neighbouring rights claims to the data and does not apply any restrictions on subsequent use and reuse of the data. The British Library accepts no liability for damages from any use of the supplied data. For more detail please see the terms of the licence.\r\n\r\nSupport: The British Library is committed to providing high quality services and accurate data. If you have any queries or identify any problems with the data please contact metadata@bl.uk.\r\n\r\nShare knowledge: We are also very interested to hear the ways in which you have used this data so we can understand more fully the benefits of sharing it and improve our services. Please contact metadata@bl.uk if you wish to share your experiences with us and those that are using this service.\r\n\r\nGive Credit Where Credit is Due: The British Library has a responsibility to maintain its bibliographic data on the nation’s behalf. Please credit all use of this data to the British Library and link back to www.bl.uk/bibliographic/datafree.html in order that this information can be shared and developed with today’s Internet users as well as future generations.\r\n\r\nDuplicate of package:bluk-bnb"
+  },
+  "website": "http://openbiblio.net/2010/11/17/jisc-openbibliography-british-library-data-release/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://bnb.bibliographica.org/",
+  "triples": 18376419,
+  "contact_point": {
+    "name": "British Library"
+  },
+  "keywords": [
+    "bibliographic",
+    "bibliography",
+    "cc0",
+    "format-rdf",
+    "format-xhtml",
+    "format-xml",
+    "library",
+    "lod",
+    "meta.duplicate",
+    "no-proprietary-vocab",
+    "publications",
+    "published-by-producer"
+  ],
+  "other_download": [
+    {
+      "description": "zipped RDF XML data, appox 3 million records, early data model",
+      "media_type": "RDF",
+      "access_url": "http://openbiblio.commondatastorage.googleapis.com/BL-BNB-dataset.zip"
+    },
+    {
+      "description": "Latest Data model",
+      "media_type": "PDF",
+      "access_url": "http://www.bl.uk/bibliographic/pdfs/british_library_data_model_v1-00.pdf"
+    },
+    {
+      "description": "Information on latest releases and documentation",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.bl.uk/bibliographic/datafree.html"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://bnb.data.bl.uk/id/agent/%C3%89ditionsdeLaMartini%C3%A8re"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint, latest data",
+      "access_url": "http://bnb.data.bl.uk/sparql"
+    }
+  ]
+}

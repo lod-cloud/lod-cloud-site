@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-kazakh",
+  "title": "Universal Dependencies Treebank Kazakh",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Kazakh treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Kazakh",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 6023,
+  "contact_point": {
+    "name": "Makazhanov, Aibek; Washington, Jonathan North; Tyers, Francis"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Kazakh Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Kazakh/archive/master.zip"
+    },
+    {
+      "title": "UD_Kazakh RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/a425a448-ac4c-48cd-94e9-aca8c5f1d0d9/resource/4c91a6a1-ed1f-4cc8-bf69-4c3c8b624121/download/udkazakh.rdf"
+    }
+  ]
+}

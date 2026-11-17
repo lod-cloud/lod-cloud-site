@@ -1,0 +1,34 @@
+{
+  "identifier": "EUSL-Research-Data-Sri_Lanka",
+  "title": "Research outputs of Eastern University Sri Lanka",
+  "description": {
+    "en": "Research outputs of Eastern University Sri Lanka"
+  },
+  "domain": "publications",
+  "website": "http://192.248.64.53:8080/vivo/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://192.248.64.53:8080/vivo/",
+  "triples": 0,
+  "contact_point": {
+    "name": "M.Jayakananthan",
+    "email": "mjeya81@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "EUSL Research Data",
+      "download_url": "http://192.248.64.53:8080/vivo/listrdf?vclass=http%3A%2F%2Fpurl.org%2Fontology%2Fbibo%2Fwos"
+    }
+  ],
+  "example": [
+    {
+      "title": "Photo addplaceholder image A case report of dengue hemorrhagic fever complicated with diabetic ketoacidosis in a child: challenges in clinical management",
+      "access_url": "http://192.248.64.53:8080/vivo/display/n7740"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "EUSL Research Data SPARQL",
+      "access_url": "http://192.248.64.53:8080/vivo/admin/sparqlquery"
+    }
+  ]
+}

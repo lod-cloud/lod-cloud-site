@@ -1,0 +1,38 @@
+{
+  "identifier": "HealthCare_Ontology",
+  "title": "HealthCare Ontology",
+  "description": {
+    "en": "A sensor based Health Care Ontology"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/HCOT",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 48,
+  "contact_point": {
+    "name": "Dr. Sanju Tiwari",
+    "email": "tiwarisanju18@ieee.org"
+  },
+  "links": [
+    {
+      "target": "Face_Link",
+      "value": 2
+    },
+    {
+      "target": "SocialLink",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "HealthOnto",
+      "description": "http://bioportal.bioontology.org/ontologies/HCOT",
+      "download_url": "http://bioportal.bioontology.org/ontologies/HCOT"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql Editor",
+      "access_url": "https://www.orpha.net/sparql"
+    }
+  ]
+}

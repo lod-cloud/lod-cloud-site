@@ -1,0 +1,185 @@
+{
+  "identifier": "bio2rdf-drugbank",
+  "title": "Bio2RDF::Drugbank",
+  "description": {
+    "en": "The DrugBank database is a bioinformatics and chemoinformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information."
+  },
+  "domain": "life_sciences",
+  "website": "http://drugbank.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/drugbank:",
+  "triples": 3672531,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-ahfs",
+      "value": 275
+    },
+    {
+      "target": "bio2rdf-atc",
+      "value": 1479
+    },
+    {
+      "target": "bio2rdf-bindingdb",
+      "value": 904
+    },
+    {
+      "target": "bio2rdf-chebi",
+      "value": 1930
+    },
+    {
+      "target": "bio2rdf-chemspider",
+      "value": 4469
+    },
+    {
+      "target": "bio2rdf-dpd",
+      "value": 980
+    },
+    {
+      "target": "bio2rdf-drugbank",
+      "value": 251571
+    },
+    {
+      "target": "bio2rdf-genatlas",
+      "value": 1671
+    },
+    {
+      "target": "bio2rdf-genbank",
+      "value": 3384
+    },
+    {
+      "target": "bio2rdf-genecards",
+      "value": 2102
+    },
+    {
+      "target": "bio2rdf-gi",
+      "value": 2849
+    },
+    {
+      "target": "bio2rdf-gtp",
+      "value": 310
+    },
+    {
+      "target": "bio2rdf-hgnc",
+      "value": 2467
+    },
+    {
+      "target": "bio2rdf-iuphar",
+      "value": 310
+    },
+    {
+      "target": "bio2rdf-kegg",
+      "value": 2603
+    },
+    {
+      "target": "bio2rdf-ndc",
+      "value": 1094
+    },
+    {
+      "target": "bio2rdf-pdb",
+      "value": 5189
+    },
+    {
+      "target": "bio2rdf-pharmgkb",
+      "value": 1637
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 11802
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 4191
+    },
+    {
+      "target": "bio2rdf-uspto",
+      "value": 1510
+    },
+    {
+      "target": "bio2rdf-wikipedia",
+      "value": 1876
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download drugbank.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/drugbank/drugbank.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download drugbank_drugs.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/drugbank/drugbank_drugs.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/drugbank/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/drugbank/drugbank.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/drugbank/bio2rdf-drugbank.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/drugbank/drugbank.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/drugbank/bio2rdf_drugbank_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/drugbank/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/drugbank:DB00001"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://drugbank.bio2rdf.org/sparql"
+    }
+  ]
+}

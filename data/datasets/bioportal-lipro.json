@@ -1,0 +1,99 @@
+{
+  "identifier": "bioportal-lipro",
+  "title": "Lipid Ontology",
+  "description": {
+    "en": "Lipid research is increasingly integrated within systems level biology such as lipidomics where lipid classification is required before appropriate annotation of chemical functions can be applied. The ontology describes the LIPIDMAPS nomenclature classification explicitly using description logics (OWL-DL). Lipid classes are organized hierarchically with the super-classes restricted by generic necessary conditions. More specific necessary conditions are used to define membership requirements for sub classes of lipid according to appropriate functional groups."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1183",
+  "triples": 15406,
+  "contact_point": {
+    "name": "Christipher Baker"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-chebi",
+      "value": 58
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 25
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 20
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 32
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 25
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 26
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 14
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 15
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 38
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 39
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 12
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44210?apikey=BP_API_KEY"
+    }
+  ]
+}

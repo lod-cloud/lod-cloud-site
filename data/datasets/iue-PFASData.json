@@ -1,0 +1,15 @@
+{
+  "identifier": "iue-PFASData",
+  "title": "Global Data on PFAS Contamination in Organisms",
+  "description": {
+    "en": "Chemical pollution poses a significant threat to sustainable development. Perfluoroalkyl and polyfluoroalkyl substances (PFAS), often referred to as 'forever chemicals,' have raised global concerns about their impacts on the environment and human health. PFAS pollution has crossed planetary boundaries, highlighting their potential to disrupt ecosystem functions and sustainability.This dataset compiles the detection of PFAS in various organisms and integrates a multi-disciplinary analysis of factors influencing PFAS presence in organisms, including human activities, environmental variables, PFAS properties, and biological characteristics. The findings contribute to risk assessment of PFAS pollution and provide a scientific basis for PFAS management."
+  },
+  "domain": "cross_domain",
+  "website": "http://semweb.csdb.cn/dataset/iue-PFASData",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Huang Qiansheng",
+    "email": "qshuang@iue.ac.cn"
+  }
+}

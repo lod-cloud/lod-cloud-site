@@ -1,0 +1,98 @@
+{
+  "identifier": "aegp-spanish-textile-and-clothing-association",
+  "title": "AEGP, Spanish Textile and Clothing Association",
+  "description": {
+    "en": "<p>\r\nSemantic catalog of the <a href=\"http://www.agrupaciontextil.org/\">Spanish Textile and Clothing Association (AEGP) companies</a>. AEGP is a voluntary professional national association that promotes the competitiveness of its companies through the promotion, defense and representation of their professional, economic and work interests. It offers specialized services that enhance their position in the environment. The catalog includes 2,500 textile and clothing companies.\r\n</p>\r\n<p>\r\nAEGP works with <a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. The project includes a faceted-based search engine and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n\r\n<p>\r\nCatálogo semántico de las empresas de la <a href=\"http://www.agrupaciontextil.org/\">Agrupación Española del Género de Punto (AEGP)</a>. AEGP es una asociación profesional voluntaria de ámbito estatal cuyo objetivo es impulsar la competitividad de las empresas asociadas, a través del fomento, la defensa y la representación de sus intereses laborales, profesionales y económicos y, mediante una oferta de servicios especializados que les permitan mejorar su posición en el entorno. El catálogo recoge 2500 empresas del sector.\r\n</p>\r\n<p>\r\nAEGP trabaja con <a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto incluye un buscador facetado y contextos enriquecidos.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://red.gnoss.com/comunidad/buscaempresas",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://red.gnoss.com/comunidad/buscaempresas",
+  "triples": 88645,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "aegp",
+    "corporate excellence",
+    "country-spain",
+    "country.es",
+    "dc",
+    "empresas",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "gnoss",
+    "laboratorio de ideas",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 191
+    },
+    {
+      "target": "freebase",
+      "value": 3933
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 7547
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 223
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "access_url": "http://red.gnoss.com/en/community/buscaempresas/Empresas/tag/s?rdf"
+    },
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://red.gnoss.com/voidAEGP.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Busca empresas AEGP community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/buscaempresas/resource/TRICONOVA-SL/77117998-7718-40ce-8642-b600330465bd?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Busca empresas AEGP community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/buscaempresas/resource/GRIMARDI-SL/e652d94e-03cf-4814-9757-ea748b14b503?rdf"
+    }
+  ]
+}

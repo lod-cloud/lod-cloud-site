@@ -1,0 +1,124 @@
+{
+  "identifier": "the-eurostat-linked-data",
+  "title": "The Eurostat Linked Data",
+  "description": {
+    "en": "All Eurostat statistics, converted to RDF and re-published using [Linked Data principles](http://linkeddata.org/). This service is operated by [DERI](http://www.deri.ie/). For the license, see [Eurostat's](http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy) copyright policy."
+  },
+  "domain": "government",
+  "website": "http://eurostat.linked-statistics.org/",
+  "namespace": "http://eurostat.linked-statistics.org/",
+  "triples": 8000000000,
+  "contact_point": {
+    "name": "Aftab Iqbal (DERI)",
+    "email": "aftab.iqbal@deri.org"
+  },
+  "keywords": [
+    "country-codes",
+    "currency",
+    "debt",
+    "deref-vocab",
+    "energy",
+    "environment",
+    "eu-institution",
+    "europe",
+    "format-dcterms",
+    "format-geo",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "health",
+    "indicators",
+    "information-communication-technologies",
+    "international",
+    "linked-data",
+    "lod",
+    "lodcloud",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.candidate",
+    "population",
+    "provenance-metadata",
+    "published-by-third-party",
+    "social-development",
+    "socioeconomics",
+    "statistics",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1635
+    },
+    {
+      "target": "eurostat-rdf",
+      "value": 2048
+    },
+    {
+      "target": "fu-berlin-eurostat",
+      "value": 425
+    },
+    {
+      "target": "linked-eurostat",
+      "value": 4401
+    },
+    {
+      "target": "linked-nuts",
+      "value": 2068
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 1559
+    },
+    {
+      "target": "nuts-geovocab",
+      "value": 1927
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Data dumps directory",
+      "description": "Contains all the observations of Eurostat datasets",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eurostat.linked-statistics.org/data/"
+    },
+    {
+      "title": "VoID",
+      "description": "VoID description of the Eurostat Linked Data dataset",
+      "media_type": "meta/void",
+      "access_url": "http://eurostat.linked-statistics.org/void.ttl"
+    },
+    {
+      "title": "Metadata dumps directory",
+      "description": "Contains all the metadata which are used in the observations of Eurostat datasets",
+      "media_type": "HTML",
+      "access_url": "http://eurostat.linked-statistics.org/dsd/"
+    },
+    {
+      "title": "Codelist dumps directory",
+      "description": "Contains all the codelists which are used by Eurostat datasets",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eurostat.linked-statistics.org/dic/"
+    },
+    {
+      "title": "Download a dataset",
+      "description": "A RDF/XML example of \"Income from intellectual property rights for computer services\" dataset to download from the '/data/' dump directory",
+      "media_type": "RDF",
+      "access_url": "http://eurostat.linked-statistics.org/data/bs_bs14_04.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF/XML",
+      "description": "A RDF/XML example of \"Primary energy consumption savings in % (20-20-20 targets) - annual data\" Eurostat dataset",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eurostat.linked-statistics.org/data/nrg_ind_334a.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://eurostat.linked-statistics.org/sparql"
+    }
+  ]
+}

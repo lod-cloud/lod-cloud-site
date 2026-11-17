@@ -1,0 +1,35 @@
+{
+  "identifier": "bdgp",
+  "title": "Bdgp",
+  "website": "http://code.google.com/p/open-biomed/wiki/Bdgp",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1080060,
+  "contact_point": {
+    "name": "Jun Zhao"
+  },
+  "keywords": [
+    "bdgp",
+    "linkeddata",
+    "open-biomed"
+  ],
+  "other_download": [
+    {
+      "description": "Data dump, tar.gz format",
+      "access_url": "http://www.open-biomed.org.uk/open-biomed-data/bdgp-images-all-20110211.tar.gz"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/bdgp/geneproducts"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/bdgp/images/gene/{gene}"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www.open-biomed.org.uk/sparql/endpoint/bdgp_20081030"
+    }
+  ]
+}

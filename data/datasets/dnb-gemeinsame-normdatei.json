@@ -1,0 +1,211 @@
+{
+  "identifier": "dnb-gemeinsame-normdatei",
+  "title": "Gemeinsame Normdatei (GND)",
+  "description": {
+    "en": "GND stands for \"Gemeinsame Normdatei\" (Integrated Authority File) and offers a broad range of elements to describe authorities. The GND originates from the German library community and aims to solve the name ambiguity problem in the library world. Corresponding data is usually expressed in a customized MARC 21 Authority Format (GND MARC Format) which is quite domain specific and is not used beyond the library and publisher world. The GND ontology tries to bridge this gap by providing a format specification for the usage in the semantic web.\n\nThe need for name disambiguity and entries having an authoritative character is an issue that concerns a lot more communities than the library world. In a growing information society the unique identification and linking of persons, places and other authorities becomes more and more important. The GND Ontology aims to transfer the made experience from libraries to the web community by providing a vocabulary for the description of differentiated and undifferentiated persons, conferences or events, corporate bodies, places or geographic names, subject headings, and works.\n\nTo ensure compatibility aspects the GND ontology aligns a number of already established vocabularies like the FOAF vocabulary.\n\nThe GND is a young specification that probably will underlie certain smaller changes. However, the currently defined classes and properties have a status of stability. But we also expect the introduction of additional elements caused by newly upcoming requirements within the community. From January 2014 on, the Linked Data Service of the German National Library (DNB) will issue scheduled releases and will be integrated in the export releases of the other formats. Changes to the conversion and to the data modelling will be made in January, May and September. Changes will be notified in advance via the Linked Data Service mailing list (http://lists.dnb.de/mailman/listinfo/lds) and the Integrated\nAuthority File GND Ontology mailing list (http://lists.dnb.de/mailman/listinfo/gnd-ontology). Please subscribe if you are interested in receiving information about future developments in DNB Linked Data Services.\nIn a schedule corresponding to the export releases, updated dumps of the authority and bibliographic data in RDF/XML and Turtle will be available for download in February, June and October.\n\nThe authors welcome comments on this document, preferably via the public GND ontology list; public archives are available. \n\nThe Integrated Authority File\n\nThe \"Gemeinsame Normdatei\" (GND, Integrated Authority File) brings together the content of the former Corporate Body Authority File GKD (Gemeinsame Körperschaftsdatei), the Name Authority File PND (Personennamendatei), the Subject Headings Authority File SWD (Schlagwortnormdatei) and the Uniform Title File of the Deutsches Musikarchiv EST file (Einheitssachtitel-Datei ) to form an integrated authority file.\n\nThe target has therefore been reached of setting up an authority file which covers all types of entities and which serves as a common, authoritative reference system for libraries' bibliographic data and for the cataloging data of other authority file users such as archives, museums, projects, scientific and cultural institutions. All library networks in the German-speaking countries and the German Union Catalogue of Serials (ZDB) are involved in the GND project alongside the German National Library.\n\nThe GND should consign to the past problems arising from different formats, parallel storage of data records and different rules for descriptive and subject cataloging.\n\nThe objective of the GND is to form a modern, web-compatible authority file which is capable of networking the wide range of resources and information held by libraries and other cultural institutions in the German-speaking countries and making these accessible to users. To approach a web-compatible authority file we also provide the GND as linked data. Therefore we developed an independent GND specific vocabulary (GND Ontology) that almost completely covers the offered GND concepts provided in MARC 21."
+  },
+  "domain": "cross_domain",
+  "website": "https://www.dnb.de/lds",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://d-nb.info/gnd/",
+  "triples": 165639860,
+  "contact_point": {
+    "name": "Deutsche Nationalbibliothek and German Library Networks",
+    "email": "metadatendienste@dnb.de"
+  },
+  "keywords": [
+    "authorities",
+    "bibliographic",
+    "buildings",
+    "concepts",
+    "corporations",
+    "crossdomain",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "germany",
+    "lld",
+    "lod",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "persons",
+    "places",
+    "published-by-producer",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 80315
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 63754
+    },
+    {
+      "target": "stw-thesaurus-for-economics",
+      "value": 16628
+    },
+    {
+      "target": "viaf",
+      "value": 9317888
+    },
+    {
+      "target": "wikidata",
+      "value": 1785108
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)",
+      "description": "nTriples",
+      "media_type": "application/x-gzip",
+      "download_url": "https://data.dnb.de/opendata/authorities-gnd_lds.nt.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)",
+      "description": "HDT",
+      "media_type": "application/x-gzip",
+      "download_url": "https://data.dnb.de/opendata/authorities-gnd_lds.hdt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Geographical entity",
+      "description": "JSONLD",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-geografikum_lds.jsonld.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Geographical entity",
+      "description": "RDF/XML",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-geografikum_lds.rdf.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Geographical entity",
+      "description": "Turtle",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-geografikum_lds.ttl.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  -  Corporate body",
+      "description": "JSONLD",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-koerperschaft_lds.jsonld.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  -  Corporate body",
+      "description": "RDF/XML",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-koerperschaft_lds.rdf.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  -  Corporate body",
+      "description": "Turtle",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-koerperschaft_lds.ttl.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  -  Congress",
+      "description": "JSONLD",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-kongress_lds.jsonld.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  -  Congress",
+      "description": "RDF/XML",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-kongress_lds.rdf.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  -  Congress",
+      "description": "Turtle",
+      "media_type": "text/trutle",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-kongress_lds.turtle.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Person",
+      "description": "JSONLD",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-person_lds.jsonld.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Person",
+      "description": "RDF/XML",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-person_lds.rdf.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Person",
+      "description": "Turtle",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-person_lds.ttl.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Subject term",
+      "description": "JSONLD",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-sachbegriff_lds.jsonld.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Subject term",
+      "description": "RDF/XML",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-sachbegriff_lds.rdf.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Subject term",
+      "description": "Turtle",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-sachbegriff_lds.ttl.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Work",
+      "description": "JSONLD",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-werk_lds.jsonld.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Work",
+      "description": "RDF/XML",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-werk_lds.rdf.gz"
+    },
+    {
+      "title": "Gemeinsame Normdatei (Integrated Authority File)  - Work",
+      "description": "Turtle",
+      "media_type": "application/x-gzip",
+      "access_url": "https://data.dnb.de/opendata/authorities-gnd-werk_lds.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Person",
+      "description": "Example (Turtle)",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://d-nb.info/gnd/118514768/about/lds"
+    },
+    {
+      "title": "Example Subject Heading",
+      "description": "Example (Turtle)",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://d-nb.info/gnd/4190055-8/about/lds"
+    },
+    {
+      "title": "Example Corporate Body",
+      "description": "Example (Turtle)",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://d-nb.info/gnd/10140798-1/about/lds"
+    },
+    {
+      "title": "Example Person",
+      "description": "Example (Turtle)",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://d-nb.info/gnd/11850553X/about/lds"
+    }
+  ]
+}

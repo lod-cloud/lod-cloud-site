@@ -1,0 +1,40 @@
+{
+  "identifier": "entice-graph",
+  "title": "ENTICE Educational Episodes Knowledge Graph",
+  "description": {
+    "en": "Knowledge Graph of the Erasmus+ funded project ENTICE (https://entice.eu)"
+  },
+  "domain": "life_sciences",
+  "website": "https://data.entice.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 27257,
+  "contact_point": {
+    "name": "Evangelos Chondrokostas",
+    "email": "echondrok@gmail.com"
+  },
+  "keywords": [
+    "life_sciences",
+    "biomedicine",
+    "lod",
+    "educational_episodes",
+    "vr/ux"
+  ],
+  "links": [
+    {
+      "target": "bioportal-msh",
+      "value": 88
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ENTICE RDF Browser",
+      "access_url": "https://data.entice.eu/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "https://data.entice.eu/sparql"
+    }
+  ]
+}

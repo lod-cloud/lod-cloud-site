@@ -1,0 +1,42 @@
+{
+  "identifier": "whonto",
+  "title": "COvid-19 statistics Ontology",
+  "description": {
+    "en": "Semantic model for publishing COVID-19 data on the Web as a Graph. \nThe ontology focuses to represent COVID-19 cases: Create a COVID-19 knowledge space (e.g.,new cases, total active, recovered, deceased, new deceased in a day) and provide the statistic of cases int Geo-location (district, state, country and continent) on daily basis."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.semintelligence.org",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "https://purl.org/whonto",
+  "triples": 1260,
+  "contact_point": {
+    "name": "Sumit Sharma",
+    "email": "sharma24h@gmail.com"
+  },
+  "keywords": [
+    "COVID-19 Ontology",
+    "Ontology Based Courtry Wise Covid-19 Statistics",
+    "purl_covido",
+    "whonto"
+  ],
+  "full_download": [
+    {
+      "title": "Covid-19 Ontology",
+      "description": "Semantic model for publishing COVID-19 data on the Web as a Graph. Provide the stat of COvid-19 cases according to Geo-location",
+      "media_type": "rdf/xml",
+      "download_url": "https://www.semintelligence.org/ns/whonto"
+    },
+    {
+      "title": "Covid-19 ontology",
+      "description": "Semantic model for publishing COVID-19 data on the Web as a Graph. Provide the stat of COvid-19 cases according to Geo-location",
+      "media_type": "application/octet-stream",
+      "download_url": "http://purl.org/whonto"
+    },
+    {
+      "title": "Covid-19 ontology",
+      "description": "Semantic model for publishing COVID-19 data on the Web as a Graph. Provide the stat of COvid-19 cases according to Geo-location",
+      "media_type": "application/octet-stream",
+      "download_url": "https://archive.org/download/purl_covido/whonto.owl"
+    }
+  ]
+}

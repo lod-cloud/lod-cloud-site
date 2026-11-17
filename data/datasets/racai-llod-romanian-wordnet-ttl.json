@@ -1,0 +1,26 @@
+{
+  "identifier": "racai-llod-romanian-wordnet-ttl",
+  "title": "Turtle-RDF Romanian Wordnet",
+  "description": {
+    "en": "Romanian Wordnet in Turtle-RDF format"
+  },
+  "domain": "linguistics",
+  "website": "https://racai.ro/p/llod/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 1370315,
+  "contact_point": {
+    "name": "Verginica Mititelu",
+    "email": "vergi@racai.ro"
+  },
+  "keywords": [
+    "Romanian",
+    "wordnet",
+    "Turtle"
+  ],
+  "full_download": [
+    {
+      "title": "the Romanian wordnet in Turtle RDF format",
+      "download_url": "http://www.racai.ro/p/llod/resources/rown-3.0.ttl"
+    }
+  ]
+}

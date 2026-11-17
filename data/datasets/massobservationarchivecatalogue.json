@@ -1,0 +1,53 @@
+{
+  "identifier": "massobservationarchivecatalogue",
+  "title": "Mass Observation Archive catalogue",
+  "description": {
+    "en": "The data is the catalogue records of the Mass Observation Archive, a Designated collection. The Mass Observation Archive is a written record of everyday life in Britain 1937-55. It's a unique insight in to life during the Second World War. \r\n\r\nhttp://data.lib.sussex.ac.uk/data/mass-observation/\r\n\r\nhttp://www.massobs.org.uk/a_brief_history.htm\r\n\r\nThe conversion to Linked Data was carried out as part of the JISC funded SALDA project by the University of Sussex Library with key support from Eduserv."
+  },
+  "website": "http://specialcollections.lib.sussex.ac.uk/CalmView/Record.aspx?src=Catalog&id=SxMOA1",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "triples": 428035,
+  "contact_point": {
+    "name": "Karen Watson",
+    "email": "K.L.Watson@sussex.ac.uk"
+  },
+  "keywords": [
+    "archives",
+    "crossdomain",
+    "deref-vocab",
+    "format-xhtml",
+    "history",
+    "jisc",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "published-by-producer",
+    "war"
+  ],
+  "other_download": [
+    {
+      "description": "html interface to collection",
+      "media_type": "HTML",
+      "access_url": "http://data.lib.sussex.ac.uk/archive/"
+    },
+    {
+      "title": "Download",
+      "description": "Download the data in rdf xml/turtle and n-triples (and also as Encoded Archival Description formatted data)",
+      "media_type": "RDF",
+      "access_url": "http://data.lib.sussex.ac.uk/files/massobservation/rdf/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.lib.sussex.ac.uk/archive/id/archivalresource/gb181SxMOA1"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/massobservation/services/sparql"
+    }
+  ]
+}

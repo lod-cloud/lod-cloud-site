@@ -1,0 +1,50 @@
+{
+  "identifier": "asit",
+  "title": "Atlante Sintattico d'Italia (ASIt)",
+  "description": {
+    "en": "The Atlante Sintattico d'Italia, Syntactic Atlas of Italy (ASIt) enterprise builds on a long standing tradition of collecting and analysing linguistic corpora, which has originated different efforts and projects over the years. ASIt accounts for minimally different variants within a sample of closely related languages, thus it does not need a thorough part of speech (POS) disambiguation, since the \"trivial\" identification of basic POS (e.g. Nouns vs Verbs) is not enough to capture cross-linguistic differences between closely related languages. Secondly, the linguistic variants cannot be reduced to lexical distinctions only, i.e. syntactic differences are in general unpredictable on the basis of the properties of single lexical items. A specific tag set designed to capture sentence-level phenomena without taking into consideration POS tags is needed. As a consequence, while other tag sets are designed to carry out a gross linguistic analysis of a vast corpus, the ASIt tag set aims to capture fine-grained grammatical differences by comparing various dialectal translations of the same sentence. Moreover, in order to pin down these subtle asymmetries, the linguistic analysis must be carried out manually.\r\n\r\nTo explain why the needs for ASIt are so special we have to take into consideration two different aspects: the nature of Italian dialects, and the kind of linguistic theory ASIt aims to interact with. The Italian dialectal area presents a kind of variation that involves parametric choices affecting many general aspects of syntax, morphology, and phonology. The kind of information we want to gather involves not only the presence of a certain element, but also the absence of an element; an element can be omitted only in some constructions and in conjunction with specific characteristics of the language. For this reason, ASIt proposed the creation of a specific set of tags starting from a universal core shared by all languages (on the basis of the work done by DynaSAND), and subsequently developing a language-specific periphery which is compatible with other projects.\r\n\r\nDialectal data stored in the ASIt were gathered during a twenty-year-long survey investigating the distribution of several grammatical phenomena across the dialects of Italy. These data and information were collected by means of questionnaires formed by sets of Italian sentences: dialectal speakers were asked to translate them into their dialects and write their translations in the questionnaire; therefore, each questionnaire is associated with many parallel dialectal translations. At present, there are eight different questionnaires written in Italian and almost 500 questionnaires, corresponding to the eight Italian questionnaires, written in more than 240 different dialects, for a total of more than 54,000 sentences and more than 40,000 tags stored in the data resource managed by the ASIt digital library system."
+  },
+  "domain": "linguistics",
+  "website": "http://purl.org/asit/alld",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 420000,
+  "contact_point": {
+    "name": "Gianmaria Silvello",
+    "email": "silvello@dei.unipd.it"
+  },
+  "keywords": [
+    "Italian",
+    "corpus",
+    "dialect",
+    "linguistics",
+    "llod",
+    "lod",
+    "questionnaire",
+    "syntax"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 130
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Asit Linguisti Linked dataset RDF Schema",
+      "access_url": "http://www.purl.org/ASIt/RDF/asit-schema.rdf"
+    },
+    {
+      "title": "ASIt Linguistic Linked dataset",
+      "description": "Version 1.01 Dataset",
+      "access_url": "http://www.purl.org/asit/RDF"
+    },
+    {
+      "title": "Linked Data set",
+      "access_url": "http://ims.dei.unipd.it/websites/ASIt/RDF/asit-data.rdf"
+    },
+    {
+      "title": "Linked Data set",
+      "access_url": "http://ims.dei.unipd.it/websites/ASIt/RDF/asit-data.rdf"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "identifier": "Water_Buffer",
+  "title": "Water buffer dataset from Czech Republic @PSNC",
+  "description": {
+    "en": "This data contains the water buffer and water body related data from Czech republic. The source data was in shapefiles which is transformed into linked data."
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/open/cz/water_buffer25/",
+  "triples": 3978517,
+  "image": "https://box.psnc.pl/f/f71172c8cf/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "water bodies",
+    "water buffer zones",
+    "czech republic",
+    "agriculture"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

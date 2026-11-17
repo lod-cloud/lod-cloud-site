@@ -1,0 +1,115 @@
+{
+  "identifier": "deustotech",
+  "title": "DeustoTech (Deusto Institute of Technology)",
+  "description": {
+    "en": "<p>\r\n<p>\r\nDeusto Instituto de Tecnología, <a href=\"http://www.deustotech.deusto.es/\">DeustoTech</a>, anteriormente Tecnológico Fundación Deusto, es un instituto de investigación perteneciente a la Fundación Deusto y la Universidad de Deusto en la Facultad de Ingeniería. DeustoTech ha sido creado con la misión de realizar investigación básica y aplicada en tecnologías de la informática y la información, frente a la transferencia de tecnología y apoyo a las empresas, y fomentar la formación y la excelencia en la educación.\r\n</p>\r\n<p>\r\nDeustoTech trabaja con <a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Este dataset presenta información sobre publicaciones, autores y proyectos de investigación de dos grupos pertenecientes a DeustoTech: <a title=\"DeustoTech Computing,\" href=\"http://gescon.deusto.es:7877/servlet/Satellite/Page/1280393105788/_cast/#1284619588939%231280393105788/c0/UniversidadDeusto/Page/PaginaAsociacionDTTPL\">DeustoTech Computing</a> centrada en la inteligencia computacional aplicada a la seguridad y la optimización de procesos industriales, entre otros campos y\r\n<a title=\"DeustoTech Internet\" href=\"http://www.deustotech.deusto.es/servlet/Satellite/Page/1280393105780/_ingl/#1284619588939%231280393105780/c0/UniversidadDeusto/Page/PaginaAsociacionDTTPL\">DeustoTech Internet</a>, centrada en las soluciones móviles, la computación ubicua y la inteligencia ambiental. Esta información esta publicada en las comunidades gnoss\r\n<a title=\"DeustoTech Internet\" href=\"http://deusto.gnoss.com/comunidad/futureinternet\">DeustoTech Internet</a>\r\ny <a href=\"http://deusto.gnoss.com/comunidad/deustotechcomputing\">DeustoTech Computing</a>.\r\n</p>\r\n\r\n<p>\r\nDeusto Institute of Technology,\r\n<a href=\"http://www.deustotech.deusto.es/\">DeustoTech</a>, Tecnológico Fundación Deusto previously, is a research institute belonging to the Fundación Deusto and the University of Deusto in the Faculty of Engineering. Deustotech has been created to conduct basic and apply research in information technologies, to transfer technology and business support, and to promote training and excellence in education.\r\n</p>\r\n<p>\r\nDeustoTech works with\r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. This dataset provides information about publications, authors and research projects of two groups belonging to Deustotech: DeustoTech Computing, that focus on computational intelligence applied to security and optimization of industrial processes, among other fields; and Deustotech Internet, that focus on mobile solutions, ubiquitous computing and ambient intelligence. This information is posted on the gnoss communities <a title=\"DeustoTech Internet\" href=\"http://deusto.gnoss.com/comunidad/futureinternet\">DeustoTech Internet</a> and <a href=\"http://deusto.gnoss.com/comunidad/deustotechcomputing\">DeustoTech Computing</a>.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://deusto.gnoss.com",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://deusto.gnoss.com",
+  "triples": 55022,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "AAL",
+    "AmI",
+    "country-spain",
+    "country.es",
+    "dc",
+    "deusto",
+    "deustotech",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "internet of services",
+    "language-spa",
+    "license-metadata",
+    "linked data",
+    "lod",
+    "morelab",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "semantic web",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "web of data",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dblp-deusto-gnoss",
+      "value": 2050
+    },
+    {
+      "target": "dbpedia",
+      "value": 1248
+    },
+    {
+      "target": "freebase",
+      "value": 1186
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 17
+    },
+    {
+      "target": "gnoss",
+      "value": 93
+    },
+    {
+      "target": "morelab",
+      "value": 93
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 39
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://red.gnoss.com/voidDeustoTechGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Deustotech Computing community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://deusto.gnoss.com/en/community/deustotechcomputing/resource/Countering-Entropy-Measure-Attacks-on-Packed-Softw/e6191c80-0872-443d-9bb9-ba22afd96702?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://deusto.gnoss.com/en/community/futureinternet/advanced-search/tag/web?rdf"
+    },
+    {
+      "title": "RDF/XML search example  2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Future Internet community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://deusto.gnoss.com/en/community/futureinternet/resource/TRIP-MobileEye-and-MobileSense/a81315e8-9135-497c-82d3-91127233559e?rdf"
+    }
+  ]
+}

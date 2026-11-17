@@ -1,0 +1,22 @@
+{
+  "identifier": "ISSN:_0080-3626.",
+  "title": "Aktualne zagadnienia klasyfikacji map",
+  "description": {
+    "en": "Rozprawa Mikołaja Dzikowskiego na temat typów oraz katalogów dotyczących map"
+  },
+  "domain": "publications",
+  "website": "http://rocznikibiblioteczne.ibi.uni.wroc.pl/woluminy/tom-i-zeszyty-1-2-1957/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 1,
+  "contact_point": {
+    "name": "Instytut Informacji Naukowej i Bibliotekoznawstwa Uniwersytetu Wrocławskiego",
+    "email": "roczniki.biblioteczne@uwr.edu.pl"
+  },
+  "full_download": [
+    {
+      "title": "Aktualne zagadnienia klasyfikacji map",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "http://rocznikibiblioteczne.ibi.uni.wroc.pl/woluminy/tom-i-zeszyty-1-2-1957/"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "identifier": "steak",
+  "title": "Super Terminology System(STEAK) - Linked Open Data",
+  "description": {
+    "en": "### About\r\n\r\nFrom website:\r\n\r\n>STEAK (Super Terminology system for the Evaluation and Analysis of Knowledge) is an integrated management tool for multilingual lexical resources. To accomplish this goal, semantic text mining techniques and resource convergence techniques which extract meaningful data from big data resources are implemented as fundamental functions. Moreover, in order to give data readability, an intelligent interface including concept navigation and visualization is additionally provided. The main processes of the STEAK are collecting multilingual lexical resources, extracting patterns appropriate for the resources, explicitly constructing semantic relations, and expressing these outcomes based on SKOS (Simple Knowledge Organization System) type for information sharing and reusability."
+  },
+  "website": "http://steak.kisti.re.kr/steak/project.html",
+  "triples": 333714,
+  "contact_point": {
+    "name": "Do-Heon Jeong",
+    "email": "heon@kisti.re.kr"
+  },
+  "keywords": [
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "linked-open-data",
+    "lod",
+    "semantic",
+    "semantic-web",
+    "terminology",
+    "thesaurus",
+    "vocab-mappings"
+  ],
+  "other_download": [
+    {
+      "title": "Concepts(SKOS) : download file",
+      "description": "Concepts(SKOS)",
+      "media_type": "RDF",
+      "access_url": "http://steak.kisti.re.kr/steak2skos/STEAK2SKOS_dump.rdf"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "identifier": "statusnet-spip-org",
+  "title": "statusnet-spip-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://spip.org"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 80
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 23
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://spip.org/spipmedias/foaf"
+    }
+  ]
+}

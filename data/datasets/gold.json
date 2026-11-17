@@ -1,0 +1,29 @@
+{
+  "identifier": "gold",
+  "title": "General Ontology of Linguistic Description",
+  "description": {
+    "en": "GOLD is an ontology for descriptive linguistics."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 3000,
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod",
+    "ontology"
+  ],
+  "other_download": [
+    {
+      "title": "Gold",
+      "description": "GOLD is an ontology for descriptive linguistics.",
+      "access_url": "http://linguistics-ontology.org/gold-2010.owl"
+    },
+    {
+      "title": "GOLD OWL file",
+      "description": "Mirror of the GOLD ontology OWL file, retrieved from web.archive.org, November 18th snapshot at http://web.archive.org/web/20131118135345/http://linguistics-ontology.org/gold-2010.owl",
+      "media_type": "OWL",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-10-19T09:35:54.447Z/gold-2010.owl"
+    }
+  ]
+}

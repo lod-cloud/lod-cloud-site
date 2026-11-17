@@ -1,0 +1,63 @@
+{
+  "identifier": "sec-rdfabout",
+  "title": "U.S. Securities and Exchange Commission Corporate Ownership RDF Data (rdfabout)",
+  "description": {
+    "en": "Data exposed: corporate ownership\r\n\r\nSize of dump and data set: 1.8 million triples\r\n\r\nNotes: also found in the of SPARQL Endpoints"
+  },
+  "domain": "government",
+  "website": "http://www.rdfabout.com/demo/sec/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://www.rdfabout.com/rdf/usgov/sec/id/",
+  "triples": 1800000,
+  "image": "https://lod-cloud.net/edit-dataset/sec-rdfabout",
+  "contact_point": {
+    "name": "Joshua Tauberer <http://razor.occams.info/>",
+    "email": "kingcg7788@gmail.com"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "format-foaf",
+    "format-rdf",
+    "format-vcard",
+    "government",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "rdf",
+    "size-large"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 86
+    }
+  ],
+  "other_download": [
+    {
+      "title": "https://lod-cloud.net/edit-dataset/sec-rdfabout",
+      "description": "Download (Turtle)",
+      "media_type": "text/turtle",
+      "access_url": "http://www.govtrack.us/data/misc/sec.n3.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "https://lod-cloud.net/edit-dataset/sec-rdfabout",
+      "description": "Example (News Corp)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "https://lod-cloud.net/edit-dataset/sec-rdfabout",
+      "description": "SPARQL endpoint",
+      "access_url": "http://rdfabout.com/sparql"
+    }
+  ]
+}

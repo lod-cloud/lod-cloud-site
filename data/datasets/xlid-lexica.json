@@ -1,0 +1,52 @@
+{
+  "identifier": "xlid-lexica",
+  "title": "xLiD-Lexica",
+  "description": {
+    "en": "Our xLiD-Lexica dataset in RDF (http://km.aifb.kit.edu/resources/xLiD-lexica.nt) contains about 300 million triples of cross-lingual groundings. It is extracted from Wikipedia dumps of July 2013 in English, German, Spanish, Catalan, Slovenian and Chinese, and based on the canonicalized datasets of DBpedia 3.8 containing triples extracted from the respective Wikipedia whose subject and object resource have an equivalent English article. Based on our xLiD-Lexica dataset, we provide a SPARQL endpoint (http://km.aifb.kit.edu/services/xlike-lexicon/) using OpenLink Virtuoso6 as the back-end database engine."
+  },
+  "domain": "linguistics",
+  "triples": 300000000,
+  "contact_point": {
+    "name": "Lei Zhang",
+    "email": "http://www.aifb.kit.edu/web/Lei_Zhang"
+  },
+  "keywords": [
+    "catalan",
+    "chinese",
+    "dbpedia",
+    "english",
+    "german",
+    "lexicon",
+    "llod",
+    "lod",
+    "lrec-2014",
+    "slovenian",
+    "spanish",
+    "word-list"
+  ],
+  "links": [
+    {
+      "target": "dbpedia"
+    }
+  ],
+  "full_download": [
+    {
+      "title": "dataset",
+      "description": "cross-lingual groundings",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://km.aifb.kit.edu/resources/xLiD-lexica.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "documentation",
+      "access_url": "http://www.aifb.kit.edu/web/Inproceedings3406"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL end point",
+      "access_url": "http://km.aifb.kit.edu/services/xlike-lexicon/"
+    }
+  ]
+}

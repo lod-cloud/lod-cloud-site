@@ -1,0 +1,31 @@
+{
+  "identifier": "NCMICOVID-19",
+  "title": "NCMI-COVID-19",
+  "description": {
+    "en": "Integration of biomedical, basic medicine, clinical medicine, pharmacy, public health, traditional Chinese medicine, population and reproductive health and other aspects of scientific data resources.NCMI is integration of biomedical, basic medicine, clinical medicine, pharmacy, public health, traditional Chinese medicine, population and reproductive health and other aspects of scientific data resources. This covid-19 Data contains clinical trail and drug data related with covid-19 virus."
+  },
+  "domain": "life_sciences",
+  "website": "http://semweb.csdb.cn/dataset/ncmi-covid19",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1593,
+  "contact_point": {
+    "name": "Luo Wei",
+    "email": "rkjkpt@126.com"
+  },
+  "links": [
+    {
+      "target": "PubChem_RDF",
+      "value": 106
+    },
+    {
+      "target": "micro-coronavirus",
+      "value": 386
+    }
+  ],
+  "sparql": [
+    {
+      "title": "http://ncmi.semweb.csdb.cn/covid19/sparql",
+      "access_url": "http://ncmi.semweb.csdb.cn/covid19/sparql"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "identifier": "BibSonomy",
+  "title": "BibSonomy - The blue social bookmark and publication sharing system.",
+  "description": {
+    "en": "BibSonomy is a social bookmarking system. The dataset contains user-generated metadata about web pages and scholarly publications, specifically, tags, that is, freely chosen keywords.  BibSonomy provides metadata to web pages using owl:sameAs links as well links to DBLP."
+  },
+  "domain": "publications",
+  "website": "https://www.bibsonomy.org/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "https://bibsonomy.org/",
+  "triples": 8929782,
+  "image": "https://www.bibsonomy.org/resources/image/logo.png",
+  "contact_point": {
+    "name": "Robert Jäschke",
+    "email": "jaeschke@l3s.de"
+  },
+  "keywords": [
+    "tagging",
+    "social bookmarking",
+    "folksonomy",
+    "bibsonomy"
+  ],
+  "links": [
+    {
+      "target": "l3s-dblp",
+      "value": 1000
+    }
+  ],
+  "example": [
+    {
+      "title": "Data for user DBLP",
+      "description": "RDF/XML of the DBLP data mirrored in BibSonomy",
+      "media_type": "text/html",
+      "access_url": "https://www.bibsonomy.org/publrss/user/dblp"
+    },
+    {
+      "title": "Reverse Link from L3S DBLP to BibSonomy",
+      "access_url": "https://dblp.l3s.de/d2r/page/authors/A'lishia_Bowman"
+    }
+  ]
+}

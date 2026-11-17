@@ -1,0 +1,62 @@
+{
+  "identifier": "openmobilenetwork",
+  "title": "OpenMobileNetwork",
+  "description": {
+    "en": "The OpenMobileNetwork is a dataset for mobile networks and devices, which is semantically modeled using the Linked Data principles. It provides structured RDF data describing mobile networks, their topology and components (e.g., base stations, mobile devices or WiFi access points). Utilizing this dataset in combination with interlinked information that is present in the LOD Cloud, various applications can be realized that depend on mobile network and positioning data (e.g., Semantic Location-based Services or Power Management in Mobile Networks)."
+  },
+  "domain": "geography",
+  "website": "http://www.openmobilenetwork.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://www.openmobilenetwork.org/resource/",
+  "triples": 19048586,
+  "contact_point": {
+    "name": "Abdulbaki Uzun, Service-centric Networking, TU Berlin",
+    "email": "abdulbaki.m.uzun@tu-berlin.de"
+  },
+  "keywords": [
+    "base-station",
+    "cell",
+    "format-geo",
+    "format-owl",
+    "format-rdf",
+    "geographic",
+    "license-metadata",
+    "lod",
+    "mobile-network",
+    "mobile-phone",
+    "no-deref-vocab",
+    "provenance-metadata",
+    "published-by-producer",
+    "sparql",
+    "wireless-network"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 150
+    },
+    {
+      "target": "linkedcrowdsourceddata",
+      "value": 63642
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 1442037
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF Resource",
+      "description": "Example RDF resource from the OpenMobileNetwork",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://www.openmobilenetwork.org/page/cell2159549_5275_262_1.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL endpoint for data from the OpenMobileNetwork",
+      "access_url": "http://sparql.openmobilenetwork.org"
+    }
+  ]
+}

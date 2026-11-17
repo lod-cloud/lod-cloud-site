@@ -1,0 +1,63 @@
+{
+  "identifier": "courts-thesaurus",
+  "title": "Courts thesaurus",
+  "description": {
+    "en": "Courts thesaurus is structuring German and European courts in a hierarchical fashion and includes e.g. address information. This thesaurus is not only dedicated to parties interested in legal matters, but also to developers developing geo data applications. Information concerning courts and their roles and responsibilities can become an interesting aspect of many applications in the future."
+  },
+  "domain": "government",
+  "website": "http://vocabulary.wolterskluwer.de/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://vocabulary.wolterskluwer.de/court",
+  "triples": 30387,
+  "contact_point": {
+    "name": "Wolters Kluwer Deutschland GmbH",
+    "email": "cdirschl@wolterskluwer.de"
+  },
+  "keywords": [
+    "courts",
+    "eu",
+    "format-dcterms",
+    "format-skos",
+    "format-vcard",
+    "germany",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer",
+    "united nations"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 997
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML File",
+      "media_type": "RDF",
+      "access_url": "http://vocabulary.wolterskluwer.de/court/export/court.rdf"
+    },
+    {
+      "title": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://vocabulary.wolterskluwer.de/court.html"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of \"Bundesfinanzhof\"",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocabulary.wolterskluwer.de/court/10017.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL-Endpoint",
+      "access_url": "http://vocabulary.wolterskluwer.de/PoolParty/sparql/court"
+    }
+  ]
+}

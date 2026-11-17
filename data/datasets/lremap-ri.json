@@ -1,0 +1,26 @@
+{
+  "identifier": "lremap-ri",
+  "title": "First not-normalized set of language resources from LREC2014",
+  "description": {
+    "en": "First not-normalized set of language resources from LREC2014, including workshops"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 7982,
+  "contact_point": {
+    "name": "Riccardo Del Gratta",
+    "email": "riccardo.delgratta@ilc.cnr.it"
+  },
+  "keywords": [
+    "LOD",
+    "Linguistic Dataset LOD RDF",
+    "linguistic"
+  ],
+  "other_download": [
+    {
+      "title": "first-not-normalized-set-of-language-resources-from-lrec2014",
+      "description": "To be revised",
+      "media_type": "text/xml",
+      "access_url": "http://www.resourcebook.eu/lremap/owl/lremap_ri"
+    }
+  ]
+}

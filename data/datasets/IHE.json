@@ -1,0 +1,33 @@
+{
+  "identifier": "IHE",
+  "title": "3LGM² IHE Ontology",
+  "description": {
+    "en": "IHE Concepts extracted from IHE Technical Frameworks published by IHE International (https://www.ihe.net/ihe_domains/, https://profiles.ihe.net/)"
+  },
+  "domain": "life_sciences",
+  "website": "https://www.3lgm2.de/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://www.3lgm2.de/resource/ihe/",
+  "triples": 2942,
+  "contact_point": {
+    "name": "Sebastian Stäubert",
+    "email": "sebastian.staeubert@imise.uni-leipzig.de"
+  },
+  "keywords": [
+    "IHE",
+    "3LGM²"
+  ],
+  "example": [
+    {
+      "title": "IHE Actor",
+      "media_type": "application/n-triples",
+      "access_url": "https://www.3lgm2.de/resource/ihe/Actor"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "3LGM2IHE SPARQL Endpoint",
+      "access_url": "https://www.3lgm2.de/sparql"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "identifier": "ssf",
+  "title": "Lexicon of Syntactic and Semantic Framework",
+  "description": {
+    "en": "Ontology contains over 70.000 lexical entries of Croatian language. The ontology is daily improved in a cooperation with a Mathematical department of the University of Osijek in Croatia"
+  },
+  "domain": "linguistics",
+  "website": "http://www.ss-framework.com",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "triples": 70366,
+  "image": "http://www.ss-framework.com/crollod.jpg",
+  "contact_point": {
+    "name": "Marko Orešković",
+    "email": "moreskovic@nsk.hr"
+  },
+  "keywords": [
+    "croatian",
+    "lexicon"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 20456
+    },
+    {
+      "target": "lexinfo",
+      "value": 67717
+    },
+    {
+      "target": "wordnet",
+      "value": 35687
+    }
+  ],
+  "full_download": [
+    {
+      "download_url": "http://www.ss-framework.com/owl/ssf.xml"
+    }
+  ],
+  "example": [
+    {
+      "media_type": "text/xml",
+      "access_url": "http://www.ss-framework.com/sample.xml"
+    }
+  ],
+  "sparql": [
+    {
+      "access_url": "http://www.ss-framework.com/sparql"
+    }
+  ]
+}

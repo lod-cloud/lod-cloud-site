@@ -1,0 +1,36 @@
+{
+  "identifier": "bioportal-kisao",
+  "title": "Kinetic Simulation Algorithm Ontology",
+  "description": {
+    "en": "The Kinetic Simulation Algorithm Ontology aims at providing support in unambiguously referring to simulation algorithms when describing a\nsimulation experiment. It describes and classifies existing algorithms and their inter-relationships through the algorithm characteristics and parameters."
+  },
+  "website": "http://bioportal.bioontology.org/ontologies/1410",
+  "triples": 6165,
+  "contact_point": {
+    "name": "BioModels.net team"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46873?apikey=BP_API_KEY"
+    }
+  ]
+}

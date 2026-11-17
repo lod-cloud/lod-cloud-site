@@ -1,0 +1,51 @@
+{
+  "identifier": "bioportal-hugo",
+  "title": "HUGO",
+  "description": {
+    "en": "Human Genome Organisation (HUGO) Gene Nomenclature Committee at the European Bioinformatics Institute approves a gene name and symbol (short-form abbreviation) for each known human gene. All approved symbols are stored in the HGNC database."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1528",
+  "triples": 898855,
+  "contact_point": {
+    "name": "Dr. Elspeth Bruford"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 17
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45082?apikey=BP_API_KEY"
+    }
+  ]
+}

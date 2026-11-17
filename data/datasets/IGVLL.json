@@ -1,0 +1,44 @@
+{
+  "identifier": "IGVLL",
+  "title": "Index Graecorum Vocabulorum in LiLa",
+  "description": {
+    "en": "Index of 1,763 Ancient Greek loanwords in Latin, mapped against the LiLa lemma bank."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/IGVLL/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/IGVLL",
+  "triples": 37587,
+  "doi": "10.5281/zenodo.4023837",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Ancient Greek"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 1759
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Index Graecorum Vocabulorum",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/index-graecorum-vocabulorum"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

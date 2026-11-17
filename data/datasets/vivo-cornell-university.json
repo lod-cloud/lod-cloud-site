@@ -1,0 +1,60 @@
+{
+  "identifier": "vivo-cornell-university",
+  "title": "VIVO Cornell",
+  "description": {
+    "en": "Information about Cornell faculty and staff across all disciplines, departments and colleges. Available as RDF dump and Linked Data. This is a part of package:vivo."
+  },
+  "domain": "publications",
+  "website": "http://vivo.cornell.edu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://vivo.cornell.edu/",
+  "triples": 9796754,
+  "contact_point": {
+    "name": "Cornell University"
+  },
+  "keywords": [
+    "deref-vocab",
+    "education",
+    "format-rdf",
+    "format-rdfs",
+    "format-vitro",
+    "lod",
+    "lodcloud-diagram-2011",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "science",
+    "social-networks",
+    "vivo"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 58
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (Turtle)",
+      "media_type": "text/turtle",
+      "access_url": "http://vivo.cornell.edu/Cornell-VIVO.n3"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://vivo.cornell.edu/individual/PamelaGraham/PamelaGraham.rdf"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://vivo.cornell.edu/individual/DonnaStevens/DonnaStevens.rdf"
+    },
+    {
+      "description": "VIVO OWL ontology",
+      "access_url": "http://vivoweb.org/ontology/core"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "identifier": "dbpedia-lite",
+  "title": "dbpedia lite",
+  "description": {
+    "en": "dbpedia lite takes some of the structured data in Wikipedia and presents it as Linked Data. It contains a small subset of the data that dbpedia contains; it does not attempt to extract data from the Wikipedia infoboxes. Data is fetched live from the Wikipedia API. It uses Wikipedia pageIds in its URIs to attempt to mitigate the problems of article titles changing over time.\r\n\r\nAs the data comes from WIkipedia, the licensing is the same.\r\n\r\nThis project is not affiliated with DBpedia."
+  },
+  "domain": "cross_domain",
+  "website": "http://dbpedialite.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://dbpedialite.org/things/",
+  "triples": 200000000,
+  "contact_point": {
+    "name": "Nicholas Humfrey",
+    "email": "njh@aelius.com"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "linked-data",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 10000000
+    },
+    {
+      "target": "freebase",
+      "value": 10000000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/n-triples; charset=UTF-8",
+      "access_url": "http://dbpedialite.org/things/52780.rdf"
+    }
+  ]
+}

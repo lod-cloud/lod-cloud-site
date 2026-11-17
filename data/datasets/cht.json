@@ -1,0 +1,53 @@
+{
+  "identifier": "cht",
+  "title": "Cultural Heritage Thesaurus",
+  "description": {
+    "en": "Concepts that cover the cultural heritage field in the Netherlands."
+  },
+  "domain": "government",
+  "website": "https://data.cultureelerfgoed.nl/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://data.cultureelerfgoed.nl/term/id/cht/",
+  "triples": 645403,
+  "contact_point": {
+    "name": "Joop Vanderheiden",
+    "email": "j.vanderheiden@cultureelerfgoed.nl"
+  },
+  "keywords": [
+    "cultural heritage",
+    "archaeology",
+    "Architecture",
+    "Arthistory",
+    "historical buildings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 42
+    },
+    {
+      "target": "dbpedia-nl",
+      "value": 1996
+    },
+    {
+      "target": "getty-aat",
+      "value": 1683
+    },
+    {
+      "target": "wikidata",
+      "value": 36
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Cultuurhistorische Thesaurus",
+      "download_url": "https://data.cultureelerfgoed.nl/term/id/cht/export/term/id/cht.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Cultuurhistorische Thesaurus SPARQL",
+      "access_url": "https://digitaalerfgoed.poolparty.biz/PoolParty/sparql/term/id/cht"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "identifier": "arrayexpress_e-mtab-104",
+  "title": "Transcription profiling of rat bladder after inoculation with bladder cancer cells",
+  "description": {
+    "en": "Rat bladder cancer cells (AY-27 cell line) were inoculated intravesically into syngeneic female Fischer rats. The bladder was analyzed by histology and Affymetrix GeneChips and compared to bladders from sham operated and normal rats."
+  },
+  "domain": "life_sciences",
+  "namespace": "http://purl.org/twc/arrayexpress/E-MTAB-104/",
+  "triples": 2613,
+  "contact_point": {
+    "name": "Endre Anderssen",
+    "email": "endre.anderssen@gmail.com"
+  },
+  "keywords": [
+    "format-efo",
+    "format-obo",
+    "format-prov",
+    "lifesciences",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 1
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/twc/arrayexpress/dump/E-MTAB-104.rdf"
+    },
+    {
+      "title": "EFO Schema",
+      "access_url": "http://www.ebi.ac.uk/efo"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/twc/arrayexpress/E-MTAB-104"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://purl.org/twc/arrayexpress/virtuoso/sparql"
+    }
+  ]
+}

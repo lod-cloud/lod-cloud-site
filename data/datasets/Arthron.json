@@ -1,0 +1,17 @@
+{
+  "identifier": "Arthron",
+  "title": "Discourse on Articles (Sit'q'ua Art'ront'at'vis)",
+  "description": {
+    "en": "Discourse on Articles (Sit'q'ua Art'ront'at'vis) is an Old Georgian grammatical treatise preserved in two manuscript witnesses: A (Athos, Iviron Monastery, A-6, ff. 32r–37r, 12th–13th c.) and S (Tbilisi, National Centre of Manuscripts, S-1141, ff. 106r–108v, 1541 CE). The text addresses a fundamental problem in Georgian-Greek translation: how to render the Greek definite article (ἄρθρον) in Georgian, a language that lacks articles.\n\nThe treatise systematically presents the Greek article paradigms across all three genders, three numbers (singular, dual, plural), and five cases (nominative, genitive, dative, accusative, vocative), explaining their semantic functions and the theological implications of their presence or absence—particularly in Christological contexts where the article distinguishes between \"God\" (ὁ θεός, the one God) and \"a god\" (θεός).\n\nThis Level 4 Digital Scholarly Edition, encoded in TEI P5 XML following CTS (Canonical Text Services) architecture, provides the critical text with a typed apparatus (223 variants categorized as orthographic, lexical, morphological, omission, or addition), a comprehensive lexicon of 158 grammatical terms with Greek equivalents linked to the Logeion dictionary, and semantic markup aligned with the OLiA (Ontologies of Linguistic Annotation) ontology for Linked Open Data interoperability."
+  },
+  "domain": "linguistics",
+  "website": "https://tamarae.github.io/Arthron/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "doi": "10.5281/zenodo.18457051",
+  "image": "https://github.com/Tamarae/Arthron/blob/main/src/templates/partials/title.svg",
+  "contact_point": {
+    "name": "Tamar Kalkhitashvili",
+    "email": "tamar.kalkhitashvili.1@iliauni.edu.ge"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "identifier": "medline",
+  "title": "medline",
+  "description": {
+    "en": "RDF representation of the Medline catalogue. Information about 19 million articles linked to http://dx.doi.org/ with article identifiers and http://crossref.org/ with journal identifiers."
+  },
+  "website": "http://purl.org/okfn/medline",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 1016652223,
+  "keywords": [
+    "format-bibo",
+    "format-dcat",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "lld",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "doi",
+      "value": 137232958
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Catalogue of Medline Datasets",
+      "media_type": "api/dcat",
+      "access_url": "http://purl.org/okfn/medline/catalogue"
+    },
+    {
+      "description": "List of Medline Datasets (HTML, Turtle, JSON)",
+      "media_type": "auto",
+      "access_url": "http://purl.org/okfn/medline/records"
+    }
+  ]
+}

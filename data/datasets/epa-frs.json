@@ -1,0 +1,55 @@
+{
+  "identifier": "epa-frs",
+  "title": "EPA-FRS",
+  "description": {
+    "en": "The Facility Registry Service (FRS) provides quality facility data to support EPA's mission of protecting human health and the environment."
+  },
+  "website": "https://opendata.epa.gov",
+  "triples": 229361000,
+  "contact_point": {
+    "name": "EPA Office of Environmental Information",
+    "email": "admin@3roundstones.com"
+  },
+  "keywords": [
+    "environmental",
+    "government",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 66
+    },
+    {
+      "target": "epa-rcra",
+      "value": 1711036
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EPA Linked Data Services",
+      "description": "Platform for accessing all EPA Linked Data sets using query tools, services, applications, URI resolution, mapping and more.",
+      "access_url": "https://opendata.epa.gov"
+    },
+    {
+      "title": "FRS Schema",
+      "description": "RDF schema in TTL format describing the classes and predicates in the data.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/frs/schema.ttl"
+    },
+    {
+      "title": "VoID description",
+      "description": "VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/frs/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example FRS facility",
+      "description": "Description of Browns Ferry Nuclear Plant",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/data/facility/110000589355.ttl"
+    }
+  ]
+}

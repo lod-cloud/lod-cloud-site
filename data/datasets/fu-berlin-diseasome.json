@@ -1,0 +1,90 @@
+{
+  "identifier": "fu-berlin-diseasome",
+  "title": "Diseasome",
+  "description": {
+    "en": "Linked Data version of Diseasome publishes a network of 4,300 disorders and disease genes linked by known disorder-gene associations for exploring all known phenotype and disease gene associations, indicating the common genetic origin of many diseases. The list of disorders, disease genes, and associations between them was obtained from the Online Mendelian Inheritance in Man (OMIM), a compilation of human disease genes and phenotypes.\r\n\r\nOMIM Data Use from http://www.ncbi.nlm.nih.gov/Omim/restrictions.html\r\n\r\nCopyright © 1966-2008 Johns Hopkins University.\r\n\r\nThe OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto.\r\n\r\nThe OMIM database is made available to the general public subject to certain restrictions. You may use the OMIM database and data obtained from this site for your personal use, for educational or scholarly use, or for research purposes only. The OMIM database may not be copied, distributed, transmitted, duplicated, reduced or altered in any way for commercial purposes, or for the purpose of redistribution, without a license from the Johns Hopkins University.\r\n\r\nRequests for information regarding a license for commercial use or redistribution of the OMIM database may be sent via e-mail to JHTT-Communications@jhmi.edu.\r\n\r\n\r\nlinks:bio2rdf-symbol: 9743"
+  },
+  "domain": "life_sciences",
+  "website": "http://www4.wiwiss.fu-berlin.de/diseasome/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/diseasome/resource/",
+  "triples": 91182,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "lifesciences",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-geneid",
+      "value": 688
+    },
+    {
+      "target": "bio2rdf-hgnc",
+      "value": 688
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 2929
+    },
+    {
+      "target": "dbpedia",
+      "value": 1943
+    },
+    {
+      "target": "fu-berlin-dailymed",
+      "value": 6124
+    },
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 8202
+    },
+    {
+      "target": "fu-berlin-sider",
+      "value": 238
+    },
+    {
+      "target": "linkedct",
+      "value": 372
+    },
+    {
+      "target": "tcmgenedit_dataset",
+      "value": 376
+    }
+  ],
+  "full_download": [
+    {
+      "description": "N-Triples, bz2 packed",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www4.wiwiss.fu-berlin.de/diseasome/diseasome_dump.nt.bz2"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/diseasome/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseases/74"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/diseasome/sparql"
+    }
+  ]
+}

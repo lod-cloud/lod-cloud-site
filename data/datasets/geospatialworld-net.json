@@ -1,0 +1,54 @@
+{
+  "identifier": "geospatialworld-net",
+  "title": "Geospatial World",
+  "description": {
+    "en": "Geo Spatial World dataset for English resources, built with WordLift from the website https://www.geospatialworld.net/"
+  },
+  "domain": "publications",
+  "website": "https://www.geospatialworld.net/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 27017,
+  "image": "https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2016/04/272x90-logo_color.png",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "geospatial",
+    "wordlift"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 472
+    },
+    {
+      "target": "freebase",
+      "value": 411
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 25
+    },
+    {
+      "target": "wikidata",
+      "value": 42
+    },
+    {
+      "target": "yago",
+      "value": 239
+    }
+  ],
+  "full_download": [
+    {
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/wl037.rdf"
+    }
+  ],
+  "example": [
+    {
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.wordlift.it/wl037/entity/bentley_systems"
+    }
+  ]
+}

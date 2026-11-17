@@ -1,0 +1,53 @@
+{
+  "identifier": "eu-agencies-bodies",
+  "title": "EU Agencies and decentralized bodies (Agencies)",
+  "description": {
+    "en": "The official website of the European Union contains a section about agencies and decentralized bodies in the EU. This data is provided as a set of lists, which provide the name of the institutions, as well as links to a detail page about each of them. Most of these pages are available in different languages. If you want to browse the data, please use the links in the \"navigation box\" on the left side. Furthermore, it is possible to create your own SPARQL queries for obtaining lists of combined information.\r\nThis dataset (http://agencies.publicdata.eu/) was triplified and published by the research group AKSW (Agile Knowledge Engineering and Semantic Web). For further information about AKSW please visit our website."
+  },
+  "domain": "government",
+  "website": "http://agencies.publicdata.eu/",
+  "namespace": "http://agencies.publicdata.eu/r/",
+  "triples": 1075,
+  "contact_point": {
+    "name": "Philipp Frischmuth",
+    "email": "frischmuth@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "format-rdf",
+    "latc",
+    "legal",
+    "lod",
+    "lodcloud",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 20
+    },
+    {
+      "target": "eurostat-linked-data",
+      "value": 23
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML Dump",
+      "access_url": "http://agencies.publicdata.eu/model/export/?m=http%3A%2F%2Fagencies.publicdata.eu%2F&f=rdfxml"
+    },
+    {
+      "title": "Example Resource (RDF/XML)",
+      "access_url": "http://agencies.publicdata.eu/resource/export/f/rdfxml?r=http%3A%2F%2Fagencies.publicdata.eu%2Fr%2FEEA"
+    },
+    {
+      "title": "Example Resoucre (HTML)",
+      "access_url": "http://agencies.publicdata.eu/r/EEA"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://agencies.publicdata.eu/sparql"
+    }
+  ]
+}

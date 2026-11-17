@@ -1,0 +1,30 @@
+{
+  "identifier": "addgene",
+  "title": "Addgene",
+  "description": {
+    "en": "Data exposed: Addgene catalog (tab delimited file)\r\n\r\nSize of dump and data set: 1.1 MB\r\n\r\nNotes: provided to Science Commons by Addgene\r\n\r\n### Openness: ?\r\n\r\nT&C here: http://www.addgene.org/pgvec1?f=a&cmd=showfile&file=terms\r\n\r\nHowever hard to work out what these mean ..."
+  },
+  "domain": "life_sciences",
+  "website": "http://www.addgene.org/",
+  "namespace": "http://purl.org/science/plasmid/addgene/",
+  "triples": 16610,
+  "keywords": [
+    "ckanupload.esw.200910",
+    "format-rdf",
+    "genetics",
+    "license-unclear",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "rdf",
+    "size-small"
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/hcls/2007/kb-sources/addgene.ttl"
+    }
+  ]
+}

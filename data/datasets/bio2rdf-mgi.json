@@ -1,0 +1,146 @@
+{
+  "identifier": "bio2rdf-mgi",
+  "title": "Bio2RDF::Mgi",
+  "description": {
+    "en": "The Mouse Genome Database (MGD) project includes data on gene characterization, nomenclature, mapping, gene homologies among mammals, sequence links, phenotypes, allelic variants and mutants, and strain data."
+  },
+  "domain": "life_sciences",
+  "website": "http://mgi.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/mgi:",
+  "triples": 8206813,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-ensembl",
+      "value": 134875
+    },
+    {
+      "target": "bio2rdf-genbank",
+      "value": 270087
+    },
+    {
+      "target": "bio2rdf-mgi",
+      "value": 135983
+    },
+    {
+      "target": "bio2rdf-mp",
+      "value": 7813
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 26159
+    },
+    {
+      "target": "bio2rdf-refseq",
+      "value": 173676
+    },
+    {
+      "target": "bio2rdf-trembl",
+      "value": 50539
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 16171
+    },
+    {
+      "target": "bio2rdf-vega",
+      "value": 108930
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download MGI_GenePheno.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/mgi/MGI_GenePheno.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download MGI_PhenotypicAllele.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/mgi/MGI_PhenotypicAllele.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download MGI_Strain.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/mgi/MGI_Strain.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download MRK_Sequence.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/mgi/MRK_Sequence.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/mgi/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/mgi/mgi.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/mgi/bio2rdf-mgi.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/mgi/mgi.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/mgi/bio2rdf_mgi_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/mgi/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/mgi:95484"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://mgi.bio2rdf.org/sparql"
+    }
+  ]
+}

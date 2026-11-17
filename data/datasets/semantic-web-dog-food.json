@@ -1,0 +1,59 @@
+{
+  "identifier": "semantic-web-dog-food",
+  "title": "Semantic Web Dog Food Corpus",
+  "description": {
+    "en": "### About\r\n\r\nData exposed: Metadata (papers, presentations, people) for several semantic web related conferences and workshops, including the most recent ISWC, ESWC and WWW events.\r\n\r\nNotes: The dump locations can be found in the site's semantic sitemap\r\n\r\n### Openness\r\n\r\nNo information found."
+  },
+  "domain": "publications",
+  "website": "http://data.semanticweb.org",
+  "namespace": "http://data.semanticweb.org/",
+  "triples": 191391,
+  "contact_point": {
+    "name": "Knud Möller",
+    "email": "admin@data.semanticweb.org"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "format-foaf",
+    "format-rdf",
+    "linkeddata",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "rdf",
+    "semantic-web"
+  ],
+  "links": [
+    {
+      "target": "revyu",
+      "value": 234
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 369
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://data.semanticweb.org/dumps"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI (F.U.Berlin)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.semanticweb.org/organization/freie-universitaet-berlin"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.semanticweb.org/sparql"
+    }
+  ]
+}

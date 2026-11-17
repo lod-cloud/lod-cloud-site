@@ -1,0 +1,54 @@
+{
+  "identifier": "rkb-explorer-notube",
+  "title": "notube",
+  "description": {
+    "en": "This co-reference store has been provided for use by the NoTube semantic television project."
+  },
+  "domain": "publications",
+  "website": "http://notube.rkbexplorer.com",
+  "triples": 0,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "broken_link",
+    "format-rdf",
+    "lod",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 2
+    },
+    {
+      "target": "bbc-programmes",
+      "value": 2
+    },
+    {
+      "target": "bbc-wildlife-finder",
+      "value": 2
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://notube.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://notube.rkbexplorer.com/models/void.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://notube.rkbexplorer.com/sparql"
+    }
+  ]
+}

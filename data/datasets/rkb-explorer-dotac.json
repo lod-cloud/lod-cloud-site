@@ -1,0 +1,68 @@
+{
+  "identifier": "rkb-explorer-dotac",
+  "title": "dotAC (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://dotac.rkbexplorer.com",
+  "namespace": "http://dotac.rkbexplorer.com/id/",
+  "triples": 21279220,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 31
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://dotac.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://dotac.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://dotac.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dotac.rkbexplorer.com/id/oro.open.ac.uk/person-0d27a9455a26cc6a0aa8743d45f99af4-1bda34e510320ac2ee08e4c81bd58e6a"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dotac.rkbexplorer.com/id/oro.open.ac.uk/person-0d27a9455a26cc6a0aa8743d45f99af4-1bda34e510320ac2ee08e4c81bd58e6a"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://dotac.rkbexplorer.com/sparql/"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "identifier": "stone-tech-square-data",
+  "title": "Stone Tech Square",
+  "description": {
+    "en": "free knowledge database project hosted by Stone Tech Square and edited by its team"
+  },
+  "domain": "user_generated",
+  "website": "https://data.stonetechsquare.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.stonetechsquare.com/entity/",
+  "triples": 0,
+  "image": "https://substackcdn.com/image/fetch/w_1250,h_703,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F413e8dac-110a-4aef-b88f-05566540d3f9_853x853.png",
+  "contact_point": {
+    "name": "Abubakar Shehu Idris",
+    "email": "abubakar@stonetechsquar.com"
+  },
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "title": "entity node for Abubakar Shehu Idris",
+      "description": "(The canonical URI for the concept of Abubakar Shehu Idris, the Co-Founder & CEO of Stone Tech Square, as represented on Stone Tech Square. Using content negotiation, the URI redirects to different pages depending on how it is accessed; when opened in a browser, it will usually redirect to the Stone Tech Square page for the item, showing its terms, statements and sitelinks, while other clients may be served the data in JSON or RDF formats instead.)",
+      "access_url": "http://data.stonetechsquare.com/entity/Q7"
+    },
+    {
+      "title": "data node for Abubakar Shehu Idris",
+      "description": "(The data node for Stone Tech Square’s concept of Abubakar Shehu Idris. In the linked data interface, this node is the subject of triples describing metadata about the entity record on Stone Tech Square. (In the Stone Tech Square Query Service, the data node is merged into the entity node.) This is the URI that actually implements content negotiation depending on the client’s Accept headers; the entity URI, when accessed, unconditionally redirects to this one.)",
+      "access_url": "https://data.stonetechsquare.com/wiki/Special:EntityData/Q7"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Stone Tech Square Query Service",
+      "description": "The Stone Tech Square Query Service generally contains the full data of Stone Tech Square",
+      "access_url": "https://data.stonetechsquare.com/query/"
+    }
+  ]
+}

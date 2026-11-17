@@ -1,0 +1,28 @@
+{
+  "identifier": "iconology-dataset",
+  "title": "The Iconology Dataset",
+  "description": {
+    "en": "The Iconology dataset is a RDF dataset of a selection of the art historian Erwin Panofsky's iconological studies, described according to the ICON ontology (see the documentation here) and standards.\n\nIt contains interpretations about ca. 400 artworks (see Figure 1) mostly from the Middle Ages and Renaissance Western art, mainly interpreted by Panofsky. The interpretations are divided into three levels, from a more superficial understanding to a deeper one, as described by the art historian's theory, and inter-level links among identified subjects are provided. The subject types recorded include natural elements, actions and emotions (level 1), characters, events, places, objects with a specific identity (e.g. the Bible), personifications, symbols, stories and allegories (level 2), concepts, and cultural phenomena (level 3). For each subject identification a provenance of the assertion can be provided, indicating the author, source, and cited evidence, so as to allow the coexistence of multiple (diverging) interpretations."
+  },
+  "domain": "user_generated",
+  "website": "https://iconology-dataset.streamlit.app/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "Sofia Baroncini",
+    "email": "baroncini@ieg-mainz.de"
+  },
+  "full_download": [
+    {
+      "title": "RDF data",
+      "description": "Data in Turtle format",
+      "download_url": "https://github.com/SofiBar/IconologyDataset/blob/main/data/icondataset.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "https://projects.dharc.unibo.it/icondataset/sparql"
+    }
+  ]
+}

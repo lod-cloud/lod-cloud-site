@@ -1,0 +1,64 @@
+{
+  "identifier": "ww1lod",
+  "title": "World War 1 as Linked Open Data",
+  "description": {
+    "en": "This dataset contains strictly quality-controlled rich information on events, actors and places related to the First World War. As such, it is meant to be used as a reference dataset to which other datasets (e.g. museum or library collections dealing with WW1 topics) can be linked."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://ldf.fi/ww1lod/",
+  "triples": 40160,
+  "keywords": [
+    "culturalheritage",
+    "deref-vocab",
+    "format-cidoc-crm",
+    "format-foaf",
+    "format-geo",
+    "format-georss",
+    "format-org",
+    "format-rdf",
+    "format-schema",
+    "format-skos",
+    "history",
+    "lod",
+    "world-war-one"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 152
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1248
+    },
+    {
+      "target": "muninn",
+      "value": 11
+    },
+    {
+      "target": "pcdhn",
+      "value": 29
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example resource",
+      "access_url": "http://ldf.fi/ww1lod/6db396b8"
+    },
+    {
+      "title": "Home page",
+      "access_url": "http://ldf.fi/ww1lod/"
+    },
+    {
+      "title": "VoID Description",
+      "access_url": "http://ldf.fi/ww1lod/void/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://ldf.fi/ww1lod/sparql"
+    }
+  ]
+}

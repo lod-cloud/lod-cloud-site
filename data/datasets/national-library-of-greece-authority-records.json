@@ -1,0 +1,48 @@
+{
+  "identifier": "national-library-of-greece-authority-records",
+  "title": "National Library of Greece Authority Records",
+  "description": {
+    "en": "This is the National Library of Greece Authority Records Dataset in Linked Data form."
+  },
+  "website": "http://nlg.okfn.gr",
+  "namespace": "http://nlg.okfn.gr/resource/authority/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Sotirios Karampatakis",
+    "email": "s.karampatakis@gmail.com"
+  },
+  "keywords": [
+    "GLAM",
+    "authority",
+    "bibliographic",
+    "library",
+    "linked data",
+    "lld",
+    "lod",
+    "no-proprietary-vocab"
+  ],
+  "links": [
+    {
+      "target": "lcsh",
+      "value": 16223
+    },
+    {
+      "target": "viaf",
+      "value": 70000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dataset description",
+      "description": "Dataset Description.",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://nlg.okfn.gr/resource/authority/Dataset"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://nlg.okfn.gr/sparql"
+    }
+  ]
+}

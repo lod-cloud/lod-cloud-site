@@ -1,0 +1,54 @@
+{
+  "identifier": "dewey_decimal_classification",
+  "title": "Dewey Decimal Classification (DDC)",
+  "description": {
+    "en": "Dewey.info is an experimental space for linked DDC data. The intention of the dewey.info prototype is to be a platform for Dewey data on the Web.\r\n\r\nIncluded as linked data are the DDC Summaries (the top three levels of the DDC) of Edition 22 in 11 languages and all assignable numbers of Abridged Edition 14 in three languages. Classification semantics are encoded in RDF using SKOS and other element vocabularies. \r\n\r\nEvery class also has an HTML representation (XHTML+RDFa) and several RDF serializations (RDF/XML, Turtle, JSON).\r\n\r\nA SPARQL endpoint is available.\r\n\r\nThe data is reusable under the Creative Commons BY-NC-ND license."
+  },
+  "website": "http://dewey.info",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://dewey.info/",
+  "triples": 402288,
+  "contact_point": {
+    "name": "OCLC Online Computer Library Center, Inc.",
+    "email": "http://www.oclc.org/dewey/"
+  },
+  "keywords": [
+    "classification",
+    "format-rdf",
+    "license-metadata",
+    "linkeddata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "no-proprietary-vocab",
+    "publication",
+    "publications",
+    "published-by-producer",
+    "schemata"
+  ],
+  "example": [
+    {
+      "description": "Class 641 of DDC Summaries",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dewey.info/class/641/about.rdf"
+    },
+    {
+      "description": "Class 641.5 of Abridged 14",
+      "media_type": "example/x-turtle",
+      "access_url": "http://dewey.info/class/641.5/a14/about.ttl"
+    },
+    {
+      "description": "Class 600 of German translation (XHTML+RDFa)",
+      "media_type": "example/xhtml+xml",
+      "access_url": "http://dewey.info/class/6/2009/03/about.de.html"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://dewey.info/sparql.php"
+    }
+  ]
+}

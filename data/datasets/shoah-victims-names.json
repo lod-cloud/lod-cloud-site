@@ -1,0 +1,53 @@
+{
+  "identifier": "shoah-victims-names",
+  "title": "Shoah victims? names",
+  "description": {
+    "en": "The Dataset describing the Shoah domain aims to formally describe concepts and relationships that characterize the process of persecution and deportation of Jews from Italy between 1943 and 1945."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://cdec.opendams.org/lod/shoah/",
+  "triples": 0,
+  "keywords": [
+    "library",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodlam",
+    "open_archives",
+    "shoah"
+  ],
+  "links": [
+    {
+      "target": "linkedgeodata",
+      "value": 537
+    },
+    {
+      "target": "reload",
+      "value": 125
+    }
+  ],
+  "other_download": [
+    {
+      "title": "void file to describe dataset",
+      "access_url": "http://cdec.opendams.org/void.ttl"
+    },
+    {
+      "title": "graph view for one resource by Lodlive",
+      "access_url": "http://cdec.opendams.org/lodlive/?http://cdec.opendams.org/lod/shoah/person/4919"
+    }
+  ],
+  "example": [
+    {
+      "title": "Labi Grazia - example of resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://cdec.opendams.org/lod/page/shoah/person/4919"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Endpoint SPARQL",
+      "description": "Use the graph http://cdec.opendams.org/lod/shoah/  to query the endpoint",
+      "access_url": "http://lod.xdams.org/sparql"
+    }
+  ]
+}

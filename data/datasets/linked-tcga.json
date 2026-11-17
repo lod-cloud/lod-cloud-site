@@ -1,0 +1,58 @@
+{
+  "identifier": "linked-tcga",
+  "title": "Linked TCGA",
+  "description": {
+    "en": "Linked TCGA is the RDF version of  the Cancer Genome Atlas, a pilot project\r\nstarted in 2005 by the National Cancer Institute (NCI) and the National Human Genome Research Institute (NHGRI). The goal of this project is to catalogue the genomic alternations found in all cancers. Currently, Linked TCGA contains a total of 20.4 billion triples from 27 different cancer types. New data coming frequently."
+  },
+  "domain": "life_sciences",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 20400000000,
+  "contact_point": {
+    "name": "Muhammad Saleem",
+    "email": "saleem.muhammd@gmail.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "bioinformatics",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-affymetrix",
+      "value": 246000
+    },
+    {
+      "target": "bio2rdf-hgnc",
+      "value": 23181
+    },
+    {
+      "target": "bio2rdf-homologene",
+      "value": 489643
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 16039535
+    },
+    {
+      "target": "dbpedia",
+      "value": 3000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Linked Cancer Genome Atlas (Linked TCGA)",
+      "description": "Linked TCGA is the RDF version of  the Cancer Genome Atlas, a pilot project\r\nstarted in 2005 by the National Cancer Institute\r\n(NCI) and the National Human Genome Research\r\nInstitute (NHGRI). The goal of this project is to\r\ncatalogue the genomic alternations found in all can-\r\ncers",
+      "media_type": "text/html",
+      "access_url": "http://tcga.deri.ie/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "List of SPARQL enpoints containing part of Linked TCGA",
+      "access_url": "http://tcga.deri.ie"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "identifier": "lotico",
+  "title": "Lotico",
+  "description": {
+    "en": "A social network of active Lotico Semantic Web community members, provided as RDF via resolvable URIs and a SPARQL endpoint."
+  },
+  "domain": "user_generated",
+  "website": "http://www.lotico.com/",
+  "namespace": "http://www.lotico.com/resource/",
+  "triples": 4248758,
+  "contact_point": {
+    "name": "Marco Neumann",
+    "email": "marco.neumann@gmail.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-foaf",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "social-networks",
+    "sparql",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 65
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Lotico SPARQL Query Form",
+      "description": "SPARQL query form on geosparql.org",
+      "access_url": "http://www.geosparql.org"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://www.lotico.com/resource/member_2316446"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://www.lotico.com/resource/member_9711222"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Lotico",
+      "description": "SPARQL Endpoint",
+      "access_url": "http://www.lotico.com:3030/lotico/sparql"
+    }
+  ]
+}

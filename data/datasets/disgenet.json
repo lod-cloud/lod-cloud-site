@@ -1,0 +1,144 @@
+{
+  "identifier": "disgenet",
+  "title": "DisGeNET",
+  "description": {
+    "en": "Linked Data version of DisGeNET-RDF, which is a Resource Description Framework (RDF) representation of the DisGeNET database, integrating gene, and variant-disease associations from a variety of authoritative sources on human genetics and text mining.  The Linked Data version of DisGeNET is an alternative way to access DisGeNET and provides new opportunities for data integration, querying and linking DisGeNET data with other external RDF datasets.\nThere are four main components in the RDF dataset: GDA content, VDA content, metadata description of the RDF dataset (VoID description), and linkouts to other Linked Datasets. The current RDF representation of DisGeNET (v7.0.0) has 99,057,987 triples serialized in Turtle syntax. The triples annotate 1,134,942 gene-disease associations (GDAs), 21,671 genes, and 30,170 diseases, disorders, traits, and clinical or abnormal human phenotypes and 369,554 variant-disease associations (VDAs), between 194,515 variants and 14,155 diseases, traits, and phenotypes. The RDF graph model is centered around two concepts the GDA concept and the VDA concept and their attributes.\n\nweb: http://rdf.disgenet.org/"
+  },
+  "domain": "life_sciences",
+  "website": "http://ibi.imim.es/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://rdf.disgenet.org/",
+  "triples": 21730060,
+  "contact_point": {
+    "name": "IBI Group",
+    "email": "lfurlong@imim.es"
+  },
+  "keywords": [
+    "animal model",
+    "biomedicine",
+    "disease",
+    "disgenet",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-sio",
+    "format-skos",
+    "format-void",
+    "format-xsd",
+    "gene",
+    "gene-disease",
+    "gene-disease associations",
+    "gene-disease network",
+    "gene-disease ontology",
+    "gene-disease text-mining",
+    "genotype",
+    "genotype-phenotype",
+    "human diseases",
+    "human genes",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "no-proprietary-vocab",
+    "phenotype",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "text-mining"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-dbsnp",
+      "value": 45813
+    },
+    {
+      "target": "bio2rdf-mesh",
+      "value": 8558
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 17181
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 10141
+    },
+    {
+      "target": "bio2rdf-orphanet",
+      "value": 2543
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 308996
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 2075
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 5026
+    },
+    {
+      "target": "dbpedia",
+      "value": 14619
+    },
+    {
+      "target": "fu-berlin-diseasome",
+      "value": 17181
+    },
+    {
+      "target": "linked-life-data",
+      "value": 1390561
+    }
+  ],
+  "full_download": [
+    {
+      "title": "DisGeNET-RDF downloads",
+      "download_url": "http://rdf.disgenet.org/download/v6.0.0/"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download",
+      "description": "Download current version (v6.0.0)",
+      "access_url": "http://rdf.disgenet.org/download/v6.0.0/"
+    },
+    {
+      "title": "Faceted Browser",
+      "description": "Faceted Browser",
+      "access_url": "http://rdf.disgenet.org/fct/"
+    },
+    {
+      "title": "VoID Metadata Description",
+      "description": "VoID Metadata Description",
+      "access_url": "http://rdf.disgenet.org/download/v6.0.0/void.ttl.gz"
+    },
+    {
+      "title": "Example Resource (HTML)",
+      "description": "Example Resource",
+      "access_url": "http://rdf.disgenet.org/resource/gda/DGN06666ac1f20dc99b0e3f7780a305e805"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "RDF data model",
+      "access_url": "https://www.disgenet.org/static/disgenet_ap1/images/rdf/disgenet_rdf_schema_v6.png"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resouce (RDF/Turtle)",
+      "description": "Example Resource",
+      "media_type": "text/plain; charset=UTF-8",
+      "access_url": "http://rdf.disgenet.org/resource/example/DGN62f27b11f686fcc408502737f5ee7a4b"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL Endpoint",
+      "access_url": "http://rdf.disgenet.org/sparql/"
+    }
+  ]
+}

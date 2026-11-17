@@ -1,0 +1,98 @@
+{
+  "identifier": "environment-agency-bathing-water-quality",
+  "title": "Environment Agency Bathing Water Quality",
+  "description": {
+    "en": "Bathing water quality assessment data for England and Wales from the Environment Agency."
+  },
+  "domain": "government",
+  "website": "http://environment.data.gov.uk/lab",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "http://environment.data.gov.uk/data/bathing-water-quality/",
+  "triples": 8735962,
+  "contact_point": {
+    "name": "Environment Agency",
+    "email": "Alex.Coley@environment-agency.gov.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "environment",
+    "format-admingeo",
+    "format-foaf",
+    "format-skos",
+    "government",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 1010
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 400000
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 505
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Environment Agency Bathing Water Quality Compliance Dataset",
+      "description": "Bathing Water Quality Assessment (England and Wales)",
+      "access_url": "http://environment.data.gov.uk/data/bathing-water-quality.rdf"
+    },
+    {
+      "title": "Baseline In-Season Sample Assessments Dump",
+      "description": "Compressed ntriple dump of in-season sample assessment baseline",
+      "media_type": "text/turtle",
+      "access_url": "http://environment.data.gov.uk/sources/bwq/output/in-season_2011_BWQ_BASELINE.nt.zip"
+    },
+    {
+      "title": "Baseline Annual Compliance Assessments Dump",
+      "description": "Compressed ntriple dump of annual compliance assessment baseline",
+      "media_type": "text/turtle",
+      "access_url": "http://environment.data.gov.uk/sources/bwq/output/annual-compliance_2011_BWQ_BASELINE.nt.zip"
+    },
+    {
+      "title": "Bathing Water Quality Vocabulary (RDF/XML Source)",
+      "description": "Cube DSDs, Class and property definitions for bathing water quality dataset",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://environment.data.gov.uk/sources/def/bathing-water-quality.rdf"
+    },
+    {
+      "title": "Bathing Water Quality Vocabulary (TTL Source)",
+      "description": "Cube DSDs, Class and property definitions for bathing water quality dataset",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://environment.data.gov.uk/sources/def/bathing-water-quality.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "In-Season Sample Assessments (10) (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.rdf"
+    },
+    {
+      "title": "In-Season Sample Assessments (10) (TTL)",
+      "media_type": "example/turtle",
+      "access_url": "http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.ttl"
+    },
+    {
+      "title": "In-Season Sample Assessments (10) (HTML)",
+      "media_type": "example/html",
+      "access_url": "http://environment.data.gov.uk/doc/bathing-water-quality/in-season/sample.html"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Environment Agency Bathing Water Quality Data SPARQL Endpoint",
+      "access_url": "http://environment.data.gov.uk/sparql/bwq/query"
+    }
+  ]
+}

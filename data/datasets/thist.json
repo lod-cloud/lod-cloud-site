@@ -1,0 +1,82 @@
+{
+  "identifier": "thist",
+  "title": "ThIST",
+  "description": {
+    "en": "ThIST is the Italian Thesaurus of Sciences of the Earth, which has been exposed as Linked Data in the context of LusTRE, a framework currently under development within the EU project eENVplus (CIP-ICT-PSP grant No. 325232) that aims at combining existing thesauri to support the management of environmental resources. LusTRE considers the heterogeneity in scopes and levels of abstraction of environmental thesauri as an asset when managing environmental data, it exploits linked data best practices SKOS  (Simple Knowledge Organization System) and RDF  (Resource Description Framework) in order to provide a multi-thesauri solution for INSPIRE data themes related to the environment. \r\nThe ThIST content is made available by Geological Survey of Italy in ISPRA  (Istituto Superiore per la\r\nProtezione e la Ricerca Ambientale). It is the result of a nearly total revision of the thesaurus born by the integration among the terminological database of the former Library of the Italy Geological Service  and the thesaurus published by the CNR in 1997. ThIST is already used for the cataloguing of the biblio-cartographic material (monographs, articles of periodicals, papers) possessed by the Library and the recovery of the related information.\r\nThe ThIST content is made available by ISPRA (Istituto Superiore per la\r\nProtezione e la Ricerca Ambientale). It is the result of a nearly total revision of the thesaurus born by the integration among the terminological database of the former Library of the Italy Geological Service  and the thesaurus published by the CNR in 1997. ThIST is already used for the cataloguing of the biblio-cartographic material (monographs, articles of periodicals, papers) possessed by the Library and the recovery of the related information."
+  },
+  "domain": "geography",
+  "website": "http://purl.org/NET/ThISTWebPage",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://linkeddata.ge.imati.cnr.it/resource/ThIST/",
+  "triples": 396885,
+  "contact_point": {
+    "name": "Servizio Geologico d'Italia in collaboration with ISPRA library (A. Carusone, L. Olivetta, C. Cipolloni, R. Ventura)",
+    "email": "carlo.cipolloni@isprambiente.it"
+  },
+  "keywords": [
+    "format-skos",
+    "geographic",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "agrovoc-skos",
+      "value": 1695
+    },
+    {
+      "target": "dbpedia",
+      "value": 158
+    },
+    {
+      "target": "environmental-applications-reference-thesaurus",
+      "value": 1440
+    },
+    {
+      "target": "eurovoc-in-skos",
+      "value": 733
+    },
+    {
+      "target": "gemet",
+      "value": 792
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML download",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/net/DumpThISTRDF"
+    },
+    {
+      "title": "voiD file",
+      "access_url": "http://purl.org/NET/ThISTVOID"
+    },
+    {
+      "title": "N-Triples download",
+      "description": "Including interlinking to DBPEDIA and EARTh",
+      "media_type": "application/n-triples",
+      "access_url": "http://purl.org/net/DumpThISTnt"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML example link",
+      "media_type": "application/n-triples",
+      "access_url": "http://linkeddata.ge.imati.cnr.it/resource/ThIST/affioramento"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linkeddata.ge.imati.cnr.it:8890/sparql"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "identifier": "norpark2",
+  "title": "Parking Dataset",
+  "description": {
+    "en": "Norwegian parking in RDF form."
+  },
+  "domain": "geography",
+  "website": "http://norpark.ml",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://norpark.ml/",
+  "triples": 244325,
+  "contact_point": {
+    "name": "NorPark Group",
+    "email": "mail@feqzz.no"
+  },
+  "keywords": [
+    "Norwegian",
+    "Parking"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 31938
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Parking.rdf",
+      "description": "Dump RDF/XML",
+      "media_type": "application/rdf+xml",
+      "download_url": "http://raw.norpark.ml/parking.rdf"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Original Source",
+      "description": "Original data source in JSON format",
+      "media_type": "application/json",
+      "access_url": "http://raw.norpark.ml/parkingInformation.json"
+    }
+  ],
+  "example": [
+    {
+      "title": "Skedsmo senter",
+      "access_url": "http://norpark.ml/F7124"
+    },
+    {
+      "title": "SECURITY PARK AS",
+      "access_url": "http://norpark.ml/C984524455"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "NorPark SPARQL Endpoint",
+      "description": "Public SPARQL endpoint",
+      "access_url": "http://query.norpark.ml"
+    }
+  ]
+}

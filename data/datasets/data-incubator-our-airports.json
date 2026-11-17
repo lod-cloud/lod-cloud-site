@@ -1,0 +1,45 @@
+{
+  "identifier": "data-incubator-our-airports",
+  "title": "Airport data from Our Airports published as RDF",
+  "description": {
+    "en": "### Description\r\n\r\nData exposed: Information about airports, originally from package:ourairports, here re-published as RDF.\r\n\r\nNotes: Dump available by contact\r\n\r\n### Issues\r\n\r\nThe dataset does not appear to be actively maintained. There are quality issues with the owl:sameAs links."
+  },
+  "website": "http://airports.dataincubator.org/",
+  "namespace": "http://airports.dataincubator.org/",
+  "triples": 748363,
+  "contact_point": {
+    "name": "Rob Styles",
+    "email": "rob.styles@dynamicorange.com"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "format-rdf",
+    "geographic",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 9761
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://airports.dataincubator.org/airports/AR-0281.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/airports/services/sparql"
+    }
+  ]
+}

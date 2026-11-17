@@ -1,0 +1,24 @@
+{
+  "identifier": "A1",
+  "title": "ITS TEST DATASET",
+  "description": {
+    "en": "HELLO EVERONE"
+  },
+  "domain": "user_generated",
+  "website": "https://drive.google.com/file/d/1xPsLdkFPU1BA1IJwxAYg68SSxoDNukWi/view?usp=sharing",
+  "license": "https://opendefinition.org/licenses/fal",
+  "triples": 0,
+  "contact_point": {
+    "name": "Mohsan",
+    "email": "amohsan636@gmail.com"
+  },
+  "keywords": [
+    "government"
+  ],
+  "full_download": [
+    {
+      "title": "Download my image",
+      "download_url": "https://drive.google.com/file/d/1xPsLdkFPU1BA1IJwxAYg68SSxoDNukWi/view?usp=sharing"
+    }
+  ]
+}

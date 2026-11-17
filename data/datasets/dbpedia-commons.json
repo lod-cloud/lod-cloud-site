@@ -1,0 +1,30 @@
+{
+  "identifier": "dbpedia-commons",
+  "title": "DBpedia Commons",
+  "description": {
+    "en": "DBpedia Commons provides the Wikimedia Commons dataset as Linked Data"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://commons.dbpedia.org/resource/",
+  "triples": 137421337,
+  "contact_point": {
+    "name": "DBpedia Association"
+  },
+  "keywords": [
+    "Cross-domain",
+    "Media",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 11974
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://commons.dbpedia.org/sparql"
+    }
+  ]
+}

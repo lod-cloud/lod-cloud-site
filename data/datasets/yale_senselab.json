@@ -1,0 +1,63 @@
+{
+  "identifier": "yale_senselab",
+  "title": "Yale Senselab",
+  "description": {
+    "en": "### About\r\n\r\nData exposed: Yale Senselab\r\nSize of dump and data set: 216 KB\r\nNotes: released without contract\r\n\r\n> The Semantic Web development of SenseLab involves exporting data from NeuronDB, ModelDB, and BrainPharm to RDF and/or OWL format. The overall goal is to facilitate neuroscience data aggregation, integration, and reasoning using Semantic Web technologies.\r\n\r\n> This project is part of the current and ongoing SenseLab effort including the following SenseLab team members: Kei Cheung, Huajun Chen, Ernest Lim, Matthias Samwald, Peter Masiar, Luis Marenco, Tom Morse, Nian Liu, Chiquito Crasto, Perry Miller, and Gordon Shepherd.\r\n\r\n### Openness\r\n\r\nNo information found."
+  },
+  "website": "http://neuroweb.med.yale.edu/senselab/",
+  "triples": 51227,
+  "contact_point": {
+    "name": "Kei Cheung",
+    "email": "Kei.Cheung@Yale.edu"
+  },
+  "keywords": [
+    "broken_link",
+    "ckanupload.esw.200910",
+    "deref-vocab",
+    "format-rdf",
+    "lifesciences",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "ontology",
+    "owl",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "other_download": [
+    {
+      "description": "NeuronDB contains descriptions of anatomic locations, cell architecture and physiologic parameters of neuronal cells based on compartmental models of neurons.",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/ycmi/senselab/neuron_ontology.owl"
+    },
+    {
+      "description": "ModelDB is a large repository of computational neuroscience models and simulations. The mathematical models in ModelDB are annotated with references to NeuronDB.",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/ycmi/senselab/model-db.owl"
+    },
+    {
+      "description": "The pilot BrainPharm database is intended to support research on drugs for the treatment of neurological disorders. It enhances the descriptions in a portion of NeuronDB with descriptions of the actions of pathological and pharmacological agents.",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/ycmi/senselab/brainpharm.owl"
+    },
+    {
+      "description": "SenseLab conversion into MS Access tables.",
+      "media_type": "MS Access",
+      "access_url": "http://neuroweb.med.yale.edu/senselab/SenseLab-Public-Snapshot-20071119-2.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/ycmi/senselab/neuron_ontology.owl#GALNR2_Gene"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "The ontologies can also be queried through this SPARQL endpoint",
+      "access_url": "http://neuroweb.med.yale.edu:8890/sparql"
+    }
+  ]
+}

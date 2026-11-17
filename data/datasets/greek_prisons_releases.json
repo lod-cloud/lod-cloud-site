@@ -1,0 +1,71 @@
+{
+  "identifier": "greek_prisons_releases",
+  "title": "Greek prisons releases Jan 2018 - Dec 2023",
+  "description": {
+    "en": "Semantically annotated data conforming to the RRAO ontology (http://w3id.org/rrao#), related to prison releases (n=42137) of imprisoned persons (m=35504) from Jan 2018 up to Dec. 2023 (a period of six years). Information was extracted from information systems operating in each prison facility unit of Greece. Sensitive information kept in the dataset has been anonymized."
+  },
+  "domain": "government",
+  "website": "https://fair-presons.aegean.gr/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://w3id.org/rrao",
+  "triples": 1342812,
+  "doi": "10.5281/zenodo.15069274",
+  "contact_point": {
+    "name": "Sotiris Angelis",
+    "email": "sotiris@aegean.gr"
+  },
+  "keywords": [
+    "releases",
+    "imprisoned persons",
+    "correctional facility",
+    "recidivism",
+    "prison reentering"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 2
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Greek prisons releases Jan 2018 - Dec 2023",
+      "download_url": "https://i-lab.aegean.gr/kotis/Ontologies/RRAO/Greek%20prisons%20releases%20Jan%202018%20-%20Dec%202023.ttl"
+    },
+    {
+      "title": "Greek prisons releases Jan 2018 - Dec 2023",
+      "description": "Fuseki2 Server dataset download",
+      "media_type": "application/x-turtle",
+      "download_url": "http://ct-e-justice.aegean.gr:3030/gr-prison-releases/data"
+    },
+    {
+      "title": "Greek prisons releases Jan 2018 - Dec 2023",
+      "description": "Zenodo publication",
+      "download_url": "https://zenodo.org/records/15069274?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImIzYTk2NTQ1LWRiYTYtNDMxYy04NWE3LWYyMTY4NDY0NGY1ZSIsImRhdGEiOnt9LCJyYW5kb20iOiJkYTZhNDU3YzA2NGNlNWIzYzc0YmE5ZjIxY2UxMjM3OCJ9.1JsPoGbsUoc0Z4J2toorfO8ODALm-hHCriaGr9IHRw0mz-64q4qcQ912oMOk-qv254YT9ka72dLZjwJGI8FU8A"
+    },
+    {
+      "title": "Greek prisons releases Jan 2018 - Dec 2023",
+      "description": "European data portal publication",
+      "download_url": "https://data.europa.eu/data/datasets/greek-prisons-releases-jan-2018-dec-2023?locale=en"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DCAT daset description on data.europa.eu",
+      "access_url": "https://data.europa.eu/api/hub/repo/datasets/greek-prisons-releases-jan-2018-dec-2023.ttl?useNormalizedId=true&locale=en"
+    }
+  ],
+  "example": [
+    {
+      "title": "Greek prisons releases example",
+      "access_url": "https://i-lab.aegean.gr/kotis/Ontologies/RRAO/greek%20prisons%20releases%20-%20example.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "FAIR-PReSONS SPARQL endpoint",
+      "description": "Fuseki2 Server",
+      "access_url": "http://ct-e-justice.aegean.gr:3030/gr-prison-releases/sparql"
+    }
+  ]
+}

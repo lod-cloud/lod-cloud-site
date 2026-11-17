@@ -1,0 +1,50 @@
+{
+  "identifier": "hungarian-national-library-catalog",
+  "title": "Hungarian National Library (NSZL) catalog",
+  "description": {
+    "en": "OPAC and Digital Library and the corresponding authority data as Linked Open Data.\r\n\r\nThe used vocabularies are\r\n\r\n    * RDFDC for bibliographic data,\r\n    * FOAF for name authority entries, and\r\n    * SKOS for subject terms and geographical names. \r\n    * BIBO for bibliographic terms\r\n\r\n\r\nNSZL uses CoolURIs. Every resource has both RDF and HTML representation.\r\n\r\nRDFDC, FAOF and SKOS statements are linked together. The name authority is matched with the DBPedia name files, and URI aliases are handled as owl:sameAs statements. The name authority dataset also contains links to Virtual International Authority File (VIAF) and VIAF links back to NSZL's data.\r\n\r\nNSZL also supports the HTML link auto-discovery."
+  },
+  "domain": "publications",
+  "website": "http://nektar.oszk.hu/wiki/Semantic_web",
+  "license": "https://opendefinition.org/licenses/fal",
+  "namespace": "http://nektar.oszk.hu/",
+  "triples": 19300000,
+  "contact_point": {
+    "name": "National Széchényi Library",
+    "email": "horvath.adam@oszk.hu"
+  },
+  "keywords": [
+    "bibliographic",
+    "broken_link",
+    "catalog",
+    "format-bibo",
+    "format-dbpedia",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "format-skos",
+    "format-xhtml",
+    "library",
+    "linkeddata",
+    "lld",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "rdf",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 6285
+    },
+    {
+      "target": "viaf",
+      "value": 33709
+    }
+  ]
+}

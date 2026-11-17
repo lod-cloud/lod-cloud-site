@@ -1,0 +1,65 @@
+{
+  "identifier": "data-incubator-nasa",
+  "title": "NASA Space Flight & Astronaut data in RDF",
+  "description": {
+    "en": "### Description\r\n\r\nConversion of various NASA datasets into RDF, starting \r\nwith the spacecraft data from the NSSDC master catalog.\r\n\r\nThis dataset consists of a conversion of the NASA NSSDC Master Catalog and extracts of the Apollo By Numbers statistics.\r\n\r\nCurrently the data consists of all of the Spacecraft from the NSSDC database which is a comprehensive list of orbital, suborbital, and interplanetary spacecraft launches dataing from the 1950s to the present day. Entries are not limited to NASA missions, but include spacecraft launched by various agencies from around the globe.\r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "government",
+  "website": "http://kasabi.com/dataset/nasa",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://data.kasabi.com/dataset/nasa",
+  "triples": 97974,
+  "contact_point": {
+    "name": "Leigh Dodds",
+    "email": "leigh@ldodds.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-po",
+    "format-rdf",
+    "government",
+    "lodcloud-diagram-2011-09-19",
+    "nasa",
+    "published-by-third-party",
+    "space"
+  ],
+  "links": [
+    {
+      "target": "bbc-programmes",
+      "value": 1
+    },
+    {
+      "target": "dbpedia",
+      "value": 61
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Kasabi page for Nasa Reconciliation API",
+      "access_url": "http://kasabi.com/dataset/nasa/apis/reconciliation"
+    },
+    {
+      "description": "Kasabi page for Nasa Augmentation API",
+      "access_url": "http://kasabi.com/dataset/nasa/apis/augmentation"
+    },
+    {
+      "description": "Void description of Nasa dataset",
+      "access_url": "http://data.kasabi.com/dataset/nasa"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to Internet Archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/nasa.gz"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint for Nasa",
+      "access_url": "http://api.kasabi.com/dataset/nasa/apis/sparql"
+    }
+  ]
+}

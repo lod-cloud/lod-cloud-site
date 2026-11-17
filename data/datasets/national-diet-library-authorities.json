@@ -1,0 +1,64 @@
+{
+  "identifier": "national-diet-library-authorities",
+  "title": "Web NDL Authorities - National Diet Library of Japan",
+  "description": {
+    "en": "Name authorities and subject headings of Japan's National Library are provided as Linked Data. Each record is described with such vocabularies as SKOS, SKOS-XL, DC and RDA Elements G2. Records are linked to LCSH, VIAF etc. with SKOS mapping properties where applicable."
+  },
+  "domain": "government",
+  "website": "http://id.ndl.go.jp/auth/ndla",
+  "namespace": "http://id.ndl.go.jp/auth/ndlna/",
+  "triples": 15000000,
+  "contact_point": {
+    "name": "National Diet Library of Japan"
+  },
+  "keywords": [
+    "authorities",
+    "country-japan",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-skos",
+    "government",
+    "health",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "published-by-producer",
+    "subjects"
+  ],
+  "links": [
+    {
+      "target": "lcsh",
+      "value": 4545
+    },
+    {
+      "target": "viaf",
+      "value": 2673
+    }
+  ],
+  "other_download": [
+    {
+      "description": "SPARQL query form",
+      "access_url": "http://iss.ndl.go.jp/ndla/sparql/"
+    },
+    {
+      "description": "RDF dump",
+      "access_url": "http://iss.ndl.go.jp/ndla/wp-content/uploads/2011/04/ndlsh-rdf.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example authority record (con neg)",
+      "media_type": "application/ld+json; charset=utf-8",
+      "access_url": "http://id.ndl.go.jp/auth/ndlna/00054222"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://id.ndl.go.jp/auth/ndla/"
+    }
+  ]
+}

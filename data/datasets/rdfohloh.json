@@ -1,0 +1,44 @@
+{
+  "identifier": "rdfohloh",
+  "title": "RDFohloh",
+  "description": {
+    "en": "RDFohloh is a RDFizer of Ohloh. It provides Linked Data from Ohloh. Using content negotiation, the RDF data can be founded serialized in XHTML+RDFa, RDF/XML and N3, and interlinked with DBpedia concepts.\r\n\r\nPlease, introduce here your project/user information:"
+  },
+  "domain": "user_generated",
+  "website": "http://rdfohloh.wikier.org",
+  "namespace": "ttp://rdfohloh.wikier.org/",
+  "triples": 700000,
+  "contact_point": {
+    "name": "Sergio Fernández",
+    "email": "sergio@wikier.org"
+  },
+  "keywords": [
+    "format-doap",
+    "format-rdf",
+    "format-sioc",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1000
+    },
+    {
+      "target": "doapspace",
+      "value": 1000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://rdfohloh.wikier.org/project/swaml/rdf"
+    }
+  ]
+}

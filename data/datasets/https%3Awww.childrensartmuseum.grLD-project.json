@@ -1,0 +1,39 @@
+{
+  "identifier": "https:www.childrensartmuseum.grLD-project",
+  "title": "Greek Children Art  Museum dataset",
+  "description": {
+    "en": "The \"LD-project\" deals with the creation of cultural Open Linked Data (LOD), based on the artifacts of Greek Children Art Museum, in Greece, Athens. It was created in the frame of Master Thesis of MSc. students, Marini Efstathia and Chondrogianni Maria, in Cultural Informatics postgraduate program at the Department of Cultural Technology and Communication of the University of the Aegean.\n\nDCAT Description: https://www.childrensartmuseum.gr/LD-project/"
+  },
+  "domain": "user_generated",
+  "website": "https://www.childrensartmuseum.gr/LD-project/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 2211,
+  "doi": "10.5281/zenodo.4425440",
+  "contact_point": {
+    "name": "Sotiris Angelis",
+    "email": "sotiris@aegean.gr"
+  },
+  "keywords": [
+    "Painting",
+    "Museum",
+    "Child Art",
+    "Creative Work"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 489
+    },
+    {
+      "target": "wikidata",
+      "value": 150
+    }
+  ],
+  "full_download": [
+    {
+      "title": "children_artworks.ttl",
+      "description": "Turtle encoding for Children Art Museum Dataset",
+      "download_url": "https://www.childrensartmuseum.gr/LD-project/children_artworks.ttl"
+    }
+  ]
+}

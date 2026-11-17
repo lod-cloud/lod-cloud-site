@@ -1,0 +1,15 @@
+{
+  "identifier": "Test",
+  "title": "Test",
+  "description": {
+    "en": "Test Präsi, test"
+  },
+  "domain": "user_generated",
+  "website": "https://de.wikipedia.org/wiki/Linked_Open_Data",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Test",
+    "email": "test@gmail.com"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "identifier": "https:data.bioontology.orgontologiesIBDsubmissions1downloadapikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb",
+  "title": "Indian Biodiversity",
+  "description": {
+    "en": "Indian Biodiversity"
+  },
+  "domain": "life_sciences",
+  "website": "https://data.bioontology.org/ontologies/IBD/submissions/1/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Vishal Lama",
+    "email": "vishal_51610080@nitkkr.ac.in"
+  },
+  "keywords": [
+    "Indian Biodiversity",
+    "Ontology"
+  ],
+  "full_download": [
+    {
+      "title": "Indian Biodiversity",
+      "media_type": "application/octet-stream",
+      "download_url": "https://data.bioontology.org/ontologies/IBD/submissions/1/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb"
+    }
+  ]
+}

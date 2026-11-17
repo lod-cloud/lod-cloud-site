@@ -1,0 +1,125 @@
+{
+  "identifier": "rkb-explorer-webconf",
+  "title": "webconf",
+  "description": {
+    "en": "This is one of several semantic repositories that contains and publishes RDF linked data and co-reference information, forming the underlying distributed storage model behind the RKB Explorer initiative."
+  },
+  "domain": "publications",
+  "website": "http://webconf.rkbexplorer.com",
+  "namespace": "http://webconf.rkbexplorer.com/id/",
+  "triples": 167923,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-akt",
+    "format-foaf",
+    "format-rdf",
+    "format-scovo",
+    "format-void",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "addgene",
+      "value": 4
+    },
+    {
+      "target": "amsterdam-museum-as-edm-lod",
+      "value": 4
+    },
+    {
+      "target": "cornetto",
+      "value": 4
+    },
+    {
+      "target": "dbpedia",
+      "value": 140
+    },
+    {
+      "target": "dcs-sheffield",
+      "value": 9
+    },
+    {
+      "target": "linked-open-camera",
+      "value": 4
+    },
+    {
+      "target": "linkedlccn",
+      "value": 4
+    },
+    {
+      "target": "marc-codes",
+      "value": 4
+    },
+    {
+      "target": "revyu",
+      "value": 232
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 6929
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 295
+    },
+    {
+      "target": "sweto-dblp",
+      "value": 1
+    },
+    {
+      "target": "tags2con-delicious",
+      "value": 2
+    },
+    {
+      "target": "tcmgenedit_dataset",
+      "value": 4
+    },
+    {
+      "target": "vu-wordnet",
+      "value": 4
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 20
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://webconf.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://webconf.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://webconf.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "example ressource (rdf)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.semanticweb.org/person/michael-grossniklaus/rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://webconf.rkbexplorer.com/sparql"
+    }
+  ]
+}

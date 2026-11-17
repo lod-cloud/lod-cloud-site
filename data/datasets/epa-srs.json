@@ -1,0 +1,59 @@
+{
+  "identifier": "epa-srs",
+  "title": "EPA-SRS",
+  "description": {
+    "en": "Substance Registry Services (SRS) is the Environmental Protection Agency's (EPA) central system for information about substances that are tracked or regulated by EPA or other sources. It is the authoritative resource for basic information about chemicals, biological organisms, and other substances of interest to EPA and its state and tribal partners."
+  },
+  "website": "https://opendata.epa.gov",
+  "triples": 10549000,
+  "contact_point": {
+    "name": "EPA Office of Environmental Information",
+    "email": "admin@3roundstones.com"
+  },
+  "keywords": [
+    "environmental",
+    "government",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "chemidplus",
+      "value": 202991
+    },
+    {
+      "target": "dbpedia",
+      "value": 197
+    },
+    {
+      "target": "geospecies",
+      "value": 21754
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EPA Linked Data Services",
+      "description": "Platform for accessing all EPA Linked Data sets using query tools, services, applications, URI resolution, mapping and more.",
+      "access_url": "https://opendata.epa.gov"
+    },
+    {
+      "title": "SRS Schema",
+      "description": "RDF schema in TTL format describing the classes and predicates in the data.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/srs/schema.ttl"
+    },
+    {
+      "title": "VoID description",
+      "description": "VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/srs/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example SRS chemical",
+      "description": "Description of Naphthalene",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/data/substance/48273.ttl"
+    }
+  ]
+}

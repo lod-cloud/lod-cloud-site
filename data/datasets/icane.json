@@ -1,0 +1,142 @@
+{
+  "identifier": "icane",
+  "title": "ICANE",
+  "description": {
+    "en": "The Statistical Office of Cantabria (Instituto Cántabro de Estadística, ICANE) is the public agency in charge of production and diffusion of statistical data about all aspects of society and economy in Cantabria.\r\n\r\nThis publication contains all metadata (both structural and descriptive) and data that ICANE produces according to the Linked Open Data principles.\r\n\r\nTime series are classified into sections (parent SKOS Concept Schemes), subsections (child SKOS Concept Schemes), categories (a special type defined by ICANE) and subjects (SKOS concepts, which appear as folders on the website, and are organized hierarchically). \r\n\r\nA [custom ICANE vocabulary](http://www.icane.es/opendata/vocab) was created to aid in the task of navigating the publication, and is used along other well-known and widely used vocabularies (RDFS, DCTerms, SKOS, FOAF and VOiD).\r\n\r\nMetadata is presented, when possible, embedded into XHTML as RDFa, and links for live data dumps are provided for all series, which use the RDF Data Cube Vocabulary.\r\n\r\nA [publicly accessible SPARQL endpoint](http://www.icane.es/opendata/sparql) is also provided, with [a form for easily submitting queries](http://www.icane.es/semantic-web) present on the intro page (in Spanish)."
+  },
+  "website": "http://www.icane.es/semantic-web",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://www.icane.es",
+  "triples": 52412,
+  "contact_point": {
+    "name": "Instituto Cántabro de Estadística",
+    "email": "buzon@icane.es"
+  },
+  "keywords": [
+    "cantabria",
+    "country-spain",
+    "deref-vocab",
+    "economy",
+    "environment",
+    "format-dcterms",
+    "format-foaf",
+    "format-qb",
+    "format-rdfa",
+    "format-rdfs",
+    "format-skos",
+    "format-void",
+    "format-xhml",
+    "government",
+    "icane",
+    "linkeddata",
+    "lod",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "population",
+    "provenance-metadata",
+    "published-by-producer",
+    "society",
+    "spain",
+    "sparql-endpoint",
+    "statistical",
+    "territory"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 45
+    },
+    {
+      "target": "dbpedia-es",
+      "value": 47
+    },
+    {
+      "target": "eurostat",
+      "value": 22
+    },
+    {
+      "target": "geonames",
+      "value": 4
+    },
+    {
+      "target": "ine",
+      "value": 251
+    },
+    {
+      "target": "lcsh",
+      "value": 151
+    },
+    {
+      "target": "lista-encabezamientos-materia",
+      "value": 168
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ICANE RDF Vocabulary",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://www.icane.es/opendata/vocab"
+    },
+    {
+      "title": "ICANE VoID Description",
+      "media_type": "meta/void",
+      "access_url": "http://www.icane.es/opendata/void"
+    },
+    {
+      "title": "ICANE Linked Open Data Intro",
+      "description": "This provides an introduction to ICANE's Linked Open Data setup, and a form for easily accessing its SPARQL endpoint.",
+      "access_url": "http://www.icane.es/semantic-web"
+    },
+    {
+      "title": "ICANE Statistical Querying API Information",
+      "description": "This page contains information about ICANE's own statistical querying API.",
+      "access_url": "http://www.icane.es/statistical-api"
+    },
+    {
+      "title": "ICANE Statistical Querying API Endpoint",
+      "description": "Documentation and access endpoint for ICANE's statistical querying API.",
+      "access_url": "http://www.icane.es/metadata/"
+    },
+    {
+      "title": "Activos por sector económico (Example data dump)",
+      "access_url": "http://www.icane.es/data/api/regional-data/economy/labour-market/active-population-economic-sector-nace09.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Economy [Section]",
+      "description": "Economy section served using XHTML+RDFa.\r\n\r\nContains a hierarchical organization of economy-related statistical datasets.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.icane.es/economy#section"
+    },
+    {
+      "title": "Population [Section]",
+      "description": "Population section served using XHTML+RDFa.\r\n\r\nContains a hierarchical organization of population-related statistical datasets.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.icane.es/population#section"
+    },
+    {
+      "title": "Society [Section]",
+      "description": "Society section served using XHTML+RDFa.\r\n\r\nContains a hierarchical organization of society-related statistical datasets.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.icane.es/society#section"
+    },
+    {
+      "title": "Territory and Environment [Section]",
+      "description": "Society section served using XHTML+RDFa.\r\n\r\nContains a hierarchical organization of statistical datasets pertaining to territory and the natural environment.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.icane.es/territory-environment#section"
+    },
+    {
+      "title": "Activos por sector económico (Example time series)",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.icane.es/data/regional-data/economy/labour-market/active-population-economic-sector-nace09#timeseries"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://www.icane.es/opendata/sparql"
+    }
+  ]
+}

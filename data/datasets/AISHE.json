@@ -1,0 +1,21 @@
+{
+  "identifier": "AISHE",
+  "title": "All India Survey of Higher Education",
+  "description": {
+    "en": "It is ontology based dataset. developed by Ronak Panchal"
+  },
+  "domain": "government",
+  "website": "http://www.ronuphdswaishe.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Ronak Panchal",
+    "email": "ronakvtcbb@gmail.com"
+  },
+  "links": [
+    {
+      "target": "AISHE",
+      "value": 1
+    }
+  ]
+}

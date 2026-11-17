@@ -1,0 +1,36 @@
+{
+  "identifier": "RELD",
+  "title": "RELD",
+  "description": {
+    "en": "A Knowledge Graph of Relation Extraction Datasets"
+  },
+  "domain": "linguistics",
+  "website": "https://manzoorali29.github.io/index.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://reld.dice-research.org/schema/",
+  "triples": 98000000,
+  "doi": "10.5281/zenodo.7429677",
+  "contact_point": {
+    "name": "Manzoor Ali",
+    "email": "manzoor@campus.uni-paderborn.de"
+  },
+  "keywords": [
+    "Relation Extraction",
+    "NLP",
+    "knowledge graph",
+    "Benchmarking",
+    "Ontology"
+  ],
+  "other_download": [
+    {
+      "title": "RELD",
+      "access_url": "https://hobbitdata.informatik.uni-leipzig.de/RELD/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "RELD",
+      "access_url": "http://reld.cs.upb.de:8890/sparql"
+    }
+  ]
+}

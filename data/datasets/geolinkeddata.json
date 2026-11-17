@@ -1,0 +1,72 @@
+{
+  "identifier": "geolinkeddata",
+  "title": "GeoLinkedData",
+  "description": {
+    "en": "GeoLinkedData (.es) is an open initiative whose aim is to enrich the Web of Data with Spanish geospatial data. This initiative started off by publishing diverse information sources belonging to the National Geographic Institute of Spain. Such sources are made available as RDF (Resource Description Framework) knowledge bases according to the Linked Data principles. These data are interlinked with other knowledge bases belonging to the Linking Open Data Initiative."
+  },
+  "domain": "geography",
+  "website": "http://geo.linkeddata.es/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://geo.linkeddata.es/resource/",
+  "triples": 21564199,
+  "contact_point": {
+    "name": "Ontology Engineering Group, Facultad de Informática, Universidad Politécnica de Madrid.",
+    "email": "admin_linkeddata@delicias.dia.fi.upm.es"
+  },
+  "keywords": [
+    "country-spain",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "geodata",
+    "geographic",
+    "government",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 51
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 51
+    }
+  ],
+  "full_download": [
+    {
+      "title": "fsadfsaf",
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://geo.linkeddata.es/source/rdf/NOMGEO/NOMGEO_provincias.rdf"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "dsgagdsagvdsv",
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://geo.linkeddata.es/source/rdf/ontology/"
+    }
+  ],
+  "example": [
+    {
+      "title": "adsgagasg",
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://geo.linkeddata.es/resource/Provincia/Madrid"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "gadgasg",
+      "description": "SPARQL endpoint",
+      "access_url": "http://geo.linkeddata.es/sparql"
+    }
+  ]
+}

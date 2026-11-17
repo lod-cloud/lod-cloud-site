@@ -1,0 +1,75 @@
+{
+  "identifier": "eurobarometer-standard",
+  "title": "Standard Eurobarometer",
+  "description": {
+    "en": "The standard Eurobarometer was established in 1973. Each survey consists of approximately 1000 face-to-face interviews per country. Reports are published twice yearly. Reproduction is authorized, except for commercial purposes, provided the source is acknowledged. \r\n\r\nThis dataset represents the results of these questionnaires as Linked Data using the RDF Datacube Vocabulary."
+  },
+  "website": "http://eurobarometer.publicdata.eu",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://eurobarometer.publicdata.eu/data/",
+  "triples": 1193494,
+  "contact_point": {
+    "name": "Ian Davis",
+    "email": "ian.davis@kasabi.com"
+  },
+  "keywords": [
+    "barometer",
+    "eu-institution",
+    "format-qb",
+    "format-rdfs",
+    "geographic",
+    "government",
+    "latc",
+    "license-metadata",
+    "lod",
+    "lodcloud",
+    "no-proprietary-vocab",
+    "opinions",
+    "polls",
+    "provenance-metadata",
+    "published-by-third-party",
+    "surveys"
+  ],
+  "links": [
+    {
+      "target": "eurostat-linked-data",
+      "value": 85510
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 50000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "voiD description",
+      "access_url": "http://eurobarometer.publicdata.eu/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Question 1 Answer 2",
+      "description": "Example Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eurobarometer.publicdata.eu/def/q1a2.rdf"
+    },
+    {
+      "title": "Observation",
+      "description": "Example Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eurobarometer.publicdata.eu/data/observation/3/1/2009/11.rdf"
+    },
+    {
+      "title": "Question One",
+      "description": "Example Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eurobarometer.publicdata.eu/data/question/1.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://api.talis.com/stores/eurobarometer/services/sparql"
+    }
+  ]
+}

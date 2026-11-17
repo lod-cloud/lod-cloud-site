@@ -1,0 +1,36 @@
+{
+  "identifier": "_data.odw.tw",
+  "title": "Open Data Web",
+  "description": {
+    "en": "H"
+  },
+  "domain": "social_networking",
+  "website": "http://data.odw.tw/",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "namespace": "http://data.odw.tw",
+  "contact_point": {
+    "name": "Andrea Wei-Ching Huang",
+    "email": "andreahg@iis.sinica.edu.tw"
+  },
+  "keywords": [
+    "CKAN",
+    "Provenance",
+    "Data Quality"
+  ],
+  "links": [
+    {
+      "target": "data.odw.tw",
+      "value": 123
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ODW SPARQL Endpoint",
+      "access_url": "http://data.odw.tw/sparql"
+    },
+    {
+      "title": "ODW SPARQL Endpoint (virtuso)",
+      "access_url": "http://sparql.odw.tw/"
+    }
+  ]
+}

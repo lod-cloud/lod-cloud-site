@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-sanskrit",
+  "title": "Universal Dependencies Treebank Sanskrit",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Sanskrit treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Sanskrit",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 1031,
+  "contact_point": {
+    "name": "Dwivedi, Puneet; Zeman, Daniel",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Sanskrit Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Sanskrit/archive/master.zip"
+    },
+    {
+      "title": "UD_Sanskrit RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/bcb61961-9337-4380-a548-b489e38f5c5e/resource/0ef1a07f-5914-4b18-9232-6fe4eff232ff/download/udsanskrit.rdf"
+    }
+  ]
+}

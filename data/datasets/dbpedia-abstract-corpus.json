@@ -1,0 +1,96 @@
+{
+  "identifier": "dbpedia-abstract-corpus",
+  "title": "DBpedia abstract corpus",
+  "description": {
+    "en": "This corpus contains a conversion of Wikipedia abstracts in six languages (dutch, english, french, german, italian and spanish) into the I used the NLP Interchange Format (NIF). The corpus contains the abstract texts, as well as the position, surface form and linked article of all links in the text. As such, it contains entity mentions manually disambiguated to Wikipedia/DBpedia resources by native speakers, which predestines it for NER training and evaluation.\r\n\r\nFurthermore, the abstracts represent a special form of text that lends itself to be used for more sophisticated tasks, like open relation extraction. Their encyclopedic style, following Wikipedia guidelines on opening paragraphs adds further interesting properties. The first sentence puts the article in broader context. Most anaphers will refer to the original topic of the text, making them easier to resolve. Finally, should the same string occur in different meanings, Wikipedia guidelines suggest that the new meaning should again be linked for disambiguation. In short: The type of text is highly interesting.\r\n\r\nAcknowledgments: The conversion of this corpus was supported by the [FREME H2020 project](http://www.freme-project.eu/)."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 743532157,
+  "contact_point": {
+    "name": "Martin Brümmer",
+    "email": "bruemmer@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "corpus",
+    "dbpedia",
+    "freme-project",
+    "linguistics",
+    "llod",
+    "ner",
+    "nif"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 82318744
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dutch abstract corpus",
+      "description": "Corpus in Dutch\r\n\r\nSize: 82,062,834 triples\r\nAbstracts: 1,740,494\r\nAverage abstract length: 317.82\r\nLinks: 8,644,715",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/nl/"
+    },
+    {
+      "title": "Example resource of dutch corpus",
+      "description": "Example file containing the resource \"Leipzig\"",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/nl/leipzig_nl.ttl"
+    },
+    {
+      "title": "English abstract corpus",
+      "description": "Abstract corpus in the English language\r\nSize: 279,718,143 triples\r\nAbstracts: 4,415,993\r\nAverage abstract length: 523.86\r\nLinks: 31,101,184",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/en"
+    },
+    {
+      "title": "Example resource of English corpus",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/en/leipzig_en.ttl"
+    },
+    {
+      "title": "French abstract corpus",
+      "description": "Corpus in the french language\r\nSize: 83,359,452 triples\r\nAbstracts: 1,476,876\r\nAverage abstract length: 349.73\r\nLinks: 9,127,782",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/fr"
+    },
+    {
+      "title": "Example resource of French corpus",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/fr/leipzig_fr.ttl"
+    },
+    {
+      "title": "German abstract corpus",
+      "description": "Corpus in the German language\r\nSize: 107,764,449 triples\r\nAbstracts: 1,556,343\r\nAverage abstract length: 471.88\r\nLinks: 12,108,812",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/de"
+    },
+    {
+      "title": "Example resource of German corpus",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/de/leipzig_de.ttl"
+    },
+    {
+      "title": "Italian abstract corpus",
+      "description": "Corpus in the Italian language\r\nSize: 54,557,207 triples\r\nAbstracts: 907,329\r\nAverage abstract length: 398.31\r\nLinks: 6,031,300",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/it"
+    },
+    {
+      "title": "Example resource of Italian corpus",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/it/leipzig_it.ttl"
+    },
+    {
+      "title": "Spanish abstract corpus",
+      "description": "Corpus in the Spanish language\r\nSize: 76,422,857 triples\r\nAbstracts: 1,038,639\r\nAverage abstract length: 517.66\r\nLinks: 8,644,715",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/es"
+    },
+    {
+      "title": "Example resource of Spanish corpus",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/es/leipzig_es.ttl"
+    },
+    {
+      "title": "Japanese abstract corpus",
+      "description": "Corpus in Japanese\r\n\r\nSize: 59,647,215 triples Abstracts: 909,387 Average abstract length: 154.94 Links: 6,660,236",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/ja/"
+    },
+    {
+      "title": "Example resource of Japanese corpus",
+      "description": "Example file containing the resource \"Leipzig\" - \"ライプツィヒ\"",
+      "access_url": "http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/ja/leipzig_ja.ttl"
+    }
+  ]
+}

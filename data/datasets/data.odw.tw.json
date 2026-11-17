@@ -1,0 +1,41 @@
+{
+  "identifier": "data.odw.tw",
+  "title": "Open Data Web",
+  "description": {
+    "en": "A Taiwan Linked Data Platform (data.odw.tw) build by the Institute of Information Science, Academia Sinica. The LOD site using CKAN (The Comprehensive Knowledge Archive Network) to curate more than 840,000 semantically enriched catalogue records (CC0 licensed) across multiple subject areas. Two types of linked data resources are generated: one type is simply described by Dublin Core 15 elements (DC Version), and the other type is enriched by W3C recommendations (csvw, dcat, org, prov, skos, time), general upper vocabularies (cc, dc, dct, event, foaf, r4r, and schema.org) as well as domain vocabularies (aat, dwc, geo, gn and txn). Datasets are further linked to external knowledge bases including Wikidata, GeoNames, and Encyclopedia of Life(EOL)."
+  },
+  "domain": "cross_domain",
+  "website": "http://data.odw.tw/",
+  "namespace": "http://data.odw.tw/record/",
+  "triples": 70719704,
+  "contact_point": {
+    "name": "Andrea Wei-Ching Huang",
+    "email": "andreahg@iis.sinica.edu.tw"
+  },
+  "keywords": [
+    "CKAN",
+    "Provenance",
+    "Data Quality",
+    "Knowledge Base",
+    "Linked Open Data",
+    "LOD",
+    "Taiwan",
+    "Ontology",
+    "Semantic Representation",
+    "Semantic Web",
+    "Data Reuse",
+    "LODLAM",
+    "GLAM",
+    "Cultural Heritage"
+  ],
+  "sparql": [
+    {
+      "title": "ODW SPARQL Endpoint",
+      "access_url": "http://data.odw.tw/sparql"
+    },
+    {
+      "title": "ODW SPARQL Endpoint (virtuso)",
+      "access_url": "http://sparql.odw.tw/"
+    }
+  ]
+}

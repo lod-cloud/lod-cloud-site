@@ -1,0 +1,87 @@
+{
+  "identifier": "data-incubator-musicbrainz",
+  "title": "Data Incubator: MusicBrainz",
+  "description": {
+    "en": "An RDF conversion of the PostgreSQL database dumps made available by the MusicBrainz project (package:musicbrainz) and hosted under the Talis Connected Commons scheme. It contains RDF representations of albums, artists, tracks, labels and their relationships.\r\n\r\nNote: this dataset is no longer available."
+  },
+  "domain": "social_networking",
+  "website": "http://musicbrainz.dataincubator.org/",
+  "license": "https://opendefinition.org/licenses/fal",
+  "namespace": "http://musicbrainz.dataincubator.org/",
+  "triples": 178775789,
+  "contact_point": {
+    "name": "Ian Davis",
+    "email": "nospam@iandavis.com"
+  },
+  "keywords": [
+    "broken_link",
+    "format-bio",
+    "format-dc",
+    "format-foaf",
+    "format-gr",
+    "format-mo",
+    "format-ov",
+    "format-owl",
+    "format-rdf",
+    "format-skos",
+    "license-metadata",
+    "lodcloud-diagram-2007-05-01",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "music",
+    "no-deref-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "talis"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 543325
+    },
+    {
+      "target": "data-incubator-discogs",
+      "value": 236258
+    },
+    {
+      "target": "dbpedia",
+      "value": 76171
+    }
+  ],
+  "other_download": [
+    {
+      "title": "God",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://musicbrainz.dataincubator.org/"
+    }
+  ],
+  "example": [
+    {
+      "title": "I",
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://musicbrainz.dataincubator.org/artist/8970d868-0723-483b-a75b-51088913d3d4"
+    },
+    {
+      "title": "W",
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://musicbrainz.dataincubator.org/label/ce24ab18-1bd6-4293-a486-546d13d6a5e2"
+    },
+    {
+      "title": "As",
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://musicbrainz.dataincubator.org/release/e33609a4-fcda-4ebe-b845-b6503a6c0405"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Hi",
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/musicbrainz/services/sparql"
+    }
+  ]
+}

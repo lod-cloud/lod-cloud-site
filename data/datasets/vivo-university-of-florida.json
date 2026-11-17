@@ -1,0 +1,68 @@
+{
+  "identifier": "vivo-university-of-florida",
+  "title": "VIVO University of Florida",
+  "description": {
+    "en": "VIVO is a resource of the University of Florida that provides information on people, departments, facilities, courses, grants, and publications. Information is available as Linked Data and RDF dump. A SPARQL Endpoint can be used at http://vivo.ufl.edu:2020"
+  },
+  "domain": "publications",
+  "website": "http://vivo.ufl.edu",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://vivo.ufl.edu/",
+  "triples": 2384224,
+  "contact_point": {
+    "name": "Christopher P. Barnes",
+    "email": "cpb@ufl.edu"
+  },
+  "keywords": [
+    "deref-vocab",
+    "education",
+    "format-rdf",
+    "format-rdfs",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "science",
+    "social-networks",
+    "vivo"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 58
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (Turtle)",
+      "media_type": "text/turtle",
+      "access_url": "http://vivo.ufl.edu/UF-VIVO.n3"
+    },
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://softlayer.dl.sourceforge.net/project/vivo/Ontology/vivo-core-1.1.owl"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/json;charset=UTF-8",
+      "access_url": "http://vivo.ufl.edu/individual/n1622"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/json;charset=UTF-8",
+      "access_url": "http://vivo.ufl.edu/individual/n6593"
+    },
+    {
+      "description": "SPARQL Endpoint",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://sparql.vivo.ufl.edu"
+    }
+  ]
+}

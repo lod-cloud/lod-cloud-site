@@ -1,0 +1,55 @@
+{
+  "identifier": "freeyork-org",
+  "title": "Freeyork",
+  "description": {
+    "en": "Freeyork dataset, built with WordLift from the website https://freeyork.org/"
+  },
+  "domain": "publications",
+  "website": "https://freeyork.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 118183,
+  "image": "https://freeyork.b-cdn.net/wp-content/uploads/2018/02/header-logo-freeyork-mini.png",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "design",
+    "freeyork",
+    "wordlift"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 4757
+    },
+    {
+      "target": "freebase",
+      "value": 4486
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 858
+    },
+    {
+      "target": "wikidata",
+      "value": 10
+    },
+    {
+      "target": "yago",
+      "value": 2993
+    }
+  ],
+  "full_download": [
+    {
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/wl0169.rdf"
+    }
+  ],
+  "example": [
+    {
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.wordlift.io/wl0169/entity/thailand"
+    }
+  ]
+}

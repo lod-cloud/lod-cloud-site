@@ -1,0 +1,47 @@
+{
+  "identifier": "english-wordnet",
+  "title": "English WordNet",
+  "description": {
+    "en": "English WordNet is a new wordnet for English based on the Princeton WordNet, but  developed under an open-source model. In particular, this version of WordNet  has been developed by multiple people around the world through GitHub, fixes many errors in previous wordnets for English."
+  },
+  "domain": "linguistics",
+  "website": "https://en-word.net",
+  "license": "https://wordnet.princeton.edu/license-and-commercial-use",
+  "triples": 0,
+  "contact_point": {
+    "name": "John McCrae",
+    "email": "john@mccr.ae"
+  },
+  "keywords": [
+    "wordnet",
+    "lexicon",
+    "llod"
+  ],
+  "links": [
+    {
+      "target": "gwa-ili",
+      "value": 117791
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Full Download (RDF)",
+      "description": "Full download as Turtle",
+      "media_type": "application/octet-stream",
+      "download_url": "https://en-word.net/static/english-wordnet-2019.ttl.gz"
+    },
+    {
+      "title": "Full Download (XML)",
+      "description": "Full download in the Lexical Markup Framework",
+      "media_type": "application/octet-stream",
+      "download_url": "https://en-word.net/static/english-wordnet-2019.xml.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example entry (milk)",
+      "media_type": "text/turtle",
+      "access_url": "https://en-word.net/ttl/lemma/milk"
+    }
+  ]
+}

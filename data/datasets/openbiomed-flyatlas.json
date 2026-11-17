@@ -1,0 +1,40 @@
+{
+  "identifier": "openbiomed-flyatlas",
+  "title": "flyatlas",
+  "website": "http://code.google.com/p/open-biomed/wiki/Flyatlas",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 14770954,
+  "contact_point": {
+    "name": "Jun Zhao"
+  },
+  "keywords": [
+    "flyatlas",
+    "linkeddata",
+    "linktoflybase",
+    "open-biomed"
+  ],
+  "other_download": [
+    {
+      "description": "Data dump, tar.gz format",
+      "access_url": "http://www.open-biomed.org.uk/open-biomed-data/flyatlas-201102.tar.gz"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/flyatlas/assays"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/flyatlas/assays/fbgn/{fbgn}"
+    },
+    {
+      "description": "Linked data api",
+      "access_url": "http://www.open-biomed.org.uk/service/flyatlas/assays/name/{name}"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www.open-biomed.org.uk/sparql/endpoint/flyatlas"
+    }
+  ]
+}

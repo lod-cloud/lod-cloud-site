@@ -1,0 +1,45 @@
+{
+  "identifier": "alpino-rdf",
+  "title": "ALPINO RDF Treebank",
+  "description": {
+    "en": "Export of the ALPINO Dutch Treebank to RDF."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 1799901,
+  "keywords": [
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 466794
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Welcome page",
+      "media_type": "HTML",
+      "access_url": "http://lexinfo.net/corpora/alpino/"
+    },
+    {
+      "title": "Dump of files",
+      "media_type": "ZIP",
+      "access_url": "http://lexinfo.net/corpora/alpino/alpino-rdf.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example file",
+      "media_type": "example/rdf",
+      "access_url": "http://lexinfo.net/corpora/alpino/cdb/123.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://lexinfo.net/corpora/alpino/query.php"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "identifier": "bioportal-mddb",
+  "title": "Master Drug Data Base",
+  "description": {
+    "en": "Master Drug Data Base, 2009_08_05"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1426",
+  "triples": 76883,
+  "contact_point": {
+    "name": "Karen Eckert"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-rdf",
+    "format-rrf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-csp",
+      "value": 11
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 21
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 35
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 103
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 132
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 49
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 11812
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 8531
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 3015
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 9667
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 9315
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 8519
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42284?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "identifier": "enakting-mortality",
+  "title": "EnAKTing Mortality Dataset",
+  "description": {
+    "en": "UK's Mortality data per region for the year 2008/09, delivered by the UK Home Office.\r\n\r\nProvenance of this dataset:\r\nhttp://www.statistics.gov.uk/downloads/theme_population/Table_3_Deaths_Area_Local_Authority.xls"
+  },
+  "domain": "government",
+  "website": "http://mortality.psi.enakting.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://mortality.psi.enakting.org/id/",
+  "triples": 12933,
+  "contact_point": {
+    "name": "Tope Omitola",
+    "email": "t.omitola@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "format-rdf",
+    "format-xhtml",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "data.gov.uk",
+      "value": 42
+    },
+    {
+      "target": "data.openpsi.org",
+      "value": 2
+    },
+    {
+      "target": "dbpedia",
+      "value": 5
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 399
+    },
+    {
+      "target": "rkbexplorer",
+      "value": 28
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://mortality.psi.enakting.org/id/void"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://mortality.psi.enakting.org/id/Scarborough"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "identifier": "Querolus",
+  "title": "Querolus in LiLa",
+  "description": {
+    "en": "The text of Querolus, an anonymous Latin comedy dating back to V century AD, linked to the LiLa Knowledge Base."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/corpora/Querolus/id/citationUnit/QuerolussiveAulularia",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/corpora/Querolus",
+  "triples": 109389,
+  "doi": "10.5281/zenodo.8027976",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Corpus",
+    "LLOD",
+    "LiLa"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 14745
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Querolus in LiLa",
+      "description": "https://github.com/CIRCSE/Querolus",
+      "download_url": "https://github.com/CIRCSE/Querolus"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

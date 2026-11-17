@@ -1,0 +1,70 @@
+{
+  "identifier": "apertium-rdf-es-ast",
+  "title": "Apertium RDF ES-AST",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary ES-AST. The original dataset (in LMF) comes from http://hdl.handle.net/10230/17116 . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 825540,
+  "contact_point": {
+    "name": "Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA) ; Universidade de Vigo. Seminario de Lingüística Informática ; Universitat Politècnica de Catalunya. TALP Research Center ; Universidá d'Uviéu. Equipu d'Investigación Eslema ;  Prompsit Language Engineering, S.L ;  Universitat d'Alacant. Grup Transducens"
+  },
+  "keywords": [
+    "Apertium",
+    "Asturian",
+    "Spanish",
+    "bilingual",
+    "dictionary",
+    "general ontology of linguistic description",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 2795
+    },
+    {
+      "target": "lexinfo",
+      "value": 66367
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (ES, AST) and the Translation Set ES-AST, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-27T14:31:27.350Z/apertium-es-ast-rdf.zip"
+    },
+    {
+      "title": "Spanish lexicon URI",
+      "description": "This online lexicon not only contains the ES lexical entries from the ES-AST bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in ES coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconES"
+    },
+    {
+      "title": "Asturian lexicon URI",
+      "description": "This online lexicon not only contains the AST lexical entries from the ES-AST bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in AST coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconAST"
+    },
+    {
+      "title": "ES-AST translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetES-AST"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-es-ast.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-27T14:33:45.966Z/apertium-es-ast-dataset-metadata.rdf"
+    }
+  ]
+}

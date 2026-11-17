@@ -1,0 +1,74 @@
+{
+  "identifier": "statusnet-kaimi-cc",
+  "title": "statusnet-kaimi-cc",
+  "description": {
+    "en": "StatusNet instance hosted at http://kaimi.cc"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 1
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-atari-frosch-de",
+      "value": 5
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 4
+    },
+    {
+      "target": "statusnet-lebsanft-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 9
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 79
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 3
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.kaimi.cc/nichtkeinbot/foaf"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "identifier": "scholarometer",
+  "title": "Scholarometer",
+  "description": {
+    "en": "Scholarometer is a social tool for citation analysis, which provides a service to scholars by computing citation-based impact measures. Scholarometer data provides information about authors and disciplines based on citation analysis."
+  },
+  "domain": "publications",
+  "website": "http://scholarometer.indiana.edu/data.html",
+  "namespace": "http://scholarometer.indiana.edu/namespaces/",
+  "triples": 900000,
+  "contact_point": {
+    "name": "Scholarometer Team",
+    "email": "scholarometer@googlegroups.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-scholar",
+    "impact-analysis",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "scholarometer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1000
+    },
+    {
+      "target": "freebase",
+      "value": 1000
+    },
+    {
+      "target": "fu-berlin-dblp",
+      "value": 1000
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 2500
+    },
+    {
+      "target": "opencyc",
+      "value": 530
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://scholarometer.indiana.edu/namespaces/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://scholarometer.indiana.edu/resource/author/f%20menczer"
+    }
+  ]
+}

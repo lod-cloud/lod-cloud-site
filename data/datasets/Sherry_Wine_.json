@@ -1,0 +1,16 @@
+{
+  "identifier": "Sherry_Wine_",
+  "title": "Sherry Wine",
+  "description": {
+    "en": "Se trata de un vocabulario diseñado para conocer y exponer los vinos y sus principales características de la Denominación de Origen de Jerez (Sherry Wine)."
+  },
+  "domain": "geography",
+  "website": "http://www.semanticweb.org/jaime/ontologies/2022/0/untitled-ontology-3",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://purl.org/sherrywine/elementos/",
+  "triples": 15,
+  "contact_point": {
+    "name": "Jaime",
+    "email": "100471234@alumnos.uc3m.es"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "identifier": "sonclubcx",
+  "title": "Sonclubcx",
+  "description": {
+    "en": "Sonclub là một trong những cổng game đổi thưởng đình đám và được yêu thích nhất hiện nay. Với kho trò chơi đa dạng, tính năng đổi thưởng linh hoạt, dễ dàng nạp rút đã trở thành điểm đến lý tưởng cho những ai yêu thích các trò chơi đổi thưởng trực tuyến.\n#sonclub #conggamesonclub #gamebaisonclub #nohusonclub #nhacaisonclub\nĐịa chỉ : 46 Đ. Trần Chánh Chiếu, Phường 14, Quận 5, Hồ Chí Minh, Vietnam"
+  },
+  "domain": "publications",
+  "website": "https://sonclub.cx",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "image": "https://sonclub.cx/wp-content/uploads/2025/01/Sonclub.png",
+  "contact_point": {
+    "name": "Sonclub Support",
+    "email": "dangkhoa23071997@gmail.com"
+  },
+  "keywords": [
+    "Game Portal",
+    "Gaming"
+  ],
+  "example": [
+    {
+      "title": "Facebook",
+      "media_type": "text/html; charset=\"utf-8\"",
+      "access_url": "https://www.facebook.com/sonclubcx"
+    },
+    {
+      "title": "YouTube",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://www.youtube.com/@sonclubcx"
+    },
+    {
+      "title": "Pintrest",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://www.pinterest.com/sonclubcx"
+    },
+    {
+      "title": "Twitter",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://twitter.com/sonclubcx"
+    }
+  ]
+}

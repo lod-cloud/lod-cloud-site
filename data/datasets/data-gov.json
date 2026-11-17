@@ -1,0 +1,43 @@
+{
+  "identifier": "data-gov",
+  "title": "Data.gov",
+  "description": {
+    "en": "National raw and geodata catalog of the United States.\r\n\r\nSee also package:twc-logd for an RDF version that features dereferenceable URIs and is more interlinked."
+  },
+  "website": "http://data.gov/",
+  "namespace": "http://www.data.gov/semantic/data/",
+  "triples": 6400000000,
+  "keywords": [
+    "country-us",
+    "format-rdf",
+    "government",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "lodcloud.unresolvable",
+    "sparql"
+  ],
+  "other_download": [
+    {
+      "description": "Downloads (raw data catalog)",
+      "access_url": "http://www.data.gov/catalog/raw"
+    },
+    {
+      "description": "Downloads (tools catalog)",
+      "access_url": "http://www.data.gov/catalog/tools"
+    },
+    {
+      "description": "Downloads (geodata catalog)",
+      "access_url": "http://www.data.gov/catalog/geodata"
+    },
+    {
+      "description": "Downloads (RDF/XML)",
+      "access_url": "http://www.data.gov/semantic/data/alpha"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov/sparql"
+    }
+  ]
+}

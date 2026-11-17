@@ -1,0 +1,81 @@
+{
+  "identifier": "research-data-gov-uk",
+  "title": "research.data.gov.uk",
+  "description": {
+    "en": "Research-related data from data.gov.uk:\r\n\r\n* [Namespace for research projects](http://research.data.gov.uk/doc/project)\r\n* Engineering and Physical Sciences Research Council (EPSRC) funded projects\r\n* Medical Research Council (MRC) funded projects\r\n* Technology Strategy Board (TSB) funded projects\r\n* Grant schemes\r\n* People associated with projects\r\n\r\nThe data is from the BIS dataset.\r\n\r\nPart of package:data-gov-uk"
+  },
+  "domain": "government",
+  "website": "http://research.data.gov.uk/",
+  "namespace": "http://research.data.gov.uk/id/",
+  "triples": 43334,
+  "contact_point": {
+    "name": "Data.gov.uk Team",
+    "email": "team@data.gov.uk"
+  },
+  "keywords": [
+    "data.gov.uk",
+    "deref-vocab",
+    "format-foaf",
+    "format-rdf",
+    "format-skos",
+    "funding",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "research"
+  ],
+  "links": [
+    {
+      "target": "business-data-gov-uk",
+      "value": 598
+    },
+    {
+      "target": "dbpedia",
+      "value": 3
+    },
+    {
+      "target": "education-data-gov-uk",
+      "value": 375
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 12
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://source.data.gov.uk/data/research/bis-research-explorer/2010-03-04/research.data.gov.uk.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/research/search"
+    },
+    {
+      "description": "voiD description (partial)",
+      "media_type": "meta/void",
+      "access_url": "http://research.data.gov.uk/doc/project"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example research project (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://research.data.gov.uk/doc/project/epsrc/DT/E005039/1.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/research/sparql"
+    }
+  ]
+}

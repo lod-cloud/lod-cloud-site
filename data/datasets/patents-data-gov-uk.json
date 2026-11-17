@@ -1,0 +1,63 @@
+{
+  "identifier": "patents-data-gov-uk",
+  "title": "patents.data.gov.uk",
+  "description": {
+    "en": "[Namespace for patent applications](http://patents.data.gov.uk/doc/application) from data.gov.uk. This data comes from the BIS dataset.\r\n\r\nPart of package:data-gov-uk"
+  },
+  "domain": "government",
+  "website": "http://patents.data.gov.uk/",
+  "namespace": "http://patents.data.gov.uk/id/",
+  "triples": 11627,
+  "contact_point": {
+    "name": "Data.gov.uk Team",
+    "email": "team@data.gov.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "patents",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "research-data-gov-uk",
+      "value": 491
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download (N-Triples)",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://source.data.gov.uk/data/patents/bis-research-explorer/2010-03-04/patents.data.gov.uk.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/patents/search"
+    },
+    {
+      "description": "voiD description (partial)",
+      "media_type": "meta/void",
+      "access_url": "http://patents.data.gov.uk/doc/application"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example patent application (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://patents.data.gov.uk/doc/application/GB2315698"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/patents/sparql"
+    }
+  ]
+}

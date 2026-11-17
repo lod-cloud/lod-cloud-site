@@ -1,0 +1,33 @@
+{
+  "identifier": "desaparecidos",
+  "title": "Projeto Desaparecidos",
+  "description": {
+    "en": "This project shows the use of linked data to provide a way to represent and consume information about unmissing people retrieved from non-governamental organization's sites. A tool was created to mark as spam messages about unmissing people on Facebook, using a database that implements the linked data principles."
+  },
+  "domain": "cross_domain",
+  "website": "http://desaparecidos.ice.ufjf.br/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Adriano Delvoux; Jairo Francisco de Souza",
+    "email": "jairo.souza@ice.ufjf.br"
+  },
+  "links": [
+    {
+      "target": "dbpedia-pt",
+      "value": 2450
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Sparql endpoint",
+      "media_type": "text/html",
+      "access_url": "http://desaparecidos.ice.ufjf.br/index.php/sparql"
+    },
+    {
+      "title": "Facebook application",
+      "description": "An application that consumes facebook's timeline and identifies posts about unmissing people,",
+      "media_type": "text/html",
+      "access_url": "http://desaparecidos.ice.ufjf.br/index.php/aplicacao"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "identifier": "bioportal-mao",
+  "title": "Multiple alignment",
+  "description": {
+    "en": "An ontology for data retrieval and exchange in the fields of multiple DNA/RNA  alignment, protein sequence and protein structure alignment."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1026",
+  "triples": 1754,
+  "contact_point": {
+    "name": "Mao Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-birnlex",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 12
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 10
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 10
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 17
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 34
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 10
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 66
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 35
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 11
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 16
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 16
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 22
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44944?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "identifier": "sandre",
+  "title": "Taxons",
+  "description": {
+    "en": "Taxons of the French Water Information System (SIE)"
+  },
+  "domain": "life_sciences",
+  "website": "http://sandre.eaufrance.fr/",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/2.0/fr/",
+  "triples": 104907,
+  "image": "http://www.sandre.eaufrance.fr/atlas/images/logos/f3e84019-82cb-43fd-aed9-086370fe9e9f.png?1524844428125",
+  "contact_point": {
+    "name": "Louis Crespin",
+    "email": "l.crespin@oieau.fr"
+  },
+  "keywords": [
+    "taxon",
+    "taxonomy",
+    "water",
+    "france"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1982
+    }
+  ],
+  "example": [
+    {
+      "media_type": "application/xml",
+      "access_url": "http://id.eaufrance.fr/apt/3944.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "access_url": "http://id.eaufrance.fr/sparql"
+    }
+  ]
+}

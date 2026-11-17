@@ -1,0 +1,25 @@
+{
+  "identifier": "Driggu",
+  "title": "Driggu Florentino",
+  "description": {
+    "en": "Driggu, Multi-artist, model and visual artist"
+  },
+  "domain": "publications",
+  "website": "https://www.vogue.com/photovogue/photographers/359075",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "doi": "10.5281/zenodo.11111727",
+  "contact_point": {
+    "name": "Driggu Florentino",
+    "email": "drigguflorentino@gmail.com"
+  },
+  "keywords": [
+    "Driggu-Florentino"
+  ],
+  "full_download": [
+    {
+      "title": "Vogue - Driggu Florentino",
+      "download_url": "https://www.vogue.com/photovogue/photographers/359075"
+    }
+  ]
+}

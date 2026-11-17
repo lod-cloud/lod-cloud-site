@@ -1,0 +1,52 @@
+{
+  "identifier": "nuts-geovocab",
+  "title": "NUTS (GeoVocab)",
+  "description": {
+    "en": "The NUTS (Nomenclature of Territorial Units for Statistics)  is a classification defined by the Eurostat office of the European Union. Here we present the NUTS regions along with geographic information as a sample use of the NeoGeo RDF Vocabulary for GeoData."
+  },
+  "domain": "geography",
+  "website": "http://nuts.geovocab.org/",
+  "triples": 300000,
+  "contact_point": {
+    "name": "Eurostat"
+  },
+  "keywords": [
+    "deref-vocab",
+    "eurostat",
+    "geographic",
+    "government",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "nuts",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 50
+    },
+    {
+      "target": "linked-eurostat",
+      "value": 1500
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dump (Turtle)",
+      "access_url": "http://nuts.geovocab.org/data/0.91/nuts-rdf-0.91.ttl"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML) Latvia",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://nuts.geovocab.org/id/LV"
+    },
+    {
+      "description": "Example (RDF/XML) List of states",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://nuts.geovocab.org/id/nuts1"
+    }
+  ]
+}

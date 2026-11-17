@@ -1,0 +1,13 @@
+{
+  "identifier": "instance-hub-fiscal-years",
+  "title": "Instance Hub Fiscal Years",
+  "description": {
+    "en": "A fiscal year is a period used for calculating annual (\"yearly\") financial statements in businesses and other organizations. This dataset lists the variety of fiscal years for different countries and different domains (corporate, government, personal). Based on the information at http://en.wikipedia.org/wiki/Fiscal_year"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1001,
+  "keywords": [
+    "helpme",
+    "lod"
+  ]
+}

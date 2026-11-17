@@ -1,0 +1,47 @@
+{
+  "identifier": "lcsubjects",
+  "title": "LCSubjects.org Library of Congress Subject Headings",
+  "description": {
+    "en": "An alternative to http://id.loc.gov/:  includes a SPARQL endpoint, faceted search"
+  },
+  "website": "http://lcsubjects.org/",
+  "triples": 12113187,
+  "keywords": [
+    "lld",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 221
+    },
+    {
+      "target": "geonames",
+      "value": 63
+    },
+    {
+      "target": "lcsh",
+      "value": 4622158
+    },
+    {
+      "target": "marc-codes",
+      "value": 622
+    },
+    {
+      "target": "stitch-rameau",
+      "value": 108836
+    }
+  ],
+  "other_download": [
+    {
+      "description": "SPARQL Endpoint",
+      "media_type": "RDF, SPARQL+XML",
+      "access_url": "http://api.talis.com/stores/lcsh-info/services/sparql"
+    },
+    {
+      "description": "Fulltext search/OpenSearch",
+      "media_type": "RSS1.0",
+      "access_url": "http://api.talis.com/stores/lcsh-info/items"
+    }
+  ]
+}

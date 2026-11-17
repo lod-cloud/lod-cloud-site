@@ -1,0 +1,58 @@
+{
+  "identifier": "rkb-explorer-epsrc",
+  "title": "epsrc",
+  "description": {
+    "en": "This repository contains data from the UK's EPSRC Grants on the Web Data, but only up to 2003. Thus it contains data about many scientific researchers in the UK, and the projects they were funded to undertake."
+  },
+  "domain": "publications",
+  "website": "http://epsrc.rkbexplorer.com",
+  "namespace": "http://epsrc.rkbexplorer.com/id/",
+  "triples": 472985,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://epsrc.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://epsrc.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://epsrc.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://epsrc.rkbexplorer.com/id/resource-person-7150"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://epsrc.rkbexplorer.com/sparql"
+    }
+  ]
+}

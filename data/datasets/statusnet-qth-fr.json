@@ -1,0 +1,45 @@
+{
+  "identifier": "statusnet-qth-fr",
+  "title": "statusnet-qth-fr",
+  "description": {
+    "en": "StatusNet instance hosted at http://qth.fr"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-planet-libre-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 2
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.qth.fr/piero/foaf"
+    }
+  ]
+}

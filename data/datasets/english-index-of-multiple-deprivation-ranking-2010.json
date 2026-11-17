@@ -1,0 +1,68 @@
+{
+  "identifier": "english-index-of-multiple-deprivation-ranking-2010",
+  "title": "English Index of Multiple Deprivation Ranking 2010",
+  "description": {
+    "en": "This dataset contains the main Index of Multiple Deprivation rankings for 2010.  The regions (Lower Super Output Areas) are ordered according to their IMD score, with a rank of 1 indicating the most deprived.\r\n\r\nIt was created from data provided by the Department of Communities and Local Government. See <a href=\"http://www.communities.gov.uk/publications/corporate/statistics/indices2010\">here</a> for details.\r\n\r\n194892 triples."
+  },
+  "domain": "government",
+  "website": "http://opendatacommunities.org/data/imd-rank-2010",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "ttp://opendatacommunities.org/id/IMD/2010/IMD-rank/LSOA/",
+  "triples": 194892,
+  "contact_point": {
+    "name": "Bill Roberts",
+    "email": "bill@swirrl.com"
+  },
+  "keywords": [
+    "access-good",
+    "crime",
+    "deprivation",
+    "deref-vocab",
+    "education",
+    "employment",
+    "environment",
+    "government",
+    "health",
+    "housing",
+    "imd",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "odc-lsoa",
+      "value": 32482
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF data dump in n-triples format (zipped)",
+      "access_url": "http://opendatacommunities.org/data/imd-rank-2010/dump"
+    },
+    {
+      "description": "dataset metadata",
+      "access_url": "http://opendatacommunities.org/datasets/imd-rank-2010.ttl"
+    },
+    {
+      "description": "ontology",
+      "access_url": "http://opendatacommunities.org/def/IMD"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/turtle",
+      "access_url": "http://opendatacommunities.org/id/IMD/2010/IMD-rank/LSOA/E01000019"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://opendatacommunities.org/sparql"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "identifier": "lemonuby",
+  "title": "lemonUby",
+  "description": {
+    "en": "Export of UBY to lemon format"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 32916476,
+  "keywords": [
+    "english",
+    "framenet",
+    "german",
+    "lemon",
+    "lexical-resource",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "omegawiki",
+    "wiktionary",
+    "wordnet"
+  ],
+  "links": [
+    {
+      "target": "isocat",
+      "value": 69
+    },
+    {
+      "target": "olia",
+      "value": 1470741
+    },
+    {
+      "target": "vu-wordnet",
+      "value": 206773
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 84416
+    },
+    {
+      "target": "wiktionary-dbpedia-org",
+      "value": 76294
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Start page",
+      "description": "description",
+      "access_url": "http://lemon-model.net/lexica/uby"
+    },
+    {
+      "title": "Example (WordNet, HTML)",
+      "access_url": "http://lemon-model.net/lexica/uby/wn/WN_LexicalEntry_0.html"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (WordNet, RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://lemon-model.net/lexica/uby/wn/WN_LexicalEntry_0.rdf"
+    }
+  ]
+}

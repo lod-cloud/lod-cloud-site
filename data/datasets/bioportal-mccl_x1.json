@@ -1,0 +1,595 @@
+{
+  "identifier": "bioportal-mccl_x1",
+  "title": "Cell line ontology",
+  "description": {
+    "en": "Cell lines are key experimental models to understand protein interactions and signaling pathways. With a large pool of such data coming from different cell lines of different origin -of normal and -pathological tissues, proper analysis requires segregating data pertaining to specific cell lines. The project envisaged brings together hierarchical trees of organs, mammalian cell lines and diseases in one platform. Certain specific terms from Cell Type (CL) ontology, Foundational Model of Anatomy (FMA) and DOID ontologies are mapped for searchability. Ontology is developed in both OBO and OWL."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1245",
+  "triples": 1065437,
+  "contact_point": {
+    "name": "Usha Mahadevan"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 335
+    },
+    {
+      "target": "bioportal-aba",
+      "value": 142
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 293
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 143
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 14
+    },
+    {
+      "target": "bioportal-air",
+      "value": 61
+    },
+    {
+      "target": "bioportal-amino-acid",
+      "value": 18
+    },
+    {
+      "target": "bioportal-atmo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 74
+    },
+    {
+      "target": "bioportal-basic-vertebrate-gross-anatomy",
+      "value": 34
+    },
+    {
+      "target": "bioportal-bcgo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 747
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 80
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 42
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 62233
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 792
+    },
+    {
+      "target": "bioportal-bodysystem",
+      "value": 16
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 32
+    },
+    {
+      "target": "bioportal-bt",
+      "value": 22
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 1014
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 2082
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 19
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 257
+    },
+    {
+      "target": "bioportal-cdao",
+      "value": 18
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 120
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 2064
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 267
+    },
+    {
+      "target": "bioportal-cpt",
+      "value": 13
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 2160
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 732
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 190
+    },
+    {
+      "target": "bioportal-ctx",
+      "value": 36
+    },
+    {
+      "target": "bioportal-dc_cl",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ddanat",
+      "value": 35
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 5123
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 22
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 1778
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 2308
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 584
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 348
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 31
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 1306
+    },
+    {
+      "target": "bioportal-fao",
+      "value": 13
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 297
+    },
+    {
+      "target": "bioportal-fbsp",
+      "value": 71
+    },
+    {
+      "target": "bioportal-fhho",
+      "value": 34
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 60
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 3314
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 22
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 269
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 270
+    },
+    {
+      "target": "bioportal-gro_x1",
+      "value": 86
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 32
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 86
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 47
+    },
+    {
+      "target": "bioportal-hlth_indics",
+      "value": 17
+    },
+    {
+      "target": "bioportal-hom_ehs",
+      "value": 11
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 777
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 26
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 1701
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 2269
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 5015
+    },
+    {
+      "target": "bioportal-icf_x1",
+      "value": 52
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 152
+    },
+    {
+      "target": "bioportal-icpc",
+      "value": 83
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 1069
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 22
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 63
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 86
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 122
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 988
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 1155
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 195
+    },
+    {
+      "target": "bioportal-mcbcc",
+      "value": 58
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 357
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 7543
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 489
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 11168
+    },
+    {
+      "target": "bioportal-mfo",
+      "value": 41
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 483
+    },
+    {
+      "target": "bioportal-mpath",
+      "value": 204
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 5035
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 4979
+    },
+    {
+      "target": "bioportal-nbo",
+      "value": 38
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 163
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 9835
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 68
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 3076
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 86
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 5921
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 137
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 159
+    },
+    {
+      "target": "bioportal-nigo",
+      "value": 186
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 153
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ogmd",
+      "value": 36
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 1322
+    },
+    {
+      "target": "bioportal-omit",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 728
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 25
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 411
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 142
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 65
+    },
+    {
+      "target": "bioportal-po",
+      "value": 128
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 86
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 102
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 7901
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 17759
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 55
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 205
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 541
+    },
+    {
+      "target": "bioportal-shr",
+      "value": 40
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 19
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 19132
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 56
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 33
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 5194
+    },
+    {
+      "target": "bioportal-spd",
+      "value": 26
+    },
+    {
+      "target": "bioportal-spo",
+      "value": 59
+    },
+    {
+      "target": "bioportal-sso",
+      "value": 35
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 1921
+    },
+    {
+      "target": "bioportal-tads",
+      "value": 18
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 1242
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 51
+    },
+    {
+      "target": "bioportal-tm-signs-and-sympts",
+      "value": 23
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 4638
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 67
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 94
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 403
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 105
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 107
+    },
+    {
+      "target": "bioportal-who",
+      "value": 581
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 415
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 1224
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/39927?apikey=BP_API_KEY"
+    }
+  ]
+}

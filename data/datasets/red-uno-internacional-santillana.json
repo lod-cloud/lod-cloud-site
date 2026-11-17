@@ -1,0 +1,102 @@
+{
+  "identifier": "red-uno-internacional-santillana",
+  "title": "Red Uno Internacional (Santillana)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://reduno-internacional.com/comunidad/unoi\">Red UNO Internacional (Santillana) </a> is a support community for teachers of Sistema UNO, an educational project that manages the digitization of school, the training of the entire school community and the evaluation of their actions. The proposal provides everything needed to satisfy the standard parameters set by UNESCO and achieves the highest levels of educational quality indicators as PISA ranking.\r\n</p>\r\n<p>\r\nRed Uno Internacional (Grupo Santillana) works with <a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Red Uno Internacional (Santillana) offers a selection of 69 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://reduno-internacional.com/comunidad/unoi\">Red UNO Internacional (Santillana)</a>\r\nes un comunidad de apoyo a los docentes que participan en <a href=\"http://www.sistemauno.com\">Sistema UNO</a>, proyecto educativo que gestiona la digitalización de la escuela, la formación permanente de toda la comunidad educativa y la evaluación constante de sus acciones. La propuesta provee de todo lo necesario para cumplir con los parámetros establecidos por la UNESCO y alcanzar los más altos niveles de calidad educativa que marcan los indicadores internacionales como PISA.\r\n</p>\r\n<p>\r\nRed Uno Internacional (Santillana) trabaja con <a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Red Uno Internacional (Santillana) ofrece en este caso una selección de 69 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://reduno-internacional.com/en/community/unoi",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://reduno-internacional.com/en/community/unoi",
+  "triples": 6759,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "contenidos educativos",
+    "contenidos educativos digitales",
+    "corporate excellence",
+    "country-spain",
+    "country.es",
+    "dc",
+    "educación",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "gnoss",
+    "laboratorio de ideas",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "sistema uno",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1768
+    },
+    {
+      "target": "freebase",
+      "value": 128
+    },
+    {
+      "target": "gnoss",
+      "value": 194
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1614
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://ineverycrea.net/voidUnoi.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Red UNO Internacional community.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reduno-internacional.com/en/community/UNOi/resource/Origen-de-la-tierra/77c8cc5e-b8a0-4692-99f0-789b31e83d62?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Red UNO Internacional community.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reduno-internacional.com/en/community/UNOi/resource/Healthy-Food/480414e9-7989-4b12-9ce9-20a76a44ebf0?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reduno-internacional.com/en/community/UNOi/advanced-search/tag/clase?rdf"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "identifier": "bendevoficial",
+  "title": "Bendev Junior",
+  "description": {
+    "en": "dataset of bendev junior"
+  },
+  "domain": "cross_domain",
+  "website": "https://bendevoficial.com",
+  "license": "https://opensource.org/licenses/MIT",
+  "namespace": "Bendev Junior",
+  "triples": 0,
+  "image": "https://bendevoficial.com/fotos/bendev.jpg",
+  "contact_point": {
+    "name": "Bendev",
+    "email": "bendevoficial@gmail.com"
+  },
+  "keywords": [
+    "bendev",
+    "bendev junior",
+    "bendevoficial",
+    "tech influencer"
+  ],
+  "full_download": [
+    {
+      "title": "Bendev Junior RDF",
+      "description": "RDF for bendev junior",
+      "download_url": "https://bendevoficial.com/bendev.rdf"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Bendev Junior",
+      "description": "RDF for person bendev junior",
+      "access_url": "https://bendevoficial.com/bendev.rdf"
+    },
+    {
+      "title": "Bendev Junior",
+      "description": "N-triples For Bendev Junior",
+      "media_type": "application/n-triples",
+      "access_url": "https://bendevoficial.com/bendev.nt"
+    },
+    {
+      "title": "Bendev Junior",
+      "media_type": "application/octet-stream",
+      "access_url": "https://bendevoficial.com/bendev.trig"
+    }
+  ]
+}

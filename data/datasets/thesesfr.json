@@ -1,0 +1,56 @@
+{
+  "identifier": "thesesfr",
+  "title": "theses.fr",
+  "description": {
+    "en": "Source : [theses.fr](http://www.theses.fr)\r\n\r\ntheses.fr is the french dissertations search engine, maintained by ABES\r\n\r\n\r\nLicensing : not yet, but will be as open as possible\r\n\r\nNB : The RDFa of theses.fr is being tested and will be be fixed in next days."
+  },
+  "domain": "publications",
+  "website": "http://www.theses.fr",
+  "namespace": "http://www.theses.fr/",
+  "triples": 300000,
+  "contact_point": {
+    "name": "ABES",
+    "email": "apisudoc@abes.fr"
+  },
+  "keywords": [
+    "abes",
+    "dissertations",
+    "format-dc",
+    "france",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "rdf",
+    "theses"
+  ],
+  "links": [
+    {
+      "target": "idreffr",
+      "value": 30000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Sitemap",
+      "access_url": "http://www.theses.fr/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "thesis metadata in RDF",
+      "media_type": "application/xml;charset=UTF-8",
+      "access_url": "http://www.theses.fr/2006INPL032N.rdf"
+    },
+    {
+      "description": "thesis advisor metadata in RDF",
+      "media_type": "application/xml;charset=UTF-8",
+      "access_url": "http://www.theses.fr/111219930.rdf"
+    }
+  ]
+}

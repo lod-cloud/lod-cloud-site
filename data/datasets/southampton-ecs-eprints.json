@@ -1,0 +1,68 @@
+{
+  "identifier": "southampton-ecs-eprints",
+  "title": "ECS Southampton EPrints",
+  "description": {
+    "en": "This is live data produced by the EPrints server since its upgrade to EPrints v3.2.1 and is distinct from the service provided by RKB Explorer."
+  },
+  "domain": "publications",
+  "website": "http://eprints.ecs.soton.ac.uk/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://eprints.ecs.soton.ac.uk/id/eprint/",
+  "triples": 1000000,
+  "contact_point": {
+    "name": "ECS /  Southampton University",
+    "email": "webmaster@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "computer-science",
+    "deref-vocab",
+    "electronics",
+    "eprints",
+    "format-bibo",
+    "format-cc",
+    "format-dc",
+    "format-ecs",
+    "format-event",
+    "format-foaf",
+    "format-geo",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-void",
+    "format-xsd",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "southampton"
+  ],
+  "links": [
+    {
+      "target": "ecs",
+      "value": 24000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voID Description",
+      "access_url": "http://eprints.ecs.soton.ac.uk/id/repository"
+    },
+    {
+      "description": "Download (RDF/XML)",
+      "access_url": "http://eprints.ecs.soton.ac.uk/id/dump"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://eprints.ecs.soton.ac.uk/id/eprint/22587"
+    }
+  ]
+}

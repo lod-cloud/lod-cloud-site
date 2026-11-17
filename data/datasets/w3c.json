@@ -1,0 +1,130 @@
+{
+  "identifier": "w3c",
+  "title": "W3C",
+  "domain": "cross_domain",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "crossdomain",
+    "deref-vocab",
+    "format-acl",
+    "format-admin",
+    "format-adms",
+    "format-airport",
+    "format-bibo",
+    "format-c4dm",
+    "format-cal",
+    "format-cc",
+    "format-cert",
+    "format-content",
+    "format-daml",
+    "format-dcterm",
+    "format-dctypes",
+    "format-doap",
+    "format-doc",
+    "format-exif",
+    "format-foaf",
+    "format-formats",
+    "format-fowl",
+    "format-fresnel",
+    "format-grddl",
+    "format-icaltzd",
+    "format-log",
+    "format-oa",
+    "format-org",
+    "format-owl",
+    "format-pos",
+    "format-radion",
+    "format-rdf",
+    "format-rdfs",
+    "format-rss",
+    "format-sd",
+    "format-sioc",
+    "format-skos",
+    "format-swc",
+    "format-swrl",
+    "format-te",
+    "format-time",
+    "format-timeline",
+    "format-vann",
+    "format-vcard2006",
+    "format-voaf",
+    "format-vs",
+    "format-w3con",
+    "format-wdrs",
+    "format-wn",
+    "format-wot",
+    "format-xhv",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "part-deref-vocab",
+    "provenance-metadata"
+  ],
+  "links": [
+    {
+      "target": "apache",
+      "value": 1
+    },
+    {
+      "target": "dbpedia",
+      "value": 40
+    },
+    {
+      "target": "eea-rod",
+      "value": 14
+    },
+    {
+      "target": "gutenberg",
+      "value": 1
+    },
+    {
+      "target": "hellenic-fire-brigade",
+      "value": 1
+    },
+    {
+      "target": "hellenic-police",
+      "value": 1
+    },
+    {
+      "target": "lcsh",
+      "value": 28
+    },
+    {
+      "target": "lexvo",
+      "value": 43
+    },
+    {
+      "target": "lod2-project-wiki",
+      "value": 6
+    },
+    {
+      "target": "myopenlink-dataspaces",
+      "value": 2
+    },
+    {
+      "target": "personal-homepages",
+      "value": 311
+    },
+    {
+      "target": "rdfohloh",
+      "value": 1
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 34
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; qs=0.9",
+      "access_url": "http://www.w3.org/People/djweitzner/public/foaf"
+    }
+  ]
+}

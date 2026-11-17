@@ -1,0 +1,108 @@
+{
+  "identifier": "clean-energy-data-reegle",
+  "title": "Linked Clean Energy Data (reegle.info)",
+  "description": {
+    "en": "Comprehensive set of linked clean energy data including: \r\n\r\n*  policy and regulatory country profiles, \r\n*  key stakeholders (organisation profiles),\r\n*  project outcome documents and a\r\n*  thesaurus (SKOS format) on renewables, energy efficiency and climate change for public re-use."
+  },
+  "domain": "government",
+  "website": "http://data.reegle.info/",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "http://reegle.info",
+  "triples": 334049,
+  "contact_point": {
+    "name": "Florian Bauer",
+    "email": "florian.bauer@reeep.org"
+  },
+  "keywords": [
+    "climate",
+    "deref-vocab",
+    "energy",
+    "format-skos",
+    "government",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-producer",
+    "renewable-energy",
+    "save-energy",
+    "thesaurus",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 330
+    },
+    {
+      "target": "open-energy-info-wiki",
+      "value": 227
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download (full dump)",
+      "download_url": "http://www.reegle.info/downloads/latest_reegle_dump.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Description of Stakeholder Datasets",
+      "access_url": "http://data.reegle.info/developers/actor"
+    },
+    {
+      "description": "Description of Policy and Regulatory Country Overviews",
+      "access_url": "http://data.reegle.info/developers/profile"
+    },
+    {
+      "description": "Description of Project Output Datasets",
+      "access_url": "http://data.reegle.info/developers/projectoutput"
+    },
+    {
+      "description": "Description of Clean Energy and Climate Change Thesaurus Datasets",
+      "access_url": "http://data.reegle.info/thesaurus/concept"
+    },
+    {
+      "description": "RDF Schema",
+      "access_url": "http://www.reegle.info/schema.rdf"
+    },
+    {
+      "description": "Sitemap",
+      "access_url": "http://www.reegle.info/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Link to an example data item within the dataset (Actors)",
+      "media_type": "text/html",
+      "access_url": "http://www.reegle.info/actors/2354.rdf"
+    },
+    {
+      "description": "Link to an example data item within the dataset (Policy Overview)",
+      "media_type": "text/html",
+      "access_url": "http://www.reegle.info/profiles/40.rdf"
+    },
+    {
+      "description": "Link to an example data item within the dataset (Project Outputs)",
+      "media_type": "text/html",
+      "access_url": "http://reegle.info/projectoutputs/28.rdf"
+    },
+    {
+      "description": "Link to an example data item within the dataset (thesaurus)",
+      "media_type": "text/html",
+      "access_url": "http://reegle.info/glossary/39.rdf"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "text/html",
+      "access_url": "http://www.reegle.info/actors/2354.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.reegle.info/"
+    }
+  ]
+}

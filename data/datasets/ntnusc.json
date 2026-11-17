@@ -1,0 +1,75 @@
+{
+  "identifier": "ntnusc",
+  "title": "NTNU special collections",
+  "description": {
+    "en": "The digitized historical manuscripts held in the special collections of the Norwegian university of science and technology (NTNU).\r\n\r\nThe data is a catalogue of manuscripts held by NTNU and these are catalogued directly as RDF.\r\n\r\nThe data is the usage catalogue for the Gunnerus Library Special Collections, and drives their web presences. The data is under constant development and the dataset is growing, and must be seen as unstable. Links to fulltext will be added as these are digitized"
+  },
+  "domain": "publications",
+  "website": "http://api.talis.com/stores/gunnbib-digitalmanuskripter",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://www.ntnu.no/ub/digital/",
+  "triples": 3569,
+  "contact_point": {
+    "name": "NTNU University library",
+    "email": "rurik.greenall@ub.ntnu.no"
+  },
+  "keywords": [
+    "bibliographic",
+    "deref-vocab",
+    "english",
+    "format-bibo",
+    "format-dc",
+    "format-nl",
+    "format-rdf",
+    "library",
+    "linkedopendata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "norwegian",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dewey_decimal_classification",
+      "value": 239
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 323
+    },
+    {
+      "target": "lcsh",
+      "value": 292
+    },
+    {
+      "target": "radatana",
+      "value": 47
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Data dump",
+      "description": "Download",
+      "access_url": "http://www.ntnu.no/ub/data/ntnusc"
+    }
+  ],
+  "example": [
+    {
+      "title": "Forarbeider til Trondheims historie, Kongsgaarden, Kalvskindet",
+      "description": "HTML+RDFa+microdata, RDF/XML, JSON APIs via conneg",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.ntnu.no/ub/digital/document/ntnu22"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/gunnbib-digitalmanuskripter/sparql"
+    }
+  ]
+}

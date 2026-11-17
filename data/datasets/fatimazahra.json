@@ -1,0 +1,21 @@
+{
+  "identifier": "fatimazahra",
+  "title": "I4.0-Onto",
+  "description": {
+    "en": "The ontology I4.0-Onto, is built to represents knowledge in a standard process that identifies the tasks that must be completed when it is built. It enables the transformation of raw data into an ontological model represented in the OWL language."
+  },
+  "domain": "user_generated",
+  "website": "https://github.com/khaoulafatima/I4.0-Onto.git",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://www.semanticweb.org/fatimazahra/ontologies/2022/9/I4.0-Onto#",
+  "triples": 0,
+  "contact_point": {
+    "name": "Fatima Zahra AMARA",
+    "email": "amafatima.zahra@gmail.com"
+  },
+  "keywords": [
+    "IoT",
+    "CPS",
+    "Industry 4.0"
+  ]
+}

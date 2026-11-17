@@ -1,0 +1,107 @@
+{
+  "identifier": "public-spending-in-greece",
+  "title": "Public Spending in Greece",
+  "description": {
+    "en": "The “publingspending” initiative is a free, open, neutral and objective web application. It aims to provide efficient visualizations along with research data of the Hellenic public expenditure."
+  },
+  "domain": "government",
+  "website": "http://publicspending.medialab.ntua.gr/en/index.php",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://publicspending.medialab.ntua.gr/resource/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Marios Meimaris",
+    "email": "m.meimaris@gmail.com"
+  },
+  "keywords": [
+    "Greece",
+    "linked-open-data",
+    "linkedopendata",
+    "public spending",
+    "spending"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 402
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 402
+    },
+    {
+      "target": "geonames",
+      "value": 402
+    },
+    {
+      "target": "weso",
+      "value": 9454
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Public spending in Greece",
+      "description": "The Publicspending.gr initiative is an open web application that aims to provide efficient visualizations along with research data of the Hellenic public expenditure, following semantic web directives.",
+      "access_url": "http://publicspending.medialab.ntua.gr/sparql"
+    },
+    {
+      "title": "2010 Greek Public Spending data in CSV format",
+      "description": "Semantified data from the greek government's \"Clarity\" program, concerning public expenditure for the year 2010.",
+      "media_type": "CSV",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2012-11-12T112247/dump2010valid.csv"
+    },
+    {
+      "title": "2010 Greek Public Spending data in RDF/XML Format",
+      "description": "Semantified data from the greek government's \"Clarity\" program, concerning public expenditure for the year 2010.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2012-11-12T115323/dump2010.rdf"
+    },
+    {
+      "title": "2012 (4th quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-30T131017/2012-q4.rdf"
+    },
+    {
+      "title": "2012 (3rd quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-30T151730/2012-q3.rdf"
+    },
+    {
+      "title": "2012 (2nd quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-30T154723/2012-q2.rdf"
+    },
+    {
+      "title": "2012 (1st quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-30T165441/2012-q1.rdf"
+    },
+    {
+      "title": "2011 (4th quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-31T104422/2011-q4.rdf"
+    },
+    {
+      "title": "2011 (3rd quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-31T104845/2011-q3.rdf"
+    },
+    {
+      "title": "2011 (2nd quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-31T105525/2011-q2.rdf"
+    },
+    {
+      "title": "2011 (1st quarter) Greek Public Spending data in RDF format",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2013-01-31T105843/2011-q1.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint (updated daily)",
+      "description": "Sparql Endpoint for publicspending.gr",
+      "access_url": "http://publicspending.medialab.ntua.gr/sparql"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "identifier": "SocialRoles",
+  "title": "FamilyRelations as SocialRole",
+  "description": {
+    "en": "The FRSR vocabulary contains terms useful for finding out more about social roles of a family relation. The approach taken is to describe roles of a person in a society in which he/she is living. this roles could be a father, mother,son or daughter.  These social roles are different from occupational roles. these roles are based on relations. Another purpose of this vocabulary is to show the metamodeling feature through punning. Like Father is a class as well is an instance of class socialroles."
+  },
+  "domain": "social_networking",
+  "website": "http://metamodeling.com/owl/familyrelations",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "namespace": "http://metamodeling.com/owl/familyrelations",
+  "triples": 134,
+  "contact_point": {
+    "name": "Haya Qureshi",
+    "email": "hmq.17@hotmail.com"
+  },
+  "full_download": [
+    {
+      "title": "FamilyRelations as SocialRole",
+      "description": "Metamodeling feature by punning to show entities in different context like father as class also as an instance of social-role class.",
+      "download_url": "https://datahub.io/hmqq/lod-frsr-witty-swan-49"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "cwrc",
+      "access_url": "http://sparql.cwrc.ca/ontologies/cwrc"
+    },
+    {
+      "title": "Bio vocabulary",
+      "media_type": "text/html",
+      "access_url": "http://purl.org/vocab/bio/0.1/"
+    },
+    {
+      "title": "foaf",
+      "access_url": "http://xmlns.com/foaf/0.1/"
+    }
+  ]
+}

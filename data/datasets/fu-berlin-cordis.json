@@ -1,0 +1,49 @@
+{
+  "identifier": "fu-berlin-cordis",
+  "title": "Community Research and Development Information Service (CORDIS)",
+  "description": {
+    "en": "The Community Research and Development Information Service (CORDIS) contains information on all EU programmes and projects."
+  },
+  "domain": "government",
+  "website": "http://www4.wiwiss.fu-berlin.de/cordis/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/cordis/resource/",
+  "triples": 7107144,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "mail@anjajentzsch.de"
+  },
+  "keywords": [
+    "business",
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "government",
+    "latc",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 285256
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/turtle",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/cordis/resource/Project/65146"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/cordis/sparql"
+    }
+  ]
+}

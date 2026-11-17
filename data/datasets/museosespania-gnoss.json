@@ -1,0 +1,110 @@
+{
+  "identifier": "museosespania-gnoss",
+  "title": "Museos de España, colección de museos públicos y privados españoles (GNOSS)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://museos.gnoss.com/en/community/mismuseos\">Museos de España</a>\r\n is a directory that allows facet-based searches on a collection with more than 1,500 dynamic pages of public and private Spanish museums. Museos de España works with \r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://museos.gnoss.com/comunidad/mismuseos\">Museos de España</a>\r\nes un directorio que permite realizar búsquedas facetadas sobre una colección que reúne las fichas de más de 1.500 museos públicos y privados españoles. Museos de España funciona sobre\r\n<a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://museos.gnoss.com/comunidad/mismuseos/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://museos.gnoss.com/comunidad/mismuseos/",
+  "triples": 79065,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "bellas artes",
+    "ciencias naturales",
+    "country-spain",
+    "country.es",
+    "dc",
+    "escultura",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "museos",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "obras de arte",
+    "pinacoteca",
+    "pintura",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 140275
+    },
+    {
+      "target": "freebase",
+      "value": 3309
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 6158
+    },
+    {
+      "target": "gnoss",
+      "value": 4
+    },
+    {
+      "target": "mismuseos-gnoss",
+      "value": 7725
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 128835
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "text/n3",
+      "access_url": "http://museos.gnoss.com/voidMuseosdeEspañaGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in Museos de España. Currently, about 1500 resources have been published in the community.",
+      "media_type": "text/html",
+      "access_url": "http://museos.gnoss.com/en/community/mismuseos/resource/MUSEO-SOROLLA/67800771-4cc6-4acf-9089-dd6c931d1726?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in Museos de España. Currently, about 1500 resources have been published in the community.",
+      "media_type": "text/html",
+      "access_url": "http://museos.gnoss.com/en/community/mismuseos/resource/MUSEO-NACIONAL-DEL-PRADO/c9b9b89c-0281-491b-8631-656ddd504be5?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html",
+      "access_url": "http://museos.gnoss.com/en/community/mismuseos/advanced-search/tag/arte?rdf"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "identifier": "Terrorist_attack",
+  "title": "Ontology",
+  "description": {
+    "en": "Ontology of Terrorist attack"
+  },
+  "domain": "user_generated",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Roshani Sahu",
+    "email": "sahutwins1997@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "Terrirost attack ontology",
+      "media_type": "text/html; charset=utf-8",
+      "download_url": "https://drive.google.com/open?id=13BxztYE_p5n3EZhyLpiU30J8EoRdvH10"
+    }
+  ]
+}

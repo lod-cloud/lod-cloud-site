@@ -1,0 +1,35 @@
+{
+  "identifier": "woodtrick",
+  "title": "Wood Trick LLC",
+  "description": {
+    "en": "WoodTrick is a brand of 3d puzzles for adults made of natural wood by professional engineers. These are cars and trucks, devices, machinery, weaponry and other amazing mechanisms that you assemble with your own hands using the laser-cut parts and your clever mind."
+  },
+  "domain": "user_generated",
+  "website": "https://woodtrick.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "com",
+  "triples": 0,
+  "doi": "10.1109/VR.2012.6180873",
+  "image": "https://woodtrick.com/cdn/shop/files/woodtrick-logo_fd8ffbb2-2be1-414c-8c5d-a151229f6eec.png?v=1661167825",
+  "contact_point": {
+    "name": "WOOD TRICK LLC",
+    "email": "support@woodtrick.com"
+  },
+  "keywords": [
+    "3d wooden puzzles",
+    "jigsaw puzzles wooden",
+    "3d wooden puzzles for adults",
+    "mechanical wooden puzzles",
+    "wooden puzzles for adults",
+    "3d puzzles",
+    "wooden model kits"
+  ],
+  "example": [
+    {
+      "title": "DIY Kits for Adults",
+      "description": "🧰 Dive into the world of DIY with our top picks for DIY kits in 2023! From 3D Wooden Puzzles 🧩 to Bookbinding Kits 📚, there's something for every hobbyist. Start your DY journey today! 🚀",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://woodtrick.com/blogs/news/big-diy-encyclopedia-explore-new-hobbies-and-skills"
+    }
+  ]
+}

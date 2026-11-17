@@ -1,0 +1,56 @@
+{
+  "identifier": "PGxLOD",
+  "title": "PGxLOD",
+  "description": {
+    "en": "PGxLOD groups data related to pharmacogenomics (PGx) from various sources such as PharmGKB, DrugBank, ClinVar, DisGeNET, but also the scientific literature. Central elements of PGxLOD are pharmacogenomic relationships, which are n-ary relationships linking drugs, genetic factors and drug-response phenotypes. Such relationships state the atomic elements of knowledge in PGx, i.e., a patient with a specified genetic factor and being treated with a specified drug is likely to experience the specified drug-response phenotypes (such as an adverse effect, no effect, etc.). PGxLOD is developed in the ANR PractiKPharma project (http://practikpharma.loria.fr/)."
+  },
+  "domain": "life_sciences",
+  "website": "https://pgxlod.loria.fr/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://pgxlod.loria.fr/resource/",
+  "triples": 5262721,
+  "contact_point": {
+    "name": "PGxLOD staff",
+    "email": "pgxlod-contact@inria.fr"
+  },
+  "keywords": [
+    "pharmacogenomics",
+    "pharmacogenetics",
+    "PGx",
+    "life sciences",
+    "lod",
+    "linked data",
+    "ontology",
+    "provenance",
+    "metadata",
+    "gene",
+    "genetic factor",
+    "drug",
+    "drug response",
+    "phenotype"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 26144
+    },
+    {
+      "target": "bio2rdf-pharmgkb",
+      "value": 69015
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of a pharmacogenomic relationship",
+      "description": "Relationship extracted from the biomedical literature and stating that mithramycin A decreases the transcription of xiap gene.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://pgxlod.loria.fr/resource/literature_PGxCorpusGold_v2_relation_1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "PGxLOD SPARQL Endpoint",
+      "access_url": "https://pgxlod.loria.fr/sparql"
+    }
+  ]
+}

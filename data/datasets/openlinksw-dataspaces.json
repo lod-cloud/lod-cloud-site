@@ -1,0 +1,53 @@
+{
+  "identifier": "openlinksw-dataspaces",
+  "title": "openlinksw dataspaces",
+  "description": {
+    "en": "Open Dataspaces hosted at openlinksw.com"
+  },
+  "domain": "user_generated",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "format-dcterm",
+    "format-foaf",
+    "format-gr",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-sd",
+    "format-sioc",
+    "format-tsioc",
+    "format-void",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "sparql",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "datahub",
+      "value": 16
+    },
+    {
+      "target": "dbpedia",
+      "value": 79
+    },
+    {
+      "target": "personal-homepages",
+      "value": 4
+    },
+    {
+      "target": "w3c",
+      "value": 765
+    }
+  ],
+  "example": [
+    {
+      "title": "Example user",
+      "media_type": "application/ld+json",
+      "access_url": "http://www.openlinksw.com/dataspace/person/kidehen@openlinksw.com#this"
+    }
+  ]
+}

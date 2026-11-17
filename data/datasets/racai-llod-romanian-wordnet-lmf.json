@@ -1,0 +1,27 @@
+{
+  "identifier": "racai-llod-romanian-wordnet-lmf",
+  "title": "LMF Romanian Wordnet",
+  "description": {
+    "en": "Romanian Wordnet in XML/LMF format"
+  },
+  "domain": "linguistics",
+  "website": "https://racai.ro/p/llod/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "Verginica Mititelu",
+    "email": "vergi@racai.ro"
+  },
+  "keywords": [
+    "Romanian",
+    "wordnet",
+    "LMF"
+  ],
+  "full_download": [
+    {
+      "title": "LMF Romanian Wordnet",
+      "description": "Romanian Wordnet in XML/LMF format",
+      "download_url": "https://www.racai.ro/p/llod/resources/rown-3.0.lmf"
+    }
+  ]
+}

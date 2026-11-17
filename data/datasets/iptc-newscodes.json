@@ -1,0 +1,58 @@
+{
+  "identifier": "iptc-newscodes",
+  "title": "IPTC NewsCodes",
+  "description": {
+    "en": "The IPTC not only provides news exchange formats to the news industry but also creates and maintains sets of concepts to be assigned as metadata values to news objects like text, photographs, graphics, audio- and video files and streams. This allows for a consistent coding of news metadata over the course of time - that's the reason why we call them IPTC NewsCodes.\n\nThe universe of NewsCodes is currently split into many different sets - taxonomies - for increased manageability as topics usually relate to a specific area. A taxonomy is also likely to be used exclusively in a specific metadata property of a news exchange format.\n\nTo provide an easy overview of our taxonomies further we grouped them into four main areas:\n\n* Descriptive NewsCodes: This is a group of taxonomies to describe the content of news items, including the key subject classification, IPTC Media Topics (which takes over from the previous IPTC Subject Codes).\n* Administrative NewsCodes: This is a group of taxonomies for proper administration of news items.\n* Transmission NewsCodes: This is a group of taxonomies with controlled values for the transmission process.\n* Exchange Format NewsCodes: This is a group of taxonomies with values to support specific functionalities of the different IPTC news exchange format standards. NewsML 1.x, NewsML-G2, EventsML-G2 and SportsML-G2 make use of this feature. \n\nEach NewsCodes vocabulary can be referenced via our site, downloaded as a NewsML-G2 Knowledge Item, or downloaded in SKOS format (with IKOS extensions) in RDF/XML , RDF/Turtle and JSON-LD.\n\nFind more details about our taxonomies on the [Overview page](https://iptc.org/standards/newscodes/).\n\nAny NewsCode provided by the IPTC can be used at any stage of a news workflow without any royalty fee. But if one includes IPTC NewsCodes into an application the intellectual property and the copyright of the IPTC must be explicitly included."
+  },
+  "domain": "media",
+  "website": "http://newscodes.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "cv.iptc.org",
+  "triples": 3000,
+  "image": "http://www.iptc.org/download/forweb/newscodes_logo.jpg",
+  "contact_point": {
+    "name": "International Press Telecommunications Council",
+    "email": "office@iptc.org"
+  },
+  "keywords": [
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "media",
+    "news",
+    "published-by-producer",
+    "subject"
+  ],
+  "other_download": [
+    {
+      "title": "Genre",
+      "description": "Indicates a nature, journalistic or intellectual characteristic of an item.",
+      "access_url": "http://cv.iptc.org/newscodes/genre/?lang=en-GB&format=rdfxml"
+    },
+    {
+      "title": "Media Topic",
+      "description": "The Media Topic NewsCodes has been IPTC's primary subject taxonomy since 2010, with a focus on classification of text. The development started with our previous Subject Codes taxonomy and extended the tree to 5 levels and reused the same 17 top level terms. The terms below the top level have been revised and rearranged. Most Media Topic concepts provide a mapping back to one of the Subject Codes, and many provide a mapping to Wikidata.",
+      "access_url": "http://cv.iptc.org/newscodes/mediatopic/?lang=en-GB&format=rdfxml"
+    },
+    {
+      "title": "Scene",
+      "description": "Indicates a type of scene covered by an item.",
+      "access_url": "http://cv.iptc.org/newscodes/scene/?lang=en-GB&format=rdfxml"
+    },
+    {
+      "title": "Subject Code",
+      "description": "The Subject Codes is IPTC 's original subject taxonomy, with a focus on text. It consists of about 1400 terms organized into 3 levels.",
+      "access_url": "http://cv.iptc.org/newscodes/subjectcode/?lang=en-GB&format=rdfxml"
+    },
+    {
+      "title": "Subject Qualifier",
+      "description": "Indicates a narrower attribute-like context for a Subject Code, e.g. for sports: the gender of participants, indoor/outdoor competition etc. Intended to be used with the Subject Codes.",
+      "access_url": "http://cv.iptc.org/newscodes/subjectqualifier/?lang=en-GB&format=rdfxml"
+    },
+    {
+      "title": "World Region",
+      "description": "Indicates a region of the world.",
+      "access_url": "http://cv.iptc.org/newscodes/worldregion/?lang=en-GB&format=rdfxml"
+    }
+  ]
+}

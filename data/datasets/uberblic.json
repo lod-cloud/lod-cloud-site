@@ -1,0 +1,60 @@
+{
+  "identifier": "uberblic",
+  "title": "Uberblic.org",
+  "description": {
+    "en": "### SPARQL access\r\n\r\nAccording to [this page](http://uberblic.org/developers/apis/sparql/), there should be a SPARQL endpoint at [this location](http://platform.uberblic.org/api/v1/sparql), but it refuses any request with a 403 Not Authorized error."
+  },
+  "domain": "cross_domain",
+  "website": "http://platform.uberblic.org",
+  "namespace": "http://uberblic.org/resource/",
+  "triples": 100000000,
+  "contact_point": {
+    "name": "Uberblic Labs",
+    "email": "contact@uberblic.com"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-rdf",
+    "format-rdfs",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1196
+    },
+    {
+      "target": "freebase",
+      "value": 155193
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 135132
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://platform.uberblic.org/dumps/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://uberblic.org/resource/55c53674-2ac1-4070-8e56-3fd780ab9aa1#thing"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql endpoint",
+      "access_url": "http://platform.uberblic.org/api/v1/sparql"
+    }
+  ]
+}

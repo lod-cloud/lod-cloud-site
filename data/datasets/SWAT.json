@@ -1,0 +1,97 @@
+{
+  "identifier": "SWAT",
+  "title": "Soil & Water Assessment Tool",
+  "description": {
+    "en": "The Soil & Water Assessment Tool is a small watershed to river basin-scale model used to simulate the quality and quantity of surface and ground water and predict the environmental impact of land use, land management practices, and climate change. SWAT is widely used in assessing soil erosion prevention and control, non-point source pollution control and regional management in watersheds."
+  },
+  "domain": "geography",
+  "website": "https://geomodeling.njnu.edu.cn/modelItem/3f6857ba-c2d2-4e27-b220-6e5367803a12",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "SWAT",
+    "soil"
+  ],
+  "other_download": [
+    {
+      "title": "30m resolution digital elevation data",
+      "description": "InputData",
+      "media_type": "data",
+      "access_url": "https://www2.jpl.nasa.gov/srtm/"
+    },
+    {
+      "title": "The Sihu basin is located on the north bank of the middle reaches of the Yangtze River",
+      "description": "InputData",
+      "access_url": "https://www.gscloud.cn/sources/index?pid=302"
+    },
+    {
+      "title": "Land use raster data",
+      "description": "InputData",
+      "access_url": "https://data.tpdc.ac.cn/home"
+    },
+    {
+      "title": "Land use data for the upper reaches of Parana River",
+      "description": "InputData",
+      "access_url": "http://www.data.ac.cn/map/mr8a8"
+    },
+    {
+      "title": "Soil data of upper Parana River",
+      "description": "InputData",
+      "access_url": "https://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/"
+    },
+    {
+      "title": "ASTER 30 m resolution DEM data in the middle of Yellow River basin in western Inner Mongolia",
+      "description": "InputData",
+      "access_url": "http://www.gscloud.cn/"
+    },
+    {
+      "title": "2018 30 m resolution land use map",
+      "description": "InputData",
+      "access_url": "http://www.resdc.cn/"
+    },
+    {
+      "title": "Soil grid data and China regional World soil data set",
+      "description": "InputData",
+      "access_url": "http://bdc.casnw.net/yyzc/sj/"
+    },
+    {
+      "title": "CMADS atmospheric dataset 2008-2018",
+      "description": "InputData",
+      "access_url": "http://www.cmads.org/"
+    },
+    {
+      "title": "Study on allocation of restoration measures for mountains, rivers, forests, fields, lakes and grasslands based on SWAT model and focusing on nitrogen load reduction in the upper reaches of the North Canal basin",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XQlpHdK3fRRwn7v2O2u4N07VoN3neBg73vt-uWFjUoLE&uniplatform=NZKPT"
+    },
+    {
+      "title": "Comparison of single objective and multi-objective optimization in SWAT model calibration",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ioT0BO4yQ4m_mOgeS2ml3UFF4dUJurSS21lD5mAhiALwnZDunsQlH8GwAOP8utq6t&uniplatform=NZKPT"
+    },
+    {
+      "title": "Application of SWAT model in large scale watershed",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ioT0BO4yQ4m_mOgeS2ml3UIDvA0ouxMcCr0cpfGBE_oH580rZbDEDON6PTyFn92WL&uniplatform=NZKPT"
+    },
+    {
+      "title": "SWAT simulated the effects of tillage methods and salinity on soil nitrogen transport and crop yield in the region",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iJTKGjg9uTdeTsOI_ra5_XeTl18zwcic4zvbpWTAVs1kP9r-H9kFNc5qqDZ6zqiU-&uniplatform=NZKPT"
+    },
+    {
+      "title": "code",
+      "description": "ImplementedByAlgorithm",
+      "media_type": "model",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/16e31602-bd05-4da4-bd01-cb7582c21ae8"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "Rozprawa,_artykuł",
+  "title": "x",
+  "description": {
+    "en": "x"
+  },
+  "domain": "publications",
+  "website": "http://rocznikibiblioteczne.ibi.uni.wroc.pl/woluminy/tom-i-zeszyty-1-2-1957/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "x",
+    "email": "318770@uwr.edu.pl"
+  }
+}

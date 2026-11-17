@@ -1,0 +1,38 @@
+{
+  "identifier": "princeton-library-findingaids",
+  "title": "Princeton Library FindingAids",
+  "description": {
+    "en": "Use this site to explore descriptions of our unique holdings at the Princeton University Libraries, which include manuscripts, archival collections, images, ephemera, and much more one-of-a-kind material."
+  },
+  "domain": "publications",
+  "website": "http://findingaids.princeton.edu/",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcterm",
+    "format-dctypes",
+    "format-foaf",
+    "format-open",
+    "format-rdf",
+    "format-time",
+    "format-vcard2006",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "provenance-metadata",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "lcsh",
+      "value": 9
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://findingaids.princeton.edu/collections/C0108/c02283"
+    }
+  ]
+}

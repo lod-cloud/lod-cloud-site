@@ -1,0 +1,175 @@
+{
+  "identifier": "bioportal-swo",
+  "title": "Software Ontology",
+  "description": {
+    "en": "The Software Ontology (SWO) has the scope of describing types of software used in Bioinformatics. The SWO covers areas such as the software type, the manufacturer of the software, the input and output data types and the uses (i.e. objectives) the software can be put to. The SWO intends to use BFO as an upper level ontolgoy and subclasses types from the Ontology of Biomedical Investigations. Contact James Malone for info: malone@ebi.ac.uk"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1413",
+  "triples": 18153,
+  "contact_point": {
+    "name": "James Malone"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aero",
+      "value": 23
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 20
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bro_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 27
+    },
+    {
+      "target": "bioportal-cao",
+      "value": 16
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 19
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 14
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 62
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 19
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 13
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 15
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mfoem",
+      "value": 19
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 62
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 15
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 36
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 38
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 47
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 22
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 17
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 13
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46493?apikey=BP_API_KEY"
+    }
+  ]
+}

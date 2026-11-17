@@ -1,0 +1,36 @@
+{
+  "identifier": "statusnet-my-status-tk",
+  "title": "statusnet-my-status-tk",
+  "description": {
+    "en": "StatusNet instance hosted at http://my-status.tk"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://my-status.tk/hauke/foaf"
+    }
+  ]
+}

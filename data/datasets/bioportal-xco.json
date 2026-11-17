@@ -1,0 +1,111 @@
+{
+  "identifier": "bioportal-xco",
+  "title": "Experimental Conditions Ontology",
+  "description": {
+    "en": "The Experimental Conditions Ontology is designed to represent the conditions under which physiological and morphological measurements are made both in the clinic and in studies involving humans or model organisms."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1585",
+  "triples": 1540,
+  "contact_point": {
+    "name": "Mary Shimoyama"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-biomodels",
+      "value": 13
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 23
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 32
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 39
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 24
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 38
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 75
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 63
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 39
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 16
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 35
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 88
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 16
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 15
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47127?apikey=BP_API_KEY"
+    }
+  ]
+}

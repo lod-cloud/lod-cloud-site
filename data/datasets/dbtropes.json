@@ -1,0 +1,59 @@
+{
+  "identifier": "dbtropes",
+  "title": "DBTropes",
+  "description": {
+    "en": "DBTropes.org is a Linked Data wrapper for the TVTropes.org community wiki. It contains descriptions of numerous movies, books, and other items, and associates these with tropes (writing devices and conventions)."
+  },
+  "domain": "media",
+  "website": "http://dbtropes.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://dbtropes.org/resource/",
+  "triples": 8000000,
+  "contact_point": {
+    "name": "TVTropes.org community"
+  },
+  "keywords": [
+    "book",
+    "deref-vocab",
+    "fiction",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "movie",
+    "provenance-metadata",
+    "published-by-third-party",
+    "trope"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 6000
+    },
+    {
+      "target": "freebase",
+      "value": 800
+    },
+    {
+      "target": "linkedmdb",
+      "value": 400
+    }
+  ],
+  "full_download": [
+    {
+      "description": "DBTropes dump as NTRIPLES ZIP file",
+      "media_type": "application/zip",
+      "download_url": "http://dbtropes.org/static/dbtropes.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "RDF/XML example link",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dbtropes.org/resource/Main/TheMatrix"
+    }
+  ]
+}

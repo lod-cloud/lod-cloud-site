@@ -1,0 +1,61 @@
+{
+  "identifier": "umthes",
+  "title": "German environmental thesaurus UMTHES",
+  "description": {
+    "en": "A German-centric thesaurus about environmental protection, maintained by the Federal Environment Agency, Germany. Includes English translations of most terms."
+  },
+  "domain": "government",
+  "website": "https://sns.uba.de/umthes/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://sns.uba.de/umthes/scheme",
+  "triples": 300000,
+  "contact_point": {
+    "name": "Barbara Fock",
+    "email": "barbara.fock@uba.de"
+  },
+  "keywords": [
+    "government",
+    "environment",
+    "thesaurus",
+    "format-rdf",
+    "format-skos",
+    "format-xhtml",
+    "published-by-producer",
+    "access-api",
+    "rdf",
+    "search",
+    "access-www"
+  ],
+  "links": [
+    {
+      "target": "gemet",
+      "value": 3511
+    }
+  ],
+  "example": [
+    {
+      "title": "Umweltinformation",
+      "description": "Example concept Umweltinformation, german",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://sns.uba.de/umthes/_00025221"
+    },
+    {
+      "title": "Kunststoffrecycling",
+      "description": "Example concept Kunststoffrecycling, german, RDF/XML",
+      "media_type": "application/xml+rdf;charset=utf-8",
+      "access_url": "https://sns.uba.de/umthes/_00015423.rdf"
+    },
+    {
+      "title": "Agrobiodiversität",
+      "description": "Example concept Agrobiodiversität, german, RDF/Turtle",
+      "media_type": "text/turtle;charset=utf-8",
+      "access_url": "https://sns.uba.de/umthes/_00604562.ttl"
+    },
+    {
+      "title": "Nachhaltige Stadtentwicklung",
+      "description": "Example concept Nachhaltige Stadtentwicklung, german, RDF/N-Triples",
+      "media_type": "text/plain;charset=utf-8",
+      "access_url": "https://sns.uba.de/umthes/_1512052c.nt"
+    }
+  ]
+}

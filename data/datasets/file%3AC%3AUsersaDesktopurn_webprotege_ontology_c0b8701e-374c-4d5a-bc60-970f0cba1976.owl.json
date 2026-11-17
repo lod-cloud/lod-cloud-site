@@ -1,0 +1,15 @@
+{
+  "identifier": "file:C:UsersaDesktopurn_webprotege_ontology_c0b8701e-374c-4d5a-bc60-970f0cba1976.owl",
+  "title": "Vocabularios de los Códigos de Derecho de la Ciberseguridad en España",
+  "description": {
+    "en": "Vocabularios de los Códigos de Derecho de la Ciberseguridad en España"
+  },
+  "domain": "user_generated",
+  "website": "https://lod-cloud.net/add-dataset",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Yixian Chen",
+    "email": "100438312@alumnos.uc3m.es"
+  }
+}

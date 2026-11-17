@@ -1,0 +1,42 @@
+{
+  "identifier": "linked-open-commerce",
+  "title": "Linked Open Commerce",
+  "description": {
+    "en": "LOC (Linked Open Commerce) is a collaboration of OpenLink Software, Hepp Research GmbH and Linktegration that delivers a structured Linked Data space on the Web for finding products and services related offers, with precision.\r\n\r\nThis project seeks to provide a Linked Data substrate that delivers a foundation for new kinds of e-commerce applications and services.\r\n\r\n### Issues\r\n\r\nThe SPARQL endpoint also contains other, not e-Commerce related, RDF data collected from the Web."
+  },
+  "website": "http://linkedopencommerce.com/",
+  "triples": 9945369,
+  "contact_point": {
+    "name": "Hepp Research - http://www.heppresearch.com/",
+    "email": "contact@heppresearch.com"
+  },
+  "keywords": [
+    "ecommerce",
+    "format-rdf",
+    "format-rdfa",
+    "lod",
+    "lodcloud.needsinfo",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-proprietary-vocab",
+    "published-by-producer"
+  ],
+  "example": [
+    {
+      "description": "Example ressource (ntriples)",
+      "media_type": "example/ntriples",
+      "access_url": "http://linkedopencommerce.com/sparql?query=define%20sql%3Adescribe-mode%20%22LOD%22%20%20DESCRIBE%20%3Chttp%3A%2F%2Fopenean.kaufkauf.net%2Fid%2FEanUpc_0074645011028%3E&output=text%2Fplain"
+    },
+    {
+      "description": "Example ressource (rdf)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkedopencommerce.com/sparql?query=define%20sql%3Adescribe-mode%20%22LOD%22%20%20DESCRIBE%20%3Chttp%3A%2F%2Fopenean.kaufkauf.net%2Fid%2FEanUpc_0074645011028%3E&output=application%2Frdf%2Bxml"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://linkedopencommerce.com/sparql"
+    }
+  ]
+}

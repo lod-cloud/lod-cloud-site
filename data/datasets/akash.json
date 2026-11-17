@@ -1,0 +1,15 @@
+{
+  "identifier": "akash",
+  "title": "equipment ontology",
+  "description": {
+    "en": "it is an ontology for equipment."
+  },
+  "domain": "cross_domain",
+  "website": "http://www.semanticweb.org/manycetomar/ontologies/2019/4/EEO-ontology-2",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "akashdeep",
+    "email": "rkrajput988@gmail.com"
+  }
+}

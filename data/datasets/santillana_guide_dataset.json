@@ -1,0 +1,63 @@
+{
+  "identifier": "santillana_guide_dataset",
+  "title": "Santillana Guide Dataset",
+  "description": {
+    "en": "The Santillana Guide dataset represents the content of the Santillana guide (owned by Prisa Digital) as Linked Data. The guide contains information about more than 1500 Spanish restaurants and more than 1500 Spanish hotels. The ontology that has been used for publishing the dataset models the tourist domain represented in the project, and partially reuses the Infutur ontology.  The dataset has been published within the WEBN+1 project and it constitutes a complement to El Viajero's tourism dataset. Some restaurants from the Open Data Euskadi initiative have been integrated in the dataset."
+  },
+  "website": "http://webenemasuno.linkeddata.es/",
+  "namespace": "http://santillana.linkeddata.es/elviajero/resource",
+  "triples": 64748,
+  "contact_point": {
+    "name": "Vicomtech-IK4",
+    "email": "info@vicomtech.org"
+  },
+  "keywords": [
+    "elviajero",
+    "format-infutur",
+    "format-vcard",
+    "hotels",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "media",
+    "restaurants",
+    "santillana",
+    "tourism",
+    "travel"
+  ],
+  "other_download": [
+    {
+      "description": "Snorql interface to query the dataset",
+      "media_type": "HTML, XML, XML+XSLT",
+      "access_url": "http://212.81.220.68:8282/snorql"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI within the dataset (Restaurant)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://santillana.linkeddata.es/elviajero/resource/Restaurant/Restaurant1166"
+    },
+    {
+      "description": "Example URI within the dataset (SpatialThing)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://santillana.linkeddata.es/elviajero/resource/SpatialThing/SpatialThing1166"
+    },
+    {
+      "description": "Example URI within the dataset (Location)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://santillana.linkeddata.es/elviajero/resource/Location/Location1166"
+    },
+    {
+      "description": "Example URI within the dataset (Accommodation)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://santillana.linkeddata.es/elviajero/resource/Accommodation/Accommodation303"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint to the dataset",
+      "access_url": "http://212.81.220.68:2020/elviajero"
+    }
+  ]
+}

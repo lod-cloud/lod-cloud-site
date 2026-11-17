@@ -1,0 +1,110 @@
+{
+  "identifier": "simple",
+  "title": "SIMPLE",
+  "description": {
+    "en": "This dataset contains the conversion of the Italian SIMPLE lexicon in different formats including RDF, TTL and a Lemon version of lexical entries with their pointers to senses."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 372294,
+  "contact_point": {
+    "name": "Riccardo Del Gratta",
+    "email": "riccardo.delgratta@ilc.cnr.it"
+  },
+  "keywords": [
+    "lexical-resource",
+    "lexicon",
+    "linguistic",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 31449
+    }
+  ],
+  "other_download": [
+    {
+      "title": "SIMPLE Lexical Entries rendered as Lemon Entries (RDF)",
+      "description": "Complete dataset of SIMPLE lexical entries rendered as Lemon Entries (RDF)\r\n\r\nThe resource is pscLemon",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/psc/pscLemon"
+    },
+    {
+      "title": "SIMPLE Lexical Entries rendered as Lemon Entries (JSON)",
+      "description": "SIMPLE Lexical Entries rendered as Lemon Entries in JSON\r\n\r\nThe resource is pscLemon",
+      "media_type": "application/json",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/psc/pscLemon.json"
+    },
+    {
+      "title": "SIMPLE Lexical Entries rendered as Lemon Entries (JSON-TRIPLE)",
+      "description": "SIMPLE Lexical Entries rendered as Lemon Entries in JSON-TRIPLE.\r\n\r\nThe resource is pscLemon",
+      "media_type": "TXT",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/psc/pscLemon.jsont"
+    },
+    {
+      "title": "SIMPLE Lexical Entries rendered as Lemon Entries (TURTLE)",
+      "description": "SIMPLE Lexical Entries rendered as Lemon Entries TURTLE.\r\n\r\nThe resource is pscLemon",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/psc/pscLemon.ttl"
+    },
+    {
+      "title": "SIMPLE Lexical Entries rendered as Lemon Entries (GRAPHVIZ)",
+      "description": "SIMPLE Lexical Entries rendered as Lemon Entries in DOT.\r\n\r\nThe resource is pscLemon",
+      "media_type": "TXT",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/psc/pscLemon.dot"
+    },
+    {
+      "title": "SIMPLE-OWL",
+      "description": "This is the top level Ontology which contains the definitions\r\nof both semantic types and relations.",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/SimpleOntology"
+    },
+    {
+      "title": "A list of SIMPLE entries pointing to each single file",
+      "description": "A list of SIMPLE\r\nentries pointing to single file A list of\r\nlemon lexical entries each list item pointing to a\r\nsingle file containing the corresponging entry, i.e. http://www.languagelibrary.eu/owl/simple/inds/5/5c2/USem873animale.",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/inds/individualspointingtosinglefile"
+    },
+    {
+      "title": "A list of SIMPLE entries pointing to same big file",
+      "description": "A list of SIMPLE\r\nentries pointing to big file A list of lemon\r\nlexical entries, each list item pointing to one file;",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/inds/individualspointingtobigfile"
+    },
+    {
+      "title": "SIMPLE USems in JSON-TRIPLES",
+      "description": "SIMPLE Entries which contains the list of all\r\nUSems in SIMPLE converted into OWL named\r\nindividuals. These concepts are connected to\r\ntheir semantic type in SIMPLE-OWL through\r\nrdf:type. (JSON-TRIPLES)",
+      "media_type": "TXT",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.jsont"
+    },
+    {
+      "title": "SIMPLE USems in JSON",
+      "description": "SIMPLE Entries which contains the list of all\r\nUSems in SIMPLE converted into OWL named\r\nindividuals. These concepts are connected to\r\ntheir semantic type in SIMPLE-OWL through\r\nrdf:type. (JSON)",
+      "media_type": "application/json",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.json"
+    },
+    {
+      "title": "SIMPLE USems in TURTLE",
+      "description": "SIMPLE Entries which contains the list of all\r\nUSems in SIMPLE converted into OWL named\r\nindividuals. These concepts are connected to\r\ntheir semantic type in SIMPLE-OWL through\r\nrdf:type. (TURTLE.)",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.ttl"
+    },
+    {
+      "title": "SIMPLE USems in DOT",
+      "description": "SIMPLE Entries which contains the list of all\r\nUSems in SIMPLE converted into OWL named\r\nindividuals. These concepts are connected to\r\ntheir semantic type in SIMPLE-OWL through\r\nrdf:type. (DOT.)",
+      "media_type": "TXT",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries.dot"
+    },
+    {
+      "title": "SIMPLE USems in RDF",
+      "description": "SIMPLE Entries which contains the list of all\r\nUSems in SIMPLE converted into OWL named\r\nindividuals. These concepts are connected to\r\ntheir semantic type in SIMPLE-OWL through\r\nrdf:type.",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/inds/SimpleEntries"
+    },
+    {
+      "title": "SIMPLE Lexical Entries as Collection of LEMON instances pointing to a big file",
+      "description": "A list of\r\nlemon lexical entries each list item pointing to a\r\nsingle file containing the corresponging entry;",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/psc/lemonentriespointingtobigfile"
+    },
+    {
+      "title": "SIMPLE Lexical Entries as Collection of LEMON instances pointing to single file",
+      "description": "list of lemon lexical entries, each list item pointing to one file;",
+      "access_url": "http://www.languagelibrary.eu/owl/simple/psc/lemonentriespointingtosinglefile"
+    }
+  ]
+}

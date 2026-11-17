@@ -1,0 +1,48 @@
+{
+  "identifier": "Swift",
+  "title": "Swift Vocabulary",
+  "description": {
+    "en": "The Swift Vocabulary is an SKOS-based vocabulary about the Swift programming language."
+  },
+  "domain": "user_generated",
+  "website": "http://purl.org/lu/uni/alma/swift",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://purl.org/lu/uni/alma/swift",
+  "triples": 1226,
+  "contact_point": {
+    "name": "Christian Grévisse",
+    "email": "christian.grevisse@uni.lu"
+  },
+  "keywords": [
+    "swift",
+    "programming language"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 98
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF",
+      "download_url": "https://alma.uni.lu/ontology/swift/5.2/swift.rdf"
+    },
+    {
+      "title": "TTL",
+      "download_url": "https://alma.uni.lu/ontology/swift/5.2/swift.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "GitHub",
+      "access_url": "https://github.com/cgrevisse/swift-vocabulary"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ALMA SPARQL",
+      "access_url": "https://alma.uni.lu/sparql"
+    }
+  ]
+}

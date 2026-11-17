@@ -1,0 +1,105 @@
+{
+  "identifier": "gnoss-com-a-social-and-semantic-platform",
+  "title": "GNOSS.com, a Social and Semantic Platform",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://gnoss.com/\">gnoss.com</a>\r\nis a society on the Net: it enables people, companies and any human group or organization to connect, interact and work according to their interests in a linked open knowledge network. The project is in public beta phase since September 2009. It already has 150,000 subscribers and a knowledge network of more than 3,000 communities (November 2012) on topics related to innovation, technology, business and education, among others. gnoss.com works within the philosophy of Open Data and proposes a solution so that data can be linked (Linked Data). Data are expressed in OWL-RDF files.\r\n</p>\r\n<p> Currently, more than 100,000 resources have been published in the platform. For each resource, the platform enables to download an RDF document describing its content and metadata. Different languages such as FOAF, SIOC and SKOS are used in this description. Our whole dataset has about 4,500,000 RDF Triples. In addition, most of these resources are linked to one or more resources of the Freebase and New York Time datasets. We have about 20,000 links to these datasets.</p>\r\n<p>\r\n<a href=\"http://www.gnoss.com/\">GNOSS</a>\r\n is a software platform, created by RIAM Intelearning LAB S.L., to build specialized online social networks with dynamic semantic publishing. GNOSS integrates knowledge management, informal learning and collaborative work in a \r\n<a href=\"http://linkeddata.org/\">Linked Data</a>\r\n environment. Every GNOSS space incorporates semantic facet-based searches and semantic context creation which drastically improves user experience. GNOSS runs on technologies and standards of the semantic web, which makes it possible to structure and link all kinds of content, among them and with other Open Data (Linked Data), and to reinforce and to amplify the knowledge management processes with facet-based searches and generation of documentary and personal contexts for specific information. GNOSS provides people, groups and organizations with the necessary tools to create and develop their digital identity, connect their intelligences, create communities based on their interests and motivations, and activate thriving processes of collective creativity, brainpower, debate and thinking.\r\n</p>\r\n<p>\r\nFor further information:\r\n<a href=\"http://noticias.gnoss.com/\">http://noticias.gnoss.com</a>\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://gnoss.com/\">gnoss.com</a>\r\nes una sociedad en la Red: permite a personas, empresas y a cualquier colectivo conectar, interactuar y trabajar de acuerdo con sus intereses en una red abierta de conocimiento. El proyecto está en beta pública desde septiembre de 2009. Gnoss.com tiene 27.000 miembros registrados y una red de conocimiento de más de 3.000 comunidades (Octubre 2012) en temas como innovación, tecnología, negocios y educación, entre otros. gnoss.com trabaja con la filosofía de Datos Abiertos y propone una solución en la que los datos puedan ser vinculados (Linked Data). Los datos se expresan en ficheros OWL-RDF.\r\n</p>\r\n<p> En la actualidad, se han publicado más de 100.000 recursos en la plataforma. Para cada recurso, la plataforma ofrece un archivo RDF que describe su contenido y metadatos. Diferentes lenguajes como FOAF, SIOC y SKOS se usan en esta descripción. Nuestra base de datos tiene más de 4.500.000 triples. Además, la mayoría de los recursos de gnoss.com están vinculados con otros recursos de Freebase y The New York Times. Tenemos más de 20.000 enlaces de estos datasets.</p>\r\n<p>  </p>\r\n<p>\r\n<a href=\"http://www.gnoss.com/\">GNOSS</a>\r\n es una plataforma de software, creada por RIAM Intelearning LAB SL, para construir redes sociales especializadas a través de la publicación semántica dinámica de contenidos (dynamic semantic publishing). GNOSS integra gestión del conocimiento, aprendizaje informal y trabajo colaborativo en un entorno de datos enlazados (\r\n<a href=\"http://linkeddata.org/\">Linked Data</a>\r\n). Cada espacio GNOSS incorpora búsquedas semánticas facetadas y la generación semántica de contextos lo que se permite mejorar considerablemente la experiencia del usuario.\r\n</p>\r\n<p> GNOSS funciona sobre las tecnologías y estándares de la web semántica, lo que hace posible, por un lado, estructurar y enlazar entre sí y con los intereses de las personas toda clase de contenidos (Linked Data), y por otro refuerza y amplifica los procesos de gestión del conocimiento con búsquedas facetadas y la generación de contextos documentales y personales para una determinada información.</p>\r\n<p> GNOSS provee a las personas, grupos y organizaciones de las herramientas necesarias para crear y desplegar su identidad digital; conectar inteligencias; crear comunidades basadas en sus intereses y motivaciones; y activar robustos procesos de creatividad, inteligencia, deliberación y pensamiento colectivo.</p>\r\n<p>\r\nÚltimas novedades de GNOSS: \r\n<a href=\"http://noticias.gnoss.com/\">http://noticias.gnoss.com</a>\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://gnoss.com/en/home",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://gnoss.com/",
+  "triples": 4535606,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "country-spain",
+    "country.es",
+    "dc",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dblp-deusto-gnoss",
+      "value": 345
+    },
+    {
+      "target": "dbpedia",
+      "value": 506
+    },
+    {
+      "target": "freebase",
+      "value": 16146
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 239
+    },
+    {
+      "target": "miguiadeviajes-gnoss",
+      "value": 154600
+    },
+    {
+      "target": "museosespania-gnoss",
+      "value": 154600
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 230
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "access_url": "http://gnoss.com/voidGnoss.n3"
+    },
+    {
+      "description": "RDF Schema",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    }
+  ],
+  "example": [
+    {
+      "description": "This is an RDF/XML example link of one of the resources published in gnoss. Currently,  more than 20000 resources have been published in the platform.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/comunidad/nextweb/recurso/Basicos-de-Internet-The-Internet-Services-Disrupt/ab5607ee-f404-4b80-8ce5-dcefe1a445b7?rdf"
+    },
+    {
+      "description": "This is an RDF/XML example link of a list of resources of a community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/comunidad/nextweb/busqueda-avanzada/tag/web?rdf"
+    },
+    {
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/comunidad/nextweb/busqueda-avanzada/tag/web?rdf"
+    },
+    {
+      "description": "This is an  HTML+RDFa example link of one of the rsources published in gnoss. Currently,  more than 20000 resources have been published in the platform.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/comunidad/nextweb/recurso/Basicos-de-Internet-The-Internet-Services-Disrupt/ab5607ee-f404-4b80-8ce5-dcefe1a445b7"
+    }
+  ]
+}

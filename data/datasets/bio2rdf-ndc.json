@@ -1,0 +1,95 @@
+{
+  "identifier": "bio2rdf-ndc",
+  "title": "Bio2RDF::Ndc",
+  "description": {
+    "en": "The National Drug Code (NDC) is a unique product identifier used in the United States for drugs intended for human use."
+  },
+  "domain": "life_sciences",
+  "website": "http://ndc.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/ndc:",
+  "triples": 6199488,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-ndc",
+      "value": 488136
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download ndc.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ndc/ndc.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/ndc/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/ndc/ndc.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/ndc/bio2rdf-ndc.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/ndc/ndc.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/ndc/bio2rdf_ndc_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/ndc/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/ndc:49288-0001_272c9910-2160-4d41-afbd-faab3055ba1d"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://ndc.bio2rdf.org/sparql"
+    }
+  ]
+}

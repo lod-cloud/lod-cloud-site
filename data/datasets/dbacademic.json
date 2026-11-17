@@ -1,0 +1,36 @@
+{
+  "identifier": "dbacademic",
+  "title": "dbacademic",
+  "description": {
+    "en": "academic dataset of educational institution"
+  },
+  "domain": "user_generated",
+  "website": "http://sparql.dbacademic.tech/",
+  "license": "https://opensource.org/licenses/MIT",
+  "namespace": "http://www.dbacademic.tech/resource",
+  "triples": 0,
+  "contact_point": {
+    "name": "Sérgio Souza Costa",
+    "email": "sergio.costa@ecp.ufma.br"
+  },
+  "keywords": [
+    "academic",
+    "university",
+    "professor",
+    "student",
+    "course"
+  ],
+  "other_download": [
+    {
+      "title": "data",
+      "media_type": "text/trig",
+      "access_url": "http://sparql.dbacademic.tech/ds"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "http://sparql.dbacademic.tech/ds/sparql",
+      "access_url": "http://sparql.dbacademic.tech/ds/sparql"
+    }
+  ]
+}

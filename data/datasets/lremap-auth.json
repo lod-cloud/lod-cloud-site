@@ -1,0 +1,31 @@
+{
+  "identifier": "lremap-auth",
+  "title": "A collection of Authors for LREC2014 and related Workshops",
+  "description": {
+    "en": "A collection of Authors for LREC2014 and related Workshops"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 26462,
+  "contact_point": {
+    "name": "Riccardo Del Gratta",
+    "email": "riccardo.delgratta@ilc.cnr.it"
+  },
+  "keywords": [
+    "LOD",
+    "Linguistic Dataset LOD RDF",
+    "linguistic"
+  ],
+  "other_download": [
+    {
+      "title": "a collection of Authors for LREC2014 and related Workshops",
+      "media_type": "text/xml",
+      "access_url": "http://www.resourcebook.eu/lremap/owl/lremap_auth"
+    },
+    {
+      "title": "a collection of Authors for LREC2014 and related Workshops",
+      "description": "A collection of Authors for LREC2014 and related Workshops",
+      "media_type": "text/xml",
+      "access_url": "http://www.resourcebook.eu/lremap/owl/lremap_auth"
+    }
+  ]
+}

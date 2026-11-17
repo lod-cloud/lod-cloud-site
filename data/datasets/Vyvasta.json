@@ -1,0 +1,22 @@
+{
+  "identifier": "Vyvasta",
+  "title": "Statybu imone - Vyvasta",
+  "description": {
+    "en": "Betonavimo darbai, namu statyba, pamatu irengimas, stogu dengimas"
+  },
+  "domain": "user_generated",
+  "website": "https://vyvasta.lt",
+  "license": "https://opendefinition.org/licenses/fal",
+  "triples": 0,
+  "image": "https://vyvasta.lt/wp-content/uploads/2017/09/logo.png",
+  "contact_point": {
+    "name": "-",
+    "email": "info@vyvasta.lt"
+  },
+  "keywords": [
+    "Betonavimo darbai",
+    "namu statyba",
+    "pamatu irengimas",
+    "stogu dengimas"
+  ]
+}

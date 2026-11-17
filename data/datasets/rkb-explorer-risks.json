@@ -1,0 +1,108 @@
+{
+  "identifier": "rkb-explorer-risks",
+  "title": "RISKS Digest (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://risks.rkbexplorer.com",
+  "namespace": "http://risks.rkbexplorer.com/id/",
+  "triples": 322913,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-courseware",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "format-resex",
+    "format-scovo",
+    "format-void",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 58
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 12
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 37
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 13
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 18
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-jisc",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 15
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 1
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://risks.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://risks.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://risks.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://risks.rkbexplorer.com/id/Risks-1.20.html-subj1.1"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://risks.rkbexplorer.com/sparql/"
+    }
+  ]
+}

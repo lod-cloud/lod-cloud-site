@@ -1,0 +1,82 @@
+{
+  "identifier": "rainis-and-aspazija-linked-digital-collection",
+  "title": "\"Rainis and Aspazija\" Linked Digital Collection",
+  "description": {
+    "en": "Linked Digital Collection \"Rainis and Aspazija\" created by the National Library of Latvia.\r\n\r\nIt is a cultural heritage collection (containing information about two famous Latvian cultural personalities - Rainis and Aspazija) that emphasizes links between collection objects. A subset of objects are transcribed and annotated with mentions of named entities, adding these entities as new collection objects.\r\n\r\nThe collection is published as Linked Data. See dataset resources for further information about it.\r\n\r\nPublication: http://ceur-ws.org/Vol-1608/paper-04.pdf"
+  },
+  "website": "http://runa.lnb.lv",
+  "triples": 34660,
+  "contact_point": {
+    "name": "Uldis Bojars",
+    "email": "uldis.bojars@lnb.lv"
+  },
+  "keywords": [
+    "Aspazija",
+    "Latvia",
+    "Rainis",
+    "culturalheritage",
+    "library",
+    "literature",
+    "lld",
+    "lod",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "viaf",
+      "value": 446
+    }
+  ],
+  "other_download": [
+    {
+      "title": "List of URIs (for crawling)",
+      "description": "This file lists URIs of all resources from the \"Rainis and Aspazija\" (RunA) Linked Digital Collection.\r\n\r\nNote: the URIs listed are without the trailing slash. This is a temporary measure due to a bug (being fixed) that prevents content negotiation on RunA URIs with a trailing slash. When crawling the dataset please use URIs without the trailing slash.",
+      "media_type": "text/plain",
+      "access_url": "https://datahub.ckan.io/dataset/4329e622-a001-4922-b111-60b9046c4660/resource/85f69bce-c988-4100-aa2a-656038956347/download/runaalluris.txt"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example - Annotated letter (Turtle)",
+      "description": "Annotated letter (correspondence) with links to other collection objects (named entities) mentioned in its transcribed content.",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://runa.lnb.lv/60316.ttl"
+    },
+    {
+      "title": "Example - Annotated letter (RDF/XML)",
+      "description": "Annotated letter (correspondence) with links to other collection objects (named entities) mentioned in its transcribed content.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://runa.lnb.lv/60316.rdf"
+    },
+    {
+      "title": "Example - Annotated letter (HTML)",
+      "description": "Annotated letter (correspondence) with links to other collection objects (named entities) mentioned in its transcribed content.\r\n\r\nThis is an HTML view. RDF resources can be retrieved (a) by following visible links to RDF data; (b) using HTTP content negotiation or (c) using RDF auto-discovery links.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://runa.lnb.lv/60316/"
+    },
+    {
+      "title": "Example - Person (Turtle)",
+      "description": "Information about a person (named entity) with links to VIAF and collection objects where this person was mentioned.",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://runa.lnb.lv/33383.ttl"
+    },
+    {
+      "title": "Example - Person - Rainis (HTML)",
+      "description": "Information about Rainis - one of the two persons who are the main topic of this collection. Its RDF data contain links to VIAF and to many other collection object mentioning Rainis.\r\n\r\nThis is an HTML view. RDF resources can be retrieved (a) by following visible links to RDF data; (b) using HTTP content negotiation or (c) using RDF auto-discovery links.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://runa.lnb.lv/110023/"
+    },
+    {
+      "title": "Example - Photo (HTML)",
+      "description": "Information about a photo (depicting Aspazija and Rainis).\r\n\r\nThis is an HTML view. RDF resources can be retrieved (a) by following visible links to RDF data; (b) using HTTP content negotiation or (c) using RDF auto-discovery links.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://runa.lnb.lv/62056/"
+    },
+    {
+      "title": "Example - Literary work (HTML)",
+      "description": "Information about a literary work \"Zem vakara zvaigznes\" - a collection of poems by Aspazija.\r\n\r\nThis is an HTML view. RDF resources can be retrieved (a) by following visible links to RDF data; (b) using HTTP content negotiation or (c) using RDF auto-discovery links.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://runa.lnb.lv/60884/"
+    }
+  ]
+}

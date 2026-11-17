@@ -1,0 +1,279 @@
+{
+  "identifier": "bioportal-hp_x1",
+  "title": "Human Phenotype Ontology",
+  "description": {
+    "en": "The Human Phenotype Ontology is being developed to provide a structured and controlled vocabulary for the phenotypic features encountered in human hereditary and other disease. Our goal is to provide resource for the computational analysis of the human phenome, with a current focus on monogenic diseases listed in the Online Mendelian Inheritance in Man (OMIM) database, for which annotations are also provided."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1125",
+  "triples": 107770,
+  "contact_point": {
+    "name": "Peter Robinson"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 54
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 16
+    },
+    {
+      "target": "bioportal-air",
+      "value": 59
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 99
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 33
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 51
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 366
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 598
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 571
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 212
+    },
+    {
+      "target": "bioportal-ctx",
+      "value": 106
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 742
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 312
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 18
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 69
+    },
+    {
+      "target": "bioportal-fhho",
+      "value": 20
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 545
+    },
+    {
+      "target": "bioportal-hom_ehs",
+      "value": 10
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 369
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 621
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 386
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 76
+    },
+    {
+      "target": "bioportal-icpc",
+      "value": 55
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 699
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 13
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 187
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 777
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 1860
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 311
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 2377
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 774
+    },
+    {
+      "target": "bioportal-mpath",
+      "value": 114
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 1297
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 597
+    },
+    {
+      "target": "bioportal-nbo",
+      "value": 32
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 1226
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 793
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 748
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 12
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 88
+    },
+    {
+      "target": "bioportal-ogmd",
+      "value": 12
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 6584
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 666
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 81
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 80
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 16
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 1575
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 354
+    },
+    {
+      "target": "bioportal-shr",
+      "value": 27
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 4010
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 888
+    },
+    {
+      "target": "bioportal-sso",
+      "value": 51
+    },
+    {
+      "target": "bioportal-tm-signs-and-sympts",
+      "value": 37
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 11
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 16
+    },
+    {
+      "target": "bioportal-who",
+      "value": 486
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47406?apikey=BP_API_KEY"
+    }
+  ]
+}

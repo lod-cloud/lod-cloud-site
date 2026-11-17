@@ -1,0 +1,48 @@
+{
+  "identifier": "brown-corpus-in-rdf-nif",
+  "title": "Brown Corpus in RDF/NIF",
+  "description": {
+    "en": "RDF version of the Brown Corpus (W. N. Francis, H. Kucera; Brown University; 1979). 1,014,312 words in 500 documents, taken from newspapers texts on diverse topics, non-fiction and fiction books as well as government documents.\r\n\r\nOriginal corpus contains manually annotated sentence and token boundaries as well as word class annotations(such as POS, inflectional morphemes, such as noun plural, verb tense and adjective comparison and special tags for foreign words and proper nouns).\r\n\r\nConverted corpus contains complete texts reconstructed from TEI/XML version of the Brown corpus. Word classes where linked via OLiA to ontological categories for aggregated querying."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 14335131,
+  "contact_point": {
+    "name": "Martin Brümmer",
+    "email": "bruemmer@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "corpus",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "nif",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 1161028
+    }
+  ],
+  "other_download": [
+    {
+      "title": "dump folder",
+      "description": "Contains all 500 converted documents of the original corpus in turtle format",
+      "access_url": "http://brown.nlp2rdf.org/lod/"
+    },
+    {
+      "title": "DataID of the NIF Brown Corpus",
+      "description": "Turtle file describing the dataset and its distributions",
+      "access_url": "http://brown.nlp2rdf.org/dataid.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example corpus document",
+      "description": "One of the converted corpus files in turtle format",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://brown.nlp2rdf.org/lod/a01.ttl"
+    }
+  ]
+}

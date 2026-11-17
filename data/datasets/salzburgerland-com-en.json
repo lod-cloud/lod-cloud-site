@@ -1,0 +1,57 @@
+{
+  "identifier": "salzburgerland-com-en",
+  "title": "Salzburgerland EN",
+  "description": {
+    "en": "Salzburgerland dataset for English resources, built with WordLift from the website https://www.salzburgerland.com/en/"
+  },
+  "domain": "media",
+  "website": "https://www.salzburgerland.com/en/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 21681,
+  "image": "https://www.salzburgerland.com/en/wp-content/themes/slt/assets/img/logo.svg",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "travel",
+    "salzburgerland",
+    "wordlift"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 531
+    },
+    {
+      "target": "freebase",
+      "value": 488
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 172
+    },
+    {
+      "target": "wikidata",
+      "value": 131
+    },
+    {
+      "target": "yago",
+      "value": 314
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Salzburgerland EN",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/en.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Salzach",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://open.salzburgerland.com/en/entity/salzach"
+    }
+  ]
+}

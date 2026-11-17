@@ -1,0 +1,70 @@
+{
+  "identifier": "lexvo",
+  "title": "Lexvo",
+  "description": {
+    "en": "### About\r\n\r\nData exposed: Linguistic Data\r\nSize of dump and data set: ~40MB\r\n\r\n### Openness\r\n\r\nDownload dump: CC-BY-SA 3.0 license\r\n\r\nThe web service additionally provides some parts that are not fully open, e.g. English language names taken from the Ethnologue Language Codes database are subject to specific redistribution conditions."
+  },
+  "domain": "linguistics",
+  "website": "http://www.lexvo.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://lexvo.org/id/",
+  "triples": 353815,
+  "contact_point": {
+    "name": "Gerard de Melo",
+    "email": "demelo@mpi-inf.de"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "crossdomain",
+    "deref-vocab",
+    "format-rdf",
+    "format-xsd",
+    "language",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "rdf",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2577
+    },
+    {
+      "target": "lingvoj",
+      "value": 448
+    },
+    {
+      "target": "yago",
+      "value": 2577
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "access_url": "http://www.lexvo.org/linkeddata/void.rdf"
+    },
+    {
+      "description": "RDF Schema",
+      "access_url": "http://lexvo.org/ontology"
+    },
+    {
+      "description": "Download",
+      "media_type": "RDF",
+      "access_url": "http://www.lexvo.org/resources/lexvo_latest.rdf.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://lexvo.org/id/iso639-3/spa"
+    }
+  ]
+}

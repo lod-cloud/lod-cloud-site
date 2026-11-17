@@ -1,0 +1,59 @@
+{
+  "identifier": "bioportal-mhc",
+  "title": "MaHCO - An MHC Ontology",
+  "description": {
+    "en": "The MaHCO contains terms necessary for describing and categorizing concepts related to MHC, in general, and for a number of model species, and also for humans."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1088",
+  "triples": 1025,
+  "contact_point": {
+    "name": "David S. DeLuca"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 10
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 16
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 19
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 14
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/39804?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "identifier": "sentiws",
+  "title": "SentimentWortschatz",
+  "description": {
+    "en": "SentimentWortschatz, or SentiWS for short, is a publicly available German-language resource for sentiment analysis, opinion mining etc. It lists positive and negative polarity bearing words weighted within the interval of [-1; 1] plus their part of speech tag, and if applicable, their inflections. The current version of SentiWS (v1.8b) contains 1,650 positive and 1,818 negative words, which sum up to 15,649 positive and 15,632 negative word forms incl. their inflections, respectively. It not only contains adjectives and adverbs explicitly expressing a sentiment, but also nouns and verbs implicitly containing one.\r\n\r\nSee: R. Remus, U. Quasthoff & G. Heyer: SentiWS - a Publicly Available German-language Resource for Sentiment Analysis.\r\nIn: Proceedings of the 7th International Language Ressources and Evaluation (LREC'10), 2010"
+  },
+  "domain": "linguistics",
+  "website": "http://asv.informatik.uni-leipzig.de/download/sentiws.html",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 30339,
+  "contact_point": {
+    "name": "Original Data: R. Remus, U. Quasthoff & G. Heyer, RDF-Conversion by Mohamed Sherif"
+  },
+  "keywords": [
+    "crossdomain",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "lexvo",
+      "value": 3462
+    },
+    {
+      "target": "wiktionary-dbpedia-org",
+      "value": 4233
+    }
+  ],
+  "other_download": [
+    {
+      "title": "SentiWS named entity resource file",
+      "description": "SentiWS is organised in two utf8-encoded text files structured the following way:\r\n<Word>|<POS tag> \\t <Polarity weight> \\t <Infl_1>,...,<Infl_k> \\n\r\n\r\nwhere \\t denotes a tab, and \\n denotes a new line.",
+      "access_url": "http://wortschatz.informatik.uni-leipzig.de/download/SentiWS_v1.8c.zip"
+    },
+    {
+      "title": "RDF conversion",
+      "description": "File was converted for MLODE by M. Sherif",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/sentiWs.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to the example turtle resource Abstumpfung",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://mlode.nlp2rdf.org/page/sentiws/word/Abstumpfung"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://mlode.nlp2rdf.org/sparql"
+    }
+  ]
+}

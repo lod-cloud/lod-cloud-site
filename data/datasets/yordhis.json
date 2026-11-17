@@ -1,0 +1,20 @@
+{
+  "identifier": "yordhis",
+  "title": "test-dapp-2",
+  "description": {
+    "en": "Probando los servicio web de replicación de database"
+  },
+  "domain": "publications",
+  "website": "https://osunadev.cyberstaffstore.com/",
+  "license": "https://opensource.org/licenses/MIT",
+  "namespace": "osuna",
+  "triples": 0,
+  "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Fes%2Ficono%2Fprueba-examen%2F182954&psig=AOvVaw3RTGOOMjT0Ue5FGbN1SY_N&ust=1683950104521000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCI3ZDx7v4CFQAAAAAdAAAAABAJ",
+  "contact_point": {
+    "name": "osuna-dev",
+    "email": "yordhis.10@gmail.com"
+  },
+  "keywords": [
+    "24823972"
+  ]
+}

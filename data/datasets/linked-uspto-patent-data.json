@@ -1,0 +1,89 @@
+{
+  "identifier": "linked-uspto-patent-data",
+  "title": "USPTO Patent data",
+  "description": {
+    "en": "Linked Data version of the US Patent and Trademark Office (USPTO) data.\r\nNumber of triples: 212,234,735. Number of resources: 3,215,768\r\nLinks to other datasets: DBpedia, EUPatents, WorldBank and LinkedGeoData"
+  },
+  "website": "http://aksw.org/Projects/USPatents.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://us.patents.aksw.org",
+  "triples": 212234735,
+  "contact_point": {
+    "name": "Mofeed Hassan",
+    "email": "mounir@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "format-rdf",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "patent",
+    "us patent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1932
+    },
+    {
+      "target": "epo",
+      "value": 680939
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 2360
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 162
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RML Mapping Sample Output",
+      "description": "A sample output produced by using RML Processor in triplifying the US Patents XML data",
+      "media_type": "application/n-triples",
+      "download_url": "https://datahub.ckan.io/dataset/476fc1ee-5bd8-4551-bf67-4fe4e7fa349b/resource/4e1618db-819c-4338-8003-64a53b2f4b89/download/outputsample.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "Graph: http://uspatents.aksw.org\r\nInterlinks: http://links.uspatents.aksw.org",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://us.patents.aksw.org/sparql"
+    },
+    {
+      "title": "RML Mapping File",
+      "description": "The mapping file used by RML Processor for triplifying the US Patents dataset",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/476fc1ee-5bd8-4551-bf67-4fe4e7fa349b/resource/c550c190-f891-409c-ae72-9feb7daf58a8/download/mapping.ttl"
+    },
+    {
+      "title": "RML Mapping Validation Report",
+      "description": "It is a report file for the mapping errors and warnings. \r\nRML Validator in url https://github.com/mmlab/RMLValidator validates the mapping files to the syntax and rules of [R2]RM.",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/476fc1ee-5bd8-4551-bf67-4fe4e7fa349b/resource/30666992-a075-4c2c-addc-63794e13380e/download/output.ttl"
+    },
+    {
+      "title": "RML Mapping Validation Report (Detailed)",
+      "description": "Detailed validation report of the mapping files using the RML Validator https://github.com/mmlab/RMLValidator",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/476fc1ee-5bd8-4551-bf67-4fe4e7fa349b/resource/8a8e089f-7692-4f4b-b672-756a3c966cb5/download/detailedreport.rml.ttl"
+    },
+    {
+      "title": "US Patents Ontology",
+      "description": "The used ontology for defining the US-Patent",
+      "media_type": "application/octet-stream",
+      "access_url": "https://datahub.ckan.io/dataset/476fc1ee-5bd8-4551-bf67-4fe4e7fa349b/resource/f694fd04-8753-44ad-b0db-315e10eb7e1c/download/patents.owl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF/ntriples)",
+      "description": "Example patent RDF files from the year 2015.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://us.patents.aksw.org/export/2015.n3.zip"
+    }
+  ]
+}

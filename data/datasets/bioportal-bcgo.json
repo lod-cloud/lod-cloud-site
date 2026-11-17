@@ -1,0 +1,139 @@
+{
+  "identifier": "bioportal-bcgo",
+  "title": "Breast Cancer Grading Ontology",
+  "description": {
+    "en": "assigns a grade to a tumor starting from the 3 criteria of the NGS"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1304",
+  "triples": 3780,
+  "contact_point": {
+    "name": "Alexandra Bulzan"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 34
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 17
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 49
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 13
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 14
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 20
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 22
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 15
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 77
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 32
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 16
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 15
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 13
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 14
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 13
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 13
+    },
+    {
+      "target": "bioportal-sitbac",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 35
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 12
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45776?apikey=BP_API_KEY"
+    }
+  ]
+}

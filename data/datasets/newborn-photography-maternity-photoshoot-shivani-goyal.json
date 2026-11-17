@@ -1,0 +1,35 @@
+{
+  "identifier": "newborn-photography-maternity-photoshoot-shivani-goyal",
+  "title": "Shivani Goyal Photography",
+  "description": {
+    "en": "Shivani Goyal is a Mumbai based Newborn Photographer, Maternity photoshoot, Baby photoshoot, Child Photographer and Family Photographer and has travelled across India for Newborn and Maternity Photoshoot."
+  },
+  "domain": "user_generated",
+  "website": "https://shivanigoyalphotography.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 3567,
+  "image": "https://shivanigoyalphotography.com/wp-content/uploads/2018/06/cropped-Shivani-Goyal-Photography-HighRes-2.png",
+  "contact_point": {
+    "name": "Shivani Goyal",
+    "email": "info@shivanigoyalphotography.com"
+  },
+  "keywords": [
+    "newborn photoshoot",
+    "maternity photoshoot",
+    "baby photoshoot",
+    "pregnancy photoshoot",
+    "baby photography"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 10
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Shivani Goyal Photography",
+      "download_url": "https://shivanigoyalphotography.com/rdf/"
+    }
+  ]
+}

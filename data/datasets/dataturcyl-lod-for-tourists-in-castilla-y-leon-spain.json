@@ -1,0 +1,97 @@
+{
+  "identifier": "dataturcyl-lod-for-tourists-in-castilla-y-leon-spain",
+  "title": "DATATURCYL - LOD for tourists in Castilla y León (Spain)",
+  "description": {
+    "en": "The aim of this project, called DATATURCYL, is to reuse and redistribute open data provided by the Junta de Castilla y León to enrich and enhance information services about tourism in the community. To provide them with an added value, this project embraces the Linked Open Data philosophy. In our particular case, the information for tourism (bars, restaurants, hotels, etc.) is converted to RDF and enriched with geographic data sources and open knowledge in Dbpedia."
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 332991,
+  "contact_point": {
+    "name": "Daniel Revilla",
+    "email": "danrevi@gmail.com"
+  },
+  "keywords": [
+    "government",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "RDFLicense",
+      "value": 1
+    },
+    {
+      "target": "dbpedia",
+      "value": 1992
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Restaurants",
+      "description": "Browse Restaurants",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/restaurantes"
+    },
+    {
+      "title": "Hotels",
+      "description": "Browse hotels",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/hoteles"
+    },
+    {
+      "title": "museums",
+      "description": "Browse museums",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/museos"
+    },
+    {
+      "title": "pubs",
+      "description": "Browse pubs",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/bares"
+    },
+    {
+      "title": "rural tourism",
+      "description": "Browse rural tourism",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/turismorural"
+    },
+    {
+      "title": "campings",
+      "description": "Browse campings",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/campings"
+    },
+    {
+      "title": "other activities",
+      "description": "Browse other activities",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/otrasactividades"
+    },
+    {
+      "title": "cafeterias",
+      "description": "Browse cafeterias",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/opendata/resource/cafeterias"
+    },
+    {
+      "title": "VoID description",
+      "media_type": "meta/void",
+      "access_url": "http://visualdataweb.infor.uva.es/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "example of camping",
+      "description": "An example of  a resource in turtle",
+      "media_type": "example/turtle",
+      "access_url": "http://visualdataweb.infor.uva.es:8080/opendata/resource/campings/acueducto.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql Endpoint",
+      "access_url": "http://visualdataweb.infor.uva.es/sparql"
+    }
+  ]
+}

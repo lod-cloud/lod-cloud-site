@@ -1,0 +1,131 @@
+{
+  "identifier": "hellenic-fire-brigade",
+  "title": "Hellenic Fire Brigade",
+  "description": {
+    "en": "The Hellenic Fire Brigade project encompasses efforts to extract valuable information from Greek Open Data originating from the Ministry of Public Order & Citizen Protection and in particular from the Hellenic Fire Brigade Department. It involves mainly fire incident records that span over a ten year period, (2000-2010) and aims to exploit these in the best possible manner so as to form meaningful scenarios. The primary goal is to provide applications and services that would reveal potentials for the department to improve upon its management procedures, have economic benefits from cost reductions and improvements in its fire service efficiency.\r\nA secondary but equally important goal is to encourage additional contributions of Greek Open Data as well as of innovative applications and services based on the latter."
+  },
+  "domain": "government",
+  "website": "http://greek-lod.math.auth.gr/fire-brigade/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://greek-lod.math.auth.gr/fire-brigade/resource",
+  "triples": 4134837,
+  "contact_point": {
+    "name": "IOANNIS PARAPONTIS",
+    "email": "PARAPONTISJ@GMAIL.COM"
+  },
+  "keywords": [
+    "country-greece",
+    "fire",
+    "fire-brigade",
+    "format-akt",
+    "format-dbp",
+    "format-dc",
+    "format-foaf",
+    "format-geo",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-tl",
+    "government",
+    "greece",
+    "greek",
+    "hellenic",
+    "hellenic-fire-brigade",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 104117
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 277
+    },
+    {
+      "target": "diavgeia",
+      "value": 258
+    },
+    {
+      "target": "freebase",
+      "value": 104102
+    },
+    {
+      "target": "fu-berlin-eurostat",
+      "value": 15
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 316
+    },
+    {
+      "target": "kallikratis-municipalities",
+      "value": 26
+    },
+    {
+      "target": "linked-eurostat",
+      "value": 14
+    },
+    {
+      "target": "nuts-geovocab",
+      "value": 14
+    },
+    {
+      "target": "umbel",
+      "value": 28
+    }
+  ],
+  "full_download": [
+    {
+      "title": "An RDF dump of the Fire-Brigade dataset in N-Triple format",
+      "description": "Download dump of Fire-Brigade dataset in N-Triple format",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://greek-lod.auth.gr/Fire/fire.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "An RDF dump of the Fire-Brigade dataset in RDF/XML format",
+      "description": "Download dump of Fire-Brigade dataset in RDF/XML format",
+      "media_type": "RDF",
+      "access_url": "http://greek-lod.auth.gr/Fire/fire.rdf.gz"
+    },
+    {
+      "title": "Hellenic Fire Brigade D2R Server",
+      "description": "Hellenic Fire Brigade D2R Server",
+      "access_url": "http://greek-lod.auth.gr/fire-brigade/"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "access_url": "http://greek-lod.auth.gr/sitemap.xml"
+    },
+    {
+      "title": "voiD file",
+      "description": "voiD file",
+      "access_url": "http://greek-lod.auth.gr/Fire/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://greek-lod.auth.gr/fire-brigade/data/fbs/10?output=rdfxml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Hellenic Fire Brigade SPARQL endpoint",
+      "description": "Hellenic Fire Brigade SPARQL endpoint",
+      "access_url": "http://greek-lod.auth.gr/fire-brigade/sparql"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "identifier": "stw-thesaurus-for-economics",
+  "title": "STW Thesaurus for Economics",
+  "description": {
+    "en": "The thesaurus provides vocabulary on any economic subject: about 6,000 standardized subject headings and about 18,000 entry terms to support individual keywords. You can also find technical terms used in law, sociology, or politics, and geographic names. A systematic part faclitates access to the descriptors. Links to the ZBW library holdings are provided, too.\r\n\r\nSize of dump and data set: 12 MB uncompressed,\r\npublished as RDFa pages, RDF/XML, NT and Turtle dataset, licensed under Creative Commons (by-nc-sa)"
+  },
+  "domain": "publications",
+  "website": "http://zbw.eu/stw",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://zbw.eu/stw/",
+  "triples": 112000,
+  "contact_point": {
+    "name": "ZBW German National Library of Economics - Leibniz Centre for Economics",
+    "email": "http://zbw.eu"
+  },
+  "keywords": [
+    "deref-vocab",
+    "economics",
+    "format-cc",
+    "format-dc",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-xsd",
+    "germany",
+    "library",
+    "license-metadata",
+    "linkeddata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "rdf",
+    "thesaurus",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "agrovoc-skos",
+      "value": 1100
+    },
+    {
+      "target": "dbpedia",
+      "value": 3000
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 10000
+    },
+    {
+      "target": "german-labor-law-thesaurus",
+      "value": 270
+    },
+    {
+      "target": "gesis-thesoz",
+      "value": 4300
+    },
+    {
+      "target": "ontobeef",
+      "value": 140
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download thesaurus and mappings in different formats",
+      "access_url": "http://zbw.eu/stw/versions/latest/download/about"
+    },
+    {
+      "description": "voiD file",
+      "access_url": "http://zbw.eu/stw/void.ttl"
+    },
+    {
+      "description": "Example Descriptor (RDFa)",
+      "access_url": "http://zbw.eu/stw/descriptor/19664-4"
+    },
+    {
+      "description": "Example Category (RDFa)",
+      "access_url": "http://zbw.eu/stw/thsys/71098"
+    },
+    {
+      "description": "Download file",
+      "media_type": "application/zip",
+      "access_url": "http://zbw.eu/stw/versions/latest/download/stw.rdf.zip"
+    },
+    {
+      "title": "ZBW schema extensions",
+      "description": "Extensions to SKOS and other standard vocabularies used by the German National Library of Economics (ZBW)",
+      "access_url": "http://zbw.eu/namespaces/zbw-extensions/"
+    },
+    {
+      "title": "Vocabulary mappings",
+      "access_url": "http://zbw.eu/namespaces/zbw-extensions/"
+    },
+    {
+      "title": "Vocabulary mapping",
+      "access_url": "http://zbw.eu/namespaces/zbw-extensions/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example Descriptor (RDF/XML)",
+      "media_type": "text/turtle",
+      "access_url": "http://zbw.eu/stw/descriptor/19664-4"
+    },
+    {
+      "description": "Example Category (RDF/XML)",
+      "media_type": "text/turtle",
+      "access_url": "http://zbw.eu/stw/thsys/71098"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint (beta)",
+      "access_url": "http://zbw.eu/beta/sparql/stw/query"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "identifier": "nomenclator-asturias",
+  "title": "Nomenclator Asturias",
+  "description": {
+    "en": "This dataset created by the SADEI contains information about the populated places of my area, Asturias in the period 2005-2010, including:\r\n\r\n-Codes to identify the type of a populated place: CC/PP/EE (C: code of first level division called “Concejo”, P: code of second level division called Parroquia Rural and EE: code of third level division the real place)\r\n\r\n-Name in Spanish and Asturian\r\n\r\n-Statistics about: altitude, distance, area, men, women and number of apartments (main and not main)\r\n\r\nThe dataset has been transformed by WESO Research Group at the University of Oviedo."
+  },
+  "domain": "government",
+  "website": "http://www.josemalvarez.es/web/2011/11/01/nomenclator-asturias-2010/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://purl.org/weso/nomenclator/",
+  "triples": 4508050,
+  "contact_point": {
+    "name": "Jose María Alvarez Rodríguez at WESO (University of Oviedo)",
+    "email": "josem.alvarez@weso.es"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-dcterms",
+    "format-qb",
+    "format-skos",
+    "format-skosxl",
+    "geodata",
+    "government",
+    "license-metadata",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "oviedo",
+    "provenance-metadata",
+    "published-by-third-party",
+    "uniovi",
+    "vocab-mappings",
+    "weso"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 78859
+    },
+    {
+      "target": "geolinkeddata",
+      "value": 29
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 377582
+    },
+    {
+      "target": "sdmx-concept",
+      "value": 377582
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Nomenclátor Asturias",
+      "description": "Populated observation of Asturias",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/weso/static/nomenclator/datasets/nomenclator-observations.ttl"
+    },
+    {
+      "title": "Nomenclátor Asturias-Entities",
+      "description": "Statistics of Populated places of Asturias",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/weso/static/nomenclator/datasets/entities-places.ttl"
+    },
+    {
+      "title": "Linked Data Frontend-Nomenclátor Asturias",
+      "description": "Linked Data Frontend-Nomenclátor Asturias",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/weso/nomenclator/"
+    },
+    {
+      "title": "VoID of Nomenclator Asturias",
+      "description": "Description of the linnkset Nomenclátor Asturias",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/weso/nomenclator/ls"
+    },
+    {
+      "title": "Custom definitions of Nomenclátor Asturias",
+      "description": "Custom definitions of Nomenclátor Asturias",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/weso/static/nomenclator/datasets/nomenclator-onto.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of Nomenclator Asturias",
+      "description": "Example of Nomenclátor Asturias",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/weso/nomenclator/asturias/observation/population/m1018"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WESO SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://purl.org/weso/sparql"
+    }
+  ]
+}

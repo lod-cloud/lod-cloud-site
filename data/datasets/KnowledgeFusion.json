@@ -1,0 +1,20 @@
+{
+  "identifier": "KnowledgeFusion",
+  "title": "Knowledge Forest",
+  "description": {
+    "en": "A knowledge forest is a domain-specific knowledge graph, describing the learning dependencies between topics in a given course. A knowledge forest is constructed by the combination of materialized facet trees of topics and learning dependencies between topics. A facet tree is a set of facets with facet hyponymy. Knowledge fragments from different sources are assembled to corresponding facets of the facet tree to form a materialized facet tree."
+  },
+  "domain": "cross_domain",
+  "website": "http://kfm.skyclass.net",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://kfm.skyclass.net/rdf/xjtu",
+  "triples": 2100000,
+  "contact_point": {
+    "name": "Qinghua Zheng; Jun Liu; Bifan Wei",
+    "email": "weibifan@gmail.com"
+  },
+  "keywords": [
+    "Knowlege Graph",
+    "Knowledge Fragment"
+  ]
+}

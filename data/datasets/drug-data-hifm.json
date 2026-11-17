@@ -1,0 +1,70 @@
+{
+  "identifier": "drug-data-hifm",
+  "title": "Drug Data from the Health Insurance Fund of Macedonia",
+  "description": {
+    "en": "Linked Open Drug Data from the Health Insurance Fund of the Republic of Macedonia. \r\n\r\nThe dataset provides data about the referent (nominal) prices of drugs in Macedonia, along with the generic drug name, brand name, packaging, manufacturer, etc. The drugs from the dataset are linked among themselves with a \"similar to\" relation, and with an \"owl:seeAlso\" relation with corresponding drugs from the [DrugBank dataset](http://wifo5-03.informatik.uni-mannheim.de/drugbank/ \"DrugBank\"). Both relations are based on the drug ATC code.\r\n\r\nThe drug data from the Fund is described using a custom HIFM ontology, along with relations from the DrugBank dataset. \r\n\r\nFor more info on the dataset, please refer to [this paper](http://e-tnc.com/etnc/Portals/3/papers/loddhifm-ciit2013.pdf \"LODD from the HIFM\")."
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://purl.org/net/hifm/data#",
+  "triples": 21233,
+  "contact_point": {
+    "name": "Milos Jovanovik",
+    "email": "milos.jovanovik@finki.ukim.mk"
+  },
+  "keywords": [
+    "Macedonia",
+    "deref-vocab",
+    "drugs",
+    "format-drugbank",
+    "government",
+    "health",
+    "health insurance fund",
+    "healthcare",
+    "hifm",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "prices",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 1015
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download",
+      "description": "Download link for the dataset in RDF/XML format.",
+      "access_url": "http://purl.org/net/hifm/data"
+    },
+    {
+      "title": "Ontology",
+      "description": "Download link for the HIFM Ontology, used by the dataset.",
+      "access_url": "http://purl.org/net/hifm/ontology"
+    },
+    {
+      "title": "RDF/XML dump",
+      "description": "RDF/XML dump of the HIFM Drug Data graph",
+      "media_type": "RDF",
+      "access_url": "http://linkeddata.finki.ukim.mk/DAV/ontology/data/hifm.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "description": "Example RDF/XML resource from the graph.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://linkeddata.finki.ukim.mk/lod/data/hifm#963089"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint for querying the HIFM LODD dataset and ontology. Use the graph http://linkeddata.finki.ukim.mk/lod/data/hifm# for the HIFM data, and the http://linkeddata.finki.ukim.mk/lod/ontology/hifm# graph for the HIFM ontology.",
+      "access_url": "http://linkeddata.finki.ukim.mk/sparql"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "identifier": "bioportal-spd",
+  "title": "Spider Ontology",
+  "description": {
+    "en": "An ontology for spider comparative biology including anatomical parts (e.g. leg, claw), behavior (e.g. courtship, combing) and products (i.g. silk, web, borrow)."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1091",
+  "triples": 6606,
+  "contact_point": {
+    "name": "Martin Ramirez"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 24
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 24
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 29
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 14
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 61
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 33
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 38
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 15
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 36
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 26
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 26
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 24
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 64
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 20
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 22
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 57
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 20
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 10
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 21
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 45
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 13
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 13
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46530?apikey=BP_API_KEY"
+    }
+  ]
+}

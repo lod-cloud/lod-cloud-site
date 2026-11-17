@@ -1,0 +1,42 @@
+{
+  "identifier": "PFKHS",
+  "title": "The retellings of \"The Pear Film\" by preschoolers, primary school students, and high school students",
+  "description": {
+    "en": "The dataset comprises video recordings of retellings of \"The Pear Film\" (W. Chafe, 1975)  by preschoolers, primary school children, and high school students, along with data on the adaptors and gestures employed during the retelling process."
+  },
+  "domain": "linguistics",
+  "website": "https://www.ranepa.ru/eng/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Vladimir Glebkin",
+    "email": "gleb1514@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "The retellings of \"The Pear Film\" by preschoolers, primary school students, and high school students",
+      "description": "The dataset comprises video recordings of retellings of \"The Pear Film\" (W. Chafe, 1975)  by preschoolers, primary school children, and high school students, along with data on the adaptors and gestures employed during the retelling process.",
+      "media_type": "video. text",
+      "download_url": "https://disk.yandex.ru/client/disk/Pear%20film%20videos"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "The retellings of \"The Pear Film\" by preschoolers and primary school students",
+      "media_type": "video",
+      "access_url": "https://disk.yandex.ru/client/disk/Pear%20film%20videos/KS%20and%20PS%20students"
+    }
+  ],
+  "example": [
+    {
+      "title": "The retellings of \"The Pear Film\" by a primary school student",
+      "access_url": "https://disk.yandex.ru/client/disk/Pear%20film%20videos/KS%20and%20PS%20students?idApp=client&dialog=slider&idDialog=%2Fdisk%2FPear%20film%20videos%2FKS%20and%20PS%20students%2FP10.mp4"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "The retellings of \"The Pear Film\" by preschoolers, primary school students, and high school students",
+      "access_url": "https://disk.yandex.ru/client/disk/Pear%20film%20videos"
+    }
+  ]
+}

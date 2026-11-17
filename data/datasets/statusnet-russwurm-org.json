@@ -1,0 +1,138 @@
+{
+  "identifier": "statusnet-russwurm-org",
+  "title": "statusnet-russwurm-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://russwurm.org"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 29
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-cooleysekula-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 42
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 5
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 8
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-lydiastench-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 4
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 5
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 113
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 18
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 6
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 1
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://s.russwurm.org/laurelrusswurm/foaf"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "identifier": "racai-llod-rtasc",
+  "title": "ROBIN Technical Acquisition Speech Corpus",
+  "description": {
+    "en": "RTASC is a Romanian bi-modal corpus (text and speech) of read sentences, containing recordings from 6 speakers (3 males and 3 females). It was designed to serve the need of training the robot Pepper to interact with customers in the laptop department of a computer store."
+  },
+  "domain": "user_generated",
+  "website": "https://doi.org/10.5281/zenodo.4626540",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 284683,
+  "doi": "10.5281/zenodo.4626540",
+  "contact_point": {
+    "name": "Vasile Păiș",
+    "email": "vasile@racai.ro"
+  },
+  "full_download": [
+    {
+      "title": "RTASC",
+      "media_type": "application/zip",
+      "download_url": "https://www.racai.ro/p/llod/resources/rtasc_v1.zip"
+    },
+    {
+      "title": "RTASC",
+      "description": "RTASC is hosted on the Zenodo platform. The latest version can be accessed using the following DOI url: https://doi.org/10.5281/zenodo.4626540",
+      "download_url": "https://doi.org/10.5281/zenodo.4626540"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "RTASC SPARQL endpoint",
+      "description": "SPARQL endpoint for RTASC hosted at RACAI. A query form is available at https://relate.racai.ro/datasets/dataset.html?tab=query&ds=/rtasc",
+      "access_url": "https://relate.racai.ro/datasets/rtasc/sparql"
+    }
+  ]
+}

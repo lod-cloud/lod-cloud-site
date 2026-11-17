@@ -1,0 +1,47 @@
+{
+  "identifier": "productdb",
+  "title": "ProductDB",
+  "description": {
+    "en": "ProductDB is the Linked Data view of ProductWiki a resource for free, unbiased product reports written by a dedicated community. ProductDB extracts structured information from ProductWiki and makes this information freely available on the Web."
+  },
+  "website": "http://productdb.org/",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "namespace": "http://productdb.org/gtin/",
+  "triples": 575942,
+  "contact_point": {
+    "name": "Talis"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-foaf",
+    "format-gr",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 193
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://productdb.org/gtin/09780136098676"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/productdb/services/sparql"
+    }
+  ]
+}

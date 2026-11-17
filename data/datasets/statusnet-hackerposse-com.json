@@ -1,0 +1,86 @@
+{
+  "identifier": "statusnet-hackerposse-com",
+  "title": "statusnet-hackerposse-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://hackerposse.com"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ilikefreedom-ro",
+      "value": 1
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 4
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 2
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://status.hackerposse.com/dr/foaf"
+    }
+  ]
+}

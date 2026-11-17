@@ -1,0 +1,135 @@
+{
+  "identifier": "bioportal-ontodt",
+  "title": "Ontology of General Purpose Datatypes",
+  "description": {
+    "en": "This ontology contains entities such as: datatype, datatype generator, datatype qualiy and others giving the possibility to represent arbitrary complex datatypes. This is an important fact for a general data mining ontology that wants to represent and query over modelling algorithms for mining structured data. \n\nThe ontology was first developed under the OntoDM (Ontology of Data Mining is available at http://kt.ijs.si/panovp/OntoDM) ontology, but for generality and reuse purpose it was decided to export it as a separate ontology. Additionaly, the OntoDT ontology is based on and ISO/IEC 11404 (http://www.iso.org/iso/catalogue_detail.htm?csnumber=39479) standard and can be reused used independently by any domain ontology that requires representation and reasoning about general purpose datatypes."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1588",
+  "triples": 1650,
+  "contact_point": {
+    "name": "Pance Panov"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aero",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 12
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 12
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 12
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 12
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 17
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 11
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 11
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mfoem",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 18
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 13
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ocre",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ogms",
+      "value": 11
+    },
+    {
+      "target": "bioportal-omrse",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ooevv",
+      "value": 11
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 12
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45330?apikey=BP_API_KEY"
+    }
+  ]
+}

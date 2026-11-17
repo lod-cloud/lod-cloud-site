@@ -1,0 +1,146 @@
+{
+  "identifier": "rkb-explorer-irit",
+  "title": "Université Paul Sabatier - Toulouse 3 (RKB Explorer)",
+  "domain": "publications",
+  "website": "http://irit.rkbexplorer.com",
+  "namespace": "http://irit.rkbexplorer.com/id/",
+  "triples": 176542,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 996
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 690
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 4344
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 275
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 1087
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 156
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 31
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 31
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 1005
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 649
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 108
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 20
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 3
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://irit.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://irit.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://irit.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://irit.rkbexplorer.com/id/person-585de894e4e4fd038791313df83045a8"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://irit.rkbexplorer.com/sparql/"
+    }
+  ]
+}

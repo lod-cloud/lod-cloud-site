@@ -1,0 +1,57 @@
+{
+  "identifier": "wordlift-io-blog-en",
+  "title": "WordLift Blog EN",
+  "description": {
+    "en": "WordLift Blog for English resources, built with WordLift from the website https://wordlift.io/blog/en/"
+  },
+  "domain": "publications",
+  "website": "https://wordlift.io/blog/en/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 4313,
+  "image": "https://wordlift.io/blog/en/wp-content/uploads/sites/3/2017/04/logo-1.png",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "seo",
+    "wordlift",
+    "content marketing"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 111
+    },
+    {
+      "target": "freebase",
+      "value": 80
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    },
+    {
+      "target": "wikidata",
+      "value": 10
+    },
+    {
+      "target": "yago",
+      "value": 58
+    }
+  ],
+  "full_download": [
+    {
+      "title": "title",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/wl0216.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "wordlifttitle",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.wordlift.io/wl0216/entity/matt_mullenweg"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "identifier": "taxonconcept-occurences",
+  "title": "taxonconcept-occurences",
+  "domain": "life_sciences",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bibo",
+    "format-cc",
+    "format-dcterm",
+    "format-foaf",
+    "format-gn",
+    "format-owl",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-time",
+    "format-wdrs",
+    "geographic",
+    "lifesciences",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 9036
+    },
+    {
+      "target": "taxonconcept",
+      "value": 15939
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://ocs.taxonconcept.org/ocs/ad94a9e5-0c4d-49e4-ac92-d891ecc4c13f.rdf"
+    }
+  ]
+}

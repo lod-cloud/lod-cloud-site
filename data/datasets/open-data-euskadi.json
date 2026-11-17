@@ -1,0 +1,62 @@
+{
+  "identifier": "open-data-euskadi",
+  "title": "Open Data Euskadi",
+  "description": {
+    "en": "### About\r\n\r\nOpen Data Euskadi is a catalogue of public data of the Basque Government in reusable format.\r\n\r\nCatalog and multiple datasets are availabe in multiple formats (including RDF). \r\n\r\n### Useful URL\r\n\r\nDirect link to catalogue http://opendata.euskadi.net/w79-buscador/es/contenidos/informacion/form_busquedas/es_form/formulario_busqueda.html"
+  },
+  "domain": "government",
+  "website": "http://opendata.euskadi.net/w79-home/es",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 700,
+  "contact_point": {
+    "name": "Basque Government Administration"
+  },
+  "keywords": [
+    "country.es",
+    "country.spain",
+    "dataset-collection",
+    "government",
+    "lod",
+    "package-type.catalog",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 200
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Farmacias en Euskadi",
+      "media_type": "RDF",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_localizaciones/farmacias_de_euskadi/opendata/r01DataSet.rdf"
+    },
+    {
+      "description": "Memorias de traducción del Servicio Oficial de Traductores del IVAP",
+      "media_type": "RDF",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_recursos_linguisticos/memorias_traduccion/opendata/r01DataSet.rdf"
+    },
+    {
+      "description": "Memorias de traducción de Directivas y Reglamentos a nivel europeo",
+      "media_type": "RDF",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_recursos_linguisticos/memorias_traduccion/opendata/r01DataSet.rdf"
+    },
+    {
+      "description": "Zonas de compras de Euskadi",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_recursos_turisticos/zonas_de_compras/opendata/r01DataSet.rdf"
+    },
+    {
+      "description": "Información sobre recursos turísticos de que dispone Euskadi para los negocios",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_recursos_turisticos/turismo_negocios_euskadi/opendata/r01DataSet.rdf"
+    },
+    {
+      "description": "Restaurantes, sidrerías y bodegas de Euskadi",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_recursos_turisticos/restaurantes_sidrerias_bodegas/opendata/r01DataSet.rdf"
+    },
+    {
+      "description": "Información sobre los recursos de ocio en Euskadi",
+      "access_url": "http://opendata.euskadi.net/contenidos/ds_recursos_turisticos/recursos_ocio_euskadi/opendata/r01DataSet.rdf"
+    }
+  ]
+}

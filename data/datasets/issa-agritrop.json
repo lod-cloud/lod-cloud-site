@@ -1,0 +1,54 @@
+{
+  "identifier": "issa-agritrop",
+  "title": "ISSA Agritrop Dataset",
+  "description": {
+    "en": "This dataset, produced in the context of the ISSA project (https://issa.cirad.fr/), provides a semantic index of the articles of the Agritrop scientific archive. It is built by extracting thematic descriptors and named entities from the articles full-text, and linking them with resources from DBpedia, Wikidata and AGROVOC."
+  },
+  "domain": "life_sciences",
+  "website": "https://github.com/issa-project/issa-pipeline",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://data-issa.cirad.fr/",
+  "triples": 66051026,
+  "doi": "10.5281/zenodo.6505847",
+  "contact_point": {
+    "name": "Franck MICHEL",
+    "email": "franck.michel@inria.fr"
+  },
+  "links": [
+    {
+      "target": "agrovoc",
+      "value": 313876
+    },
+    {
+      "target": "dbpedia",
+      "value": 1469774
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 152000
+    },
+    {
+      "target": "wikidata",
+      "value": 2174769
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Turtle dump",
+      "download_url": "https://doi.org/10.5281/zenodo.6505847"
+    }
+  ],
+  "example": [
+    {
+      "title": "Turtle representation examples of article metadata, named entities, descriptors",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/issa-project/issa-pipeline/tree/main/doc/examples"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://issa.i3s.unice.fr/sparql"
+    }
+  ]
+}

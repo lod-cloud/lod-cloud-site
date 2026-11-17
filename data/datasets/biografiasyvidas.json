@@ -1,0 +1,22 @@
+{
+  "identifier": "biografiasyvidas",
+  "title": "Biografías y Vidas",
+  "description": {
+    "en": "Biografías y Vidas (Biographies and Lives) is an online biographical encyclopedia featuring more than 25,000 historical and current personalities throughout the world.  The biographies can be accessed through the alphabetical indexes or by means of the internal search engine."
+  },
+  "domain": "cross_domain",
+  "website": "https://www.biografiasyvidas.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 25000,
+  "image": "https://www.biografiasyvidas.com/images/creativecommons/logoenciclopeida.png",
+  "contact_point": {
+    "name": "Miguel Ruiza",
+    "email": "mail@biografiasyvidas.com"
+  },
+  "keywords": [
+    "biographies",
+    "biographical encyclopedia",
+    "biographical database",
+    "biographical dictionary"
+  ]
+}

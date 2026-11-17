@@ -1,0 +1,59 @@
+{
+  "identifier": "bioportal-ato",
+  "title": "Amphibian taxonomy",
+  "description": {
+    "en": "A taxonomy of Amphibia"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1370",
+  "triples": 49391,
+  "contact_point": {
+    "name": "AmphiAnat list"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-birnlex",
+      "value": 21
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 17
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 28
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 54
+    },
+    {
+      "target": "bioportal-taxrank",
+      "value": 29
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/40791?apikey=BP_API_KEY"
+    }
+  ]
+}

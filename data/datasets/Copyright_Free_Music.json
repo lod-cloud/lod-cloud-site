@@ -1,0 +1,30 @@
+{
+  "identifier": "Copyright_Free_Music",
+  "title": "Copyright Free Music",
+  "description": {
+    "en": "Royalty Free Music & Copyright Free Music ✔️ Unlimited Downloads\nSearch 100% Claim-Free ☝ royalty free music & copyright free music for ⭐ youtube, games, commercial use;Unlimited Downloads tracks from our library"
+  },
+  "domain": "media",
+  "website": "https://taketones.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "TakeTones",
+  "triples": 312,
+  "image": "https://taketones.com/images/claimFree.png",
+  "contact_point": {
+    "name": "Paul Keane",
+    "email": "cooperations@taketones.com"
+  },
+  "keywords": [
+    "music",
+    "copyright free music",
+    "royalty free music"
+  ],
+  "example": [
+    {
+      "title": "Endless Inspiration",
+      "description": "About This Royalty Free Music:\nA mindful and positive commercial background for your motivational video project. Perfect for a motivational business presentation, music on hold, a positive advertising montage, and a creative corporate video project.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://taketones.com/track/endless-inspiration"
+    }
+  ]
+}

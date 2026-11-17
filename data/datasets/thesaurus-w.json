@@ -1,0 +1,67 @@
+{
+  "identifier": "thesaurus-w",
+  "title": "Thesaurus W for Local Archives",
+  "description": {
+    "en": "This dataset includes four authority lists (subject headings, historical contexts, actions and document types) used to describe material in French local archives."
+  },
+  "website": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/",
+  "namespace": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/resource/",
+  "triples": 11000,
+  "contact_point": {
+    "name": "Service interministériel des Archives de France"
+  },
+  "keywords": [
+    "format-rdf",
+    "format-skos",
+    "lld",
+    "lod",
+    "no-proprietary-vocab",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 627
+    },
+    {
+      "target": "stitch-rameau",
+      "value": 1048
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Example subject heading for \"Homing pigeon\"",
+      "access_url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/resource/T1-518"
+    },
+    {
+      "description": "Download subject headings",
+      "access_url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/data/Matiere?includeSchemes=true"
+    },
+    {
+      "description": "Download historical contexts",
+      "access_url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/data/Contexte?includeSchemes=true"
+    },
+    {
+      "description": "Download action types",
+      "access_url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/data/Actions?includeSchemes=true"
+    },
+    {
+      "description": "Download document types",
+      "access_url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/data/Typologie?includeSchemes=true"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example RDF/XML for \"Homing pigeon\"",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/data/T1-503"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/sparql"
+    }
+  ]
+}

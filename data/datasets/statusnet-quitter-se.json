@@ -1,0 +1,257 @@
+{
+  "identifier": "statusnet-quitter-se",
+  "title": "statusnet-quitter-se",
+  "description": {
+    "en": "StatusNet instance hosted at http://quitter.se"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 403
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 53
+    },
+    {
+      "target": "statusnet-atari-frosch-de",
+      "value": 43
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 7
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 23
+    },
+    {
+      "target": "statusnet-ced117-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 25
+    },
+    {
+      "target": "statusnet-cooleysekula-net",
+      "value": 30
+    },
+    {
+      "target": "statusnet-datenfahrt-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 1
+    },
+    {
+      "target": "statusnet-dtdns-net",
+      "value": 11
+    },
+    {
+      "target": "statusnet-exdc-net",
+      "value": 2
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 12
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 567
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-glou-org",
+      "value": 2
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 40
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-ilikefreedom-ro",
+      "value": 15
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 53
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 79
+    },
+    {
+      "target": "statusnet-kenzoid-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-lebsanft-org",
+      "value": 20
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 33
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 60
+    },
+    {
+      "target": "statusnet-lydiastench-com",
+      "value": 7
+    },
+    {
+      "target": "statusnet-m-kuttner-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 23
+    },
+    {
+      "target": "statusnet-mamalibre-com-ar",
+      "value": 5
+    },
+    {
+      "target": "statusnet-maymay-net",
+      "value": 5
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 142
+    },
+    {
+      "target": "statusnet-mrblog-nl",
+      "value": 4
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 5
+    },
+    {
+      "target": "statusnet-orangeseeds-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 21
+    },
+    {
+      "target": "statusnet-panda-id-au",
+      "value": 1
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 23
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 66
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 9
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 32
+    },
+    {
+      "target": "statusnet-recit-org",
+      "value": 3
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 113
+    },
+    {
+      "target": "statusnet-samnoble-org",
+      "value": 7
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 13
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 2
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 387
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 27
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-spraci-org",
+      "value": 8
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 25
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 72
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 8
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 62
+    },
+    {
+      "target": "statusnet-thornton2-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 48
+    },
+    {
+      "target": "statusnet-tschlotfeldt-de",
+      "value": 1
+    },
+    {
+      "target": "wordpress",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://quitter.se/p1ng0ut/foaf"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "identifier": "geographic-names-information-system-gnis",
+  "title": "Geographic Names Information System (GNIS)",
+  "description": {
+    "en": "The GNIS contains information about physical and cultural geographic features in the United States and associated areas, both current and historical (not including roads and highways). The database holds the Federally recognized name of each feature and defines the location of the feature by state, county, USGS topographic map, and geographic coordinates."
+  },
+  "triples": 3508685,
+  "contact_point": {
+    "name": "Blake Regalia",
+    "email": "blake.regalia@gmail.com"
+  },
+  "keywords": [
+    "geographic",
+    "geography",
+    "geology",
+    "gnis",
+    "semantic web",
+    "usgs"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 45532
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "description": "Machine readable metadata about the dataset",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://usgs-stko.geog.ucsb.edu/resource/void.ttl"
+    },
+    {
+      "title": "GNIS Feature Definitions",
+      "description": "A feature type vocabulary for GNIS features.",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://usgs-stko.geog.ucsb.edu/resource/cegis.ttl"
+    },
+    {
+      "title": "GNIS RDF Data Dump",
+      "description": "The entire GNIS dataset as RDF/Turtle (includes geometry data for URIs).",
+      "media_type": "application/zip",
+      "access_url": "http://usgs-stko.geog.ucsb.edu/resource/GNIS-LD.zip"
+    },
+    {
+      "title": "USGS-LOD SPARQL Service Description",
+      "description": "Machine readable metadata about SPARQL endpoint",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://usgs-stko.geog.ucsb.edu/resource/sd.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "USGS-LOD SPARQL Endpoint",
+      "description": "The SPARQL endpoint for live USGS-LD data.",
+      "access_url": "http://usgs-stko.geog.ucsb.edu:8080/sparql/select"
+    }
+  ]
+}

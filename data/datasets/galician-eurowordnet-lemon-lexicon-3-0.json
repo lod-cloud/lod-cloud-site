@@ -1,0 +1,32 @@
+{
+  "identifier": "galician-eurowordnet-lemon-lexicon-3-0",
+  "title": "Galician EuroWordNet-lemon lexicon (3.0)",
+  "description": {
+    "en": "This is the Galician EuroWordNet-Lemon lexicon. The lexicon was created from the Spanish Word-Net-LMF lexicon which is part of the Multilingual Central Repository (MCR http://adimen.si.ehu.es/web/MCR). The lexicon conforms to the 'lemon' specification.\r\n\r\nGloss and rgloss relations between synsets are not included. For LexicalEntries and LexicalSenses, original ID's are encoded in dcterms:source and the URIs follow the pattern '../lemma-PoS'. For Synsets and Translations original IDs are used in the URIs (.../ID). Synset rdfs:labels were generated as follows:\r\n\r\nINSERT {?synset rdfs:label ?labels } WHERE {SELECT ?synset (GROUP_CONCAT(?label; separator = ' ; ') as ?labels) { ?sense lemon:reference ?synset; rdfs:label ?label . } GROUP BY ?synset }\r\n\r\nhttp://lodserver.iula.upf.edu/id/WordNetLemon/GL/"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 734979,
+  "keywords": [
+    "EuroWordNet",
+    "lemon",
+    "lexicon",
+    "lexinfo"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 23399
+    },
+    {
+      "target": "sumo",
+      "value": 47609
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Galician EuroWordNet-lemon lexicon",
+      "access_url": "https://github.com/martavillegas/EuroWordNetLemon/blob/master/glg-30-lmf.v2.xml.ttl?raw=true"
+    }
+  ]
+}

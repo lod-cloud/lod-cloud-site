@@ -1,0 +1,38 @@
+{
+  "identifier": "tds",
+  "title": "TDS",
+  "description": {
+    "en": "Typological Database System ontology"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 3135,
+  "contact_point": {
+    "name": "Dimitriadis, Alexis, Menzo Windhouwer, Adam Saulwick, Rob Goedemans, and Tamás Bíró",
+    "email": "tds.gw@uu.nl"
+  },
+  "keywords": [
+    "language_description",
+    "linguistics",
+    "llod",
+    "ontology",
+    "typological-database"
+  ],
+  "other_download": [
+    {
+      "title": "TDS ontology",
+      "description": "TDS ontology",
+      "access_url": "http://languagelink.let.uu.nl/tds/ontology/LinguisticOntology.owl"
+    },
+    {
+      "title": "Typological Database System, main site",
+      "description": "TDS main site",
+      "access_url": "http://languagelink.let.uu.nl/tds/index.html"
+    },
+    {
+      "title": "TDS web interface",
+      "description": "TDS web interface",
+      "access_url": "http://languagelink.let.uu.nl/tds/main.html"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "identifier": "organic-edunet",
+  "title": "Organic Edunet Linked Open Data",
+  "description": {
+    "en": "Organic Edunet Linked Open Data currently contains the metadata of collection of learning objects exposed through the Organic.Edunet portal. These objects come from organizations that have become providers of educational materials on the portal. The topics of the collection include organic agriculture and agroecology."
+  },
+  "domain": "life_sciences",
+  "website": "http://data.organic-edunet.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.organic-edunet.eu/directory/identifier",
+  "triples": 11091,
+  "contact_point": {
+    "name": "University of Alcala de Henares",
+    "email": "enayat.rajabi@uah.es"
+  },
+  "keywords": [
+    "agriculture",
+    "agroecology",
+    "deref-vocab",
+    "format-dcterms",
+    "format-lom",
+    "format-rdf",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-producer",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 11091
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID of Organic Edunet",
+      "description": "VoID vocabulary",
+      "media_type": "meta/void",
+      "access_url": "http://data.organic-edunet.eu/void.ttl"
+    },
+    {
+      "title": "An Entry Point to an example relating to organic farming",
+      "media_type": "api/linked-data",
+      "access_url": "http://data.organic-edunet.eu/page/identifier/1454"
+    },
+    {
+      "title": "Mapping to Learning Object Metadata Standard (LOM)",
+      "description": "the lom vocabulary should be extend to http://ltsc.ieee.org/rdf/lomv1.0/vocab/",
+      "access_url": "http://ltsc.ieee.org/xsd/lomv1.0/common/vocabValues.xsd"
+    },
+    {
+      "title": "LRE v3.0",
+      "description": "LRE Thesauri \"170. Modern Languages\"",
+      "access_url": "http://lreforschools.eun.org/c/document_library/get_file?p_l_id=10970&folderId=12073&name=DLFE-1.pdf"
+    },
+    {
+      "title": "rdf dump",
+      "media_type": "RDF",
+      "access_url": "http://data.organic-edunet.eu/rdfdump.rdf"
+    },
+    {
+      "title": "D2RQ Mapping",
+      "media_type": "mapping/d2r",
+      "access_url": "http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf"
+    },
+    {
+      "title": "Sparql API",
+      "description": "Snorql for sparql endpoint",
+      "media_type": "text/html",
+      "access_url": "http://data.organic-edunet.eu/snorql/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI (rdf+xml)",
+      "description": "An rdf/xml example of a e-learning resource metadata",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2012-10-27T214009/1454.rdf"
+    },
+    {
+      "title": "Example URI (turtle)",
+      "description": "An n3 example of a e-learning resource metadata",
+      "media_type": "example/turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2012-10-27T214250/1454.n3"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "Sparql End point of Organic Edunet",
+      "access_url": "http://data.organic-edunet.eu/sparql"
+    },
+    {
+      "title": "SPARQL endpoint API",
+      "description": "Sparql endpoint query service",
+      "access_url": "http://data.organic-edunet.eu/snorql/"
+    }
+  ]
+}

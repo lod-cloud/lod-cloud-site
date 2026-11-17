@@ -1,0 +1,77 @@
+{
+  "identifier": "linklion",
+  "title": "LinkLion - A Link Repository for the Web of Data",
+  "description": {
+    "en": "LinkLion is an open-source central repository for the storage of links among resources in the Linked Open Data web. The main goal of LinkLion is to facilitate the publication, retrieval and use of links between knowledge bases. Our repository thus provides dedicated functionality for the upload, storage, querying and download of large sets of links.\r\n\r\n[Example URI](http://www.linklion.org/mapping/0098a704694143bfa0540687a4b0f0a9) of the LinkLion dataset.\r\n\r\n\"LinkLion: A Link Repository for the Web of Data\" by Markus Nentwig, Tommaso Soru, Axel-Cyrille Ngonga Ngomo, and Erhard Rahm. Proceedings of ESWC, (2014) [PDF](http://2014.eswc-conferences.org/sites/default/files/eswc2014pd_submission_56.pdf)"
+  },
+  "domain": "cross_domain",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "namespace": "http://www.linklion.org/",
+  "triples": 63020609,
+  "contact_point": {
+    "name": "Tommaso Soru",
+    "email": "tsoru@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-prov",
+    "format-void",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-producer",
+    "schemata",
+    "topic.schemata",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-drugbank",
+      "value": 680936
+    },
+    {
+      "target": "dbpedia",
+      "value": 1488108
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 906307
+    },
+    {
+      "target": "eprints-harvest-rkbexplorer",
+      "value": 1422824
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 1081243
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 631709
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 3833561
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 1279345
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 1415243
+    },
+    {
+      "target": "viaf",
+      "value": 1217461
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "Virtuoso SPARQL endpoint and query editor.",
+      "access_url": "http://www.linklion.org:8890/sparql"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "identifier": "data-incubator-metoffice",
+  "title": "Metoffice Weather Forecasts",
+  "description": {
+    "en": "Weather forecast data screenscraped from pages like http://www.metoffice.gov.uk/weather/uk/os/kirkwall_forecast_weather.html  and converted to Linked Data\r\n\r\nNew forecasts for every area in the UK are scraped every hour (the metoffice update the forecasts hourly). This means the triple count is continually rising by circa 2,000,000 (240 triples * 413 areas) an hour."
+  },
+  "domain": "government",
+  "website": "http://metoffice.dataincubator.org",
+  "namespace": "http://metoffice.dataincubator.org/",
+  "triples": 26000000,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "ka@talis.com"
+  },
+  "keywords": [
+    "country-uk",
+    "deref-vocab",
+    "format-compass",
+    "format-geo",
+    "format-meteo",
+    "format-rdf",
+    "format-skos",
+    "format-spatial",
+    "geographic",
+    "geography",
+    "government",
+    "license-",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "resource-deref",
+    "topic.geographic",
+    "topic.government",
+    "weather"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 348
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 413
+    }
+  ],
+  "other_download": [
+    {
+      "description": "VoID Description",
+      "media_type": "meta/void",
+      "access_url": "http://metoffice.dataincubator.org"
+    },
+    {
+      "description": "Met Office Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://metoffice.dataincubator.org/vocabs/metoffice/"
+    },
+    {
+      "description": "meteo Schema",
+      "access_url": "http://purl.org/ns/meteo#"
+    }
+  ],
+  "example": [
+    {
+      "description": "example resource",
+      "media_type": "example/html",
+      "access_url": "http://metoffice.dataincubator.org/areas/ta/falkirk/forecast/from/2011-08-01T07:39:00+00:00/for/2011-08-05/Day"
+    },
+    {
+      "description": "example resource",
+      "media_type": "example/html",
+      "access_url": "http://metoffice.dataincubator.org/areas/ta/falkirk"
+    },
+    {
+      "description": "example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://metoffice.dataincubator.org/areas/ta/falkirk/forecast/from/2011-08-01T07:39:00+00:00/for/2011-08-05/Day.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/metoffice/services/sparql"
+    }
+  ]
+}

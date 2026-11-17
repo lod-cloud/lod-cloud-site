@@ -1,0 +1,54 @@
+{
+  "identifier": "statusnet-samnoble-org",
+  "title": "statusnet-samnoble-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://samnoble.org"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 2
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 7
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 3
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 3
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://status.samnoble.org/planet/foaf"
+    }
+  ]
+}

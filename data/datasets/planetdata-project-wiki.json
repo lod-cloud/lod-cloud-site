@@ -1,0 +1,94 @@
+{
+  "identifier": "planetdata-project-wiki",
+  "title": "PlanetData Project Wiki",
+  "description": {
+    "en": "Semantic Wiki of PlanetData Project"
+  },
+  "domain": "publications",
+  "website": "http://planet-data.eu",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-swivt",
+    "lodcloud-diagram-2014-08-30",
+    "part-deref-vocab",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "aspire-manchester",
+      "value": 2
+    },
+    {
+      "target": "city-lichfield",
+      "value": 1
+    },
+    {
+      "target": "currency-designators",
+      "value": 1
+    },
+    {
+      "target": "ecb-linked-data",
+      "value": 2
+    },
+    {
+      "target": "fao-geopolitical-ontology",
+      "value": 27
+    },
+    {
+      "target": "fao-linked-data",
+      "value": 2
+    },
+    {
+      "target": "linked-edgar",
+      "value": 4
+    },
+    {
+      "target": "linked-eurostat",
+      "value": 2
+    },
+    {
+      "target": "oecd-linked-data",
+      "value": 2
+    },
+    {
+      "target": "personal-homepages",
+      "value": 4
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 1
+    },
+    {
+      "target": "sors",
+      "value": 11
+    },
+    {
+      "target": "transparency-linked-data",
+      "value": 2
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 3
+    },
+    {
+      "target": "world-wide-web-foundation",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://wiki.planet-data.eu/?title=Special:ExportRDF/Party&xmlmime=rdf"
+    }
+  ]
+}

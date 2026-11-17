@@ -1,0 +1,40 @@
+{
+  "identifier": "czech_addresses",
+  "title": "Czech addresses – Adresy v České republice",
+  "domain": "geography",
+  "website": "http://aplikace.mvcr.cz/adresy/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Ministry of the Interior of the Czech Republic – Ministerstvo vnitra České republiky",
+    "email": "posta@mvcr.cz"
+  },
+  "keywords": [
+    "bydlení",
+    "domestic policy",
+    "habitat",
+    "interior_ministry_czech_republic",
+    "meta.imported-from.cz.ckan.net",
+    "ministerstvo",
+    "ministerstvo_vnitra",
+    "ministry",
+    "public safety",
+    "residence",
+    "sídlo",
+    "veřejná bezpečnost",
+    "vnitřní politika"
+  ],
+  "links": [
+    {
+      "target": "czech_regions_code_list",
+      "value": 2
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Adresy v České republice- Address in Czech republic",
+      "description": "size: 6,9 MB, Adresy v České republice- Address in Czech republic",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://aplikace.mvcr.cz/adresy/Download.aspx"
+    }
+  ]
+}

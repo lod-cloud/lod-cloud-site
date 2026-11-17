@@ -1,0 +1,51 @@
+{
+  "identifier": "rkb-explorer-fun",
+  "title": "fun",
+  "domain": "publications",
+  "website": "http://fun.rkbexplorer.com",
+  "namespace": "http://fun.rkbexplorer.com/id/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "format-rdf",
+    "lod",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 33
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 1
+    },
+    {
+      "target": "semantic_web_dog_food",
+      "value": 1
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://fun.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://fun.rkbexplorer.com/models/void.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://fun.rkbexplorer.com/sparql"
+    }
+  ]
+}

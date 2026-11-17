@@ -1,0 +1,35 @@
+{
+  "identifier": "nhs-jargon",
+  "title": "NHS Jargon RDF",
+  "description": {
+    "en": "Extracted data from the 'NHS Jargon Buster? site (http://www.ic.nhs.uk/jargon-buster). Contains definitions for commonly used acronyms in NHS (British National Health Service) documents."
+  },
+  "website": "http://kantenwerk.org/2011/05/16/nhs-jargon-rdf/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 500,
+  "contact_point": {
+    "name": "NHS.uk"
+  },
+  "keywords": [
+    "format-dc",
+    "format-rdf",
+    "format-skos",
+    "format-wv",
+    "government",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.unconnected"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "media_type": "example/rdf+xml",
+      "access_url": "http://kantenwerk.org/metadata/nhs_jargon.rdf#arg"
+    }
+  ]
+}

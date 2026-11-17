@@ -1,0 +1,92 @@
+{
+  "identifier": "datos-bne-es",
+  "title": "datos.bne.es",
+  "description": {
+    "en": "Open bibliographic linked data from the Spanish National LIbrary including 4 million authority records, 2.4 million bibliographic records resulting in over 58 million triples.\r\n\r\nThe Spanish data are modelled using IFLA vocabularies.  For the migration and linkage, we used Marimba, a particular tool developed by us and designed for being used by librarians.\r\n\r\n### Data\r\n\r\n* 4 Million authority records\r\n* 2.4 million of bibliographic records\r\n* 58 million of RDF triples\r\n* 600K links with other resources (VIAF, SUDOC, GND (German national library), Libris, DBpedia)\r\n\r\nMore detail is provided at: <http://www.bne.es/es/Catalogos/DatosEnlazados/FuentesDatos/>\r\n\r\n> The data are taken from the catalog bibliographic and authority of the National Library of Spain. 3,900,000 have been extracted bibliographic resource records, papers belonging to modern, old, electronic resources, manuscripts, periodicals, maps, prints, photographs, printed music, sound and audiovisual recordings.\r\n> \r\n> Have also been extracted 4,200,000 authority records of persons, entities, conferences, uniform titles and subjects, which are used in bibliographic records. Both sets of records are coded according to the MARC21 format.\r\n> \r\n> So far it has become a very representative subset of the library catalog, consisting of 2.4 million bibliographic records of monographs modern formats, old printed music and sound recordings."
+  },
+  "domain": "publications",
+  "website": "http://datos.bne.es",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://datos.bne.es/resource/",
+  "triples": 58053215,
+  "contact_point": {
+    "name": "Ontology Engineering Group, Facultad de Informática, Universidad Politécnica de Madrid",
+    "email": "dvila@fi.upm.es"
+  },
+  "keywords": [
+    "bibliographic",
+    "cc0",
+    "format.ifla",
+    "format.rdf",
+    "lod",
+    "lodcloud",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 36431
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 76413
+    },
+    {
+      "target": "lexvo",
+      "value": 3112900
+    },
+    {
+      "target": "libris",
+      "value": 10884
+    },
+    {
+      "target": "sudocfr",
+      "value": 9725
+    },
+    {
+      "target": "viaf",
+      "value": 454068
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example resource (Turtle)",
+      "access_url": "http://datos.bne.es/resource/XX1718747"
+    },
+    {
+      "title": "bne.ttl",
+      "description": "Void file in Turtle describing the main features of the datos.bne.es dataset.\r\n\r\nAcknowledgements:\r\n\r\nCreated using http://lab.linkeddata.deri.ie/ve2/ by @mhausenblas",
+      "media_type": "meta/void",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-23T142816/bne.ttl"
+    },
+    {
+      "title": "Data dump of authority data in (N-Triples)",
+      "media_type": "bz2:nt",
+      "access_url": "http://datos.bne.es/datadumps/aut091211.nt.bz2"
+    },
+    {
+      "title": "Data dump of bibliographic data in (N-Triples)",
+      "media_type": "bz2:nt",
+      "access_url": "http://datos.bne.es/datadumps/bib121211.nt.bz2"
+    },
+    {
+      "title": "Data dump of owl:sameAs links to viaf.org",
+      "media_type": "bz2:nt",
+      "access_url": "http://datos.bne.es/datadumps/links-viaf.nt.bz2"
+    },
+    {
+      "title": "Data dump of owl:sameAs links to DBPedia, GND, Libris and Sudoc",
+      "access_url": "http://datos.bne.es/datadumps/links-others.nt.bz2"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql Endpoint",
+      "description": "SPARQL endpoint datos.bne.es dataset",
+      "access_url": "http://datos.bne.es/sparql"
+    }
+  ]
+}

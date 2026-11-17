@@ -1,0 +1,41 @@
+{
+  "identifier": "xwn",
+  "title": "Open Multilingual Wordnet",
+  "description": {
+    "en": "Documentation of and links to data for wordnets in 20 languages (Albanian, Arabic, Danish, English, Persian, Finnish, French, Hebrew, Italian, Japanese, Basque, Catalan, Galician, Spanish, Indonesian, Malaysian, Norwegian (Bokmal and Nynorsk), Portuguese, Thai).  Size, quality and license varies widely, but all licenses are open licenses that allow redistribution.\r\n\r\nThere is also an online search interface."
+  },
+  "domain": "linguistics",
+  "website": "http://casta-net.jp/~kuribayashi/multi/",
+  "triples": 10145232,
+  "contact_point": {
+    "name": "Francis Bond",
+    "email": "bond@ieee.org"
+  },
+  "keywords": [
+    "lexicon",
+    "llod",
+    "lod",
+    "multilingual",
+    "wordnet"
+  ],
+  "links": [
+    {
+      "target": "wordnet-rdf",
+      "value": 1715884
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Open Multilingual Wordnet Intro and Downloads",
+      "description": "Documentation of and links to data for wordnets in 20 languages.",
+      "media_type": "text/html",
+      "access_url": "http://compling.hss.ntu.edu.sg/omw/"
+    },
+    {
+      "title": "Complete data of all languages, including LMF and lemon files",
+      "description": "Contains folders for each language, containing LMF and lemon files in RDFXML",
+      "media_type": "application/zip",
+      "access_url": "http://compling.hss.ntu.edu.sg/omw/all+xml.zip"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-greek",
+  "title": "Universal Dependencies Treebank Greek",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Greek treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Greek",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 59156,
+  "contact_point": {
+    "name": "Prokopidis, Prokopis",
+    "email": "prokopis@ilsp.gr"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Greek Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Greek/archive/master.zip"
+    },
+    {
+      "title": "UD_Greek RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "access_url": "https://datahub.io/dataset/eb7ad740-c521-4993-85c0-c980bfd9b00e/resource/d93a63d0-e39d-41dd-a698-bb1cf89432ea/download/udgreek.rdf"
+    }
+  ]
+}

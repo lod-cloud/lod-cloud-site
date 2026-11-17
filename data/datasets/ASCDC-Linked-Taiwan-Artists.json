@@ -1,0 +1,85 @@
+{
+  "identifier": "ASCDC-Linked-Taiwan-Artists",
+  "title": "Linked Taiwan Artists (LTA)",
+  "description": {
+    "en": "The LOD dataset of Linked Taiwan Artists (LTA) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the online database of “Starting Out from 23.5°N: Chen Cheng-po” (從北緯23.5°出發 陳澄波, https://chenchengpo.asdc.sinica.edu.tw/main_en). It provides information on the biographical and work information of the renowned Taiwanese artists of the early 20th centuries and could be served as foundation for the study of Taiwan’s art history at that period. Containing 311 data records and 17,298 triples, the textual content within the LOD dataset is licensed under the Creative Common Attribution (CC 0)."
+  },
+  "domain": "user_generated",
+  "website": "https://linkedart.ascdc.tw/index.php",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://linkedart.ascdc.tw/lod/",
+  "triples": 17298,
+  "contact_point": {
+    "name": "Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.)",
+    "email": "sophy@pgate.sinica.edu.tw"
+  },
+  "keywords": [
+    "ASCDC",
+    "Arts",
+    "Art History",
+    "Paintings",
+    "Artists",
+    "Chen Cheng-po",
+    "Taiwan",
+    "Japanese Colonial Period"
+  ],
+  "links": [
+    {
+      "target": "bioportal-hp_x1",
+      "value": 234
+    },
+    {
+      "target": "dbpedia",
+      "value": 170
+    },
+    {
+      "target": "getty-tgn",
+      "value": 53
+    },
+    {
+      "target": "viaf",
+      "value": 31
+    }
+  ],
+  "full_download": [
+    {
+      "title": "ASCDC-Linked Taiwan Artists - SPARQL Endpoint",
+      "description": "Access to full download of entire LOD dataset of ASCDC's Linked Taiwan Artists for further reuse.",
+      "media_type": "OWL",
+      "download_url": "https://linkedart.ascdc.tw/assets/ASCDC_Taiwan%20Artists.owl"
+    },
+    {
+      "title": "ASCDC-Linked Taiwan Artists - SPARQL Endpoint",
+      "description": "Access to full download of entire LOD dataset of ASCDC's Linked Taiwan Artists JSON format for further reuses.",
+      "media_type": "JSON",
+      "download_url": "https://linkedart.ascdc.tw/sparql?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0APREFIX+dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0Aselect+%3Fs+%3Fp+%3Fo+%0D%0Awhere+%7B%0D%0A%3Fs+%3Fp+%3Fo.%0D%0A%7D&output=json"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ASCDC LODDatasets - Downloads",
+      "description": "Webpage of ASCDC LODDatasets for downloads of entire published LOD-based datasets.",
+      "media_type": "text/html",
+      "access_url": "https://data.ascdc.tw/en/data.php"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource: Chen Cheng-po/ 陳澄波",
+      "description": "Resource contains the LOD-based biographical data on the life of the Taiwanese painter “Chen Cheng-po/ 陳澄波”, lived between 1895 and 1947.",
+      "access_url": "https://linkedart.ascdc.tw/lod/Person/PR0001"
+    },
+    {
+      "title": "Example Resource: Temple of Wenling Sea Goddess/ 溫陵媽祖廟",
+      "description": "Resource contains the LOD-based data on Chen Cheng-po’s painting work about the “Temple of Wenling Sea Goddess/ 溫陵媽祖廟”, created in 1927.",
+      "access_url": "https://linkedart.ascdc.tw/lod/Painting/AW0307"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ASCDC-Linked Taiwan Artists - SPARQL Endpoint",
+      "description": "Access to SPARQL endpoint of ASCDC's Linked Taiwan Artists datasets for data retrievals, downloads and further reuses.",
+      "access_url": "https://linkedart.ascdc.tw/live_sparql.php"
+    }
+  ]
+}

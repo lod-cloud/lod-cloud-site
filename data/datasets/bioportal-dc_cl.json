@@ -1,0 +1,143 @@
+{
+  "identifier": "bioportal-dc_cl",
+  "title": "Dendritic cell",
+  "description": {
+    "en": "Representation of types of dendritic cell. Note that the domain of this ontology is wholly subsumed by the domain of the Cell ontology (CL)."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1144",
+  "triples": 3004,
+  "contact_point": {
+    "name": "Lindsay Cowell"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-biomodels",
+      "value": 16
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 10
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 48
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 12
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 44
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 13
+    },
+    {
+      "target": "bioportal-dc_cl",
+      "value": 57
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 40
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 21
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 20
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 105
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 27
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 39
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 10
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 140
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 11
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 59
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 73
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 16
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 10
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 14
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 13
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 10
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 14
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 19
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45252?apikey=BP_API_KEY"
+    }
+  ]
+}

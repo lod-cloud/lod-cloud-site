@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-polish",
+  "title": "Universal Dependencies Treebank Polish",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Polish treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Polish",
+  "triples": 83571,
+  "contact_point": {
+    "name": "Zeman, Daniel; Mašek, Jan; Rosa, Rudolf",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Polish Treebank",
+      "description": "GNU GPL 3.0",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Polish/archive/master.zip"
+    },
+    {
+      "title": "UD_Polish RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/289f14c4-d50d-4158-b41f-90ff73514baf/resource/4fde99f7-4b7f-442c-b642-cd02d139b330/download/udpolish.rdf"
+    }
+  ]
+}

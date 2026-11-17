@@ -1,0 +1,70 @@
+{
+  "identifier": "rdflicense",
+  "title": "RDFLicense",
+  "description": {
+    "en": "This dataset contains 126 licenses (suitable for general works, data, etc.) expressed as RDF. The official URI of the dataset is: \r\n\r\nhttp://purl.org/NET/rdflicense\r\n\r\n(it implements content negotiation).\r\nIndividual licenses can be also accessed directly. For example, the Creative Commons CC-BY 3.0 for Greece can be found as: http://purl.org/NET/rdflicense/cc-by-3.0-gr etc.)\r\n\r\nThis work is the joint effort of OEG-UPM (Víctor Rodríguez-Doncel) and INRIA (Serena Villata).\r\n\r\nThe editors have not acted in behalf of any of the license issuers, do not claim the legal value of this RDF-version of the licenses, and explicitly decline any responsibility in their use."
+  },
+  "domain": "cross_domain",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://purl.org/NET/rdflicense",
+  "triples": 1975,
+  "contact_point": {
+    "name": "Víctor Rodríguez-Doncel, Serena Villata",
+    "email": "victorr@ac.upc.edu"
+  },
+  "keywords": [
+    "crossdomain",
+    "licenses",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 90
+    },
+    {
+      "target": "lexvo",
+      "value": 126
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDFLicense Turtle Dump",
+      "description": "This set of licenses containts the Creative Commons licenses, the Open Data Commons licenses and the GPL license, translated into RDF format",
+      "media_type": "rdf/turtle",
+      "access_url": "http://oeg-dev.dia.fi.upm.es/licensius/rdflicense/rdflicense.ttl"
+    },
+    {
+      "title": "RDFLicense RDF/XML Dump",
+      "description": "This is the RDF License Dump in RDF/XML format",
+      "media_type": "RDF",
+      "access_url": "http://oeg-dev.dia.fi.upm.es/licensius/rdflicense/rdflicense.rdf"
+    },
+    {
+      "title": "RDFLicense VoID Description",
+      "media_type": "meta/void",
+      "access_url": "http://oeg-dev.dia.fi.upm.es/licensius/rdflicense/void.ttl"
+    },
+    {
+      "title": "Dataset portal",
+      "description": "Dataset description and alternative access to files",
+      "media_type": "HTML",
+      "access_url": "http://oeg-dev.dia.fi.upm.es/licensius/rdflicense/index.html"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example",
+      "description": "Example of license as RDF",
+      "media_type": "example/turtle",
+      "access_url": "http://oeg-dev.dia.fi.upm.es/licensius/rdflicense/example.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL endpoint containig the licenses\r\nsparql_graph_name http://test.com/rdflicense",
+      "access_url": "http://linkeddata4.dia.fi.upm.es:8907/sparql"
+    }
+  ]
+}

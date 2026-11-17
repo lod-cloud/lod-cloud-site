@@ -1,0 +1,92 @@
+{
+  "identifier": "asjp",
+  "title": "Automated Similarity Judgment Program lexical data",
+  "description": {
+    "en": "ASJP collects 40 words from 5500 languages in a simplified phonetic representation. More background can be found at http://email.eva.mpg.de/~wichmann/ASJPHomePage.htm"
+  },
+  "domain": "linguistics",
+  "website": "http://cldbstest.eva.mpg.de/asjp",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 5000000,
+  "keywords": [
+    "deref-vocab",
+    "format-dcterms",
+    "format-glottolog",
+    "format-lexvo",
+    "license-metadata",
+    "linguistic",
+    "linguistics",
+    "llod",
+    "lod",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "typology",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "lexvo",
+      "value": 5000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Renderings",
+      "description": "A dump of all strings which are used to render the ASJP meanings in all languages",
+      "download_url": "http://cldbstest.eva.mpg.de/asjp/downloads/renderings.ttl.zip"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Languoids",
+      "description": "A dump of all the languoid information in ASJP",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/downloads/languoids.rdf.zip"
+    },
+    {
+      "title": "Families",
+      "description": "A dump of all family information in ASJP",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/downloads/families.rdf.zip"
+    },
+    {
+      "title": "Senses",
+      "description": "A dump of all the ASJP meanings",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/downloads/senses.rdf.zip"
+    },
+    {
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/ontologies/asjp.owl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Language",
+      "description": "Data about a language: name, genealogy, speaker number, list of words, list of lexical distances to other languages",
+      "media_type": "text/html",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/resource/language/id/l99.rdf"
+    },
+    {
+      "title": "Rendering",
+      "description": "The ASJP-rendering of a particular meaning in a particular language",
+      "media_type": "text/html",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/resource/rendering/id/r1234.rdf"
+    },
+    {
+      "title": "Sense",
+      "description": "A meaning with links to translations in 5500 languages",
+      "media_type": "text/html",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/resource/sense/id/s40.rdf"
+    },
+    {
+      "title": "Language Family",
+      "description": "A group of related languages. Contains a phylogenetic tree",
+      "media_type": "text/html",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/resource/family/id/fROMANCE.rdf"
+    },
+    {
+      "title": "Distance",
+      "description": "The distance between two languoids (in this case Juhoan and Bijogo)",
+      "media_type": "text/html",
+      "access_url": "http://cldbstest.eva.mpg.de/asjp/resource/distance/id/d13-468.rdf"
+    }
+  ]
+}

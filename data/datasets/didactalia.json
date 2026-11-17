@@ -1,0 +1,108 @@
+{
+  "identifier": "didactalia",
+  "title": "Didactalia, índice de recursos educativos para profesores, padres y alumnos (GNOSS)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://didactalia.net/\">Didactalia.net</a>\r\n is a K-12 global community and an storage place for teachers, students and parents to create, share and find open educational resources that has currently more than 50,000 items with semantic contexts. In Didactalia.net, users can create, share and discover content and promote educational spaces where they can use lessons with facet based searches and enriched contexts. The project also offers a Personal Learning Environment (PLE) that includes an online reputation management service and a space where learners take control, communicate and cope with their own learning upgraded with personalized contexts. The Semantic Technology, the use of Linked Open Data and the creation of an ecosystem of learning communities in the context of Social Learning form the core of Didactalia.net. In this sense, the community aims to build an educational graph that gives meaning to distributed education and fragmented work of many teachers. This knowledge is managed on learning patterns and sequences that make sense for the educational community.\r\n</p>\r\n<p>\r\n<a href=\"http://gnoss.com/\">GNOSS (RIAM Intelearning Lab)</a>\r\npromotes Didactalia.net.\r\n</p>\r\n<p>\r\n<a href=\"http://didactalia.net/\">Didactalia.net</a>\r\n es una comunidad educativa global para profesores, padres y estudiantes desde la Educación Infantil hasta el Bachillerato que incluye una colección con más de 50.000 recursos educativos abiertos. En ella, los usuarios pueden crear, compartir y descubrir contenidos educativos y promover clases y comunidades de aprendizaje en las que trabajar lecciones en un espacio social con búsquedas facetadas y contextos enriquecidos. En cuanto a identidad digital, Didactalia.net propone un Entorno Personal de Aprendizaje (PLE), que incluye herramientas semánticas y sociales para gestionar la reputación y un espacio en el que el usuario recoge, expone y comparte sus contenidos de aprendizaje. La tecnología semántica, el aprovechamiento de los datos abiertos enlazados (\r\n<a href=\"http://linkeddata.org/\">Linked Data</a>\r\n) y la creación de un ecosistema de comunidades de aprendizaje en un contexto de Social Learning configuran el núcleo de Didactalia.net. En este sentido, la comunidad aspira a la construcción de un grafo educativo que dé sentido al trabajo distribuido y atomizado de muchos profesores y que esté organizado sobre patrones y secuencias de aprendizaje que tengan sentido para la comunidad educativa.\r\n</p>\r\n<p>\r\n<a href=\"http://gnoss.com/\">GNOSS (RIAM Intelearning Lab)</a>\r\npromueve Didactalia.net.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://didactalia.net",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://didactalia.net",
+  "triples": 3494839,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "country-spain",
+    "country.es",
+    "dc",
+    "e-learning",
+    "education",
+    "educational",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 8824
+    },
+    {
+      "target": "freebase",
+      "value": 107678
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 3434
+    },
+    {
+      "target": "gnoss",
+      "value": 6361
+    },
+    {
+      "target": "ineverycrea",
+      "value": 260655
+    },
+    {
+      "target": "interactivemaps-gnoss",
+      "value": 94300
+    },
+    {
+      "target": "mismuseos-gnoss",
+      "value": 3650
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 4664
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "description": "voiD description",
+      "access_url": "http://didactalia.net/voidDidactaliaGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "description": "This is an RDF/XML example link of one of the resources published in didactalia. Currently, almost 10000 resources have been published in the platform.",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://didactalia.net/comunidad/materialeducativo/recurso/La-teoria-de-la-relatividad-en-ingles/eb95e40e-937f-4447-a68d-5f1a3fbc97ff?rdf"
+    },
+    {
+      "description": "This is an  HTML+RDFa example link of one of the resources published in didactalia. Currently, almost 10000 resources have been published in the platform.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://didactalia.net/comunidad/materialeducativo/recurso/La-teoria-de-la-relatividad-en-ingles/eb95e40e-937f-4447-a68d-5f1a3fbc97ff"
+    },
+    {
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://didactalia.net/comunidad/materialeducativo/recursos/tag/relativity?rdf"
+    }
+  ]
+}

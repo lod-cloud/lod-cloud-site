@@ -1,0 +1,47 @@
+{
+  "identifier": "semanticweb-org",
+  "title": "semanticweb.org",
+  "description": {
+    "en": "Semantic Wiki about the Semantic Web community"
+  },
+  "domain": "user_generated",
+  "website": "http://semanticweb.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://semanticweb.org/id/",
+  "triples": 50000,
+  "contact_point": {
+    "name": "Markus Krötzsch",
+    "email": "mak@aifb.uni-karlsruhe.de"
+  },
+  "keywords": [
+    "format-rdf",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "usergeneratedcontent",
+    "wiki"
+  ],
+  "links": [
+    {
+      "target": "revyu",
+      "value": 51
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://semanticweb.org/RDF/alldata.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html",
+      "access_url": "http://semanticweb.org/id/Pacific_Ocean"
+    }
+  ]
+}

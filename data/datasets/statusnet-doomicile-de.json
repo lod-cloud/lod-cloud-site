@@ -1,0 +1,33 @@
+{
+  "identifier": "statusnet-doomicile-de",
+  "title": "statusnet-doomicile-de",
+  "description": {
+    "en": "StatusNet instance hosted at http://doomicile.de"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://bartle.doomicile.de/mbo/foaf"
+    }
+  ]
+}

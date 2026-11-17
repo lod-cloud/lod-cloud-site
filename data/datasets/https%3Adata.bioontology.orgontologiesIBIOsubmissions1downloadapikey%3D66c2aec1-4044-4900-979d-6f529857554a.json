@@ -1,0 +1,16 @@
+{
+  "identifier": "https:data.bioontology.orgontologiesIBIOsubmissions1downloadapikey=66c2aec1-4044-4900-979d-6f529857554a",
+  "title": "Indian Biodiversity",
+  "description": {
+    "en": "Indian Biodiversity"
+  },
+  "domain": "life_sciences",
+  "website": "https://bioportal.bioontology.org/ontologies/IBIO/?p=summary",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "namespace": "https://data.bioontology.org/ontologies/IBIO/submissions/1/download?apikey=66c2aec1-4044-4900-979d-6f529857554a",
+  "triples": 0,
+  "contact_point": {
+    "name": "Vishal Lama",
+    "email": "iamvishallama@gmail.com"
+  }
+}

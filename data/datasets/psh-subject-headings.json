@@ -1,0 +1,55 @@
+{
+  "identifier": "psh-subject-headings",
+  "title": "Polythematic Structured Subject Heading System",
+  "description": {
+    "en": "Polythematic Structured Subject Headings System (PSH) is a bilingual (Czech/English) structured subject heading system."
+  },
+  "domain": "publications",
+  "website": "http://psh.ntkcz.cz/skos/home/html/en",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://psh.ntkcz.cz/",
+  "triples": 100000,
+  "contact_point": {
+    "name": "National Technical Library, Czech Republic",
+    "email": "jindrich.mynarz@techlib.cz"
+  },
+  "keywords": [
+    "czech",
+    "format-rdf",
+    "format-skos",
+    "format-xhtml",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3000
+    },
+    {
+      "target": "lcsh",
+      "value": 3000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://pshmanager.techlib.cz/static/skos/psh-skos.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://psh.ntkcz.cz/skos/PSH320/"
+    }
+  ]
+}

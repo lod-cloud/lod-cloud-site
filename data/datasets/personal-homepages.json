@@ -1,0 +1,513 @@
+{
+  "identifier": "personal-homepages",
+  "title": "Personal_Homepages",
+  "description": {
+    "en": "Contains data from personal homepages, such as foaf profiles etc. \r\n\r\nA list of files can be found in the appended text file"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "deref-vocab",
+    "dump",
+    "format-admin",
+    "format-airport",
+    "format-ann",
+    "format-b2bo",
+    "format-bibo",
+    "format-bio",
+    "format-book",
+    "format-c4dm",
+    "format-cal",
+    "format-cc",
+    "format-cert",
+    "format-content",
+    "format-coun",
+    "format-cs",
+    "format-cv",
+    "format-daml",
+    "format-dcat",
+    "format-dcterm",
+    "format-dctypes",
+    "format-doap",
+    "format-doc",
+    "format-flow",
+    "format-foaf",
+    "format-frbrcore",
+    "format-gn",
+    "format-gr",
+    "format-hcard",
+    "format-icaltzd",
+    "format-label",
+    "format-link",
+    "format-log",
+    "format-mo",
+    "format-oo",
+    "format-open",
+    "format-org",
+    "format-owl",
+    "format-pingback",
+    "format-pos",
+    "format-prov",
+    "format-psych",
+    "format-rdf",
+    "format-rdfs",
+    "format-re",
+    "format-ref",
+    "format-rsa",
+    "format-rss",
+    "format-sioc",
+    "format-skos",
+    "format-swc",
+    "format-time",
+    "format-tsioc",
+    "format-vann",
+    "format-vcard2006",
+    "format-visit",
+    "format-voaf",
+    "format-void",
+    "format-vs",
+    "format-w3con",
+    "format-wdr",
+    "format-wdrs",
+    "format-wn",
+    "format-wordmap",
+    "format-wot",
+    "format-xhv",
+    "format-xtypes",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "part-deref-vocab",
+    "provenance-metadata",
+    "social web",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "apache",
+      "value": 89
+    },
+    {
+      "target": "archiveshub-linkeddata",
+      "value": 1
+    },
+    {
+      "target": "aspire-manchester",
+      "value": 1
+    },
+    {
+      "target": "b3kat",
+      "value": 480
+    },
+    {
+      "target": "bbc-music",
+      "value": 3
+    },
+    {
+      "target": "berlios",
+      "value": 3
+    },
+    {
+      "target": "bibsonomy",
+      "value": 15
+    },
+    {
+      "target": "bio2rdf-geneid",
+      "value": 3
+    },
+    {
+      "target": "bootsnall",
+      "value": 2
+    },
+    {
+      "target": "clean-energy-data-reegle",
+      "value": 4
+    },
+    {
+      "target": "codehaus",
+      "value": 4
+    },
+    {
+      "target": "dbpedia",
+      "value": 1111
+    },
+    {
+      "target": "dbpedia-de",
+      "value": 2
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 1
+    },
+    {
+      "target": "dbpedia-it",
+      "value": 2
+    },
+    {
+      "target": "dbpedia-lite",
+      "value": 25
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 1
+    },
+    {
+      "target": "dcs-sheffield",
+      "value": 4
+    },
+    {
+      "target": "debian-package-tracking-system",
+      "value": 7
+    },
+    {
+      "target": "deutsche-nationalbibliografie-dnb",
+      "value": 2
+    },
+    {
+      "target": "enipedia",
+      "value": 1
+    },
+    {
+      "target": "fao-geopolitical-ontology",
+      "value": 15
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 335
+    },
+    {
+      "target": "gnu-licenses",
+      "value": 34
+    },
+    {
+      "target": "greek-administrative-geography",
+      "value": 2
+    },
+    {
+      "target": "gutenberg",
+      "value": 2
+    },
+    {
+      "target": "hellenic-fire-brigade",
+      "value": 9
+    },
+    {
+      "target": "hellenic-police",
+      "value": 6
+    },
+    {
+      "target": "indymedia",
+      "value": 2
+    },
+    {
+      "target": "jamendo-dbtune",
+      "value": 1
+    },
+    {
+      "target": "jugem",
+      "value": 1
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 52
+    },
+    {
+      "target": "lcsh",
+      "value": 13
+    },
+    {
+      "target": "lexvo",
+      "value": 13
+    },
+    {
+      "target": "lingvoj",
+      "value": 110
+    },
+    {
+      "target": "linked-crunchbase",
+      "value": 14
+    },
+    {
+      "target": "linked-edgar",
+      "value": 3
+    },
+    {
+      "target": "linked-eurostat",
+      "value": 3
+    },
+    {
+      "target": "linked-railway-data-project",
+      "value": 1
+    },
+    {
+      "target": "linked-stockindex",
+      "value": 1
+    },
+    {
+      "target": "linkedct",
+      "value": 4
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 2
+    },
+    {
+      "target": "linkedmdb",
+      "value": 1
+    },
+    {
+      "target": "livejournal-com",
+      "value": 35
+    },
+    {
+      "target": "lod2-project-wiki",
+      "value": 3
+    },
+    {
+      "target": "my-experiment",
+      "value": 3
+    },
+    {
+      "target": "myopenlink-dataspaces",
+      "value": 28
+    },
+    {
+      "target": "nalt",
+      "value": 56
+    },
+    {
+      "target": "nhs-jargon",
+      "value": 5
+    },
+    {
+      "target": "nuts-geovocab",
+      "value": 1
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1
+    },
+    {
+      "target": "open-library",
+      "value": 2
+    },
+    {
+      "target": "openlinksw-dataspaces",
+      "value": 37
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 1
+    },
+    {
+      "target": "oreilly",
+      "value": 4
+    },
+    {
+      "target": "planetdata-project-wiki",
+      "value": 1
+    },
+    {
+      "target": "princeton-library-findingaids",
+      "value": 3
+    },
+    {
+      "target": "rdfize-lastfm",
+      "value": 3
+    },
+    {
+      "target": "rdfohloh",
+      "value": 26
+    },
+    {
+      "target": "revyu",
+      "value": 8
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 88
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 87
+    },
+    {
+      "target": "southampton-ac-uk",
+      "value": 3
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 5
+    },
+    {
+      "target": "statusnet-chickenkiller-com",
+      "value": 10
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 12
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 221
+    },
+    {
+      "target": "statusnet-freelish-us",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 13
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 17
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 12
+    },
+    {
+      "target": "statusnet-lydiastench-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 13
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 38
+    },
+    {
+      "target": "statusnet-mrblog-nl",
+      "value": 1
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 4
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 4
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 8
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 18
+    },
+    {
+      "target": "statusnet-progval-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 9
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 376
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 54
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 25
+    },
+    {
+      "target": "statusnet-samnoble-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 61
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 5
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 9
+    },
+    {
+      "target": "statusnet-status-cat",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 39
+    },
+    {
+      "target": "statusnet-sweetiebelle-net",
+      "value": 5
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 2
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 16
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 25
+    },
+    {
+      "target": "tekord",
+      "value": 5
+    },
+    {
+      "target": "umbel",
+      "value": 4
+    },
+    {
+      "target": "vivo-university-of-florida",
+      "value": 1
+    },
+    {
+      "target": "w3c",
+      "value": 565
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 1
+    },
+    {
+      "target": "wordpress",
+      "value": 3
+    }
+  ]
+}

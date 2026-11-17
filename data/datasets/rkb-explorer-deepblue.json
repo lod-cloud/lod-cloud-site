@@ -1,0 +1,85 @@
+{
+  "identifier": "rkb-explorer-deepblue",
+  "title": "Deep Blue (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://deepblue.rkbexplorer.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://deepblue.rkbexplorer.com/id/",
+  "triples": 39421,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "debug-tinylod",
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.unconnected",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 3
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://deepblue.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://deepblue.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://deepblue.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://deepblue.rkbexplorer.com/id/person-0d961f4145be8efdede333a02e0e5596"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://deepblue.rkbexplorer.com/sparql/"
+    }
+  ]
+}

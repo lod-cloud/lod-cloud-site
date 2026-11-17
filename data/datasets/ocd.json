@@ -1,0 +1,71 @@
+{
+  "identifier": "ocd",
+  "title": "Italian Chamber of Deputies - official dataset",
+  "description": {
+    "en": "**dati.camera.it - Linked Open Data della Camera dei deputati**  \r\n A complete catalogue of digital data and documents of all legislatures, from I legislature of the Kingdom of Sardinia (1848) to the current legislature of the Republic.\r\n\r\n* Biographical data of persons\r\n* Deputies\r\n* Parliamentary Mandates\r\n* Parliamentary Bodies of the Chamber\r\n* Parliamentary Groups\r\n* Draft Bills\r\n* Acts of direction and control\r\n* Verbatim reports\r\n* Reports of the Councils and Committees\r\n* Votes"
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://dati.camera.it/ocd/",
+  "triples": 490000000,
+  "contact_point": {
+    "name": "Italian Chamber of Deputies",
+    "email": "assistenza-dati@camera.it"
+  },
+  "keywords": [
+    "acts",
+    "bills",
+    "country-italy",
+    "deputies",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "parliament",
+    "rdf",
+    "reports",
+    "votes"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 791
+    },
+    {
+      "target": "dbpedia-it",
+      "value": 236
+    },
+    {
+      "target": "freebase",
+      "value": 135
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 507
+    }
+  ],
+  "other_download": [
+    {
+      "title": "data download page",
+      "description": "provides single slices of RDF data based on the described classes",
+      "access_url": "http://dati.camera.it/it/download"
+    },
+    {
+      "title": "VOID description",
+      "access_url": "http://dati.camera.it/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dati.camera.it/ocd/persona.rdf/p305757"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "main sparql EndPoint",
+      "access_url": "http://dati.camera.it/sparql"
+    }
+  ]
+}

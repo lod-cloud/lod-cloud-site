@@ -1,0 +1,15 @@
+{
+  "identifier": "Altawil",
+  "title": "AAT-atawil",
+  "description": {
+    "en": "AAT notes"
+  },
+  "domain": "cross_domain",
+  "website": "https://altawil.my.opendatasoft.com",
+  "license": "https://opendefinition.org/licenses/fal",
+  "triples": 0,
+  "contact_point": {
+    "name": "muhanad altawil",
+    "email": "abctawil@gmail.com"
+  }
+}

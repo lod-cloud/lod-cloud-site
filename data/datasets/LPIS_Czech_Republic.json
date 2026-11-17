@@ -1,0 +1,29 @@
+{
+  "identifier": "LPIS_Czech_Republic",
+  "title": "Land parcel dataset (LPIS) from Czech Republic @PSNC",
+  "description": {
+    "en": "This dataset contains land parcel and cadastral data collected from czech republic . the initial data source was in shapefiles which are transformed into linked data."
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://w3id.org/foodie/open/cz/pLPIS_180616_WGS/",
+  "triples": 24491282,
+  "image": "https://box.psnc.pl/f/cae78aea0f/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "land parcel",
+    "agriculture",
+    "land boundary",
+    "cadsatral"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

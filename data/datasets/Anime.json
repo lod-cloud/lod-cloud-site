@@ -1,0 +1,22 @@
+{
+  "identifier": "Anime",
+  "title": "Anime Dataset",
+  "description": {
+    "en": "We are using an Anime Dataset to get information about our favorite anime. Anime is computer generated Animation originating from Japan. Our Dataset contains unique identifiers for each Anime. Title of the anime, Synopsis of the Anime which is the brief summary of the anime. The Genre of the anime, along with the Air Date of the Anime,no. Episodes, members, popularity, ranking, score, image_url and Anime link on the most famous Anime Website MyAnimeList.com."
+  },
+  "domain": "user_generated",
+  "website": "http://www.semanticweb.org/asim/ontologies/2023/0/Anime#",
+  "license": "https://opendefinition.org/licenses/fal",
+  "triples": 19312,
+  "contact_point": {
+    "name": "Ejaz Habib Dar",
+    "email": "i181657@nu.edu.pk"
+  },
+  "full_download": [
+    {
+      "title": "Animes.csv",
+      "description": "This download link contains a google sheet where dataset is uploaded.",
+      "download_url": "https://docs.google.com/spreadsheets/d/1IGFA1xlNSJUKKdoVLZub8xyK2yBRKJ0NxRy0yDt8AIg/edit#gid=2140525863"
+    }
+  ]
+}

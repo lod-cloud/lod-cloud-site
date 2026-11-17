@@ -1,0 +1,64 @@
+{
+  "identifier": "linked-open-vocabularies-lov",
+  "title": "Linked Open Vocabularies (LOV)",
+  "description": {
+    "en": "The LOV dataset contains the description of RDFS vocabularies or OWL ontologies defined for and used by datasets in the Linked Data Cloud. Whenever available each vocabulary includes references to the datasets using it, in particular those listed in CKAN. The descriptions use in particular the VOAF vocabulary to state different ways such vocabularies can rely on, extend, specify, annotate or otherwise link to each other, and reuse a lot of vocabularies it describes, such as Dublin Core, voiD, BIBO, and many more."
+  },
+  "domain": "cross_domain",
+  "website": "http://lov.okfn.org/dataset/lov/index.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://lov.okfn.org/dataset/lov/lov#",
+  "triples": 18659,
+  "contact_point": {
+    "name": "Bernard Vatant",
+    "email": "bernard.vatant@mondeca.com"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-bibo",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-skos",
+    "format-vann",
+    "format-xsd",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "published-by-producer",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "schemapedia",
+      "value": 45
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 82
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF File",
+      "media_type": "RDF",
+      "access_url": "http://lov.okfn.org/dataset/lov/lov.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "RDF example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lov.okfn.org/dataset/lov/rdf/vocabulary_cco.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://lov.okfn.org/endpoint/lov"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "identifier": "wikidata",
+  "title": "Wikidata",
+  "description": {
+    "en": "free knowledge database project hosted by Wikimedia and edited by volunteers"
+  },
+  "domain": "user_generated",
+  "website": "https://www.wikidata.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://www.wikidata.org/entity/",
+  "triples": 12500000000,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Wikidata-logo-en.svg",
+  "contact_point": {
+    "name": "Lucas Werkmeister",
+    "email": "wikidata@wikimedia.de"
+  },
+  "keywords": [
+    "wikimedia",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "BVMC",
+      "value": 16483
+    },
+    {
+      "target": "LemmaBank",
+      "value": 51496
+    },
+    {
+      "target": "babelnet",
+      "value": 65942
+    },
+    {
+      "target": "bag",
+      "value": 61218
+    },
+    {
+      "target": "bbc-programmes",
+      "value": 4202
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 77714
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 77724
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 801
+    },
+    {
+      "target": "bioportal-unitsontology",
+      "value": 610
+    },
+    {
+      "target": "bluk-bnb",
+      "value": 42519
+    },
+    {
+      "target": "chembl-rdf",
+      "value": 100223
+    },
+    {
+      "target": "clld-glottolog",
+      "value": 10800
+    },
+    {
+      "target": "cpv-2008",
+      "value": 422
+    },
+    {
+      "target": "data-bnf-fr",
+      "value": 895058
+    },
+    {
+      "target": "data-persee-fr",
+      "value": 34064
+    },
+    {
+      "target": "datos-bne-es",
+      "value": 207362
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 1918745
+    },
+    {
+      "target": "doi",
+      "value": 27367486
+    },
+    {
+      "target": "eunis",
+      "value": 179098
+    },
+    {
+      "target": "europeana-sparql",
+      "value": 160460
+    },
+    {
+      "target": "eurovoc",
+      "value": 3068
+    },
+    {
+      "target": "freebase",
+      "value": 4397020
+    },
+    {
+      "target": "gemeenschappelijke-thesaurus-audiovisuele-archieven",
+      "value": 39556
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 3747452
+    },
+    {
+      "target": "getty-aat",
+      "value": 25080
+    },
+    {
+      "target": "getty-tgn",
+      "value": 29226
+    },
+    {
+      "target": "glottolog",
+      "value": 10800
+    },
+    {
+      "target": "gutenberg",
+      "value": 19945
+    },
+    {
+      "target": "hungarian-national-library-catalog",
+      "value": 6825
+    },
+    {
+      "target": "idreffr",
+      "value": 528040
+    },
+    {
+      "target": "iptc-newscodes",
+      "value": 782
+    },
+    {
+      "target": "lcsh",
+      "value": 1338101
+    },
+    {
+      "target": "lexvo",
+      "value": 8300
+    },
+    {
+      "target": "libris",
+      "value": 258242
+    },
+    {
+      "target": "linked-open-numbers",
+      "value": 10327
+    },
+    {
+      "target": "msc",
+      "value": 210
+    },
+    {
+      "target": "naics-2012",
+      "value": 45
+    },
+    {
+      "target": "national-diet-library-authorities",
+      "value": 124052
+    },
+    {
+      "target": "nomisma_org",
+      "value": 1801
+    },
+    {
+      "target": "ocd",
+      "value": 12881
+    },
+    {
+      "target": "oclc-fast",
+      "value": 502221
+    },
+    {
+      "target": "open-library",
+      "value": 271983
+    },
+    {
+      "target": "pleiades",
+      "value": 5625
+    },
+    {
+      "target": "rism",
+      "value": 27329
+    },
+    {
+      "target": "sandrart-net",
+      "value": 5172
+    },
+    {
+      "target": "stw-thesaurus-for-economics",
+      "value": 2663
+    },
+    {
+      "target": "swedish-open-cultural-heritage",
+      "value": 164146
+    },
+    {
+      "target": "thesesfr",
+      "value": 4370
+    },
+    {
+      "target": "uniprot",
+      "value": 2537481
+    },
+    {
+      "target": "uniprotkb",
+      "value": 2537481
+    },
+    {
+      "target": "viaf",
+      "value": 6148897
+    },
+    {
+      "target": "warsampo",
+      "value": 17
+    },
+    {
+      "target": "yso",
+      "value": 14180
+    },
+    {
+      "target": "zitgist-musicbrainz",
+      "value": 490029
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Latest full dump, bzip2 compressed",
+      "description": "The latest full dump of all Wikidata entity data, in Turtle format, compressed with bzip2. Dumps are generated on a weekly basis.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.ttl.bz2"
+    },
+    {
+      "title": "Latest full dump, gzip compressed",
+      "description": "The latest full dump of all Wikidata entity data, in Turtle format, compressed with gzip. Dumps are generated on a weekly basis.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.ttl.gz"
+    },
+    {
+      "title": "Latest truthy dump, bzip2 compressed",
+      "description": "The latest “truthy” dump of all Wikidata entity data, in N-Triples format, compressed with bzip2. This contains only “truthy” or “best” statements, without qualifiers or references. Dumps are generated on a weekly basis.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://dumps.wikimedia.org/wikidatawiki/entities/latest-truthy.nt.bz2"
+    },
+    {
+      "title": "Latest truthy dump, gzip compressed",
+      "description": "The latest “truthy” dump of all Wikidata entity data, in N-Triples format, compressed with gzip. This contains only “truthy” or “best” statements, without qualifiers or references. Dumps are generated on a weekly basis.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://dumps.wikimedia.org/wikidatawiki/entities/latest-truthy.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Wikidata Query Service, Web UI",
+      "description": "The Web UI of the Wikidata Query Service offers a convenient interface for authoring or editing SPARQL queries against the Wikidata Query Service and viewing the results in various formats.",
+      "access_url": "https://query.wikidata.org/"
+    }
+  ],
+  "example": [
+    {
+      "title": "entity node for Nelson Mandela",
+      "description": "The canonical URI for the concept of Nelson Mandela, the South African anti-apartheid activist and later President, as represented on Wikidata. Using content negotiation, the URI redirects to different pages depending on how it is accessed; when opened in a browser, it will usually redirect to the Wikidata page for the item, showing its terms, statements and sitelinks, while other clients may be served the data in JSON or RDF formats instead.",
+      "media_type": "application/ld+json; charset=UTF-8",
+      "access_url": "http://www.wikidata.org/entity/Q8023"
+    },
+    {
+      "title": "data node for Nelson Mandela",
+      "description": "The data node for Wikidata’s concept of Nelson Mandela. In the linked data interface, this node is the subject of triples describing metadata about the entity record on Wikidata. (In the Wikidata Query Service, the data node is merged into the entity node.) This is the URI that actually implements content negotiation depending on the client’s Accept headers; the entity URI, when accessed, unconditionally redirects to this one.",
+      "media_type": "application/ld+json; charset=UTF-8",
+      "access_url": "https://www.wikidata.org/wiki/Special:EntityData/Q8023"
+    },
+    {
+      "title": "wiki page for Nelson Mandela",
+      "description": "The Wikidata wiki page for Nelson Mandela, showing the terms, statements and sitelinks of the item. This is what the data node URI redirects to when opened in a browser, and the main way for humans to interact with the item.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://www.wikidata.org/wiki/Q8023"
+    },
+    {
+      "title": "JSON data for Nelson Mandela",
+      "description": "The Wikibase-specific representation of Wikidata’s information about Nelson Mandela in JSON format. This is what the data node URI redirects to when the client does not send any Accept headers.",
+      "media_type": "application/json; charset=UTF-8",
+      "access_url": "https://www.wikidata.org/wiki/Special:EntityData/Q8023.json"
+    },
+    {
+      "title": "RDF/XML data for Nelson Mandela",
+      "description": "Wikidata’s data relating to the concept of Nelson Mandela, in RDF/XML format. This is what the data node URI redirects to when the client accepts the RDF/XML format.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "https://www.wikidata.org/wiki/Special:EntityData/Q8023.rdf"
+    },
+    {
+      "title": "Turtle data for Nelson Mandela",
+      "description": "Wikidata’s data relating to the concept of Nelson Mandela, in Turtle format. This is what the data node URI redirects to when the client accepts the Turtle format.",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "https://www.wikidata.org/wiki/Special:EntityData/Q8023.ttl"
+    },
+    {
+      "title": "N-Triples data for Nelson Mandela",
+      "description": "Wikidata’s data relating to the concept of Nelson Mandela, in N-Triples format. This is what the data node URI redirects to when the client accepts the N-Triples format.",
+      "media_type": "application/n-triples; charset=UTF-8",
+      "access_url": "https://www.wikidata.org/wiki/Special:EntityData/Q8023.nt"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Wikidata Query Service",
+      "description": "The Wikidata Query Service generally contains the full data of Wikidata, modulo a slight delay in updating (usually no more than a few seconds), a handful of spurious synchronization errors (requests are routed to a randomly selected server from the pool, and the different servers may be slightly out of sync), and a few differences between the RDF dump format and the WDQS version (see https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format#WDQS_data_differences).",
+      "access_url": "https://query.wikidata.org/sparql"
+    }
+  ]
+}

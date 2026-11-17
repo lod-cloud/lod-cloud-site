@@ -1,0 +1,43 @@
+{
+  "identifier": "vivo-ponce",
+  "title": "VIVO Ponce",
+  "description": {
+    "en": "Ponce School of Medicine is a private medical school located in the city of Ponce in Puerto Rico, U.S. The school is accredited by the Liaison Committee on Medical Education (LCME), and classified as a United States Medical School. It holds nationally accredited graduate programs in the disciplines of Medicine, Clinical Psychology, and Biomedical Sciences, and Public Health. Ponce School of Medicine is also distinguished by its strong support of graduate medical education through several consortia agreements in south eastern Puerto Rico."
+  },
+  "website": "http://beta.vivosearch.org/institution/ponce-school-medicine",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 6490,
+  "contact_point": {
+    "name": "VIVO"
+  },
+  "keywords": [
+    "deref-vocab",
+    "education",
+    "format-rdf",
+    "format-rdfs",
+    "format-vitro",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "science",
+    "social-networks",
+    "vivo"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 58
+    }
+  ],
+  "other_download": [
+    {
+      "title": "2012-04-02T140643/vivopsmexport.rdf",
+      "description": "VIVO dump from Ponce Medical School",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-04-02T140643/vivopsmexport.rdf"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "identifier": "bioportal-rs",
+  "title": "Rat Strain Ontology",
+  "description": {
+    "en": "This ontology defines the hierarchical display of the different rat strains as derived from the parental strains"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1150",
+  "triples": 23606,
+  "contact_point": {
+    "name": "Rajni Nigam"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-atmo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 12
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 24
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 21
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 20
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 26
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 50
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 28
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 21
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 12
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 21
+    },
+    {
+      "target": "bioportal-pw",
+      "value": 39
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 22
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47163?apikey=BP_API_KEY"
+    }
+  ]
+}

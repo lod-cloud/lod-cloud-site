@@ -1,0 +1,42 @@
+{
+  "identifier": "linkedmarkmail",
+  "title": "LinkedMarkMail",
+  "description": {
+    "en": "LinkedMarkMail is a simple Linked Data interface for accessing the MarkMail archives."
+  },
+  "domain": "user_generated",
+  "website": "http://linkedmarkmail.wikier.org/",
+  "namespace": "http://linkedmarkmail.wikier.org/",
+  "triples": 416732232,
+  "contact_point": {
+    "name": "Sergio Fernández"
+  },
+  "keywords": [
+    "license-metadata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-proprietary-vocab",
+    "published-by-third-party",
+    "usergeneratedcontent"
+  ],
+  "other_download": [
+    {
+      "description": "voiD",
+      "media_type": "meta/void",
+      "access_url": "http://linkedmarkmail.wikier.org/linkedmarkmail.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource (message)",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://linkedmarkmail.wikier.org/message/5wfms7w5opja4a2y"
+    },
+    {
+      "description": "Example resource (thread)",
+      "media_type": "text/html",
+      "access_url": "http://linkedmarkmail.wikier.org/thread/dcue2bsyrsgbzsd5"
+    }
+  ]
+}

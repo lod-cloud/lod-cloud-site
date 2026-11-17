@@ -1,0 +1,21 @@
+{
+  "identifier": "ROSHANI_SAHU",
+  "title": "TERRORIST ATTACK ONTOLOGY",
+  "description": {
+    "en": "ontology"
+  },
+  "domain": "user_generated",
+  "website": "http://www.iraj.in/journal/journal_file/journal_pdf/14-407-151143893990-95.pdf",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "ROSHANI SAHU",
+    "email": "sahutwins1997@gmail.com"
+  },
+  "links": [
+    {
+      "target": "Terrorist_attack",
+      "value": 1
+    }
+  ]
+}

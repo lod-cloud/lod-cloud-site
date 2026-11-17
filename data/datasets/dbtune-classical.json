@@ -1,0 +1,58 @@
+{
+  "identifier": "dbtune-classical",
+  "title": "DBTune.org/classical",
+  "description": {
+    "en": "RDF data about the canon of Western Classical Music, aggregated and to some extent hand curated by Chris Cannam of the Centre for Digital Music at Queen Mary University of London. Includes information about composers, compositions, performers, relationships of influence, and more.\r\n\r\nCurrently the composer data is reasonably reliable, but the other data is highly provisional, unreliable, and subject to change.\r\n\r\nThis resource provides inter-linking via owl:sameAs to appropriate resources in package:dbpedia, package:dbtune-musicbrainz, and package:bbc-music."
+  },
+  "domain": "media",
+  "website": "http://dbtune.org/classical/",
+  "namespace": "http://dbtune.org/classical/resource/",
+  "triples": 390845,
+  "contact_point": {
+    "name": "Kurt Jacobson",
+    "email": "kurtjx@gmail.com"
+  },
+  "keywords": [
+    "dbtune",
+    "deref-vocab",
+    "format-foaf",
+    "format-mo",
+    "format-rdf",
+    "format-tl",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "music",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 3000
+    },
+    {
+      "target": "dbpedia",
+      "value": 3000
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 3000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://dbtune.org/classical/resource/work/ravel_maurice/64_no3"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://dbtune.org/classical/sparql/"
+    }
+  ]
+}

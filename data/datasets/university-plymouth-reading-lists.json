@@ -1,0 +1,49 @@
+{
+  "identifier": "university-plymouth-reading-lists",
+  "title": "University of Plymouth Reading Lists",
+  "description": {
+    "en": "Search for lists, modules & courses\r\n\r\n  \r\nBrowse hierarchy | Recent changes"
+  },
+  "website": "http://lists.lib.plymouth.ac.uk/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://lists.lib.plymouth.ac.uk/lists/",
+  "triples": 441476,
+  "contact_point": {
+    "name": "Ian Davis",
+    "email": "ian.davis@talis.com"
+  },
+  "keywords": [
+    "education",
+    "format-dc",
+    "format-rdf",
+    "format-sioc",
+    "higher-education",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "talis"
+  ],
+  "links": [
+    {
+      "target": "openlibrary",
+      "value": 5675
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lists.lib.plymouth.ac.uk/lists/marn304"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lists.lib.plymouth.ac.uk/lists/eoe3217"
+    }
+  ]
+}

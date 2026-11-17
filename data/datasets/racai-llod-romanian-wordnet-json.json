@@ -1,0 +1,28 @@
+{
+  "identifier": "racai-llod-romanian-wordnet-json",
+  "title": "JSON Romanian Wordnet",
+  "description": {
+    "en": "The Romanian Wordnet in JSON format"
+  },
+  "domain": "linguistics",
+  "website": "https://racai.ro/p/llod/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "Verginica Mititelu",
+    "email": "vergi@racai.ro"
+  },
+  "keywords": [
+    "Romanian",
+    "wordnet",
+    "JSON"
+  ],
+  "full_download": [
+    {
+      "title": "JSON Romanian Wordnet",
+      "description": "The Romanian Wordnet in JSON format",
+      "media_type": "application/json",
+      "download_url": "https://www.racai.ro/p/llod/resources/rown-3.0.json"
+    }
+  ]
+}

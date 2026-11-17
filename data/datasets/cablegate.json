@@ -1,0 +1,49 @@
+{
+  "identifier": "cablegate",
+  "title": "cablegate",
+  "description": {
+    "en": "US Embassy cables from Wikileaks"
+  },
+  "domain": "government",
+  "website": "http://www.wikileaks.ch/cablegate.html",
+  "triples": 9162,
+  "contact_point": {
+    "name": "US Department of State"
+  },
+  "keywords": [
+    "format-html",
+    "format-rdf",
+    "format-skos",
+    "format-void",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 150
+    }
+  ],
+  "other_download": [
+    {
+      "description": "BitTorrent (2010/12/4)",
+      "media_type": "TORRENT",
+      "access_url": "http://88.80.16.63/torrent/cablegate/cablegate-201012031501.7z.torrent"
+    },
+    {
+      "description": "SVG Image",
+      "media_type": "SVG",
+      "access_url": "http://river.styx.org/ww/2010/12/cablegraph.svg"
+    },
+    {
+      "description": "RDF Dump",
+      "media_type": "RDF",
+      "access_url": "http://river.styx.org/ww/2010/12/cablegraph.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://river.styx.org/sparql"
+    }
+  ]
+}

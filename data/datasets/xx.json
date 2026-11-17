@@ -1,0 +1,15 @@
+{
+  "identifier": "xx",
+  "title": "xxx",
+  "description": {
+    "en": "xxx"
+  },
+  "domain": "geography",
+  "website": "https://www.google.com/maps/?hl=zh_CN",
+  "license": "https://opendefinition.org/licenses/miros",
+  "triples": 0,
+  "contact_point": {
+    "name": "x",
+    "email": "x@qq.com"
+  }
+}

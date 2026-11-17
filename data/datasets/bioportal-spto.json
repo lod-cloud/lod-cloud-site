@@ -1,0 +1,139 @@
+{
+  "identifier": "bioportal-spto",
+  "title": "Solanaceae Phenotype Ontology",
+  "description": {
+    "en": "Solanaceae crop phenotypes and traits, developed in collaboration with the research community, especially for breeder traits of agronomic importance."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3029",
+  "triples": 4089,
+  "contact_point": {
+    "name": "Naama Menda"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bto",
+      "value": 12
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 103
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 10
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 17
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 149
+    },
+    {
+      "target": "bioportal-fypo",
+      "value": 18
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 12
+    },
+    {
+      "target": "bioportal-gro_x1",
+      "value": 281
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 23
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 11
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 38
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 21
+    },
+    {
+      "target": "bioportal-nbo",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 37
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 12
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 11
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 150
+    },
+    {
+      "target": "bioportal-po",
+      "value": 281
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 525
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 13
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 29
+    },
+    {
+      "target": "bioportal-soy",
+      "value": 13
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 14
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 21
+    },
+    {
+      "target": "bioportal-to",
+      "value": 29
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47161?apikey=BP_API_KEY"
+    }
+  ]
+}

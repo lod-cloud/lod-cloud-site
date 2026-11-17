@@ -1,0 +1,128 @@
+{
+  "identifier": "ineverycrea",
+  "title": "IneveryCREA, la comunidad de la creatividad educativa",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://ineverycrea.net/\">IneveryCREA (Santillana)</a> is the community of educational creativity for teachers and education professionals to create, develop and share original educational resources in Spain.\r\n</p>\r\n<p>\r\nSantillana is the leading textbook and general-interest publishing group in Spain and Latin America, and the most prestigious publisher of literary works in Spanish. With more than 108 million books sold in 2010, the company has been synonymous with quality, innovation and service to teaching staff since its inception in 1960.\r\n</p>\r\n<p>\r\nIneveryCREA (Santillana) works with <a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. IneveryCREA offers a selection of 2,554 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://ineverycrea.net/\">IneveryCREA (Santillana)</a> es la comunidad de la creatividad educativa para profesores y profesionales de la educación que crean, desarrollan y comparten recursos educativos originales.\r\n</p>\r\n<p> Santillana es el grupo editorial líder en texto escolar y ediciones generales en España y América Latina, y la referencia en el campo de la creación literaria en lengua española. Con más de 108 millones de libros vendidos en el año 2010, es sinónimo de calidad, innovación y servicio al profesorado desde su creación en 1960.</p>\r\n<p>\r\nIneveryCREA (Santillana) trabaja con <a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. IneveryCREA ofrece en este caso una selección de 2.554 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://ineverycrea.net/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://ineverycrea.net/",
+  "triples": 3494839,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "ESO",
+    "actividades interactivas",
+    "bachillerato",
+    "country-spain",
+    "country.es",
+    "creatividad educativa",
+    "dc",
+    "educación",
+    "educación 2.0",
+    "educación infantil",
+    "educación primaria",
+    "escuela 2.0",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "herramientas 2.0",
+    "innovación educativa",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "material educativo",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "pedagogía",
+    "pizarra digital",
+    "plataforma educativa",
+    "profesores",
+    "provenance-metadata",
+    "proyecto colaborativo",
+    "published-by-third-party",
+    "recursos educativos originales",
+    "red educativa",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "unidades didácticas",
+    "usergeneratedcontent",
+    "videos educativos",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1279
+    },
+    {
+      "target": "didactalia",
+      "value": 18245
+    },
+    {
+      "target": "freebase",
+      "value": 3709
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 143
+    },
+    {
+      "target": "gnoss",
+      "value": 1327
+    },
+    {
+      "target": "ineverycrea-argentina",
+      "value": 12140
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1115
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://ineverycrea.net/voidIneveryCREAGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the community IneveryCREA. Currently, more than 2000 resources have been published in the platform.",
+      "media_type": "text/html; charset=ISO-8859-1",
+      "access_url": "http://ineverycrea.net/comunidad/ineverycrea/recurso/Tecnicas-de-desarrollo-de-la-Creatividad-Mapas-Me/4a196d2c-a32a-4cef-9d07-dced34ef05e6?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the community IneveryCREA. Currently, more than 2000 resources have been published in the platform.",
+      "media_type": "text/html; charset=ISO-8859-1",
+      "access_url": "http://ineverycrea.net/comunidad/ineverycrea/recurso/Trabajas-en-tu-aula-con-herramientas-del-entorno-/a56fcf5f-86c9-44fd-8a34-27cfc8936cd8?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=ISO-8859-1",
+      "access_url": "http://ineverycrea.net/en/community/ineverycrea/advanced-search/tag/TIC?rdf"
+    }
+  ]
+}

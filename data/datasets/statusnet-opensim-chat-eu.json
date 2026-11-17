@@ -1,0 +1,81 @@
+{
+  "identifier": "statusnet-opensim-chat-eu",
+  "title": "statusnet-opensim-chat-eu",
+  "description": {
+    "en": "StatusNet instance hosted at http://opensim-chat.eu"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 9
+    },
+    {
+      "target": "personal-homepages",
+      "value": 3
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-atari-frosch-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 4
+    },
+    {
+      "target": "statusnet-mamalibre-com-ar",
+      "value": 4
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 5
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 2
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://opensim-chat.eu/vanish/foaf"
+    }
+  ]
+}

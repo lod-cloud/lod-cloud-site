@@ -1,0 +1,66 @@
+{
+  "identifier": "ids",
+  "title": "Intercontinental Dictionary Series",
+  "description": {
+    "en": "1200 words in 200 languages"
+  },
+  "domain": "linguistics",
+  "website": "http://lingweb.eva.mpg.de/ids/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 2000000,
+  "contact_point": {
+    "name": "Bernard Comrie"
+  },
+  "keywords": [
+    "LOD",
+    "crossdomain",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "published-by-producer",
+    "typology"
+  ],
+  "links": [
+    {
+      "target": "glottolog-langdoc",
+      "value": 216
+    },
+    {
+      "target": "lexvo",
+      "value": 217
+    },
+    {
+      "target": "wals",
+      "value": 216
+    },
+    {
+      "target": "wiktionary-dbpedia-org",
+      "value": 1832
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Diagram of the IDS linked data model",
+      "media_type": "PNG",
+      "access_url": "https://dl.dropbox.com/u/65483422/ids-model-diagram.png"
+    },
+    {
+      "title": "RDF conversion",
+      "description": "File was converted for MLODE by M. Brümmer",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/ids.nt.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example entry \"mind\"",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://mlode.nlp2rdf.org/resource/data/ids/entry/e110-c17?output=ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://mlode.nlp2rdf.org/sparql"
+    }
+  ]
+}

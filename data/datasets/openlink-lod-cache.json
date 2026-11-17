@@ -1,0 +1,30 @@
+{
+  "identifier": "openlink-lod-cache",
+  "title": "OpenLink Software LOD Cache",
+  "description": {
+    "en": "Mirror of various RDF and Linked Data from around the Web, as well as data extracted using Virtuoso Sponger from web pages. Primarily GoodRelations data."
+  },
+  "website": "http://lod.openlinksw.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 13000000000,
+  "contact_point": {
+    "name": "OpenLink Software",
+    "email": "hwilliams@openlinksw.com"
+  },
+  "keywords": [
+    "access-api",
+    "access-www",
+    "dataset-collection",
+    "format-prov",
+    "format-rdf",
+    "lod",
+    "rdf",
+    "search"
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://lod.openlinksw.com/sparql"
+    }
+  ]
+}

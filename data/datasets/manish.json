@@ -1,0 +1,15 @@
+{
+  "identifier": "manish",
+  "title": "engineering equipment ontology",
+  "description": {
+    "en": "It is an ontology for engineering equipment"
+  },
+  "domain": "cross_domain",
+  "website": "http://www.semanticweb.org/manycetomar/ontologies/2019/4/untitled-ontology-2#control_measuring_devices_and_automations",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 143,
+  "contact_point": {
+    "name": "Manish Tomar",
+    "email": "mandytomar@gmail.com"
+  }
+}

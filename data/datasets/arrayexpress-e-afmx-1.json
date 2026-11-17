@@ -1,0 +1,43 @@
+{
+  "identifier": "arrayexpress-e-afmx-1",
+  "title": "Transcription profiling of human, chimp and mouse brain",
+  "description": {
+    "en": "Microarray technologies allow the identification of large numbers of expression differences within and between species. Although environmental and physiological stimuli are clearly responsible for changes in the expression levels of many genes, it is not known whether the majority of changes of gene expression fixed during evolution between species and between various tissues within a species are caused by Darwinian selection or by stochastic processes. We find the following: (1) expression differences between species accumulate approximately linearly with time; (2) gene expression variation among individuals within a species correlates positively with expression divergence between species; (3) rates of expression divergence between species do not differ significantly between intact genes and expressed pseudogenes; (4) expression differences between brain regions within a species have accumulated approximately linearly with time since these regions emerged during evolution. These results suggest that the majority of expression differences observed between species are selectively neutral or nearly neutral and likely to be of little or no functional significance. Therefore, the identification of gene expression differences between species fixed by selection should be based on null hypotheses assuming functional neutrality. Furthermore, it may be possible to apply a molecular clock based on expression differences to infer the evolutionary history of tissues."
+  },
+  "triples": 3014,
+  "contact_point": {
+    "name": "Endre Anderssen",
+    "email": "endre.anderssen@gmail.com"
+  },
+  "keywords": [
+    "format-efo",
+    "format-pobo",
+    "format-prov",
+    "lifesciences",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "title": "a RDFS Schema",
+      "access_url": "http://www.w3.org/ns/prov#"
+    },
+    {
+      "title": "efo RDF Schema",
+      "access_url": "http://www.ebi.ac.uk/efo/"
+    },
+    {
+      "title": "pobo RDF Schema",
+      "media_type": "application/xml",
+      "access_url": "http://purl.obolibrary.org/obo/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://purl.org/twc/arrayexpress/virtuoso/sparql"
+    }
+  ]
+}

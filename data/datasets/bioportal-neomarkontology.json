@@ -1,0 +1,67 @@
+{
+  "identifier": "bioportal-neomarkontology",
+  "title": "Neomark Oral Cancer-Centred Ontology",
+  "description": {
+    "en": "Ontology that describes the medical information necessary for early detection of the oral cancer reoccurrence extracted from the NeoMark Project."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1501",
+  "triples": 6243,
+  "contact_point": {
+    "name": "Marta Ortega"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 15
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 16
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 28
+    },
+    {
+      "target": "bioportal-neomark",
+      "value": 12
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 11
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 14
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42835?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "identifier": "entrez_gene",
+  "title": "Entrez Gene",
+  "description": {
+    "en": "### About\r\n\r\nData exposed: Select fields from Entrez Gene records\r\nSize of dump and data set: 7.7 MB\r\nNotes: NCBI Copyright and Disclaimers\r\n\r\n### Openness\r\n\r\nData appears to be in public domain. [Disclaimer](http://www.ncbi.nlm.nih.gov/About/disclaimer.html) says:\r\n\r\n> Information that is created by or for the US government on this site is within the public domain. Public domain information on the National Library of Medicine (NLM) Web pages may be freely distributed and copied. However, it is requested that in any subsequent use of this work, NLM be given appropriate acknowledgment."
+  },
+  "domain": "life_sciences",
+  "website": "http://www.ncbi.nlm.nih.gov/gene",
+  "triples": 1327212,
+  "contact_point": {
+    "name": "<URI>"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "country-usa",
+    "format-rdf",
+    "format-xhtml",
+    "genetics",
+    "lifesciences",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "no-deref-vocab",
+    "published-by-third-party",
+    "rdf",
+    "science"
+  ],
+  "other_download": [
+    {
+      "description": "Datadump",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/hcls/2007/kb-sources/gene-owl.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/commons/record/ncbi_gene/10269"
+    }
+  ]
+}

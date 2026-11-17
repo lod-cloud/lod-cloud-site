@@ -1,0 +1,238 @@
+{
+  "identifier": "taxonconcept",
+  "title": "TaxonConcept Knowledge Base",
+  "description": {
+    "en": "Species are known by many different names. The TaxonConcept Knowledge Base provides informative Linked Open Data URI's for species concepts that improve the quality and stability of links between a species and data about that species. There are currently 108,175 species concepts and a and 1,000 records for species occurrences. There are also a few examples of references, and image galleries. I have added links below for an insect, mammal, bird and tree to serve as examples of the interlinking etc. The occurrence records are interlinked with GeoNames. \r\n\r\nA species can have several different classifications, for instance it's classification in NCBI and DBpedia, are different. To allow multiple classifications, the species model is separate from any specific classification. However many want these two aspects connected together. To make this easy, I have created an additional owl:sameAs RDF dump file which makes the #Taxonomy the same as the #Species. This is particularly useful for browsing SPARQL query results with Microsoft Pivot. In addition, it is also possible to create similar mapping files that can be used to \r\ntie the species to alternative classifications.\r\n\r\nThe data set and related vocabularies have been changed as of June 11, 2013. See the sitemap.xml or void file for the full list of RDF dumps"
+  },
+  "domain": "life_sciences",
+  "website": "http://lod.taxonconcept.org/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://lod.taxonconcept.org/",
+  "triples": 34394994,
+  "contact_point": {
+    "name": "Peter J. DeVries University of Wisconsin-Madison",
+    "email": "pdevries@wisc.edu"
+  },
+  "keywords": [
+    "biodiversity",
+    "deref-vocab",
+    "format-bibo",
+    "format-cc",
+    "format-dbo",
+    "format-dbpedia",
+    "format-dc",
+    "format-foaf",
+    "format-geo",
+    "format-geonames",
+    "format-geospecies",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-time",
+    "format-txn",
+    "format-umbel",
+    "format-wdrs",
+    "format-wo",
+    "geographic",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-producer",
+    "sparql-endpoint",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "bbc-wildlife-finder",
+      "value": 318
+    },
+    {
+      "target": "bio2rdf",
+      "value": 43889
+    },
+    {
+      "target": "dbpedia",
+      "value": 147877
+    },
+    {
+      "target": "eol",
+      "value": 108175
+    },
+    {
+      "target": "eunis",
+      "value": 9489
+    },
+    {
+      "target": "fishes-of-texas",
+      "value": 611
+    },
+    {
+      "target": "freebase",
+      "value": 18743
+    },
+    {
+      "target": "geospecies",
+      "value": 17814
+    },
+    {
+      "target": "gni",
+      "value": 100000
+    },
+    {
+      "target": "opencyc",
+      "value": 26
+    },
+    {
+      "target": "umbel",
+      "value": 9
+    },
+    {
+      "target": "uniprot",
+      "value": 43919
+    }
+  ],
+  "other_download": [
+    {
+      "title": "TaxonConcept Ontology",
+      "description": "Ontology",
+      "access_url": "http://lod.taxonconcept.org/ontology/txn.owl"
+    },
+    {
+      "title": "TaxonConcept Ontology Documentation",
+      "description": "Ontology Documentation",
+      "access_url": "http://lod.taxonconcept.org/ontology/doc/index.html"
+    },
+    {
+      "title": "TaxonConcept Documentation and Blog",
+      "description": "Project Information / Blog",
+      "access_url": "http://www.taxonconcept.org/"
+    },
+    {
+      "title": "XML Sitemap",
+      "description": "XML Sitemap",
+      "access_url": "http://lod.taxonconcept.org/sitemap.xml"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://lod.taxonconcept.org/ontology/void.rdf"
+    },
+    {
+      "title": "Species Turtle Download 1",
+      "description": "Species Turtle Download 1",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.taxonconcept.org/rdf/txn_ses_000001.ttl"
+    },
+    {
+      "title": "Species Occurrence Records Turtle Download",
+      "description": "Species Occurrence Records Turtle Download",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lod.taxonconcept.org/rdf/txn_ocs.ttl.gz"
+    },
+    {
+      "title": "Species Images Turtle Download",
+      "description": "Species Images Turtle Download",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lod.taxonconcept.org/rdf/txn_images.ttl.gz"
+    },
+    {
+      "title": "Species GeoNames Distributions Turtle Download",
+      "description": "Species GeoNames Distributions Turtle Download",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lod.taxonconcept.org/rdf/txn_distribution.ttl.gz"
+    },
+    {
+      "title": "Species USDA Plants Data Turtle Download File 1",
+      "description": "Species USDA Plants Data Turtle Download",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.taxonconcept.org/rdf/usda_plants_000001.ttl"
+    },
+    {
+      "title": "Species Misc Turtle Download",
+      "description": "Species Misc Turtle Download",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lod.taxonconcept.org/rdf/txn_misc.ttl.gz"
+    },
+    {
+      "title": "Species Occurrence List",
+      "description": "Species Occurrence List",
+      "access_url": "http://ocs.taxonconcept.org/ocs/index.html"
+    },
+    {
+      "title": "Link to an example occurrence record HTML",
+      "description": "Link to an example occurrence record HTML",
+      "access_url": "http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.html"
+    },
+    {
+      "title": "Species Turtle Download 2",
+      "description": "Species Turtle Download 2",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.taxonconcept.org/rdf/txn_ses_000002.ttl"
+    },
+    {
+      "title": "EoL DataObject",
+      "description": "This is an example data object from the EoL data set",
+      "media_type": "ttl",
+      "access_url": "http://eol.taxonconcept.org/dos/771311fa322891f987ed366d8000d42b.ttl"
+    },
+    {
+      "title": "EoL DataObject RDF Download File 1",
+      "media_type": "ttl",
+      "access_url": "http://eol.taxonconcept.org/data/eol/eol_000001.ttl"
+    },
+    {
+      "title": "EoL Annotation RDF Download File 1",
+      "media_type": "ttl",
+      "access_url": "http://eol.taxonconcept.org/data/anno/anno_000001.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example insect",
+      "description": "Link to an example insect",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.taxonconcept.org/ses/iuCXz.rdf"
+    },
+    {
+      "title": "Link to an example insect",
+      "description": "Link to an example insect",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.taxonconcept.org/ses/mCcSp.rdf"
+    },
+    {
+      "title": "Link to an example bird",
+      "description": "Link to an example bird",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.taxonconcept.org/ses/tnJr6.rdf"
+    },
+    {
+      "title": "Link to an example tree",
+      "description": "Link to an example tree",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.taxonconcept.org/ses/EY8Z6.rdf"
+    },
+    {
+      "title": "Link to an example mammal",
+      "description": "Link to an example mammal",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.taxonconcept.org/ses/v6n7p.rdf"
+    },
+    {
+      "title": "Link to an example occurrence record RDF",
+      "description": "Link to an example occurrence record RDF",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://lsd.taxonconcept.org/sparql"
+    }
+  ]
+}

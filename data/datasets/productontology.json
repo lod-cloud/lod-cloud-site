@@ -1,0 +1,50 @@
+{
+  "identifier": "productontology",
+  "title": "Product Types Ontology",
+  "description": {
+    "en": "The Product Types Ontology provides GoodRelations-compatible OWL DL class definitions for ca. 300,000 types of product or services that have an entry in the English Wikipedia"
+  },
+  "domain": "cross_domain",
+  "website": "http://www.productontology.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 18000000,
+  "contact_point": {
+    "name": "Martin Hepp",
+    "email": "mhepp@computer.org"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "ecommerce",
+    "format-foaf",
+    "format-rdf",
+    "format-wdrs",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "ontology",
+    "products",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 300000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (incomplete), all classes that (1) have been requested several times and (2) that are not disambiguation pages in Wikipedia",
+      "access_url": "http://www.productontology.org/dump.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Link to an example data item within the dataset (Turtle)",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "http://www.productontology.org/doc/Laser_printer.ttl"
+    }
+  ]
+}

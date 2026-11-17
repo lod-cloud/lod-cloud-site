@@ -1,0 +1,85 @@
+{
+  "identifier": "linkedmdb",
+  "title": "Linked Movie DataBase",
+  "description": {
+    "en": "Data exposed: Linked Data about Movies\r\nSize of data set: 6,148,121 triples.\r\n\r\n### Openness: Open\r\n\r\nMixture of material from Wikipedia, Freebase and Geonames and states on http://wiki.linkedmdb.org/Main/Licensing:\r\n\r\n> Content created by (or contributed to) LinkedMDB (interlinking data, in particular) is licensed under the Creative Commons Attributions License(CC-BY). You are free to use CC-BY content as long as you provide proper attribution back to the source (LinkedMDB). Attribution should be given with a link or a reference to LinkedMDB."
+  },
+  "domain": "media",
+  "website": "http://linkedmdb.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.linkedmdb.org/resource/",
+  "triples": 6148121,
+  "contact_point": {
+    "name": "Oktie Hassanzadeh, Mariano P. Consens",
+    "email": "admin@linkedmdb.org"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "deref-vocab",
+    "films",
+    "format-dbp",
+    "format-rdf",
+    "license-",
+    "linked-data",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 30354
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 2207
+    },
+    {
+      "target": "flickr-wrappr",
+      "value": 30354
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 27544
+    },
+    {
+      "target": "lingvoj",
+      "value": 28253
+    },
+    {
+      "target": "rdf-book-mashup",
+      "value": 13690
+    },
+    {
+      "target": "yago",
+      "value": 30354
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Dump",
+      "media_type": "RDF",
+      "access_url": "http://queens.db.toronto.edu/~oktie/linkedmdb"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://data.linkedmdb.org/resource/film_character/1001"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.linkedmdb.org/sparql"
+    }
+  ]
+}

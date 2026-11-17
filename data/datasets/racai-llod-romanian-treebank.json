@@ -1,0 +1,26 @@
+{
+  "identifier": "racai-llod-romanian-treebank",
+  "title": "Universal Dependencies Treebank Romanian",
+  "description": {
+    "en": "Universal Dependencies Treebank Romanian in Turtle-RDF and CONLL-U format."
+  },
+  "domain": "linguistics",
+  "website": "https://racai.ro/p/llod/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 2198064,
+  "contact_point": {
+    "name": "Verginica Barbu Mititelu",
+    "email": "vergi@racai.ro"
+  },
+  "keywords": [
+    "Romanian",
+    "treebank"
+  ],
+  "full_download": [
+    {
+      "title": "RRT LLOD",
+      "media_type": "application/zip",
+      "download_url": "http://www.racai.ro/p/llod/resources/rrt_llod.zip"
+    }
+  ]
+}

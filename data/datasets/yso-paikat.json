@@ -1,0 +1,39 @@
+{
+  "identifier": "yso-paikat",
+  "title": "YSO places",
+  "description": {
+    "en": "YSO places is a bi-lingual general geographic gazetteer.  It includes administrative and other regions as well as natural locations and places based on the needs of GLAM organistions .  Places refer to Finnish and external  both modern and historic places. Hierarchies are built by partOf relationships."
+  },
+  "domain": "geography",
+  "website": "https://finto.fi/yso-paikat/en/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.yso.fi/onto/yso/places",
+  "triples": 7844,
+  "contact_point": {
+    "name": "Finto service, National Library of Finland",
+    "email": "finto-posti@helsinki.fi"
+  },
+  "keywords": [
+    "Finland",
+    "places",
+    "locations",
+    "regions",
+    "countries",
+    "cities",
+    "villages",
+    "lakes",
+    "rivers"
+  ],
+  "full_download": [
+    {
+      "title": "YSO places",
+      "download_url": "https://finto.fi/rest/v1/yso-paikat/data?format=application/rdf%2Bxml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Finto SPARQL endpoint for yso-places RDF",
+      "access_url": "https://api.finto.fi/rest/v1/yso-places/data"
+    }
+  ]
+}

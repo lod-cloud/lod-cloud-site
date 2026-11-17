@@ -1,0 +1,57 @@
+{
+  "identifier": "eu-institutions",
+  "title": "Institutions and Bodies of the European Union",
+  "description": {
+    "en": "This site defines Linked Data compatible URIs for major institutions and bodies of the European Union that can be used as identifiers in EU-related datasets. \r\n\r\nhttp://institutions.publicdata.eu/"
+  },
+  "domain": "government",
+  "website": "http://institutions.publicdata.eu/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://institutions.publicdata.eu/#",
+  "triples": 643,
+  "contact_point": {
+    "name": "Michael Hausenblas",
+    "email": "michael.hausenblas@deri.org"
+  },
+  "keywords": [
+    "deref-vocab",
+    "eu-institution",
+    "government",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 154
+    },
+    {
+      "target": "eu-agencies-bodies",
+      "value": 38
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download (RDFa)",
+      "access_url": "http://institutions.publicdata.eu/"
+    },
+    {
+      "description": "Download (Turtle)",
+      "access_url": "http://institutions.publicdata.eu/all.ttl"
+    },
+    {
+      "description": "VoID description",
+      "access_url": "http://institutions.publicdata.eu/.well-known/void"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (HTML+RDFa)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://institutions.publicdata.eu/#ec"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "identifier": "eprtr",
+  "title": "European Pollutant Release and Transfer Register (E-PRTR)",
+  "description": {
+    "en": "The European Pollutant Release and Transfer Register (E-PRTR) is a Europe-wide register that provides easily accessible key environmental data from industrial facilities in European Union Member States and in Iceland, Liechtenstein, Norway, Serbia and Switzerland."
+  },
+  "domain": "government",
+  "website": "http://prtr.ec.europa.eu/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://prtr.ec.europa.eu/rdf/",
+  "triples": 14500000,
+  "contact_point": {
+    "name": "Søren Roug",
+    "email": "soren.roug@eea.europa.eu"
+  },
+  "keywords": [
+    "environment",
+    "format-rdf",
+    "pollution",
+    "published-by-producer",
+    "waste"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 317
+    },
+    {
+      "target": "eea-rod",
+      "value": 66
+    },
+    {
+      "target": "eionet-rdf",
+      "value": 3222
+    },
+    {
+      "target": "eurostat-linked-data",
+      "value": 2833
+    },
+    {
+      "target": "telegraphis",
+      "value": 69
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Facilities",
+      "description": "Production facilities that releases or transfers pollution",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/Facility.rdf"
+    },
+    {
+      "title": "Activities",
+      "description": "List of activities that each facility is involved in.",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/Activity.rdf"
+    },
+    {
+      "title": "Competent authorities",
+      "description": "Government authority in charge of facility report",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/CompetentAuthority.rdf"
+    },
+    {
+      "title": "Facility reports",
+      "description": "Yearly reports from facilities. Involves change of name, activity etc.",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/FacilityReport.rdf"
+    },
+    {
+      "title": "Facility ID changes",
+      "description": "Used to connect year-to-year reporting to one global facility identifier",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/FacilityID_Changes.rdf"
+    },
+    {
+      "title": "Lookup tables",
+      "description": "Country, NACE, pollutant, activity codes etc.",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/lookuptables.rdf"
+    },
+    {
+      "title": "Pollutant releases",
+      "description": "Declarations of the quantities of the released pollutants per facility report per year.",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/PollutantRelease.rdf"
+    },
+    {
+      "title": "Pollutant release methods used",
+      "description": "Method by which a pollutant was released per pollutant per facility per year",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/PollutantReleaseMethodUsed.rdf"
+    },
+    {
+      "title": "Pollutant transfers",
+      "description": "Declarations of quantities of transferred pollutants per facility report per year",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/PollutantTransfer.rdf"
+    },
+    {
+      "title": "Pollutant transfer methods used",
+      "description": "Methods by which a pollutant was transferred per pollutant per facility per year",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/PollutantTransferMethodUsed.rdf"
+    },
+    {
+      "title": "Uploaded reports",
+      "description": "References to the sources of the data - the uploaded reports to Reportnet",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/UploadedReports.rdf"
+    },
+    {
+      "title": "Waste transfers",
+      "description": "Declarations of the quantities of transferred waste per facility report per year.",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/WasteTransfer.rdf"
+    },
+    {
+      "title": "Waste transfer methods used",
+      "description": "Methods by which waste was transferred per waste type per facility per year",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/WasteTransferMethodUsed.rdf"
+    },
+    {
+      "title": "External links",
+      "description": "Links to concepts in external vocabularies",
+      "media_type": "RDF",
+      "access_url": "http://prtr.ec.europa.eu/rdf/ExternalLinks.rdf"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://prtr.ec.europa.eu/rdf/void.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://prtr.ec.europa.eu/rdf/facility/11338"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://cr.eionet.europa.eu/sparql"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "identifier": "miguiadeviajes-gnoss",
+  "title": "Mi Guía de Viajes, colección de guías de viaje para viajeros (GNOSS)",
+  "description": {
+    "en": "<a href=\"http://miguiadeviajes.net/\">MiGuiadeViajes.net</a>\r\nis a semantic collection of travel guides, sightseeing tours and trips especially recommended for tourists, travellers and backpackers. The community allows you to find where to go, where to eat or sleep in different countries, regions and cities with the GNOSS facet-based search engine.\r\n<a href=\"http://gnoss.com/\">GNOSS</a>\r\npromotes this community based on the standards of the Semantic Web and Linked Open Data. MiGuiadeViajes.net offers a selection of 3,533 resources (November 2012). The content of Miguiadeviajes.net belongs to \r\n<a href=\"http://thedatahub.org/dataset/webnmasunotraveler\">El Viajero's tourism dataset</a>\r\n, that integrates the various contents from newspapers and digital platforms belonging to the Prisa Digital Group in the domain of news and blogs about travel.\r\n</p>\r\n\r\n<p>\r\nGuías de viaje, rutas turísticas y escapadas componen \r\n<a href=\"http://miguiadeviajes.net/\">MiGuiadeViajes.net</a>\r\n, una selección de recomendaciones para viajeros, turistas y aventureros. La comunidad permite buscar dónde ir, dónde\r\n<strong> </strong>\r\ncomer o dónde dormir por países, regiones y ciudades gracias al \r\n<a href=\"http://gnoss.com/comunidad/nextweb/recurso/Busquedas-facetadas-o-razonadas/13fd22d5-704d-412c-b35f-31ddc4b7238e\">buscador facetado de GNOSS</a>\r\n.\r\n</p>\r\n<p>\r\n<a href=\"http://gnoss.com/\">GNOSS</a>\r\n promueve esta comunidad  desarrollada y fundamentada en los estándares de la Web Semántica y de los Datos Abiertos Enlazados (Linked Open Data). MiGuiadeViajes.net dispone en la actualidad de 3.533 recursos (Noviembre 2012). El contenido procede del\r\n<a href=\"http://thedatahub.org/dataset/webnmasunotraveler\">dataset de El Viajero</a>\r\n, que integra artículos, guías y reportajes turísticos de los periódicos y plataformas digitales del Grupo Prisa.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://miguiadeviajes.net",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://miguiadeviajes.net",
+  "triples": 376825,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "camping",
+    "country-spain",
+    "country.es",
+    "dc",
+    "donde comer",
+    "dónde dormir",
+    "dónde ir",
+    "escapadas",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "guía de viaje",
+    "guía de viajes",
+    "guías de españa",
+    "guías de viaje",
+    "itinerarios",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "playa",
+    "provenance-metadata",
+    "published-by-third-party",
+    "ruta de viaje",
+    "rutas",
+    "rutas con encanto",
+    "rutas de viaje",
+    "rutas turísticas",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "turismo",
+    "turismo de aventura",
+    "turismo de campo",
+    "turismo de montaña",
+    "turismo rural",
+    "usergeneratedcontent",
+    "viajes",
+    "viajes online",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 43773
+    },
+    {
+      "target": "freebase",
+      "value": 51820
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 3191
+    },
+    {
+      "target": "gnoss",
+      "value": 2
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 38419
+    },
+    {
+      "target": "webnmasunotraveler",
+      "value": 3533
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://miguiadeviajes.net/voidMisguíasdeviajeGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in Mi Guia de Viajes. Currently, about 3500 resources have been published in the community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/Mil-y-un-templos-en-Bagan/2d2fdb04-cab5-452f-aa63-e8f636ccb521?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in Mi Guia de Viajes. Currently, about 3500 resources have been published in the community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://miguiadeviajes.net/comunidad/guiasdeviaje/recurso/Esperando-la-gran-ola/fec6e038-f831-47c5-9115-8fee40d08a68?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://miguiadeviajes.net/en/community/guiasdeviaje/advanced-search/tag/monte?rdf"
+    }
+  ]
+}

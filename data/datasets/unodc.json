@@ -1,0 +1,53 @@
+{
+  "identifier": "unodc",
+  "title": "UNODC - Statistics on criminal justice",
+  "description": {
+    "en": "The United Nations office on Drugs and Crime (UNODC) provides statistical data on criminal justice on a regular basis. The data is provided as Excel sheets, which can be downloaded from the website.\r\nIf you want to browse the data, please use the links in the \"navigation box\" on the left side. Furthermore, it is possible to create your own SPARQL queries for obtaining lists of combined information.\r\nThis dataset (http://unodc.publicdata.eu/) was triplified and published by the research group AKSW (Agile Knowledge Engineering and Semantic Web). For further information about AKSW please visit our website."
+  },
+  "domain": "government",
+  "website": "http://unodc.publicdata.eu/",
+  "namespace": "http://unodc.publicdata.eu/r/",
+  "triples": 230000,
+  "contact_point": {
+    "name": "Philipp Frischmuth",
+    "email": "frischmuth@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "format-rdf",
+    "latc",
+    "legal",
+    "lod",
+    "lodcloud"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 111
+    },
+    {
+      "target": "eurostat-linked-data",
+      "value": 168
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML Dump",
+      "access_url": "http://unodc.publicdata.eu/model/export/?m=http%3A%2F%2Funodc.publicdata.eu%2F&f=rdfxml"
+    },
+    {
+      "title": "Example Resource (RDF/XML)",
+      "access_url": "http://unodc.publicdata.eu/resource/export/f/rdfxml?r=http%3A%2F%2Funodc.publicdata.eu%2Fr%2Fobservation%2Fdata%2Fcts12_criminal_justice_resourcesCts12%2Btotal%2Bpolice%2BpersonnelCountKenya2009"
+    },
+    {
+      "title": "Example Resource (HTML)",
+      "media_type": "HTML",
+      "access_url": "ihttp://unodc.publicdata.eu/r/observation/data/cts12_criminal_justice_resourcesCts12+total+police+personnelCountKenya2009"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://unodc.publicdata.eu/sparql"
+    }
+  ]
+}

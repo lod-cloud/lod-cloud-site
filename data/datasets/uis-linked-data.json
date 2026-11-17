@@ -1,0 +1,127 @@
+{
+  "identifier": "uis-linked-data",
+  "title": "UNESCO Institute for Statistics (UIS) Linked Data",
+  "description": {
+    "en": "UIS  data and metadata"
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://uis.270a.info/dataset/",
+  "triples": 10400000,
+  "contact_point": {
+    "name": "Sarven Capadisli",
+    "email": "info@csarven.ca"
+  },
+  "keywords": [
+    "UN",
+    "communication",
+    "country-codes",
+    "demographics",
+    "economic",
+    "economics",
+    "education",
+    "europe",
+    "films",
+    "format-dcterms",
+    "format-prov",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "heritage",
+    "indicators",
+    "international",
+    "license-metadata",
+    "linked-data",
+    "lod",
+    "lodcloud",
+    "lodcloud.candidate",
+    "no-proprietary-vocab",
+    "projects",
+    "provenance-metadata",
+    "published-by-third-",
+    "published-by-third-party",
+    "science and technology",
+    "statistics",
+    "united nations",
+    "vocab-mappings",
+    "void-sparql-endpoint",
+    "world"
+  ],
+  "links": [
+    {
+      "target": "bfs-linked-data",
+      "value": 849
+    },
+    {
+      "target": "dbpedia",
+      "value": 964
+    },
+    {
+      "target": "ecb-linked-data",
+      "value": 855
+    },
+    {
+      "target": "fao-linked-data",
+      "value": 825
+    },
+    {
+      "target": "frb-linked-data",
+      "value": 800
+    },
+    {
+      "target": "imf-linked-data",
+      "value": 119
+    },
+    {
+      "target": "oecd-linked-data",
+      "value": 17337
+    },
+    {
+      "target": "the-eurostat-linked-data",
+      "value": 964
+    },
+    {
+      "target": "transparency-linked-data",
+      "value": 854
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 964
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID",
+      "description": "A VoID Description of the imf.270a.info dataset",
+      "media_type": "meta/void",
+      "access_url": "http://uis.270a.info/.well-known/void"
+    },
+    {
+      "title": "UIS Datasets",
+      "description": "UIS Datasets which contain the statistical observations",
+      "media_type": "RDF",
+      "access_url": "http://uis.270a.info/data/data.tar.gz"
+    },
+    {
+      "title": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://uis.270a.info/data/meta.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF/XML",
+      "description": "Example RDF/XML of a dataset which contains statistical observations.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://uis.270a.info/dataset/CUL_DS"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://uis.270a.info/sparql"
+    }
+  ]
+}

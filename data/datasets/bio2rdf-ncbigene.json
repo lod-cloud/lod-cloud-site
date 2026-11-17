@@ -1,0 +1,142 @@
+{
+  "identifier": "bio2rdf-ncbigene",
+  "title": "Bio2RDF::Ncbigene",
+  "description": {
+    "en": "NCBI Gene provides information for genes from a wide range of species. A record may include nomenclature, Reference Sequences (RefSeqs), maps, pathways, variations, phenotypes, and links to genome-, phenotype-, and locus-specific resources worldwide."
+  },
+  "domain": "life_sciences",
+  "website": "http://ncbigene.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/ncbigene:",
+  "triples": 1164672432,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 858399
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 12374
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gene2accession.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/gene2accession.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gene2ensembl.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/gene2ensembl.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gene2go.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/gene2go.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gene2pubmed.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/gene2pubmed.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gene2sts.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/gene2sts.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gene2unigene.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/gene2unigene.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gene2vega.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/gene2vega.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download geneinfo.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/ncbigene/geneinfo.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/ncbigene/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/ncbigene/ncbigene.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/ncbigene/bio2rdf-ncbigene.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/ncbigene/ncbigene.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/ncbigene/bio2rdf_ncbigene_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/ncbigene/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/ncbigene:1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://ncbigene.bio2rdf.org/sparql"
+    }
+  ]
+}

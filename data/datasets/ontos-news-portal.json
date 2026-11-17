@@ -1,0 +1,56 @@
+{
+  "identifier": "ontos-news-portal",
+  "title": "Ontos News Portal",
+  "description": {
+    "en": "The Ontos News Portal extracts facts (objects as e. g. persons or organizations as well as relations between them, e. g. a person is working for an organization or living at a location). The facts are merged together and build a huge information-network including references to the respective articles. The portal can manually be searched at news.ontos.com. For all objects, Ontos provides dereferencable GUIDs. The interface at www.ontosearch.com allows to easily generate RDF/XML or HTML information."
+  },
+  "domain": "media",
+  "website": "http://news.ontos.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.ontosearch.com/2008/01/identification#",
+  "triples": 2677965,
+  "contact_point": {
+    "name": "Ontos AG (Christian Ehrlich)",
+    "email": "christian.ehrlich@ontos.com"
+  },
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "news",
+    "nlp",
+    "no-deref-vocab",
+    "published-by-producer",
+    "rdf",
+    "semantic-web"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 6935
+    },
+    {
+      "target": "freebase",
+      "value": 30025
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 90
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Complete dump",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.ontosearch.com/dumps/dump.ttl.zip"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "RDF",
+      "access_url": "http://www.ontosearch.com/api/ent-rdf?id=EID-3b6e3fb1eb4bef8e669277e73d2e7d56"
+    }
+  ]
+}

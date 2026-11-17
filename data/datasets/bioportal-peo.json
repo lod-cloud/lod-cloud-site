@@ -1,0 +1,95 @@
+{
+  "identifier": "bioportal-peo",
+  "title": "Parasite Experiment Ontology",
+  "description": {
+    "en": "The Parasite Experiment Ontology (PEO) models provenance metadata associated with experiment protocols used in parasite research. The PEO extends the upper-level Provenir ontology (http://knoesis.wright.edu/provenir/provenir.owl) to represent parasite domain-specific provenance terms.\n\nThe PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creation experiment terms along with other terms that are used in pathway."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1335",
+  "triples": 1175,
+  "contact_point": {
+    "name": "Priti Parikh"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 15
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 22
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 54
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 19
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 33
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 28
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 29
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 17
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45863?apikey=BP_API_KEY"
+    }
+  ]
+}

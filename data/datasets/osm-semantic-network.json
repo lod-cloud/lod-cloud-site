@@ -1,0 +1,72 @@
+{
+  "identifier": "osm-semantic-network",
+  "title": "OSM Semantic Network",
+  "description": {
+    "en": "The **OSM Semantic Network** is a Semantic Web resource extracted from the [OpenStreetMap Wiki website](http://wiki.openstreetmap.org), encoded as a SKOS vocabulary. It contains a machine-readable representation of the tags (i.e. terms) used to describe [map features](http://wiki.openstreetmap.org/wiki/Map_Features) in OSM, and several semantic relations between them. The OSM terms are linked to [LinkedGeoData](http://datahub.io/dataset/linkedgeodata) and WordNet.\r\n\r\nAuthor & Maintaner: [Andrea Ballatore](https://sites.google.com/site/andreaballatore)"
+  },
+  "domain": "geography",
+  "website": "http://wiki.openstreetmap.org/wiki/OSM_Semantic_Network",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://spatial.ucd.ie/lod/osn",
+  "triples": 126621,
+  "contact_point": {
+    "name": "Andrea Ballatore",
+    "email": "andrea.ballatore@ucd.ie"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-skos",
+    "geographic",
+    "geospatial information",
+    "license-metadata",
+    "linked open data",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "maps",
+    "openstreetmap",
+    "osm",
+    "provenance-metadata",
+    "published-by-third-party",
+    "semantics",
+    "vocab-mappings",
+    "vocabulary"
+  ],
+  "links": [
+    {
+      "target": "linkedgeodata",
+      "value": 1335
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download RDF Dump",
+      "description": "OSM Semantic Network.",
+      "media_type": "RDF",
+      "access_url": "http://spatial.ucd.ie/osn/skos/osm_semantic_network.skos.rdf"
+    },
+    {
+      "title": "Download RDF LOD Mappings",
+      "description": "Semantic mappings of OSM terms with WordNet, LinkedGeoData, DBpedia",
+      "media_type": "RDF",
+      "access_url": "http://spatial.ucd.ie/osn/skos/osm_semantic_network_mappings.rdf"
+    },
+    {
+      "title": "Example URI (waterway=river)",
+      "description": "waterway=river",
+      "media_type": "RDF",
+      "access_url": "http://spatial.ucd.ie/lod/osn/data/term/k:waterway/v:river"
+    },
+    {
+      "title": "Example URI (amenity=university)",
+      "description": "Term: amenity=university",
+      "media_type": "RDF",
+      "access_url": "http://spatial.ucd.ie/lod/osn/term/k:amenity/v:university"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL End Point",
+      "access_url": "http://spatial.ucd.ie/lod/sparql"
+    }
+  ]
+}

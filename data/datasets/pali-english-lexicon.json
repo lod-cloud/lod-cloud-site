@@ -1,0 +1,64 @@
+{
+  "identifier": "pali-english-lexicon",
+  "title": "Pali English Lexicon",
+  "description": {
+    "en": "A lexicon from Pali to English."
+  },
+  "website": "http://kasabi.com/dataset/pali-english-lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.kasabi.com/dataset/pali-english-lexicon",
+  "triples": 202731,
+  "keywords": [
+    "culturalheritage",
+    "deref-vocab",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "geographic",
+    "license-metadata",
+    "llod",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "title": "VOID",
+      "description": "Void Description",
+      "access_url": "http://data.kasabi.com/dataset/pali-english-lexicon"
+    },
+    {
+      "description": "Language OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://rdf.ontosema.org/lang/language.owl#"
+    },
+    {
+      "description": "OWL",
+      "access_url": "http://www.w3.org/2002/07/owl#"
+    },
+    {
+      "description": "RDF Syntax NS",
+      "access_url": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "description": "RDFS",
+      "access_url": "http://www.w3.org/2000/01/rdf-schema#"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example RDF",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/pali-english-lexicon/pts-dictionary/e0.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL",
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.kasabi.com/dataset/pali-english-lexicon/apis/sparql"
+    }
+  ]
+}

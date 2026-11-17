@@ -1,0 +1,56 @@
+{
+  "identifier": "linkedcrowdsourceddata",
+  "title": "Linked Crowdsourced Data",
+  "description": {
+    "en": "Linked Crowdsourced Data is - as the name implies - a crowdsourced dataset for real user location preferences. People using the CDCApp contribute to this dataset by checking into different locations. This information is accompanied by contextual information, such as the weather condition during the check-in, the WiFi access points that were measured in this area or whether the check-in occured during a regional holiday."
+  },
+  "domain": "geography",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.contextdatacloud.org/resource/",
+  "triples": 17043,
+  "contact_point": {
+    "name": "Abdulbaki Uzun, Service-centric Networking, TU Berlin",
+    "email": "abdulbaki.m.uzun@tu-berlin.de"
+  },
+  "keywords": [
+    "cdc",
+    "context data cloud",
+    "cuisines",
+    "dishes",
+    "food",
+    "food and beverages",
+    "format-geo",
+    "format-gr",
+    "format-rdf",
+    "format-rdfs",
+    "geographic",
+    "ingredients",
+    "licence-metadata",
+    "lod",
+    "no-deref-vocab",
+    "published-by-producer",
+    "semantic services",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "openmobilenetwork",
+      "value": 2480
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF Resource",
+      "description": "Example RDF resource for a POI.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://www.contextdatacloud.org/resource/loc183"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "SPARQL endpoint for data from Linked Crowdsourced Data",
+      "access_url": "http://sparql.contextdatacloud.org"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "identifier": "bio2rdf-dbsnp",
+  "title": "Bio2RDF::Dbsnp",
+  "description": {
+    "en": "The dbSNP database is a repository for both single base nucleotide subsitutions and short deletion and insertion polymorphisms."
+  },
+  "domain": "life_sciences",
+  "website": "http://dbsnp.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/dbsnp:",
+  "triples": 8801487,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-dbsnp",
+      "value": 447298
+    },
+    {
+      "target": "bio2rdf-genbank",
+      "value": 138
+    },
+    {
+      "target": "bio2rdf-gi",
+      "value": 138
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 11324
+    },
+    {
+      "target": "bio2rdf-refseq",
+      "value": 71624
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download dbsnp.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/dbsnp/dbsnp.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/dbsnp/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/dbsnp/dbsnp.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/dbsnp/bio2rdf-dbsnp.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/dbsnp/dbsnp.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/dbsnp/bio2rdf_dbsnp_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/dbsnp/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/dbsnp:rs199422184"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://dbsnp.bio2rdf.org/sparql"
+    }
+  ]
+}

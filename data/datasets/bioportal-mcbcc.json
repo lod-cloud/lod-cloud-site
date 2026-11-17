@@ -1,0 +1,179 @@
+{
+  "identifier": "bioportal-mcbcc",
+  "title": "Breast tissue cell lines",
+  "description": {
+    "en": "Contains a comprehensive list of cell lines derived from breast tissue, both normal and pathological. The ontology in built in OWL with cross relation to classes- genetic variation, pathological condition, genes, chemicals and drugs. The relations built enable semantic query across different classes"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1438",
+  "triples": 15681,
+  "contact_point": {
+    "name": "Dr. Arathi Raghunath"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 15
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 14
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 22
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 111
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 10
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 15
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 102
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 32
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 93
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 44
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 21
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 23
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 13
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 36
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 385
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 58
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 126
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 62
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 193
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 45
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 29
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 48
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 13
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 42
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 32
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 19
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 70
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 19
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 10
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 16
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 13
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44178?apikey=BP_API_KEY"
+    }
+  ]
+}

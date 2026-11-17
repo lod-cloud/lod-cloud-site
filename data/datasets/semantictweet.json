@@ -1,0 +1,37 @@
+{
+  "identifier": "semantictweet",
+  "title": "SemanticTweet",
+  "description": {
+    "en": "SemanticTweet is a simple web service that generates a FOAF RDF document for you from your list of Twitter friends and followers (or more specifically, from the 100 most recent of each of your friends and followers). It does this using the Twitter REST API. This service uses public Twitter data only, and so doesn?t need your Twitter username or password."
+  },
+  "domain": "user_generated",
+  "website": "http://semantictweet.com/",
+  "namespace": "http://semantictweet.com/",
+  "triples": 500000,
+  "contact_point": {
+    "name": "Steve Flinter",
+    "email": "stephen@flinter.com"
+  },
+  "keywords": [
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-proprietary-vocab",
+    "published-by-third-party",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 100
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://semantictweet.com/barackobama/friends"
+    }
+  ]
+}

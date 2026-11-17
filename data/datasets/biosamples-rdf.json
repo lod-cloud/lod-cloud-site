@@ -1,0 +1,48 @@
+{
+  "identifier": "biosamples-rdf",
+  "title": "BioSamples RDF",
+  "description": {
+    "en": "The BioSamples database aggregates sample information for reference samples (e.g. Coriell Cell lines) and samples for which data exist in one of the EBI's assay databases such as ArrayExpress, the European Nucleotide Archive or PRoteomics Identificates DatabasE. It provides links to assays an specific samples, and accepts direct submissions of sample information."
+  },
+  "domain": "life_sciences",
+  "namespace": "http://rdf.ebi.ac.uk/resource/biosamples/",
+  "triples": 136323595,
+  "contact_point": {
+    "name": "Samples, Phenotypes & Ontologies team"
+  },
+  "keywords": [
+    "bioinformatics",
+    "biology",
+    "lifesciences",
+    "linked data",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "gene-expression-atlas-rdf",
+      "value": 39370
+    }
+  ],
+  "other_download": [
+    {
+      "title": "BioSamples VoID description",
+      "access_url": "http://rdf.ebi.ac.uk/dataset/biosamples/v20140506/dataset-void.ttl"
+    },
+    {
+      "title": "BioSamples RDF FTP download",
+      "media_type": "text/turtle",
+      "access_url": "ftp://ftp.ebi.ac.uk/pub/databases/RDF/biosamples/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "BioSamples SPARQL endpoint",
+      "access_url": "https://www.ebi.ac.uk/rdf/services/biosamples/sparql"
+    }
+  ]
+}

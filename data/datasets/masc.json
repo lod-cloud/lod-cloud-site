@@ -1,0 +1,47 @@
+{
+  "identifier": "masc",
+  "title": "Manually Annotated Sub-Corpus (MASC) of the Open American National Corpus",
+  "description": {
+    "en": "The Manually Annotated Sub-Corpus (MASC) consists of approximately 500,000 words of contemporary American English written and spoken data drawn from the OPEN AMERICAN NATIONAL CORPUS (OANC).\r\n\r\n\r\nAll of MASC includes manually validated annotations for sentence boundaries, token, lemma and POS; noun and verb chunks; and named entities (person, location, organization, date). Additional manually produced or validated annotations have been produced by the MASC project for portions of the sub-corpus, including full-text annotation for FrameNet frame elements, WordNet sense tags, and Penn Treebank syntactic annotation. Annotations of all or portions of the sub-corpus for a wide variety of other linguistic phenomena have been contributed by other projects.\r\n\r\n\r\nUnlike most freely available corpora including a wide variety of linguistic annotations, MASC contains texts from a broad range of genres.\r\n\r\n\r\nMASC is an OPEN LANGUAGE DATA resource that can be downloaded by anyone for any purpose. At the same time, it is a resource that will be enhanced by the community, through its contributions of annotations and derived data.\r\n\r\nThe RDF conversion from GrAF is still in preparation. Below, you can find a preliminary OWL2/DL representation of the PennTreebank syntax (60.000 tok) in OWL, generated out of the original annotations, instead. Triple counts and links refer to this fragment. The conversion follows POWLA specifications (http://sourceforge.net/projects/powla/) and includes links to OLiA Annotation Models for PTB morphosyntax and syntax."
+  },
+  "domain": "linguistics",
+  "website": "http://www.anc.org/MASC/Home.html",
+  "triples": 1000000,
+  "keywords": [
+    "american-english",
+    "annotation",
+    "corpus",
+    "crossdomain",
+    "english",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 67000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "MASC v. 3.0.0",
+      "description": "original formats and GrAF XML",
+      "media_type": "application/x-gzip",
+      "download_url": "http://www.anc.org/MASC/download/MASC-3.0.0.tgz"
+    },
+    {
+      "title": "MASC v. 3.0.0 (PTB syntax only), OWL2/DL",
+      "description": "provisional conversion of the PTB-annotated MASC subsection, 60.000 tokens, generated from original format (not GrAF/XML)",
+      "media_type": "application/x-gzip",
+      "download_url": "http://acoli.cs.uni-frankfurt.de/resources/powla/data/masc/MASC-3.0.0_PTB/MASC-3.0.0_PTB.owl.tgz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "MASC v. 1.0.3",
+      "description": "MASC1 data and annotations (v 1.0.3), ANC (GrAF) format",
+      "media_type": "application/zip",
+      "access_url": "http://www.anc.org/MASC/download/MASC-1.0.3.zip"
+    }
+  ]
+}

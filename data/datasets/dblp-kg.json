@@ -1,0 +1,91 @@
+{
+  "identifier": "dblp-kg",
+  "title": "dblp Knowledge Graph",
+  "description": {
+    "en": "The dblp Knowledge Graph (dblp KG) is a fully semantic view of all the data and relationships found in the dblp computer science bibliography. The dblp KG is synchronized daily with the current and curated data of the dblp bibliography."
+  },
+  "domain": "publications",
+  "website": "https://dblp.org",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://dblp.org",
+  "triples": 0,
+  "doi": "10.4230/dblp.rdf.ntriples",
+  "image": "https://raw.githubusercontent.com/dblp/kg/main/dblp-kg-sketch.png",
+  "contact_point": {
+    "name": "Marcel R. Ackermann",
+    "email": "marcel.ackermann@dagstuhl.de"
+  },
+  "keywords": [
+    "publications",
+    "format-rdf",
+    "lod",
+    "bibliographic",
+    "library",
+    "linkeddata",
+    "ontology",
+    "rdf",
+    "computer science",
+    "dblp",
+    "bibliography",
+    "authors",
+    "venues",
+    "affiliations",
+    "identifiers",
+    "cc0"
+  ],
+  "full_download": [
+    {
+      "title": "dblp computer science bibliography – Monthly RDF/N-Triple Snapshot Release",
+      "description": "This directory contains all the persistent dblp RDF/N-Triple data releases. The dblp computer science bibliography is the open indexing service and knowledge graph of the computer science community. dblp provides quality-checked and curated bibliographic metadata on major computer science journals, proceedings, and monographs, as well as metadata and identifiers about their authors and the venues they have been published in.",
+      "download_url": "https://doi.org/10.4230/dblp.rdf.ntriples"
+    },
+    {
+      "title": "dblp computer science bibliography – Daily RDF/N-Triple Dump Export",
+      "description": "This file contains the current state of dblp in RDF/N-Triple data. The dblp computer science bibliography is the open indexing service and knowledge graph of the computer science community. dblp provides quality-checked and curated bibliographic metadata on major computer science journals, proceedings, and monographs, as well as metadata and identifiers about their authors and the venues they have been published in.",
+      "media_type": "application/n-triples+gzip",
+      "download_url": "https://dblp.org/rdf/dblp.ttl.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "dblp RDF schema",
+      "description": "The dblp RDF schema is an ontology that models the semantic contents of the dblp computer science bibliography.",
+      "access_url": "https://dblp.org/rdf/schema.rdf"
+    },
+    {
+      "title": "dblp RDF schema documentation",
+      "description": "The dblp RDF schema is an ontology that models the semantic contents of the dblp computer science bibliography.",
+      "access_url": "https://dblp.org/rdf/docu/"
+    },
+    {
+      "title": "dblp KG Tutorial",
+      "description": "With this tutorial we give dblp KG beginners a \"guided tour\" to help them find out what kind of data can be found in the knowledge graph. We encourage them to run examples, modify them to their liking on our live query server and try to develop own queries. We are convinced that the best way to learn how to query a new knowledge graph is to get right into it and play with it.",
+      "access_url": "https://github.com/dblp/kg/wiki/dblp-KG-Tutorial"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "description": "Creator resource of Chris Bizer.",
+      "access_url": "https://dblp.org/pid/b/ChristianBizer"
+    },
+    {
+      "title": "Example resource",
+      "description": "Publication resource of \"DBpedia: A Nucleus for a Web of Open Data\".",
+      "access_url": "https://dblp.org/rec/conf/semweb/AuerBKLCI07"
+    },
+    {
+      "title": "Example query",
+      "description": "All publications created by Chris Bizer.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://sparql.dblp.org/?query=PREFIX+dblp%3A+%3Chttps%3A%2F%2Fdblp.org%2Frdf%2Fschema%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT+%3Fpubl+%3Flabel+%3Fyear+%3Furl+WHERE+%7B%0A++BIND+%28%3Chttps%3A%2F%2Fdblp.org%2Fpid%2Fb%2FChristianBizer%3E+AS+%3Fpers%29%0A++%3Fpubl+dblp%3AcreatedBy+%3Fpers+.%0A++%3Fpubl+rdfs%3Alabel+%3Flabel+.%0A++%3Fpubl+dblp%3AyearOfEvent+%3Fyear+.%0A++%3Fpubl+dblp%3AprimaryDocumentPage+%3Furl+.%0A%7D%0AORDER+BY+DESC%28%3Fyear%29"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "dblp SPARQL Query Service",
+      "description": "The dblp SPARQL Query Service allows users to explore all the semantic content of the dblp computer science bibliography. This includes metadata about publications, their authors, the venues where they were published and metadata about these relationships. All data here is synchronized daily with the current and curated dblp data.",
+      "access_url": "https://sparql.dblp.org/sparql"
+    }
+  ]
+}

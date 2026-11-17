@@ -1,0 +1,43 @@
+{
+  "identifier": "riese",
+  "title": "RDFizing and Interlinking the EuroStat Data Set Effort",
+  "description": {
+    "en": "The statistical data published on riese was originally published by Eurostat. \r\n\r\n### Openness: Open (?)\r\n\r\n[About page](http://riese.joanneum.at/about.html) has cc-by on page but not clear whether this applies to data. Page also states:\r\n\r\n> The statistical data published on riese was originally published by Eurostat. Provided that the source is acknowledged, Eurostat data may be reproduced under the conditions specified in the general copyright notice."
+  },
+  "website": "http://riese.joanneum.at/data/",
+  "namespace": "http://riese.joanneum.at/data/",
+  "triples": 5000000,
+  "keywords": [
+    "europe",
+    "format-rdf",
+    "geographic",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "statistics"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 100000
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://riese.joanneum.at/dump/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://riese.joanneum.at/data/bp010/2007m01_ea"
+    }
+  ]
+}

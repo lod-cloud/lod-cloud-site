@@ -1,0 +1,75 @@
+{
+  "identifier": "Chinese_Red_Classic_Song_Linked_Data_Dataset",
+  "title": "Chinese Red Song Linked Data Dataset",
+  "description": {
+    "en": "Red songs are precious historical materials, reflecting the face of Chinese people in a specific historical period, praising the glorious achievements of the party and the motherland, praising the noble spirit of the people of all ethnic groups who are not afraid of hardships and hard struggle, and expressing their yearning for their hometown. At the same time, many songs reflect the historical events experienced by the party and the state in the development process, and praise a large number of proletarian revolutionaries and ordinary workers who have made great contributions to the prosperity of the country and the happiness of the people. At the same time, it attacked the oppression of imperialism and feudalism. These are still worth learning."
+  },
+  "domain": "media",
+  "website": "http://47.97.223.173:8000",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 5828,
+  "contact_point": {
+    "name": "baixue",
+    "email": "wawabaixue@sina.com"
+  },
+  "keywords": [
+    "Red Classic Song Chinese History-event Figure Imagery"
+  ],
+  "full_download": [
+    {
+      "title": "related figure",
+      "description": "related figure about song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/figure.ttl"
+    },
+    {
+      "title": "related imagery",
+      "description": "related imagery about song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/imagery.ttl"
+    },
+    {
+      "title": "related history event",
+      "description": "related history event about song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/historyevent.ttl"
+    },
+    {
+      "title": "performer",
+      "description": "performer of song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/performer.ttl"
+    },
+    {
+      "title": "composer",
+      "description": "composer of song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/composer.ttl"
+    },
+    {
+      "title": "song",
+      "description": "song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/song.ttl"
+    },
+    {
+      "title": "lyricist",
+      "description": "lyricist of song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/Lyricist.ttl"
+    },
+    {
+      "title": "original performer",
+      "description": "original performer of song",
+      "download_url": "https://raw.githubusercontent.com/baixue1/linked-data/master/data/original_performer.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Chinese Red Classic Song Linked Data Dataset Demo",
+      "description": "Selected the red classic song \"hong mei zan\" and the related composers, composers, singers, as well as its related characters, images and so on.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://47.97.223.173:8000"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Chinese Red Classic Song Linked Data Dataset endpoint",
+      "description": "Chinese Red Classic Song Linked Data Dataset endpoint",
+      "access_url": "http://47.97.223.173:3030"
+    }
+  ]
+}

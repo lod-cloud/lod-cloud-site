@@ -1,0 +1,103 @@
+{
+  "identifier": "bioportal-ixno",
+  "title": "IxnO",
+  "description": {
+    "en": "The Interaction ontology (IxnO) was developed to enable curation of chemical-gene and chemical-protein interactions for the Comparative Toxicogenomics Database (CTD). CTD is a freely available resource that aims to promote understanding and novel hypothesis development about the effects of the environment on human health."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1614",
+  "triples": 1184,
+  "contact_point": {
+    "name": "Carolyn Mattingly"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bootstrep",
+      "value": 11
+    },
+    {
+      "target": "bioportal-chem2bio2owl",
+      "value": 33
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 20
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 28
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 28
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 11
+    },
+    {
+      "target": "bioportal-iev",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 17
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 79
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 37
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 28
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 15
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45567?apikey=BP_API_KEY"
+    }
+  ]
+}

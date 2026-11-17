@@ -1,0 +1,69 @@
+{
+  "identifier": "europeana-sparql",
+  "title": "Europeana SPARQL",
+  "description": {
+    "en": "Europeana EDM data loaded to OWLIM, with SPARQL and visualization. \r\nContinuing development as part of @eCreativeEU"
+  },
+  "domain": "cross_domain",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.europeana.eu/item/",
+  "triples": 3798446742,
+  "contact_point": {
+    "name": "Ontotext",
+    "email": "info@ontotext.com"
+  },
+  "keywords": [
+    "culturalheritage",
+    "culture",
+    "edm",
+    "europeana",
+    "europeana data model",
+    "format-edm",
+    "lod",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "sparql",
+    "sparql-endpoint",
+    "topic.media"
+  ],
+  "links": [
+    {
+      "target": "geonames",
+      "value": 1650634
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EDM schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://www.europeana.eu/schemas/edm/"
+    },
+    {
+      "title": "VOID description",
+      "access_url": "http://data.europeana.eu/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "sample object (all triples in HTML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://europeana.ontotext.com/europeana/tab?uri=http%3A%2F%2Fdata.europeana.eu%2Fitem%2F01004%2FE17BBC456775874D778D9540864548CF298254C4&role=CHO"
+    },
+    {
+      "title": "sample object (all triples in Turtle)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://europeana.ontotext.com/download/n3?uri=http://data.europeana.eu/item/01004/E17BBC456775874D778D9540864548CF298254C4&format=n3&inference=all"
+    },
+    {
+      "title": "sample object (EDM graph visualization)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://europeana.ontotext.com/europeana/tab?uri=http%3A%2F%2Fdata.europeana.eu%2Fitem%2F01004%2FE17BBC456775874D778D9540864548CF298254C4&role=Graph&inference=all"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://europeana.ontotext.com/sparql"
+    }
+  ]
+}

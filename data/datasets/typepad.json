@@ -1,0 +1,36 @@
+{
+  "identifier": "typepad",
+  "title": "typepad",
+  "description": {
+    "en": "user and blog data"
+  },
+  "domain": "user_generated",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-admin",
+    "format-bio",
+    "format-content",
+    "format-dcterm",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-rss",
+    "lodcloud-diagram-2014-08-30",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "w3c",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "title": "user information",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://novaspivack.typepad.com/foaf.rdf"
+    }
+  ]
+}

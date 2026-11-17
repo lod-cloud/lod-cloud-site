@@ -1,0 +1,55 @@
+{
+  "identifier": "jp-textbook",
+  "title": "Japanese Textbook LOD",
+  "description": {
+    "en": "Japanese Textbook LOD project provides a LOD dataset for textbooks published in Japan up to now since the 7th curriculum guideline enforced in 1992, as well as the related information such as the subject areas, the subjects, and the curriculum guidelines. As of March 2018, the dataset contains bibliographic information for about 8,000 textbook titles."
+  },
+  "domain": "publications",
+  "website": "https://w3id.org/jp-textbook/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://w3id.org/jp-textbook/",
+  "triples": 486116,
+  "image": "https://jp-textbook.github.io/textbookLOD-logo.png",
+  "contact_point": {
+    "name": "Masao Takaku",
+    "email": "masao@slis.tsukuba.ac.jp"
+  },
+  "keywords": [
+    "textbook"
+  ],
+  "links": [
+    {
+      "target": "dbpedia-ja",
+      "value": 817
+    },
+    {
+      "target": "jp-cos",
+      "value": 31097
+    },
+    {
+      "target": "national-diet-library-authorities",
+      "value": 937
+    }
+  ],
+  "full_download": [
+    {
+      "title": "all-textbook-20221007.ttl.gz",
+      "description": "Version 21.0 of Textbook metadata",
+      "media_type": "text/turtle; charset=utf-8",
+      "download_url": "https://w3id.org/jp-textbook/all-textbook-20221007.ttl.gz"
+    },
+    {
+      "title": "all-teachingUnit-20221007.ttl.gz",
+      "description": "Version 21.0 of Teaching unit metadata within textbooks",
+      "media_type": "text/turtle; charset=utf-8",
+      "download_url": "https://w3id.org/jp-textbook/all-teachingUnit-20221007.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Ebata Yoshio, et al. Eds. Japanese Expression, 2nd Edition. Daiichi Gakushusha, 192p.",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "https://w3id.org/jp-textbook/高等学校/2017/国表/308"
+    }
+  ]
+}

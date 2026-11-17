@@ -1,0 +1,39 @@
+{
+  "identifier": "linked-open-numbers",
+  "title": "Linked Open Numbers",
+  "description": {
+    "en": "A dataset of the natural numbers. Published on April 1st, 2010."
+  },
+  "domain": "cross_domain",
+  "website": "http://km.aifb.kit.edu/projects/numbers/",
+  "namespace": "http://km.aifb.kit.edu/projects/numbers/web/",
+  "triples": 140000000,
+  "contact_point": {
+    "name": "Denny Vrande?i?",
+    "email": "denny.vrandecic@kit.edu"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 320
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://km.aifb.kit.edu/projects/numbers/n7"
+    }
+  ]
+}

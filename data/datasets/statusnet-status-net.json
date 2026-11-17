@@ -1,0 +1,185 @@
+{
+  "identifier": "statusnet-status-net",
+  "title": "statusnet-status-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://status.net"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 205
+    },
+    {
+      "target": "personal-homepages",
+      "value": 45
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 9
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 5
+    },
+    {
+      "target": "statusnet-dtdns-net",
+      "value": 2
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 26
+    },
+    {
+      "target": "statusnet-freelish-us",
+      "value": 9
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 7
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-integralblue-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 2
+    },
+    {
+      "target": "statusnet-keuser-fr",
+      "value": 2
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 3
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 2
+    },
+    {
+      "target": "statusnet-maymay-net",
+      "value": 10
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 2
+    },
+    {
+      "target": "statusnet-mrblog-nl",
+      "value": 10
+    },
+    {
+      "target": "statusnet-mulestable-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-orangeseeds-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 2
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-planet-libre-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 12
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 64
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 9
+    },
+    {
+      "target": "statusnet-recit-org",
+      "value": 7
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 10
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 12
+    },
+    {
+      "target": "statusnet-sebseb01-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 15
+    },
+    {
+      "target": "statusnet-spraci-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 7
+    },
+    {
+      "target": "statusnet-thornton2-com",
+      "value": 1
+    },
+    {
+      "target": "typepad",
+      "value": 4
+    },
+    {
+      "target": "wordpress",
+      "value": 13
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://280.status.net/bitcoinmedia/foaf"
+    }
+  ]
+}

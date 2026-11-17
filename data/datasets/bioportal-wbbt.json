@@ -1,0 +1,223 @@
+{
+  "identifier": "bioportal-wbbt",
+  "title": "C. elegans gross anatomy",
+  "description": {
+    "en": "A structured controlled vocabulary of the anatomy of <i>Caenorhabditis elegans</i>."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1048",
+  "triples": 97058,
+  "contact_point": {
+    "name": "Raymond Lee"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 42
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 11
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 16
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 58
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 64
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 115
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 23
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 35
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 53
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 11
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 102
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 147
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 95
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 61
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 51
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 11
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 23
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 15
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 17
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 55
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 35
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 45
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 107
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 86
+    },
+    {
+      "target": "bioportal-mfo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 92
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 194
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 45
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 18
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 10
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 25
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 19
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 39
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 37
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 123
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 55
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 54
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 83
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 37
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 39
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 53
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47291?apikey=BP_API_KEY"
+    }
+  ]
+}

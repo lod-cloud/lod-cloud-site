@@ -1,0 +1,275 @@
+{
+  "identifier": "bioportal-iao",
+  "title": "Information Artifact Ontology",
+  "description": {
+    "en": "The Information Artifact Ontology (IAO) is a new ontology of information entities, originally driven by work by the OBI digital entity and realizable information entity branch.<p>\n\n<p><b>To import</b><p>\n\nLatest released version: <a href=\"http://purl.obolibrary.org/obo/iao.owl\">http://purl.obolibrary.org/obo/iao.owl</a><p>\n\n<b>Other versions</b><p>\n\nDeveloper (live) version: <a href=\"http://purl.obolibrary.org/obo/iao/dev/iao.owl\">http://purl.obolibrary.org/obo/iao/dev/iao.owl</a><p>\n\nOntology metadata properties and classes only: <a href=\"http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl\">http://purl.obolibrary.org/obo/iao/dev/iao.owl</a><p>\n\n<b>Dated versions</b>\n<ul>\n<li><a href=\"http://purl.obolibrary.org/obo/iao/2009-11-06/iao.owl\">http://purl.obolibrary.org/obo/iao/2009-11-06/iao.owl</a>\n<li><a href=\"http://purl.obolibrary.org/obo/iao/2010-09-14/iao.owl\">http://purl.obolibrary.org/obo/iao/2010-09-14/iao.owl</a>\n<li><a href=\"http://purl.obolibrary.org/obo/iao/2010-10-26/iao.owl\">http://purl.obolibrary.org/obo/iao/2010-10-26/iao.owl</a>\n<li><a href=\"http://purl.obolibrary.org/obo/iao/2011-05-09/iao.owl\">http://purl.obolibrary.org/obo/iao/2011-05-09/iao.owl</a>\n</ul><p>\n\n<p>Please note: The ontology metrics displayed by BioPortal are incorrect as of 7/23/2011. If you need accurate number you will need to compute them on your own, until further notice. In particular these metrics do not distinguish IAO-developed terms versus terms imported from other ontologies, and do not count existing author or definition annotations\n\n<p><b>Tracker</b>: <a href=\"http://purl.obolibrary.org/obo/iao/tracker\">http://purl.obolibrary.org/obo/iao/tracker</a><br>\n<b>Discussion group</b>: <a href=\"http://groups.google.com/group/information-ontology\">http://groups.google.com/group/information-ontology</a>"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1393",
+  "triples": 2160,
+  "contact_point": {
+    "name": "Alan Ruttenberg"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 41
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 118
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 65
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-bfo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 10
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 47
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 59
+    },
+    {
+      "target": "bioportal-cao",
+      "value": 50
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 97
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 95
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 93
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 51
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 97
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 53
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 62
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 94
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 45
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 56
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 60
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 39
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 97
+    },
+    {
+      "target": "bioportal-mfoem",
+      "value": 97
+    },
+    {
+      "target": "bioportal-miro",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 47
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 61
+    },
+    {
+      "target": "bioportal-neomark",
+      "value": 17
+    },
+    {
+      "target": "bioportal-neumore",
+      "value": 17
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 116
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 51
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 51
+    },
+    {
+      "target": "bioportal-nmr",
+      "value": 37
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 36
+    },
+    {
+      "target": "bioportal-oae",
+      "value": 47
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 86
+    },
+    {
+      "target": "bioportal-ocre",
+      "value": 19
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 48
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 41
+    },
+    {
+      "target": "bioportal-ogms",
+      "value": 55
+    },
+    {
+      "target": "bioportal-omrse",
+      "value": 55
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 97
+    },
+    {
+      "target": "bioportal-ontodt",
+      "value": 17
+    },
+    {
+      "target": "bioportal-ooevv",
+      "value": 16
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 56
+    },
+    {
+      "target": "bioportal-pvonto",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rnao",
+      "value": 39
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 37
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 58
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 30
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 45
+    },
+    {
+      "target": "bioportal-swo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 97
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 60
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 43
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/40642?apikey=BP_API_KEY"
+    }
+  ]
+}

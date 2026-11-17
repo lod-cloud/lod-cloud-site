@@ -1,0 +1,66 @@
+{
+  "identifier": "grrp",
+  "title": "Accommodations in Piedmont (LinkedOpenData.it)",
+  "description": {
+    "en": "List of accommodations in Piedmont, Italy. The dataset uses GoodRelations and vcard and includes addresses, contact information (where available) and geo-reference. Note: geo-reference is provided in a best effort way, might contain errors."
+  },
+  "domain": "geography",
+  "website": "http://www.linkedopendata.it/datasets/grrp",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 153935,
+  "contact_point": {
+    "name": "Linkedopendata.it",
+    "email": "info@linkedopendata.it"
+  },
+  "keywords": [
+    "accommodation",
+    "country-italy",
+    "deref-vocab",
+    "format-gr",
+    "format-rdf",
+    "format-vcard",
+    "geographic",
+    "goodrelations",
+    "hotel",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "piedmont",
+    "piemonte",
+    "provenance-metadata",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 934
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF dump",
+      "media_type": "RDF",
+      "access_url": "http://dump.linkedopendata.it/grrp"
+    },
+    {
+      "description": "Void description",
+      "media_type": "meta/void",
+      "access_url": "http://void.linkedopendata.it/grrp"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.linkedopendata.it/grrp/resource/AFFITTACAMERE_ARCOBALENO_2"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.linkedopendata.it/grrp"
+    }
+  ]
+}

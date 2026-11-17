@@ -1,0 +1,21 @@
+{
+  "identifier": "iate-rdf",
+  "title": "IATE RDF",
+  "description": {
+    "en": "The IATE Dataset in RDF, converted from TBX"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 8081142,
+  "keywords": [
+    "lexicon",
+    "linguistics"
+  ],
+  "other_download": [
+    {
+      "title": "IATE N-Triple dump",
+      "media_type": "application/x-gzip",
+      "access_url": "http://tbx2rdf.lider-project.eu/data/iate/iate.nt.gz"
+    }
+  ]
+}

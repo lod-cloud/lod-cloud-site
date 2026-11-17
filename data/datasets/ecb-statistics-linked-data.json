@@ -1,0 +1,52 @@
+{
+  "identifier": "ecb-statistics-linked-data",
+  "title": "European Central Bank Statistics (PublicData.eu)",
+  "description": {
+    "en": "This dataset is a Linked Data conversion of the European Central Bank  Statistical Warehouse. It consists of SPARQLable metadata, and URIs to the individual /series/ that dereference to on-the-fly conversion to RDFa."
+  },
+  "website": "http://ecb.publicdata.eu",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://ecb.publicdata.eu/",
+  "triples": 10000000,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "keith.alexander@talis.com"
+  },
+  "keywords": [
+    "GDP",
+    "bank",
+    "eu",
+    "eu-institution",
+    "europe",
+    "european union",
+    "exchange rates",
+    "finance",
+    "format-qb",
+    "government",
+    "latc",
+    "linked data",
+    "lod",
+    "no-proprietary-vocab",
+    "published-by-third-party",
+    "statistics"
+  ],
+  "links": [
+    {
+      "target": "data-gov-uk-time-intervals",
+      "value": 100000
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Data Series",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://ecb.publicdata.eu/series/127_RA_M_4F_N_4_Z20_N_A1_E.html"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://ecb.publicdata.eu/sparql"
+    }
+  ]
+}

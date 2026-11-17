@@ -1,0 +1,34 @@
+{
+  "identifier": "debian-package-tracking-system",
+  "title": "Debian Package Tracking System",
+  "description": {
+    "en": "Data on all Debian packages is available as RDF via content negotiation from the Debian QA website. This uses the ADMS.SW standard.\r\n\r\nMore background in [this blog post](http://www-public.telecom-sudparis.eu/~berger_o/weblog/2012/08/29/debian-package-tracking-system-now-produces-rdf-description-of-source-packages/)."
+  },
+  "domain": "social_networking",
+  "website": "http://packages.qa.debian.org/common/RDF.html",
+  "namespace": "http://packages.qa.debian.org/",
+  "triples": 1500000,
+  "contact_point": {
+    "name": "Olivier Berger"
+  },
+  "keywords": [
+    "adms.sw",
+    "debian",
+    "doap",
+    "lod",
+    "lodcloud",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "opensource",
+    "packages",
+    "rdf",
+    "rdfxml",
+    "software"
+  ],
+  "other_download": [
+    {
+      "title": "Example (RDF/XML)",
+      "access_url": "http://packages.qa.debian.org/a/apache2.rdf"
+    }
+  ]
+}

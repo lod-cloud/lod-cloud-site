@@ -1,0 +1,57 @@
+{
+  "identifier": "fu-berlin-eurostat",
+  "title": "Eurostat in RDF (FU Berlin)",
+  "description": {
+    "en": "This dataset contains several statistical indicators for European countries and NUTS Level-2 Regions (NUTS: Nomenclature of Territorial Units for Statistics). Most statistical data are time series, therefore only the latest availabe value is provided here.\r\n\r\n### Issues\r\n\r\nDate of extraction: 06-14-2007; hence this dataset is seriously outdated.\r\n\r\nlinks:ontologycentral-eurostat: 424"
+  },
+  "domain": "government",
+  "website": "http://www4.wiwiss.fu-berlin.de/eurostat/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/eurostat/resource/",
+  "triples": 8850,
+  "contact_point": {
+    "name": "Christian Bizer",
+    "email": "chris@bizer.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "eurostat",
+    "format-rdf",
+    "geographic",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 129
+    },
+    {
+      "target": "eurostat-rdf",
+      "value": 424
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/eurostat/data/regions/Border_Midland_And_Western?output=rdfxml"
+    },
+    {
+      "description": "Example (RDF/N3)",
+      "media_type": "example/rdf+n3",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/eurostat/data/regions/Border_Midland_And_Western?output=n3"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/eurostat/sparql"
+    }
+  ]
+}

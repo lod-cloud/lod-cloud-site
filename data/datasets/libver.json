@@ -1,0 +1,78 @@
+{
+  "identifier": "libver",
+  "title": "Public Library of Veroia",
+  "description": {
+    "en": "Public Library of Veroia Linked Open Data Project. This is the first effort of a Greek Library to expose it's Bibliographic Data as Linked Open Data."
+  },
+  "domain": "publications",
+  "website": "http://libver.math.auth.gr",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://libver.math.auth.gr/resource",
+  "triples": 1285417,
+  "contact_point": {
+    "name": "Sotiris Karampatakis",
+    "email": "s.karampatakis@gmail.com"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-rdf",
+    "format-rdfs",
+    "lld",
+    "lod",
+    "media",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2915
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 4197
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Virtuoso Faceted Search",
+      "description": "You can search the entire dataset through the Virtuoso Faceted Search application. You can try the free text search or an entity lookup.",
+      "media_type": "api/search",
+      "access_url": "http://libver.math.auth.gr/fct"
+    },
+    {
+      "title": "2012-09-06T043619/record1_10.rdf",
+      "description": "RDF/XML file of a Book.",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-09-06T043619/record1_10.rdf"
+    },
+    {
+      "title": "2012-09-25T143058/void.ttl",
+      "media_type": "meta/void",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-09-25T143058/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://libver.math.auth.gr/data/agent3911.rdf"
+    },
+    {
+      "title": "Link to an example data item within the dataset (RDFa)",
+      "description": "Link to an example data item within the dataset (RDFa)\r\nThe actual URI is http://libver.math.auth.gr/resource/agent3911, which redirect via 303 to http://libver.math.auth.gr/page/agent3911",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://libver.math.auth.gr/page/agent3911"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "The sparql endpoint of Public Library of Veroia",
+      "access_url": "http://libver.math.auth.gr/sparql"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "identifier": "italian-public-schools-linkedopendata-it",
+  "title": "Italian public schools (LinkedOpenData.it)",
+  "description": {
+    "en": "Contains addresses, type, contacts and other info about more 50.000 public schools in italy.\r\n\r\nThe dataset is currently in alpha stage: its quality needs to be improved and schools are not yet georeferenced.\r\n\r\nMore information at [http://www.linkedopendata.it/datasets/scuole](http://www.linkedopendata.it/datasets/scuole)"
+  },
+  "domain": "publications",
+  "website": "http://www.linkedopendata.it/datasets/scuole",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.linkedopendata.it/scuole/resource/",
+  "triples": 168638,
+  "contact_point": {
+    "name": "linkedopendata.it",
+    "email": "info@linkedopendata.it"
+  },
+  "keywords": [
+    "country-italy",
+    "education",
+    "format-rdf",
+    "format-vcard",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud.nolinks",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "pre-schools",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "other_download": [
+    {
+      "description": "RDF dump",
+      "media_type": "RDF",
+      "access_url": "http://dump.linkedopendata.it/scuole"
+    },
+    {
+      "description": "voID description",
+      "media_type": "meta/void",
+      "access_url": "http://void.linkedopendata.it/scuole"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.linkedopendata.it/scuole/resource/RMTA047015"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.linkedopendata.it/scuole"
+    }
+  ]
+}

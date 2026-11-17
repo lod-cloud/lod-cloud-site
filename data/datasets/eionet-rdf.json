@@ -1,0 +1,74 @@
+{
+  "identifier": "eionet-rdf",
+  "title": "EIONET RDF Data",
+  "description": {
+    "en": "Various data sets in RDF format collected by the [European Environment Agency](http://www.eea.europa.eu/) as part of the [European Environment Information and Observation Network](http://eionet.europa.eu/) (EIONET).\r\n\r\nAn overview of available datasets can be obtained from the [VoID file](http://rdfdata.eionet.europa.eu/void.rdf)."
+  },
+  "domain": "government",
+  "website": "http://rdfdata.eionet.europa.eu/",
+  "namespace": "http://rdfdata.eionet.europa.eu/",
+  "triples": 26729925,
+  "keywords": [
+    "eea",
+    "eionet",
+    "environment",
+    "europe",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 432
+    },
+    {
+      "target": "eea-rod",
+      "value": 92
+    },
+    {
+      "target": "eunis",
+      "value": 2751
+    },
+    {
+      "target": "eurostat-linked-data",
+      "value": 2792
+    },
+    {
+      "target": "eurostat-rdf",
+      "value": 76
+    },
+    {
+      "target": "fao-geopolitical-ontology",
+      "value": 52
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 96
+    },
+    {
+      "target": "iso-639-oasis",
+      "value": 44
+    },
+    {
+      "target": "lexvo",
+      "value": 44
+    },
+    {
+      "target": "telegraphis",
+      "value": 67
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID File",
+      "access_url": "http://rdfdata.eionet.europa.eu/void.rdf"
+    },
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://semantic.eea.europa.eu/sparql"
+    }
+  ]
+}

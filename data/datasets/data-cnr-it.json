@@ -1,0 +1,76 @@
+{
+  "identifier": "data-cnr-it",
+  "title": "Open Data from the Italian National Research Council",
+  "description": {
+    "en": "data.cnr.it is an initiative of the Italian National Research Council aimed to provide public access to the information of the CNR organization.\r\n\r\nKeywords are: transparency, interoperability, open data.\r\n\r\nThe technologies of the data.cnr.it are based on RDF and follows the paradygm of the Linked Data initiative.\r\n\r\n\r\nDocumentation of the ontology is in OWL-Doc format\r\n\r\nThe CNR ontology can be queried through the SPARQL Endpoint by selecting http://data.cnr.it/ as graph."
+  },
+  "domain": "government",
+  "website": "http://data.cnr.it/site/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://www.cnr.it/ontology/cnr/individuo/",
+  "triples": 2762278,
+  "contact_point": {
+    "name": "Consiglio Nazionale delle Ricerche (CNR)",
+    "email": "data@cnr.it"
+  },
+  "keywords": [
+    "format-owl",
+    "format-skos",
+    "government",
+    "lod",
+    "no-deref-vocab",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 34706
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Ontology",
+      "description": "Download Ontology",
+      "access_url": "http://www.cnr.it/ontology/cnr/"
+    },
+    {
+      "title": "Dataset description (voID)",
+      "description": "Dataset description (voID)",
+      "access_url": "http://data.cnr.it/dataset/"
+    },
+    {
+      "title": "Data dump",
+      "description": "Turtle Dump (tar.gz)",
+      "media_type": "text/turtle",
+      "access_url": "http://data.cnr.it/dump/data-cnr-it-2011-08-29-00.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "CNR individual",
+      "description": "Example resource",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://www.cnr.it/ontology/cnr/individuo/CNR"
+    },
+    {
+      "title": "Institute of Cognitive Sciences and Technologies (ISTC)",
+      "description": "Example resource",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://www.cnr.it/ontology/cnr/individuo/istituto/CDS078"
+    },
+    {
+      "title": "Enrico Daga",
+      "description": "Example resource",
+      "media_type": "text/turtle; charset=UTF-8",
+      "access_url": "http://www.cnr.it/ontology/cnr/individuo/unitaDiPersonaleInterno/MATRICOLA11472"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.cnr.it/sparql-proxy/"
+    }
+  ]
+}
