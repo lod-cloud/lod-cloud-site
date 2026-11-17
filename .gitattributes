@@ -1,3 +1,7 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.svg filter=lfs diff=lfs merge=lfs -text
+
+# The Jekyll site stores its few images directly, not in LFS, so CI can build it
+# without fetching the LFS objects for the old versions/ directory.
+site/** !filter !diff !merge

@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{% assign d = page.dataset %}
+{% assign file = d.identifier | dataset_file %}
+<div class="container dataset">
+  <div class="row">
+    <div class="col-md-10">
+      <h1>{{ d.title | escape }}
+        <a class="edit-link" href="{{ site.github_url }}/edit/{{ site.github_branch }}/data/datasets/{{ file }}">(Edit)</a></h1>
+    </div>
+  </div>
+
+  <h3>About this dataset</h3>
+  <div class="row">
+    <div class="col-md-10">
+      {% if d.description.en %}{{ d.description.en | escape }}{% else %}<span class="text-muted">No description.</span>{% endif %}
+    </div>
+    {% assign image = d.image | safe_url %}
+    {% if image != "" %}
+    <div class="col-md-2"><img src="{{ image | escape }}" alt="{{ d.title | escape }}" title="{{ d.title | escape }}" class="dataset-img"/></div>
+    {% endif %}
+  </div>
+
+  {% assign license = d.license | safe_url %}
+  {% if license != "" %}
+  <div class="license">License: <a href="{{ license | escape }}" rel="nofollow">{{ d.license | escape }}</a></div>
+  {% endif %}
+
+  <div class="keywords">
+    {% if d.domain %}<a class="badge badge-success" href="{{ '/domain/' | append: d.domain | append: '/' | relative_url }}">{{ d.domain | domain_label | escape }}</a>{% endif %}
+    {% for keyword in d.keywords %}<span class="badge badge-primary">{{ keyword | escape }}</span> {% endfor %}
+  </div>
+
+  <h3>Contact Details</h3>
+  {% if d.contact_point.email %}
+  <div class="contactPoint">Contact Point: <a href="mailto:{{ d.contact_point.email | escape }}">{% if d.contact_point.name %}{{ d.contact_point.name | escape }}{% else %}{{ d.contact_point.email | escape }}{% endif %}</a></div>
+  {% endif %}
+  {% assign website = d.website | safe_url %}
+  {% if website != "" %}
+  <div class="website">Website: <a href="{{ website | escape }}" rel="nofollow">{{ d.website | escape }}</a></div>
+  {% endif %}
+
+  <h3>Download Links</h3>
+  {% include resources.html items=d.full_download heading="Full Downloads" fallback="Download" %}
+  {% include resources.html items=d.sparql heading="SPARQL Endpoints" fallback="Access SPARQL endpoint" %}
+  {% include resources.html items=d.example heading="Examples" fallback="Download" %}
+  {% include resources.html items=d.other_download heading="Other downloads" fallback="Download" %}
+  {% unless d.full_download.size > 0 or d.sparql.size > 0 or d.example.size > 0 or d.other_download.size > 0 %}
+  <p class="text-muted">No download links.</p>
+  {% endunless %}
+
+  <h3>Data Facts</h3>
+  <table class="table table-striped">
+    <tr>
+      <td>Total size</td>
+      <td class="triple_count">{% if d.triples %}{{ d.triples | thousands }}<span class="triples"> triples</span>{% else %}<span class="text-muted">unknown</span>{% endif %}</td>
+    </tr>
+    {% if d.namespace %}<tr><td>Namespace</td><td>{{ d.namespace | escape }}</td></tr>{% endif %}
+    {% if d.doi %}<tr><td>DOI</td><td><a href="https://doi.org/{{ d.doi | uri_escape }}">{{ d.doi | escape }}</a></td></tr>{% endif %}
+    {% if d.links %}{% assign links = d.links | sort: "value", "first" | reverse %}{% endif %}
+    {% for l in links %}
+    <tr>
+      <td>Links to {% if site.data.dataset_index[l.target] %}<a href="{{ l.target | dataset_url }}">{{ l.target | escape }}</a>{% else %}{{ l.target | escape }}{% endif %}</td>
+      <td class="triple_count">{% if l.value %}{{ l.value | thousands }}<span class="triples"> triples</span>{% else %}<span class="text-muted">unknown</span>{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <b>Metadata:</b>
+  <ul>
+    <li><a href="{{ site.github_url }}/blob/{{ site.github_branch }}/data/datasets/{{ file }}">Source record (JSON) on GitHub</a></li>
+  </ul>
+</div>

@@ -1,0 +1,42 @@
+---
+layout: default
+title: Datasets
+---
+<div class="container">
+  <h2 class="text-center">Datasets</h2>
+
+  <input id="filter" type="search" class="form-control" placeholder="Filter datasets..." autocomplete="off">
+  <h4><span id="shown">{{ site.data.datasets.size }}</span> / {{ site.data.datasets.size }} datasets</h4>
+
+  <table id="datasets" class="table table-striped">
+    <thead>
+      <tr><th>Title</th><th>Identifier</th><th>Domain</th></tr>
+    </thead>
+    <tbody>
+      {% for d in site.data.datasets %}
+      <tr>
+        <td><a href="{{ d.identifier | dataset_url }}">{{ d.title | escape }}</a></td>
+        <td>{{ d.identifier | escape }}</td>
+        <td>{% if d.domain %}{{ d.domain | domain_label | escape }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% comment %} Plain client-side filter; search proper is #96. {% endcomment %}
+<script>
+  (function () {
+    var rows = document.querySelectorAll('#datasets tbody tr');
+    var shown = document.getElementById('shown');
+    document.getElementById('filter').addEventListener('input', function (e) {
+      var q = e.target.value.trim().toLowerCase(), n = 0;
+      rows.forEach(function (row) {
+        var match = !q || row.textContent.toLowerCase().indexOf(q) !== -1;
+        row.style.display = match ? '' : 'none';
+        if (match) n++;
+      });
+      shown.textContent = n;
+    });
+  })();
+</script>

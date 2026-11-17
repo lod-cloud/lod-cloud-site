@@ -1,0 +1,19 @@
+{% comment %}
+  The three cells (png, pdf, svg) of one diagram set in the history table.
+  Parameters: files (png / pdf / svg file names, or nothing), base (URL prefix).
+  When a set has a png and an svg but no pdf the png cell spans two columns.
+{% endcomment %}
+{% assign exts = "png,pdf,svg" | split: "," %}
+{% if include.files %}
+  {% assign f = include.files %}
+  {% assign merge = false %}
+  {% if f.png and f.svg and f.pdf == nil %}{% assign merge = true %}{% endif %}
+  {% for ext in exts %}
+    {% if ext == "pdf" and merge %}{% continue %}{% endif %}
+    {% assign file = f[ext] %}
+    {% case ext %}{% when "pdf" %}{% assign mime = "application/pdf" %}{% when "svg" %}{% assign mime = "image/svg+xml" %}{% else %}{% assign mime = "image/png" %}{% endcase %}
+    <td{% if ext == "png" and merge %} colspan="2"{% endif %}>{% if file %}<a rel="dc:hasFormat" href="{{ include.base }}{{ file | uri_escape }}"><span property="dc:format" content="{{ mime }}">{{ ext }}</span></a>{% endif %}</td>
+  {% endfor %}
+{% else %}
+  <td colspan="3"></td>
+{% endif %}
