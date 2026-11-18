@@ -119,7 +119,9 @@ def main(argv=None):
         if stem == "lod-cloud":
             to_jpeg(out / "lod-cloud.png", out / "lod-cloud-sm.jpg")
     shutil.copy(data, out / "lod-data.json")
-    shutil.copy(SETTINGS / "lod-cloud-settings.json", out / "lod-cloud-settings.json")
+    # The settings used are published with the diagrams, as in the old sets
+    for settings in sorted(SETTINGS.glob("*.json")):
+        shutil.copy(settings, out / settings.name)
 
     if args.versions:
         n = count_datasets(out / "lod-cloud.svg")
