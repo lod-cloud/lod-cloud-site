@@ -37,3 +37,9 @@ The migration only makes mechanical fixes, so many records do not yet satisfy th
     python3 -m unittest discover tests                # tests for the validator itself
 
 `known-issues.json` lists, per file, the problems that existed when the data was migrated (2,646 across 1,067 files). They are tolerated so unrelated changes are not blocked, but any file you change must be fully valid, and any new problem anywhere fails. When you fix problems, regenerate the list with `python3 scripts/validate.py --write-known-issues` (it only ever needs to shrink; the run reports entries that no longer occur).
+
+## Link status
+
+Whether the download, example and SPARQL URLs still respond is checked weekly by the **Links** workflow (`scripts/check_links.py`). The result for each URL (`status`, `http`, `last_checked`, `last_ok`, `failures`: the number of failed checks in a row) is kept in `resources.json` on the `link-status` branch, not in the dataset files and not on `main` or `dev`. The results are informational: some servers block the addresses of GitHub's runners, so a single failure means little and `failures` is the number to look at.
+
+To keep the number of requests to other people's servers down, each distinct URL is requested once (HEAD, or GET for examples), one request at a time per host; a URL that was OK is not checked again for 28 days; and a host that cannot be reached is given up after three connection errors. To try it: `python3 scripts/check_links.py --state /tmp/resources.json --limit 100`.
