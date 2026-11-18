@@ -1,6 +1,6 @@
 name: Site
 
-# Builds the Jekyll site in site/ from data/datasets. It is not deployed yet;
+# Builds the Jekyll site in site/ and the data files from data/datasets. It is not deployed yet;
 # publishing to GitHub Pages is part of the cutover (#105).
 on:
   pull_request:
@@ -34,16 +34,23 @@ jobs:
         working-directory: site
         run: bundle exec jekyll build --strict_front_matter --destination ../_site
 
-      - name: Every dataset has a page
-        run: |
-          pages=$(find _site/dataset -mindepth 2 -maxdepth 2 -name index.html | wc -l)
-          files=$(find data/datasets -name '*.json' | wc -l)
-          echo "$pages pages for $files dataset files"
-          test "$pages" -eq "$files"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
 
-      # /lod-data.json is produced by #95
+      - run: pip install -r scripts/requirements.txt
+
+      # lod-data.json, extract/, json/, api/, rdf/, ttl/ and nt/ (the old dynamic URLs)
+      - name: Export data files
+        run: python scripts/export_site_data.py _site
+
+      - name: Every dataset has its pages and files
+        run: python scripts/check_site_paths.py _site
+
       - name: Internal links resolve
-        run: python3 scripts/check_site_links.py _site --allow /lod-data.json
+        run: python scripts/check_site_links.py _site
 
       # Tarred first: upload-artifact rejects file names containing ":" and
       # 28 dataset identifiers contain one.

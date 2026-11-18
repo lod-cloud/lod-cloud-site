@@ -1,9 +1,11 @@
 import copy
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import validate
 
 ROOT = Path(__file__).resolve().parent.parent
