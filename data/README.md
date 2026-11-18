@@ -34,6 +34,6 @@ The migration only makes mechanical fixes, so many records do not yet satisfy th
     python3 scripts/validate.py                       # whole data set, known issues allowed
     python3 scripts/validate.py --changed-from main   # files changed since main must have no problems at all
     python3 scripts/validate.py --strict a.json b.json
-    python3 -m unittest discover scripts              # tests for the validator itself
+    python3 -m unittest discover tests                # tests for the validator itself
 
 `known-issues.json` lists, per file, the problems that existed when the data was migrated (2,646 across 1,067 files). They are tolerated so unrelated changes are not blocked, but any file you change must be fully valid, and any new problem anywhere fails. When you fix problems, regenerate the list with `python3 scripts/validate.py --write-known-issues` (it only ever needs to shrink; the run reports entries that no longer occur).

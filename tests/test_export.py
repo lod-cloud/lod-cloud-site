@@ -1,4 +1,5 @@
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -7,6 +8,7 @@ from rdflib import Graph, Literal, URIRef
 from rdflib.compare import isomorphic
 from rdflib.namespace import DCTERMS, RDF, XSD
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import export_site_data as ex
 
 FULL = {

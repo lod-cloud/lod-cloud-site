@@ -36,7 +36,7 @@ jobs:
       - run: pip install -r scripts/requirements.txt
 
       - name: Validator tests
-        run: python -m unittest discover scripts
+        run: python -m unittest discover tests
 
       # Files changed by the pull request must have no problems at all;
       # everything else is checked against data/known-issues.json.
