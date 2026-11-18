@@ -38,6 +38,24 @@ Text from dataset files is escaped, and URLs are only emitted if they start with
 - `github_branch`: edit and source links point at this branch of the repository.
 - `submit_url`: where "Submit a dataset" goes until the issue forms exist (#92).
 
+## Diagrams
+
+The diagrams are drawn by the **Clouds** workflow (`.github/workflows/clouds.yml`), monthly or on demand
+(`gh workflow run clouds.yml`, optionally `-f date=yyyy-mm-dd -f iterations=500` for a quick test). It
+exports the dataset files in the old `lod-data.json` format, runs `scripts/generate_clouds.py` with the
+pinned `lod-cloud-draw` release (checksum verified), publishes the 32 files as the GitHub release
+`clouds-<date>`, and opens a pull request adding the entry (with `release: clouds-<date>`) to
+`_data/versions.yml`. The settings for each diagram are in `cloud-settings/`.
+
+To draw locally: `python3 scripts/generate_clouds.py --binary path/to/lod-cloud-draw --data lod-data.json --out out`
+(needs `rsvg-convert` and ImageMagick; `lod-data.json` comes from `scripts/export_site_data.py`).
+
+Releases keep the repository small (#98). They are served as downloads (`Content-Disposition: attachment`),
+so the history table links to them but the page cannot show them; the current diagram on the home page has to
+be served from Pages (to do at cutover, #105). The 45 sets from the old site are uploaded to releases once, by
+a local script that is not part of the repository; entries in `versions.yml` without `release:` still link to
+`versions/` on `cloud_base`.
+
 ## Old URLs
 
 The Java application served these routes. Static hosting cannot do everything they did.

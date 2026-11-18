@@ -4,6 +4,8 @@
 #
 #   date      yyyy-mm-dd, quoted
 #   dir       directory under versions/ when it is not the date (optional)
+#   release   tag of the GitHub release holding the files, e.g. clouds-2026-11-18
+#             (optional; without it the files are under versions/ on cloud_base)
 #   datasets  number of datasets in the diagram
 #   white     png / pdf / svg file names of the uncoloured diagram (optional)
 #   colored   png / pdf / svg file names of the coloured diagram (optional)
