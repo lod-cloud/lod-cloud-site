@@ -52,9 +52,9 @@ To draw locally: `python3 scripts/generate_clouds.py --binary path/to/lod-cloud-
 
 Releases keep the repository small (#98). They are served as downloads (`Content-Disposition: attachment`),
 so the history table links to them but the page cannot show them; the current diagram on the home page has to
-be served from Pages (to do at cutover, #105). The 45 sets from the old site are uploaded with
-`scripts/upload_historical_versions.py`; entries in `versions.yml` without `release:` still link to `versions/`
-on `cloud_base`.
+be served from Pages (to do at cutover, #105). The 45 sets from the old site are uploaded to releases once, by
+a local script that is not part of the repository; entries in `versions.yml` without `release:` still link to
+`versions/` on `cloud_base`.
 
 ## Old URLs
 
