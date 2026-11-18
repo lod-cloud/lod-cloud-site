@@ -1,0 +1,94 @@
+name: Clouds
+
+# Draws the LOD cloud diagrams from the dataset files, publishes them as a GitHub
+# release (clouds-<date>) and opens a pull request adding the entry to
+# site/_data/versions.yml. Replaces UpdateClouds.java / GenerateClouds.java.
+on:
+  schedule:
+    - cron: "0 3 1 * *"   # monthly, like the old 30-day rule
+  workflow_dispatch:
+    inputs:
+      date:
+        description: Date of the diagram (yyyy-mm-dd); default today
+        required: false
+      iterations:
+        description: Optimiser iterations (the old value is 5000; use fewer to test)
+        default: "5000"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  # The lod-cloud-draw release to use. Bump deliberately; the checksum is verified.
+  DRAW_VERSION: v0.1.0
+  DRAW_REPO: lod-cloud/lod-cloud-draw
+
+jobs:
+  clouds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      # dev holds the site and scripts until they reach main (#105)
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: pip install -r scripts/requirements.txt
+      - run: sudo apt-get install -y --no-install-recommends librsvg2-bin imagemagick
+
+      - name: Download lod-cloud-draw
+        run: |
+          gh release download "$DRAW_VERSION" -R "$DRAW_REPO" \
+            -p lod-cloud-draw-linux-x86_64 -p lod-cloud-draw-linux-x86_64.sha256
+          sha256sum -c lod-cloud-draw-linux-x86_64.sha256
+          chmod +x lod-cloud-draw-linux-x86_64
+
+      - name: Dataset JSON (old lod-data.json format)
+        run: |
+          mkdir data-out
+          python scripts/export_site_data.py data-out
+
+      - name: Draw
+        env:
+          INPUT_DATE: ${{ github.event.inputs.date }}
+          ITERATIONS: ${{ github.event.inputs.iterations || '5000' }}
+        run: |
+          DATE="${INPUT_DATE:-$(date -u +%F)}"
+          [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "bad date: $DATE"; exit 1; }
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          python scripts/generate_clouds.py \
+            --binary ./lod-cloud-draw-linux-x86_64 \
+            --data data-out/lod-data.json \
+            --out "out/$DATE" \
+            --iterations "$ITERATIONS" \
+            --date "$DATE" --versions site/_data/versions.yml
+
+      - name: Publish release
+        run: |
+          gh release create "clouds-$DATE" "out/$DATE"/* \
+            --title "LOD Cloud diagram $DATE" \
+            --notes "Diagrams generated from the dataset files on $DATE with lod-cloud-draw $DRAW_VERSION." \
+            --latest=false
+
+      # A pull request made with the default token does not start the other
+      # workflows (see #92); the change is one entry in versions.yml.
+      - name: Open pull request
+        run: |
+          BRANCH="clouds-$DATE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add site/_data/versions.yml
+          git commit -m "Add the LOD Cloud diagram of $DATE"
+          git push origin "$BRANCH"
+          gh pr create --base dev --head "$BRANCH" \
+            --title "Add the LOD Cloud diagram of $DATE" \
+            --body "Adds the release [clouds-$DATE](${{ github.server_url }}/${{ github.repository }}/releases/tag/clouds-$DATE) to the history table."

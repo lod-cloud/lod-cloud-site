@@ -34,6 +34,7 @@ CLOUDS = [
     ("lod-cloud", None),
 ]
 ALGORITHMS = ["lbfgs", "sd"]
+RELEASE_PREFIX = "clouds-"  # release tag = prefix + directory name
 PNG_ZOOM = 3  # the old PNGs were 3x the SVG's width
 JPEG_SCALE = "40%"
 
@@ -77,8 +78,8 @@ def count_datasets(svg):
 def add_version(versions_yml, date, datasets):
     """Add the new diagram at the top of _data/versions.yml (keeps the file's comments)."""
     text = versions_yml.read_text(encoding="utf-8")
-    entry = ('- date: "%s"\n  datasets: %d\n  colored:\n    png: lod-cloud.png\n'
-             '    svg: lod-cloud.svg\n  graph: lod-data.json\n\n') % (date, datasets)
+    entry = ('- date: "%s"\n  release: %s%s\n  datasets: %d\n  colored:\n    png: lod-cloud.png\n'
+             '    svg: lod-cloud.svg\n  graph: lod-data.json\n\n') % (date, RELEASE_PREFIX, date, datasets)
     if 'date: "%s"' % date in text:
         raise SystemExit("%s already has an entry for %s" % (versions_yml, date))
     first = text.index("\n- date:") + 1

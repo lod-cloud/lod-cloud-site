@@ -29,7 +29,7 @@ class VersionsTest(unittest.TestCase):
     def test_new_entry_goes_first_and_the_header_is_kept(self):
         gc.add_version(self.path, "2026-11-18", 1678)
         text = self.path.read_text(encoding="utf-8")
-        self.assertTrue(text.startswith("# comment\n\n- date: \"2026-11-18\"\n  datasets: 1678\n"))
+        self.assertTrue(text.startswith("# comment\n\n- date: \"2026-11-18\"\n  release: clouds-2026-11-18\n  datasets: 1678\n"))
         self.assertLess(text.index("2026-11-18"), text.index("2026-06-15"))
         self.assertIn("graph: lod-data.json\n\n- date: \"2026-06-15\"", text)
 
