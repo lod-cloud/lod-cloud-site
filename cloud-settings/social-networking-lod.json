@@ -1,0 +1,22 @@
+{
+    "legend": [
+        {
+            "title": "Social Web",
+            "keywords": ["social web"],
+            "colour": "#54685A"
+        },
+        {
+            "title": "Other",
+            "keywords": [],
+            "colour": "#b5b5b5"
+        }
+    ],
+    "fixed_points": {},
+    "selection": "domain",
+    "selected": "social_networking",
+    "datasets": ["dbpedia"],
+    "rights_text": "The Social Networking Linked Open Data Cloud from lod-cloud.net"
+
+}
+        
+            

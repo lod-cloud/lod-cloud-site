@@ -1,0 +1,21 @@
+{
+    "legend": [
+        {
+            "title": "Wikipedia Related",
+            "keywords": ["wikipedia"],
+            "colour": "#c8a788"
+        },
+        {
+            "title": "Other",
+            "keywords": [],
+            "colour": "lightgray"
+        }
+    ],
+    "fixed_points": {},
+    "selection": "domain",
+    "selected": "cross_domain",
+    "rights_text": "The Cross-Domain Linked Open Data Cloud from lod-cloud.net"
+
+}
+        
+            
