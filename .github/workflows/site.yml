@@ -24,6 +24,23 @@ jobs:
       # versions/ images (several GB in LFS) are not needed to build it.
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      # Which datasets are flagged as unavailable comes from the link check's results
+      # (the Links workflow, on the link-status branch). Before the first check there are none.
+      - name: Link status
+        run: |
+          if git fetch -q --depth 1 origin link-status; then
+            git show FETCH_HEAD:resources.json > resources.json
+          fi
+          python scripts/availability.py --state resources.json --out site/_data/availability.json
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
@@ -33,14 +50,6 @@ jobs:
       - name: Build
         working-directory: site
         run: bundle exec jekyll build --strict_front_matter --destination ../_site
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: scripts/requirements.txt
-
-      - run: pip install -r scripts/requirements.txt
 
       # lod-data.json, extract/, json/, api/, rdf/, ttl/ and nt/ (the old dynamic URLs)
       - name: Export data files

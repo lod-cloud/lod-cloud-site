@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign d = page.dataset %}
 {% assign file = d.identifier | dataset_file %}
+{% assign avail = site.data.availability[d.identifier] %}
 <div class="container dataset">
   <div class="row">
     <div class="col-md-10">
@@ -10,6 +11,16 @@ layout: default
         <a class="edit-link" href="{{ site.github_url }}/edit/{{ site.github_branch }}/data/datasets/{{ file }}">(Edit)</a></h1>
     </div>
   </div>
+
+  {% if avail.state %}
+  <div class="alert alert-warning unavailable-notice" role="alert">
+    <b>Unavailable since {{ avail.since }}.</b>
+    None of this dataset's download, SPARQL or example links have responded since then{% if avail.last_verified %}; one last did on {{ avail.last_verified }}{% endif %}.
+    It stays in the cloud in case it comes back. If you know where it has moved, please
+    <a href="{{ site.github_url }}/edit/{{ site.github_branch }}/data/datasets/{{ file }}">update the record</a>.
+    {% if avail.state == "archive" %}It has been unavailable long enough to be a candidate for archiving.{% endif %}
+  </div>
+  {% endif %}
 
   <h3>About this dataset</h3>
   <div class="row">
@@ -52,6 +63,10 @@ layout: default
 
   <h3>Data Facts</h3>
   <table class="table table-striped">
+    <tr>
+      <td>Links last verified</td>
+      <td>{% if avail.last_verified %}{{ avail.last_verified }}{% else %}<span class="text-muted">not yet</span>{% endif %}</td>
+    </tr>
     <tr>
       <td>Total size</td>
       <td class="triple_count">{% if d.triples %}{{ d.triples | thousands }}<span class="triples"> triples</span>{% else %}<span class="text-muted">unknown</span>{% endif %}</td>

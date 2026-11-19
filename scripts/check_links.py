@@ -12,6 +12,7 @@ first, rewritten at the end), keyed by URL:
     last_checked    date of the last check
     last_ok         date of the last OK (absent if never OK)
     failures        consecutive failed checks (0 when OK)
+    failing_since   date of the first of those failed checks (only while failing)
 
 A URL that was not reached for lack of time keeps its previous record. Results
 are informational: shared runner IPs are blocked by some servers, so one failure
@@ -186,6 +187,9 @@ def merge(previous, results, today):
             if "last_ok" in old:
                 record["last_ok"] = old["last_ok"]
             record["failures"] = old.get("failures", 0) + 1
+            # A record from before this field existed: its last check is the best guess
+            record["failing_since"] = (old.get("failing_since") or old.get("last_checked") or today
+                                       if old.get("failures") else today)
         state[url] = record
     return state
 

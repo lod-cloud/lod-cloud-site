@@ -35,6 +35,7 @@ __pycache__/
 
 # Jekyll site
 /_site/
+site/_data/availability.json
 site/.jekyll-cache/
 site/.bundle/
 site/vendor/

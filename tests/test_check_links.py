@@ -107,6 +107,19 @@ class StateTest(unittest.TestCase):
         self.assertEqual(s2["u"]["failures"], 2)
         s3 = cl.merge(s2, {"u": {"status": "OK", "http": 200}}, "2026-11-22")
         self.assertEqual((s3["u"]["failures"], s3["u"]["last_ok"]), (0, "2026-11-22"))
+        self.assertNotIn("failing_since", s3["u"])
+
+    def test_failing_since_is_the_first_failed_check_of_the_streak(self):
+        fail = {"status": "FAIL (404)", "http": 404}
+        s1 = cl.merge({}, {"u": fail}, "2026-11-08")
+        s2 = cl.merge(s1, {"u": fail}, "2026-11-15")
+        self.assertEqual((s1["u"]["failing_since"], s2["u"]["failing_since"]), ("2026-11-08", "2026-11-08"))
+        s3 = cl.merge(s2, {"u": {"status": "OK", "http": 200}}, "2026-11-22")
+        s4 = cl.merge(s3, {"u": fail}, "2026-11-29")
+        self.assertEqual(s4["u"]["failing_since"], "2026-11-29")
+        # a record from before the field existed
+        old = {"status": "FAIL (404)", "failures": 4, "last_checked": "2026-10-01"}
+        self.assertEqual(cl.merge({"u": old}, {"u": fail}, "2026-11-08")["u"]["failing_since"], "2026-10-01")
 
     def test_an_unchecked_url_keeps_its_record(self):
         old = {"status": "FAIL (404)", "failures": 3, "last_checked": "2026-11-01"}
