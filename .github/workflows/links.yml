@@ -24,6 +24,7 @@ on:
 
 permissions:
   contents: write
+  issues: write      # archive-candidate issues
 
 concurrency:
   group: links
@@ -86,6 +87,15 @@ jobs:
           git add resources.json
           git commit -q -m "Link check $(date -u +%F)"
           git push -q origin link-status
+
+      # One issue per dataset that has been failing for a year, at most 10 a run, never
+      # twice (scripts/archive_issues.py). Listed only on a dry run.
+      - name: Archive-candidate issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/archive_issues.py --state status/resources.json --repo "$GITHUB_REPOSITORY" --branch main \
+            $([ "$DRY_RUN" = "true" ] || echo --create)
 
       - name: Keep the results (dry run)
         if: env.DRY_RUN == 'true'
