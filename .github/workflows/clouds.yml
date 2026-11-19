@@ -3,7 +3,16 @@ name: Clouds
 # Draws the LOD cloud diagrams from the dataset files, publishes them as a GitHub
 # release (clouds-<date>) and opens a pull request adding the entry to
 # site/_data/versions.yml. Replaces UpdateClouds.java / GenerateClouds.java.
+#
+# A pull request that changes the workflow, the generator or the settings runs it
+# as a dry run: 100 iterations, nothing published, the set is kept as an artifact.
+# (workflow_dispatch only works for a workflow on the default branch.)
 on:
+  pull_request:
+    paths:
+      - .github/workflows/clouds.yml
+      - scripts/generate_clouds.py
+      - cloud-settings/**
   schedule:
     - cron: "0 3 1 * *"   # monthly, like the old 30-day rule
   workflow_dispatch:
@@ -34,7 +43,7 @@ jobs:
       # dev holds the site and scripts until they reach main (#105)
       - uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: ${{ github.event_name != 'pull_request' && 'dev' || '' }}
 
       - uses: actions/setup-python@v5
         with:
@@ -59,7 +68,7 @@ jobs:
       - name: Draw
         env:
           INPUT_DATE: ${{ github.event.inputs.date }}
-          ITERATIONS: ${{ github.event.inputs.iterations || '5000' }}
+          ITERATIONS: ${{ github.event.inputs.iterations || (github.event_name == 'pull_request' && '100') || '5000' }}
         run: |
           DATE="${INPUT_DATE:-$(date -u +%F)}"
           [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "bad date: $DATE"; exit 1; }
@@ -71,7 +80,16 @@ jobs:
             --iterations "$ITERATIONS" \
             --date "$DATE" --versions site/_data/versions.yml
 
+      - name: Keep the set (dry run)
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: clouds-dry-run
+          path: out/
+          retention-days: 3
+
       - name: Publish release
+        if: github.event_name != 'pull_request'
         run: |
           gh release create "clouds-$DATE" "out/$DATE"/* \
             --title "LOD Cloud diagram $DATE" \
@@ -81,6 +99,7 @@ jobs:
       # A pull request made with the default token does not start the other
       # workflows (see #92); the change is one entry in versions.yml.
       - name: Open pull request
+        if: github.event_name != 'pull_request'
         run: |
           BRANCH="clouds-$DATE"
           git config user.name "github-actions[bot]"
