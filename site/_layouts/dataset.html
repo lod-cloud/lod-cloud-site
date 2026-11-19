@@ -4,16 +4,16 @@ layout: default
 {% assign d = page.dataset %}
 {% assign file = d.identifier | dataset_file %}
 {% assign avail = site.data.availability[d.identifier] %}
-<div class="container dataset">
+<div class="container dataset" data-pagefind-body>
   <div class="row">
     <div class="col-md-10">
-      <h1>{{ d.title | escape }}
-        <a class="edit-link" href="{{ site.github_url }}/edit/{{ site.github_branch }}/data/datasets/{{ file }}">(Edit)</a></h1>
+      <h1><span data-pagefind-meta="title">{{ d.title | escape }}</span>
+        <a class="edit-link" data-pagefind-ignore href="{{ site.github_url }}/edit/{{ site.github_branch }}/data/datasets/{{ file }}">(Edit)</a></h1>
     </div>
   </div>
 
   {% if avail.state %}
-  <div class="alert alert-warning unavailable-notice" role="alert">
+  <div class="alert alert-warning unavailable-notice" role="alert" data-pagefind-ignore>
     <b>Unavailable since {{ avail.since }}.</b>
     None of this dataset's download, SPARQL or example links have responded since then{% if avail.last_verified %}; one last did on {{ avail.last_verified }}{% endif %}.
     It stays in the cloud in case it comes back. If you know where it has moved, please
@@ -21,6 +21,10 @@ layout: default
     {% if avail.state == "archive" %}It has been unavailable long enough to be a candidate for archiving.{% endif %}
   </div>
   {% endif %}
+
+  {% comment %} Filters of the search index (/search/); meta elements, so their text is not shown in a result. {% endcomment %}
+  {% if d.domain %}<meta data-pagefind-filter="domain[content]" content="{{ d.domain | domain_label | escape }}">{% endif %}
+  <meta data-pagefind-filter="availability[content]" content="{% if avail.state %}Unavailable{% else %}Available{% endif %}">
 
   <h3>About this dataset</h3>
   <div class="row">
@@ -32,6 +36,8 @@ layout: default
     <div class="col-md-2"><img src="{{ image | escape }}" alt="{{ d.title | escape }}" title="{{ d.title | escape }}" class="dataset-img"/></div>
     {% endif %}
   </div>
+
+  <p class="identifier text-muted">Identifier: <code>{{ d.identifier | escape }}</code></p>
 
   {% assign license = d.license | safe_url %}
   {% if license != "" %}
@@ -52,6 +58,7 @@ layout: default
   <div class="website">Website: <a href="{{ website | escape }}" rel="nofollow">{{ d.website | escape }}</a></div>
   {% endif %}
 
+  <div data-pagefind-ignore>
   <h3>Download Links</h3>
   {% include resources.html items=d.full_download heading="Full Downloads" fallback="Download" %}
   {% include resources.html items=d.sparql heading="SPARQL Endpoints" fallback="Access SPARQL endpoint" %}
@@ -90,4 +97,5 @@ layout: default
     <li><a href="{{ d.identifier | format_url: 'nt' }}">N-Triples</a></li>
     <li><a href="{{ site.github_url }}/blob/{{ site.github_branch }}/data/datasets/{{ file }}">Source record on GitHub</a></li>
   </ul>
+  </div>
 </div>

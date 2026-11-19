@@ -1,0 +1,26 @@
+---
+layout: default
+title: Search
+---
+<div class="container">
+  <h2 class="text-center">Search the datasets</h2>
+  <p class="text-center text-muted">Searches the title, identifier, description and keywords of all {{ site.data.datasets.size }} datasets.</p>
+  <div id="search"><noscript>Search needs JavaScript. You can <a href="{{ '/datasets/' | relative_url }}">browse the list</a> instead.</noscript></div>
+</div>
+
+<link href="{{ '/pagefind/pagefind-ui.css' | relative_url }}" rel="stylesheet">
+<script src="{{ '/pagefind/pagefind-ui.js' | relative_url }}"></script>
+<script>
+  // The index is built after Jekyll (scripts: see site/README.md), so it is missing in a plain `jekyll serve`.
+  window.addEventListener('DOMContentLoaded', function () {
+    var box = document.getElementById('search');
+    if (!window.PagefindUI) {
+      box.innerHTML = '<p class="text-muted">The search index has not been built. See site/README.md.</p>';
+      return;
+    }
+    var ui = new PagefindUI({ element: '#search', showSubResults: false, showImages: false,
+                              resetStyles: false, pageSize: 20 });
+    var q = new URLSearchParams(location.search).get('q');
+    if (q) ui.triggerSearch(q);
+  });
+</script>

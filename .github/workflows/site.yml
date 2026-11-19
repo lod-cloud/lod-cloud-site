@@ -55,6 +55,10 @@ jobs:
       - name: Export data files
         run: python scripts/export_site_data.py _site
 
+      # The search index of the dataset pages (site/search/), written to _site/pagefind/
+      - name: Search index
+        run: npx --yes pagefind@1.4.0 --site _site
+
       - name: Every dataset has its pages and files
         run: python scripts/check_site_paths.py _site
 
