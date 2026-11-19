@@ -12,7 +12,8 @@ layout: default
   <h3>{{ page.datasets.size }} datasets</h3>
   <ul class="dataset-list">
     {% for d in page.datasets %}
-    <li><a href="{{ d.identifier | dataset_url }}">{{ d.title | escape }}</a></li>
+    {% assign avail = site.data.availability[d.identifier] %}
+    <li><a href="{{ d.identifier | dataset_url }}">{{ d.title | escape }}</a>{% if avail.state %} <span class="badge badge-warning" title="Unavailable since {{ avail.since }}">unavailable</span>{% endif %}</li>
     {% endfor %}
   </ul>
 </div>

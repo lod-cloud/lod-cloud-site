@@ -5,4 +5,5 @@
 .dataset .keywords { margin-top: 0.75rem; }
 .dataset .badge { margin-right: 0.15rem; }
 .dataset td.triple_count { text-align: right; }
+.dataset .unavailable-notice { margin-top: 1rem; }
 ul.dataset-list { columns: 2 20rem; }

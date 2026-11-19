@@ -72,6 +72,11 @@ jobs:
           python scripts/check_links.py --state status/resources.json \
             ${LIMIT:+--limit "$LIMIT"} --summary "$GITHUB_STEP_SUMMARY"
 
+      - name: Unavailable datasets
+        run: |
+          python scripts/availability.py --state status/resources.json --out "$RUNNER_TEMP/availability.json" \
+            --summary "$GITHUB_STEP_SUMMARY"
+
       - name: Store the results
         if: env.DRY_RUN != 'true'
         working-directory: status

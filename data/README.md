@@ -43,3 +43,11 @@ The migration only makes mechanical fixes, so many records do not yet satisfy th
 Whether the download, example and SPARQL URLs still respond is checked weekly by the **Links** workflow (`scripts/check_links.py`). The result for each URL (`status`, `http`, `last_checked`, `last_ok`, `failures`: the number of failed checks in a row) is kept in `resources.json` on the `link-status` branch, not in the dataset files and not on `main` or `dev`. The results are informational: some servers block the addresses of GitHub's runners, so a single failure means little and `failures` is the number to look at.
 
 To keep the number of requests to other people's servers down, each distinct URL is requested once (HEAD, or GET for examples), one request at a time per host; a URL that was OK is not checked again for 28 days; and a host that cannot be reached is given up after three connection errors. To try it: `python3 scripts/check_links.py --state /tmp/resources.json --limit 100`.
+
+### Unavailable datasets
+
+A dataset is never removed because its links stopped working, so the cloud does not shrink; it is flagged. `scripts/availability.py` reads the link status and marks a dataset **unavailable** when *every* one of its download, SPARQL and example URLs has been failing for 90 days (`failing_since` in the status file). A dataset with any working, non-web or not-yet-checked URL is never flagged, and nothing is flagged until it has been monitored for the full 90 days, so a blocked runner or a bad week does not mark a dataset. The dataset page then shows "Unavailable since DATE" and the domain pages a badge; every dataset page shows when its links were last verified (the latest `last_ok`).
+
+After 365 days a dataset is an **archive candidate**. That is a prompt for a person, not an automatic step: the Links workflow lists the candidates in its run summary, and a maintainer decides, usually after trying the contact point, whether to remove the record by pull request (the history keeps it). A flag clears by itself the first time one of the URLs responds again. The thresholds are `--unavailable-days` and `--archive-days`.
+
+The diagrams still draw every dataset; dimming flagged ones would need a change in `lod-cloud-draw`.
