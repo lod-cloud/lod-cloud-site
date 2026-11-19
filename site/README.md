@@ -11,11 +11,14 @@ With Ruby 3.3, Bundler and Python 3 (`pip install -r scripts/requirements.txt`):
     bundle exec jekyll build --destination ../_site
     cd ..
     python3 scripts/export_site_data.py _site     # json/, rdf/, ttl/, nt/, lod-data.json ... (see below)
+    npx pagefind@1.4.0 --site _site               # the search index, _site/pagefind/ (needs Node)
 
 `bundle exec jekyll serve` previews the pages, but not the exported files. Without Ruby, the Jekyll step runs in a container:
 
     docker run --rm -v "$PWD:/repo" -w /repo/site -e BUNDLE_PATH=/tmp/bundle ruby:3.3 \
         bash -c "bundle install && bundle exec jekyll build --destination /repo/_site"
+
+The search page (`/search/`) uses [Pagefind](https://pagefind.app), which indexes the built pages in the last step above, in the browser, with no server. Only the dataset pages are indexed (`data-pagefind-body` in `_layouts/dataset.html`): title, identifier, description and keywords, with the domain and availability as filters. Without the index step the search page says so. With Node, `npx pagefind --site _site --serve` serves the result.
 
 Check the result with `python3 scripts/check_site_paths.py _site` and `python3 scripts/check_site_links.py _site`. CI (`.github/workflows/site.yml`) runs all of this.
 
@@ -74,7 +77,7 @@ The Java application served these routes. Static hosting cannot do everything th
 | `/privacy.html`, `/ipfs-how-to.html` | Unchanged. |
 | `PUT`, `POST`, `DELETE /api/<id>` | **Removed.** Datasets change by pull request. |
 | `/extract/history` | **Removed.** It was the in-memory edit log; git history replaces it. |
-| `/datasets_search` | **Removed**; search is #96. |
+| `/datasets_search` | **Replaced** by `/search/` (Pagefind, see below). It matched the identifier only; the new search covers title, identifier, description and keywords. |
 | `/authorize`, `/oauth2callback`, `/logout` | **Removed** (Google login). |
 | `/update-clouds` | **Removed**; diagrams are built by an Action (#97). |
 | `/ilod/*` | **Removed.** It redirected to `server1.nlp.insight-centre.org/ilod`, an external service this repository has no information about. |
