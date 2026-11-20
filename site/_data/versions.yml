@@ -12,6 +12,7 @@
 #   graph     JSON file with the data the diagram was drawn from (optional)
 
 - date: "2026-06-15"
+  release: clouds-2026-06-15
   datasets: 1360
   colored:
     png: lod-cloud.png
@@ -19,6 +20,7 @@
   graph: lod-data.json
 
 - date: "2026-04-09"
+  release: clouds-2026-04-09
   datasets: 1358
   colored:
     png: lod-cloud.png
@@ -26,6 +28,7 @@
   graph: lod-data.json
 
 - date: "2026-02-05"
+  release: clouds-2026-02-05
   datasets: 1358
   colored:
     png: lod-cloud.png
@@ -33,6 +36,7 @@
   graph: lod-data.json
 
 - date: "2025-12-19"
+  release: clouds-2025-12-19
   datasets: 1358
   colored:
     png: lod-cloud.png
@@ -40,6 +44,7 @@
   graph: lod-data.json
 
 - date: "2025-11-14"
+  release: clouds-2025-11-14
   datasets: 1358
   colored:
     png: lod-cloud.png
@@ -47,6 +52,7 @@
   graph: lod-data.json
 
 - date: "2025-09-02"
+  release: clouds-2025-09-02
   datasets: 1357
   colored:
     png: lod-cloud.png
@@ -54,6 +60,7 @@
   graph: lod-data.json
 
 - date: "2025-07-30"
+  release: clouds-2025-07-30
   datasets: 1357
   colored:
     png: lod-cloud.png
@@ -61,6 +68,7 @@
   graph: lod-data.json
 
 - date: "2025-06-30"
+  release: clouds-2025-06-30
   datasets: 1357
   colored:
     png: lod-cloud.png
@@ -68,6 +76,7 @@
   graph: lod-data.json
 
 - date: "2025-05-31"
+  release: clouds-2025-05-31
   datasets: 1356
   colored:
     png: lod-cloud.png
@@ -75,6 +84,7 @@
   graph: lod-data.json
 
 - date: "2025-04-27"
+  release: clouds-2025-04-27
   datasets: 1354
   colored:
     png: lod-cloud.png
@@ -82,6 +92,7 @@
   graph: lod-data.json
 
 - date: "2025-03-26"
+  release: clouds-2025-03-26
   datasets: 1354
   colored:
     png: lod-cloud.png
@@ -89,6 +100,7 @@
   graph: lod-data.json
 
 - date: "2024-12-31"
+  release: clouds-2024-12-31
   datasets: 1350
   colored:
     png: lod-cloud.png
@@ -96,6 +108,7 @@
   graph: lod-data.json
 
 - date: "2024-11-24"
+  release: clouds-2024-11-24
   datasets: 1349
   colored:
     png: lod-cloud.png
@@ -103,6 +116,7 @@
   graph: lod-data.json
 
 - date: "2024-10-25"
+  release: clouds-2024-10-25
   datasets: 1349
   colored:
     png: lod-cloud.png
@@ -110,6 +124,7 @@
   graph: lod-data.json
 
 - date: "2024-09-26"
+  release: clouds-2024-09-26
   datasets: 1346
   colored:
     png: lod-cloud.png
@@ -117,6 +132,7 @@
   graph: lod-data.json
 
 - date: "2024-08-25"
+  release: clouds-2024-08-25
   datasets: 1346
   colored:
     png: lod-cloud.png
@@ -124,6 +140,7 @@
   graph: lod-data.json
 
 - date: "2024-07-04"
+  release: clouds-2024-07-04
   datasets: 1345
   colored:
     png: lod-cloud.png
@@ -131,6 +148,7 @@
   graph: lod-data.json
 
 - date: "2023-09-03"
+  release: clouds-2023-09-03
   datasets: 1314
   colored:
     png: lod-cloud.png
@@ -138,6 +156,7 @@
   graph: lod-data.json
 
 - date: "2022-11-03"
+  release: clouds-2022-11-03
   datasets: 1268
   colored:
     png: lod-cloud.png
@@ -145,6 +164,7 @@
   graph: lod-data.json
 
 - date: "2020-05-20"
+  release: clouds-2020-05-20
   datasets: 1255
   colored:
     png: lod-cloud.png
@@ -152,24 +172,28 @@
   graph: lod-data.json
 
 - date: "2019-03-29"
+  release: clouds-2019-03-29
   datasets: 1239
   colored:
     png: lod-cloud.png
     svg: lod-cloud.svg
 
 - date: "2019-01-08"
+  release: clouds-2019-01-08
   datasets: 1234
   colored:
     png: lod-cloud.png
     svg: lod-cloud.svg
 
 - date: "2018-11-26"
+  release: clouds-2018-11-26
   datasets: 1231
   colored:
     png: lod-cloud.png
     svg: lod-cloud.svg
 
 - date: "2018-10-31"
+  release: clouds-2018-10-31
   datasets: 1229
   colored:
     png: lod-cloud.png
@@ -182,6 +206,7 @@
     svg: lod-cloud.svg
 
 - date: "2018-07-30"
+  release: clouds-2018-07-30
   datasets: 1220
   colored:
     png: lod-cloud.png
@@ -189,6 +214,7 @@
 
 - date: "2018-06-28"
   dir: "2018-28-06"
+  release: clouds-2018-28-06
   datasets: 1205
   colored:
     png: lod-cloud.png
@@ -196,6 +222,7 @@
 
 - date: "2018-05-30"
   dir: "2018-30-05"
+  release: clouds-2018-30-05
   datasets: 1186
   colored:
     png: lod-cloud.png
@@ -204,6 +231,7 @@
 
 - date: "2018-04-30"
   dir: "2018-30-04"
+  release: clouds-2018-30-04
   datasets: 1184
   colored:
     png: lod-cloud.png
@@ -211,6 +239,7 @@
   graph: lod-data.json
 
 - date: "2017-08-22"
+  release: clouds-2017-08-22
   datasets: 1163
   colored:
     png: lod.png
@@ -218,18 +247,21 @@
   graph: graphFile22-08-2017.json
 
 - date: "2017-02-20"
+  release: clouds-2017-02-20
   datasets: 1139
   colored:
     png: lod.png
     svg: lod.svg
 
 - date: "2017-01-26"
+  release: clouds-2017-01-26
   datasets: 1146
   colored:
     png: cloudImage2017.png
     svg: cloudImage2017.svg
 
 - date: "2014-08-30"
+  release: clouds-2014-08-30
   datasets: 570
   white:
     png: lod-cloud.png
@@ -241,6 +273,7 @@
     svg: lod-cloud_colored.svg
 
 - date: "2011-09-19"
+  release: clouds-2011-09-19
   datasets: 295
   white:
     png: lod-cloud.png
@@ -252,6 +285,7 @@
     svg: lod-cloud_colored.svg
 
 - date: "2010-09-22"
+  release: clouds-2010-09-22
   datasets: 203
   white:
     png: lod-cloud.png
@@ -263,6 +297,7 @@
     svg: lod-cloud_colored.svg
 
 - date: "2009-07-14"
+  release: clouds-2009-07-14
   datasets: 95
   white:
     png: lod-cloud.png
@@ -270,6 +305,7 @@
     svg: lod-cloud.svg
 
 - date: "2009-03-27"
+  release: clouds-2009-03-27
   datasets: 93
   white:
     png: lod-cloud.png
@@ -281,6 +317,7 @@
     svg: lod-cloud_colored.svg
 
 - date: "2009-03-05"
+  release: clouds-2009-03-05
   datasets: 89
   white:
     png: lod-cloud.png
@@ -292,6 +329,7 @@
     svg: lod-cloud_colored.svg
 
 - date: "2008-09-18"
+  release: clouds-2008-09-18
   datasets: 45
   white:
     png: lod-cloud.png
@@ -299,6 +337,7 @@
     svg: lod-cloud.svg
 
 - date: "2008-03-31"
+  release: clouds-2008-03-31
   datasets: 34
   white:
     png: lod-cloud.png
@@ -306,6 +345,7 @@
     svg: lod-cloud.svg
 
 - date: "2008-02-28"
+  release: clouds-2008-02-28
   datasets: 32
   white:
     png: lod-cloud.png
@@ -313,6 +353,7 @@
     svg: lod-cloud.svg
 
 - date: "2007-11-10"
+  release: clouds-2007-11-10
   datasets: 28
   white:
     png: lod-cloud.png
@@ -320,16 +361,19 @@
     svg: lod-cloud.svg
 
 - date: "2007-11-07"
+  release: clouds-2007-11-07
   datasets: 28
   white:
     png: lod-cloud.png
 
 - date: "2007-10-08"
+  release: clouds-2007-10-08
   datasets: 25
   white:
     png: lod-cloud.png
 
 - date: "2007-05-01"
+  release: clouds-2007-05-01
   datasets: 12
   white:
     png: lod-cloud.png
