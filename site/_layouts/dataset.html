@@ -95,6 +95,7 @@ layout: default
     <li><a href="{{ d.identifier | format_url: 'rdf' }}">RDF/XML</a></li>
     <li><a href="{{ d.identifier | format_url: 'ttl' }}">Turtle</a></li>
     <li><a href="{{ d.identifier | format_url: 'nt' }}">N-Triples</a></li>
+    <li><a href="{{ site.github_url }}/issues/new?template=update-dataset.yml&amp;identifier={{ d.identifier | uri_escape }}" rel="nofollow">Suggest a change (form)</a></li>
     <li><a href="{{ site.github_url }}/blob/{{ site.github_branch }}/data/datasets/{{ file }}">Source record on GitHub</a></li>
   </ul>
   </div>

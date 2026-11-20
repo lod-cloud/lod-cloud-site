@@ -1,0 +1,149 @@
+name: "Add a dataset"
+description: "Add a new dataset to the LOD Cloud"
+title: "Add dataset: "
+labels: ["add-dataset"]
+body:
+  - type: markdown
+    attributes:
+      value: "Fill in what you know; only the identifier, title, description, domain, website and a contact email are required. A pull request is opened for you automatically and checked; a maintainer reviews it before it is merged. If something is wrong you will get a comment here, and editing this issue runs the check again."
+  - type: input
+    id: identifier
+    attributes:
+      label: "Identifier"
+      description: "Short stable name used in the page address (/dataset/<identifier>), e.g. `my-dataset`. No spaces, `/`, `\\` or `?`. Must not already be used."
+      placeholder: "my-dataset"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: "Title"
+      description: "The name of the dataset."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description (English)"
+      description: "What the dataset contains."
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: "Domain"
+      description: "Which cloud the dataset is drawn in."
+      options:
+        - "Cross-Domain"
+        - "Geography"
+        - "Government"
+        - "Life Sciences"
+        - "Linguistics"
+        - "Media"
+        - "Publications"
+        - "Social Networking"
+        - "User-Generated"
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: "Website"
+      description: "Home page of the dataset (https://...)."
+      placeholder: "https://example.org/dataset"
+    validations:
+      required: true
+  - type: input
+    id: contact_name
+    attributes:
+      label: "Contact name"
+      description: "Optional. Published with the dataset."
+    validations:
+      required: false
+  - type: input
+    id: contact_email
+    attributes:
+      label: "Contact email"
+      description: "Published with the dataset on a public site."
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: "License"
+      description: "URL of the license, e.g. https://creativecommons.org/licenses/by/4.0/"
+    validations:
+      required: false
+  - type: input
+    id: keywords
+    attributes:
+      label: "Keywords"
+      description: "Comma-separated."
+      placeholder: "lexicon, linguistics"
+    validations:
+      required: false
+  - type: input
+    id: namespace
+    attributes:
+      label: "Namespace"
+      description: "URI namespace of the dataset's resources."
+    validations:
+      required: false
+  - type: input
+    id: triples
+    attributes:
+      label: "Number of triples"
+      description: "A whole number."
+    validations:
+      required: false
+  - type: input
+    id: doi
+    attributes:
+      label: "DOI"
+      description: "Bare DOI, e.g. `10.5281/zenodo.4772094`."
+    validations:
+      required: false
+  - type: textarea
+    id: full_download
+    attributes:
+      label: "Full downloads"
+      description: "Complete dumps of the dataset. One per line: `URL`, or `URL | title`."
+      placeholder: "https://example.org/dump.nt.gz | N-Triples dump"
+    validations:
+      required: false
+  - type: textarea
+    id: other_download
+    attributes:
+      label: "Other downloads"
+      description: "Partial dumps, vocabularies, documentation. One per line: `URL`, or `URL | title`."
+    validations:
+      required: false
+  - type: textarea
+    id: example
+    attributes:
+      label: "Examples"
+      description: "Example resources. One per line: `URL`, or `URL | title`."
+    validations:
+      required: false
+  - type: textarea
+    id: sparql
+    attributes:
+      label: "SPARQL endpoints"
+      description: "One URL per line, optionally `URL | title`."
+    validations:
+      required: false
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links to other datasets"
+      description: "Datasets in the cloud that this one links to, one per line: `identifier` or `identifier | number of links`."
+      placeholder: "dbpedia | 12000"
+    validations:
+      required: false
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: "Public data"
+      options:
+        - label: "I understand that everything in this form, including the contact email, will be published in the LOD Cloud data in this public repository."
+          required: true

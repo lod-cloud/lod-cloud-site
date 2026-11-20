@@ -9,7 +9,7 @@ baseurl: ""
 github_repo: lod-cloud/lod-cloud-site
 github_url: https://github.com/lod-cloud/lod-cloud-site
 github_branch: main
-submit_url: https://github.com/lod-cloud/lod-cloud-site/issues/new
+submit_url: https://github.com/lod-cloud/lod-cloud-site/issues/new/choose
 
 # Dataset records, relative to this directory (see _plugins/lodcloud.rb).
 dataset_dir: ../data/datasets
