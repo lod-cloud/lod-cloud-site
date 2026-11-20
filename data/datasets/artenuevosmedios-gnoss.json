@@ -1,0 +1,113 @@
+{
+  "identifier": "artenuevosmedios-gnoss",
+  "title": "Entornos interactivos. Arte en los nuevos medios (GNOSS)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://red.gnoss.com/comunidad/Interactivos\">Entornos Interactivos. Arte en los nuevos medios</a>\r\n is a community promoted by Jaime Munárriz Ortiz, Professor and Associate Dean for Research and Graduate School of Fine Arts at the University Complutense of Madrid, for the subject Image Synthesis and Interactive Environments, of the Research Master in Art and Creation. The community works with \r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>\r\n. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Green Competitiveness offers a selection of 135 resources (November 2012). It includes a facet-based engine search and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://red.gnoss.com/comunidad/Interactivos\">Entornos Interactivos. Arte en los nuevos medios</a>\r\n es una comunidad promovida por Jaime Munárriz Ortiz, profesor y Vicedecano de Investigación y Posgrado de la\r\n<a href=\"http://www.bellasartes.ucm.es/\">Facultad de Bellas Artes</a>\r\nde la Universidad Complutense de Madrid, para la asignatura Imagen de Síntesis y Entornos Interactivos, del Máster en Investigación en Arte y Creación. La comunidad trabaja con software de \r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>\r\n. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. NextWeb ofrece en este caso una selección de 135 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://gnoss.com/comunidad/Interactivos",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://gnoss.com/comunidad/Interactivos",
+  "triples": 7736,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "Vida artificial",
+    "arte digital",
+    "arte sonoro",
+    "corporate excellence",
+    "country-spain",
+    "country.es",
+    "dc",
+    "entornos interactivos",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "instalaciones",
+    "laboratorio de ideas",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "programación gráfica",
+    "provenance-metadata",
+    "proyecciones escénicas",
+    "published-by-third-party",
+    "schemata",
+    "sensores",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 663
+    },
+    {
+      "target": "freebase",
+      "value": 425
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 4
+    },
+    {
+      "target": "gnoss",
+      "value": 76
+    },
+    {
+      "target": "mismuseos-gnoss",
+      "value": 205
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 620
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://ineverycrea.net/voidArteNuevosMediosGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the   Arte en los nuevos medios (GNOSS) community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/Interactivos/resource/Video-Projection-Tools--VPT/0278522a-59f9-4cf4-a766-d6f121da1ba6?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the   Arte en los nuevos medios (GNOSS) community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/Interactivos/resource/Scramble-Suit--Kyle-McDonald-Arturo-Castro/468deccf-8fef-4cd4-8782-25990cc20cb3"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/Interactivos/advanced-search/tag/arte?rdf"
+    }
+  ]
+}

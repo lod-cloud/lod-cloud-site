@@ -1,0 +1,58 @@
+{
+  "identifier": "traffic-scotland",
+  "title": "Traffic Scotland",
+  "description": {
+    "en": "Data from http://trafficscotland.org converted to RDF regularly. Currently the data is only the current incidents, but hopefully this should expand."
+  },
+  "website": "http://seobook.blog.com",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://trafficscotland.dataincubator.org/",
+  "triples": 40798,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "keithalexander@keithalexander.co.uk"
+  },
+  "keywords": [
+    "air-transport",
+    "format-compass",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "geographic",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "published-by-third-party",
+    "road-transport",
+    "roads",
+    "scotland",
+    "traffic"
+  ],
+  "links": [
+    {
+      "target": "transport-data-gov-uk",
+      "value": 151
+    }
+  ],
+  "other_download": [
+    {
+      "description": "void",
+      "media_type": "meta/void",
+      "access_url": "http://trafficscotland.dataincubator.org/"
+    }
+  ],
+  "example": [
+    {
+      "description": "http://trafficscotland.dataincubator.org/incidents/204358.rdf",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://trafficscotland.dataincubator.org/incidents/204358"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://api.talis.com/stores/trafficscotland/services/sparql"
+    }
+  ]
+}

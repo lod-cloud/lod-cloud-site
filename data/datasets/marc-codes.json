@@ -1,0 +1,71 @@
+{
+  "identifier": "marc-codes",
+  "title": "MARC Codes List",
+  "description": {
+    "en": "Currently provides the MARC codes (http://www.loc.gov/standards/valuelist/) for languages, geographic areas, countries and forms of musical composition."
+  },
+  "website": "http://purl.org/NET/marccodes/",
+  "namespace": "http://purl.org/NET/marccodes/",
+  "triples": 8816,
+  "contact_point": {
+    "name": "Ross Singer",
+    "email": "rossfsinger@gmail.com"
+  },
+  "keywords": [
+    "format-dc",
+    "format-geo",
+    "format-mo",
+    "format-rdf",
+    "format-skos",
+    "format-xhtml",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 599
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 534
+    },
+    {
+      "target": "lcsh",
+      "value": 2232
+    },
+    {
+      "target": "lingvoj",
+      "value": 421
+    },
+    {
+      "target": "wikipedia",
+      "value": 136
+    }
+  ],
+  "example": [
+    {
+      "description": "N-Triples example",
+      "media_type": "example/ntriples",
+      "access_url": "http://purl.org/NET/marccodes/languages/bel.txt"
+    },
+    {
+      "description": "RDF/XML example",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/NET/marccodes/gacs/a-bx.rdf"
+    },
+    {
+      "description": "HTML RDFa example",
+      "media_type": "example/rdfa",
+      "access_url": "http://purl.org/NET/marccodes/muscomp/fg.html"
+    }
+  ]
+}

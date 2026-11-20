@@ -1,0 +1,69 @@
+{
+  "identifier": "ei2a",
+  "title": "Aragon Interoperable Information Structure EI2A - aragon open data",
+  "description": {
+    "en": "EI2A  emerges as the framework in which the open data and in general the information of the Aragon Government can begin to be automated in a much more profound way. The EI2A has to have a number of technical, organizational and legal elements that need to be developed.  EI2A  describes basic data from the Aragon Government domain, intended to support data interoperability with the aim of standardizing information and exploiting it in the future."
+  },
+  "domain": "government",
+  "website": "https://opendata.aragon.es",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "ei2av2",
+  "triples": 435391731,
+  "image": "https://avatars.githubusercontent.com/u/3703707?s=200&v=4",
+  "contact_point": {
+    "name": "Aragon Open Data",
+    "email": "opendata@aragon.es"
+  },
+  "keywords": [
+    "Aragon",
+    "Government",
+    "Spain",
+    "Interoperability",
+    "Ontology",
+    "LOD",
+    "Regional Government",
+    "Open Data",
+    "EI2A"
+  ],
+  "links": [
+    {
+      "target": "aragodbpedia",
+      "value": 768
+    },
+    {
+      "target": "wikidata",
+      "value": 1090
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EI2A ontology",
+      "description": "Ontology used for the EI2A",
+      "access_url": "https://opendata.aragon.es/def/ei2av2/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Aragon Open Data EI2A, entities \"Places\"",
+      "description": "Places",
+      "access_url": "https://opendata.aragon.es/sparql?default-graph-uri=&query=SELECT+%3Fs+str%28%3Fnombre%29+as+%3Fnombre+WHERE+%0D%0A%7B%0D%0Aselect+%3Fs++%3Fnombre+where++%0D%0A%7B%3Fs+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type%3E++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FGovernmentalAdministrativeRegion%3E.+%0D%0A%3Fs+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label%3E+%3Fnombre%0D%0A++%7D%0D%0Aorder+by+%3Fs%0D%0A%7D%0D%0A&format=text%2Fhtml&timeout=0&signal_void=on"
+    },
+    {
+      "title": "EI2A Organizations",
+      "description": "Organizations",
+      "access_url": "https://opendata.aragon.es/sparql?default-graph-uri=&query=SELECT+%3Fs+%3Fnombre+WHERE+%0D%0A%0D%0A%7B%0D%0Aselect+%3Fs+%3Fnombre+from+%3Chttp%3A%2F%2Fopendata.aragon.es%2Fdef%2Fei2av2%3E+where++%0D%0A%7B%3Fs+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type%3E++%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Forg%23Organization%3E.+%0D%0A%3Fs+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2Ftitle%3E+%3Fnombre++%7D%0D%0A%7D%0D%0Aorder+by+%3Fnombre%0D%0A&format=text%2Fhtml&timeout=0&signal_void=on"
+    },
+    {
+      "title": "EI2A Wikidata Relations",
+      "description": "EI2A Wikidata Relations",
+      "access_url": "https://opendata.aragon.es/sparql?default-graph-uri=&query=select+%3Fs+%3Fnombre+%3FwikidataURI%0D%0Afrom+%3Chttp%3A%2F%2Fopendata.aragon.es%2Fdef%2Fei2av2%3E%0D%0Awhere+%7B%0D%0A++%3Fs+skos%3AexactMatch+%3FwikidataURI%3B%0D%0A++++++dc%3Atitle+%3Fnombre.%0D%0A++filter%28regex%28%3FwikidataURI%2C+%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%29%29.%0D%0A%7D%0D%0Aorder+by+%3Fnombre&format=text%2Fhtml&timeout=0&signal_void=on"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Aragon Open Data SPARQL endpoint",
+      "description": "SPARQL endpoint of Aragon Open Data",
+      "access_url": "https://opendata.aragon.es/sparql"
+    }
+  ]
+}

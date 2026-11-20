@@ -1,0 +1,192 @@
+{
+  "identifier": "rkb-explorer-wiki",
+  "title": "ReSIST Project Wiki (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://wiki.rkbexplorer.com",
+  "namespace": "http://wiki.rkbexplorer.com/id/",
+  "triples": 44379,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 19
+    },
+    {
+      "target": "freebase",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 135
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 80
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 127
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 37
+    },
+    {
+      "target": "rkb-explorer-darmstadt",
+      "value": 7
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 127
+    },
+    {
+      "target": "rkb-explorer-deepblue",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 24
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 11
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 26
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 21
+    },
+    {
+      "target": "rkb-explorer-italy",
+      "value": 12
+    },
+    {
+      "target": "rkb-explorer-kaunas",
+      "value": 7
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 62
+    },
+    {
+      "target": "rkb-explorer-lisbon",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 41
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 10
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 12
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 14
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 5
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 6
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://wiki.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://wiki.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://wiki.rkbexplorer.com/models/dump.tgz"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://wiki.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://wiki.rkbexplorer.com/id/friedrich_von_henke"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://wiki.rkbexplorer.com/sparql/"
+    }
+  ]
+}

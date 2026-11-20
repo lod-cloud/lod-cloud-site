@@ -1,0 +1,52 @@
+{
+  "identifier": "archiveshub-linkeddata",
+  "title": "Archives Hub Linked Data",
+  "description": {
+    "en": "A sample dataset of descriptions of archive collections held on the Archives Hub, a UK aggregator, and output as Linked Data. \r\n\r\nThe Hub Linked Data provides a perspective on the people, organisations, subjects and places connected with the archives that are described.  External links are provided to other datasets, such as the Virtual International Authority File and Library of Congress Subject Headings.\r\n\r\nA stylesheet is available to convert EAD data (XML for archives) into RDF XML. \r\n\r\nhttp://data.archiveshub.ac.uk/"
+  },
+  "domain": "publications",
+  "website": "http://data.archiveshub.ac.uk",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.archiveshub.ac.uk/",
+  "triples": 431088,
+  "contact_point": {
+    "name": "LOCAH project"
+  },
+  "keywords": [
+    "archives",
+    "deref-vocab",
+    "format-xhtml",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "open_archives",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "uk-postcodes",
+      "value": 5000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Dump",
+      "media_type": "RDF",
+      "access_url": "http://data.archiveshub.ac.uk/dump/linkedarchiveshub.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "RDF example",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.archiveshub.ac.uk/id/archivalresource/gb1086skinner"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql endpoint for Archives Hub Linked Data",
+      "access_url": "http://data.archiveshub.ac.uk/sparql"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "identifier": "http:www.fateh_fahad_adeel.comgrandSlam",
+  "title": "Grand Slam Knowledge Graph",
+  "description": {
+    "en": "This DataSet is Taken from UCI Machine Learning  Repository. It's domain is Sports and this data is about The Grand Slam tournament of Tennis for year 2013."
+  },
+  "domain": "user_generated",
+  "website": "http://www.fateh_fahad_adeel.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://www.fateh_fahad_adeel.com/grandSlam",
+  "triples": 56000,
+  "contact_point": {
+    "name": "Fateh Muhammad",
+    "email": "i191750@nu.edu.pk"
+  },
+  "keywords": [
+    "GrandSlam",
+    "Ontology",
+    "Protege",
+    "Tennis",
+    "TennisTournament",
+    "USOpen",
+    "FrenchOpen",
+    "AusOpen",
+    "Wimbledon"
+  ]
+}

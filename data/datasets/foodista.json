@@ -1,0 +1,69 @@
+{
+  "identifier": "foodista",
+  "title": "Foodista",
+  "description": {
+    "en": "Foodista is a community edited recipe wiki, published under a Creative Common Attribution license. The wiki contains information on foods, tools, techniques, and recipes.\r\n\r\nThis dataset was based on a crawl of the Foodista website, extracting the metadata from the service. Since the crawl was completed the Foodista site has significantly changed, so refreshing the data is more difficult. \r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "website": "http://kasabi.com/dataset/foodista",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.kasabi.com/dataset/foodista",
+  "triples": 8129900,
+  "contact_point": {
+    "name": "Leigh Dodds",
+    "email": "leigh@ldodds.com"
+  },
+  "keywords": [
+    "food",
+    "format-rdf",
+    "usergeneratedcontent"
+  ],
+  "other_download": [
+    {
+      "title": "Search",
+      "description": "Kasabi page for Foodista Search API",
+      "access_url": "http://api.kasabi.com/dataset/api-foodista/apis/search"
+    },
+    {
+      "description": "Kasabi page for Foodista Lookup API",
+      "access_url": "http://kasabi.com/api/lookup-api-foodista"
+    },
+    {
+      "description": "Kasabi page for Foodista Reconciliation API",
+      "access_url": "http://kasabi.com/api/reconciliation-api-foodista"
+    },
+    {
+      "description": "Kasabi page for Foodista Augmentation API",
+      "access_url": "http://kasabi.com/api/augmentation-api-foodista"
+    },
+    {
+      "title": "VOID",
+      "description": "Void description of Foodista dataset",
+      "access_url": "http://data.kasabi.com/dataset/foodista"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to Internet Archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/foodista.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example RDF for Foodista",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/foodista/recipe/FSZG4354.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL page",
+      "description": "Kasabi page for Foodista SPARQL Endpoint",
+      "access_url": "http://kasabi.com/api/sparql-endpoint-foodista"
+    },
+    {
+      "title": "SPARQL",
+      "description": "SPARQL endpoint for Foodista",
+      "access_url": "http://api.kasabi.com/dataset/foodista/apis/sparql"
+    }
+  ]
+}

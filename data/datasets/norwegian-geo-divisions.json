@@ -1,0 +1,80 @@
+{
+  "identifier": "norwegian-geo-divisions",
+  "title": "Norwegian geo-divisions",
+  "description": {
+    "en": "A dataset with Norwegian Administrative Divisions and their administrative centers."
+  },
+  "domain": "geography",
+  "website": "http://data.lenka.no/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.lenka.no/geo",
+  "triples": 8399,
+  "contact_point": {
+    "name": "Kjetil Kjernsmo",
+    "email": "kjetil@kjernsmo.net"
+  },
+  "keywords": [
+    "format-cc",
+    "format-dct",
+    "format-geo",
+    "format-geonames",
+    "format-ngeoi",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "geographic",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party",
+    "topic.geographic"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 835
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "description": "A basic VoID description of the dataset.",
+      "media_type": "meta/void",
+      "access_url": "http://data.lenka.no/"
+    },
+    {
+      "title": "Links from Fylke to Geonames",
+      "media_type": "text/turtle",
+      "access_url": "http://data.lenka.no/dumps/fylke-geonames.ttl"
+    },
+    {
+      "title": "Municipality names",
+      "media_type": "text/turtle",
+      "access_url": "http://data.lenka.no/dumps/kommune-navn.ttl"
+    },
+    {
+      "title": "Municipality centre names with geoname links",
+      "media_type": "text/turtle",
+      "access_url": "http://data.lenka.no/dumps/kommunesentre-geonames.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example \"Fylke\"",
+      "media_type": "text/turtle",
+      "access_url": "http://data.lenka.no/geo/inndeling/06"
+    },
+    {
+      "title": "Example center",
+      "media_type": "text/turtle",
+      "access_url": "http://data.lenka.no/geo/sted/60196"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://data.lenka.no/sparql"
+    }
+  ]
+}

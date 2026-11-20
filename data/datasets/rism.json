@@ -1,0 +1,45 @@
+{
+  "identifier": "rism",
+  "title": "Répertoire International des Sources Musicales - RISM",
+  "description": {
+    "en": "Répertoire International des Sources Musicales (RISM) is an international, non-profit organization with the aim of comprehensively documenting extant musical sources anywhere in the world. \r\n\r\nThe dataset offered here contains over 870,000 records, mostly for music manuscripts. These records hand down the works of some 27,000 composers, whose sources are preserved in the libraries and archives of 36 countries."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://data.rism.info/id/rismid/",
+  "triples": 17217885,
+  "contact_point": {
+    "name": "RISM",
+    "email": "magda.gerritsen@bsb-muenchen.de"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-bibo",
+    "format-dc",
+    "format-dcterms",
+    "library",
+    "license-metadata",
+    "lld",
+    "lod",
+    "music",
+    "music-encoding",
+    "rdf"
+  ],
+  "other_download": [
+    {
+      "title": "Example Resource",
+      "description": "Example Resource",
+      "access_url": "https://opac.rism.info/id/rismid/454008332?format=rdf"
+    },
+    {
+      "title": "Downloadable Data Dump",
+      "media_type": "application/x-gzip",
+      "access_url": "https://opac.rism.info/fileadmin/user_upload/lod/update/rismTitleRDF.ttl.gz"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "RISM SPARQL Endpoint",
+      "access_url": "http://data.rism.info/sparql"
+    }
+  ]
+}

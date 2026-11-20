@@ -1,0 +1,43 @@
+{
+  "identifier": "linked-logainm",
+  "title": "Linked Logainm",
+  "description": {
+    "en": "Linked Logainm is a collaborative project undertaken by the Digital Repository of Ireland (DRI), the Digital Enterprise Research Institute (DERI), Fiontar at Dublin City University, the National Library of Ireland and the Place names Branch of the Department of Arts, Heritage and the Gaeltacht. The Linked Logainm project has created a new open dataset, which allows Irish place names to be linked across the world by cutting edge technologies developed in Ireland. The new Linked Data version of the authoritative bilingual database of Irish place names logainm.ie, is an open resource to be widely used by web developers, computer scientists, researchers, the heritage community and librarians and archivists."
+  },
+  "domain": "geography",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Digital Repository of Ireland (DRI), the Digital Enterprise Research Institute (DERI), Fiontar at Dublin City University, the National Library of Ireland and the Place names Branch of the Department of Arts, Heritage and the Gaeltacht.",
+    "email": "c.debruyne@ria.ie"
+  },
+  "keywords": [
+    "geographic",
+    "linked oped data",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 8615
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 6059
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example of a resource with dereferencable URI",
+      "description": "Example of a resource with dereferencable URI",
+      "access_url": "http://data.logainm.ie/place/1375542"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Linked Logainm SPARQL Endpoint",
+      "description": "Linked Logainm SPARQL Endpoint",
+      "access_url": "http://data.logainm.ie/sparql"
+    }
+  ]
+}

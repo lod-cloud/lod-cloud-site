@@ -1,0 +1,50 @@
+{
+  "identifier": "rss-500-nif-ner-corpus",
+  "title": "RSS-500 NIF NER CORPUS",
+  "description": {
+    "en": "This corpus has been created using a dataset comprising a\r\nlist of 1,457 RSS feeds as compiled in (Goldhahn et al. 2012). The list includes all major worldwide newspapers\r\nand a wide range of topics, e.g.,\r\nWorld\r\n,\r\nU.S.\r\n,\r\nBusiness\r\n,\r\nSci-\r\nence\r\netc. The RSS list has been compiled using a 76-hour\r\ncrawl, which resulted in a corpus of about 11.7 million sen-\r\ntences. A subset of this corpus has been created by ran-\r\ndomly selecting 1% of the contained sentences.\r\nFinally, one researcher annotated 500 randomly chosen\r\nsentences manually. These sentences were a subset of\r\nthose which contained a natural language representation\r\nof a formal relation, like “. . . , who was born in. . . ” for\r\ndpo:birthPlace\r\n(see (Gerber and Ngomo, 2012)). The\r\nrelations had to occur more than 5 times in the 1% corpus.\r\nIn case the mentioned entity is not contained in a new URI\r\nhas been generated. This corpus has been used for evalua-\r\ntion purposes in (Gerber et al., 2013)"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 10038,
+  "contact_point": {
+    "name": "Ricardo Usbeck",
+    "email": "ricardo.usbeck@googlemail.com"
+  },
+  "keywords": [
+    "corpus",
+    "evaluation",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "ner",
+    "nif",
+    "rdf",
+    "training"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 524
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RSS-500 Corpus in Turtle",
+      "description": "Complete corpus file in turtle format",
+      "access_url": "https://raw.githubusercontent.com/AKSW/n3-collection/master/RSS-500.ttl"
+    },
+    {
+      "title": "Documentation paper",
+      "description": "Title: \r\nN3 - A Collection of Datasets for Named Entity Recognition and Disambiguation in the NLP Interchange Format \r\nAuthors: Michael Röder, Ricardo Usbeck, Sebastian Hellmann, Daniel Gerber und Andreas Both\r\nIn: The 9th edition of the Language Resources and Evaluation Conference, 26-31 May, Reykjavik, Iceland",
+      "media_type": "application/pdf",
+      "access_url": "http://svn.aksw.org/papers/2014/LREC_N3NIFNERNED/public.pdf"
+    },
+    {
+      "title": "DataID",
+      "description": "Metadata description of the corpus",
+      "media_type": "text/turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-10-29T16:27:07.064Z/dataid.ttl"
+    }
+  ]
+}

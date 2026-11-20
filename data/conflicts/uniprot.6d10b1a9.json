@@ -1,0 +1,41 @@
+{
+  "identifier": "UniProt",
+  "title": "UniProt",
+  "description": {
+    "en": "The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The UniProt databases are the UniProt Knowledgebase (UniProtKB), the UniProt Reference Clusters (UniRef), and the UniProt Archive (UniParc). The UniProt consortium and host institutions EMBL-EBI, SIB and PIR are committed to the long-term preservation of the UniProt databases."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.uniprot.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 70000000000,
+  "contact_point": {
+    "name": "UniProt helpdesk",
+    "email": "help@uniprot.org"
+  },
+  "keywords": [
+    "protein",
+    "uniprot",
+    "function",
+    "biology"
+  ],
+  "links": [
+    {
+      "target": "European_Patent_Information",
+      "value": 40000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "UniProt static downloads",
+      "description": "The directory where the files comprising the UniProt data in RDF format reside.",
+      "download_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "UniProt sparql endpoint",
+      "description": "The sparql endpoint hosting all UniProt data.",
+      "access_url": "https://sparql.uniprot.org/sparql"
+    }
+  ]
+}

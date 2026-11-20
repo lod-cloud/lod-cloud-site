@@ -1,0 +1,51 @@
+{
+  "identifier": "prelex",
+  "title": "PreLex",
+  "description": {
+    "en": "PreLex provides access to documents regarding inter-institutional law of the European Union. The original website provides only access to the documents via search, whereas the extracted data also contains metadata for better filtering and querying possibilities. The data that was published as Linked Data in this task was not extracted from the original source, but from an already existing API for European Union legislation. If you want to browse the data, please use the links in the \"navigation box\" on the left side. Furthermore, it is possible to create your own SPARQL queries for obtaining lists of combined information.\r\nThis dataset (http://prelex.publicdata.eu/) was triplified and published by the research group AKSW (Agile Knowledge Engineering and Semantic Web). For further information about AKSW please visit our website."
+  },
+  "domain": "government",
+  "website": "http://prelex.publicdata.eu/",
+  "namespace": "http://prelex.publicdata.eu/r/",
+  "triples": 1051352,
+  "contact_point": {
+    "name": "Philipp Frischmuth",
+    "email": "frischmuth@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "latc",
+    "legal",
+    "lod",
+    "lodcloud"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    },
+    {
+      "target": "eur-lex-rdf",
+      "value": 11637
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML Dump",
+      "access_url": "http://prelex.publicdata.eu/model/export/?m=http%3A%2F%2Fprelex.publicdata.eu%2F&f=rdfxml"
+    },
+    {
+      "title": "Example Resource (RDF/XML)",
+      "access_url": "http://prelex.publicdata.eu/resource/export/f/rdfxml?r=http%3A%2F%2Fprelex.publicdata.eu%2Fr%2Forganization%2FDG%2BFisheries"
+    },
+    {
+      "title": "Example Resource (HTML)",
+      "access_url": "http://prelex.publicdata.eu/r/organization/DG+Fisheries"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://prelex.publicdata.eu/sparql"
+    }
+  ]
+}

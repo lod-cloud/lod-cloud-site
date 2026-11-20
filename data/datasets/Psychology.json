@@ -1,0 +1,21 @@
+{
+  "identifier": "Psychology",
+  "title": "Depression",
+  "description": {
+    "en": "Dataset about depression characteristics."
+  },
+  "domain": "life_sciences",
+  "website": "http://depression.com",
+  "license": "https://opensource.org/licenses/MIT",
+  "triples": 3,
+  "contact_point": {
+    "name": "M.Abdullah Bilal",
+    "email": "i190616@nu.edu.pk"
+  },
+  "sparql": [
+    {
+      "title": "Depression Endpoint",
+      "access_url": "http://depressionData.org#"
+    }
+  ]
+}

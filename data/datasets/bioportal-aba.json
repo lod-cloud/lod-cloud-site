@@ -1,0 +1,135 @@
+{
+  "identifier": "bioportal-aba",
+  "title": "ABA Adult Mouse Brain",
+  "description": {
+    "en": "Allen Brain Atlas P56 Mouse Ontology"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1290",
+  "triples": 9617,
+  "contact_point": {
+    "name": "Allen Institute for Brain Science"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-biomodels",
+      "value": 87
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 94
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 36
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 38
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 38
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 34
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 33
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 63
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 74
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 142
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 69
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 58
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 67
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 146
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 29
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 146
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 106
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 25
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 14
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 200
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 18
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 19
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/40133?apikey=BP_API_KEY"
+    }
+  ]
+}

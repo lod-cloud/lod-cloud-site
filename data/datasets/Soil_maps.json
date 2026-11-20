@@ -1,0 +1,28 @@
+{
+  "identifier": "Soil_maps",
+  "title": "Erosion-endangered soil zones dataset from Czech Republic @PSNC",
+  "description": {
+    "en": "This data contains the erosion endangered soil maps from Czech republic. The source data was in shapefiles which is transformed into linked data."
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/open/cz/Soil_maps_BPEJ_WGSc/",
+  "triples": 8746240,
+  "image": "https://box.psnc.pl/f/9d90b08c2c/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "soil erosion",
+    "erosion zones",
+    "agriculture"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

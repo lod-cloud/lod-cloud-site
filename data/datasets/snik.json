@@ -1,0 +1,49 @@
+{
+  "identifier": "snik",
+  "title": "SNIK",
+  "description": {
+    "en": "SNIK, the Semantic Network of Information Management in Hospitals, describes hospital information system management from a functional point of view: Who performs which function and which information is needed or updated by this function?\n\nLicensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.snik.eu",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://www.snik.eu/ontology/",
+  "triples": 81499,
+  "contact_point": {
+    "name": "Konrad Höffner",
+    "email": "konrad.hoeffner@uni-leipzig.de"
+  },
+  "keywords": [
+    "Health Information Management",
+    "Hospital Information System"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 579
+    }
+  ],
+  "full_download": [
+    {
+      "title": "snik.zip",
+      "description": "The latest version of SNIK as RDF Turtle and N-Triple files.",
+      "media_type": "application/zip",
+      "download_url": "https://github.com/snikproject/ontology/archive/refs/heads/master.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "CEO",
+      "description": "Chief Executive Officer",
+      "media_type": "application/n-triples",
+      "access_url": "https://www.snik.eu/ontology/bb/ChiefExecutiveOfficer"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint for SNIK",
+      "description": "Graph Group http://www.snik.eu/ontology",
+      "access_url": "https://www.snik.eu/sparql"
+    }
+  ]
+}

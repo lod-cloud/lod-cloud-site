@@ -1,0 +1,40 @@
+{
+  "identifier": "bbop-selected",
+  "title": "BBOP",
+  "description": {
+    "en": "Data exposed: selected OBO ontologies, downloaded ~21 April 2007, augmented with inferred relations\r\nSize of dump and data set: 2.6 MB\r\nNotes: released without contract"
+  },
+  "website": "http://www.berkeleybop.org/",
+  "triples": 711552,
+  "contact_point": {
+    "name": "<URI>"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "deref-vocab",
+    "format-rdf",
+    "format-rdfs",
+    "lifesciences",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "ontology",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "other_download": [
+    {
+      "description": "Datadump",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/hcls/2007/kb-sources/obo-in-owl.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/xml",
+      "access_url": "http://purl.org/obo/owl/GO#GO_0000701"
+    }
+  ]
+}

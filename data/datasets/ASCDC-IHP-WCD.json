@@ -1,0 +1,86 @@
+{
+  "identifier": "ASCDC-IHP-WCD",
+  "title": "Database of the Han Wooden Slips Character Dictionary (WCD)",
+  "description": {
+    "en": "The LOD dataset of ASCDC_Database of the Han Wooden Slips Character Dictionary (WCD) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the “Han Wooden Slips Character Dictionary” (簡牘字典―史語所藏居延漢簡資料庫, https://wcd-ihp.ascdc.sinica.edu.tw/woodslip/), which was established and maintained by the Institute of History and Philology, Academia Sinica, Taipei, Taiwan (ROC). The data includes information on the archaeological objects of Han Wooden Slips, which were created in the Han dynasty (206 B.C.-220 A.D.) and excavated in the early 1930s during the Sino-Swedish Scientific Expedition. The data can serve as a profound source for the digital study of ancient Chinese history. Containing 207 data records and 143,264 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC 0), while the digitized images are under CC-BY-NC-ND 3.0."
+  },
+  "domain": "user_generated",
+  "website": "https://data.ascdc.tw/en/data.php",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.ascdc.tw/WoodenSlips/WCD/IHP/",
+  "triples": 143264,
+  "contact_point": {
+    "name": "Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.)",
+    "email": "sophy@gate.sinica.edu.tw"
+  },
+  "keywords": [
+    "ASCDC",
+    "Chinese History",
+    "Wooden Slips",
+    "Han Dynasty",
+    "Chinese Characters",
+    "Academia Sinica",
+    "Institute of History and Philology"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 808
+    },
+    {
+      "target": "getty-aat",
+      "value": 1220
+    },
+    {
+      "target": "getty-tgn",
+      "value": 208
+    },
+    {
+      "target": "viaf",
+      "value": 624
+    }
+  ],
+  "full_download": [
+    {
+      "title": "ASCDC LODDatasets",
+      "description": "Launched in 2018, ASCDC LODDatasets is an online portal platform for publishing LOD-based datasets, which are converted and provided by the ASCDC in Taiwan (R.O.C), with service for SPARQL queries and data downloads.",
+      "media_type": "XML, JSON, TTL, CSV.",
+      "download_url": "https://data.ascdc.tw/en/index.php"
+    },
+    {
+      "title": "ASCDC LODDataset of the Han Wooden Slips Character Dictionary",
+      "description": "Full download of ASCDC LODDataset of the Han Wooden Slips Character Dictionary in ttl format.",
+      "media_type": "ttl",
+      "download_url": "https://data.ascdc.tw/dataset/ASCDC-IHP-WCD.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ASCDC LODDatasets - Downloads",
+      "description": "Webpage of ASCDC LODDatasets for downloads of entire published LOD-based datasets.",
+      "media_type": "text/html",
+      "access_url": "https://data.ascdc.tw/en/data.php"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource: Monthly and Seasonal Records of Military Supplies from the Kuang-ti South Platoon in the Yung-yüan Era /廣地南部永元五年至七年官兵釜磑簿",
+      "description": "Resource contains the LOD-based data on the wooden slips of the “Monthly and Seasonal Records of Military Supplies from the Kuang-ti South Platoon in the Yung-yüan Era” (廣地南部永元五年至七年官兵釜磑簿), created in 95 AD.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://data.ascdc.tw/WoodenSlips/WCD/IHP/Item/H00185"
+    },
+    {
+      "title": "Example Resource: Report on Granting Officer Cheng She Leave of Absence Due to the Death of His Father /永光二年予候長鄭赦寧冊",
+      "description": "Resource contains the LOD-based data on the wooden slips of the “Report on Granting Officer Cheng She Leave of Absence Due to the Death of His Father” (永光二年予候長鄭赦寧冊), created in 42 BC..",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://data.ascdc.tw/WoodenSlips/WCD/IHP/Item/H01637"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ASCDC LODDatasets - SPARQL Queries",
+      "description": "Access to the SPARQL endpoint of ASCDC's LOD datasets for data retrieval (with template-based examples), downloads and further reuse.",
+      "access_url": "https://data.ascdc.tw/en/sparql.php"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "identifier": "british-museum-collection",
+  "title": "British Museum Collection",
+  "description": {
+    "en": "Welcome to this Linked Data and SPARQL service. It provides access to the same collection data available through the Museum?s web presented Collection Online, but in a computer readable format. The use of the W3C open data standard, RDF, allows the Museum?s collection data to join and relate to a growing body of linked data published by other organisations around the world interested in promoting accessibility and collaboration.\r\n\r\nThe data has also been organised using the CIDOC-CRM (Conceptual Reference Model) crucial for harmonising with other cultural heritage data. The current version is beta and development work continues to improve the service. We hope that the service will be used by the community to develop friendly web applications that are freely available to the community. \r\n\r\nLicence available at http://collection.britishmuseum.org/Licensing"
+  },
+  "website": "http://collection.britishmuseum.org",
+  "namespace": "http://collection.britishmuseum.org/id/",
+  "triples": 105635648,
+  "contact_point": {
+    "name": "Dominic Oldman",
+    "email": "doldman@britishmuseum.org"
+  },
+  "keywords": [
+    "cultural",
+    "culturalheritage",
+    "deref-vocab",
+    "format-cidoc-crm",
+    "format-foaf",
+    "format-rdf",
+    "format-skos",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.candidate",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "sparql"
+  ],
+  "example": [
+    {
+      "title": "Object EAF119791",
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://collection.britishmuseum.org/description/object/EAF119791.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://collection.britishmuseum.org/Sparql"
+    }
+  ]
+}

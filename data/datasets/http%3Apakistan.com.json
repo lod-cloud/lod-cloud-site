@@ -1,0 +1,15 @@
+{
+  "identifier": "http:pakistan.com",
+  "title": "Polictical History of Pakistan",
+  "description": {
+    "en": "National Assembly"
+  },
+  "domain": "publications",
+  "website": "https://na.gov.pk",
+  "license": "https://opendefinition.org/licenses/fal",
+  "triples": 0,
+  "contact_point": {
+    "name": "Hassam Nazir",
+    "email": "i202438@nu.edu.pk"
+  }
+}

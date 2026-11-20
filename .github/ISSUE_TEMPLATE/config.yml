@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a problem with the site or the data process
+    url: https://github.com/lod-cloud/lod-cloud-site/issues/new
+    about: For anything that is not adding or changing a dataset

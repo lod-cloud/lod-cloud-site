@@ -1,0 +1,43 @@
+{
+  "identifier": "LewisShort",
+  "title": "Lewis and Short Latin-English Dictionary in LiLa",
+  "description": {
+    "en": "A Latin Dictionary by Charlton T. Lewis and Charles Short is a popular English-language lexicographical work of the Latin language, published by Harper and Brothers of New York in 1879 and printed simultaneously in the United Kingdom by Oxford University Press. The version published in LiLa is derived from the digital one provided by the Perseus Digital Library (in XML format)."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/LewisShort/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/LewisShort",
+  "triples": 1377503,
+  "doi": "10.5281/zenodo.8027556",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 53437
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Lewis and Short Latin-English Dictionary in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization), but they are also available as SQL dump of a relational database",
+      "download_url": "https://github.com/CIRCSE/LewisShort"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

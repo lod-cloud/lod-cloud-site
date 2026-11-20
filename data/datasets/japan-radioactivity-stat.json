@@ -1,0 +1,53 @@
+{
+  "identifier": "japan-radioactivity-stat",
+  "title": "National Radioactivity Stat as Linked Data",
+  "description": {
+    "en": "?????????????????????????????????????????????atmc.jp????????????1???2011-03-16?2012-03-15??RDF????????????????3??????????????\r\n\r\nThis is an experimantal RDF data of radioactivity statistics, observed at 47 prefectures hourly, from 2011-03-16 to 2012-03-15. Source data is text data at atmc.jp converted from the daily announcements by the Ministry of Education, which have been compiled based on reports from each prefecture. Some data from Fukushima and Miyagi in March missing"
+  },
+  "domain": "government",
+  "website": "http://www.kanzaki.com/works/2011/stat/ra/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://www.kanzaki.com/works/2011/stat/ra/",
+  "triples": 1648890,
+  "contact_point": {
+    "name": "KANZAKI Masahide",
+    "email": "mkanzaki@gmail.com"
+  },
+  "keywords": [
+    "country-japan",
+    "format-event",
+    "format-geo",
+    "format-rdf",
+    "format-rdfs",
+    "format-scovo",
+    "format-time",
+    "format-vcard",
+    "geographic",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-proprietary-vocab",
+    "published-by-third-party",
+    "radioactivity",
+    "statistics"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 36696
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "description": "metadata about the dataset",
+      "access_url": "http://www.kanzaki.com/works/2011/stat/ra-void.ttl"
+    },
+    {
+      "title": "Zip archive of RDF dump",
+      "description": "Zip archive of RDF/Turtle for one year stat (1,648,890 triples)",
+      "media_type": "application/zip",
+      "access_url": "http://www.kanzaki.com/works/2012/pub/radiostat-20110316-20120315.zip"
+    }
+  ]
+}

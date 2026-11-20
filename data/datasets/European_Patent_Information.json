@@ -1,0 +1,68 @@
+{
+  "identifier": "European_Patent_Information",
+  "title": "EPO patents",
+  "description": {
+    "en": "This data set contains information about all EP patents, like applications, publications, technical classifications, citations, patent families and related non-EP patents.\nThe data set is updated weekly"
+  },
+  "domain": "government",
+  "website": "https://www.epo.org/linked-data/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.epo.org/linked-data/def/patent/",
+  "triples": 600000000,
+  "contact_point": {
+    "name": "Martin Kracker / European Patent Office",
+    "email": "mkracker@epo.org"
+  },
+  "keywords": [
+    "bibliographic data",
+    "patents",
+    "patent applications",
+    "patent publication",
+    "technical classifications",
+    "IPC",
+    "CPC",
+    "patent priorities",
+    "citations",
+    "non-patent literature",
+    "applicants",
+    "inventors",
+    "agents",
+    "legal representatives"
+  ],
+  "links": [
+    {
+      "target": "CPC",
+      "value": 19300000
+    },
+    {
+      "target": "marc-codes",
+      "value": 18000000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download of European Patent Information",
+      "description": "The full data contains complete and up to date patent data, CPC taxonomy and vocabulary files. \nUpdates are weekly.",
+      "download_url": "https://data.epo.org/linked-data/download/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example EP publication as ttl",
+      "description": "European patent publication \"EP 125371 9 B1\"",
+      "access_url": "http://data.epo.org/linked-data/data/publication/EP/1253719/B1/-.ttl"
+    },
+    {
+      "title": "Example EP application as ttl",
+      "description": "European patent application  \"EP 01903571\"",
+      "access_url": "http://data.epo.org/linked-data/id/application/EP/01903571.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint for European Patent Information",
+      "description": "SPARQL form is available in https://data.epo.org/linked-data/sparql.html",
+      "access_url": "https://data.epo.org/linked-data/query"
+    }
+  ]
+}

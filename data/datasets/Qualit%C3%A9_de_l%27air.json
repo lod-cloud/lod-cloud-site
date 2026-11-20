@@ -1,0 +1,25 @@
+{
+  "identifier": "Qualité_de_l'air",
+  "title": "Qualité de l'air",
+  "description": {
+    "en": "Mesure des polluants dans l'air à travers le monde"
+  },
+  "domain": "user_generated",
+  "website": "https://emilienbarbaud-etudiant.ovh/res.ttl",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "julie queiros",
+    "email": "julie.queiros7@gmail.com"
+  },
+  "keywords": [
+    "Air Quality"
+  ],
+  "full_download": [
+    {
+      "title": "Turtle",
+      "media_type": "Turtle",
+      "download_url": "https://emilienbarbaud-etudiant.ovh/res.ttl"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "identifier": "statusnet-progval-net",
+  "title": "statusnet-progval-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://progval.net"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.progval.net/progval/foaf"
+    }
+  ]
+}

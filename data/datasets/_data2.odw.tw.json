@@ -1,0 +1,27 @@
+{
+  "identifier": "_data2.odw.tw",
+  "title": "土地利用模型",
+  "description": {
+    "en": "知识包"
+  },
+  "domain": "geography",
+  "website": "http://www.geodata.cn/data/datadetails.html?dataguid=290864223&docid=17580",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "5722@qq.com"
+  },
+  "other_download": [
+    {
+      "title": "土地利用论文",
+      "description": "论文元素",
+      "access_url": "http://www.geodata.cn/data/datadetails.html?dataguid=290864223&docid=17580"
+    },
+    {
+      "title": "影像数据",
+      "description": "知识包元素",
+      "access_url": "http://www.geodata.cn/data/datadetails.html?dataguid=290864223&docid=17580"
+    }
+  ]
+}

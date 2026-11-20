@@ -1,0 +1,64 @@
+{
+  "identifier": "eurovoc",
+  "title": "EuroVoc",
+  "description": {
+    "en": "EuroVoc is a multilingual, multidisciplinary thesaurus covering the activities of the EU, the European Parliament in particular. It contains terms in 23 EU languages (Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish and Swedish), plus in three languages of countries which are candidates for EU accession: македонски (mk), shqip (sq) and cрпски (sr)."
+  },
+  "domain": "government",
+  "website": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://eurovoc.europa.eu",
+  "triples": 4064340,
+  "image": "https://op.europa.eu/documents/6793978/6793980/6724995/b631b122-c2bc-22c1-bf18-eb7451b2542a?t=1584637138416",
+  "contact_point": {
+    "name": "EU Vocabularies team",
+    "email": "op-eu-vocabularies@publications.europa.eu"
+  },
+  "keywords": [
+    "controlled vocabulary",
+    "thesaurus",
+    "Authority Tables",
+    "European Union"
+  ],
+  "links": [
+    {
+      "target": "agrovoc",
+      "value": 1783
+    },
+    {
+      "target": "gemet",
+      "value": 117
+    },
+    {
+      "target": "lcsh",
+      "value": 246
+    },
+    {
+      "target": "umthes",
+      "value": 23
+    },
+    {
+      "target": "wikidata",
+      "value": 3050
+    }
+  ],
+  "full_download": [
+    {
+      "title": "EuroVoc SKOS full release, zip compressed",
+      "description": "The latest release of the EuroVoc thesaurus, in XML/RDF format compressed as zip.\nNew releases are published quarterly.",
+      "download_url": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"
+    },
+    {
+      "title": "EuroVoc Excel export full release, zip compressed",
+      "description": "The latest release of the EuroVoc thesaurus, in Excel format (XLSX), in all EU languages, compressed as zip.\nNew releases are published quarterly.",
+      "download_url": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "CELLAR - Query Service of the Publications Office of the European Union",
+      "description": "The query service gives access to Cellar, the digital dissemination repository of the Publications Office of the European Union. \nCellar is the semantic web content and metadata repository of legal and non-legal documents produced by the European institutions. Cellar includes about 150 millions of documents in 24 languages; metadata in as many languages are stored and described in RDF, resulting in more than 800 millions of triples. The Cellar SPARQL endpoint, exposed in order to complement linked open data services to potential consumers, receives about 10 million requests per day (Cellar statistics dated April 2018). Cellar is also the source of information for the Eur-Lex portal (http://www.eurlex.eu) which provides access to several types of legal resources including treaties, legislation, case-law and legislative proposals.",
+      "access_url": "http://publications.europa.eu/webapi/rdf/sparql"
+    }
+  ]
+}

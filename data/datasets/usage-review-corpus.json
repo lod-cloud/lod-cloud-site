@@ -1,0 +1,42 @@
+{
+  "identifier": "usage-review-corpus",
+  "title": "USAGE review corpus",
+  "description": {
+    "en": "This corpus consists of *sentiment* annotations of Amazon reviews for different product categories in the languages German and English. The reviews themselves are not part of this data publication. The annotations are fine-grained, including aspects and subjective phrases. In addition, the relation of an aspect to be a target of a subjective phrase is provided as well as the polarity of the subjective phrase. The corpus consists of 622 English and 611 German reviews for coffee machines, cutlery, microwaves, toaster, trash cans, vacuum cleaner, washing machines and dishwasher. The English corpus is annotated with more than 8000 aspects and 5000 subjective phrases, the German part with more than 6000 aspects and around 5000 subjective phrases (depending on the annotator). Each review is independently annotated by two annotators."
+  },
+  "triples": 4920951,
+  "contact_point": {
+    "name": "Roman Klinger",
+    "email": "mail@romanklinger.de"
+  },
+  "keywords": [
+    "corpus",
+    "english",
+    "german",
+    "linguistic",
+    "llod"
+  ],
+  "other_download": [
+    {
+      "title": "Example resource",
+      "description": "An example annotation",
+      "access_url": "http://data.lider-project.eu/usage/de-coffeemachine/2050"
+    },
+    {
+      "title": "Data dump",
+      "description": "All the data as a zipped file",
+      "media_type": "application/x-gzip",
+      "access_url": "http://data.lider-project.eu/usage/usage.nt.gz"
+    },
+    {
+      "title": "Example Resource (RDF)",
+      "access_url": "http://data.lider-project.eu/usage/de-coffeemachine/2050.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://data.lider-project.eu/usage/sparql"
+    }
+  ]
+}

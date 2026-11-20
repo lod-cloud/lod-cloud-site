@@ -1,0 +1,61 @@
+{
+  "identifier": "eea-vocabularies",
+  "title": "EEA Vocabularies",
+  "description": {
+    "en": "Superseded by dataset:eionet-rdf\r\n\r\nVocabularies used by EEA Linked Data: countries, biogeographical regions, DPSIR codes, languages."
+  },
+  "domain": "geography",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Søren Roug",
+    "email": "soren.roug@eea.europa.eu"
+  },
+  "keywords": [
+    "countries",
+    "eu",
+    "lod",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 114
+    },
+    {
+      "target": "eea-rod",
+      "value": 54
+    },
+    {
+      "target": "eurostat-rdf",
+      "value": 92
+    },
+    {
+      "target": "fao-geopolitical-ontology",
+      "value": 50
+    },
+    {
+      "target": "geonames",
+      "value": 54
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download vocabularies",
+      "media_type": "RDF",
+      "access_url": "http://rdfdata.eionet.europa.eu/eea/data_dump.rdf"
+    },
+    {
+      "title": "Example resource (Austria)",
+      "description": "Example resource (Austria)",
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://rdfdata.eionet.europa.eu/eea/countries/AT"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://cr.eionet.europa.eu/sparql"
+    }
+  ]
+}

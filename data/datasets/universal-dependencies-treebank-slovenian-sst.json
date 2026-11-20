@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-slovenian-sst",
+  "title": "Universal Dependencies Treebank Slovenian-SST",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Slovenian-SST treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Slovenian-SST",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 29488,
+  "contact_point": {
+    "name": "Dobrovoljc, Kaja; Nivre, Joakim"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Slovenian-SST Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Slovenian-SST/archive/master.zip"
+    },
+    {
+      "title": "UD_Slovenian-SST RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/478e3983-4471-4c95-8ba2-5ce12cc98584/resource/783a1671-f9e4-48ae-b2e6-94e50fe9f3e3/download/udslovenian-sst.rdf"
+    }
+  ]
+}

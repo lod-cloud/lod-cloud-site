@@ -1,0 +1,30 @@
+{
+  "identifier": "opendatacommunities-dev-local-authority-services",
+  "title": "opendatacommunities-dev-local-authority-services",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-schema",
+    "government",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab"
+  ],
+  "links": [
+    {
+      "target": "esd-standards",
+      "value": 3
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://opendatacommunities.org/doc/civil-administrative/greater-manchester1/laservices-101317"
+    }
+  ]
+}

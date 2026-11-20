@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-italian",
+  "title": "Universal Dependencies Treebank Italian",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Italian treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Italian",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 272913,
+  "contact_point": {
+    "name": "Bosco, Cristina; Lenci, Alessandro; Montemagni, Simonetta; Simi, Maria"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Italian Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Italian/archive/master.zip"
+    },
+    {
+      "title": "UD_Italian RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/69473f3f-7593-4c81-86e6-def3ca79b579/resource/fc55b86f-09a6-4c1f-a25d-577f2ec21cc4/download/uditalian.rdf"
+    }
+  ]
+}

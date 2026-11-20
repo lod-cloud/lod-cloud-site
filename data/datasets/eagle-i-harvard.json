@@ -1,0 +1,105 @@
+{
+  "identifier": "eagle-i-harvard",
+  "title": "eagle-i @ Harvard University",
+  "description": {
+    "en": "Groundbreaking biomedical research requires access to cutting edge scientific resources; however such resources are often invisible beyond the laboratories or universities where they were developed. eagle-i is a national research resource discovery platform to help biomedical scientists search for and find previously invisible, but highly valuable, resources. \r\nResource descriptions collected at each participating institution are freely available as linked open data."
+  },
+  "domain": "life_sciences",
+  "website": "http://harvard.eagle-i.net",
+  "namespace": "http://harvard.eagle-i.net/i/",
+  "triples": 335000,
+  "contact_point": {
+    "name": "The eagle-i Network",
+    "email": "info@eagle-i.org"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-ero",
+    "format-foaf",
+    "format-ncbitaxon",
+    "format-oboso",
+    "format-pobo",
+    "format-ro",
+    "format-vivo",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-producer",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bro_x1",
+      "value": 21
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 13710
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 22
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 227
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 34
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 1941
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 3204
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 324
+    },
+    {
+      "target": "bioportal-swo",
+      "value": 79
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 25
+    },
+    {
+      "target": "bioportal-vivo",
+      "value": 589
+    }
+  ],
+  "other_download": [
+    {
+      "title": "All Resources Dataset (compact)",
+      "description": "All eagle-i resource descriptions, in Turtle format. This dataset (dynamically generated via the sparql endpoint) also contains rdfs:labels for ontology classes and properties that are referenced in the descriptions.",
+      "access_url": "http://harvard.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+"
+    },
+    {
+      "title": "All Resources Dataset (extended)",
+      "description": "All eagle-i resource descriptions, in Turtle format. This dataset (dynamically generated via the sparql endpoint) also contains inferred rdf:type triples, and rdfs:labels for ontology classes and properties that are referenced in the descriptions (asserted or inferred).",
+      "media_type": "text/html",
+      "access_url": "http://harvard.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+"
+    }
+  ],
+  "example": [
+    {
+      "title": "Resource example",
+      "description": "Sample de-referenceable eagle-i resource link, in RDF/XML format (for other formats use format=mime-type or HTTP content negotiation)",
+      "media_type": "text/html",
+      "access_url": "http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f?format=application/xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql Endpoint",
+      "description": "Public Sparql endpoint allowing queries against the eagle-i dataset.\r\n\r\nTo obtain only instance data, use 'default-graph-uri=http://eagle-i.org/ont/repo/1.0/NG_Published'. To obtain instance data and ontology triples, use 'view=published' (eagle-i extension).\r\n\r\nDetailed API documentation:\r\nhttps://open.med.harvard.edu/display/eaglei/Repository+Design+Specification+and+API+Manual",
+      "access_url": "http://harvard.eagle-i.net/sparqler/sparql"
+    }
+  ]
+}

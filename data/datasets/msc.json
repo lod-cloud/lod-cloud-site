@@ -1,0 +1,69 @@
+{
+  "identifier": "msc",
+  "title": "Mathematics Subject Classification",
+  "description": {
+    "en": "The Mathematics Subject Classification (MSC2010) as a Linked Open Dataset using SKOS - Simple Knowledge Organization System.\r\nThe Mathematics Subject Classi?cation (MSC) is a widely used scheme for classifying documents in mathematics by subject.  The Final MSC2010 revision was made public here in May 2009, and deployed in production in July 2009 by Zbl for ZMATH and MR for MathSciNet.\r\n\r\nThe license is CC-BY-NC-SA."
+  },
+  "domain": "publications",
+  "website": "http://msc2010.org/mscwork/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://msc2010.org/resources/MSC/2010/msc2010/",
+  "triples": 14359,
+  "contact_point": {
+    "name": "http://sci-class.math.auth.gr/MSCLW/index.php/User_contributions",
+    "email": "project-msc-lod@jacobs-university.de"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-skos",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "topic.schemata"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2691
+    },
+    {
+      "target": "dewey_decimal_classification",
+      "value": 667
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 316
+    }
+  ],
+  "other_download": [
+    {
+      "title": "MSC2010  SKOS RDF/XML download",
+      "description": "MSC2010  SKOS RDF/XML download",
+      "access_url": "http://msc2010.org/mscwork/msc2010-nomath.rdf"
+    },
+    {
+      "title": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://sci-class.math.auth.gr/MSCLW/msc_void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "text/html",
+      "access_url": "http://msc2010.org/resources/MSC/2010/54B30"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "MSC2010-SKOS SPARQL endpoint",
+      "description": "MSC2010-SKOS SPARQL endpoint",
+      "access_url": "http://sparql.msc2010.org"
+    }
+  ]
+}

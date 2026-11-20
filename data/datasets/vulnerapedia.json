@@ -1,0 +1,71 @@
+{
+  "identifier": "vulnerapedia",
+  "title": "vulnerapedia",
+  "description": {
+    "en": "Many vulnerabilities, attacks and controls semantic data of knowledge collected from OWASP, CWE and CAPEC communities.\r\nOur main objective is to improve the security that is managed in organizations, encouraging people to use security knowledge in all the application lifecycle stages and in their daily work. The use of semantic in security data generates security knowledge that improves the security processes and strategies to follow.\r\nFirstly, we must collect the data from the three web-reputed security-specialized communities. Later, we extract the enclosed knowledge following an ontology. Finally, we integrate all resources in this knowledge base."
+  },
+  "domain": "cross_domain",
+  "website": "http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Main_Page",
+  "namespace": "http://minsky.gsi.dit.upm.es/semanticwiki/index.php/",
+  "triples": 14000,
+  "contact_point": {
+    "name": "Francisco Blanco",
+    "email": "fcojavibr@dit.upm.es"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-dc",
+    "format-doap",
+    "format-owl",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "security",
+    "vocab-mappings",
+    "web-security"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 89
+    }
+  ],
+  "other_download": [
+    {
+      "title": "2011-11-03T123441/VulneraPedia.full.v0.5.rdf",
+      "description": "VulneraPedia Full Knowledge Base",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2011-11-03T123441/VulneraPedia.full.v0.5.rdf"
+    },
+    {
+      "title": "XMLSitemap",
+      "description": "VulneraPedia XMLSitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://minsky.gsi.dit.upm.es/semanticwiki/images/0/0d/XMLSitemap.xml"
+    },
+    {
+      "title": "Vocabulary_Mapping",
+      "description": "OWL Vocabulary Mapping",
+      "media_type": "mapping/OWL",
+      "access_url": "http://minsky.gsi.dit.upm.es/semanticwiki/images/4/41/OWLMapping.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "VulneraPedia_Example_XSS_Attack",
+      "description": "Example data item within the data set VulneraPedia",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:ExportRDF/Cross-site_Scripting_%28XSS%29"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "VulneraPedia_SPARQL",
+      "description": "SPARQL endpoint",
+      "access_url": "http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:SPARQLEndpoint"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "identifier": "ipbes",
+  "title": "IPBES Assessments Ontology",
+  "description": {
+    "en": "The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is an intergovernmental organisation that assesses both the status of biodiversity and the ecosystem services it provides to society at the request of decision-makers. To this end, IPBES works with a wide range of experts, scientists and policy-makers from different backgrounds and nationalities to produce regular regional, national and global assessment reports. Currently, there is no established ontology to represent intergovernmental reports and the wide range of topics and information they contain. In response, we have developed the IPBES ontology as a basic framework for representing such data as Linked Open Data (LOD) and facilitating their accessibility for further study and analysis."
+  },
+  "domain": "government",
+  "website": "https://www.ipbes.net",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://ontology.ipbes.net/report/",
+  "triples": 0,
+  "doi": "10.5281/zenodo.10991405",
+  "contact_point": {
+    "name": "Aidin Niamir",
+    "email": "aidin.niamir@senckenberg.de"
+  },
+  "other_download": [
+    {
+      "title": "IPBES Assessments Ontology",
+      "description": "IPBES assessments ontology, a domain-specific ontology developed for representing IPBES assessment reports and other similar intergovernmental productions.",
+      "access_url": "https://github.com/IPBES-Data/IPBES_Ontology"
+    }
+  ],
+  "example": [
+    {
+      "title": "Thematic Assessment Report on Invasive Alien Species and their Control",
+      "description": "This link directs you to the GitHub repository of IPBS Linked Open Data, IAS report. \n\nThis directory contains the IPBES Thematic Assessment Report on Invasive Alien Species and their Control (IAS) in LOD format.\n\nThe structure of the file follows the IPBES ontology version 04: https://github.com/IPBES-Data/IPBES_Ontology\n\nThe assessment report is published in 2023 and consists of 6 chapters and a Summary for Policy Makers (SPM).\n\nFor more information about this report, see: https://www.ipbes.net/ias",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/IPBES-Data/IPBES_LOD/tree/main/Invasive%20Alien%20Species%20Assessment"
+    }
+  ]
+}

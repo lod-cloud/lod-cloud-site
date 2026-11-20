@@ -1,0 +1,103 @@
+{
+  "identifier": "bioportal-icps",
+  "title": "ICPS Network",
+  "description": {
+    "en": "Ontology network about Patient Safety Incident. This work has been carried out by the Ontological Engineering Group, using sources from the University of Saint Etienne and the Australian Patient Safety Foundation, and supported by the World Health Organisation under the International Classification for Patient Safety programme."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1509",
+  "triples": 9468,
+  "contact_point": {
+    "name": "Oscar Corcho"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 21
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 11
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 23
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 26
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 21
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 23
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 16
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 49
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 34
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 72
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 40
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 112
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46855?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "identifier": "statusnet-planet-libre-org",
+  "title": "statusnet-planet-libre-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://planet-libre.org"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-otbm-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 2
+    },
+    {
+      "target": "statusnet-qth-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 8
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 12
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.planet-libre.org/theclimber/foaf"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "identifier": "lremap-sub",
+  "title": "A collection of Submissions for LREC2014 and related Workshops",
+  "description": {
+    "en": "The submission is the pointer to papers and to authors"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 4897,
+  "contact_point": {
+    "name": "Riccardo Del Gratta",
+    "email": "riccardo.delgratta@ilc.cnr.it"
+  },
+  "keywords": [
+    "LOD",
+    "Linguistic Dataset LOD RDF",
+    "linguistic"
+  ],
+  "other_download": [
+    {
+      "title": "a-collection-of-submissions-for-lrec2014-and-related-workshops",
+      "media_type": "text/xml",
+      "access_url": "http://www.resourcebook.eu/lremap/owl/lremap_sub"
+    }
+  ]
+}

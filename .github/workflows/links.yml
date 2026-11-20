@@ -1,0 +1,106 @@
+name: Links
+
+# Checks that the download, example and SPARQL URLs of the datasets still respond
+# (replaces GetData.java). The result per URL (status, last checked, last OK,
+# consecutive failures) is kept in resources.json on the `link-status` branch, which
+# holds nothing else, so the weekly update does not need a pull request and does not
+# touch the history of the main branches. Results are informational: they do not
+# fail the workflow, and shared runner addresses are blocked by some servers.
+#
+# A pull request that changes this workflow or the checker runs it as a dry run:
+# 300 URLs, nothing stored.
+on:
+  pull_request:
+    paths:
+      - .github/workflows/links.yml
+      - scripts/check_links.py
+  schedule:
+    - cron: "0 4 * * 1"   # Mondays; a URL that was OK is only re-checked after 28 days
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Check only this many URLs (to test); empty for all
+        required: false
+
+permissions:
+  contents: write
+  issues: write      # archive-candidate issues
+
+concurrency:
+  group: links
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      DRY_RUN: ${{ github.event_name == 'pull_request' }}
+    steps:
+      # dev holds the data and scripts until they reach main (#105)
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name != 'pull_request' && 'dev' || '' }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - run: pip install -r scripts/requirements.txt
+
+      # The previous results (and, to push them, the branch), in ./status
+      - name: Get the previous results
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir status && cd status
+          git init -q
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git"
+          if git fetch -q --depth 1 origin link-status; then
+            git checkout -q -b link-status FETCH_HEAD
+          else
+            echo "No link-status branch yet; starting one"
+            git checkout -q --orphan link-status
+          fi
+
+      - name: Check the links
+        env:
+          INPUT_LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          LIMIT="$INPUT_LIMIT"
+          if [ "$DRY_RUN" = "true" ]; then LIMIT=300; fi
+          python scripts/check_links.py --state status/resources.json \
+            ${LIMIT:+--limit "$LIMIT"} --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Unavailable datasets
+        run: |
+          python scripts/availability.py --state status/resources.json --out "$RUNNER_TEMP/availability.json" \
+            --summary "$GITHUB_STEP_SUMMARY"
+
+      - name: Store the results
+        if: env.DRY_RUN != 'true'
+        working-directory: status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resources.json
+          git commit -q -m "Link check $(date -u +%F)"
+          git push -q origin link-status
+
+      # One issue per dataset that has been failing for a year, at most 10 a run, never
+      # twice (scripts/archive_issues.py). Listed only on a dry run.
+      - name: Archive-candidate issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/archive_issues.py --state status/resources.json --repo "$GITHUB_REPOSITORY" --branch main \
+            $([ "$DRY_RUN" = "true" ] || echo --create)
+
+      - name: Keep the results (dry run)
+        if: env.DRY_RUN == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: links-dry-run
+          path: status/resources.json
+          retention-days: 3

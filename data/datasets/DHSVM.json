@@ -1,0 +1,60 @@
+{
+  "identifier": "DHSVM",
+  "title": "Distributed Hydrology Soil Vegetation Model",
+  "description": {
+    "en": "DHSVM numerically represents with high spatial resolution (typically on the order of 100 m) the effects of local weather, topography, soil type, and vegetation on the hydrology within watersheds. The model is used to study the impacts of climate change, land use change, forest management practices, flooding, glacier dynamics, stream temperature and stream quality."
+  },
+  "domain": "geography",
+  "website": "https://geomodeling.njnu.edu.cn/modelItem/2f7ab801-761b-4a8a-ad70-daebfb7e25db",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "DHSVM",
+    "Vegetation data"
+  ],
+  "other_download": [
+    {
+      "title": "MODIS vegetation data, 2001-2018",
+      "description": "InputData",
+      "access_url": "https://ladsweb.modaps.eosdis.nasa.gov/search/order/1/MCD12Q1-6"
+    },
+    {
+      "title": "ASTER GDEM dataset for Heihe River basin",
+      "description": "InputData",
+      "access_url": "http://www.ncdc.ac.cn/portal/metadata/af25f2d2-1d5f-4dc2-81be-3915d83f70e0"
+    },
+    {
+      "title": "SRTM data from NASA",
+      "description": "InputData",
+      "access_url": "http://srtm.csi.cgiar.org"
+    },
+    {
+      "title": "Study on the influence of different vegetation on runoff production process based on DHSVM model",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C467SBiOvrai6TdxYiSzCnOE4DdIn5fHRa7whAmAecdzvYHehfDFfyhoE66JXw6J0svzhHcFentV80L6c2iWVeAGeOOuNu4QvHU%3d&uniplatform=NZKPT"
+    },
+    {
+      "title": "The applicability of distributed hydrological model DHSVM in the northwestern alpine mountain basin",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iLik5jEcCI09uHa3oBxtWoAlxJu2DakkHRx3wDhGYvm-AetQegKgVlclS8UMWGxWF&uniplatform=NZKPT"
+    },
+    {
+      "title": "Extraction of temporal and spatial distribution information of crop damage based on DHSVM model",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iAEhECQAQ9aTiC5BjCgn0RmQqMnq3POHMvavBWictD-IBynnO0We1fEXKoxoIbO4L&uniplatform=NZKPT"
+    },
+    {
+      "title": "Distributed Hydrology Soil Vegetation Model code",
+      "description": "ImplementedByAlgorithm",
+      "media_type": "code",
+      "access_url": "https://geomodeling.njnu.edu.cn/computableModel/a95e7db1-b257-4d92-a229-c15ca2b34698"
+    }
+  ]
+}

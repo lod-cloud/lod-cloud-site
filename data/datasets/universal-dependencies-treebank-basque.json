@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-basque",
+  "title": "Universal Dependencies Treebank Basque",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Basque treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Basque",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 121443,
+  "contact_point": {
+    "name": "Aranzabe, Maria Jesus; Atutxa, Aitziber; Bengoetxea, Kepa; Diaz de Ilarraza, Arantza; Goenaga, Iakes; Gojenola, Koldo; Uria, Larraitz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Basque Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Basque/archive/master.zip"
+    },
+    {
+      "title": "UD_Basque RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/46f2d67c-f088-4609-8b84-680859214067/resource/71e7045b-4830-490f-be95-a9a23ed20eea/download/udbasque.rdf"
+    }
+  ]
+}

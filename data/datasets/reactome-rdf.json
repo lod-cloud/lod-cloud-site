@@ -1,0 +1,53 @@
+{
+  "identifier": "reactome-rdf",
+  "title": "Reactome RDF",
+  "description": {
+    "en": "BioPAX representation of the Reactome database"
+  },
+  "domain": "life_sciences",
+  "namespace": "http://identifiers.org/reactome/",
+  "triples": 14285698,
+  "contact_point": {
+    "name": "Reactome Consortium"
+  },
+  "keywords": [
+    "bioinformatics",
+    "lifesciences",
+    "linked data",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "pathways",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "reactions",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "identifiers.org",
+      "value": 469870
+    },
+    {
+      "target": "uniprotkb",
+      "value": 100793
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Reactome VoID description",
+      "access_url": "http://rdf.ebi.ac.uk/dataset/reactome/49/dataset-void.ttl"
+    },
+    {
+      "title": "Reactome RDF FTP download",
+      "media_type": "RDF",
+      "access_url": "ftp://ftp.ebi.ac.uk/pub/databases/RDF/reactome/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Reactome SPARQL endpoint",
+      "access_url": "https://www.ebi.ac.uk/rdf/services/reactome/sparql"
+    }
+  ]
+}

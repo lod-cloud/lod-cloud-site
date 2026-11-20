@@ -1,0 +1,61 @@
+{
+  "identifier": "open-data-thesaurus",
+  "title": "Open Data Thesaurus",
+  "description": {
+    "en": "The Open Data Thesaurus is a collection of key concepts and entities, their definitions and semantic links. Following the principle of ?eat your own dog food? this thesaurus is available in machine-readable form based on open W3C standards and under a Creative Commons license. The thesaurus can thus be integrated into other applications, such as for creating mashups, or for indexing of documents. The thesaurus is available in English and German."
+  },
+  "domain": "cross_domain",
+  "website": "http://vocabulary.semantic-web.at/PoolParty/wiki/OpenData",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://vocabulary.semantic-web.at/OpenData/",
+  "triples": 8000,
+  "contact_point": {
+    "name": "OGD Austria",
+    "email": "office@semantic-web.at"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-owl",
+    "format-skos",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "ogd",
+    "opendata",
+    "published-by-producer",
+    "technology",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 50
+    },
+    {
+      "target": "freebase",
+      "value": 40
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://ckan.net/storage/f/file/12be3509-4cd1-4fc5-8c95-d0d3a7121766"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://vocabulary.semantic-web.at/OpenData/CKAN"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData"
+    }
+  ]
+}

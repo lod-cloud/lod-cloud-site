@@ -1,0 +1,46 @@
+{
+  "identifier": "uniprot-metadata",
+  "title": "uniprot-metadata",
+  "domain": "life_sciences",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcterm",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "lifesciences",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "aspire-ucl",
+      "value": 15
+    },
+    {
+      "target": "bbc-wildlife-finder",
+      "value": 2
+    },
+    {
+      "target": "lexvo",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 2
+    },
+    {
+      "target": "w3c",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.uniprot.org/database/CTD.rdf"
+    }
+  ]
+}

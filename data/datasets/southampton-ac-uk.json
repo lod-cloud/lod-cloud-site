@@ -1,0 +1,79 @@
+{
+  "identifier": "southampton-ac-uk",
+  "title": "southampton-ac-uk",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "deref-vocab",
+    "dump",
+    "format-aiiso",
+    "format-airport",
+    "format-api",
+    "format-bibo",
+    "format-c4dm",
+    "format-coun",
+    "format-dcat",
+    "format-dcterm",
+    "format-doap",
+    "format-foaf",
+    "format-gr",
+    "format-lyou",
+    "format-oo",
+    "format-open",
+    "format-org",
+    "format-owl",
+    "format-pos",
+    "format-prog",
+    "format-prov",
+    "format-rdf",
+    "format-rdfs",
+    "format-sd",
+    "format-sioc",
+    "format-skos",
+    "format-time",
+    "format-timeline",
+    "format-transit",
+    "format-tsioc",
+    "format-vcard2006",
+    "format-void",
+    "format-w3con",
+    "format-xtypes",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "provenance-metadata",
+    "publications",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 20
+    },
+    {
+      "target": "linked-railway-data-project",
+      "value": 4
+    },
+    {
+      "target": "personal-homepages",
+      "value": 2
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 87
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.southampton.ac.uk/person/mbox-aa70909dfce6e62395e47126a60698fd263991ac.rdf"
+    }
+  ]
+}

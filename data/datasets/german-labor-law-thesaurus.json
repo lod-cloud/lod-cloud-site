@@ -1,0 +1,78 @@
+{
+  "identifier": "german-labor-law-thesaurus",
+  "title": "German labor law thesaurus",
+  "description": {
+    "en": "Labor law thesaurus covers all main areas of labor law, like the roles of employee and employer; legal aspects around labor contracts and dismissal; also co-determination and industrial action. Therefore, this thesaurus is interesting and relevant for all parties, who are dealing with labor law – professionals like specialized lawyers as well as for employees looking for definitions of legal terms. Linking to thematically similar thesauri (Linked Open Data paradigm) has already taken place and is therefore available as well. Thesauri are linked with\r\n\r\n*   Standard Thesaurus für Wirtschaft, ZBW (zbw.eu/stw/)\r\n*   Wikipedia / DBpedia\r\n*   TheSoz from Leibniz Gesellschaft für Sozialwissenschaften (www.gesis.org)\r\n*    EuroVoc - Multilingual Thesaurus of the European Union"
+  },
+  "domain": "publications",
+  "website": "http://vocabulary.wolterskluwer.de/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://vocabulary.wolterskluwer.de/arbeitsrecht",
+  "triples": 106891,
+  "contact_point": {
+    "name": "Wolters Kluwer Deutschland GmbH",
+    "email": "cdirschl@wolterskluwer.de"
+  },
+  "keywords": [
+    "format-dcterms",
+    "format-skos",
+    "germany",
+    "law",
+    "license-metadata",
+    "lod",
+    "lod2",
+    "lodcloud",
+    "media",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 776
+    },
+    {
+      "target": "eurovoc",
+      "value": 247
+    },
+    {
+      "target": "gesis-thesoz",
+      "value": 443
+    },
+    {
+      "target": "zbw.eu/stw",
+      "value": 289
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML File",
+      "media_type": "RDF",
+      "access_url": "http://vocabulary.wolterskluwer.de/arbeitsrecht/export/arbeitsrecht.rdf"
+    },
+    {
+      "title": "Trig File",
+      "media_type": "application/trig;charset=UTF-8",
+      "access_url": "http://vocabulary.wolterskluwer.de/arbeitsrecht/export/arbeitsrecht.trig"
+    },
+    {
+      "title": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://vocabulary.wolterskluwer.de/arbeitsrecht.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example for \"Indexlohn\"",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocabulary.wolterskluwer.de/arbeitsrecht/10924.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL-Endpoint",
+      "access_url": "http://vocabulary.wolterskluwer.de/PoolParty/sparql/arbeitsrecht"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "identifier": "dbpedia-el",
+  "title": "DBpedia in Greek",
+  "description": {
+    "en": "DBpedia is a \"community effort to extract structured information from Wikipedia and to make this information available on the Web. DBpedia allows you to ask sophisticated queries against Wikipedia, and to link other data sets on the Web to Wikipedia data. We hope this will make it easier for the amazing amount of information in Wikipedia to be used in new and interesting ways, and that it might inspire new mechanisms for navigating, linking and improving the encyclopaedia itself.\" \r\n\r\nThe Greek DBpedia is the first step towards Linked Data Internationalization and the first successful attempt to serve Linked Data with de-referencable IRI?s that could form a guide for LOD publishing in non-Latin languages."
+  },
+  "domain": "cross_domain",
+  "website": "http://wiki.el.dbpedia.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://el.dbpedia.org/resource/",
+  "triples": 4399898,
+  "contact_point": {
+    "name": "Greek DBpedia Team - http://wiki.el.dbpedia.org/en/people"
+  },
+  "keywords": [
+    "access-api",
+    "access-bulk",
+    "access-www",
+    "crossdomain",
+    "deref-vocab",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-xhtml",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "rdf",
+    "search",
+    "void-sparql-endpoint",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "2000-us-census-rdf",
+      "value": 14
+    },
+    {
+      "target": "dbpedia",
+      "value": 45000
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 634
+    },
+    {
+      "target": "eunis",
+      "value": 97
+    },
+    {
+      "target": "flickr-wrappr",
+      "value": 43186
+    },
+    {
+      "target": "freebase",
+      "value": 39112
+    },
+    {
+      "target": "fu-berlin-dailymed",
+      "value": 2
+    },
+    {
+      "target": "fu-berlin-dblp",
+      "value": 4
+    },
+    {
+      "target": "fu-berlin-diseasome",
+      "value": 69
+    },
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 79
+    },
+    {
+      "target": "fu-berlin-eurostat",
+      "value": 98
+    },
+    {
+      "target": "fu-berlin-project-gutenberg",
+      "value": 323
+    },
+    {
+      "target": "fu-berlin-sider",
+      "value": 151
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 2010
+    },
+    {
+      "target": "geospecies",
+      "value": 118
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 923
+    },
+    {
+      "target": "linkedmdb",
+      "value": 330
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1743
+    },
+    {
+      "target": "opencyc",
+      "value": 4117
+    },
+    {
+      "target": "rdf-book-mashup",
+      "value": 39
+    },
+    {
+      "target": "revyu",
+      "value": 1
+    },
+    {
+      "target": "tcmgenedit_dataset",
+      "value": 38
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 7497
+    },
+    {
+      "target": "wikicompany",
+      "value": 161
+    },
+    {
+      "target": "world-factbook-fu-berlin",
+      "value": 228
+    },
+    {
+      "target": "yago",
+      "value": 28778
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Downloads",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://wiki.el.dbpedia.org/downloads/"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download page (N-Triples, Gzip-compressed)",
+      "access_url": "http://wiki.el.dbpedia.org/en/datasets"
+    },
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://downloads.dbpedia.org/3.6/dbpedia_3.6.owl.bz2"
+    },
+    {
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://wiki.el.dbpedia.org/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML Example",
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://el.dbpedia.org/data/Linux.rdf"
+    },
+    {
+      "title": "Turtle Example",
+      "description": "Link to an example data item within the dataset (Turtle)",
+      "media_type": "example/turtle",
+      "access_url": "http://el.dbpedia.org/data/Linux.n3"
+    },
+    {
+      "title": "RDFa Example",
+      "description": "Link to an example data item within the dataset (RDFa)",
+      "media_type": "example/rdfa",
+      "access_url": "http://el.dbpedia.org/page/Linux"
+    },
+    {
+      "title": "N-Triples Example",
+      "description": "Link to an example data item within the dataset (N-Triples)",
+      "media_type": "example/ntriples",
+      "access_url": "http://el.dbpedia.org/data/Linux.nt"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://el.dbpedia.org/sparql"
+    }
+  ]
+}

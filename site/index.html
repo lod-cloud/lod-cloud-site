@@ -1,0 +1,147 @@
+---
+layout: default
+title: The Linked Open Data Cloud
+---
+<!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="container">
+          <h1 class="mb-3" property="dc:title">The <span class="lod-title">Linked Open Data</span> Cloud</h1>
+      </div>
+    </header>
+
+    <section class="lod-cloud" id="diagram">
+        <div class="container-fluid p-0">
+            <div class="rows no-gutters">
+                <a href="{{ site.cloud_base }}/clouds/lod-cloud.svg">
+                    <img src="{{ site.cloud_base }}/clouds/lod-cloud-sm.jpg" width="100%" 
+                                                    alt="Linked Open Data Cloud Image" 
+                                                    title="Click for Interactive SVG"/>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="subclouds">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+        <h1>Subclouds by domain</h1>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            {% for dom in site.data.domains %}
+            <li class="nav-item">
+                <a class="nav-link{% if forloop.first %} active{% endif %}" id="{{ dom.key }}-tab" data-toggle="tab" href="#{{ dom.key }}" role="tab" aria-controls="{{ dom.key }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">{{ dom.label }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            {% for dom in site.data.domains %}
+            <div class="tab-pane fade{% if forloop.first %} show active{% endif %}" id="{{ dom.key }}" role="tabpanel" aria-labelledby="{{ dom.key }}-tab">
+                <a href="{{ site.cloud_base }}/clouds/{{ dom.stem }}.svg">
+                    <img src="{{ site.cloud_base }}/clouds/{{ dom.stem }}.png"
+                         width="100%"
+                         alt="{{ dom.label }} Linked Open Data Cloud"
+                         title="Click for Interactive SVG"/>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        </div>
+                </div>
+            </div>
+        <div>
+            Another visualization of the data is available at the <a href="https://www.dacult.it/lod-cloud-view">Dacult Foundation</a>
+        </div>
+        </div>
+
+    </section>
+    <section class="more" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+        <h1>About the diagram</h1>
+    <p style="clear:right"><span about="#cloud" property="dc:description" datatype="">
+        This web page is the home of the <em>LOD cloud diagram</em>. 
+        This image shows datasets that have been published in the
+        <a href="http://linkeddata.org/">Linked Data</a> format.</span></p>
+
+
+        <p>You may reuse the diagram under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>. The diagrams on this website contain the attribution statement within the image, and if they are used without modification this attribution statement is sufficient. If you modify any images, for example by cropping out the attribution statement, please include a statement with the image stating that it was derived from <a href="http://lod-cloud.net">lod-cloud.net</a>.</p>
+
+        <h3>Maintainers</h3>
+        <p>The diagram is maintained by <span rel="dc:creator"><a 
+                                              typeof="foaf:Person" href="http://john.mccr.ae/">John P. McCrae</a>
+        </span> for the <a href="http://www.insight-centre.org/">Insight Centre
+            for Data Analytics</a>. 
+        The following people have previously maintained the diagram or have also helped in current development of the diagram: 
+
+        <ul>
+            <li><span rel="dc:creator"><a typeof="foaf:Person" href="http://nuig.insight-centre.org/unlp/people/members/andrejs-abele/">Andrejs Abele</a></span></li>
+            <li><span rel="dc:creator"><a typeof="foaf:Person" href="http://paulbuitelaar.net/">Paul Buitelaar</a></span></li>
+            <li><span rel="dc:creator"><a typeof="foaf:Person" href="http://richard.cyganiak.de/">Richard Cyganiak</a></span></li>
+            <li><span rel="dc:creator"><a typeof="foaf:Person" href="https://hpi.de/naumann/people/anja-jentzsch.html">Anja Jentzsch</a></span></li>
+            <li><span rel="dc:creator"><a typeof="foaf:Person" href="https://nuig.insight-centre.org/unlp/people/members/vladimir-andryushechkin/">Vladimir Andryushechkin</a></span></li>
+            <li><span rel="dc:creator"><a typeof="foaf:Person" href="https://www.tcd.ie/research/profiles/?profile=debattij">Jeremy Debattista</a></span></li>
+            <li><span rel="dc:creator"><a typeof="foaf:Person" href="https://dsi.nuigalway.ie/people/1ba093ba10335981e301482908139161b1e61a28">Jamal Nasir</a></span></li>
+        </ul>
+
+        <h3>Contributing to the Diagram</h3>
+        <p>First, make sure that you publish data according to the
+        <a href="http://www.w3.org/DesignIssues/LinkedData.html">Linked Data principles</a>.
+        We interpret this as:</p>
+
+        <ul>
+            <li>There must be <em>resolvable <tt>http://</tt> (or <tt>https://</tt>) URIs</em>.</li>
+            <li>They must resolve, with or without content negotiation, to <em>RDF data</em> in one of the popular RDF formats
+                (RDFa, RDF/XML, Turtle, N-Triples).</li>
+            <li>The dataset must contain <em>at least 1000 triples</em>. (Hence, your FOAF file most likely does not qualify.)</li>
+            <li>The dataset must be connected via <em>RDF links</em> to a dataset that is already
+                in the diagram. This means, either your dataset must use URIs from the other dataset,
+                or vice versa. We arbitrarily require at least 50 links.</li>
+            <li>Access of the <em>entire</em> dataset must be possible via <em>RDF crawling</em>, via an <em>RDF dump</em>, or via a <em>SPARQL endpoint</em>.</li>
+        </ul>
+
+        <p>You may add a dataset by opening an issue or a pull request in
+            <a href="{{ site.github_url }}">our GitHub repository</a>.
+            The process for adding datasets is still under development, please
+        contact <a href="mailto:john@mccr.ae">John P. McCrae</a> for any issues.</p>
+
+        <h3>Data and code</h3>
+
+        The raw data is available <a href="{{ '/lod-data.json' | relative_url }}">here</a>. The diagrams
+        are generated by <a href="https://github.com/jmccrae/lod-cloud-draw">
+        LOD Cloud Draw</a>.
+
+        <h3>History</h3>
+
+    <table class="versions">
+      <tr>
+        <td></td><th style="text-align: center" colspan="3">White</th><th style="text-align: center" colspan="3">Colored</th><th>Graph file</th><th> &nbsp;Datasets</th>
+      </tr>
+      <!--TABLE-->
+      {% include versions-table.html %}
+    </table>
+    <div about="#cloud" rel="dc:hasVersion">
+      <span about="#cloud_2014-08-30"></span>
+      <span about="#cloud_2011-09-19" rel="dc:replaces" resource="#cloud_2014-08-30"></span>
+      <span about="#cloud_2010-09-22" rel="dc:replaces" resource="#cloud_2011-09-19"></span>
+      <span about="#cloud_2009-07-14" rel="dc:replaces" resource="#cloud_2010-09-22"></span>
+      <span about="#cloud_2009-03-27" rel="dc:replaces" resource="#cloud_2009-07-14"></span>
+      <span about="#cloud_2009-03-05" rel="dc:replaces" resource="#cloud_2009-03-27"></span>
+      <span about="#cloud_2008-09-18" rel="dc:replaces" resource="#cloud_2009-03-05"></span>
+      <span about="#cloud_2008-03-31" rel="dc:replaces" resource="#cloud_2008-09-18"></span>
+      <span about="#cloud_2008-02-28" rel="dc:replaces" resource="#cloud_2008-03-31"></span>
+      <span about="#cloud_2007-11-10" rel="dc:replaces" resource="#cloud_2008-02-28"></span>
+      <span about="#cloud_2007-11-07" rel="dc:replaces" resource="#cloud_2007-11-10"></span>
+      <span about="#cloud_2007-10-08" rel="dc:replaces" resource="#cloud_2007-11-07"></span>
+      <span about="#cloud_2007-05-01" rel="dc:replaces" resource="#cloud_2007-10-08"></span>
+    </div>
+    
+    
+    <h3>Privacy</h3>
+    Please review our privacy policy <a href="{{ '/privacy.html' | relative_url }}">here</a>.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    

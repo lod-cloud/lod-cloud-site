@@ -1,0 +1,93 @@
+{
+  "identifier": "taxref-ld",
+  "title": "TAXREF-LD: Knowledge Graph of the French taxonomic registery",
+  "description": {
+    "en": "TAXREF-LD is the Linked Data knowledge graph representing TAXREF (https://inpn.mnhn.fr/programme/referentiel-taxonomique-taxref?lg=en), the French national taxonomical register for fauna, flora and fungus, that covers mainland France and overseas territories. In version 15, TAXREF-LD registers 657,000+ scientific names and 199,000+ species.\n\nTAXREF-LD is a joint initiative of the National Museum of Natural History (http://www.mnhn.fr/) and the I3S laboratory (http://www.i3s.unice.fr/) (University Côte d'Azur, CNRS, Inria). The model is described in [1].\n\n[1] Michel F., Gargominy O., Tercerie S. & Faron-Zucker C. (2017). A Model to Represent Nomenclatural and Taxonomic Information as Linked Data. Application to the French Taxonomic Register, TAXREF. In _Proceedings of the 2nd International Workshop on Semantics for Biodiversity (S4BioDiv) co-located with ISWC 2017_ vol. 1933. Vienna, Austria. CEUR."
+  },
+  "domain": "life_sciences",
+  "website": "https://github.com/frmichel/taxref-ld/",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "namespace": "http://taxref.mnhn.fr/lod/",
+  "triples": 35353007,
+  "doi": "10.5281/zenodo.5876775",
+  "contact_point": {
+    "name": "Inventaire National du Patrimoine Naturel (INPN)",
+    "email": "taxref@mnhn.fr"
+  },
+  "keywords": [
+    "biodiversity",
+    "deref-vocab",
+    "fauna",
+    "flora",
+    "format-dc",
+    "format-dwc",
+    "format-foaf",
+    "format-geonames",
+    "format-geospecies",
+    "format-ncbitaxon",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-txn",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "species",
+    "taxonomy",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "agrovoc",
+      "value": 2875
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 84336
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Full Turtle dump",
+      "description": "Description of taxa, scientific names, bibliography, media, species interactions, locations, conservation statuses, biogeographical statuses, cross-references, links",
+      "media_type": "application/octet-stream",
+      "download_url": "https://zenodo.org/record/5876775/files/taxrefld15.1.tar?download=1"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "description": "Description using the Vocabulary of Interlinked Datasets (VoID)",
+      "access_url": "http://taxref.mnhn.fr/.well-known/void"
+    },
+    {
+      "title": "Dataset description",
+      "description": "Full description in the DCAT, VOID and SPARQL SD vocabularies",
+      "access_url": "https://raw.githubusercontent.com/frmichel/taxref-ld/master/dataset/Taxrefld_static_dataset_description.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Turtle Example",
+      "description": "Description of species Delphinus delphis (in Turtle)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/frmichel/taxref-ld/tree/master/dataset/examples"
+    },
+    {
+      "title": "LD example",
+      "description": "Dereferencable URI of species Delphinus delphis.\nContent negotiation can provide HTML or any RDF syntax.",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://taxref.mnhn.fr/lod/taxon/60878"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "https://taxref.mnhn.fr/sparql"
+    }
+  ]
+}

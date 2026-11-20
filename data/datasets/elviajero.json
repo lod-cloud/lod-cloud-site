@@ -1,0 +1,106 @@
+{
+  "identifier": "elviajero",
+  "title": "El Viajero's tourism dataset",
+  "description": {
+    "en": "El Viajero's tourism dataset integrates the various contents from newspapers and digital platforms belonging to the Prisa Digital Group in the domain of news and blogs about travel. \r\nIt relies on the Open Provenance Model to capture the provenance of each resource, and it gathers information about more than 20.000 travel guides, pictures, videos and posts belonging to the platforms."
+  },
+  "domain": "user_generated",
+  "website": "http://webenemasuno.linkeddata.es/",
+  "namespace": "http://webenemasuno.linkeddata.es/elviajero/resource/",
+  "triples": 9262184,
+  "contact_point": {
+    "name": "Ontology Engineering Group, Facultad de Informática, Universidad Politécnica de Madrid.",
+    "email": "dgarijov@gmail.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "el-viajero",
+    "format-dc",
+    "format-geo",
+    "format-mpeg7",
+    "format-opmo",
+    "format-opmv",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "geographic",
+    "lod",
+    "media",
+    "no-license-metadata",
+    "places",
+    "points_of_interest",
+    "provenance-metadata",
+    "published-by-third-party",
+    "tourism",
+    "travel",
+    "travel-guides",
+    "trip-management",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3093
+    },
+    {
+      "target": "geolinkeddata",
+      "value": 55224
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download (.RAR containing all the n-triples)",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://webenemasuno.linkeddata.es/source/rdf/data.zip"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "HTML with the SPARQL endpoint of the dataset",
+      "access_url": "http://webenemasuno.linkeddata.es/sparql.html"
+    },
+    {
+      "description": "Linked Data application using the endppoint",
+      "access_url": "http://webenemasuno.linkeddata.es/browser.html"
+    },
+    {
+      "description": "Main schema used (OPMO profile)",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://webenemasuno.linkeddata.es/OPMO/OPMO.owl"
+    },
+    {
+      "description": "Extension to the mpeg7 schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://webenemasuno.linkeddata.es/MPEG7/MPEG7.owl"
+    },
+    {
+      "description": "Mappings (already included in the main schema)",
+      "media_type": "mapping/owl",
+      "access_url": "http://webenemasuno.linkeddata.es/OPMO/OPMO.owl"
+    },
+    {
+      "description": "Void description",
+      "media_type": "meta/void",
+      "access_url": "http://webenemasuno.linkeddata.es/metadata"
+    }
+  ],
+  "example": [
+    {
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://webenemasuno.linkeddata.es/data/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES?output=xml"
+    },
+    {
+      "description": "Link to an example data item within the dataset (turtle)",
+      "media_type": "text/rdf+n3;charset=utf-8",
+      "access_url": "http://webenemasuno.linkeddata.es/data/elviajero/resource/Guide/20080112ELPVIAPOR_1.TES?output=ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "El Viajero' SPARQL endpoint",
+      "description": "SPARQL endpoint of the dataset",
+      "access_url": "http://webenemasuno.linkeddata.es/sparql"
+    }
+  ]
+}

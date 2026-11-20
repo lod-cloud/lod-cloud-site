@@ -1,0 +1,61 @@
+{
+  "identifier": "eea-rod",
+  "title": "EEA Reporting Obligations Database",
+  "description": {
+    "en": "ROD is the EEA's reporting obligations database. It contains records describing environmental reporting obligations that countries have towards international organisations.\r\n\r\nROD is part of Reportnet. Reportnet is group of web applications and processes developed by the EEA to support international environmental reporting."
+  },
+  "domain": "government",
+  "website": "http://rod.eionet.europa.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://rod.eionet.europa.eu",
+  "triples": 28000,
+  "contact_point": {
+    "name": "Søren Roug",
+    "email": "soren.roug@eea.europa.eu"
+  },
+  "keywords": [
+    "environment",
+    "format-rdf",
+    "government",
+    "license-metadata",
+    "lod",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "access_url": "http://rod.eionet.europa.eu/void.rdf"
+    },
+    {
+      "description": "Download obligations",
+      "access_url": "http://rod.eionet.europa.eu/obligations.rdf"
+    },
+    {
+      "description": "Download legal instruments",
+      "access_url": "http://rod.eionet.europa.eu/instruments.rdf"
+    },
+    {
+      "description": "Download localities",
+      "access_url": "http://rod.eionet.europa.eu/spatial"
+    },
+    {
+      "description": "Download themes (categories)",
+      "media_type": "RDF",
+      "access_url": "ttp://rod.eionet.europa.eu/issues"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example obligation",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://rod.eionet.europa.eu/obligations/523"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://cr.eionet.europa.eu/sparql"
+    }
+  ]
+}

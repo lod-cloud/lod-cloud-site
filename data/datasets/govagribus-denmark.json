@@ -1,0 +1,86 @@
+{
+  "identifier": "govagribus-denmark",
+  "title": "GovAgriBus Denmark",
+  "description": {
+    "en": "In this collection we publish the Danish agricultural data sets integrated with the central company registry (CVR) data and make it available to the public via SPARQL endpoint. This integration makes it possible to query across this data. The endpoint is hosted on OpenLink Virtuoso. The original open data sets are provided from: [Central Business Registry of Denmark (CVR)](http://cvr.dk/ \"cvr.dk\"), [The Danish Ministry of the Environment](http://gst.dk/ \"gst.dk\"), [The Ministry of Food, Agriculture, and Fisheries of Denmark](http://fvm.dk/ \"fvm.dk\")."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://extbi.lab.aau.dk/resource/",
+  "triples": 0,
+  "contact_point": {
+    "name": "EXTBI Team",
+    "email": "nurefsan@cs.aau.dk"
+  },
+  "keywords": [
+    "OWL",
+    "RDF",
+    "SPARQL",
+    "agriculture",
+    "business",
+    "denmark",
+    "format-rdf",
+    "government",
+    "governmental",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "rdf",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "GeoNames",
+      "value": 192
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Agricultural Data",
+      "description": "This dataset contains agricultural data of Denmark. We have three agricultural datasets; Field, Field Block, Organic Field converted into RDF+N3 format.",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://lod.cs.aau.dk/downloads/JIST14/GovAgriBus/agriculture.rdf"
+    },
+    {
+      "title": "Business Data",
+      "description": "This data set publish information about businesses incorporating in agriculture containing companies, addresses, production units and fully responsible participants of each business.",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://lod.cs.aau.dk/downloads/JIST14/GovAgriBus/business.rdf"
+    },
+    {
+      "title": "Agriculture Ontology",
+      "description": "This file contains the ontology developed for Danish agricultural linked data. \r\nOntology is defined by re-using predicates from common vocabularies i.e. agrovoc, geonames, dbpedia (categories), etc.",
+      "media_type": "OWL",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-28T11:26:20.234Z/agriculture-ontology.owl"
+    },
+    {
+      "title": "Business Ontology",
+      "description": "This file contains the ontology developed for Danish business data sets. Ontology is defined by re-using predicates from common vocabularies i.e. geonames, dbpedia, foaf , time, etc.",
+      "media_type": "OWL",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-28T11:27:07.863Z/business-ontology.owl"
+    },
+    {
+      "title": "Agriculture and Business Ontology",
+      "description": "The complete ontology developed for Danish agricultural and business linked data. Ontology is defined by re-using predicates from common vocabularies i.e. agrovoc, geonames, dbpedia (categories), foaf , time, etc.",
+      "media_type": "BIN",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-28T11:27:38.554Z/govagribus-denmark-ontology.owl"
+    },
+    {
+      "title": "govagribus-denmark",
+      "description": "This file contains RDF triples of complete govagribus-denmark data. Agricultural and business data is linked in this data set by using  \r\ntogether agricultural and business ontologies (govagribus-denmark_ontology.owl) and other relevant external vocabularies. It also includes existing links to the external datasets.",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lod.cs.aau.dk/downloads/JIST14/GovAgriBus/govagribus-denmark.rdf.tgz"
+    },
+    {
+      "description": "voID Description of GovAgriBus Denmark",
+      "media_type": "text/n3",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-28T15:15:16.594Z/govagribus-denmark-void.n3"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "EXTBI SPARQL Endpoint",
+      "description": "Danish Governmental Agricultural Data SPARQL endpoint",
+      "access_url": "http://extbi.lab.aau.dk/sparql/"
+    }
+  ]
+}

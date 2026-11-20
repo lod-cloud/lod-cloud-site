@@ -1,0 +1,27 @@
+{
+  "identifier": "Trelios",
+  "title": "Trelios",
+  "description": {
+    "en": "Trelios, Ihre preisgekrönte Full-Service Werbeagentur in Hannover, bietet seit 2018 maßgeschneiderte Lösungen für Webdesign, Local SEO und Online Marketing. Unsere Expertise umfasst Local SEO, Social Media Marketing und Content Management, um Ihre digitale Präsenz zu optimieren. Mit psychologischem Design und ausgeklügelter Suchmaschinenoptimierung sorgen wir dafür, dass Ihre Webseite nicht nur gut aussieht, sondern auch durch Google gefunden wird. Unser erfahrenes Team entwickelt individuelle Werbestrategien, die messbare Ergebnisse erzielen. Dabei legen wir Wert auf persönliche Beratung und langfristige Partnerschaften. Von Content-Erstellung bis hin zu Social Media Kampagnen."
+  },
+  "domain": "user_generated",
+  "website": "https://trelios.de/wp-content/uploads/2025/03/Trelios.pdf",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 2,
+  "image": "https://trelios.de/wp-content/uploads/2024/09/google-maps-marketing-trelios-agentur.jpg",
+  "contact_point": {
+    "name": "E-Mail",
+    "email": "users@trelios.de"
+  },
+  "keywords": [
+    "local seo",
+    "seo",
+    "werbeanzeigen",
+    "google my business",
+    "google maps",
+    "google ads",
+    "Named-entity recognition",
+    "Ontology",
+    "Knowledge Graph"
+  ]
+}

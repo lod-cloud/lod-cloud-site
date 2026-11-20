@@ -1,0 +1,71 @@
+{
+  "identifier": "data-incubator-moseley",
+  "title": "Moseley Folk Festival Data",
+  "description": {
+    "en": "### Description\r\n\r\nArtist information for the [Moseley Folk Festival](http://www.moseleyfolk.co.uk/) from 2006-2009, in RDF.\r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "media",
+  "website": "http://moseley.dataincubator.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://moseley.dataincubator.org/artist/",
+  "triples": 1268,
+  "keywords": [
+    "country-uk",
+    "events",
+    "format-dc",
+    "format-foaf",
+    "format-mo",
+    "format-owl",
+    "format-rdf",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "music",
+    "published-by-third-party",
+    "talis"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 25
+    },
+    {
+      "target": "data-incubator-discogs",
+      "value": 43
+    },
+    {
+      "target": "dbpedia",
+      "value": 18
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://moseley.dataincubator.org/"
+    },
+    {
+      "description": "googleclone",
+      "media_type": "googleclone",
+      "access_url": "http://googleclone.tumblr.com/"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to Internet Archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/moseley-folk-festival-data.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://moseley.dataincubator.org/artist/beth-orton"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/moseley/services/sparql"
+    }
+  ]
+}

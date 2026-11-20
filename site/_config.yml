@@ -1,0 +1,25 @@
+title: The Linked Open Data Cloud
+description: The Linked Open Data Cloud Diagram
+author: John P. McCrae
+
+# Where the site is published. Both change at cutover (#105).
+url: https://lod-cloud.net
+baseurl: ""
+
+github_repo: lod-cloud/lod-cloud-site
+github_url: https://github.com/lod-cloud/lod-cloud-site
+github_branch: main
+submit_url: https://github.com/lod-cloud/lod-cloud-site/issues/new/choose
+
+# Dataset records, relative to this directory (see _plugins/lodcloud.rb).
+dataset_dir: ../data/datasets
+
+# Diagram images and old versions are not produced by this site yet (#97, #98),
+# so they are loaded from here. Set to "" once the site serves them itself.
+cloud_base: https://lod-cloud.net
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

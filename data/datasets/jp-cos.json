@@ -1,0 +1,36 @@
+{
+  "identifier": "jp-cos",
+  "title": "Japanese Course of Study LOD",
+  "description": {
+    "en": "Japanese Course of Study Linked Open Data (LOD) is a dataset which covers codes, contents, and related information for course of studies published by the Ministry of Education, Culture, Sports, Science and Technology (MEXT). The target of LOD is the latest version of code tables from the past and present course of studies (including some revisions) for all school types. Specifically, it includes 18 published course of studies code tables."
+  },
+  "domain": "government",
+  "website": "https://w3id.org/jp-cos/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://w3id.org/jp-cos/",
+  "triples": 949172,
+  "contact_point": {
+    "name": "Masao Takaku",
+    "email": "masao@slis.tsukuba.ac.jp"
+  },
+  "keywords": [
+    "course of study",
+    "education",
+    "teaching material",
+    "educational material"
+  ],
+  "full_download": [
+    {
+      "title": "Full dataset",
+      "media_type": "text/turtle",
+      "download_url": "https://w3id.org/jp-cos/all-20240327.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "(イ) 日常的な話題について，簡単な表現が用いられている広告やパンフレット，予定表，手紙，電子メール，短い文章などから，自分が必要とする情報を読み取る活動。",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "https://w3id.org/jp-cos/83H1203221320000"
+    }
+  ]
+}

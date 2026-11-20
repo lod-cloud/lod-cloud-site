@@ -1,0 +1,29 @@
+{
+  "identifier": "CaLiGraph",
+  "title": "CaLiGraph",
+  "description": {
+    "en": "A Large-Scale Semantic Knowledge Graph compiled from Wikipedia Categories and List Pages"
+  },
+  "domain": "cross_domain",
+  "website": "http://caligraph.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://caligraph.org",
+  "triples": 184991955,
+  "doi": "10.5281/zenodo.3484511",
+  "image": "http://caligraph.org/resources/icon/caligraph_icon_whitering.ico",
+  "contact_point": {
+    "name": "Nicolas Heist",
+    "email": "caligraph@informatik.uni-mannheim.de"
+  },
+  "keywords": [
+    "Knowledge Graph",
+    "Wikipedia Categories",
+    "Wikipedia List Pages"
+  ],
+  "sparql": [
+    {
+      "title": "CaLiGraph SPARQL Endpoint",
+      "access_url": "http://caligraph.org/sparql"
+    }
+  ]
+}

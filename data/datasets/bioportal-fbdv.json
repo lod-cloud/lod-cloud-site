@@ -1,0 +1,43 @@
+{
+  "identifier": "bioportal-fbdv",
+  "title": "Drosophila development",
+  "description": {
+    "en": "A structured controlled vocabulary of the development of <i>Drosophila melanogaster</i>."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1016",
+  "triples": 2776,
+  "contact_point": {
+    "name": "David Osumi-Sutherland"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-uberon",
+      "value": 12
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45239?apikey=BP_API_KEY"
+    }
+  ]
+}

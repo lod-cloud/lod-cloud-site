@@ -1,0 +1,46 @@
+{
+  "identifier": "linked-taiwan-geo-names",
+  "title": "Linked Taiwan Geo-Names",
+  "description": {
+    "en": "Taiwan geographic name (台灣地名) is obtained from Taiwanese Open Data Platform. The dataset links are http://data.gov.tw/node/40281, http://data.gov.tw/node/40456, http://data.gov.tw/node/40454. This service aims to provide unique IDs for referencing Taiwan place names"
+  },
+  "website": "http://geoname.linkedopendata.tw",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "tgn",
+  "triples": 1365654,
+  "contact_point": {
+    "name": "Dongpo Deng",
+    "email": "dongpo.deng@gmail.com"
+  },
+  "keywords": [
+    "Taiwan",
+    "format-geonames",
+    "geographic name",
+    "geography",
+    "place name"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web:",
+      "value": 8905
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Linked Taiwan Geographic Names",
+      "media_type": "text/html",
+      "access_url": "http://geoname.linkedopendata.tw"
+    },
+    {
+      "title": "Linked Taiwan Geo-Names dataset",
+      "description": "Linked Taiwanese geographic names established via using open data.",
+      "access_url": "http://linkedopendata.tw/geonames/tw-geo-names.nt"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://geoname.linkedopendata.tw/sparql"
+    }
+  ]
+}

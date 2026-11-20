@@ -1,0 +1,26 @@
+{
+  "identifier": "lofd",
+  "title": "lofd",
+  "description": {
+    "en": "Linked Open Financial Data"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lofd.tw.rpi.edu/",
+  "triples": 27537,
+  "contact_point": {
+    "name": "Timothy Lebo",
+    "email": "lebot@rpi.edu"
+  },
+  "keywords": [
+    "ecommerce",
+    "lod",
+    "prizms",
+    "published-by-third-party"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://lofd.tw.rpi.edu/sparql"
+    }
+  ]
+}

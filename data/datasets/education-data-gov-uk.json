@@ -1,0 +1,89 @@
+{
+  "identifier": "education-data-gov-uk",
+  "title": "education.data.gov.uk",
+  "description": {
+    "en": "Linked data about schools, nurseries and universities within the UK:\r\n\r\n* [Namespace for research institutionhttp://education.data.gov.uk/doc/institutions](http://education.data.gov.uk/doc/institution); populated with institutions that recently received BIS research funding\r\n* Edubase data on schools, nurseries\r\n* 2009 school statistics on local authority level: number of teachers; vacancies; pupil-teacher ratios (SCOVO)\r\n\r\nPart of package:data-gov-uk.\r\n\r\n### REST API\r\n\r\nThe Edubase data is also available [through a REST API](http://education.data.gov.uk/doc/school). See also [Jeni Tennison's blog post](http://data.gov.uk/blog/guest-post-developers-guide-linked-data-apis-jeni-tennison)."
+  },
+  "domain": "government",
+  "website": "http://education.data.gov.uk/",
+  "namespace": "http://education.data.gov.uk/doc/institution",
+  "triples": 6619847,
+  "contact_point": {
+    "name": "UK Government"
+  },
+  "keywords": [
+    "broken_link",
+    "deref-vocab",
+    "edubase",
+    "education",
+    "format-dc",
+    "format-foaf",
+    "format-geo",
+    "format-vcard",
+    "government",
+    "linked-data-api",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "nurseries",
+    "published-by-producer",
+    "schools",
+    "ukgov",
+    "university"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1697
+    },
+    {
+      "target": "research-data-gov-uk",
+      "value": 379
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 400000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/education/search"
+    },
+    {
+      "description": "Download Edubase (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://source.data.gov.uk/data/education/edubase/2009-08-14/edubase-rdf-r2rc3.tgz"
+    },
+    {
+      "description": "Download school statistics (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://source.data.gov.uk/data/education/pupil-teacher/2009-09-30/education-statistics.zip"
+    },
+    {
+      "description": "voiD description (partial)",
+      "access_url": "http://education.data.gov.uk/doc/institution"
+    },
+    {
+      "description": "Linked Data API access to schools",
+      "access_url": "http://education.data.gov.uk/doc/school"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example school (RDF/XML)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://education.data.gov.uk/id/school/520965"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/education/sparql"
+    }
+  ]
+}

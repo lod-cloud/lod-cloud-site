@@ -1,0 +1,251 @@
+{
+  "identifier": "bioportal-nmr",
+  "title": "NMR-instrument specific component of metabolomics investigations",
+  "description": {
+    "en": "Descriptors relevant to the experimental conditions of the Nuclear Magnetic Resonance (NMR) component in a metabolomics investigation."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1033",
+  "triples": 1883,
+  "contact_point": {
+    "name": "Daniel Schober and MSI Ontology Working Group"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 36
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 57
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 15
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bfo",
+      "value": 36
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 44
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 44
+    },
+    {
+      "target": "bioportal-cao",
+      "value": 38
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 38
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 37
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 37
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 43
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 37
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 45
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 54
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 38
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 37
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 37
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 36
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 36
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 36
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 37
+    },
+    {
+      "target": "bioportal-mfoem",
+      "value": 37
+    },
+    {
+      "target": "bioportal-miro",
+      "value": 38
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 51
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 40
+    },
+    {
+      "target": "bioportal-neumore",
+      "value": 14
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 57
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 44
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 44
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 37
+    },
+    {
+      "target": "bioportal-oae",
+      "value": 36
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 55
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 45
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 38
+    },
+    {
+      "target": "bioportal-ogms",
+      "value": 36
+    },
+    {
+      "target": "bioportal-omrse",
+      "value": 36
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 38
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 36
+    },
+    {
+      "target": "bioportal-pvonto",
+      "value": 14
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 14
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rnao",
+      "value": 36
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 36
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 37
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 18
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 20
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 42
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 37
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 29
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 20
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44836?apikey=BP_API_KEY"
+    }
+  ]
+}

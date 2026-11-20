@@ -1,0 +1,86 @@
+{
+  "identifier": "statusnet-qdnx-org",
+  "title": "statusnet-qdnx-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://qdnx.org"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 4
+    },
+    {
+      "target": "personal-homepages",
+      "value": 9
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 11
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 9
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://u.qdnx.org/nido/foaf"
+    }
+  ]
+}

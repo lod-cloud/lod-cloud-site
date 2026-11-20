@@ -1,0 +1,105 @@
+{
+  "identifier": "farmbio-chembl",
+  "title": "ChEMBL-RDF (@ Uppsala University)",
+  "description": {
+    "en": "RDF version of the CC-SA-BY ChEMBL database by the team of John Overington at the EBI, Hinxton/UK (http://www.ebi.ac.uk/chembl/)."
+  },
+  "domain": "life_sciences",
+  "website": "https://github.com/egonw/chembl.rdf",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://rdf.farmbio.uu.se/chembl/",
+  "triples": 25111377,
+  "contact_point": {
+    "name": "Egon Willighagen",
+    "email": "egon.willighagen@gmail.com"
+  },
+  "keywords": [
+    "backlink",
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-chebi",
+      "value": 517261
+    },
+    {
+      "target": "bio2rdf-kegg-enzyme",
+      "value": 661
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 30039
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 4356
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Bzip2-ed N3 dump",
+      "media_type": "text/n3",
+      "access_url": "http://semantics.bigcat.unimaas.nl/chembl/v13_5/"
+    },
+    {
+      "title": "CHEMINF ontology",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45415?apikey=4ea81d74-8960-4525-810b-fa1baab576ff"
+    },
+    {
+      "title": "VoID file describing the data set",
+      "access_url": "http://data.kasabi.com/dataset/chembl-rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example target",
+      "media_type": "text/plain",
+      "access_url": "http://linkedchemistry.info/chembl/target/t158"
+    },
+    {
+      "title": "Example journal paper",
+      "media_type": "text/plain",
+      "access_url": "http://linkedchemistry.info/chembl/resource/r371"
+    },
+    {
+      "title": "Example journal",
+      "media_type": "example/n3",
+      "access_url": "http://linkedchemistry.info/chembl/journal/j2d9cdf677b52f45100278f594cd7198a"
+    },
+    {
+      "title": "Example drug",
+      "media_type": "text/plain",
+      "access_url": "http://linkedchemistry.info/chembl/molecule/m100431"
+    },
+    {
+      "title": "Example activity",
+      "media_type": "text/plain",
+      "access_url": "http://linkedchemistry.info/chembl/activity/a935292"
+    },
+    {
+      "title": "Example assay",
+      "media_type": "text/plain",
+      "access_url": "http://linkedchemistry.info/chembl/assay/a93337"
+    },
+    {
+      "title": "Example drug",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/chembl-rdf/molecule/m100431.html"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "Uppsala SPARQL end point.",
+      "access_url": "http://rdf.farmbio.uu.se/chembl/sparql"
+    }
+  ]
+}

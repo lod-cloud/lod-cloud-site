@@ -1,0 +1,52 @@
+{
+  "identifier": "taxonconcept-assets",
+  "title": "taxonconcept-assets",
+  "description": {
+    "en": "Descriptions of pictures showing species"
+  },
+  "domain": "life_sciences",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-cc",
+    "format-dcterm",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-wdrs",
+    "lifesciences",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 9
+    },
+    {
+      "target": "geospecies",
+      "value": 11
+    },
+    {
+      "target": "gnu-licenses",
+      "value": 4
+    },
+    {
+      "target": "nalt",
+      "value": 1
+    },
+    {
+      "target": "taxonconcept",
+      "value": 57
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://assets.taxonconcept.org/seuuids/603bebac-cc44-4168-bbf7-b11b976f9d79/gallery.rdf"
+    }
+  ]
+}

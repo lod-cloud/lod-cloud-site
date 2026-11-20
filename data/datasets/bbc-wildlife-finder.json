@@ -1,0 +1,61 @@
+{
+  "identifier": "bbc-wildlife-finder",
+  "title": "BBC Wildlife Finder",
+  "description": {
+    "en": "Information about:\r\n\r\n- wildlife biota (kingdom > Species)\r\n- habitats\r\n- adaptations\r\n- ecozones\r\n\r\nData includes: \r\n\r\n- IUCN conservation status\r\n- background descriptions\r\n- photos\r\n- BBC news stories and \r\n- video clips from the BBC archive."
+  },
+  "domain": "media",
+  "website": "http://www.bbc.co.uk/wildlifefinder/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.bbc.co.uk/nature/",
+  "triples": 23861,
+  "contact_point": {
+    "name": "Tom Scott",
+    "email": "http://derivadow.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "bbc-programmes",
+      "value": 1958
+    },
+    {
+      "target": "dbpedia",
+      "value": 415
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/ontology/wo"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.bbc.co.uk/nature/species/Springbok_(antelope)#species"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/bbc-wildlife/services/sparql"
+    }
+  ]
+}

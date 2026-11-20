@@ -1,0 +1,37 @@
+{
+  "identifier": "klappstuhlclub",
+  "title": "Klappstuhlclub",
+  "description": {
+    "en": "##Klappstuhlclub\r\nhttp://klappstuhlclub.de \r\nThe Klappstuhlclub (Folding chair club) is meeting every week (mostly Wednesday evening) in cities around the globe. The focus is on Germany currently (Leipzig over 300 meetings, Berlin over 200 meetings), but also Lisbon, France and USA.\r\n\r\n### Get involved\r\nPlease email if:  \r\n1. You want to join the Klappstuhlclub or you want to create a Klappstuhlclub in your city . (kurzum@googlemail.com)\r\n2. You want to know how we made a simple Wordpress blog Linked Data ready and all that. (hellmann@informatik.uni-leipzig.de )\r\n\r\n### License \r\nData is protected for privacy issues.\r\n\r\n### Semantic Wiki Wordpress\r\nThe data was created with a Wordpress plugin see\r\nhttp://bitbucket.org/aksw/rdf2wp/overview\r\n\r\nEach Blogpost is available as Linked Data. User enter data the same way as in Wikipedia infoboxes (with a Wiki template)\r\n\r\nSPARQL endpoint (Virtuoso) is here:\r\nhttp://klappstuhlclub.de/sparql"
+  },
+  "domain": "user_generated",
+  "website": "http://klappstuhlclub.de",
+  "triples": 1032,
+  "contact_point": {
+    "name": "Sebastian Hellmann"
+  },
+  "keywords": [
+    "klappstuhlclub",
+    "ksc",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "rdf2wp",
+    "semantic-web",
+    "usergeneratedcontent",
+    "wiki",
+    "wikipedia",
+    "wordpress"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 50
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://klappstuhlclub.de/wp/wp-content/plugins/RDF2WP/Output/EntireBlogExporter.php?format=text/plain"
+    }
+  ]
+}

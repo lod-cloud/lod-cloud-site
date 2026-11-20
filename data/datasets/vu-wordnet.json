@@ -1,0 +1,77 @@
+{
+  "identifier": "vu-wordnet",
+  "title": "WordNet 3.0 (VU Amsterdam)",
+  "description": {
+    "en": "RDF conversion of Princeton's package:wordnet, version 3.0. With many links to package:w3c-wordnet, package:lexvo and the Dutch package:cornetto ."
+  },
+  "domain": "linguistics",
+  "website": "http://semanticweb.cs.vu.nl/lod/wn30/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://purl.org/vocabularies/princeton/wn30",
+  "triples": 4573749,
+  "contact_point": {
+    "name": "Mark van Assem, Antoine Isaac, Jacco van Ossenbruggen",
+    "email": "Jacco.van.Ossenbruggen@cwi.nl"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "language",
+    "linguistics",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "rdf",
+    "thesaurus",
+    "vu",
+    "wordnet"
+  ],
+  "links": [
+    {
+      "target": "cornetto",
+      "value": 84473
+    },
+    {
+      "target": "lexvo",
+      "value": 117659
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 112788
+    }
+  ],
+  "other_download": [
+    {
+      "title": "GIT",
+      "description": "Download RDF data from GIT",
+      "access_url": "https://github.com/jrvosse/wordnet-3.0-rdf"
+    },
+    {
+      "description": "Example synset (RDF/XML or HTML - conneg)",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/vocabularies/princeton/wn30/synset-chair-noun-1"
+    },
+    {
+      "description": "Example synset (RDF/XML only, no conneg)",
+      "media_type": "RDF",
+      "access_url": "http://purl.org/vocabularies/princeton/wn30/synset-chair-noun-1.rdf"
+    },
+    {
+      "title": "WN 30 via EuropeanaConnect Semantic Layer SPARQL endpoint",
+      "description": "SPARQL endpoint hosted by VU-A",
+      "media_type": "XML",
+      "access_url": "http://semanticweb.cs.vu.nl/europeana/sparql/"
+    },
+    {
+      "title": "VoID",
+      "description": "VoID definition of the multiple RDF files that make up the WordNet 3.0 dataset.",
+      "media_type": "meta/void",
+      "access_url": "http://semanticweb.cs.vu.nl/lod/wn30/rdf/void.ttl"
+    }
+  ]
+}

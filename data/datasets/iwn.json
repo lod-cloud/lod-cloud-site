@@ -1,0 +1,50 @@
+{
+  "identifier": "iwn",
+  "title": "IWN",
+  "description": {
+    "en": "This is the dataset corresponding to the ItalWordNet as created at the Institute of Computational Linguistic \"A. Zampolli\" in Pisa.\r\nThe resource contains single instances such as single synset and single word/wordsense and collective files to list all synsets and word(sense)s.\r\n\r\nThe resource has been created according to the WN2.0 specification, http://www.w3.org/2006/03/wn/wn20/"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 515816,
+  "contact_point": {
+    "name": "Roberto Bartolini",
+    "email": "roberto.bartolini@ilc.cnr.it"
+  },
+  "keywords": [
+    "Linguistic Dataset LOD RDF",
+    "linguistic",
+    "llod",
+    "lod",
+    "rdf",
+    "wordnet"
+  ],
+  "links": [
+    {
+      "target": "simple",
+      "value": 19896
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 54716
+    }
+  ],
+  "other_download": [
+    {
+      "title": "IWN Synset",
+      "description": "This file lists the synsets collected in the ItalWordNet resource",
+      "access_url": "http://www.languagelibrary.eu/owl/italWordNet15/schema/synset"
+    },
+    {
+      "title": "IWN list of wordsand wordsenses",
+      "description": "This file contains the list of words (as http://www.languagelibrary.eu/owl/italWordNet15/instances/word-casa)\r\nand wordsenses (http://www.languagelibrary.eu/owl/italWordNet15/instances/wordsense-casa-noun-1)",
+      "access_url": "http://www.languagelibrary.eu/owl/italWordNet15/schema/wordsenseandwords"
+    },
+    {
+      "title": "IWN Full Dump",
+      "description": "This tar_gzed file contains the full dump of the IWN whole dataset in RDF",
+      "media_type": "application/x-gzip",
+      "access_url": "http://www.languagelibrary.eu/owl/italWordNet15/download/italWordNet15.tar.gz"
+    }
+  ]
+}

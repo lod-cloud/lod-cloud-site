@@ -1,0 +1,33 @@
+{
+  "identifier": "statusnet-hii-co-il",
+  "title": "statusnet-hii-co-il",
+  "description": {
+    "en": "StatusNet instance hosted at http://hii.co.il"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 3
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://hii.co.il/denny900/foaf"
+    }
+  ]
+}

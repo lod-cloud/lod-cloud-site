@@ -1,0 +1,55 @@
+{
+  "identifier": "open-energy-info-wiki",
+  "title": "OpenEI - Open Energy Info",
+  "description": {
+    "en": "### About\r\n\r\nFrom website:\r\n\r\n> Open Energy Info is a platform to connect the world?s energy data. It is a linked open data platform bringing together energy information to provide improved analyses, unique visualizations, and real-time access to data. OpenEI follows guidelines set by the White House?s Open Government Initiative , which is focused on transparency, collaboration, and participation. OpenEI strives to provide open access to this energy information, which will spur creativity and drive innovation in the energy sector.\r\n\r\n### Openness\r\n\r\nProject representatives confirmed [via email](http://lists.w3.org/Archives/Public/public-egov-ig/2010Mar/0008.html):\r\n\r\n> The default license for all information in OpenEI I Creative Commons Zero (http://wiki.creativecommons.org/CC0_FAQ).  You can see this documented in a notice shown in the site's editing interface for any page (e.g. http://en.openei.org/w/index.php?title=Colorado&action=edit).\r\n\r\n### Access\r\n\r\nProject representatives confirmed [via email](http://lists.w3.org/Archives/Public/public-egov-ig/2010Mar/0008.html):\r\n\r\n> As for bulk downloads of data...  We currently offer the following:\r\n\r\n>> * \"Download CSV\" links are present on certain pages (e.g. http://en.openei.org/wiki/Map_of_Clean_Energy_Companies)\r\n>> * A SPARQL endpoint for querying data (http://en.openei.org/sparql), plus a few examples of its use (http://en.openei.org/resources/)\r\n>> * RDF Exports of any given page via the \"browse properties\" link (e.g. http://en.openei.org/wiki/Special:ExportRDF/Colorado)\r\n\r\n> We realize that we could be doing more in this area, though.  A few things we're planning to do:\r\n\r\n>> * Provide a bulk download of our complete RDF (similar to how one can get complete dbpedia exports)\r\n>> * Provide a better way to find various datasets (and download them in various formats, such as RDF and CSV)\r\n>> * Provide a mechanism for submitting bulk datasets which is separate from, but complementary to, our Wiki)"
+  },
+  "domain": "government",
+  "website": "http://en.openei.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://en.openei.org/",
+  "triples": 16384698,
+  "contact_point": {
+    "name": "OpenEI.org",
+    "email": "openei.webmaster@nrel.gov"
+  },
+  "keywords": [
+    "country-usa",
+    "deref-vocab",
+    "energy",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "smw",
+    "wiki"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 52546
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 497
+    }
+  ],
+  "example": [
+    {
+      "description": "Link to an example data item",
+      "media_type": "application/xml; charset=UTF-8",
+      "access_url": "http://en.openei.org/wiki/Special:ExportRDF/National_Renewable_Energy_Laboratory"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://en.openei.org/sparql"
+    }
+  ]
+}

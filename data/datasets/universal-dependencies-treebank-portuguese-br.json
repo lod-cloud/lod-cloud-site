@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-portuguese-br",
+  "title": "Universal Dependencies Treebank Portuguese-BR",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Portuguese-BR treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Portuguese-BR",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 298323,
+  "contact_point": {
+    "name": "McDonald, Ryan; Nivre, Joakim; Zeman, Daniel",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Portuguese-BR Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Portuguese-BR/archive/master.zip"
+    },
+    {
+      "title": "UD_Portuguese-BR RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/5880a928-16ce-4867-ad67-daeaa4f61d1a/resource/0744a49e-5439-415f-ae18-b9729b875440/download/udportuguese-br.rdf"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "identifier": "sors",
+  "title": "SORS",
+  "description": {
+    "en": "Statistical Office of the Republic of Serbia"
+  },
+  "domain": "government",
+  "website": "http://stat.gov.rs",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-cube",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-sdmxa",
+    "government",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "provenance-metadata"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://elpo.stat.gov.rs/lod2/RS-DATA/National_accounts/GDP_usage_Collective_consumption_expenditure/data_2011_12_28"
+    }
+  ]
+}

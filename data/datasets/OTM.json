@@ -1,0 +1,30 @@
+{
+  "identifier": "OTM",
+  "title": "Open Transport Map @PSNC",
+  "description": {
+    "en": "The Open Transport Map displays a road network which – is suitable for routing – – visualizes average daily Traffic Volumes for the whole EU – – visualizes time related Traffic Volumes (in OTN Pilot Cities - Antwerp, Birmingham, Issy-le-Moulineaux, Liberec region) – Talking technical, the Open Transport Map – can serve as a map itself as well as a layer embedded in your map – – is derived from the most popular open dataset - OpenStreetMap – – is accessible via both GUI and API – – covers the whole European Union .Presently the OTM linked dataset comprise data from Czech republic, Spain and Poland. RoadLinks only for 'FunctionalRoadClassValue' of type: (‘mainRoad’, ’firstClass’, ’secondClass’, ’thirdClass’, ’fourthClass’)"
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/otm#",
+  "triples": 154340785,
+  "image": "https://box.psnc.pl/f/05b3bcbcc4/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "transportmap",
+    "OTM",
+    "roadnodes",
+    "roadlinks",
+    "psnc"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

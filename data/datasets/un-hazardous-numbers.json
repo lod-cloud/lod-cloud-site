@@ -1,0 +1,66 @@
+{
+  "identifier": "un-hazardous-numbers",
+  "title": "UN Hazardous Materials Numbers",
+  "description": {
+    "en": "UN Numbers are categories of harzardous materials.  See http://en.wikipedia.org/wiki/UN_numbers for more details."
+  },
+  "website": "http://kasabi.com/dataset/un-hazardous-material-numbers",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.kasabi.com/dataset/un-hazardous-material-numbers",
+  "triples": 26550,
+  "keywords": [
+    "dc",
+    "deref-vocab",
+    "format-dc",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "government",
+    "license-metadata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "Void description",
+      "access_url": "http://data.kasabi.com/dataset/un-hazardous-material-numbers"
+    },
+    {
+      "description": "Kasabi Schema",
+      "access_url": "http://data.kasabi.com/dataset/un-hazardous-material-numbers/"
+    },
+    {
+      "description": "OWL",
+      "access_url": "http://www.w3.org/2002/07/owl#"
+    },
+    {
+      "description": "rdfs",
+      "access_url": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "description": "RDF Syntax NS",
+      "access_url": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "description": "Dublin Core",
+      "access_url": "http://purl.org/dc/elements/1.1/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example Resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/un-hazardous-material-numbers/1203.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql",
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.kasabi.com/dataset/un-hazardous-material-numbers/apis/sparql"
+    }
+  ]
+}

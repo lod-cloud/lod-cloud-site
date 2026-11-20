@@ -1,0 +1,84 @@
+{
+  "identifier": "statusnet-gegeweb-org",
+  "title": "statusnet-gegeweb-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://gegeweb.org"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 1
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-glou-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-imirhil-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 4
+    },
+    {
+      "target": "statusnet-planet-libre-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 5
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.gegeweb.org/foaf"
+    }
+  ]
+}

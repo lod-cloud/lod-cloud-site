@@ -1,0 +1,85 @@
+{
+  "identifier": "linkedlccn",
+  "title": "LinkedLCCN",
+  "description": {
+    "en": "A wrapper for the Library of Congress' LCCN Permalink service which models the MARCXML output as linked data in RDF."
+  },
+  "domain": "publications",
+  "website": "http://purl.org/NET/lccn/",
+  "namespace": "http://purl.org/NET/lccn/",
+  "triples": 1573663,
+  "contact_point": {
+    "name": "Ross Singer",
+    "email": "rossfsinger@gmail.com"
+  },
+  "keywords": [
+    "format-bibo",
+    "format-dc",
+    "format-foaf",
+    "format-frbr",
+    "format-mo",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-xhtml",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "books-isbn",
+      "value": 4468
+    },
+    {
+      "target": "dbpedia",
+      "value": 10911
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 6909
+    },
+    {
+      "target": "linkedmdb",
+      "value": 883
+    },
+    {
+      "target": "marc-codes",
+      "value": 80275
+    },
+    {
+      "target": "openlibrary",
+      "value": 15331
+    },
+    {
+      "target": "viaf",
+      "value": 209422
+    }
+  ],
+  "example": [
+    {
+      "description": "HTML RDFa example",
+      "media_type": "example/rdfa",
+      "access_url": "http://purl.org/NET/lccn/76090902"
+    },
+    {
+      "description": "RDF/XML example",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/NET/lccn/93707283.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/rsinger-dev4/services/sparql"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "identifier": "calames",
+  "title": "Calames",
+  "description": {
+    "en": "Source : [Calames](http://www.calames.abes.fr)\r\n\r\nCalames is the French academic union catalogue of archives and manuscripts, maintained by ABES\r\n\r\nLicensing : not yet, but will be as open as possible\r\n\r\nNB : in order to extract the RDFa, please use the URL as it is given in the following example, not as it is resolved by the application and displayed in the address bar. (Ajax trick)"
+  },
+  "domain": "publications",
+  "website": "http://www.calames.abes.fr/",
+  "namespace": "http://www.calames.abes.fr/pub/ms/",
+  "triples": 2000000,
+  "contact_point": {
+    "name": "ABES",
+    "email": "apisudoc@abes.fr"
+  },
+  "keywords": [
+    "abes",
+    "archives",
+    "ead",
+    "france",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "manuscripts",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "rdfa"
+  ],
+  "links": [
+    {
+      "target": "idreffr",
+      "value": 10000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://www.calames.abes.fr/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.calames.abes.fr/pub/ms/Calames-2010914119419211"
+    }
+  ]
+}

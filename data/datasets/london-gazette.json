@@ -1,0 +1,59 @@
+{
+  "identifier": "london-gazette",
+  "title": "The London Gazette - Gazettes Data",
+  "description": {
+    "en": "## About\r\n\r\nFrom website:\r\n\r\n> The London Gazette, Official Newspaper of Record for the United Kingdom plays a major role in the information infrastructure for government, with 175,000 notices published in 2007.\r\n\r\n> A wide range of notices, the majority of which are mandatory by law appear in the following broad categories (bold = very high numbers of notices): State, Parliament, Ecclesiastical, Public Finance, Transport, Planning, Health, Environment, Water, Agriculture & Fisheries, Energy, Post & Telecom., Other Notices, Competition, Corporate Insolvency, Personal Insolvency, Companies & Financial Regulation, Partnerships, Societies Regulation, Personal Legal.\r\n\r\n> Plans are in place to further upgrade the tagging but any change in mark up for the London Gazette (and sister newspapers the Edinburgh and Belfast Gazettes) will be backwards compatible. Different types of notice presently have very different degrees of mark up.\r\n\r\n> The quality of the information in the London Gazette is excellent. Content is published primarily on behalf of solicitors, government, insolvency practitioners and other known stakeholders. Accuracy is absolutely key.\r\n\r\n> Data can be made available on an ongoing basis in XML, Excel and other formats. RDFa will launch shortly for some categories.\r\n\r\n> The two files on this web page enable you to explore the content:\r\n\r\n> 1. An XML file of all published notices from mid February 2007 to end May 2008.\r\n> 2. A list and order of notice types.\r\n\r\n## Format\r\n\r\nXML\r\n\r\n## Re-use\r\n\r\nWebsite says \"Please treat the data as Crown Copyright.\""
+  },
+  "domain": "government",
+  "website": "http://www.london-gazette.co.uk/mashup/gazettesdata.htm",
+  "namespace": "http://www.london-gazette.co.uk/",
+  "triples": 12000000,
+  "contact_point": {
+    "email": "london.gazette@tso.co.uk"
+  },
+  "keywords": [
+    "companies",
+    "competition",
+    "country-uk",
+    "deref-vocab",
+    "environment",
+    "finance",
+    "format-dc",
+    "format-foaf",
+    "gov",
+    "government",
+    "health",
+    "insolvency",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud.nolinks",
+    "newspaper",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "parliament",
+    "planning",
+    "published-by-producer",
+    "state",
+    "transport",
+    "uk"
+  ],
+  "other_download": [
+    {
+      "access_url": "http://www.london-gazette.co.uk/mashup/LondonGazetteData.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example notice",
+      "media_type": "example/rdfa",
+      "access_url": "http://www.london-gazette.co.uk/issues/59535/notices/1196300"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint (not up to date)",
+      "access_url": "http://api.talis.com/stores/datagovuk/services/sparql"
+    }
+  ]
+}

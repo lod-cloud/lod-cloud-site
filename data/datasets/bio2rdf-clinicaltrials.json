@@ -1,0 +1,104 @@
+{
+  "identifier": "bio2rdf-clinicaltrials",
+  "title": "Bio2RDF::Clinicaltrials",
+  "description": {
+    "en": "ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world."
+  },
+  "domain": "life_sciences",
+  "website": "http://clinicaltrials.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/clinicaltrials:",
+  "triples": 8323598,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-clinicaltrials",
+      "value": 592167
+    },
+    {
+      "target": "bio2rdf-obi",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 18322
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download clinicaltrials.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/clinicaltrials/clinicaltrials.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/clinicaltrials/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/clinicaltrials/clinicaltrials.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/clinicaltrials/bio2rdf-clinicaltrials.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/clinicaltrials/clinicaltrials.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/clinicaltrials/bio2rdf_clinicaltrials_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/clinicaltrials/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/clinicaltrials:NCT00050895"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://clinicaltrials.bio2rdf.org/sparql"
+    }
+  ]
+}

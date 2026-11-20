@@ -1,0 +1,110 @@
+{
+  "identifier": "nom",
+  "title": "Nomenclature for Museum Cataloging",
+  "description": {
+    "en": "Nomenclature for Museum Cataloging is a structured and controlled list of object terms organized in a classification system to provide a basis for indexing and cataloging collections of human-made objects. Nomenclature is fully bilingual (English and French) and includes illustrations and definitions to help with identification of concepts.  Nomenclature is used in the creation and management of object records in human history collections within museums and other organizations, and it focuses on objects relevant to North American history and culture."
+  },
+  "domain": "cross_domain",
+  "website": "https://www.nomenclature.info",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://nomenclature.info/nom/",
+  "triples": 1703790,
+  "contact_point": {
+    "name": "Heather Dunn",
+    "email": "rcip-chin@pch.gc.ca"
+  },
+  "keywords": [
+    "controlled vocabularies",
+    "material culture",
+    "museums",
+    "collections management",
+    "cultural heritage",
+    "thesauri"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2
+    },
+    {
+      "target": "getty-aat",
+      "value": 14760
+    },
+    {
+      "target": "lcsh",
+      "value": 77
+    },
+    {
+      "target": "stitch-rameau",
+      "value": 152
+    },
+    {
+      "target": "wikidata",
+      "value": 6003
+    }
+  ],
+  "full_download": [
+    {
+      "title": "JSON-LD dataset",
+      "description": "Current JSON-LD Nomenclature dataset. Updated daily; date included in filename.",
+      "media_type": ".jsonld",
+      "download_url": "https://nomenclature.info/dataset/datadump.jsonld"
+    },
+    {
+      "title": "Turtle dataset",
+      "description": "Current Turtle Nomenclature dataset. Updated daily; date included in filename.",
+      "download_url": "https://nomenclature.info/dataset/datadump.ttl"
+    },
+    {
+      "title": "RDF/XML dataset",
+      "description": "Current RDF/XML Nomenclature dataset. Updated daily; date included in filename.",
+      "download_url": "https://nomenclature.info/dataset/datadump.rdf"
+    },
+    {
+      "title": "CSV dataset",
+      "description": "Current CSV Nomenclature dataset, sorted by English prefLabel. Updated daily; date included in filename.",
+      "download_url": "https://page.nomenclature.info/api/excel/nomenclature-sortEn.csv"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VOID file in Turtle format",
+      "description": "VOID file in Turtle format",
+      "access_url": "https://nomenclature.info/.well-known/void.ttl"
+    },
+    {
+      "title": "Semantic model documentation",
+      "description": "The Semantic model documentation is relevant for audiences interested in using the SPARQL endpoint of Nomenclature, or downloading the full dataset in RDF/XML, Turtle or JSON-LD format.",
+      "access_url": "https://page.nomenclature.info/modele_semantique-semantic_model.app"
+    },
+    {
+      "title": "Licensing",
+      "description": "Information on CC-BY licence, and terms and conditions of use.",
+      "access_url": "https://page.nomenclature.info/droitauteur-copyright.app?lang=en"
+    },
+    {
+      "title": "Integration",
+      "description": "Links and information to enable integration of Nomenclature.  SPARQL endpoint, API, documentation, and downloads.",
+      "access_url": "https://page.nomenclature.info/integration.app?lang=en"
+    }
+  ],
+  "example": [
+    {
+      "title": "mitten",
+      "media_type": "text/turtle;charset=UTF-8",
+      "access_url": "https://nomenclature.info/nom/2057"
+    },
+    {
+      "title": "armor breastplate",
+      "media_type": "text/turtle;charset=UTF-8",
+      "access_url": "https://nomenclature.info/nom/8107"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Nomenclature SPARQL endpoint",
+      "description": "The Nomenclature SPARQL endpoint allows exploration of the dataset and output in a variety of formats. Sample queries are provided at https://page.nomenclature.info/requetes-sparql-queries.app?lang=en as examples to get you started using SPARQL.",
+      "access_url": "https://nomenclature.info/sparql"
+    }
+  ]
+}

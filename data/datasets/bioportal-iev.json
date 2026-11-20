@@ -1,0 +1,155 @@
+{
+  "identifier": "bioportal-iev",
+  "title": "Event (INOH pathway ontology)",
+  "description": {
+    "en": "A structured controlled vocabulary of pathway centric biological processes. This ontology is a INOH pathway annotation ontology, one of a set of ontologies intended to be used in pathway data annotation to ease data integration. This ontology is used to annotate biological processes, pathways, sub-pathways in the INOH pathway data.<br>INOH is part of the BioPAX working group."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1011",
+  "triples": 43375,
+  "contact_point": {
+    "name": "Event Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-apo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 37
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 16
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 117
+    },
+    {
+      "target": "bioportal-chem2bio2owl",
+      "value": 18
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 90
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 17
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 292
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 290
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 37
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 56
+    },
+    {
+      "target": "bioportal-ixno",
+      "value": 11
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 26
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 188
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 65
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 82
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 218
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 196
+    },
+    {
+      "target": "bioportal-nigo",
+      "value": 122
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 14
+    },
+    {
+      "target": "bioportal-pw",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 15
+    },
+    {
+      "target": "bioportal-rex",
+      "value": 12
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 23
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 48
+    },
+    {
+      "target": "bioportal-ypo",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45404?apikey=BP_API_KEY"
+    }
+  ]
+}

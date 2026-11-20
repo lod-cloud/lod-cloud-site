@@ -1,0 +1,91 @@
+{
+  "identifier": "transport-data-gov-uk",
+  "title": "transport.data.gov.uk",
+  "description": {
+    "en": "Transport-related linked data from data.gov.uk.\r\n\r\n* Namespace for roads\r\n* Namespace for stations\r\n* Namespace for airports\r\n* Road traffic statistics (SCOVO)"
+  },
+  "domain": "government",
+  "website": "http://transport.data.gov.uk/",
+  "namespace": "http://transport.data.gov.uk/id/",
+  "triples": 329527661,
+  "contact_point": {
+    "name": "data.gov.uk"
+  },
+  "keywords": [
+    "airports",
+    "broken_link",
+    "bus-stops",
+    "country-uk",
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-geo",
+    "format-skos",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "motorways",
+    "naptan",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "ports",
+    "published-by-producer",
+    "roads",
+    "stations",
+    "traffic",
+    "transport",
+    "uk",
+    "ukgov"
+  ],
+  "links": [
+    {
+      "target": "data-gov-uk-time-intervals",
+      "value": 795669
+    },
+    {
+      "target": "dbpedia",
+      "value": 3768
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 109708
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/transport/search"
+    },
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://source.data.gov.uk/data/transport/road-traffic-counts/2009-09/transport.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example: A1 Road (RDF/XML)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://transport.data.gov.uk/id/road/A1"
+    },
+    {
+      "description": "Example: Victoria station (RDF/XML)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://transport.data.gov.uk/id/station/VIC"
+    },
+    {
+      "description": "Example: Heathrow airport (RDF/XML)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://transport.data.gov.uk/id/airport/LHR"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/transport/sparql"
+    }
+  ]
+}

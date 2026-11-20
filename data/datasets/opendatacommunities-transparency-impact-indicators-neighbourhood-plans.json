@@ -1,0 +1,41 @@
+{
+  "identifier": "opendatacommunities-transparency-impact-indicators-neighbourhood-plans",
+  "title": "opendatacommunities-transparency-impact-indicators-neighbourhood-plans",
+  "domain": "government",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-cube",
+    "format-dcat",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-sdmxd",
+    "format-void",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "reference-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://opendatacommunities.org/data/transparency/impact-indicators/neighbourhood-plans/2013-03"
+    }
+  ]
+}

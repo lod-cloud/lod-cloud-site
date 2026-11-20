@@ -1,0 +1,36 @@
+{
+  "identifier": "multimedia-lab",
+  "title": "Multimedia Lab",
+  "description": {
+    "en": "Linked Open Data from Multimedia Lab, a research group of Ghent University ? iMinds, Belgium."
+  },
+  "domain": "publications",
+  "triples": 0,
+  "keywords": [
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "dblp",
+      "value": 500
+    }
+  ],
+  "other_download": [
+    {
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://data.mmlab.be/mmlab"
+    },
+    {
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://data.mmlab.be/mmlab"
+    },
+    {
+      "title": "Multimedia Lab Data",
+      "description": "This dataset is available as [triple pattern fragments](http://linkeddatafragments.org/concept/) in HTML, Turtle, JSON, and JSON-LD.",
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://data.mmlab.be/mmlab"
+    }
+  ]
+}

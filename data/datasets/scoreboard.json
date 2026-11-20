@@ -1,0 +1,56 @@
+{
+  "identifier": "scoreboard",
+  "title": "The Digital Agenda Scoreboard of the European Commission",
+  "description": {
+    "en": "European Commission services have selected around 60 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society."
+  },
+  "website": "http://ec.europa.eu/information_society/digital-agenda/scoreboard/index_en.htm",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 127081,
+  "contact_point": {
+    "name": "Michael Martin",
+    "email": "martin@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "DataCube",
+    "Digital Agenda",
+    "European Commission",
+    "ICT",
+    "Information society",
+    "Internet usage",
+    "europe",
+    "european",
+    "format-qb",
+    "government",
+    "indicators",
+    "published-by-third-party",
+    "scoreboard",
+    "statistics"
+  ],
+  "other_download": [
+    {
+      "title": "Scoreboard DataCube RDF",
+      "access_url": "http://scoreboard.lod2.eu/data/scoreboardDataCube.rdf"
+    },
+    {
+      "title": "Digital Agenda Scoreboard Data CSV",
+      "access_url": "http://scoreboard.lod2.eu/data/data.csv"
+    },
+    {
+      "title": "Digital Agenda Scoreboard Indicators CSV",
+      "access_url": "http://scoreboard.lod2.eu/data/indicators.csv"
+    },
+    {
+      "title": "Digital Agenda Scoreboard Data SQL",
+      "access_url": "http://scoreboard.lod2.eu/data/data.sql"
+    },
+    {
+      "title": "Digital Agenda Scoreboard Indicators SQL",
+      "access_url": "http://scoreboard.lod2.eu/data/indicators.sql"
+    },
+    {
+      "title": "Startpage of the Digital Agenda Scoreboard graph visualization",
+      "access_url": "http://ec.europa.eu/information_society/digital-agenda/scoreboard/graphs/index_en.htm"
+    }
+  ]
+}

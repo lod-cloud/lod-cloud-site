@@ -1,0 +1,35 @@
+{
+  "identifier": "culturalinkeddata",
+  "title": "CulturaLinkedData",
+  "description": {
+    "en": "The Spanish National Library (Biblioteca Nacional de España, BNE) and the Ontology Engineering Group of Universidad Politécnica de Madrid are working on the joint project “Preliminary Study of Linked Data”, whose aim is to enrich the Web of Data with the BNE authority and bibliographic records. To this end, they are transforming the BNE information to RDF following the Linked Data principles proposed by Tim Berners Lee."
+  },
+  "website": "http://cultura.linkeddata.es/visualizer",
+  "triples": 344439,
+  "contact_point": {
+    "name": "Ontology Engineering Group, Facultad de Informática, Universidad Politécnica de Madrid.",
+    "email": "bvillazon@fi.upm.es"
+  },
+  "keywords": [
+    "deref-vocab",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "media",
+    "published-by-third-party",
+    "spanish-national-library"
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://cultura.linkeddata.es/BNE/resource/C1003/F3343969"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://cultura.linkeddata.es/sparql"
+    }
+  ]
+}

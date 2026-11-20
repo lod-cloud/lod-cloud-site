@@ -1,0 +1,38 @@
+{
+  "identifier": "statusnet-kathryl-fr",
+  "title": "statusnet-kathryl-fr",
+  "description": {
+    "en": "StatusNet instance hosted at http://kathryl.fr"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.kathryl.fr/foaf"
+    }
+  ]
+}

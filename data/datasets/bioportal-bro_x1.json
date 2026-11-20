@@ -1,0 +1,139 @@
+{
+  "identifier": "bioportal-bro_x1",
+  "title": "Biomedical Resource Ontology",
+  "description": {
+    "en": "A controlled terminology of resources, which is used to improve the sensitivity and specificity of web searches."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1104",
+  "triples": 2755,
+  "contact_point": {
+    "name": "Trish Whetzel, Csongor Nyulas, Natasha Noy"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 43
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 500
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 10
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 48
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 267
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 33
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 16
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 16
+    },
+    {
+      "target": "bioportal-jerm",
+      "value": 10
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 64
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 56
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 104
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 16
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 110
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 34
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 11
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 38
+    },
+    {
+      "target": "bioportal-swo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-vivo",
+      "value": 12
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44450?apikey=BP_API_KEY"
+    }
+  ]
+}

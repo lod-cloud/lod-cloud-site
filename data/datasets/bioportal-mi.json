@@ -1,0 +1,287 @@
+{
+  "identifier": "bioportal-mi",
+  "title": "Protein-protein interaction",
+  "description": {
+    "en": "A structured controlled vocabulary for the annotation of experiments concerned with protein-protein interactions. Developed by the HUPO Proteomics Standards Initiative."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1040",
+  "triples": 18499,
+  "contact_point": {
+    "name": "Psi-mi Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 16
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 64
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 10
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 33
+    },
+    {
+      "target": "bioportal-bp",
+      "value": 11
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 60
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 106
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 107
+    },
+    {
+      "target": "bioportal-chem2bio2owl",
+      "value": 22
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 104
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 26
+    },
+    {
+      "target": "bioportal-dikb-evidence",
+      "value": 14
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 34
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 22
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 34
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 13
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 25
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 26
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 26
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 33
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 19
+    },
+    {
+      "target": "bioportal-iev",
+      "value": 65
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 55
+    },
+    {
+      "target": "bioportal-jerm",
+      "value": 14
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 59
+    },
+    {
+      "target": "bioportal-mao",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 16
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 241
+    },
+    {
+      "target": "bioportal-mod",
+      "value": 93
+    },
+    {
+      "target": "bioportal-ms",
+      "value": 10
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 160
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 222
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 28
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 111
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 15
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 16
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 50
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 25
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 13
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 14
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 11
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 26
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 50
+    },
+    {
+      "target": "bioportal-rex",
+      "value": 10
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 15
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 42
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 29
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 120
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 29
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 22
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 135
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 17
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/39508?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "identifier": "apertium-rdf-en-ca",
+  "title": "Apertium RDF EN-CA",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary EN-ES The original dataset (in LMF) comes from http://hdl.handle.net/10230/17096. The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 759601,
+  "contact_point": {
+    "name": "Universitat d'Alacant. Grup Transducens ; Paul Breen ; Jimmy O'Regan ; Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA)"
+  },
+  "keywords": [
+    "Catalan",
+    "English",
+    "apertium",
+    "bilingual",
+    "dictionary",
+    "en-ca",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 30245
+    },
+    {
+      "target": "lexinfo",
+      "value": 61337
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (EN, CA), a Translation Set EN-CA, and the metadata file.",
+      "media_type": "rdf/turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-14T21:11:00.893Z/apertium-en-ca-pol-rdf.zip"
+    },
+    {
+      "title": "English lexicon URI",
+      "description": "This online lexicon not only contains the EN lexical entries from the EN-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in EN coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconEN"
+    },
+    {
+      "title": "Catalan lexicon URI",
+      "description": "This online lexicon not only contains the CA lexical entries from the EN-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in CA coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconCA"
+    },
+    {
+      "title": "EN-CA translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetEN-CA"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-en-ca.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-14T21:12:37.992Z/apertium-en-ca-dataset-metadata.rdf"
+    }
+  ]
+}

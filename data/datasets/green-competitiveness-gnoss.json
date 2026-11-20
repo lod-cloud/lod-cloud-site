@@ -1,0 +1,121 @@
+{
+  "identifier": "green-competitiveness-gnoss",
+  "title": "Green Competitiveness (GNOSS)",
+  "description": {
+    "en": "<p>\r\nThe competitiveness and the green economy should be a collective idea of organizing industrial production and, therefore, a business space, not a thought exercise or a radical practice.\r\n<a href=\"http://red.gnoss.com/en/community/greencompetitiveness\">Green Competitiveness</a>\r\nis a global knowledge network designed to share content and opinion about the opportunities for economic growth and social well-being related to the promotion and growth of the green economy.\r\n</p>\r\n<p>\r\nGreen Competitiveness works with \r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>\r\n. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Green Competitiveness offers a selection of 189 resources (November 2012). It includes facet-based searches and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n<p>\r\n<br>\r\nLa competitividad y economía verdes deberían llegar a ser un idea colectiva organizadora de la producción industrial y, por tanto, un espacio de negocios y no un ejercicio de pensamiento en los márgenes o una práctica radical. La comunidad\r\n<a href=\"http://red.gnoss.com/comunidad/greencompetitiveness\">Green Competitiveness</a>\r\ntiene como objetivo mostrar las oportunidades de crecimiento económico y bienestar social relacionados con la promoción y el crecimiento de la economía verde.\r\n</p>\r\n<p>\r\nGreen Competitiveness trabaja con software de \r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>\r\n. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. NextWeb ofrece en este caso una selección de 189 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://red.gnoss.com/en/community/greencompetitiveness",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://red.gnoss.com/en/community/greencompetitiveness",
+  "triples": 17219,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "Web social",
+    "biocomercio",
+    "biocompetitividad",
+    "capital natural",
+    "codesarrollo sostenible",
+    "competitividad verde",
+    "corporate excellence",
+    "country-spain",
+    "country.es",
+    "dc",
+    "desarrollo sostenible",
+    "desarrollo territorial",
+    "ecocertificación",
+    "ecoeficiencia",
+    "energías renovables",
+    "evolución sostenible",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "gestión del conocimiento",
+    "gnoss",
+    "green products",
+    "green technology",
+    "impacto medioambiental",
+    "laboratorio de ideas",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "pensamiento colectivo",
+    "prospectiva",
+    "provenance-metadata",
+    "published-by-third-party",
+    "rentabilidad verde",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sostenibilidad y medio ambiente",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 554
+    },
+    {
+      "target": "freebase",
+      "value": 523
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 11
+    },
+    {
+      "target": "gnoss",
+      "value": 222
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 505
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://red.gnoss.com/voidGreenCompetitivenessGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Green Competitiveness community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/greencompetitiveness/resource/TABLERO-CONTRACHAPADO-Garnica-Plywood-lider-en-l/be1aad9a-448f-4daa-8be5-2c8b806a5b4e?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Green Competitiveness community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/greencompetitiveness/resource/Guia-de-la-Productividad-para-empresas-de-tecnolog/c79fb300-c3b1-4212-a3a6-d94503de37ca?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/greencompetitiveness/advanced-search/tag/sostenibilidad?rdf"
+    }
+  ]
+}

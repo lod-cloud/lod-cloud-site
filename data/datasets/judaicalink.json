@@ -1,0 +1,56 @@
+{
+  "identifier": "judaicalink",
+  "title": "JudaicaLink",
+  "description": {
+    "en": "Linking encyclopediae on Jewish culture and history."
+  },
+  "namespace": "http://data.judaicalink.org/data/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Kai Eckert",
+    "email": "kai@informatik.uni-mannheim.de"
+  },
+  "keywords": [
+    "encyclopedia",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1412
+    },
+    {
+      "target": "dm2e",
+      "value": 3107
+    },
+    {
+      "target": "freebase",
+      "value": 261
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 109
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 2101
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 116
+    }
+  ],
+  "other_download": [
+    {
+      "title": "JudaicaLink Linked Data API",
+      "description": "Linked Data representations of concepts described in several encyclopediae.",
+      "access_url": "http://data.judaicalink.org/data/"
+    },
+    {
+      "title": "JudaicaLink Linked Data API",
+      "description": "Linked Data representations of concepts described in various encyclopediae",
+      "access_url": "http://data.judaicalink.org/data/"
+    }
+  ]
+}

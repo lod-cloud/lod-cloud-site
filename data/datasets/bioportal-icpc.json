@@ -1,0 +1,203 @@
+{
+  "identifier": "bioportal-icpc",
+  "title": "International Classification of Primary Care",
+  "description": {
+    "en": "The International Classification of Primary Care (ICPC). Denmark: World Organisation of Family Doctors, 1993."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1344",
+  "triples": 8581,
+  "contact_point": {
+    "name": "Henk Lamberts, University of Amsterdam"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-rdf",
+    "format-rrf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 11
+    },
+    {
+      "target": "bioportal-air",
+      "value": 29
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 44
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 49
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 247
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 242
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 28
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 62
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 38
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 17
+    },
+    {
+      "target": "bioportal-fhho",
+      "value": 10
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 68
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 55
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 315
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 440
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 344
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 14
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 700
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 191
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 83
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 1381
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 208
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 250
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 29
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 314
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 56
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 139
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 246
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 65
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 261
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 20
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 25
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 17
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 904
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 35
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 2094
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 65
+    },
+    {
+      "target": "bioportal-sso",
+      "value": 23
+    },
+    {
+      "target": "bioportal-tm-signs-and-sympts",
+      "value": 12
+    },
+    {
+      "target": "bioportal-who",
+      "value": 226
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/40393?apikey=BP_API_KEY"
+    }
+  ]
+}

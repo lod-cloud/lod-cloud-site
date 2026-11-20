@@ -1,0 +1,30 @@
+{
+  "identifier": "OLU",
+  "title": "Open Land Use",
+  "description": {
+    "en": "Open Land Use Map is a composite map that is intended to create detailed land-use maps of various regions based on certain pan-Europen datasets such as CORINE Landcover, UrbanAtlas enriched by available regional data. The dataset is derived from available open datasources at different levels of detail and coverage. These data sources include: 1) Digital cadastral maps if available 2) Land Parcel Identification System if Available 3) Urban Atlas(European Environmental Agency) 4) CORINE Land Cover 2006 (European Environmental Agency) 5) Open Street Map The order of the data sources is according to the level of detail and, therefore, the priority for data integration. The dataset includes agriculture related lands (hilucs_code<200) from Czech, Poland, Spain & for few main cities in Czech Republic (centers of NUTS3 regions), Poland (agglomeration areas from Urban Atlas) and Spain (agglomeration areas from Urban Atlas)"
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/olu/",
+  "triples": 127926060,
+  "image": "https://box.psnc.pl/f/2fd25dfa99/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "Open land use",
+    "land use",
+    "europe",
+    "agriculture",
+    "agglomeration"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

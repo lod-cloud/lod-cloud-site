@@ -1,0 +1,102 @@
+{
+  "identifier": "umbel",
+  "title": "UMBEL (Upper Mapping and Binding Exchange Layer)",
+  "description": {
+    "en": "A lightweight, reference structure of 28,000 subject concepts for the Web. UMBEL is jointly developed and maintained by [Structured Dynamics LLC](http://structureddynamics.com) and [Ontotext AD](http://www.ontotext.com/).\r\n\r\nThere is a total of 46,173 external data links."
+  },
+  "domain": "cross_domain",
+  "website": "http://umbel.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://umbel.org/umbel/",
+  "triples": 478585,
+  "contact_point": {
+    "name": "Michael K Bergman",
+    "email": "mike@mkbergman.com"
+  },
+  "keywords": [
+    "broken_link",
+    "concepts",
+    "crossdomain",
+    "deref-vocab",
+    "format-foaf",
+    "format-lingvoj",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-umbel",
+    "format-vann",
+    "format-vs",
+    "linked-data",
+    "linked-open-data",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-producer",
+    "reference-concepts",
+    "schemata",
+    "subjects",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 257
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 671
+    },
+    {
+      "target": "opencyc",
+      "value": 27917
+    },
+    {
+      "target": "proton",
+      "value": 444
+    },
+    {
+      "target": "wikipedia",
+      "value": 16884
+    }
+  ],
+  "full_download": [
+    {
+      "description": "instantiates all of the reference concepts that belong to UMBEL using the RDF/N3 serialization",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://umbel.googlecode.com/svn/trunk/v100/Reference%20Structure/umbel_reference_concepts_v100.n3"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "describes all of the classes and properties created for the UMBEL Ontology in OWL 2; that is, the basic UMBEL vocabulary and formal specification",
+      "media_type": "meta/owl",
+      "access_url": "http://umbel.googlecode.com/svn/trunk/v100/Ontology/umbel_v100.n3"
+    },
+    {
+      "description": "mapped linkages to PROTON ontology in RDF/N3 serialization",
+      "media_type": "mapping",
+      "access_url": "http://umbel.googlecode.com/svn/trunk/v100/External%20Ontologies/proton.n3"
+    },
+    {
+      "description": "various publicly-available UMBEL Web services",
+      "media_type": "Web services",
+      "access_url": "http://umbel.structureddynamics.com/"
+    },
+    {
+      "description": "mapped linkages to DBpedia ontology in RDF/N3 serialization",
+      "media_type": "mapping/owl",
+      "access_url": "http://umbel.googlecode.com/svn/trunk/v100/External%20Ontologies/dbpediaOntology.n3"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource (Abolutionism)",
+      "media_type": "text/html",
+      "access_url": "http://umbel.org/umbel/rc/Abolitionism"
+    }
+  ]
+}

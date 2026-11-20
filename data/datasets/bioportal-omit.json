@@ -1,0 +1,163 @@
+{
+  "identifier": "bioportal-omit",
+  "title": "Ontology for MicroRNA Target Prediction",
+  "description": {
+    "en": "The purpose of the OMIT ontology is to facilitate the identification and characterization of important roles microRNAs (miRNAs) played in human cancer. To be more specific, it aims to assist cancer biologists in unraveling important roles of miRNAs in human cancer."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1505",
+  "triples": 1610,
+  "contact_point": {
+    "name": "Jingshan Huang"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 10
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 13
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 64
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 35
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 22
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 49
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 32
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 25
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 10
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 10
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 13
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 39
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 26
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 14
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 52
+    },
+    {
+      "target": "bioportal-mpath",
+      "value": 12
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 58
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 16
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 110
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 31
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 40
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 16
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 19
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 38
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 32
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 120
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 12
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 15
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42998?apikey=BP_API_KEY"
+    }
+  ]
+}

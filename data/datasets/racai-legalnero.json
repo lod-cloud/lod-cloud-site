@@ -1,0 +1,46 @@
+{
+  "identifier": "racai-legalnero",
+  "title": "Romanian Named Entity Recognition in the Legal domain (LegalNERo)",
+  "description": {
+    "en": "LegalNERo is a manually annotated corpus for named entity recognition in the Romanian legal domain. \nIt provides gold annotations for organizations, locations, persons, time and legal resources mentioned in legal documents.\nAdditionally it offers GEONAMES codes for the named entities annotated as location (where a link could be established)."
+  },
+  "domain": "cross_domain",
+  "website": "https://doi.org/10.5281/zenodo.4772094",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://racai.ro/legalnero",
+  "triples": 5761781,
+  "doi": "10.5281/zenodo.4772094",
+  "contact_point": {
+    "name": "Vasile Pais",
+    "email": "vasile@racai.ro"
+  },
+  "keywords": [
+    "named entity recognition",
+    "legal domain"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1333
+    }
+  ],
+  "full_download": [
+    {
+      "title": "LegalNERo RDF Turtle",
+      "description": "Direct link to the RDF Turtle format associated with the corpus. The preffered download format is through the Zeonodo platform by using the following DOI url: https://doi.org/10.5281/zenodo.4772094 .",
+      "download_url": "https://relate.racai.ro/resources/legalnero/legalnero.ttl"
+    },
+    {
+      "title": "LegalNERo",
+      "description": "LegalNERo is hosted on the Zenodo platform. The latest version can be accessed using the following DOI url: https://doi.org/10.5281/zenodo.4772094 . This is the preffered way to download the dataset. Apart from the RDF formant, the archive contains raw text files and tokenized CoNLLU-Plus files.",
+      "download_url": "https://doi.org/10.5281/zenodo.4772094"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LegalNERo SPARQL endpoint",
+      "description": "SPARQL endpoint for LegalNERo hosted at RACAI. A query form is available at https://relate.racai.ro/datasets/dataset.html?tab=query&ds=/legalnero",
+      "access_url": "https://relate.racai.ro/datasets/legalnero/query"
+    }
+  ]
+}

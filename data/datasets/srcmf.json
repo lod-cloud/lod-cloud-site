@@ -1,0 +1,67 @@
+{
+  "identifier": "srcmf",
+  "title": "Syntactic Reference Corpus of Medieval French (SRCMF)",
+  "description": {
+    "en": "The SRCMF contains the 15 Old French texts with about 280000 words. It has a high-quality manual annotation, based on a linguistically adequate dependency grammar. Annotation data is provided as RDF/XML. Available export formats are CONLL and TigerXML. The final revision of the texts is ongoing and will be finished by the end of 2013. The project was funded by the Agence Nationale de la Recherche (ANR, France) and the Deutsche Forschungsgemeinschaft (DFG, Germany) 2009-2012."
+  },
+  "triples": 690000,
+  "contact_point": {
+    "name": "Sophie Prévost, Achim Stein",
+    "email": "http://www.lattice.cnrs.fr/Sophie-Prevost,229?lang=fr, http://www.uni-stuttgart.de/lingrom/stein"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "llod",
+    "lod",
+    "lrec-2014",
+    "old-french",
+    "syntax"
+  ],
+  "other_download": [
+    {
+      "title": "description",
+      "access_url": "http://srcmf.org/"
+    },
+    {
+      "title": "licensing",
+      "access_url": "http://srcmf.org/#sec:access"
+    },
+    {
+      "title": "Yvain de Chretien de Troyes (1177-1181)",
+      "access_url": "http://srcmf.org/public/yvainku-rdf.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Vie de Saint Alexis (1050)",
+      "media_type": "application/zip",
+      "access_url": "http://srcmf.org/public/alexis-rdf.zip"
+    },
+    {
+      "title": "Chanson de Roland (1100)",
+      "media_type": "application/zip",
+      "access_url": "http://srcmf.org/public/roland-rdf.zip"
+    },
+    {
+      "title": "Tristan de Beroul (1165 - 1200)",
+      "media_type": "application/zip",
+      "access_url": "http://srcmf.org/public/beroul-rdf.zip"
+    },
+    {
+      "title": "Aucassin et Nicolete (fin 12e/déb. 13e)",
+      "media_type": "application/zip",
+      "access_url": "http://srcmf.org/public/aucassin-rdf.zip"
+    },
+    {
+      "title": "La Conqueste de Constantinople de R. de Clari (1205)",
+      "media_type": "application/zip",
+      "access_url": "http://srcmf.org/public/clari-rdf.zip"
+    },
+    {
+      "title": "Queste del Saint Graal \t(1220)",
+      "media_type": "application/zip",
+      "access_url": "http://srcmf.org/public/qgraal-rdf.zip"
+    }
+  ]
+}

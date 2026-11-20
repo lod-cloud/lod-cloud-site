@@ -1,0 +1,84 @@
+{
+  "identifier": "lobid-organisations",
+  "title": "lobid-organisations",
+  "description": {
+    "en": "lobid-organisation is an Index of libraries and related organisations\r\nIt provides URIs for > 44 k  *library-organisations* and *museums*.The URIs are based on the existing and well established International Standard Identifier for Libraries and Related Organizations (*ISIL*) which can also act as MARC Organization Codes. They are assigned to library institutions by national or institutional agencies. There are ca. **44.000** institutions described.\r\n\r\nYou can find additional information about this data [here](https://wiki1.hbz-nrw.de/pages/viewpage.action?pageId=1572888)."
+  },
+  "domain": "geography",
+  "website": "http://lobid.org/organisation",
+  "namespace": "http://lobid.org/organisation/",
+  "triples": 776735,
+  "contact_point": {
+    "name": "North Rhine-Westphalian Library Service Center",
+    "email": "semweb@hbz-nrw.de"
+  },
+  "keywords": [
+    "addresses",
+    "archive",
+    "authorities",
+    "authority",
+    "format-foaf",
+    "format-geo",
+    "format-geonames",
+    "format-hcard",
+    "format-vcard",
+    "format-xsd",
+    "germany",
+    "library",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "museum",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "organisations",
+    "organizations",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3520
+    },
+    {
+      "target": "dbpedia-de",
+      "value": 1289
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 13253
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://lobid.org/dataset/organisation/about.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (RDFa)",
+      "description": "Example (RDFa)",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://lobid.org/organisation/DE-Wup4"
+    },
+    {
+      "title": "Example (RDF/XML)",
+      "description": "Example (RDF/XML) . Only obtainable through content negotiation:\r\n$ wget --header \"Accept: application/rdf+xml\" http://lobid.org/organisation/DE-Wup4",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://lobid.org/organisation/DE-Wup4"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://lobid.org/sparql/"
+    }
+  ]
+}

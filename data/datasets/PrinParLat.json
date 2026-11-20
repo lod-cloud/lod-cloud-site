@@ -1,0 +1,51 @@
+{
+  "identifier": "PrinParLat",
+  "title": "PrinParLat in LiLa",
+  "description": {
+    "en": "A resource of principal parts of Latin words linked to the LiLa Knowledge Base."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/prinparlat/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/prinparlat",
+  "triples": 1061501,
+  "doi": "10.5281/zenodo.8027826",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Morphology"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 11220
+    }
+  ],
+  "full_download": [
+    {
+      "title": "PrinParLat in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/PrinParLat"
+    }
+  ],
+  "example": [
+    {
+      "title": "Flexeme of abambulare - abambulabit",
+      "description": "The flexeme of two principal parts",
+      "access_url": "http://lila-erc.eu/data/lexicalResources/prinparlat/id/flexeme_a0018_5"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

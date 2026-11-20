@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-spanish-ancora",
+  "title": "Universal Dependencies Treebank Spanish-AnCora",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Spanish-AnCora treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Spanish-AnCora",
+  "triples": 547681,
+  "contact_point": {
+    "name": "Martínez Alonso, Héctor; Zeman, Daniel",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Spanish-AnCora Treebank",
+      "description": "GNU GPL 3.0",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Spanish-AnCora/archive/master.zip"
+    },
+    {
+      "title": "UD_Spanish-AnCora RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/4020fff0-316b-4263-be86-72241c2ff5fa/resource/ca85cd13-29b7-464b-b5ba-9075042b93ad/download/udspanish-ancora.rdf"
+    }
+  ]
+}

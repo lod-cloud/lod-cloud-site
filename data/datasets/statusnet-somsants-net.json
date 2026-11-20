@@ -1,0 +1,94 @@
+{
+  "identifier": "statusnet-somsants-net",
+  "title": "statusnet-somsants-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://somsants.net"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 2
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 2
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 4
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 27
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 3
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-cat",
+      "value": 1
+    },
+    {
+      "target": "wordpress",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://somsants.net/maulet1714/foaf"
+    }
+  ]
+}

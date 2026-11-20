@@ -1,0 +1,103 @@
+{
+  "identifier": "nvs",
+  "title": "NERC Vocabulary Server 2.0",
+  "description": {
+    "en": "The NERC Vocabulary Server provides access to lists of standardised terms that cover a broad spectrum of disciplines of relevance to the oceanographic and wider community.\r\n\r\nUsing standardised sets of terms (otherwise known as \"controlled vocabularies\") in metadata and to label data solves the problem of ambiguities associated with data markup and also enables records to be interpreted by computers. This opens up data sets to a whole world of possibilities for computer aided manipulation, distribution and long term reuse.\r\n\r\nAll of the vocabularies are fully versioned and a permanent record is kept of all changes made."
+  },
+  "domain": "life_sciences",
+  "website": "http://vocab.nerc.ac.uk/",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "http://vocab.nerc.ac.uk/",
+  "triples": 1122000,
+  "contact_point": {
+    "name": "British Oceanographic Data Centre, Natural Environment Research Council, UK",
+    "email": "enquiries@bodc.ac.uk"
+  },
+  "keywords": [
+    "controlled-vocabulary",
+    "earth-science",
+    "environment",
+    "format-dc",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "ocean",
+    "oceanography",
+    "oceans",
+    "provenance-metadata",
+    "published-by-producer",
+    "schemata",
+    "vocabulary"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 470
+    },
+    {
+      "target": "eionet-rdf",
+      "value": 71
+    },
+    {
+      "target": "gemet",
+      "value": 36
+    },
+    {
+      "target": "geonames",
+      "value": 126
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Documentation - HTML (Short)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bodc.ac.uk/products/web_services/vocab/"
+    },
+    {
+      "title": "Documentation - PDF (Full)",
+      "media_type": "application/pdf",
+      "access_url": "http://www.bodc.ac.uk/products/web_services/vocab/documents/nvs2.0_documentation.pdf"
+    },
+    {
+      "title": "VoID Document",
+      "description": "A description of the content of the NERC Vocabulary Server using the W3C's VoID vocabulary.",
+      "access_url": "http://vocab.nerc.ac.uk/.well-known/void"
+    },
+    {
+      "title": "Catalogue of SKOS concept collections",
+      "access_url": "http://vocab.nerc.ac.uk/collection/"
+    },
+    {
+      "title": "Catalogue of SKOS concept schemes",
+      "access_url": "http://vocab.nerc.ac.uk/scheme/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource - SKOS concept",
+      "media_type": "text/turtle",
+      "access_url": "http://vocab.nerc.ac.uk/collection/P01/current/SPMIMEXX/"
+    },
+    {
+      "title": "Example resource - SKOS concept collection",
+      "media_type": "text/turtle",
+      "access_url": "http://vocab.nerc.ac.uk/collection/P08/current/"
+    },
+    {
+      "title": "Example resource - SKOS concept scheme",
+      "media_type": "text/turtle",
+      "access_url": "http://vocab.nerc.ac.uk/scheme/INSPIRE_THEMES/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://vocab.nerc.ac.uk/sparql/"
+    }
+  ]
+}

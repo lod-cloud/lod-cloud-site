@@ -1,0 +1,62 @@
+{
+  "identifier": "eu-who-is-who",
+  "title": "EU Who Is Who",
+  "description": {
+    "en": "Data scraped from [EU Whoiswho](http://europa.eu/whoiswho/public/index.cfm?lang=en), the official directory of the European Union. The dataset contains people, organisations and organisational hierarchy."
+  },
+  "website": "http://whoiswho.publicdata.eu/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://whoiswho.publicdata.eu/data/",
+  "triples": 198786,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "keithalexander@keithalexander.co.uk"
+  },
+  "keywords": [
+    "eu",
+    "eu-institution",
+    "format-dct",
+    "format-foaf",
+    "government",
+    "latc",
+    "lod",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "politics",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "eu-institutions",
+      "value": 3260
+    }
+  ],
+  "full_download": [
+    {
+      "title": "NTriples Data Dump",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "http://whoiswho.publicdata.eu/dump/whoiswho.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID Dataset URI",
+      "access_url": "http://whoiswho.publicdata.eu/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "\"Group of the Progressive Alliance of Socialist and Democrats in the European Parliament\"",
+      "description": "This is an example resource (a political party) from the EU Whoiswho dataset.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://whoiswho.publicdata.eu/data/institutions/1063.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://api.talis.com/stores/whoiswho/services/sparql"
+    }
+  ]
+}

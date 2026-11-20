@@ -1,0 +1,29 @@
+{
+  "identifier": "pdevlemon",
+  "title": "pdevlemon",
+  "description": {
+    "en": "The Pattern Dictionary of English Verbs (PDEV) describes English verbs according to usage patterns found in corpora (British National Corpus) using a technique called Corpus Pattern Analysis, invented by senior lexicographer Patrick Hanks.\r\n\r\nPDEV provides insight into how verbs collocate with nouns and other words using an empirically well-founded apparatus of syntactic and semantic categories. PDEV is a valuable resource for NLP and text processing because it specifies in detail the contextual conditions that determine meaning of a word.\r\n\r\nPDEV is work in progress, created manually by lexicographers, and converted to RDF using the lemon model by Ismail El Maarouf. The RDF resource is called PDEV-lemon and is available under a CC-by-SA licence."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 233372,
+  "contact_point": {
+    "name": "Patrick Hanks, Jane Bradbury, Ismail El Maarouf",
+    "email": "elmaarouf.ismail@yahoo.fr"
+  },
+  "keywords": [
+    "framenet",
+    "lemon",
+    "lexicography",
+    "lexicon",
+    "lexinfo",
+    "linguistics"
+  ],
+  "full_download": [
+    {
+      "title": "PDEV-lemon ntriples v. 1.0",
+      "description": "This is the first release of PDEV-lemon.\r\nPDEV-lemon resources are available as files at http://pdev.org.uk/pdevlemon/ and subdirectories.\r\n\r\nPDEV-Lemon is also available as an archive in the three following formats: RDF-XML (765kb), TURTLE (657kb), and NTRIPLE (1358kb). This resources has also been grouped into 7 main files available online for ease of access:\r\n\r\n    pdev-lemon (9.7mb)\r\n    pdev-lemon-PatSenses (951kb)\r\n    pdev-lemon-structure (14kb)\r\n    pdev-lemon-domain (21kb)\r\n    pdev-lemon-register (8kb)\r\n    pdev-lemon-CPASO (64kb)\r\n    pdev-lemon-CoRoTaxo (132kb)\r\n\r\nPlease see http://pdev.org.uk/PDEVLEMON.html for more details.",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://pdev.org.uk/pdevlemonfiles/pdevlemon.nt.tar.gz"
+    }
+  ]
+}

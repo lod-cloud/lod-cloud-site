@@ -1,0 +1,22 @@
+{
+  "identifier": "http:www.semanticweb.orgambrishontologies202010untitled-ontology-24",
+  "title": "Covid19 Impact on Banking ontology (Covid19-IBO)",
+  "description": {
+    "en": "Covid19 impact on Banking ontology (Covid19-IBO) that provides semantic information about the impact of the Covid-19 on the banking sector of India."
+  },
+  "domain": "cross_domain",
+  "website": "https://github.com/ArchanaPatel92/IBO-Covid19/blob/main/IBO-Covid19Extended.owl",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Archana Patel",
+    "email": "archanamca92@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "Covid19-IBO",
+      "description": "ontology is available  on Github",
+      "download_url": "https://github.com/ArchanaPatel92/IBO-Covid19/blob/main/IBO-Covid19Extended.owl"
+    }
+  ]
+}

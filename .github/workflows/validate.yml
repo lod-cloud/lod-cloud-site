@@ -1,0 +1,49 @@
+name: Validate
+
+# No path filter: a required check that is skipped by a path filter stays
+# "pending" and blocks every pull request that does not touch the data.
+on:
+  pull_request:
+    branches: [main, dev]
+  push:
+    branches: [main, dev]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # For pull requests this is the merge of the PR into its base branch.
+      # Two commits of history are enough: HEAD^1 is the base branch tip, and
+      # the repository history is several GB so a full fetch is avoided.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Validator tests
+        run: python -m unittest discover tests
+
+      # Files changed by the pull request must have no problems at all;
+      # everything else is checked against data/known-issues.json.
+      - name: Validate dataset files (pull request)
+        if: github.event_name == 'pull_request'
+        run: python scripts/validate.py --changed-from HEAD^1 --format github
+
+      - name: Validate dataset files (push)
+        if: github.event_name == 'push'
+        run: python scripts/validate.py --format github

@@ -1,0 +1,30 @@
+{
+  "identifier": "LPIS_(Poland)",
+  "title": "Polish Land Parcel Information System (LPIS) dataset @PSNC",
+  "description": {
+    "en": "Polish Land Parcel Information System (LPIS) data (land parcel and cadastral data), including all the voivodeships. The input data was in the form of geospatial data in shapefile format."
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/open/pl/LPIS/",
+  "triples": 727517039,
+  "image": "https://box.psnc.pl/f/74ce58291c/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "Land use",
+    "Land parcel",
+    "cadastral",
+    "land boundary"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "description": "The dataset can be queried using SPARQL queries from this endpoint.",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

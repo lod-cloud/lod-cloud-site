@@ -1,0 +1,57 @@
+{
+  "identifier": "linked-nuts",
+  "title": "Linked NUTS",
+  "description": {
+    "en": "The present data set contains all the versions of the NUTS statistical regions in linked data format. For the UK the NUTS3 level is further aligned to the local administrative units (or LAU) geography provided by http://statistics.data.gov.uk. \r\n\r\nThe NUTS regions are described along with their temporal validity. Changes in the coding reflect both the changes in the composition of the European Union and the internal reorganization of some areas. Such changes have been extracted by the Eurostat site and represented in linked data format.\r\n\r\nThe regions belonging to the current version of NUTS has additional links to the shape files (geoJson and KML format) describing their phisical extent.\r\n\r\nThe number of links to statistics.data.gov.uk is estimated by assuming 200 NUTS codes in the UK with 50 spacerel:contains links each.\r\n\r\nThe number of triples is estimated as 15 triples for each of the 2000 NUTS codes, plus an extra 10,000 for the spacerel:contains triples in the UK."
+  },
+  "domain": "government",
+  "website": "http://nuts.psi.enakting.org/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://nuts.psi.enakting.org/id/",
+  "triples": 40000,
+  "contact_point": {
+    "name": "Gianluca Correndo",
+    "email": "gc3@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "eurostat",
+    "format-rdf",
+    "geography",
+    "government",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "nuts",
+    "opendatachallenge",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "freebase",
+      "value": 1106
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 10000
+    }
+  ],
+  "example": [
+    {
+      "description": "URI of the RDF/XML document describing the UK",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://nuts.psi.enakting.org/id/UK/rdf"
+    },
+    {
+      "description": "URI of the Turtle document describing the UK",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://nuts.psi.enakting.org/id/UK/ttl"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://nuts.psi.enakting.org/def/NUTSRegion"
+    }
+  ]
+}

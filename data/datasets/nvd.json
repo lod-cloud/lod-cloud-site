@@ -1,0 +1,62 @@
+{
+  "identifier": "nvd",
+  "title": "Norsk inndeling av vitenskapsdisipliner",
+  "description": {
+    "en": "Norwegian classification of scientific disciplines as linked data (2003 edition)."
+  },
+  "domain": "publications",
+  "website": "http://www.ntnu.no/ub/data/nvd/about",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://www.ntnu.no/ub/data/nvd/2003/",
+  "triples": 2114,
+  "contact_point": {
+    "name": "Rurik Thomas Greenall",
+    "email": "rurik.greenall@ub.ntnu.no"
+  },
+  "keywords": [
+    "duplicate-dmoz_rdf_dump",
+    "english",
+    "format-dc",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "library",
+    "linkedopendata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "norwegian",
+    "ontology",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 502
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://www.ntnu.no/ub/data/nvd/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://api.talis.com/stores/nvd/meta?about=http://www.ntnu.no/ub/data/nvd/2003/012&output=rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL",
+      "access_url": "http://api.talis.com/stores/nvd/services/sparql"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "identifier": "bioportal-cco",
+  "title": "Cell Cycle Ontology",
+  "description": {
+    "en": "An application ontology integrating knowledge about the eukaryotic cell cycle."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1507",
+  "triples": 3266342,
+  "contact_point": {
+    "name": "Vladimir Mironov"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 35
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 65
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 1640
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 14
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 70
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 12
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 46
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 13
+    },
+    {
+      "target": "bioportal-chem2bio2owl",
+      "value": 18
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 47
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 229
+    },
+    {
+      "target": "bioportal-dc_cl",
+      "value": 12
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 31
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 14
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 38
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 15
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 78
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 43
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 13727
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 13595
+    },
+    {
+      "target": "bioportal-gro_x1",
+      "value": 19
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 70
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 16
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 11
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 32
+    },
+    {
+      "target": "bioportal-iev",
+      "value": 117
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 3942
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 48
+    },
+    {
+      "target": "bioportal-jerm",
+      "value": 11
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 214
+    },
+    {
+      "target": "bioportal-mao",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mcbcc",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 18
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 257
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 31
+    },
+    {
+      "target": "bioportal-mego",
+      "value": 25
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 1635
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 106
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 817
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 644
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 53
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 5430
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 13
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 12
+    },
+    {
+      "target": "bioportal-nigo",
+      "value": 2743
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 44
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 28
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 979
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 108
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 25
+    },
+    {
+      "target": "bioportal-po",
+      "value": 19
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 19
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 322
+    },
+    {
+      "target": "bioportal-pw",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 83
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 20
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 21
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 126
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 13
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 474
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 24
+    },
+    {
+      "target": "bioportal-spo",
+      "value": 22
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 110
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 26
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 13
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 34
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 23
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42983?apikey=BP_API_KEY"
+    }
+  ]
+}

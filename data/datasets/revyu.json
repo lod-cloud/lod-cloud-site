@@ -1,0 +1,55 @@
+{
+  "identifier": "revyu",
+  "title": "Revyu.com - Review Anything",
+  "description": {
+    "en": "Universal review site. RDF-based API, SPARQL endpoint."
+  },
+  "domain": "user_generated",
+  "website": "http://revyu.com/",
+  "namespace": "http://revyu.com/reviews/",
+  "triples": 20000,
+  "contact_point": {
+    "name": "Tom Heath",
+    "email": "contact@revyu.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-foaf",
+    "format-rdf",
+    "format-rev",
+    "format-tag",
+    "lod",
+    "lodcloud-diagram-2007-05-01",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "reviews",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 29
+    },
+    {
+      "target": "naplesplus",
+      "value": 46
+    }
+  ],
+  "example": [
+    {
+      "description": "Example review (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://revyu.com/reviews/50fe0cce53f0ac2296a540442e45c8bbdb39cb75"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://revyu.com/sparql"
+    }
+  ]
+}

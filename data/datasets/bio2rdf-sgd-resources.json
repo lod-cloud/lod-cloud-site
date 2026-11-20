@@ -1,0 +1,32 @@
+{
+  "identifier": "bio2rdf-sgd-resources",
+  "title": "bio2rdf-sgd-resources",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "deref-vocab",
+    "dump",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "lifesciences",
+    "lodcloud-diagram-2014-08-30",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf",
+      "value": 55
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/sgd_resource:a1b0df4bdb5ff6f190829dbbc63e8a66"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "identifier": "taiwan-geographic-names",
+  "title": "Taiwan geographic names",
+  "description": {
+    "en": "This is a Taiwan geographic name(台灣地名) linked open data service. This service aims to provide a unique ID for linking Taiwan place names."
+  },
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Dongpo Deng",
+    "email": "dongpo.deng@gmail.com"
+  },
+  "keywords": [
+    "format.geonames",
+    "geospatial",
+    "lod",
+    "taiwan",
+    "台灣"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 3000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Taiwan Geographic Name",
+      "description": "This is a Taiwan geographic name linked open data service. This service aims to provide a unique ID for linking Taiwan place names.",
+      "media_type": "RDF",
+      "access_url": "http://pomelo.iis.sinica.edu.tw:2020"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://pomelo.iis.sinica.edu.tw:2020/sparql"
+    }
+  ]
+}

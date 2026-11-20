@@ -1,0 +1,43 @@
+{
+  "identifier": "bioportal-carelex",
+  "title": "CareLex",
+  "description": {
+    "en": "Categories and terms used to classify content (documents, images, etc) in electronic content repositories for life science / BioPharma.  Initial version contains content model for use with clinical trial electronic Trial Master Files or eTMF's.  A Content model contains content classification categories (classes) and metadata properties (data properties).  Metadata Properties are shown as a class for convenience.  In implementation, metadata properties should be assigned to each Content Type.   Instances of Content Types can contain actual content items (documents, etc).   The CareLex Ontology is described in specification published at www.CareLex.org/publications."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3008",
+  "triples": 4140,
+  "contact_point": {
+    "name": "Zack Schmidt"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-ncit",
+      "value": 43
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47410?apikey=BP_API_KEY"
+    }
+  ]
+}

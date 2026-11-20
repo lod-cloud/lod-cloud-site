@@ -1,0 +1,199 @@
+{
+  "identifier": "bioportal-gro_x1",
+  "title": "Cereal plant gross anatomy",
+  "description": {
+    "en": "A structured controlled vocabulary for the anatomy of Gramineae. Please note that this ontology has now been superseded by the <a http://bioportal.bioontology.org/ontologies/1587> Plant Ontology</a>."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1001",
+  "triples": 40081,
+  "contact_point": {
+    "name": "Plant Ontology Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-biomodels",
+      "value": 25
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 160
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 974
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 19
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 59
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 918
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 970
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 109
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 36
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 26
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 17
+    },
+    {
+      "target": "bioportal-fbcv",
+      "value": 900
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 35
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 22
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 22
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 21
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 904
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 55
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 86
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 67
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 44
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 1002
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 23
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 902
+    },
+    {
+      "target": "bioportal-po",
+      "value": 1162
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 1277
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 23
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 19
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 955
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 902
+    },
+    {
+      "target": "bioportal-soy",
+      "value": 16
+    },
+    {
+      "target": "bioportal-spto",
+      "value": 281
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 22
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 15
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 13
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 33
+    },
+    {
+      "target": "bioportal-zea",
+      "value": 63
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 13
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47255?apikey=BP_API_KEY"
+    }
+  ]
+}

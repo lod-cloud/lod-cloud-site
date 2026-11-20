@@ -1,0 +1,52 @@
+{
+  "identifier": "gene-expression-atlas-rdf",
+  "title": "Gene Expression Atlas RDF",
+  "description": {
+    "en": "The Gene Expression Atlas RDF provides information on gene expression patterns under different biological conditions. Gene expression data is re-analysed in-house to detect genes showing interesting baseline and differential expression patterns."
+  },
+  "domain": "life_sciences",
+  "namespace": "http://rdf.ebi.ac.uk/resource/atlas/",
+  "triples": 447149547,
+  "contact_point": {
+    "name": "Samples Phenotypes and Ontologies Team"
+  },
+  "keywords": [
+    "experimental factor ontology",
+    "functional genomics",
+    "gene expression",
+    "lifesciences",
+    "linked data",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "identifiers.org",
+      "value": 559805
+    },
+    {
+      "target": "uniprotkb",
+      "value": 453390
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoiD file",
+      "access_url": "http://rdf.ebi.ac.uk/dataset/atlas"
+    },
+    {
+      "title": "Download",
+      "access_url": "ftp://ftp.ebi.ac.uk/pub/databases//microarray/data/gxa/rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://www.ebi.ac.uk/rdf/services/atlas/sparql"
+    }
+  ]
+}

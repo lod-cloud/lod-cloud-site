@@ -1,0 +1,44 @@
+{
+  "identifier": "WordFormationLatin",
+  "title": "Word Formation Latin (WFL) in LiLa",
+  "description": {
+    "en": "Word Formation Latin is a derivational lexicon for Latin. This dataset is linked to the LiLa Knowledge Base"
+  },
+  "domain": "linguistics",
+  "website": "https://lila-erc.eu/data/lexicalResources/WFL/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/WFL",
+  "triples": 508372,
+  "doi": "10.5281/zenodo.1492326",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Derivational Morphology"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 41787
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Word Formation Latin (WFL) in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization), but they are also available as SQL dump of a relational database",
+      "download_url": "https://github.com/CIRCSE/WFL"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

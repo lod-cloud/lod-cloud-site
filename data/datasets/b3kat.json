@@ -1,0 +1,106 @@
+{
+  "identifier": "b3kat",
+  "title": "B3Kat - Library Union Catalogues of Bavaria, Berlin and Brandenburg",
+  "description": {
+    "en": "Joint Union Catalogue of 200 academic libraries in the german states of Bavaria, Berlin and Brandenburg. The data contains descriptions of 28Mio. titles and 69Mio. holdings available in these libraries. The available data dump in Turtle is approx. 9GB."
+  },
+  "domain": "publications",
+  "website": "http://lod.b3kat.de",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://lod.b3kat.de/title/",
+  "triples": 1022898443,
+  "contact_point": {
+    "name": "Bavarian State Library, Bavarian Library Union, Cooperative Library Network Berlin-Brandenburg",
+    "email": "lod@bsb-muenchen.de"
+  },
+  "keywords": [
+    "bavaria",
+    "berlin",
+    "bibliographic",
+    "brandenburg",
+    "format-bibo",
+    "format-dc",
+    "format-dcterms",
+    "germany",
+    "government",
+    "library",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "published-by-producer",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "dewey_decimal_classification",
+      "value": 3655789
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 74722718
+    },
+    {
+      "target": "lobid-resources",
+      "value": 34624
+    }
+  ],
+  "other_download": [
+    {
+      "title": "B3Kat - Dataset Download-Page",
+      "description": "Data Dump: Download the complete dataset in Turtle-Format.",
+      "access_url": "http://lod.b3kat.de/download"
+    },
+    {
+      "title": "voiD description",
+      "description": "VoiD dataset description for B3Kat",
+      "access_url": "http://lod.b3kat.de/.well-known/void"
+    },
+    {
+      "title": "Download - Part 0",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.b3kat.de/download/lod.b3kat.de.part0.ttl.gz"
+    },
+    {
+      "title": "Download - Part 1",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.b3kat.de/download/lod.b3kat.de.part1.ttl.gz"
+    },
+    {
+      "title": "Download - Part 2",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.b3kat.de/download/lod.b3kat.de.part2.ttl.gz"
+    },
+    {
+      "title": "Download - Part 3",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.b3kat.de/download/lod.b3kat.de.part3.ttl.gz"
+    },
+    {
+      "title": "Download - Part 4",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.b3kat.de/download/lod.b3kat.de.part4.ttl.gz"
+    },
+    {
+      "title": "Download - Part 5",
+      "media_type": "text/turtle",
+      "access_url": "http://lod.b3kat.de/download/lod.b3kat.de.part5.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource",
+      "description": "Link to an example resource in Turtle format",
+      "media_type": "example/turtle",
+      "access_url": "http://lod.b3kat.de/data/title/BV000023809"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "B3Kat SPARQL-Endpoint",
+      "access_url": "http://lod.b3kat.de/sparql"
+    }
+  ]
+}

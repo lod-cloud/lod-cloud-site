@@ -1,0 +1,89 @@
+{
+  "identifier": "rkb-explorer-lisbon",
+  "title": "Fundação da Faculdade de Ciencas da Universidade de Lisboa (RKBExplorer)",
+  "description": {
+    "en": "This repository contains data supplied from Fundação da Faculdade de Ciencas da Universidade de Lisboa."
+  },
+  "domain": "publications",
+  "website": "http://lisbon.rkbexplorer.com",
+  "namespace": "http://lisbon.rkbexplorer.com/id/",
+  "triples": 32737,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-italy",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 6
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://lisbon.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://lisbon.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lisbon.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lisbon.rkbexplorer.com/id/person-01007"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://lisbon.rkbexplorer.com/sparql"
+    }
+  ]
+}

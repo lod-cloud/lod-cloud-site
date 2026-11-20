@@ -1,0 +1,38 @@
+{
+  "identifier": "rubentaelman",
+  "title": "Ruben Taelman's Data",
+  "description": {
+    "en": "Personal website of Ruben Taelman annotated with RDFa."
+  },
+  "website": "https://github.com/rubensworks/rubensworks.net",
+  "namespace": "http://www.rubensworks.net/",
+  "triples": 45,
+  "contact_point": {
+    "email": "ruben.taelman@ugent.be"
+  },
+  "keywords": [
+    "lod",
+    "personal"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2
+    },
+    {
+      "target": "npm",
+      "value": 1
+    },
+    {
+      "target": "rubenverborgh",
+      "value": 4
+    }
+  ],
+  "other_download": [
+    {
+      "title": "www.rubensworks.net",
+      "description": "Website annotated with RDFa",
+      "access_url": "http://www.rubensworks.net/"
+    }
+  ]
+}

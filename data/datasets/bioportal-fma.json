@@ -1,0 +1,51 @@
+{
+  "identifier": "bioportal-fma",
+  "title": "Foundational Model of Anatomy",
+  "description": {
+    "en": "FMA is a domain ontology that represents a coherent body of explicit declarative knowledge about human anatomy. The description of how this OWL version was generated is in \"Pushing the Envelope: Challenges in a Frame-Based Representation of Human Anatomy\" by N. F. Noy, J. L. Mejino, C. Rosse, M. A. Musen: \nhttp://bmir.stanford.edu/publications/view.php/pushing_the_envelope_challenges_in_a_frame_based_representation_of_human_anatomy"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1053",
+  "triples": 1714653,
+  "contact_point": {
+    "name": "Onard Mejino"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-ma",
+      "value": 881
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 442
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 240
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44507?apikey=BP_API_KEY"
+    }
+  ]
+}

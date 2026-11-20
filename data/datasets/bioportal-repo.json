@@ -1,0 +1,59 @@
+{
+  "identifier": "bioportal-repo",
+  "title": "Reproductive trait and phenotype ontology",
+  "description": {
+    "en": "Ontology for livestock reproductive traits and phenotypes"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1552",
+  "triples": 793,
+  "contact_point": {
+    "name": "Wageningen UR Livestock Research"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 17
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 11
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 21
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 17
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46386?apikey=BP_API_KEY"
+    }
+  ]
+}

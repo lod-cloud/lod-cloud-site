@@ -1,0 +1,40 @@
+{
+  "identifier": "statusnet-sweetiebelle-net",
+  "title": "statusnet-sweetiebelle-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://sweetiebelle.net"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 5
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 120
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html",
+      "access_url": "http://micro.sweetiebelle.net/awlderpy/foaf"
+    }
+  ]
+}

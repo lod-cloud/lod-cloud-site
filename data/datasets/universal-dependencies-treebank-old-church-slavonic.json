@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-old-church-slavonic",
+  "title": "Universal Dependencies Treebank Old_Church_Slavonic",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Old_Church_Slavonic treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Old_Church_Slavonic",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 57507,
+  "contact_point": {
+    "name": "Haug, Dag"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Old_Church_Slavonic Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Old_Church_Slavonic/archive/master.zip"
+    },
+    {
+      "title": "UD_Old_Church_Slavonic RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/8e1b3a4f-9f5f-4f8c-8ad7-9599e0bc85c0/resource/08f808b5-e5da-444e-8702-ee2cac1bf059/download/udoldchurchslavonic.rdf"
+    }
+  ]
+}

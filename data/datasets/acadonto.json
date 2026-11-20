@@ -1,0 +1,28 @@
+{
+  "identifier": "acadonto",
+  "title": "AcadOnto",
+  "description": {
+    "en": "An academic domain ontology populated using IIT Bombay organization corpus, web and the linked open data. \r\n\r\nUsage: Information Extraction, Information Retrieval\t\r\n\r\nAvailability: Freely Avalable"
+  },
+  "triples": 150000,
+  "keywords": [
+    "english",
+    "information-extraction",
+    "llod",
+    "lod",
+    "lrec-2014",
+    "ontology"
+  ],
+  "other_download": [
+    {
+      "title": "LREC Share your resources data submission",
+      "media_type": "application/x-gzip",
+      "access_url": "http://www.resourcebook.eu/shareyourlr/data/LREC_251_res_1.gz"
+    },
+    {
+      "title": "LREC Share your resources data submission",
+      "media_type": "application/x-gzip",
+      "access_url": "http://www.resourcebook.eu/shareyourlr/data/LREC_251_res_1.gz"
+    }
+  ]
+}

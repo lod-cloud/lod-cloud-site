@@ -1,0 +1,53 @@
+{
+  "identifier": "FLUS",
+  "title": "Future land use simulation model",
+  "description": {
+    "en": "The newly proposed FLUS model is an integrated model for multi-type land use scenario simulations by coupling human and natural effects. At the same time, the spatial simulation module of the FLUS model was made into GUI software named GeoSOS-FLUS . The GeoSOS-FLUS was developed as an extension of the previous GeoSOS software to facilitate the multiple land use change simulations. The software provides a multiple CA allocation model for simulating land use change and scenario analysis."
+  },
+  "domain": "geography",
+  "website": "https://geosimulation.cn/FLUS.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "FLUS",
+    "Land use"
+  ],
+  "other_download": [
+    {
+      "title": "2010 Gross Domestic Product",
+      "description": "InputData",
+      "access_url": "http://www.resdc.cn"
+    },
+    {
+      "title": "National land use data with 30m resolution from 2000 to 2010",
+      "description": "InputData",
+      "access_url": "http://www.resdc.cn"
+    },
+    {
+      "title": "DEM data for 2000",
+      "description": "InputData",
+      "access_url": "http://www.worldclim.org/"
+    },
+    {
+      "title": "Average annual temperature 2010-2050",
+      "description": "InputData",
+      "media_type": "data",
+      "access_url": "http://cera-www.dkrz.de/WDCC/"
+    },
+    {
+      "title": "A future land use simulation model (FLUS) for simulating multiple land use scenarios by coupling human and natural effects",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://www.sciencedirect.com/science/article/pii/S0169204617302396?via%3Dihub"
+    },
+    {
+      "title": "Future land use simulation model code",
+      "description": "ImplementedByAlgorithm",
+      "access_url": "http://geosimulation.cn/FLUS-source-code.html"
+    }
+  ]
+}

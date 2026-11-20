@@ -1,0 +1,63 @@
+{
+  "identifier": "mexico",
+  "title": "MExiCo",
+  "description": {
+    "en": "MExiCo (short for \"Multimodal Experiment Corpora\") is a data model for data collections containing multimodal linguistic and interaction annotations."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 305,
+  "contact_point": {
+    "name": "Peter Menke",
+    "email": "pmenke@TechFak.Uni-Bielefeld.DE"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-prov",
+    "format-rdf",
+    "format-xsd",
+    "general ontology of linguistic description",
+    "linguistics",
+    "lod",
+    "published-by-producer",
+    "rdf",
+    "schemata"
+  ],
+  "links": [
+    {
+      "target": "isocat",
+      "value": 10
+    },
+    {
+      "target": "metashare",
+      "value": 5
+    },
+    {
+      "target": "olia",
+      "value": 5
+    },
+    {
+      "target": "provenanceweb",
+      "value": 3
+    }
+  ],
+  "other_download": [
+    {
+      "title": "MExiCo data model, RDF (Turtle) representation",
+      "description": "RDF representation of the central classes and relations of the MExiCo data model.",
+      "media_type": "text/turtle",
+      "access_url": "http://data.sfb673.org/mexico/mexico-1.0.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "MExiCo corpus example",
+      "description": "Example of a corpus modelled in MExiCo using RDF",
+      "media_type": "example/turtle",
+      "access_url": "http://data.sfb673.org/mexico/mexico-example.ttl"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "identifier": "rkb-explorer-darmstadt",
+  "title": "Technische Universität Darmstadt (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://darmstadt.rkbexplorer.com",
+  "namespace": "http://darmstadt.rkbexplorer.com/id/",
+  "triples": 35325,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud.unconnected",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 7
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://darmstadt.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://darmstadt.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://darmstadt.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://darmstadt.rkbexplorer.com/id/person-1248337cae47063dccb9e5eea87baccc"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://darmstadt.rkbexplorer.com/sparql/"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "identifier": "ERAKG",
+  "title": "Railway Infrastructure KG",
+  "description": {
+    "en": "Register of Infrastructure (RINF) Knowledge graph. \n It enables the Search of information regarding the characteristics and capabilities of operational points and sections of lines that belong to the static rail network, and the Route Compatibility Check (RCC) where the objective is to check if a certain railway vehicle can travel the route between two operational points. Vehicle type information is originated from the European Registry Authorized Type of Vehicle (ERATV)."
+  },
+  "domain": "government",
+  "website": "https://data-interop.era.europa.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.europa.eu/949/",
+  "triples": 47246936,
+  "contact_point": {
+    "name": "Ghislain Atemezing",
+    "email": "ghislain.atemezing@era.europa.eu"
+  },
+  "keywords": [
+    "Railways",
+    "Infrastructure",
+    "ERA"
+  ],
+  "example": [
+    {
+      "title": "Charleroi-Central station (Belgium)",
+      "description": "Turtle representation of an operational point in Belgium",
+      "access_url": "https://prod.virtuoso.ecdp.tech.ec.europa.eu/sparql/?default-graph-uri=&query=DESCRIBE+%3Chttp%3A%2F%2Fdata.europa.eu%2F949%2FfunctionalInfrastructure%2FoperationalPoints%2F39404d70074c8bd8318acd326ebd6557bc321819%3E%0D%0A&format=application%2Fx-nice-turtle&timeout=0&signal_void=on&signal_unconnected=on"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ERA KG endpoint",
+      "description": "Access to the RINF KG",
+      "access_url": "https://prod.virtuoso.ecdp.tech.ec.europa.eu/sparql"
+    }
+  ]
+}

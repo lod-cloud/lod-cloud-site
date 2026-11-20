@@ -1,0 +1,67 @@
+{
+  "identifier": "colinda",
+  "title": "COLINDA - Conference Linked Data",
+  "description": {
+    "en": "COLINDA -COnference LInked DAta \r\nThis data set is linked to GeoNames, DBPedia and DBLP (L3S).\r\nIncludes information about scientific conferences and their location including start and end times"
+  },
+  "domain": "publications",
+  "website": "http://colinda.org",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://colinda.org/resource/",
+  "triples": 149020,
+  "contact_point": {
+    "name": "Selver Softic",
+    "email": "softic.s@gmail.com"
+  },
+  "keywords": [
+    "conferences",
+    "crossdomain",
+    "deref-vocab",
+    "format-geo",
+    "format-geonames",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-swrc",
+    "locations",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "geonames",
+      "value": 10492
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download  Link (RDF Data)",
+      "description": "COLINDA RDF Dump",
+      "media_type": "RDF",
+      "access_url": "http://data.colinda.org/rdf-dump/COLINDA.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Sample conference",
+      "description": "Example (RDF/XML)",
+      "media_type": "\"application/rdf+xml\"",
+      "access_url": "http://colinda.org/resource/conference/WWW/2012"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint 1",
+      "description": "SPARQL endpoint 1",
+      "access_url": "http://colinda.org/endpoint.php"
+    },
+    {
+      "title": "SPARQL enpdoint 2",
+      "description": "SPARQL enpdoint 2",
+      "access_url": "http://data.colinda.org/endpoint.php"
+    }
+  ]
+}

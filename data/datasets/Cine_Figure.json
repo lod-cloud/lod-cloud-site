@@ -1,0 +1,41 @@
+{
+  "identifier": "Cine_Figure",
+  "title": "Cine Figure",
+  "description": {
+    "en": "Indian publication house"
+  },
+  "domain": "publications",
+  "website": "https://cinefigure.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "Cine Figure",
+  "triples": 0,
+  "image": "https://en.cinefigure.com/images/official/logo.svg",
+  "contact_point": {
+    "name": "Avinash Kumar",
+    "email": "dev@cinefigure.com"
+  },
+  "keywords": [
+    "Cine Figure"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 1
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Media",
+      "description": "Official Verified media file",
+      "media_type": "Jpg, PNG, MP3 and webm",
+      "access_url": "https://en.cinefigure.com/wiki/Special:AllPages?from=&to=&namespace=6"
+    }
+  ],
+  "example": [
+    {
+      "title": "Biography",
+      "description": "Free to share with all:",
+      "access_url": "https://en.cinefigure.com/wiki/Cine_Figure:Biography"
+    }
+  ]
+}

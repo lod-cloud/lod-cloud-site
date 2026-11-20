@@ -1,0 +1,65 @@
+{
+  "identifier": "portuguese_prisons_releases",
+  "title": "Synthetic Portuguese prisons releases Jan 2018 - Dec 2023",
+  "description": {
+    "en": "Semantically annotated data conforming to the RRAO ontology (http://w3id.org/rrao#), originated from the generated data related to Portuguese prison releases (n=29745) of imprisoned persons from January 2018 up until December 2023. The sources of the information for the synthetic Portuguese dataset are the Instituto Nacional de Estatística (Statistics Portugal) and the DGRSP. That information comes in the form of several “base dados”, each of which reports a number of attributes, combinations between values of these attributes, and the corresponding total counts of prisoners."
+  },
+  "domain": "government",
+  "website": "https://fair-presons.aegean.gr/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://w3id.org/rrao",
+  "triples": 892527,
+  "doi": "10.5281/zenodo.15754844",
+  "contact_point": {
+    "name": "Sotiris Angelis",
+    "email": "sotiris@aegean.gr"
+  },
+  "keywords": [
+    "releases",
+    "imprisoned persons",
+    "correctional facility",
+    "recidivism"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 2
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Synthetic Portuguese prisons releases Jan 2018 - Dec 2023",
+      "description": "Fuseki2 Server dataset download",
+      "media_type": "text/turtle",
+      "download_url": "http://ct-e-justice.aegean.gr:3030/pt-prison-releases/data"
+    },
+    {
+      "title": "Synthetic Portuguese prisons releases Jan 2018 - Dec 2023",
+      "download_url": "https://i-lab.aegean.gr/kotis/Ontologies/RRAO/Synthetic%20Portuguese%20prisons%20releases%20Jan%202018%20-%20Dec%202023.ttl"
+    },
+    {
+      "title": "Synthetic Portuguese prisons releases Jan 2018 - Dec 2023",
+      "description": "Zenodo publication",
+      "download_url": "https://zenodo.org/records/15754844?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjNhMGMxMWM3LTYxZWItNDkyMS1hYTJmLWFmNmE1ODUzNmY2NyIsImRhdGEiOnt9LCJyYW5kb20iOiIzZTllNmJiMTRiMmUzZDU4NWIxZWRiYTU3MGM3MDY1MiJ9.CgaLOXvxSupFrxKo8W7JkFPIaPWrdHmJuGG_LhaTzXPcdiWCaJxGJZAA8__9JDph_OyWQb5zgtHo4oz0jmnzMg"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DCAT daset description on data.europa.eu",
+      "access_url": "https://data.europa.eu/api/hub/repo/datasets/portuguese-prisons-releases-jan-2018-dec-2023.ttl?useNormalizedId=true&locale=en"
+    }
+  ],
+  "example": [
+    {
+      "title": "Synthetic Portuguese prisons releases example",
+      "access_url": "https://i-lab.aegean.gr/kotis/Ontologies/RRAO/portuguese%20prison%20releases%20example.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "FAIR-PReSONS SPARQL endpoint",
+      "description": "Fuseki2 Server",
+      "access_url": "http://ct-e-justice.aegean.gr:3030/pt-prison-releases/sparql"
+    }
+  ]
+}

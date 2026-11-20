@@ -1,0 +1,207 @@
+{
+  "identifier": "bioportal-mpath",
+  "title": "Mouse pathology",
+  "description": {
+    "en": "A structured controlled vocabulary of mutant and transgenic mouse pathology phenotypes"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1031",
+  "triples": 9413,
+  "contact_point": {
+    "name": "Mouse_pathology Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 23
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 101
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 17
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 132
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 170
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 88
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 20
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 228
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 109
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 65
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 86
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 11
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 10
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 15
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 114
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 33
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 49
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 35
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 10
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 101
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 28
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 204
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 255
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 61
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 575
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 109
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 306
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 193
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 543
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 229
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 221
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 24
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 170
+    },
+    {
+      "target": "bioportal-omit",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 88
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 29
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 286
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 226
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 867
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 107
+    },
+    {
+      "target": "bioportal-who",
+      "value": 77
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46448?apikey=BP_API_KEY"
+    }
+  ]
+}

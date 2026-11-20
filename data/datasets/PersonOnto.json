@@ -1,0 +1,15 @@
+{
+  "identifier": "PersonOnto",
+  "title": "Ontology of University People",
+  "description": {
+    "en": "The ontology contains a hierarchy of people in a university, lecturers and students. Some properties associated with them like which subject they teach or study etc."
+  },
+  "domain": "user_generated",
+  "website": "http://www.semanticweb.org/user/ontologies/2020/0/untitled-ontology-30",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Shripriya Dubey",
+    "email": "shriya2021@gmail.com"
+  }
+}

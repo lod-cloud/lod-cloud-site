@@ -1,0 +1,54 @@
+{
+  "identifier": "foodpedia",
+  "title": "FOODpedia - Linked Data Dataset about Food Products and Ingredients",
+  "description": {
+    "en": "At this moment FOODpedia contains information about only Russian food products and ingredients that was crawled from [GoodsMatrix](http://goodsmatrix.ru/) web site. Also it has links to ingredients from [AGROVOC](http://datahub.io/dataset/agrovoc-skos)."
+  },
+  "website": "http://foodpedia.tk",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://foodpedia.tk/resource/",
+  "triples": 888223,
+  "contact_point": {
+    "name": "Maxim Kolchin",
+    "email": "kolchinmax@gmail.com"
+  },
+  "keywords": [
+    "food",
+    "format-rdf",
+    "ingredients",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "agrovoc",
+      "value": 426
+    },
+    {
+      "target": "dbpedia",
+      "value": 823
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example food product (Turtle)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://foodpedia.tk/resource/4601242311914?output=ttl"
+    },
+    {
+      "title": "Homepage",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://foodpedia.tk/"
+    },
+    {
+      "title": "Example food product (HTML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://foodpedia.tk/page/4601242311914"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://foodpedia.tk/sparql"
+    }
+  ]
+}

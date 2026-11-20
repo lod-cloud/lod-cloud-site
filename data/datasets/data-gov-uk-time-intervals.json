@@ -1,0 +1,69 @@
+{
+  "identifier": "data-gov-uk-time-intervals",
+  "title": "data.gov.uk Time Intervals",
+  "description": {
+    "en": "Linked data for every time interval and instant into the past and future, from years down to seconds. This is an infinite set of linked data. It includes government years and properly handles the transition to the Gregorian calendar within the UK.\r\n\r\nPart of package:reference-data-gov-uk"
+  },
+  "domain": "government",
+  "website": "http://www.epimorphics.com/web/wiki/using-interval-set-uris-statistical-data",
+  "namespace": "http://reference.data.gov.uk/id/",
+  "triples": 1000000000,
+  "contact_point": {
+    "name": "Stuart Williams (Epimorphics Ltd)"
+  },
+  "keywords": [
+    "country-uk",
+    "dates",
+    "days",
+    "deref-vocab",
+    "format-foaf",
+    "format-skos",
+    "format-time",
+    "government",
+    "instants",
+    "intervals",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud.nolinks",
+    "months",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "quarters",
+    "times",
+    "uk",
+    "ukgov",
+    "weeks",
+    "years"
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://reference.data.gov.uk/def/intervals"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example Gregorian interval",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reference.data.gov.uk/id/gregorian-interval/1977-11-01T12:22:45/P2Y1MT1H6S"
+    },
+    {
+      "description": "Example year",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reference.data.gov.uk/id/year/2010"
+    },
+    {
+      "description": "Example day",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reference.data.gov.uk/id/day/2010-09-06"
+    },
+    {
+      "description": "Example government year",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://reference.data.gov.uk/id/government-year/2010-2011"
+    }
+  ]
+}

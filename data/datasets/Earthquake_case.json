@@ -1,0 +1,50 @@
+{
+  "identifier": "Earthquake_case",
+  "title": "ESO",
+  "description": {
+    "en": "Past Earthquake case detail"
+  },
+  "domain": "geography",
+  "website": "https://github.com/sonia04021991/earthquake-KG",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 20,
+  "contact_point": {
+    "name": "sonia mehla",
+    "email": "soniamehla_6160014@nitkkr.ac.in"
+  },
+  "keywords": [
+    "earthquake",
+    "casualties",
+    "location",
+    "injured",
+    "death"
+  ],
+  "links": [
+    {
+      "target": "Earthquake",
+      "value": 3
+    },
+    {
+      "target": "dbpedia",
+      "value": 6
+    },
+    {
+      "target": "freebase",
+      "value": 3
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Earthquake case ontology",
+      "description": "https://github.com/sonia04021991/earthquake-KG",
+      "download_url": "https://github.com/sonia04021991/earthquake-KG/blob/main/earthquake.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql endpoint",
+      "description": "Sparql endpoint",
+      "access_url": "https://www.orpha.net/sparql"
+    }
+  ]
+}

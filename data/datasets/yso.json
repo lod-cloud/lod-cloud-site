@@ -1,0 +1,56 @@
+{
+  "identifier": "yso",
+  "title": "YSO - General Finnish Ontology",
+  "description": {
+    "en": "General Finnish Ontology YSO is a trilingual ontology consisting mainly of general concepts. YSO has been founded on the basis of concepts in Finnish cultural sphere. As an indexing tool it is best applicable when indexed material is interdiscliplinary and its themes vary to a great extent."
+  },
+  "domain": "publications",
+  "website": "http://finto.fi/yso/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.yso.fi/onto/yso/",
+  "triples": 570000,
+  "contact_point": {
+    "name": "Finto service",
+    "email": "finto-posti@helsinki.fi"
+  },
+  "keywords": [
+    "library",
+    "publications",
+    "thesaurus",
+    "multilingual",
+    "ontology",
+    "finland",
+    "format-skos",
+    "format-dc",
+    "lld",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "lcsh",
+      "value": 14000
+    },
+    {
+      "target": "ysa",
+      "value": 29400
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Turtle dump",
+      "download_url": "http://finto.fi/rest/v1/yso/data?format=text/turtle"
+    },
+    {
+      "title": "RDF/XML dump",
+      "download_url": "http://finto.fi/rest/v1/yso/data?format=application/rdf%2Bxml"
+    }
+  ],
+  "example": [
+    {
+      "title": "linked open data",
+      "description": "The concept for \"linked open data\"",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://www.yso.fi/onto/yso/p26001"
+    }
+  ]
+}

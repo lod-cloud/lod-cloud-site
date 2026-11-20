@@ -1,0 +1,147 @@
+{
+  "identifier": "bioportal-sep",
+  "title": "Sample processing and separation techniques",
+  "description": {
+    "en": "A structured controlled vocabulary for the annotation of sample processing and separation techniques in scientific experiments, such as, and including, gel electrophoresis, column chromatography, capillary electrophoresis, centrifugation and so on. Developed jointly by the HUPO Proteomics Standards Initiative and The Metabolomics Standards Initiative."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1044",
+  "triples": 2931,
+  "contact_point": {
+    "name": "SEP developers"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aero",
+      "value": 13
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 12
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 16
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 10
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 14
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 25
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 17
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 23
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 15
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 22
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 114
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 13
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 25
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 11
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 28
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 14
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 19
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 34
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/39509?apikey=BP_API_KEY"
+    }
+  ]
+}

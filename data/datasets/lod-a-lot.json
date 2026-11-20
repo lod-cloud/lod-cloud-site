@@ -1,0 +1,43 @@
+{
+  "identifier": "lod-a-lot",
+  "title": "LOD-a-lot",
+  "description": {
+    "en": "# A Queryable Dump of the LOD Cloud \r\n\r\nLOD-a-lot democratizes the access to the Linked Open Data (LOD) Cloud by serving more than 28 billion unique triples from 650K datasets over a single self-indexed file. This corpus can be queried online with a sustainable Linked Data Fragments interface, or downloaded and consumed locally: LOD-a-lot is easy to deploy and demands affordable resources (524 GB of disk space and 15.7 GB of RAM), enabling Webscale repeatable experimentation and research even by standard laptops."
+  },
+  "website": "http://lod-a-lot.lod.labs.vu.nl/about/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "triples": 28362198927,
+  "contact_point": {
+    "name": "Javier D. Fernández, Wouter Beek, Miguel A. Martínez-Prieto,  Mario Arias",
+    "email": "javier.fernandez@wu.ac.at"
+  },
+  "keywords": [
+    "lod"
+  ],
+  "other_download": [
+    {
+      "title": "HDT dump",
+      "description": "Dump in compressed HDT format",
+      "media_type": "application/octet-stream",
+      "access_url": "http://lod-a-lot.lod.labs.vu.nl/data/LOD_a_lot_v1.hdt"
+    },
+    {
+      "title": "HDT index dump",
+      "description": "The HDT-FoQ index to query all SPARQL triple patterns (requires the HDT dump)",
+      "media_type": "application/octet-stream",
+      "access_url": "http://lod-a-lot.lod.labs.vu.nl/data/LOD_a_lot_v1.hdt.index.v1-1"
+    },
+    {
+      "title": "VOID description",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/6c9ea600-1c75-4f81-b245-45563c5190e8/resource/9d3820b2-f6ae-445d-a546-81dd54b90986/download/void.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "description": "Linked Data Fragments Endpoint",
+      "access_url": "https://hdt.lod.labs.vu.nl/?g=LOD-a-lot"
+    }
+  ]
+}

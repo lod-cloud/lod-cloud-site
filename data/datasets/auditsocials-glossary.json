@@ -1,0 +1,53 @@
+{
+  "identifier": "auditsocials-glossary",
+  "title": "AuditSocials Social Media Advertising Compliance Glossary",
+  "description": {
+    "en": "A SKOS vocabulary of 213 social media advertising and platform-policy compliance terms across 7 categories (platform policy, legal/regulatory, ad-tech metrics, content/creative, privacy/data, industry-specific, enforcement/risk)."
+  },
+  "domain": "social_networking",
+  "website": "https://www.auditsocials.com/knowledge/glossary",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://w3id.org/auditsocials/glossary/",
+  "triples": 2292,
+  "doi": "10.5281/zenodo.20458599",
+  "image": "https://www.auditsocials.com/logo.webp",
+  "contact_point": {
+    "name": "Emine Gürcü",
+    "email": "emine@auditsocials.com"
+  },
+  "keywords": [
+    "glossary",
+    "vocabulary",
+    "SKOS",
+    "social media advertising",
+    "platform policy",
+    "advertising compliance",
+    "ad-tech",
+    "content moderation",
+    "privacy",
+    "GDPR",
+    "DSA",
+    "enforcement",
+    "regulatory technology",
+    "taxonomy"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Full download",
+      "download_url": "https://www.auditsocials.com/glossary/skos.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "https://w3id.org/auditsocials/glossary/platform-policy"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "identifier": "pleiades",
+  "title": "Pleiades",
+  "description": {
+    "en": "Pleiades is a gazetteer for ancient world studies operated by NYU's Institute for the Study of the Ancient World and supported by the US National Endowment for the Humanities. It is derived originally from the Barrington Atlas of the Greek and Roman World and continually adds new resources. Features include:\r\n\r\n * 31,000+ ancient places\r\n * 26,000+ ancient names and name variants with time periods\r\n * 31,000+ ancient locations\r\n * Permanent, cool URIs for these resources (http://pleiades.stoa.org/places/912910 for example)\r\n * Maps and KML, GeoJSON, Turtle and RDF+XML variants of resources (http://pleiades.stoa.org/news/recently-modified.kml for example)\r\n * Spatial search\r\n * Daily tabular snapshots of location, name, and place data and metadata at http://atlantides.org/downloads/pleiades/dumps\r\n\r\nThere is a detailed [README.txt][readme] with the dumps.\r\n\r\n[readme]: http://atlantides.org/downloads/pleiades/dumps/README.txt\r\n\r\n\r\n#### Description of geodata from the [kml file][kml]\r\n\r\n> This KML file, for use with Google Earth and other compatible systems, contains basic coordinate and name information for ancient Greek and Roman places judged publication-ready by the Managing Editors of the Ancient World Mapping Center's Pleiades community ( http://pleiades.stoa.org ). In this edition, it comprises point features in Lycia/Pamphylia and Cyrenaica only, footprints corresponding to Barrington Atlas Maps 38 and 65. Future editions will expand the spatial coverage of this dataset, and will add more information to the individual placemark descriptions. \r\n> \r\n> This content is original work of the staff of the Ancient World Mapping Center and members of the Pleiades Community. It is built in part on information that was compiled by the American Philological Association's Classical Atlas Project (1988-2000), which was used during development with the permission of the APA.\r\n> \r\n> Despite our best efforts, Pleiades content may contain errors or omissions.  These should be assumed to be the responsibility of the project director, and not to reflect the quality and completeness of Classical Atlas Project data nor the opinions of the Atlas Project's scholarly compilers and editors. Pleiades will open to public participation in early 2008. At this time, it will be easy for users to highlight and correct errors and omissions, and to update obsolete information.\r\n> \r\n> Coordinate accuracy and precision are discussed at http://icon.stoa.org/trac/pleiades/wiki/DataPrecisionAndAccuracy . \r\n\r\n### Openness: OPEN\r\n\r\n  * License: cc-by (e.g. see bottom of <http://www.unc.edu/awmc/pleiades/bibliography/> or in [kml file][kml])\r\n  * Access: bulk and search\r\n    * geodata: kml (and single web page) <http://www.unc.edu/awmc/pleiades/data/kml/places-all.kml>\r\n    * biblio: html <http://www.unc.edu/awmc/pleiades/bibliography/>\r\n    * thesaurus: html <http://pleiades.stoa.org/names/all> with details on <http://pleiades.stoa.org/thesaurus>\r\n\r\n[kml]: http://www.unc.edu/awmc/pleiades/data/kml/places-all.kml"
+  },
+  "domain": "geography",
+  "website": "http://pleiades.stoa.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://pleiades.stoa.org/places/ http://pleiades.stoa.org/places/vocab# http://atlantides.org/capgrids/",
+  "triples": 2600000,
+  "contact_point": {
+    "name": "Pleiades Project",
+    "email": "pleiades.admin@nyu.edu"
+  },
+  "keywords": [
+    "ancient",
+    "archaeology",
+    "classics",
+    "format-foaf",
+    "format-geo",
+    "format-rdf",
+    "format-skos",
+    "format-spacerel",
+    "format-spatial",
+    "geodata",
+    "geographic",
+    "geography",
+    "greek",
+    "historyhackday",
+    "lod",
+    "no-licence-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "published-by-producer",
+    "roman",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 127
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download (Turtle)",
+      "description": "All Pleiades triples in Turtle format. Please see https://github.com/isawnyu/pleiades-rdf for details.",
+      "media_type": "application/x-gzip",
+      "access_url": "http://atlantides.org/downloads/pleiades/rdf/pleiades-latest.tar.gz"
+    },
+    {
+      "title": "VoID description",
+      "description": "A VoID Description of the Pleiades Places Dataset",
+      "media_type": "text/turtle",
+      "access_url": "http://atlantides.org/downloads/pleiades/rdf/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example data item: Internum Mare",
+      "description": "Example (Turtle)",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "http://pleiades.stoa.org/places/1043/turtle"
+    }
+  ]
+}

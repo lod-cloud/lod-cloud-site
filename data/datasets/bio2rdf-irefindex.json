@@ -1,0 +1,179 @@
+{
+  "identifier": "bio2rdf-irefindex",
+  "title": "Bio2RDF::Irefindex",
+  "description": {
+    "en": "IrefIndex (Interaction Reference Index) provides an index of protein interactions available in a number of primary interaction databases including BIND, BioGRID, CORUM, DIP, HPRD, IntAct, MINT, MPact, MPPI and OPHID. This index includes multiple interaction types including physical and genetic (mapped to their corresponding protein products) as determined by a multitude of methods."
+  },
+  "domain": "life_sciences",
+  "website": "http://irefindex.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/irefindex:",
+  "triples": 48781511,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-bind",
+      "value": 86152
+    },
+    {
+      "target": "bio2rdf-biogrid",
+      "value": 431705
+    },
+    {
+      "target": "bio2rdf-cygd",
+      "value": 4841
+    },
+    {
+      "target": "bio2rdf-dip",
+      "value": 74728
+    },
+    {
+      "target": "bio2rdf-flybase",
+      "value": 242
+    },
+    {
+      "target": "bio2rdf-genbank",
+      "value": 34072
+    },
+    {
+      "target": "bio2rdf-hprd",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-i2d",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-innatedb",
+      "value": 8059
+    },
+    {
+      "target": "bio2rdf-intact",
+      "value": 269147
+    },
+    {
+      "target": "bio2rdf-ipi",
+      "value": 17
+    },
+    {
+      "target": "bio2rdf-irefindex",
+      "value": 24
+    },
+    {
+      "target": "bio2rdf-matrixdb",
+      "value": 221
+    },
+    {
+      "target": "bio2rdf-mi",
+      "value": 277
+    },
+    {
+      "target": "bio2rdf-mips",
+      "value": 16309
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 71328
+    },
+    {
+      "target": "bio2rdf-pdb",
+      "value": 5689
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 66812
+    },
+    {
+      "target": "bio2rdf-refseq",
+      "value": 56098
+    },
+    {
+      "target": "bio2rdf-sgd",
+      "value": 819
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 2030
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 88312
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download irefindex-all.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/irefindex/irefindex-all.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/irefindex/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/irefindex/irefindex.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/irefindex/bio2rdf-irefindex.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/irefindex/irefindex.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/irefindex/bio2rdf_irefindex_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/irefindex/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/irefindex.irogid:1069566"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://irefindex.bio2rdf.org/sparql"
+    }
+  ]
+}

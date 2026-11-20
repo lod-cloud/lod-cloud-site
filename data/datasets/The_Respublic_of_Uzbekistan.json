@@ -1,0 +1,49 @@
+{
+  "identifier": "The_Respublic_of_Uzbekistan",
+  "title": "Open data of Uzbekistan",
+  "description": {
+    "en": "Government"
+  },
+  "domain": "government",
+  "website": "https://data.gov.uz/en",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "open data",
+  "triples": 0,
+  "contact_point": {
+    "name": "Akrom Sultanov",
+    "email": "akromsultanov82@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "Citizen’s appeals",
+      "description": "Economics",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "https://data.gov.uz/en/datasets/10703"
+    },
+    {
+      "title": "Accounts payable by type of economic activity as of December 1, 2019 * (billion soums)",
+      "description": "Economics",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "https://data.gov.uz/en/datasets/10667"
+    },
+    {
+      "title": "INFORMATION on vacant jobs in the Executive Office of JSC \"National Electric Networks of Uzbekistan\" as of 18.02.2020",
+      "description": "Economics",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "https://data.gov.uz/en/datasets/10700"
+    },
+    {
+      "title": "Accounts payable by regions as of December 1, 2019 * (billion soums)",
+      "description": "Economics",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "https://data.gov.uz/en/datasets/10666"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "API",
+      "description": "API",
+      "access_url": "https://data.gov.uz/en/docs/do"
+    }
+  ]
+}

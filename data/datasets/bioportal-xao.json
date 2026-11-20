@@ -1,0 +1,295 @@
+{
+  "identifier": "bioportal-xao",
+  "title": "Xenopus anatomy and development",
+  "description": {
+    "en": "A structured controlled vocabulary of the anatomy and development of the African clawed frog (<i>Xenopus laevis</i>)."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1095",
+  "triples": 16711,
+  "contact_point": {
+    "name": "Peter pvize"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 909
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 38
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 93
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 13
+    },
+    {
+      "target": "bioportal-basic-vertebrate-gross-anatomy",
+      "value": 15
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 23
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 56
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 253
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 33
+    },
+    {
+      "target": "bioportal-bodysystem",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bspo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 218
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 339
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 54
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 162
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 188
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 44
+    },
+    {
+      "target": "bioportal-dc_cl",
+      "value": 14
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 300
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 2185
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 624
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 163
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 472
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 89
+    },
+    {
+      "target": "bioportal-fbcv",
+      "value": 10
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 195
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 57
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 62
+    },
+    {
+      "target": "bioportal-icf_x1",
+      "value": 15
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 45
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 15
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 171
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 178
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 142
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 50
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 415
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 272
+    },
+    {
+      "target": "bioportal-mfo",
+      "value": 58
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 261
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 587
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 17
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 83
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 16
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 20
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 20
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 16
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 32
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 194
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 203
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 12
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 37
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 501
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 11
+    },
+    {
+      "target": "bioportal-spd",
+      "value": 13
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 263
+    },
+    {
+      "target": "bioportal-tads",
+      "value": 28
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 412
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 33
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 693
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 211
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 261
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 39
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 479
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46918?apikey=BP_API_KEY"
+    }
+  ]
+}

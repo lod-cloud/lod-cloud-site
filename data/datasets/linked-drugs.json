@@ -1,0 +1,78 @@
+{
+  "identifier": "linked-drugs",
+  "title": "LinkedDrugs: Linked Drug Product Data on a Global Scale",
+  "description": {
+    "en": "The **LinkedDrugs** dataset with drug product data from different countries. \r\n\r\nThe current version of the dataset (version 2.1) holds data from twenty-three countries: Austria, Azerbaijan, Costa Rica, Cyprus, Egypt, Estonia, Ireland, Macedonia, Malta, Netherlands, New Zealand, Nigeria, Norway, Romania, Russia, Serbia, Slovakia, Slovenia, South African Republic, Spain, Uganda, Ukraine and USA.\r\n\r\nThe dataset is available via the SPARQL endpoint at http://linkeddata.finki.ukim.mk/sparql, in a named RDF graph: \"http://linkeddata.finki.ukim.mk/lod/data/drugs#\".\r\n\r\nThe current version of the dataset (version 2.1) contains 99,235,032 RDF triples for 248,746 drug products and is available for download as a dump in Turtle format.\r\n\r\n### Usage Scenarios (examples)\r\n\r\n#### User-centered Scenarios\r\n* [Get all available details for a specific drug product](http://seminant.com/queries/5816681573656d19eb929700)\r\n* [Get details for all related drug products from the dataset for a specific drug product](http://seminant.com/queries/58166adf73656d19eb989700)\r\n* [Get details for all related drugs from LOD for a specific drug product](http://seminant.com/queries/58166c8273656d19eb019900)\r\n#### Analytical Scenarios\r\n* [Get number of drug products per ATC category (level 3), per country](http://seminant.com/queries/58166d1f73656d19eb059900)\r\n* [Get average drug product price per ATC category (level 3), per country](http://seminant.com/queries/58166e4473656d19eb0ca900)\r\n\r\n### More Details\r\n* Project page: http://drugs.linkeddata.finki.ukim.mk/\r\n* Journal paper: https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-016-0111-z\r\n* Example project using the LinkedDrugs dataset: http://godd.finki.ukim.mk/"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 99235032,
+  "contact_point": {
+    "name": "Milos Jovanovik",
+    "email": "milos.jovanovik@gmail.com"
+  },
+  "keywords": [
+    "Azerbaijan",
+    "Costa Rica",
+    "Cyprus",
+    "Egypt",
+    "Estonia",
+    "Ireland",
+    "Macedonia",
+    "Malta",
+    "Netherlands",
+    "New Zealand",
+    "Nigeria",
+    "Norway",
+    "Romania",
+    "Russia",
+    "Serbia",
+    "Slovakia",
+    "Slovenia",
+    "South African Republic",
+    "Spain",
+    "USA",
+    "Uganda",
+    "Ukraine",
+    "drugs",
+    "healthcare",
+    "lifesciences",
+    "linkeddrugs",
+    "lod",
+    "loddw",
+    "no-proprietary-vocab"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 131818
+    },
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 146724
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Turtle dump (version 1.0)",
+      "description": "An archive containing 15,881,534 RDF triples for 93,836 drug products from version 1.0 of the dataset in Turtle format, available for download as a dump.",
+      "access_url": "https://1drv.ms/u/s!Am4lzx3beiYMpz_JWQtqjfGFm3kE"
+    },
+    {
+      "title": "Turtle dump (version 2.0)",
+      "description": "An archive containing 99,027,794 RDF triples for 248,746 drug products from version 2.0 of the dataset in Turtle format, available for download as a dump.",
+      "access_url": "https://1drv.ms/u/s!Am4lzx3beiYMp0F9VdJ7yAnOXwVb"
+    },
+    {
+      "title": "Turtle dump (version 2.1)",
+      "description": "An archive containing 99,235,032 RDF triples for 248,746 drug products from version 2.1 of the dataset in Turtle format, available for download as a dump.",
+      "access_url": "https://1drv.ms/u/s!Am4lzx3beiYMp0DMiO0LVOCo2FTC"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint for querying the dataset. \r\n\r\n**Version 1.0**: Use the graph http://linkeddata.finki.ukim.mk/lod/data/loddw# to access the data from the dataset.\r\n\r\n**Version 2.1**: Use the graph http://linkeddata.finki.ukim.mk/lod/data/godd# to access the data from the dataset.",
+      "access_url": "http://linkeddata.finki.ukim.mk/sparql"
+    }
+  ]
+}

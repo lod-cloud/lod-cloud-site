@@ -1,0 +1,139 @@
+{
+  "identifier": "data-szepmuveszeti-hu",
+  "title": "data-szepmuveszeti-hu",
+  "description": {
+    "en": "Open linked data from the Museum of Fine Arts Budapest"
+  },
+  "domain": "publications",
+  "website": "http://www.szepmuveszeti.hu",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.szepmuveszeti.hu/id/collections/",
+  "triples": 334699,
+  "contact_point": {
+    "name": "Museum of Fine Arts Budapest",
+    "email": "aliada@szepmuveszeti.hu"
+  },
+  "keywords": [
+    "format-foaf",
+    "format-frbroo",
+    "format-owl",
+    "format-owltime",
+    "format-skos",
+    "format-wgs84",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "bluk-bnb"
+    },
+    {
+      "target": "datos-bne-es",
+      "value": 48
+    },
+    {
+      "target": "dbpedia",
+      "value": 329
+    },
+    {
+      "target": "europeana-lod-v1",
+      "value": 627
+    },
+    {
+      "target": "freebase",
+      "value": 848
+    },
+    {
+      "target": "geonames",
+      "value": 6
+    },
+    {
+      "target": "hungarian-national-library-catalog",
+      "value": 704
+    },
+    {
+      "target": "lcsh"
+    },
+    {
+      "target": "lobid-organisations"
+    },
+    {
+      "target": "lobid-resources"
+    },
+    {
+      "target": "marc-codes",
+      "value": 1
+    },
+    {
+      "target": "open-library"
+    },
+    {
+      "target": "viaf"
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Dataset dump of MFAB Museum data in N-Triples format",
+      "description": "Dataset dump in N-Triples format.",
+      "media_type": "application/x-ntriples; charset=UTF-8",
+      "download_url": "http://data.szepmuveszeti.hu/datadumps/museum_1446034453917_20151028000001.nt.gz"
+    },
+    {
+      "title": "Dataset dump of links to external datasets of MFAB Museum data in N-Triples format",
+      "description": "Dataset dump in N-Triples format.",
+      "media_type": "application/x-ntriples; charset=UTF-8",
+      "download_url": "http://data.szepmuveszeti.hu/datadumps/links_1446034465154_20151028000001.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "dataszepmuveszetihu.ttl",
+      "description": "Void file describing the main features of the data-szepmuveszeti-hu dataset",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "http://data.szepmuveszeti.hu/datadumps/dataszepmuveszetihu.ttl"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "RDF Schema",
+      "access_url": "http://aliada-project.eu/2014/aliada-ontology#"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource of LIDO",
+      "description": "Example resource of LIDO in RDF/XML format",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://data.szepmuveszeti.hu/datadumps/LIDOExample.rdf"
+    },
+    {
+      "title": "Example resource of DC",
+      "description": "Example resource of DC in RDF/XML format",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://data.szepmuveszeti.hu/datadumps/DCExample.rdf"
+    },
+    {
+      "title": "Example resource of MARC BIB",
+      "description": "Example resource of MARC BIB in RDF/XML format",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://data.szepmuveszeti.hu/datadumps/MARCBIBExample.rdf"
+    },
+    {
+      "title": "Example resource of MARC AUTH",
+      "description": "Example resource of MARC AUTH in RDF/XML format",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://data.szepmuveszeti.hu/datadumps/MARCAUTHExample.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql Endpoint",
+      "description": "SPARQL endpoint for data-szepmuveszeti-hu dataset",
+      "access_url": "http://data.szepmuveszeti.hu/sparql"
+    }
+  ]
+}

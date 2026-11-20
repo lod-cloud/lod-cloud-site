@@ -1,0 +1,51 @@
+{
+  "identifier": "germlex",
+  "title": "Linked Old Germanic Dictionaries",
+  "description": {
+    "en": "Lexical resources (word lists, etymological dictionaries) for Germanic languages in different historical stages:\r\n\r\npre 1100 (incl. Gothic, Old High German, Old English), \r\n1100-1600 (incl. Middle English, Middle Dutch, Early Modern High German), post 1600 (Modern English, Modern High German).\r\n\r\nIncludes links to Wiktionary and lexvo.\r\n\r\nWe are currently negotiating with the original author to publish our RDF version of the Old Germanic Etymological Dictionaries from http://www.koeblergerhard.de/wikiling/.\r\n\r\nThe full data set comprises the following components:\r\n\r\na) RDF version of Gerhard Köbler's Old Germanic dictionaries, incl. links to lemonUby (Wiktionary) and lexvo [not included yet]\r\n\r\nb) bilingual word lists generated from historical Germanic bible translations using the GIZA++ translation tables, 349021 triples, incl. links to lemonUby (Wiktionary, 773) and lexvo (34824)\r\n\r\nc) bilingual word lists generated from historical Germanic bible translations using diagnostic context pairs (i.e., verses overlapping in exactly one word), inkl. links to lexvo"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 349021,
+  "contact_point": {
+    "name": "Christian Chiarcos",
+    "email": "christian.chiarcos@web.de"
+  },
+  "keywords": [
+    "Dutch",
+    "English",
+    "German",
+    "Gothic",
+    "etymology",
+    "germanic",
+    "ldl-2014",
+    "lexical-resources",
+    "lexicon",
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "lemonuby",
+      "value": 773
+    },
+    {
+      "target": "lexvo",
+      "value": 34824
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Description",
+      "description": "Includes links to datasets",
+      "media_type": "text/html; charset=ISO-8859-15.latin1",
+      "access_url": "http://www.acoli.informatik.uni-frankfurt.de/resources/germlex/"
+    },
+    {
+      "title": "GIZA++ word lists (ttl, zipped)",
+      "media_type": "application/zip",
+      "access_url": "http://www.acoli.informatik.uni-frankfurt.de/resources/germlex/all-2014-04-01.zip"
+    }
+  ]
+}

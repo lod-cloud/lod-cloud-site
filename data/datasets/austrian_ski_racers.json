@@ -1,0 +1,50 @@
+{
+  "identifier": "austrian_ski_racers",
+  "title": "Alpine Ski Racers of Austria",
+  "description": {
+    "en": "Austrian top-skiers active in world cup."
+  },
+  "domain": "cross_domain",
+  "website": "http://vocabulary.semantic-web.at/AustrianSkiTeam",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "triples": 4183,
+  "contact_point": {
+    "name": "Andreas Blumauer",
+    "email": "a.blumauer@semantic-web.at"
+  },
+  "keywords": [
+    "alpinism",
+    "country-austria",
+    "crossdomain",
+    "deref-vocab",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "skiing",
+    "sports",
+    "tourism"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 921
+    },
+    {
+      "target": "freebase",
+      "value": 102
+    }
+  ],
+  "example": [
+    {
+      "description": "example/rdf+xml",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocabulary.semantic-web.at/AustrianSkiTeam/54"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql Endpoint",
+      "access_url": "http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam"
+    }
+  ]
+}

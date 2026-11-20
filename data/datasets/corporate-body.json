@@ -1,0 +1,45 @@
+{
+  "identifier": "corporate-body",
+  "title": "Corporate Body Named Authority List",
+  "description": {
+    "en": "The Corporate bodies name authority list (NAL) or Common Authority Table (CAT) is a controlled vocabulary listing corporate entities such as European institutions and bodies with their authority code and label(s) in the 24 official languages of the EU. The list covers as well subdivisions of the different institutions such as DG's. \nThe Corporate bodies NAL is part of the Core Metadata (CM) used in the data exchange between the institutions involved in the legal decision making process and the Publications Office of the EU. The NAL is under governance of the Interinstitutional Metadata Maintenance Committee (IMMC) and maintained by the Publications Office of the EU in its Metadata Registry (MDR).\nThis table provides the varying names of EU corporate bodies for a given time span. Some other corporate bodies are also included as far as they are used in the various systems in the Publications Office. They are classified accordingly in \"EU\" | \"INT (for international)\" | \"Other\". The traceability of the chronological modifications is ensured when possible.\nFor the EU Corporate bodies, the legal basis is also indicated.\nAs the official languages have changed over the time, the translations are provided in the existing official languages for a given period. The names are provided under the labels and in a longer form (e.g. Committee of the Regions | Committee of the Regions of the European Union)."
+  },
+  "domain": "government",
+  "website": "https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/corporate-body",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 519278,
+  "image": "https://op.europa.eu/documents/6793978/6793980/6724995/b631b122-c2bc-22c1-bf18-eb7451b2542a?t=1584637138416",
+  "contact_point": {
+    "name": "EU Vocabularies team",
+    "email": "op-eu-vocabularies@publications.europa.eu"
+  },
+  "keywords": [
+    "controlled vocabulary",
+    "corporate bodies"
+  ],
+  "links": [
+    {
+      "target": "eurovoc",
+      "value": 212
+    },
+    {
+      "target": "wikidata",
+      "value": 162
+    }
+  ],
+  "full_download": [
+    {
+      "title": "SKOS full release, zip compressed",
+      "description": "The latest release in XML/RDF format compressed as zip. New releases are published quarterly.",
+      "media_type": "application/octet-stream",
+      "download_url": "http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.09/zip"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "CELLAR - Query Service of the Publications Office of the European Union",
+      "description": "The query service gives access to Cellar, the digital dissemination repository of the Publications Office of the European Union. Cellar is the semantic web content and metadata repository of legal and non-legal documents produced by the European institutions. Cellar includes about 150 millions of documents in 24 languages; metadata in as many languages are stored and described in RDF, resulting in more than 800 millions of triples. The Cellar SPARQL endpoint, exposed in order to complement linked open data services to potential consumers, receives about 10 million requests per day (Cellar statistics dated April 2018). Cellar is also the source of information for the Eur-Lex portal (http://www.eurlex.eu) which provides access to several types of legal resources including treaties, legislation, case-law and legislative proposals.",
+      "access_url": "http://publications.europa.eu/webapi/rdf/sparql"
+    }
+  ]
+}

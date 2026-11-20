@@ -1,0 +1,44 @@
+{
+  "identifier": "CorpusFibonacci",
+  "title": "Corpus Fibonacci in LiLa",
+  "description": {
+    "en": "Chapter VIII of Liber Abbaci (also known as Liber Abaci)  linked to the LiLa Knowledge Base, a historic 1202 treaty on arithmetic by Leonardo Fibonacci, manually annotated with tokenization, lemmatization and part of speech tagging following the Universal Dependencies (UD) formalism."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/corpora/CorpusFibonacci/id/corpus",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/corpora/CorpusFibonacci",
+  "triples": 231916,
+  "doi": "10.5281/zenodo.7515764",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Corpus",
+    "LLOD",
+    "LiLa",
+    "Fibonacci"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 16117
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Corpus Fibonacci",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/CorpusFibonacci"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

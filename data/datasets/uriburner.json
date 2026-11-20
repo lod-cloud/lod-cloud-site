@@ -1,0 +1,64 @@
+{
+  "identifier": "uriburner",
+  "title": "URIBurner",
+  "description": {
+    "en": "A service that delivers RDF-based structured descriptions of Web addressable resources in a variety of formats through Generic HTTP URIs.\r\n\r\nThe underlying technology is Virtuoso's Sponger, which takes an existing Web-accessible resource (webpage, media) and generates an RDF graph of its metadata using existing well-known ontologies as well as site-specific knowledge. URIBurner then re-presents this data as either a new HTML webpage, or directly as RDF in a variety of serializations (RDF/XML, text/n3, turtle, JSON).\r\n\r\n### Issues\r\n\r\nThe linking information is incomplete and the numbers are guesswork."
+  },
+  "domain": "cross_domain",
+  "website": "http://uriburner.com/",
+  "namespace": "http://linkeddata.uriburner.com/",
+  "triples": 486089121,
+  "contact_point": {
+    "name": "OpenLink Software"
+  },
+  "keywords": [
+    "broken_link",
+    "crossdomain",
+    "format-rdf",
+    "format-xhtml",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 1000
+    },
+    {
+      "target": "chronicling-america",
+      "value": 1000
+    },
+    {
+      "target": "dbpedia",
+      "value": 1000
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.uriburner.com/about/http://www.bbc.co.uk/music/artists/ed2ac1e9-d51d-4eff-a2c2-85e81abd6360%01artist"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.uriburner.com/about/html/http://www.crunchbase.com/financial-organization/andreessen-horowitz"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://linkeddata.uriburner.com/sparql"
+    }
+  ]
+}

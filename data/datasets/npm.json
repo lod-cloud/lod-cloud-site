@@ -1,0 +1,39 @@
+{
+  "identifier": "npm",
+  "title": "NPM",
+  "description": {
+    "en": "Semantified version of the [NPM respository](https://www.npmjs.com/)"
+  },
+  "website": "https://github.com/LinkedSoftwareDependencies/npm-extraction-server",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://linkedsoftwaredependencies.org/",
+  "triples": 185269412,
+  "contact_point": {
+    "name": "Linked Software Dependencies maintainers",
+    "email": "ruben.taelman@ugent.be"
+  },
+  "keywords": [
+    "javascript",
+    "linked software dependencies",
+    "lod",
+    "lsd",
+    "npm"
+  ],
+  "other_download": [
+    {
+      "title": "Triple Pattern Fragments interface",
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "https://fragments.linkedsoftwaredependencies.org/npm"
+    },
+    {
+      "title": "HDT",
+      "media_type": "application/octet-stream",
+      "access_url": "https://linkedsoftwaredependencies.org/raw/npm.hdt"
+    },
+    {
+      "title": "Turtle",
+      "media_type": "text/turtle",
+      "access_url": "https://linkedsoftwaredependencies.org/raw/npm.ttl"
+    }
+  ]
+}

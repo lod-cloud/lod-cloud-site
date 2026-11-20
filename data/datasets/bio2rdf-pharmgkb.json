@@ -1,0 +1,161 @@
+{
+  "identifier": "bio2rdf-pharmgkb",
+  "title": "Bio2RDF::Pharmgkb",
+  "description": {
+    "en": "PharmGKB curates primary genotype and phenotype data, annotates gene variants and gene-drug-disease relationships via literature review, and summarizes important PGx genes and drug pathways."
+  },
+  "domain": "life_sciences",
+  "website": "http://pharmgkb.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/pharmgkb:",
+  "triples": 278049209,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-clinicaltrials",
+      "value": 516
+    },
+    {
+      "target": "bio2rdf-ctd",
+      "value": 10729
+    },
+    {
+      "target": "bio2rdf-dbsnp",
+      "value": 24785215
+    },
+    {
+      "target": "bio2rdf-drugbank",
+      "value": 1624
+    },
+    {
+      "target": "bio2rdf-hgnc",
+      "value": 26184
+    },
+    {
+      "target": "bio2rdf-mesh",
+      "value": 2861
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 26757
+    },
+    {
+      "target": "bio2rdf-ndc",
+      "value": 962
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 16536
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 3724
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download diseases.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/pharmgkb/diseases.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download drugs.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/pharmgkb/drugs.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download genes.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/pharmgkb/genes.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download offsides.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/pharmgkb/offsides.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download rsid.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/pharmgkb/rsid.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download twosides.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/pharmgkb/twosides.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/pharmgkb/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/pharmgkb/pharmgkb.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/pharmgkb/bio2rdf-pharmgkb.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/pharmgkb/pharmgkb.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/pharmgkb/bio2rdf_pharmgkb_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/pharmgkb/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/pharmgkb:PA445062"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://pharmgkb.bio2rdf.org/sparql"
+    }
+  ]
+}

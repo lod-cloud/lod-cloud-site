@@ -1,0 +1,48 @@
+{
+  "identifier": "olia-discourse",
+  "title": "OLiA Discourse",
+  "description": {
+    "en": "OLiA Discourse Extensions"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 4175,
+  "contact_point": {
+    "name": "Christian Chiarcos",
+    "email": "christian.chiarcos@web.de"
+  },
+  "keywords": [
+    "OLiA",
+    "anaphora",
+    "coherence relations",
+    "coreference",
+    "discourse",
+    "discourse relations",
+    "discourse structure",
+    "information status",
+    "information structure",
+    "linguistic",
+    "llod",
+    "lod",
+    "lrec-2014",
+    "terminology"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 81
+    }
+  ],
+  "other_download": [
+    {
+      "title": "documentation and links to the ontologies",
+      "description": "includes links for annotation models and linking models",
+      "access_url": "http://purl.org/olia/discourse"
+    },
+    {
+      "title": "OLiA Discourse Extensions, Reference Model fragment",
+      "description": "note that Annotation and Linking Models are kept in separate files, see http://purl.org/olia/discourse",
+      "access_url": "http://purl.org/olia/discourse/olia_discourse.owl"
+    }
+  ]
+}

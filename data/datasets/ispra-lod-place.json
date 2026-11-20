@@ -1,0 +1,80 @@
+{
+  "identifier": "ispra-lod-place",
+  "title": "ISPRA - The administrative divisions of Italy (regions/provinces/municipalities)",
+  "description": {
+    "en": "#### dati.isprambiente.it - ISPRA Linked Open Data - The administrative divisions of Italy (regions/provinces/municipalities) + shape of municipalities + link to istat + link to geoname/dbpedia"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Italian National Institute for Environmental Protection and Research, ISPRA",
+    "email": "assistenza-lod@isprambiente.it"
+  },
+  "keywords": [
+    "administrative division",
+    "country-italy",
+    "format-rdf",
+    "lod",
+    "luoghi",
+    "luogo",
+    "places",
+    "rdf",
+    "rdf-format"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 6918
+    },
+    {
+      "target": "dbpedia-it",
+      "value": 6898
+    },
+    {
+      "target": "freebase",
+      "value": 6941
+    },
+    {
+      "target": "gadm.geovocab",
+      "value": 5909
+    },
+    {
+      "target": "geonames",
+      "value": 7879
+    },
+    {
+      "target": "istat",
+      "value": 8222
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 6397
+    },
+    {
+      "target": "musicbrainz",
+      "value": 6861
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF (N-Triples) Distribution of the administrative divisions of Italy (regions/provinces/municipalities) dataset",
+      "description": "RDF (N-Triples) Distribution of the administrative divisions of Italy (regions/provinces/municipalities) dataset",
+      "access_url": "http://dati.isprambiente.it/downloads/luoghi.nt.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Exampe Resource - Municipality of Roviano (Province:Rome, Region: Lazio) in Italy",
+      "description": "Municipality of Roviano (Italy) with his shape and link to istat, dbpedia, etc.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://dati.isprambiente.it/id/place/58092/html"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "main sparql EndPoint",
+      "description": "main sparql EndPoint",
+      "access_url": "http://dati.isprambiente.it/sparql"
+    }
+  ]
+}

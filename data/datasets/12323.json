@@ -1,0 +1,21 @@
+{
+  "identifier": "12323",
+  "title": "Korepetycje Buki",
+  "description": {
+    "en": "Bezpłatny i wygodny serwis poszukiwań korepetytora w Polsce. Znajdź nauczyciela w swoim mieście lub ucz się online. Korepetycje – Łatwy wybór korepetytora!"
+  },
+  "domain": "cross_domain",
+  "website": "https://buki.org.pl/",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Support",
+    "email": "info@buki.org.pl"
+  },
+  "keywords": [
+    "korepetycje",
+    "korepetycje matematyka",
+    "korepetycje angielski",
+    "korepetycje online"
+  ]
+}

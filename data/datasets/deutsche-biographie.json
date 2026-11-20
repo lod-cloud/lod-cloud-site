@@ -1,0 +1,43 @@
+{
+  "identifier": "deutsche-biographie",
+  "title": "Deutsche Biographie",
+  "description": {
+    "en": "Presents some of the results of the LOD2 PUBLINK activity in cooperation with the AKSW group and the group of the Neue Deutsche Biographie of the Historical Commission at the Bavarian Academy of Sciences and Humanities. Within this project meta-data about 46,000 biographies and related 42,000 additional people and 12,000 locations has been made available as Linked Data and RDF triple. We used the vocabulary of the German National Library for the GND and adapted it by a few additional classes and relations. In addition to the representation in RDF, we offer a OntoWiki instance to provide the ability for browsing an querying the dataset. With the help of the Relationshipfinder tool relations between two or more persons, may visualized using this SPARQL endpoint."
+  },
+  "domain": "publications",
+  "website": "http://www.deutsche-biographie.de/",
+  "triples": 100000,
+  "contact_point": {
+    "name": "deutsche-biographie.de",
+    "email": "info@deutsche-biographie.de"
+  },
+  "keywords": [
+    "format-rdf",
+    "lod",
+    "lod2",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-deref-vocab",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 100
+    }
+  ],
+  "example": [
+    {
+      "description": "Example",
+      "media_type": "application/xml",
+      "access_url": "http://data.deutsche-biographie.de/sfz99.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://ndb.publink.lod2.eu/sparql"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "identifier": "dbpedia-ja",
+  "title": "DBpedia in Japanese",
+  "description": {
+    "en": "DBpedia Japanese is a part of the DBpedia internationzation effort. Datasets of DBpedia Japanese are generated from dump data of Wikipedia in Japanese and include links to other DBpedia chapters and Wordnet-ja."
+  },
+  "domain": "cross_domain",
+  "website": "http://ja.dbpedia.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://ja.dbpedia.org/resource/",
+  "triples": 70790371,
+  "contact_point": {
+    "name": "Fumihiro Kato",
+    "email": "fumi@fumi.me"
+  },
+  "keywords": [
+    "access-api",
+    "access-bulk",
+    "access-www",
+    "crossdomain",
+    "format-foaf",
+    "format-geo",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "japanese",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 421893
+    },
+    {
+      "target": "dbpedia-cs",
+      "value": 101868
+    },
+    {
+      "target": "dbpedia-de",
+      "value": 245530
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 38115
+    },
+    {
+      "target": "dbpedia-es",
+      "value": 210754
+    },
+    {
+      "target": "dbpedia-fr",
+      "value": 267194
+    },
+    {
+      "target": "dbpedia-it",
+      "value": 218736
+    },
+    {
+      "target": "dbpedia-ko",
+      "value": 148988
+    },
+    {
+      "target": "dbpedia-pl",
+      "value": 192975
+    },
+    {
+      "target": "dbpedia-pt",
+      "value": 190044
+    },
+    {
+      "target": "dbpedia-ru",
+      "value": 210254
+    },
+    {
+      "target": "wordnet-ja",
+      "value": 34262
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download directory",
+      "access_url": "http://ja.dbpedia.org/dumps/"
+    },
+    {
+      "title": "Link to a resource",
+      "description": "We had used http://ja.dbpedia.org/resource/SPARQL as an example IRI before, however, LOD validator seemed not to work with such non ascii characters.",
+      "access_url": "http://ja.dbpedia.org/resource/???"
+    },
+    {
+      "title": "Link to an example data (RDFa)",
+      "description": "Link to an example data (RDFa). The resource IRI is http://ja.dbpedia.org/resource/???.",
+      "media_type": "HTML",
+      "access_url": "http://ja.dbpedia.org/page/???"
+    },
+    {
+      "title": "VoID Description",
+      "media_type": "meta/void",
+      "access_url": "http://ja.dbpedia.org/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data (RDF/XML)",
+      "description": "Link to an example data (RDF/XML). The resource IRI is http://ja.dbpedia.org/resource/???.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ja.dbpedia.org/data/???.rdf"
+    },
+    {
+      "title": "Link to an example data (N3)",
+      "description": "Link to an example data (N3). The resource IRI is \r\nhttp://ja.dbpedia.org/resource/???.",
+      "media_type": "example/n3",
+      "access_url": "http://ja.dbpedia.org/data/???.n3"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://ja.dbpedia.org/sparql"
+    }
+  ]
+}

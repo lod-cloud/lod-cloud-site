@@ -1,0 +1,67 @@
+{
+  "identifier": "grrt",
+  "title": "Accommodations in Tuscany (LinkedOpenData.it)",
+  "description": {
+    "en": "List of accommodations in Tuscany, Italy.\r\nThe dataset uses GoodRelations and vcard and includes addresses, contact information (where available) and geo-reference. Note: geo-reference is provided in a best effort way, might contain errors."
+  },
+  "domain": "geography",
+  "website": "http://www.linkedopendata.it/datasets/grrt",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.linkedopendata.it/grrt/resource/",
+  "triples": 434714,
+  "contact_point": {
+    "name": "Linkedopendata.it",
+    "email": "info@linkedopendata.it"
+  },
+  "keywords": [
+    "accommodation",
+    "deref-vocab",
+    "format-gr",
+    "format-rdf",
+    "format-vcard",
+    "goodrelations",
+    "government",
+    "hotels",
+    "italy",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "published-by-third-party",
+    "tourism",
+    "tuscany",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF dump",
+      "media_type": "RDF",
+      "access_url": "http://dump.linkedopendata.it/grrt"
+    },
+    {
+      "description": "Void description",
+      "media_type": "meta/void",
+      "access_url": "http://void.linkedopendata.it/grrt"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.linkedopendata.it/grrt/resource/HOTEL_HERMITAGE_2"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.linkedopendata.it/grrt"
+    }
+  ]
+}

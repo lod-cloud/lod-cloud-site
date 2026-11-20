@@ -1,0 +1,33 @@
+{
+  "identifier": "basque-eurowordnet-lemon-lexicon-3-0",
+  "title": "Basque EuroWordNet-lemon lexicon (3.0)",
+  "description": {
+    "en": "This is the Basque EuroWordNet-Lemon lexicon. The lexicon was created from the Spanish Word-Net-LMF lexicon which is part of the Multilingual Central Repository (MCR http://adimen.si.ehu.es/web/MCR). The lexicon conforms to the 'lemon' specification."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1215583,
+  "keywords": [
+    "EuroWordNet",
+    "lemon",
+    "lexicon",
+    "lexinfo"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 27222
+    },
+    {
+      "target": "sumo",
+      "value": 79149
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Basque EuroWordNet-lemon lexicon",
+      "description": "This is the Spanish EuroWordNet-Lemon lexicon. The lexicon was created from the Spanish Word-Net-LMF lexicon which is part of the Multilingual Central Repository (MCR http://adimen.si.ehu.es/web/MCR). The lexicon conforms to the 'lemon' specification.\r\n\r\nGloss and rgloss relations between synsets are not included. For LexicalEntries and LexicalSenses, original ID's are encoded in dcterms:source and the URIs follow the pattern '../lemma-PoS'. For Synsets and Translations original IDs are used in the URIs (.../ID). Synset rdfs:labels were generated as follows:\r\n\r\nINSERT {?synset rdfs:label ?labels } WHERE {SELECT ?synset (GROUP_CONCAT(?label; separator = ' ; ') as ?labels) { ?sense lemon:reference ?synset; rdfs:label ?label . } GROUP BY ?synset }\r\n\r\nhttp://lodserver.iula.upf.edu/id/WordNetLemon/EU/",
+      "access_url": "https://github.com/martavillegas/EuroWordNetLemon/blob/master/eus-30-lmf.xml.ttl"
+    }
+  ]
+}

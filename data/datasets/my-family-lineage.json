@@ -1,0 +1,115 @@
+{
+  "identifier": "my-family-lineage",
+  "title": "My Family Lineage",
+  "description": {
+    "en": "<h2>My Family Lineage</h2>\r\n<h3>Note: We have added Content Negotiation</h3>\r\n<p>The addition of content negotiation, allows for serving RDF to clients that request RDF and HTML for clients that request html pages.</p> \r\n<p><strong>\"My Family Lineage\"</strong> is a Genealogy Application using MediaWiki and the Semantic MediaWiki Bundle.  In addition, we use the Fuseki Triple Store which has a SPARQL query form available at: http://futurewavehosting.com:3030 \r\nwhere one would use the Control Panel and select the dataset my-family-lineage.  The website is community driven and through the import of GEDCOM files (Genealogical Data Communication) wiki pages are created, an accompanying RDF file is created and the data is added to the triple store. </p><br />\r\n<p> We use the latest GEDCOM standard version 5.5 which is used by various Genealogy software applications.  </p>\r\n\r\n<p>We have a void file available at: http://my-family-lineage.com/void.ttl \r\nwhich provides information about vocabularies used, licensing, example resources, and link sets.  </p>\r\n\r\n<p>We collect information about Places that correspond to events in an individual/person's life or in the life of a family.  It is here that there are the most triples linking to other data sets that are part of the current LOD Cloud.  Nearly 50,000 triples describe Places, of those over 7300 triples are links to external data sets, including dbpedia, geonames, freebase and yago.</p>\r\n\r\n<p>We have included a great deal of information from public genealogy (GEDCOM) files including the genealogy of famous people, e.g. royalty, US Presidents, Authors like Stephen King and more. </p>"
+  },
+  "domain": "user_generated",
+  "website": "http://my-family-lineage.com/wiki/Main_Page",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://my-family-lineage.com/wiki/",
+  "triples": 3000000,
+  "contact_point": {
+    "name": "Bruce Whealton",
+    "email": "bruce@whealton.info"
+  },
+  "keywords": [
+    "deref-vocab",
+    "family history",
+    "format-bio",
+    "format-dbpedia-owl",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-rel",
+    "genealogy",
+    "geographic",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "relationships",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2254
+    },
+    {
+      "target": "freebase",
+      "value": 2253
+    },
+    {
+      "target": "geonames",
+      "value": 377
+    },
+    {
+      "target": "yago",
+      "value": 2048
+    }
+  ],
+  "other_download": [
+    {
+      "title": "My Family Lineage",
+      "description": "This data set comes from the data entered into a MediaWiki website at:  http://my-family-lineage.com/wiki/Main_Page\r\nThe data can be uploaded from a GEDCOM ( Genealogical Data Communication - common format for communication between different genealogy programs, which each have their own internal formats) file, or a person can manually enter data into form fields.  This data if it comes from a GEDCOM file import will be converted to RDF format.  If it is entered on the website, then Semantic Forms and Templates are used to align values with various RDF Classes, Properties and Object values.  \r\n\r\nWe use popular vocabularies, like Dublin Core, FOAF, BIO (a vocabulary for describing biographical information as events), REL (Relationships), and GEDCOM X which defines factTypes.\r\n\r\nThis data is also added or loaded into (Inserted into) a triple store and assigned to a data set called 'my-family-lineage.'  We are using Fuseki and the TDB triple store in the Jena package.\r\n\r\nThe wiki application currently reports over 3.2 Million triples.  Our data is also stored in the Fuseki Triple Store which also provides a SPARQL endpoint.  Data describing Events in a person or family's life are described with a Place for the event.  The Places named graph has about 50,000 triples, of which 7318 are links to other data sets that are part of the LOD Cloud, including DBpedia, Freebase, Yago, and Geonames.\r\n\r\nSELECT COUNT (DISTINCT ?link) WHERE {\r\n  GRAPH <http://futurewavehosting.com:3030/my-family-lineage/graph/Places> {\r\n    ?place <http://www.w3.org/2002/07/owl#sameAs> ?link\r\n  }\r\n}\r\nreports 7318 links to other external datasets.",
+      "media_type": "RDF",
+      "access_url": "http://futurewavehosting.com:3030/my-family-lineage/query"
+    },
+    {
+      "title": "VoID Vocabulary",
+      "description": "VoID Vocabulary",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://my-family-lineage.com/void.ttl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://my-family-lineage.com/w/sitemap/sitemap-index-whealton_wiki.xml"
+    },
+    {
+      "title": "Download Classes",
+      "description": "Download Classes",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://my-family-lineage.com/w/RDF/classes.rdf"
+    },
+    {
+      "title": "Download BruceWhealtonJr.rdf",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://my-family-lineage.com/w/images/a/af/BruceWhealtonJr.rdf"
+    },
+    {
+      "title": "Sangster Family Tree in RDF format",
+      "description": "This file came from a GEDCOM (Genealogical Data Communication) file upload.  It was converted into RDF using the vocabularies appropriate for different facts, terms, people, families and more.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://my-family-lineage.com/w/images/6/6c/Sangster_family_tree_2012-06-30.rdf"
+    },
+    {
+      "title": "FOAF vocabulary",
+      "access_url": "http://xmlns.com/foaf/spec/index.rdf"
+    },
+    {
+      "title": "License Data",
+      "media_type": "license-metadata",
+      "access_url": "http://www.opendatacommons.org/odc-public-domain-dedication-and-licence/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "description": "Link to an example data item within the dataset (RDF/XML)\r\nThis is the Adams Family Genealogy in RDF/XML format.  It was generated by converting a GEDCOM file to RDF.  GEDCOM is a common format used by Genealogy programs for data communication between different programs.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://my-family-lineage.com/w/images/d/d0/Adams.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://futurewavehosting.com:3030/my-family-lineage/sparql"
+    }
+  ]
+}

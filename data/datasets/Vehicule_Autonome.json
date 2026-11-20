@@ -1,0 +1,22 @@
+{
+  "identifier": "Vehicule_Autonome",
+  "title": "VA",
+  "description": {
+    "en": "VA"
+  },
+  "domain": "life_sciences",
+  "website": "https://fr.wikipedia.org/wiki/V%C3%A9hicule_autonome",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Sa",
+    "email": "gourram.s@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "VA",
+      "description": "VA",
+      "download_url": "https://fr.wikipedia.org/wiki/V%C3%A9hicule_autonome"
+    }
+  ]
+}

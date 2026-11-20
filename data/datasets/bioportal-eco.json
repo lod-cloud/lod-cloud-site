@@ -1,0 +1,36 @@
+{
+  "identifier": "bioportal-eco",
+  "title": "Evidence codes",
+  "description": {
+    "en": "A rich ontology for experimental and other evidence statements."
+  },
+  "website": "http://bioportal.bioontology.org/ontologies/1012",
+  "triples": 3901,
+  "contact_point": {
+    "name": "Michelle Giglio"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47324?apikey=BP_API_KEY"
+    }
+  ]
+}

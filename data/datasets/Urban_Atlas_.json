@@ -1,0 +1,15 @@
+{
+  "identifier": "Urban_Atlas_",
+  "title": "Urban Atlas dataset",
+  "description": {
+    "en": "This dataset contains agriculture related lands (hilucs_code<200) & for main cities in Czech Republic (centers of NUTS3 regions), Poland (agglomeration areas from Urban Atlas) and Spain (agglomeration areas from Urban Atlas)."
+  },
+  "domain": "government",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  }
+}

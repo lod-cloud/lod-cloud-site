@@ -1,0 +1,22 @@
+{
+  "identifier": "Nordine_Bittich",
+  "title": "Curriculum Vitae",
+  "description": {
+    "en": "curriculum vitae"
+  },
+  "domain": "social_networking",
+  "website": "https://bittich.be/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://bittich.be/graphs/public",
+  "triples": 0,
+  "contact_point": {
+    "name": "Nordine Bittich",
+    "email": "contact@bittich.be"
+  },
+  "sparql": [
+    {
+      "title": "bittich.be sparql endpoint",
+      "access_url": "https://bittich.be/sparql"
+    }
+  ]
+}

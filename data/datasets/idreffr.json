@@ -1,0 +1,64 @@
+{
+  "identifier": "idreffr",
+  "title": "IdRef: Sudoc authority data",
+  "description": {
+    "en": "Source : [IdRef](http://www.idref.fr)\r\n\r\nIdRef is a Web application dedicated to Sudoc authority data.\r\n[Sudoc](http://www.sudoc.abes.fr) is the French academic union catalogue, maintained by ABES.\r\nIdRef promotes the use of these authority data beyond Sudoc, in other French Higher Education applications.\r\n\r\nSize : more than 2 millions authority records\r\n\r\nVocabularies : Dublin Core, FOAF, BIBO, etc.\r\n\r\nLicensing : not yet, but will be as open as possible"
+  },
+  "domain": "publications",
+  "website": "http://punktokomo.abes.fr/2011/07/05/idref-des-pages-html-et-rdf-plus-riches/",
+  "namespace": "http://www.idref.fr/",
+  "triples": 20000000,
+  "contact_point": {
+    "name": "ABES",
+    "email": "apisudoc@abes.fr"
+  },
+  "keywords": [
+    "authority",
+    "bibliographic",
+    "format-rdf",
+    "france",
+    "idref",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "publications",
+    "published-by-producer",
+    "rdf",
+    "sudoc",
+    "unioncatalogue"
+  ],
+  "links": [
+    {
+      "target": "FMeSH",
+      "value": 25000
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 500000
+    },
+    {
+      "target": "lexvo",
+      "value": 600000
+    },
+    {
+      "target": "sudocfr",
+      "value": 20000000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Paul Veyne's resource URI with 303 redirection",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://www.idref.fr/027182800/id"
+    }
+  ],
+  "example": [
+    {
+      "description": "Paul Veyne's record in RDF/XML",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://www.idref.fr/027182800.rdf"
+    }
+  ]
+}

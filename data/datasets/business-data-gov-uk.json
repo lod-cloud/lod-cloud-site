@@ -1,0 +1,67 @@
+{
+  "identifier": "business-data-gov-uk",
+  "title": "business.data.gov.uk",
+  "description": {
+    "en": "Business-related data from data.gov.uk:\r\n\r\n* [Namespace for companies](http://business.data.gov.uk/doc/company); this appears to have entries for all companies registered at Companies House.\r\n\r\nPart of package:data-gov-uk."
+  },
+  "domain": "government",
+  "website": "http://business.data.gov.uk/",
+  "namespace": "http://business.data.gov.uk/id/company/",
+  "triples": 15237,
+  "contact_point": {
+    "name": "Data.gov.uk Team",
+    "email": "team@data.gov.uk"
+  },
+  "keywords": [
+    "business-register",
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "research-data-gov-uk",
+      "value": 1415
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download (N-Triples)",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://source.data.gov.uk/data/business/bis-research-explorer/2010-03-04/business.data.gov.uk.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/business/search"
+    },
+    {
+      "description": "voiD description (partial)",
+      "media_type": "meta/void",
+      "access_url": "http://business.data.gov.uk/doc/company"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example company (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://business.data.gov.uk/id/company/1003142"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/business/sparql"
+    }
+  ]
+}

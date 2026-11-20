@@ -1,0 +1,56 @@
+{
+  "identifier": "near",
+  "title": "Near",
+  "description": {
+    "en": "The Near dataset provides \"near\" links connecting points of interest that are geographically close to each other. The data set currently cross-links items in DBpedia, Geonames and Edubase.\r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "geography",
+  "website": "http://beta.kasabi.com/dataset/near",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 335022481,
+  "contact_point": {
+    "name": "Tom Heath"
+  },
+  "keywords": [
+    "format-rdf",
+    "geodata",
+    "geographic",
+    "geography",
+    "lod",
+    "near",
+    "no-proprietary-vocab",
+    "proximity",
+    "published-by-producer",
+    "requires-auth"
+  ],
+  "links": [
+    {
+      "target": "dbpedia"
+    },
+    {
+      "target": "edubase"
+    },
+    {
+      "target": "geonames-semantic-web"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "API for accessing Near data by WGS84 lat/long coordinates",
+      "access_url": "http://rdfize.com/geo/point/"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the data uploaded to Internet Archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/near.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf8",
+      "access_url": "http://rdfize.com/geo/point/52.467358/-1.7167/"
+    }
+  ]
+}

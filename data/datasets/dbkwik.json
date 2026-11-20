@@ -1,0 +1,55 @@
+{
+  "identifier": "dbkwik",
+  "title": "DBkWik",
+  "description": {
+    "en": "Towards Knowledge Graph Creation from Thousands of Wikis"
+  },
+  "website": "http://dbkwik.webdatacommons.org",
+  "namespace": "http://dbkwik.webdatacommons.org",
+  "triples": 26694082,
+  "contact_point": {
+    "name": "Alexandra Hofmann, Samresh Perchani, Jan Portisch,Sven Hertling, Heiko Paulheim",
+    "email": "sven@informatik.uni-mannheim.de"
+  },
+  "keywords": [
+    "Linked Dataset",
+    "Wikia",
+    "crossdomain",
+    "format-rdf",
+    "format-rdfs",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 768902
+    }
+  ],
+  "full_download": [
+    {
+      "title": "N-Triple download",
+      "description": "Gzipped N-Triple",
+      "media_type": "application/octet-stream",
+      "download_url": "http://data.dws.informatik.uni-mannheim.de/dbkwik/dbkwik.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DBkWik Homepage",
+      "access_url": "http://dbkwik.webdatacommons.org"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Page: Harry Potter",
+      "media_type": "example/html",
+      "access_url": "http://dbkwik.webdatacommons.org/HarryPotter/resource/Harry_Potter"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://dbkwik.webdatacommons.org/sparql"
+    }
+  ]
+}

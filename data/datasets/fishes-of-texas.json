@@ -1,0 +1,51 @@
+{
+  "identifier": "fishes-of-texas",
+  "title": "Fishes of Texas",
+  "description": {
+    "en": "The [Fishes of Texas Project](http://www.fishesoftexas.org) is a multi-year research project that attempts to consolidate, standardize and fully georeference all of the known scientific information on the freshwater fishes of Texas. This package is the Linked Data version of the project's published data.\r\n\r\n### Not yet fully available\r\n\r\nThis dataset is only available from temporary URIs as of September 2010, see example resource links.\r\n\r\nA SPARQL endpoint is planned here: [http://data.fishesoftexas.org/sparql](http://data.fishesoftexas.org/sparql)"
+  },
+  "domain": "geography",
+  "website": "http://data.fishesoftexas.org",
+  "namespace": "http://data.fishesoftexas.org:8080/fish/",
+  "triples": 528897,
+  "contact_point": {
+    "name": "Juan F. Sequeda",
+    "email": "jsequeda@cs.utexas.edu"
+  },
+  "keywords": [
+    "biodiversity",
+    "broken_link",
+    "fish",
+    "format-rdf",
+    "format-rdfs",
+    "geographic",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "published-by-producer",
+    "rdf",
+    "texas"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 15241
+    },
+    {
+      "target": "taxonconcept",
+      "value": 226
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML) (future permanent URI scheme)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.fishesoftexas.org/fish/taxon61199#thing"
+    },
+    {
+      "description": "Example (RDF/XML) (temporary URI scheme)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.fishesoftexas.org:8080/fish/taxon61199#thing"
+    }
+  ]
+}

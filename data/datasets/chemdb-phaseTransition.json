@@ -1,0 +1,32 @@
+{
+  "identifier": "chemdb-phaseTransition",
+  "title": "chemdb phase transition dataset",
+  "description": {
+    "en": "This dataset collects information on the entropy, enthalpy, temperature, pressure,et. al. that associated with phase change of compounds.And critical properties for compounds are also collected."
+  },
+  "domain": "life_sciences",
+  "website": "http://chemdc.casdc.cn/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 97928,
+  "contact_point": {
+    "name": "赵月红",
+    "email": "yhzhao@ipe.ac.cn"
+  },
+  "keywords": [
+    "compound",
+    "critical  properties",
+    "phase  change"
+  ],
+  "links": [
+    {
+      "target": "bioportal-cheminf",
+      "value": 24482
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://chemdb.semweb.csdb.cn/sparql"
+    }
+  ]
+}

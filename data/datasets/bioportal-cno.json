@@ -1,0 +1,99 @@
+{
+  "identifier": "bioportal-cno",
+  "title": "Computational Neuroscience Ontology",
+  "description": {
+    "en": "CNO is a controlled vocabulary of terms used in Computational Neurosciences to describe models of the nervous system.\r\nThis first release of CNO is an alpha version and should be further aligned with other ontologies accessible on Bioportal and should be made compliant with the OBO foundry recommendations.\r\nThis work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.\r\nIf you have any comments, questions or suggestions, please contact Yann Le Franc at ylefranc(at)gmail.com."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3003",
+  "triples": 3363,
+  "contact_point": {
+    "name": "Yann Le Franc"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bdo",
+      "value": 16
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 16
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 12
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 10
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 28
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 54
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 31
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 19
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 19
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 13
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 19
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 15
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 26
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 18
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47064?apikey=BP_API_KEY"
+    }
+  ]
+}

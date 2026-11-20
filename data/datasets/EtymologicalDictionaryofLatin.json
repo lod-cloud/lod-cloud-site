@@ -1,0 +1,44 @@
+{
+  "identifier": "EtymologicalDictionaryofLatin",
+  "title": "Etymological Dictionary of Latin in LiLa",
+  "description": {
+    "en": "New etymological dictionary by Brill that covers the entire Latin lexicon of Indo-European origin. It consists of nearly 1900 entries, which altogether discuss about 8000 Latin lemmata. Only some information about P-I.E. and Proto-Italic roots is accessible via the LiLa Knowledge Base."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/BrillEDL/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/BrillEDL",
+  "triples": 57519,
+  "doi": "10.5281/zenodo.4147499",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Etymology"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 1452
+    }
+  ],
+  "full_download": [
+    {
+      "title": "EtymologicalDictionaryofLatin",
+      "description": "https://github.com/CIRCSE/EtymologicalDictionaryLatin",
+      "download_url": "https://github.com/CIRCSE/EtymologicalDictionaryLatin"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

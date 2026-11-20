@@ -1,0 +1,70 @@
+{
+  "identifier": "apertium-rdf-eu-es",
+  "title": "Apertium RDF EU-ES",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary EU-ES. The original dataset (in LMF) comes from <http://hdl.handle.net/10230/17095> . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 262336,
+  "contact_point": {
+    "name": "Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA) ; Euskal Herriko Unibertsitatea. IXA Taldea ; Prompsit Language Engineering, S.L ; Universitat Politècnica de Catalunya. TALP Research Center ;  Universitat d'Alacant. Grup Transducens"
+  },
+  "keywords": [
+    "Apertium",
+    "Basque",
+    "Spanish",
+    "bilingual",
+    "dictionary",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 9707
+    },
+    {
+      "target": "lexinfo",
+      "value": 20563
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (EU, ES) and the Translation Set EU-ES, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-27T13:51:07.416Z/apertium-eu-es-rdf.zip"
+    },
+    {
+      "title": "Basque lexicon URI",
+      "description": "This online lexicon not only contains the EU lexical entries from the EU-ES bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in EU coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconEU"
+    },
+    {
+      "title": "Spanish lexicon URI",
+      "description": "This online lexicon not only contains the ES lexical entries from the EU-ES bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in ES coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconES"
+    },
+    {
+      "title": "EU-ES translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetEU-ES"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-eu-es.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-27T13:53:20.254Z/apertium-eu-es-dataset-metadata.rdf"
+    }
+  ]
+}

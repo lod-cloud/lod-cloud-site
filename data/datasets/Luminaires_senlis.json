@@ -1,0 +1,19 @@
+{
+  "identifier": "Luminaires_senlis",
+  "title": "Linked rules",
+  "description": {
+    "en": "Linked rules description"
+  },
+  "domain": "government",
+  "website": "https://hal.inria.fr/tel-01096306",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 40369,
+  "contact_point": {
+    "name": "oumy seye",
+    "email": "oumy.seye@gmail.com"
+  },
+  "keywords": [
+    "rules",
+    "data"
+  ]
+}

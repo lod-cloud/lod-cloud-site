@@ -1,0 +1,70 @@
+{
+  "identifier": "english-index-of-multiple-deprivation-score-2010",
+  "title": "English Index of Multiple Deprivation Score 2010",
+  "description": {
+    "en": "This dataset contains the main Index of Multiple Deprivation scores for 2010. It was created from data provided by the Department of Communities and Local Government. See <a href=\"http://www.communities.gov.uk/publications/corporate/statistics/indices2010\">here</a> for details.\r\n\r\n194892 triples."
+  },
+  "domain": "government",
+  "website": "http://opendatacommunities.org/datasets/imd-score-2010",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "namespace": "http://opendatacommunities.org/id/IMD/2010/IMD-score/LSOA/",
+  "triples": 194892,
+  "contact_point": {
+    "name": "Bill Roberts",
+    "email": "bill@swirrl.com"
+  },
+  "keywords": [
+    "crime",
+    "department-of-infrastructure-transport-regional-development-and-local-government",
+    "deprivation",
+    "deref-vocab",
+    "education",
+    "employment",
+    "environment",
+    "geographic",
+    "government",
+    "health",
+    "housing",
+    "imd",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "odc-lsoa",
+      "value": 32482
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF data dump in Turtle format (zipped)",
+      "media_type": "application/zip",
+      "access_url": "http://opendatacommunities-downloads.s3.amazonaws.com/imd-2010-imd-score.ttl.zip"
+    },
+    {
+      "description": "Dataset metadata",
+      "access_url": "http://opendatacommunities.org/datasets/imd-score-2010.ttl"
+    },
+    {
+      "description": "downloadable ontology",
+      "access_url": "http://opendatacommunities.org/def/IMD"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/turtle",
+      "access_url": "http://opendatacommunities.org/doc/IMD/2010/IMD-score/LSOA/E01000001.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://opendatacommunities.org/sparql"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "identifier": "bio2rdf-chembl",
+  "title": "Bio2RDF::Chembl",
+  "description": {
+    "en": "ChEMBL is a database of bioactive compounds, their quantitative properties and bioactivities (binding constants, pharmacology and ADMET, etc). The data is abstracted and curated from the primary scientific literature."
+  },
+  "domain": "life_sciences",
+  "website": "http://chembl.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/chembl:",
+  "triples": 409942525,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/chembl/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/chembl/bio2rdf-chembl.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/chembl/chembl.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/chembl/bio2rdf_chembl_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/chembl/sitemap.xml"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download cco.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/cco.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_activity.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_activity.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_assay.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_assay.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_bindingsite.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_bindingsite.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_biocmpt.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_biocmpt.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_cellline.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_cellline.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_document.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_document.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_journal.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_journal.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_moa.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_moa.ttl.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download chembl_18.0_molecule.ttl.gz (n-quads, gzipped)",
+      "media_type": "text/turtle",
+      "access_url": "http://download.bio2rdf.org/current/chembl/chembl_18.0_molecule.ttl.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/chembl:210313"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://chembl.bio2rdf.org/sparql"
+    }
+  ]
+}

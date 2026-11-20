@@ -1,0 +1,57 @@
+{
+  "identifier": "smartlink",
+  "title": "SmartLink: Linked Services Non-Functional Properties",
+  "description": {
+    "en": "SmartLink exposes Linked Data about publicly available Web services and Web APIs. In particular, the SmartLink data set extends existing service description schemas with a light-weight schema for non-functional properties."
+  },
+  "domain": "cross_domain",
+  "website": "http://purl.org/smartlink",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://smartlink.open.ac.uk/smartlink/resource/",
+  "triples": 2829,
+  "contact_point": {
+    "name": "SmartLink team",
+    "email": "stefan.dietze@gmx.de"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-api",
+    "format-geo",
+    "format-http",
+    "format-rdf",
+    "format-rdfs",
+    "format-sawsdl",
+    "iserve",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "published-by-producer",
+    "sparql",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "iserve",
+      "value": 233
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Schema",
+      "access_url": "http://purl.org/smartlink/service-nfp"
+    }
+  ],
+  "example": [
+    {
+      "description": "Service description example",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://smartlink.open.ac.uk/smartlink/resource/services/3a76bf75-5cfc-411d-940d-bab8a4a407f1#LUPEDIA-Lookup-Service"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://smartlink.open.ac.uk/smartlink/sparql"
+    }
+  ]
+}

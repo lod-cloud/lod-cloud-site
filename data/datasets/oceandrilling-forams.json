@@ -1,0 +1,41 @@
+{
+  "identifier": "oceandrilling-forams",
+  "title": "Ocean Drilling - Forams",
+  "description": {
+    "en": "Foram data from the planktonic foram working group.  Hosted at chronos.org."
+  },
+  "domain": "geography",
+  "website": "http://data.oceandrilling.org/linkeddata.html",
+  "namespace": "http://chronos.org/taxa/",
+  "triples": 24489366,
+  "contact_point": {
+    "name": "CHRONOS",
+    "email": "dfils@oceanleadership.org"
+  },
+  "keywords": [
+    "drilling",
+    "geographic",
+    "lod",
+    "no-deref-vocab",
+    "ocean",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "oceandrilling-codices",
+      "value": 38237
+    }
+  ],
+  "example": [
+    {
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.oceandrilling.org/codices/taxa/whiteinella/paradubia"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://data.oceandrilling.org/sparql"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "identifier": "gwa-ili",
+  "title": "Global WordNet Association Interlingual Index",
+  "description": {
+    "en": "The collaborative interlingual index maintains the data for a single interlingual index of concept for wordnets. This respository contains all the data that is available in the Interlingual Index as well as mappings to other resources."
+  },
+  "domain": "linguistics",
+  "website": "https://github.com/globalwordnet/ili",
+  "license": "https://wordnet.princeton.edu/license-and-commercial-use",
+  "triples": 352995,
+  "contact_point": {
+    "name": "John McCrae",
+    "email": "john@mccr.ae"
+  },
+  "keywords": [
+    "wordnet",
+    "lexicon",
+    "interlingual index"
+  ],
+  "full_download": [
+    {
+      "title": "Full Download",
+      "description": "The source data as hosted on GitHub",
+      "download_url": "https://github.com/globalwordnet/ili/raw/master/ili.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource",
+      "description": "An example synset identifier",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://globalwordnet.org/ili/i84846"
+    }
+  ]
+}

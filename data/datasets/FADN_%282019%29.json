@@ -1,0 +1,38 @@
+{
+  "identifier": "FADN_(2019)",
+  "title": "Farm Accountancy Data Network (FADN) linked dataset from 2019 @PSNC",
+  "description": {
+    "en": "FADN is an instrument for evaluating the income of agricultural holdings and the impacts of the Common Agricultural Policy. FADN consists of an annual survey carried out by the Member States of the European Union. The services responsible in the Union for the operation of the FADN collect every year accountancy data from a sample of the agricultural holdings in the European Union. Derived from national surveys, the FADN is the only source of microeconomic data that is harmonised, i.e. the bookkeeping principles are the same in all countries. Input data for this dataset was in the form of CSV files, which were first modeled and aligned by using ontologies like Data Cube Vocabulary and its SDMX ISO extensions. The source files can be downloaded from https://ec.europa.eu/agriculture/rica/database/consult_std_reports_en.cfm"
+  },
+  "domain": "government",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://ec.europa.eu/agriculture/FADN/",
+  "triples": 25640703,
+  "image": "https://box.psnc.pl/f/e1c5bc77bb/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "statistics",
+    "Farm Accountancy",
+    "Farm Management"
+  ],
+  "links": [
+    {
+      "target": "data-gov-uk-time-intervals",
+      "value": 4592
+    },
+    {
+      "target": "nuts-geovocab",
+      "value": 202835
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

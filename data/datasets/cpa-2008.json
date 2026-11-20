@@ -1,0 +1,91 @@
+{
+  "identifier": "cpa-2008",
+  "title": "CPA 2008",
+  "description": {
+    "en": "The Statistical classification of products by activity (CPA)  is a product scheme classification used to extract statistics. It was a previous attempt to CPV.\r\n\r\nAuthors:\r\n\r\n-Jose María Alvarez Rodríguez & Jose Emilio Labra Gayo\r\n\r\nWESO-University of Oviedo"
+  },
+  "website": "http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://purl.org/weso/pscs/cpa/2008/resource",
+  "triples": 92749,
+  "contact_point": {
+    "name": "Jose María Alvarez Rodríguez at WESO (University of Oviedo)",
+    "email": "josem.alvarez@weso.es"
+  },
+  "keywords": [
+    "10ders",
+    "cpa",
+    "cpa-2008",
+    "deref-vocab",
+    "e-procurement",
+    "euroalert",
+    "format-dc",
+    "format-dcterms",
+    "format-gr",
+    "format-skos",
+    "format-skosxl",
+    "geodata",
+    "government",
+    "license-metadata",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "oviedo",
+    "procurement",
+    "provenance-metadata",
+    "pscs",
+    "public_contracts",
+    "published-by-third-party",
+    "uniovi",
+    "university-of-oviedo",
+    "vocab-mappings",
+    "weso"
+  ],
+  "links": [
+    {
+      "target": "http://productontology.org",
+      "value": 27812
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Statistical classification of products by activity (CPA)",
+      "description": "Data Dump Statistical classification of products by activity (CPA)",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/weso/datasets/pscs/cpa/2008/cpa-2008.ttl"
+    },
+    {
+      "title": "Linked Data Frontend-Statistical classification of products by activity (CPA)",
+      "description": "Linked Data Frontend-Statistical classification of products by activity (CPA)",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/weso/pscs/cpa/2008/resource/ds"
+    },
+    {
+      "title": "VoID of Statistical classification of products by activity (CPA)",
+      "description": "VoID of Statistical classification of products by activity (CPA)",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/weso/pscs/cpa/2008/resource/ds"
+    },
+    {
+      "title": "Custom definitions of Statistical classification of products by activity (CPA)",
+      "description": "Custom definitions of Statistical classification of products by activity (CPA)",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/weso/datasets/pscs/psc-ontology.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of resource-Statistical classification of products by activity (CPA)",
+      "description": "Example of resource-Statistical classification of products by activity (CPA)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/weso/pscs/data/cpa/2008/resource/011111?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WESO SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://purl.org/weso/sparql"
+    }
+  ]
+}

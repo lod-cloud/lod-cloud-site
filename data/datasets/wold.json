@@ -1,0 +1,85 @@
+{
+  "identifier": "wold",
+  "title": "World Loanword Database",
+  "description": {
+    "en": "The World Loanword Database, edited by Martin Haspelmath and Uri Tadmor, is a scientific publication by the Max Planck Digital Library, Munich (2009). \r\n\r\nIt provides vocabularies (mini-dictionaries of about 1000-2000 entries) of 41 languages from around the world, with comprehensive information about the loanword status of each word. It allows users to find loanwords, source words and donor languages in each of the 41 languages, but also makes it easy to compare loanwords across languages. \r\n\r\nEach vocabulary was contributed by an expert on the language and its history. An accompanying book is being published by Mouton de Gruyter (Loanwords in the World's Languages: A Comparative Handbook, edited by Martin Haspelmath & Uri Tadmor). \r\n\r\nThe World Loanword Database 2009 consists of vocabularies contributed by 41 different authors or author teams. When citing material from the database, please cite the corresponding vocabulary (or vocabularies). \r\n\r\nThe database can be accessed by language, by meaning, by author, or by reference. \r\n\r\nThe World Loanword Database 2009 is the result of a collaborative project coordinated by Uri Tadmor and Martin Haspelmath between 2004 and 2008, called the Loanword Typology Project (LWT). Most of the contributors took part in workshops at which the procedures for selecting and annotating words were discussed extensively. The list of 1460 meanings on which the vocabularies are based is called the Loanword Typology meaning list, and it is in turn based on the list of the Intercontinental Dictionary Series., LOD"
+  },
+  "domain": "linguistics",
+  "website": "http://wold.livingsources.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "wold.livingsources.org",
+  "triples": 1000000,
+  "contact_point": {
+    "name": "Hans-Jörg Bibiko",
+    "email": "bibiko@eva.mpg.de"
+  },
+  "keywords": [
+    "LOD",
+    "crossdomain",
+    "format-dcterms",
+    "format-gold",
+    "format-kml",
+    "format-lexvo",
+    "format-skos",
+    "format-wn",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer",
+    "typology"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 16362
+    },
+    {
+      "target": "iso-639-3",
+      "value": 244
+    },
+    {
+      "target": "wals",
+      "value": 202
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Language",
+      "description": "A language about which WOLD has information. Linked to WALS",
+      "media_type": "RDF",
+      "access_url": "http://wold.livingsources.org/language/19.rdf"
+    },
+    {
+      "title": "word",
+      "description": "a word in a language with its borrowing status",
+      "media_type": "RDF",
+      "access_url": "http://wold.livingsources.org/word/71312352339070606.rdf"
+    },
+    {
+      "title": "Meaning",
+      "description": "A meaning/concept",
+      "media_type": "RDF",
+      "access_url": "http://wold.livingsources.org/meaning/1.58.rdf"
+    },
+    {
+      "title": "RDF dump",
+      "access_url": "http://mlode.nlp2rdf.org/datasets/wold.nt.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Vocabulary",
+      "description": "A list of words in a language",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://wold.livingsources.org/vocabulary/19.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://mlode.nlp2rdf.org/sparql"
+    }
+  ]
+}

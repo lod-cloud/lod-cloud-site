@@ -1,0 +1,176 @@
+{
+  "identifier": "the-living-lod-cloud",
+  "title": "The Living LOD Cloud",
+  "description": {
+    "en": "A lodcloud diagram, automatically. Based on quality standards."
+  },
+  "domain": "user_generated",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 3639,
+  "contact_point": {
+    "name": "Timothy Lebo",
+    "email": "lebot@rpi.edu"
+  },
+  "keywords": [
+    "datafaqs",
+    "format-con",
+    "format-conv",
+    "format-datafaqs",
+    "format-dc",
+    "format-dcat",
+    "format-doap",
+    "format-foaf",
+    "format-irw",
+    "format-oboro",
+    "format-opm",
+    "format-ov",
+    "format-owl",
+    "format-pml",
+    "format-pmlj",
+    "format-pmlp",
+    "format-prov",
+    "format-rdf",
+    "format-rdfs",
+    "format-sd",
+    "format-sio",
+    "format-sioc",
+    "format-skos",
+    "format-vann",
+    "format-void",
+    "linked data"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    },
+    {
+      "target": "twc-logd",
+      "value": 2
+    }
+  ],
+  "full_download": [
+    {
+      "title": "N-Triples Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://purl.org/twc/lodcloud/source/tw-rpi-edu/file/cr-full-dump/version/latest/conversion/purl-org-twc-lodcloud.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Web site",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/twc/lodcloud"
+    },
+    {
+      "title": "GitHub Repository",
+      "access_url": "https://github.com/timrdf/lodcloud"
+    },
+    {
+      "title": "pml RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://provenanceweb.org/ns/pml"
+    },
+    {
+      "title": "void RDF Schema",
+      "access_url": "http://rdfs.org/ns/void"
+    },
+    {
+      "title": "rdf RDF Schema",
+      "access_url": "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    },
+    {
+      "title": "foaf RDF Schema",
+      "access_url": "http://xmlns.com/foaf/0.1/"
+    },
+    {
+      "title": "skos RDF Schema",
+      "access_url": "http://www.w3.org/2004/02/skos/core"
+    },
+    {
+      "title": "owl RDF Schema",
+      "access_url": "http://www.w3.org/2002/07/owl"
+    },
+    {
+      "title": "sd RDF Schema",
+      "access_url": "http://www.w3.org/ns/sparql-service-description"
+    },
+    {
+      "title": "prov RDF Schema",
+      "access_url": "http://www.w3.org/ns/prov"
+    },
+    {
+      "title": "pmlp RDF Schema",
+      "access_url": "http://inference-web.org/2.0/pml-provenance.owl"
+    },
+    {
+      "title": "irw RDF Schema",
+      "access_url": "http://www.ontologydesignpatterns.org/ont/web/irw.owl"
+    },
+    {
+      "title": "ov RDF Schema",
+      "media_type": "text/html",
+      "access_url": "http://open.vocab.org/terms/"
+    },
+    {
+      "title": "oboro RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://obofoundry.org/ro/ro.owl"
+    },
+    {
+      "title": "prov RDF Schema",
+      "access_url": "http://purl.org/net/provenance/ns"
+    },
+    {
+      "title": "opm RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://openprovenance.org/ontology"
+    },
+    {
+      "title": "con RDF Schema",
+      "access_url": "http://www.w3.org/2000/10/swap/pim/contact"
+    },
+    {
+      "title": "sio RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://semanticscience.org/resource/"
+    },
+    {
+      "title": "rdfs RDF Schema",
+      "access_url": "http://www.w3.org/2000/01/rdf-schema"
+    },
+    {
+      "title": "doap RDF Schema",
+      "access_url": "http://usefulinc.com/ns/doap"
+    },
+    {
+      "title": "conv RDF Schema",
+      "access_url": "http://purl.org/twc/vocab/conversion/"
+    },
+    {
+      "title": "pmlj RDF Schema",
+      "access_url": "http://inference-web.org/2.0/pml-justification.owl"
+    },
+    {
+      "title": "dcat RDF Schema",
+      "access_url": "http://www.w3.org/ns/dcat"
+    },
+    {
+      "title": "dc RDF Schema",
+      "access_url": "http://purl.org/dc/terms/"
+    },
+    {
+      "title": "datafaqs RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/twc/vocab/datafaqs"
+    },
+    {
+      "title": "sioc RDF Schema",
+      "access_url": "http://rdfs.org/sioc/ns"
+    },
+    {
+      "title": "vann RDF Schema",
+      "access_url": "http://purl.org/vocab/vann/"
+    }
+  ]
+}

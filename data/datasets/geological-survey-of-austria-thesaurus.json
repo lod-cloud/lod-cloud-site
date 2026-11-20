@@ -1,0 +1,138 @@
+{
+  "identifier": "geological-survey-of-austria-thesaurus",
+  "title": "Geological Survey of Austria (GBA) - Thesaurus",
+  "description": {
+    "en": "The Thesaurus of the Geological Survey of Austria is a bilingual (de/en) controlled vocabulary for the semantic harmonisation of geoscientific map-based geodata. Currently there are four thematic subjects available : \r\n\r\n* lithology\r\n* geologic timescale\r\n* geologic units\r\n* tectonic units & classification"
+  },
+  "domain": "geography",
+  "website": "http://resource.geolba.ac.at/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://resource.geolba.ac.at/",
+  "triples": 40912,
+  "contact_point": {
+    "name": "Thesaurus Editorial Team",
+    "email": "thesaurus@geologie.ac.at"
+  },
+  "keywords": [
+    "austria",
+    "format-skos",
+    "geographic",
+    "geology",
+    "geoscience",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 100
+    },
+    {
+      "target": "freebase",
+      "value": 93
+    },
+    {
+      "target": "opencyc",
+      "value": 9
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Geologic Unit",
+      "access_url": "http://resource.geolba.ac.at/GeologicUnit"
+    },
+    {
+      "description": "Download - Geologic Unit",
+      "media_type": "RDF",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=d7b07bce-7ce4-4bcb-85ae-e0f774e6fb8d/pp_project_geologische_einheiten.rdf&contentType=application/rdf%2Bxml"
+    },
+    {
+      "description": "Geologic Time Scale",
+      "access_url": "http://resource.geolba.ac.at/GeologicTimeScale"
+    },
+    {
+      "description": "Download - Geologic Time Scale",
+      "media_type": "RDF",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=urn:uuid:1D763DCD-0E5C-0001-FBB1-1D401A50B620/pp_project_geologische_zeitskala.rdf&contentType=application/rdf%2Bxml"
+    },
+    {
+      "description": "Lithology",
+      "access_url": "http://resource.geolba.ac.at/lithology"
+    },
+    {
+      "description": "Download - Lithology",
+      "media_type": "RDF",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=urn:uuid:1D87806F-E88C-0001-AFCC-DC87F6001C3A/pp_project_lithologische_einheiten.rdf&contentType=application/rdf%2Bxml"
+    },
+    {
+      "description": "Lithotectonic Unit",
+      "access_url": "http://resource.geolba.ac.at/tectonicunit"
+    },
+    {
+      "description": "Download - Lithotectonic Unit",
+      "media_type": "RDF",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=d13bb3e7-df48-4cba-bd0c-e63c8943d9e0/pp_project_lithotektonische_einheiten.rdf&contentType=application/rdf%2Bxml"
+    },
+    {
+      "description": "VoiD - Lithotectonic Unit",
+      "access_url": "http://resource.geolba.ac.at/tectonicunit.rdf"
+    },
+    {
+      "description": "VoiD - Lithology",
+      "access_url": "http://resource.geolba.ac.at/lithology.rdf"
+    },
+    {
+      "description": "VoiD - Geologic Time Scale",
+      "access_url": "http://resource.geolba.ac.at/GeologicTimeScale.rdf"
+    },
+    {
+      "description": "VoiD - Geologic Unit",
+      "access_url": "http://resource.geolba.ac.at/GeologicUnit.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (rdf) - Geologic Unit",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://resource.geolba.ac.at/GeologicUnit/291.rdf"
+    },
+    {
+      "description": "Example (rdf) - Geologic Time Scale",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://resource.geolba.ac.at/GeologicTimeScale/35.rdf"
+    },
+    {
+      "description": "Example (rdf) - Lithology",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://resource.geolba.ac.at/lithology/48.rdf"
+    },
+    {
+      "description": "Example (rdf) - Lithotectonic Unit",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://resource.geolba.ac.at/tectonicunit/115.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint - Geologic Unit",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit"
+    },
+    {
+      "description": "SPARQL Endpoint - Geologic Time Scale",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale"
+    },
+    {
+      "description": "SPARQL Endpoint - Lithology",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/sparql/lithology"
+    },
+    {
+      "description": "SPARQL Endpoint - Lithotectonic Unit",
+      "access_url": "http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "identifier": "data-incubator-pokedex",
+  "title": "Pokedex data in RDF",
+  "description": {
+    "en": "### Description\r\n\r\nLinked data on all Pokemon in the [Pokedex](http://www.upokecenter.com/dex/)\r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "media",
+  "website": "http://pokedex.dataincubator.org/",
+  "namespace": "http://pokedex.dataincubator.org/pokemon/",
+  "triples": 26134,
+  "contact_point": {
+    "name": "Kier Davis",
+    "email": "kierdavis@gmail.com"
+  },
+  "keywords": [
+    "data-incubator",
+    "deref-vocab",
+    "format-owl",
+    "format-rdf",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "pokemon",
+    "published-by-third-party",
+    "talis"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 493
+    },
+    {
+      "target": "freebase",
+      "value": 425
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://pokedex.dataincubator.org/"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to Internet Archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/pokedex-data-rdf.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://pokedex.dataincubator.org/pokemon/garchomp"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/pokedex/services/sparql"
+    }
+  ]
+}

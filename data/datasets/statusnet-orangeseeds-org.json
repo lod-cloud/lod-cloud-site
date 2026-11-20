@@ -1,0 +1,39 @@
+{
+  "identifier": "statusnet-orangeseeds-org",
+  "title": "statusnet-orangeseeds-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://orangeseeds.org"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-deuxpi-ca",
+      "value": 1
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.orangeseeds.org/anarcat/foaf"
+    }
+  ]
+}

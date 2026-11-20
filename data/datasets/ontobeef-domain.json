@@ -1,0 +1,126 @@
+{
+  "identifier": "ontobeef-domain",
+  "title": "OntoBeef Domain",
+  "description": {
+    "en": "Ontology of Beef created within ProOptiBeef project \r\n([www.prooptibeef.pl](http://www.prooptibeef.pl/ \"ProOptiBeef\")).\r\n\r\nLinks with LOD datasets (27.06.2013): \r\n\r\n- 797 links with AGROVOC, \r\n- 211 links with GEMET, \r\n- 546 links with NAL and \r\n- 119 links with STW."
+  },
+  "domain": "life_sciences",
+  "website": "http://onto.beef.org.pl/ontobeef",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://onto.beef.org.pl/domain/",
+  "triples": 13099,
+  "contact_point": {
+    "name": "Polish Beef Association",
+    "email": "robert@trypuz.pl"
+  },
+  "keywords": [
+    "agriculture",
+    "animals",
+    "beef",
+    "beef production",
+    "deref-vocab",
+    "food",
+    "format-owl",
+    "format-skos",
+    "license-metadata",
+    "lifesciences",
+    "linked-open-data",
+    "lod",
+    "meat",
+    "provenance-metadata",
+    "published-by-producer",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "agrovoc-skos",
+      "value": 797
+    },
+    {
+      "target": "gemet",
+      "value": 211
+    },
+    {
+      "target": "nalt",
+      "value": 546
+    },
+    {
+      "target": "stw-thesaurus-for-economics",
+      "value": 119
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ontobeef-agrovoc-skos.ttl",
+      "description": "mapping file between OntoBeef-AGROVOC-SKOS",
+      "media_type": "mapping/owl",
+      "access_url": "http://onto.beef.org.pl/ontobeef/files/ontobeef-agrovoc.ttl"
+    },
+    {
+      "title": "ontobeef-nal.ttl",
+      "description": "mapping between OntoBeef and NAL",
+      "media_type": "text/turtle",
+      "access_url": "http://onto.beef.org.pl/ontobeef/files/ontobeef-nal.ttl"
+    },
+    {
+      "title": "ontobeef-gemet.ttl",
+      "description": "mapping between OntoBeef and GEMET",
+      "media_type": "text/turtle",
+      "access_url": "http://onto.beef.org.pl/ontobeef/files/ontobeef-gemet.ttl"
+    },
+    {
+      "title": "ontobeef-stw.ttl",
+      "description": "mapping between OntoBeef and STW",
+      "media_type": "text/turtle",
+      "access_url": "http://onto.beef.org.pl/ontobeef/files/ontobeef-stw.ttl"
+    },
+    {
+      "title": "Example (human readable)",
+      "description": "Data is presented here in a friendly way.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://onto.beef.org.pl/domain/c201"
+    },
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "access_url": "http://onto.beef.org.pl/ontobeef/Ontology?siri=D;c201&output=rdf"
+    },
+    {
+      "title": "DOLCE",
+      "description": "DOLCE top-level ontology structuring OntoBeef",
+      "access_url": "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl"
+    },
+    {
+      "title": "Domain.owl",
+      "description": "OWL version of OntoBeef Domain ontology",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://onto.beef.org.pl/ontobeef/files/Domain.owl"
+    },
+    {
+      "title": "Application",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://onto.beef.org.pl/ontobeef/"
+    },
+    {
+      "title": "void",
+      "description": "VoID",
+      "media_type": "meta/void",
+      "access_url": "http://onto.beef.org.pl/ontobeef/files/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (human readable with object and data properties)",
+      "description": "Presentation makes object and data properties explicit.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://onto.beef.org.pl/ontobeef/Ontology?siri=D;c201&output=hrrdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL EndPoint",
+      "description": "SPARQL EndPoint",
+      "access_url": "http://onto.beef.org.pl/sparql"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "identifier": "geonames-semantic-web",
+  "title": "GeoNames Semantic Web",
+  "description": {
+    "en": "The GeoNames Ontology makes it possible to add geospatial semantic information to the Word Wide Web. All over 6.2 million geonames toponyms now have a unique URL with a corresponding RDF web service. Other services describe the relation between toponyms.\r\n\r\nSPARQL endpoints for this data are made available by third parties. [Geonames at Kasabi](http://kasabi.com/dataset/geonames/), and [FactForge](http://factforge.net/sparql) has it loaded as well."
+  },
+  "domain": "geography",
+  "website": "http://www.geonames.org/ontology/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://sws.geonames.org/",
+  "triples": 93896732,
+  "contact_point": {
+    "name": "Bernard Vatant",
+    "email": "bernard.vatant@mondeca.com"
+  },
+  "keywords": [
+    "format-cc",
+    "format-geo",
+    "format-rdf",
+    "geographic",
+    "geography",
+    "lod",
+    "lodcloud-diagram-2007-05-01",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "other_download": [
+    {
+      "title": "Iu",
+      "description": "RDF Schema",
+      "access_url": "http://www.geonames.org/ontology/ontology_v2.1.rdf"
+    },
+    {
+      "title": "Iss",
+      "description": "Download",
+      "media_type": "application/zip",
+      "access_url": "http://download.geonames.org/all-geonames-rdf.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Identifier",
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://sws.geonames.org/3020251/about.rdf"
+    },
+    {
+      "title": "Sub",
+      "description": "Example (Mother Earth)",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://sws.geonames.org/6295630/"
+    }
+  ]
+}

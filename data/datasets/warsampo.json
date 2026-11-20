@@ -1,0 +1,84 @@
+{
+  "identifier": "warsampo",
+  "title": "WarSampo",
+  "description": {
+    "en": "This dataset includes harmonized data of different kinds concerning the Second World War in Finland, separated in different graphs representing events, actors, places, photographs, and other aspects and documentation of the war. To test and demonstrate its usefulness, this data service is in use in the semantic portal [WarSampo](http://sotasampo.fi/en/) explained in more detail in the [project page](http://seco.cs.aalto.fi/projects/sotasampo)."
+  },
+  "domain": "cross_domain",
+  "website": "http://www.ldf.fi/dataset/warsa",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 14280903,
+  "contact_point": {
+    "name": "Mikko Koho",
+    "email": "mikko.koho@aalto.fi"
+  },
+  "keywords": [
+    "Continuation War",
+    "Finland",
+    "Lapin sota",
+    "Lapland War",
+    "Second World War",
+    "Winter War",
+    "culturalheritage",
+    "deref-vocab",
+    "format-crm",
+    "format-dct",
+    "format-foaf",
+    "format-geo",
+    "format-rdf",
+    "format-schema",
+    "format-skos",
+    "history",
+    "jatkosota",
+    "lod",
+    "sota",
+    "talvisota",
+    "war",
+    "military history",
+    "CIDOC CRM",
+    "CRM",
+    "CIDOC"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 311
+    },
+    {
+      "target": "doi",
+      "value": 2
+    },
+    {
+      "target": "muninn-world-war-i",
+      "value": 147
+    },
+    {
+      "target": "wikidata",
+      "value": 159
+    }
+  ],
+  "full_download": [
+    {
+      "title": "WarSampo Knowledge Graph",
+      "description": "The WarSampo knowledge graph as triples in Zenodo.",
+      "download_url": "https://doi.org/10.5281/zenodo.3431121"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example resource",
+      "description": "Data related to Carl Gustaf Emil Mannerheim",
+      "access_url": "http://ldf.fi/warsa/actors/person_1"
+    },
+    {
+      "title": "Home page",
+      "access_url": "http://www.ldf.fi/dataset/warsa/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://ldf.fi/warsa/sparql"
+    }
+  ]
+}

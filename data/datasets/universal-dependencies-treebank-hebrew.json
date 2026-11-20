@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-hebrew",
+  "title": "Universal Dependencies Treebank Hebrew",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Hebrew treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Hebrew",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 115535,
+  "contact_point": {
+    "name": "Goldberg, Yoav; Tsarfaty, Reut"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Hebrew Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Hebrew/archive/master.zip"
+    },
+    {
+      "title": "UD_Hebrew RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/6519afd2-0293-42c0-8324-10ffad9f5be2/resource/89db5d95-dad5-44d6-8f2e-9f4f3fb81339/download/udhebrew.rdf"
+    }
+  ]
+}

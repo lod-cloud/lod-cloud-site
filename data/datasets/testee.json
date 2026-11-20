@@ -1,0 +1,53 @@
+{
+  "identifier": "testee",
+  "title": "xxxxx",
+  "description": {
+    "en": "## Description\r\n\r\nssss sssssssssssssss ssssssssssssssssssssssssssssss"
+  },
+  "triples": 33333,
+  "contact_point": {
+    "name": "xxx",
+    "email": "xx"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "freebase",
+      "value": 222
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://diwis.imis.athena-innovation.gr:8181/dump"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://diwis.imis.athena-innovation.gr:8181/scehma"
+    },
+    {
+      "description": "Download page (N-Triples, bz2-compressed)",
+      "access_url": "http://diwis.imis.athena-innovation.gr/Dump"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://diwis.imis.athena-innovation.gr:8181/sparql"
+    }
+  ]
+}

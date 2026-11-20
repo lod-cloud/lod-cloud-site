@@ -1,0 +1,67 @@
+{
+  "identifier": "bioportal-nonrctontology",
+  "title": "Non Randomized Controlled Trials Ontology",
+  "description": {
+    "en": "We built an ontology to help the systematic review and meta-analysis process of non randomized clinical trials."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3012",
+  "triples": 1502,
+  "contact_point": {
+    "name": "Amrapali Zaveri"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 16
+    },
+    {
+      "target": "bioportal-diagnosticont",
+      "value": 79
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 10
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 22
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 44
+    },
+    {
+      "target": "bioportal-rctontology",
+      "value": 133
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 22
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46955?apikey=BP_API_KEY"
+    }
+  ]
+}

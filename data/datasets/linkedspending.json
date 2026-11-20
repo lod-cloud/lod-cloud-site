@@ -1,0 +1,50 @@
+{
+  "identifier": "linkedspending",
+  "title": "LinkedSpending",
+  "description": {
+    "en": "The conversion of OpenSpending to LinkedSpending, which provides more than five million financial transactions in 955 data sets from\nall over the world as RDF Data Cubes."
+  },
+  "domain": "government",
+  "website": "http://linkedspending.aksw.org/",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://linkedspending.aksw.org/",
+  "triples": 113640534,
+  "contact_point": {
+    "name": "Konrad Höffner",
+    "email": "konrad.hoeffner@uni-leipzig.de"
+  },
+  "keywords": [
+    "spending",
+    "openspending"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 15000000
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 9000000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "LinkedSpending Full Version 2014-03",
+      "description": "Compressed N-Triples Dump",
+      "media_type": "application/gzip",
+      "download_url": "http://linkedspending.aksw.org/extensions/page/page /export/lscomplete20143.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Finland Aid",
+      "access_url": "http://linkedspending.aksw.org/resource/properties/?r=http%3A%2F%2Flinkedspending.aksw.org%2Finstance%2Ffinland-aid"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint for LinkedSpending",
+      "access_url": "http://linkedspending.aksw.org/sparql"
+    }
+  ]
+}

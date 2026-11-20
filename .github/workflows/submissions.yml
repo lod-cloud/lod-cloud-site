@@ -1,0 +1,97 @@
+name: Submissions
+
+# Turns an "Add a dataset" or "Update a dataset" issue (the forms in .github/ISSUE_TEMPLATE)
+# into a pull request against `dev` with the new or changed data/datasets file. The pull
+# request is checked like any other (Validate) and a maintainer merges it.
+#
+# Issue workflows run from the default branch (main), so this cannot be tried before the
+# first merge to main. The pull request is opened with a GitHub App token (secrets
+# SUBMISSIONS_APP_ID and SUBMISSIONS_APP_PRIVATE_KEY): one opened with GITHUB_TOKEN would not
+# trigger the Validate check, which the branch rules require.
+#
+# The issue text is written by anyone, so it is only ever parsed as data by
+# scripts/issue_to_record.py. Nothing from it is run or put into a shell command, and the
+# App token is created only after that step has finished.
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: submission-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  submission:
+    if: contains(github.event.issue.labels.*.name, 'add-dataset') || contains(github.event.issue.labels.*.name, 'update-dataset')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ISSUE: ${{ github.event.issue.number }}
+      BRANCH: submission/issue-${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+          fetch-depth: 1
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install "jsonschema>=4.18"
+
+      - name: Convert the issue
+        id: convert
+        run: |
+          python scripts/issue_to_record.py --event "$GITHUB_EVENT_PATH" \
+            --report "$RUNNER_TEMP/report.md" --message "$RUNNER_TEMP/message.txt" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Say what is wrong
+        if: steps.convert.outputs.ok == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --edit-last --create-if-none --body-file "$RUNNER_TEMP/report.md"
+
+      - uses: actions/create-github-app-token@v1
+        id: app
+        if: steps.convert.outputs.ok == 'true'
+        with:
+          app-id: ${{ secrets.SUBMISSIONS_APP_ID }}
+          private-key: ${{ secrets.SUBMISSIONS_APP_PRIVATE_KEY }}
+
+      - name: Open or update the pull request
+        if: steps.convert.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+          FILE: ${{ steps.convert.outputs.file }}
+          KIND: ${{ steps.convert.outputs.kind }}
+          IDENTIFIER: ${{ steps.convert.outputs.identifier }}
+          SUBMITTER: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "lod-cloud-submissions[bot]"
+          git config user.email "lod-cloud-submissions[bot]@users.noreply.github.com"
+          git checkout -q -b "$BRANCH"
+          git add -- "$FILE"
+          git commit -q -F "$RUNNER_TEMP/message.txt"
+          git push -q --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:refs/heads/${BRANCH}"
+          existing=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --state open --json url -q '.[0].url')
+          if [ -z "$existing" ]; then
+            printf 'Submitted in #%s by @%s.\n\nChecked by the Validate workflow; a maintainer reviews it before it is merged.\n' \
+              "$ISSUE" "$SUBMITTER" > "$RUNNER_TEMP/pr.md"
+            existing=$(gh pr create --repo "$GITHUB_REPOSITORY" --base dev --head "$BRANCH" \
+              --title "$([ "$KIND" = add ] && echo Add || echo Update) dataset $IDENTIFIER (#$ISSUE)" \
+              --body-file "$RUNNER_TEMP/pr.md")
+          fi
+          printf 'Thanks! The pull request is %s. It is checked automatically; a maintainer will review it. If you edit this issue, the pull request is updated.\n' "$existing" > "$RUNNER_TEMP/done.md"
+
+      - name: Link the pull request
+        if: steps.convert.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --edit-last --create-if-none --body-file "$RUNNER_TEMP/done.md"

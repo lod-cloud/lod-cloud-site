@@ -1,0 +1,49 @@
+{
+  "identifier": "talis-openlibrary",
+  "title": "Open Library data mirror in the Talis Platform",
+  "description": {
+    "en": "Modeled using the JSON data dumps from the Open Library (http://openlibrary.org/data/ol_dump_latest.txt.gz).  Provides a SPARQL endpoint and OpenSearch interface (with RSS 1.0 output).\r\n\r\nThe data model is slightly different than that of the Open Library's native RDF output:  it is designed to link out to more resources in the LOD Cloud."
+  },
+  "domain": "cross_domain",
+  "website": "http://api.talis.com/stores/openlibrary",
+  "license": "https://opendefinition.org/licenses/fal",
+  "namespace": "http://api.talis.com/stores/openlibrary",
+  "triples": 541396055,
+  "contact_point": {
+    "name": "Open Library",
+    "email": "abc@gmail.com"
+  },
+  "keywords": [
+    "broken_link",
+    "format-bibo",
+    "format-dc",
+    "format-foaf",
+    "format-frbr",
+    "format-skos",
+    "library",
+    "license-metadata",
+    "lld",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1633
+    },
+    {
+      "target": "linkedlccn",
+      "value": 8645387
+    },
+    {
+      "target": "marc-codes",
+      "value": 30290075
+    }
+  ]
+}

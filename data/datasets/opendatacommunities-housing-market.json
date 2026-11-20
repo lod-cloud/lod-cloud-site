@@ -1,0 +1,37 @@
+{
+  "identifier": "opendatacommunities-housing-market",
+  "title": "opendatacommunities-housing-market",
+  "domain": "government",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-cube",
+    "format-dcat",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-sdmxa",
+    "format-void",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "reference-data-gov-uk",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://opendatacommunities.org/data/housing-market/ratio/housePricesRatio/2011/E07000225/med-house-price-to-earnings"
+    }
+  ]
+}

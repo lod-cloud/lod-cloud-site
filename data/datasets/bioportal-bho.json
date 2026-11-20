@@ -1,0 +1,303 @@
+{
+  "identifier": "bioportal-bho",
+  "title": "Bleeding History Phenotype",
+  "description": {
+    "en": "An application ontology devoted to the standardized recording of phenotypic data related to hemorrhagic disorders."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1116",
+  "triples": 6526,
+  "contact_point": {
+    "name": "Andreas Mauer"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 18
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 32
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 48
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 39
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 14
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 32
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 120
+    },
+    {
+      "target": "bioportal-cpt",
+      "value": 14
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 113
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 53
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 13
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 30
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 86
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 305
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 58
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 17
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 96
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 10
+    },
+    {
+      "target": "bioportal-fhho",
+      "value": 10
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 106
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 35
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 33
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 40
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 16
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 16
+    },
+    {
+      "target": "bioportal-icf_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 43
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 62
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 172
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 31
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 25
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 80
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 99
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 35
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 256
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 18
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 168
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 21
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 355
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 62
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 65
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 20
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 23
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 52
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 23
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 20
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 21
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 28
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 167
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 90
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-shr",
+      "value": 10
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 493
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 54
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 34
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 19
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 44
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 10
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 21
+    },
+    {
+      "target": "bioportal-who",
+      "value": 20
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 23
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 13
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45088?apikey=BP_API_KEY"
+    }
+  ]
+}

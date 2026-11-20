@@ -1,0 +1,15 @@
+{
+  "identifier": "nugmyanmar",
+  "title": "links",
+  "description": {
+    "en": "connection links of nug myanmar"
+  },
+  "domain": "cross_domain",
+  "website": "https://nugmyanmar.org",
+  "license": "https://opendefinition.org/licenses/fal",
+  "triples": 0,
+  "contact_point": {
+    "name": "nugmyanmar.org",
+    "email": "optteam5.nugpay@gmail.com"
+  }
+}

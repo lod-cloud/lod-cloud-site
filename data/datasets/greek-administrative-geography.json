@@ -1,0 +1,30 @@
+{
+  "identifier": "greek-administrative-geography",
+  "title": "greek-administrative-geography",
+  "domain": "geography",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "geographic",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 120
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://geo.linkedopendata.gr/gag/data/id/923604"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "identifier": "nytimes-linked-open-data",
+  "title": "New York Times - Linked Open Data",
+  "description": {
+    "en": "### About\r\n\r\nFrom website:\r\n\r\n> For the last 150 years, The New York Times  has maintained  one of the most  authoritative news vocabularies  ever developed. In 2009, we began to publish this vocabulary as linked open data."
+  },
+  "domain": "media",
+  "website": "http://data.nytimes.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.nytimes.com/",
+  "triples": 345889,
+  "contact_point": {
+    "name": "Evan Sandhaus, Rob Larson",
+    "email": "evan@nytimes.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "format-skos",
+    "format-time",
+    "linked-open-data",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "semantic",
+    "semanticweb"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 10359
+    },
+    {
+      "target": "freebase",
+      "value": 10302
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 3039
+    }
+  ],
+  "other_download": [
+    {
+      "description": "People (SKOS)",
+      "media_type": "RDF",
+      "access_url": "http://data.nytimes.com/people.rdf"
+    },
+    {
+      "description": "Organizations (SKOS)",
+      "media_type": "RDF",
+      "access_url": "http://data.nytimes.com/organizations.rdf"
+    },
+    {
+      "description": "Locations (SKOS)",
+      "media_type": "RDF",
+      "access_url": "http://data.nytimes.com/locations.rdf"
+    },
+    {
+      "description": "Subject descriptors (SKOS)",
+      "media_type": "RDF",
+      "access_url": "http://data.nytimes.com/descriptors.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.nytimes.com/57525341647327480183"
+    }
+  ]
+}

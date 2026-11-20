@@ -1,0 +1,54 @@
+{
+  "identifier": "omwn-nld",
+  "title": "Open WordNet (as part of Open Multilingual WordNet)",
+  "description": {
+    "en": "The Open wordnet as published as part of the Open Multilingual WordNet. The goal of Open Multilingual WordNet is to make it easy to use wordnets in multiple languages. The individual wordnets have been made by many different projects and vary greatly in size and accuracy. We have (i) extracted and normalized the data, (ii) linked it to Princeton WordNet 3.0 and (iii) put it in one place. The Open Multilingual Wordnet and its components are open: they can be freely used, modified, and shared by anyone for any purpose. The original URL for this project is http://wordpress.let.vupr.nl/odwn/"
+  },
+  "domain": "linguistics",
+  "website": "http://compling.hss.ntu.edu.sg/omw/",
+  "license": "http://compling.hss.ntu.edu.sg/omw/wns/nld/LICENSE",
+  "triples": 399121,
+  "contact_point": {
+    "name": "Francis Bond",
+    "email": "bond@ieee.org"
+  },
+  "keywords": [
+    "lexicon",
+    "wordnet",
+    "lemon"
+  ],
+  "links": [
+    {
+      "target": "wordnet-rdf",
+      "value": 60260
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Full Download",
+      "description": "Download of data with LMF and Lemon files",
+      "media_type": "application/zip",
+      "download_url": "http://compling.hss.ntu.edu.sg/omw/wns/nld+xml.zip"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "TSV files",
+      "description": "Download of tab separated values for data",
+      "media_type": "application/zip",
+      "access_url": "http://compling.hss.ntu.edu.sg/omw/wns/nld.zip"
+    },
+    {
+      "title": "Citation",
+      "description": "Citation for using this work",
+      "media_type": "text/x-bibtex",
+      "access_url": "http://compling.hss.ntu.edu.sg/omw/wns/nld/citation.bib"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://omwn.linguistic-lod.org/sparql/"
+    }
+  ]
+}

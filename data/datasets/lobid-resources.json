@@ -1,0 +1,124 @@
+{
+  "identifier": "lobid-resources",
+  "title": "lobid-Bibliographic Resources",
+  "description": {
+    "en": "lobid-resources is a service which offers access to metadata in RDF about bibliographic resources (books, articles, pdfs etc.) with more than 19 million frbr:manifestations with more than 40 million frbr:items.\r\nWe also provide a raw data dump at http://thedatahub.org/dataset/hbz_unioncatalog .\r\n\r\nLinks to other datasets are provided in separate files, see below.\r\n\r\nYou can find additional information about this data [here](https://wiki1.hbz-nrw.de/display/SEM/2010/08/31/Linked-Open-hbz-Data)."
+  },
+  "domain": "publications",
+  "website": "http://lobid.org/resource",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://lobid.org/resource/",
+  "triples": 702686189,
+  "contact_point": {
+    "name": "North Rhine-Westphalian Library Service Center (hbz)",
+    "email": "semweb@hbz-nrw.de"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-bibo",
+    "format-dc",
+    "format-foaf",
+    "format-frbr",
+    "format-geo",
+    "format-owl",
+    "format-skos-state",
+    "germany",
+    "library",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "b3kat",
+      "value": 4772
+    },
+    {
+      "target": "dbpedia",
+      "value": 5794
+    },
+    {
+      "target": "dbpedia-de",
+      "value": 6179
+    },
+    {
+      "target": "dewey_decimal_classification",
+      "value": 4564094
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 37381139
+    },
+    {
+      "target": "gutenberg",
+      "value": 5467
+    },
+    {
+      "target": "iso-639-2",
+      "value": 10887959
+    },
+    {
+      "target": "lobid-organisations",
+      "value": 46173571
+    },
+    {
+      "target": "oclc",
+      "value": 1094922
+    },
+    {
+      "target": "open-library",
+      "value": 1258070
+    },
+    {
+      "target": "zdb",
+      "value": 1751215
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Links to other datasets",
+      "description": "Files which provide interlinking between lobid.org-resources and i.e. dpbedia/wikipedia, project gutenberg, openlibrary . Though the data is also available in the big full dump, you may want to load only these concordances.",
+      "access_url": "http://lobid.org/download/dumps/DE-605/enrich/"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://lobid.org/dataset/resource/about.ttl"
+    },
+    {
+      "title": "lobid resources ntriples dump",
+      "description": "All the Open Data from the hbz catalog as ntriples.",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lobid.org/download/dumps/DE-605/lod/resources-dump.nt.gz"
+    },
+    {
+      "title": "lobid resources ntriples dump updates",
+      "description": "daily updates",
+      "access_url": "http://lobid.org/download/dumps/DE-605/updates/lod/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item",
+      "description": "Link to an example data item",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://lobid.org/resource/HT002948556"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://lobid.org/sparql/"
+    }
+  ]
+}

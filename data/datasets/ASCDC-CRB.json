@@ -1,0 +1,92 @@
+{
+  "identifier": "ASCDC-CRB",
+  "title": "Database of Chinese Rare Books (CRB)",
+  "description": {
+    "en": "The LOD dataset of ASCDC_Database of Chinese Rare Books (CRB) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the online database of the “Digital Library of Chinese Rare Books” (古漢籍善本數位化資料庫, http://rarebookdl.ihp.sinica.edu.tw/rarebook/Search/index.jsp). This digital library was established and maintained by the Fu Ssu-nien Library at the Institute of History and Philology, Academia Sinica, Taipei, Taiwan (ROC). The data includes titles and information on more than 900 Chinese rare books and manuscripts collected by the Library of Congress, Princeton University Library, Harvard–Yenching Library and Fu Ssu-nien Library. Containing 39,911 data records and 140,638 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC0), while the digital images are under the CC-BY-NC-SA 3.0 license."
+  },
+  "domain": "publications",
+  "website": "https://data.ascdc.tw/en/data.php",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.ascdc.tw/Book/crb/",
+  "triples": 140638,
+  "contact_point": {
+    "name": "Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.)",
+    "email": "sophy@gate.sinica.edu.tw"
+  },
+  "keywords": [
+    "ASCDC",
+    "Chinese Rare Books",
+    "History",
+    "Taiwan",
+    "Academia Sinica",
+    "Fu Ssu-nien Library",
+    "Institute of History and Philology"
+  ],
+  "links": [
+    {
+      "target": "ASCDC_-_DNB",
+      "value": 39
+    },
+    {
+      "target": "getty-aat",
+      "value": 1911
+    },
+    {
+      "target": "getty-tgn",
+      "value": 30
+    },
+    {
+      "target": "loc",
+      "value": 90
+    }
+  ],
+  "full_download": [
+    {
+      "title": "ASCDC LODDatasets",
+      "description": "Launched in 2018, ASCDC LODDatasets is an online portal platform for publishing LOD-based datasets, which are converted and provided by the ASCDC in Taiwan (R.O.C), with service for SPARQL queries and data downloads.",
+      "media_type": "XML, JSON, TTL, CSV.",
+      "download_url": "https://data.ascdc.tw/en/index.php"
+    },
+    {
+      "title": "ASCDC LODDataset of Chinese Rare Books",
+      "description": "Full download of ASCDC LODDataset of Chinese Rare Book in ttl format.",
+      "media_type": "ttl",
+      "download_url": "https://data.ascdc.tw/dataset/ASCDC-CRB.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ASCDC LODDatasets - Downloads",
+      "description": "Webpage of ASCDC LODDatasets for downloads of entire published LOD-based datasets.",
+      "media_type": "text/html",
+      "access_url": "https://data.ascdc.tw/en/data.php"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource: Work Level - Jiaxing fuzhi shiliujuan / 嘉興府志十六卷",
+      "description": "Resource contains the LOD-based data record on the Chinese rare book, Jiaxing fuzhi shiliujuan (嘉興府志十六卷), published in 1721.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://data.ascdc.tw/Book/crb/Book_Work/114487"
+    },
+    {
+      "title": "Example Resource: Instance Level – Sanguozhi zuan bajuan/ 三國志纂八卷",
+      "description": "Resource contains the LOD-based data record on the Chinese rare book, Sanguozhi zuan bajuan (三國志纂八卷), published in the early 17th century.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://data.ascdc.tw/Book/crb/Book_Instance/100542"
+    },
+    {
+      "title": "Example Resource: Item Level – Xinke piping houhanshu xuanyao wenjin/ 新刻批評後漢書選要文錦",
+      "description": "Resource contains the LOD-based data record on the Chinese rare book, Xinke piping houhanshu xuanyao wenjin (新刻批評後漢書選要文錦), published between 1573 and 1644.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://data.ascdc.tw/Book/crb/Book_Item/105966"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ASCDC LODDatasets - SPARQL Queries",
+      "description": "Access to the SPARQL endpoint of ASCDC's LOD datasets for data retrieval (with template-based examples), downloads and further reuse.",
+      "access_url": "https://data.ascdc.tw/en/sparql.php"
+    }
+  ]
+}

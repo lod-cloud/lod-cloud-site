@@ -1,0 +1,107 @@
+{
+  "identifier": "deustoentrepreneurship",
+  "title": "Deusto Entrepreneurship: sharing business knowledge",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://deusto.gnoss.com/comunidad/deustoentrepreneurship\">Deusto Entrepreneurship: sharing business knowledge</a>, promoted by the Deusto Entrepreneurship Center at the University of Deusto, aims to update and connect knowledge of entrepreneurs, researchers and professionals on entrepreneurship and business. \r\n</p>\r\n<p>\r\nDeusto Entrepreneurship works with <a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Deusto Entrepreneurship is a source of information and opinion especially recommended for people who visualize an opportunity and need inspiration, approach and support to launch a business. It offers a selection of 257 resources on entrepreneurship (September 2012).\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://deusto.gnoss.com/en/community/deustoEntrepreneurship",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://deusto.gnoss.com/en/community/deustoEntrepreneurship",
+  "triples": 20873,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "business angels",
+    "business knowledge",
+    "business models",
+    "country-spain",
+    "country.es",
+    "dc",
+    "deusto",
+    "deusto entrepreneurship",
+    "emprendimiento",
+    "entrepreneurship",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sharing business knowledge",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "universidad de deusto",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 986
+    },
+    {
+      "target": "freebase",
+      "value": 656
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "gnoss",
+      "value": 13
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 912
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://deusto.gnoss.com/voidDeustoEntrepreneurship.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Deusto Entrepreneurship community. Currently, more than 2 million resources have been published in the community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://deusto.gnoss.com/en/community/deustoentrepreneurship/resource/Entrepreneurship-and-Technology-The-adventure-of-/521bd532-8791-4930-8889-812dfbaff580?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Deusto Entrepreneurship community. Currently, more than 2 million resources have been published in the community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://deusto.gnoss.com/en/community/deustoentrepreneurship/resource/Manual-basico-para-emprender-SPRI/eb1254c3-04ce-448b-b9f4-3193e757d328?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://deusto.gnoss.com/en/community/deustoentrepreneurship/advanced-search/tag/innovation?rdf"
+    }
+  ]
+}

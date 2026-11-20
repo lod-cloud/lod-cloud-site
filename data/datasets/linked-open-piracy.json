@@ -1,0 +1,60 @@
+{
+  "identifier": "linked-open-piracy",
+  "title": "Linked Open Piracy",
+  "description": {
+    "en": "Maritime piracy event descriptions from the International Chamber of Commerce International Maritime Bureau\r\n\r\n## Accessing the dataset\r\n\r\n* SPARQL query form\r\n* No dereferenceable URIs for the RDF data"
+  },
+  "website": "http://semanticweb.cs.vu.nl/poseidon/ns/home",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 30583,
+  "contact_point": {
+    "name": "Willem Robert van Hage",
+    "email": "W.R.van.Hage@vu.nl"
+  },
+  "keywords": [
+    "attacks",
+    "deref-vocab",
+    "events",
+    "geographic",
+    "government",
+    "hijackings",
+    "icc",
+    "imb",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "maritime",
+    "nga",
+    "piracy",
+    "published-by-producer",
+    "sea",
+    "shipping-safety"
+  ],
+  "other_download": [
+    {
+      "description": "events",
+      "media_type": "RDF",
+      "access_url": "http://semanticweb.cs.vu.nl/poseidon/ns/api/export_graph?format=rdfxml&graph=file:///home/poseidon/piracy_lod/piracy/piracy_events_imb_mss_eez.rdf"
+    },
+    {
+      "description": "types with mappings",
+      "access_url": "http://semanticweb.cs.vu.nl/poseidon/ns/api/export_graph?format=rdfxml&graph=file:///home/poseidon/piracy_lod/piracy/types_and_mappings.rdf"
+    },
+    {
+      "description": "SEM",
+      "access_url": "http://semanticweb.cs.vu.nl/poseidon/ns/api/export_graph?format=rdfxml&graph=http://semanticweb.cs.vu.nl/2009/11/sem/"
+    },
+    {
+      "description": "eez",
+      "media_type": "text/turtle",
+      "access_url": "http://semanticweb.cs.vu.nl/poseidon/ns/api/export_graph?format=rdfxml&graph=file:///home/poseidon/piracy_lod/piracy/eez.ttl"
+    }
+  ],
+  "example": [
+    {
+      "media_type": "example/rdf+xml",
+      "access_url": "http://semanticweb.cs.vu.nl/poseidon/ns/instances/event_2006_214"
+    }
+  ]
+}

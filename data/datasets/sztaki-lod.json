@@ -1,0 +1,71 @@
+{
+  "identifier": "sztaki-lod",
+  "title": "National Digital Data Archive of Hungary (partial)",
+  "description": {
+    "en": "This dataset aims at publishing the contents of Hungarian archives as Linked Open Data based on the National Digital Data Archive of Hungary. The dataset contains information about books, movies, articles published in Hungary and some of its resources are linked to other datasets (e.g. DBpedia, VIAF, NSZL)."
+  },
+  "domain": "publications",
+  "website": "http://lod.sztaki.hu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lod.sztaki.hu/data/",
+  "triples": 11000000,
+  "contact_point": {
+    "name": "SZTAKI DSD",
+    "email": "webmaster@dsd.sztaki.hu"
+  },
+  "keywords": [
+    "catalog",
+    "country-hungary",
+    "format-dbpedia",
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "rdf",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 13034
+    },
+    {
+      "target": "hungarian-national-library-catalog",
+      "value": 99709
+    },
+    {
+      "target": "lexvo",
+      "value": 388854
+    },
+    {
+      "target": "viaf",
+      "value": 59356
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Link to an example data item (book)",
+      "access_url": "http://lod.sztaki.hu/data/item/146675.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item (person)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://lod.sztaki.hu/data/auth/287922.xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://lod.sztaki.hu/sparql"
+    }
+  ]
+}

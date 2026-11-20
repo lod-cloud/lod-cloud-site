@@ -1,0 +1,68 @@
+{
+  "identifier": "anno",
+  "title": "ANNO",
+  "description": {
+    "en": "The Anthropological Notation Ontology (ANNO) allows the systematic and standardized classification of recovered bone finds into the skeletal system, the description of the skeletal pieces, and the definition of functions for the derivation of different phenotypes of humans in forensic and historical anthropology. ANNO consists of two components: ANNOdc, a domain-core ontology providing core entities such as basic anatomical categories, and ANNOds, a domain-specific ontology used for annotating structures of the human skeleton. ANNO is integrated into AnthroWorks3D, a photogrammetry pipeline and application for the creation and analysis of 3D-models of human skeletal remains. The integration is based on the three-ontology method with the General Formal Ontology as the top-level ontology, ANNOdc as the task ontology and ANNOds as the domain ontology. Thus, AnthroWorks3D only needs to implement access to the entities (classes and properties) of the task ontology, whereas the entities of the corresponding domain ontology are imported dynamically. ANNO supports the analysis of skeletal and bone finds in forensic and historical anthropology, facilitating the standardization of data annotation and ensuring accurate preservation of information for posterity."
+  },
+  "domain": "life_sciences",
+  "website": "https://annosaxfdm.de/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://annosaxfdm.de/ontology/",
+  "triples": 29928,
+  "doi": "10.5281/zenodo.8301559",
+  "image": "https://annosaxfdm.imise.uni-leipzig.de/public/anno-logo-blue.svg",
+  "contact_point": {
+    "name": "Konrad Höffner",
+    "email": "konrad.hoeffner@uni-leipzig.de"
+  },
+  "keywords": [
+    "anthropology"
+  ],
+  "links": [
+    {
+      "target": "Bioportal",
+      "value": 514
+    }
+  ],
+  "full_download": [
+    {
+      "title": "ANNO",
+      "description": "Combination of ANNOdc (domain-core) and ANNOds (domain-specific).",
+      "download_url": "https://raw.githubusercontent.com/annosaxfdm/ontology/dist/anno.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ANNOdc",
+      "description": "ANNO domain-core",
+      "access_url": "https://raw.githubusercontent.com/annosaxfdm/ontology/master/annodc.owl"
+    },
+    {
+      "title": "ANNOds",
+      "description": "ANNO domain-specific",
+      "access_url": "https://raw.githubusercontent.com/annosaxfdm/ontology/master/annods.owl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Bone",
+      "media_type": "application/n-triples",
+      "access_url": "https://annosaxfdm.de/ontology/Bone"
+    },
+    {
+      "title": "Bone compound",
+      "media_type": "application/n-triples",
+      "access_url": "https://annosaxfdm.de/ontology/BoneCompound"
+    },
+    {
+      "title": "Phenotype",
+      "media_type": "application/n-triples",
+      "access_url": "https://annosaxfdm.de/ontology/Phenotype"
+    },
+    {
+      "title": "Relative anatomical location",
+      "media_type": "application/n-triples",
+      "access_url": "https://annosaxfdm.de/ontology/RelativeAnatomicalLocation"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "identifier": "periodo",
+  "title": "PeriodO Period Gazetteer",
+  "description": {
+    "en": "[PeriodO](http://perio.do) is a gazetteer of scholarly definitions of historical, art-historical, and archaeological periods. It eases the task of linking among datasets that define periods differently. It also helps scholars and students see where period definitions overlap or diverge."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://n2t.net/ark:/99152/p0",
+  "triples": 69033,
+  "contact_point": {
+    "name": "Ryan Shaw",
+    "email": "ryanshaw@unc.edu"
+  },
+  "keywords": [
+    "archaeology",
+    "deref-vocab",
+    "format-dcterms",
+    "format-skos",
+    "format-time",
+    "history",
+    "license-metadata",
+    "lod",
+    "no-vocab-mappings",
+    "periodization",
+    "provenance-metadata",
+    "published-by-producer",
+    "schemata"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 5069
+    },
+    {
+      "target": "doi",
+      "value": 7
+    },
+    {
+      "target": "english-heritage-periods-list",
+      "value": 43
+    },
+    {
+      "target": "pleiades",
+      "value": 116
+    },
+    {
+      "target": "worldcat",
+      "value": 472
+    }
+  ],
+  "other_download": [
+    {
+      "title": "PeriodO Period Gazetteer JSON-LD",
+      "description": "This is a collection of period definitions found in academic literature. The data model is documented at [the PeriodO website](http://perio.do/data-model/).",
+      "media_type": "application/ld+json",
+      "access_url": "http://n2t.net/ark:/99152/p0d.jsonld"
+    },
+    {
+      "title": "Description of the PeriodO Period Gazetteer",
+      "description": "VoID description of the PeriodO Period Gazetteer, including statistics on the current number of triples and links to other datasets.",
+      "access_url": "http://n2t.net/ark:/99152/p0/.well-known/void"
+    },
+    {
+      "title": "PeriodO Vocabulary",
+      "description": "PeriodO primarily uses the SKOS, Dublin Core, and OWL-Time vocabularies, but this proprietary vocabulary documents a few additional properties we needed to create.",
+      "access_url": "http://n2t.net/ark:/99152/p0v"
+    },
+    {
+      "title": "PeriodO Period Gazetteer Change History",
+      "description": "A log of all changes made to the PeriodO Period Gazetteer, published as JSON-LD using the [PROV Ontology](http://www.w3.org/TR/prov-o/).",
+      "access_url": "http://n2t.net/ark:/99152/p0h"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "identifier": "bio2rdf-gendr",
+  "title": "Bio2RDF::Gendr",
+  "description": {
+    "en": "GenDR is a database of genes associated with dietary restriction (DR). GenDR includes two datasets: 1) genes inferred from experiments in model organisms in which genetic manipulations cancel out or disrupt the life-extending effects of DR; 2) genes robustly altered due to DR, derived from a meta-analysis of microarray DR studies in mammals"
+  },
+  "domain": "life_sciences",
+  "website": "http://gendr.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/gendr:",
+  "triples": 11663,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-gendr",
+      "value": 666
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 322
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 119
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-wormbase",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gendr_gene_expression.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/gendr/gendr_gene_expression.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download gendr_gene_manipulations.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/gendr/gendr_gene_manipulations.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/gendr/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/gendr/gendr.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/gendr/bio2rdf-gendr.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/gendr/gendr.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/gendr/bio2rdf_gendr_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/gendr/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/gendr:2"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://gendr.bio2rdf.org/sparql"
+    }
+  ]
+}

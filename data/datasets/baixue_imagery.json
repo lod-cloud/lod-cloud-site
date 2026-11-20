@@ -1,0 +1,22 @@
+{
+  "identifier": "baixue_imagery",
+  "title": "红色经典歌曲",
+  "description": {
+    "en": "hongsejingdiangequ"
+  },
+  "domain": "cross_domain",
+  "website": "http://agegahgrggh.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "wageawgw",
+    "email": "ewagrehawg@qage.com"
+  },
+  "full_download": [
+    {
+      "title": "imagery",
+      "media_type": "application/octet-stream",
+      "download_url": "https://demo.ckan.org/dataset/e0a51bf1-11cb-435d-bab2-75d91711c43e/resource/2f48e37e-6b28-48ad-92d8-165d9a364e7b/download/imagery.ttl"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "identifier": "tcmgenedit_dataset",
+  "title": "TCMGeneDIT Dataset",
+  "description": {
+    "en": "Data exposed: Traditional Chinese medicine, gene and disease association dataset and a linkset mapping TCM gene symbols to Extrez Gene IDs created by Neurocommons\r\n\r\nSize of dump and data set: 288kb compressed\r\n\r\nNotes: Creative Commons with Attributions"
+  },
+  "domain": "life_sciences",
+  "website": "http://code.google.com/p/junsbriefcase/wiki/TGDdataset",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://purl.org/net/tcm/",
+  "triples": 117643,
+  "contact_point": {
+    "name": "Jun Zhao"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "format-rdf",
+    "genetics",
+    "lifesciences",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "medical",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "rdf",
+    "size-kb"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1400
+    },
+    {
+      "target": "entrez_gene",
+      "value": 944
+    },
+    {
+      "target": "fu-berlin-dailymed",
+      "value": 21
+    },
+    {
+      "target": "fu-berlin-diseasome",
+      "value": 376
+    },
+    {
+      "target": "fu-berlin-drugbank",
+      "value": 385
+    },
+    {
+      "target": "fu-berlin-sider",
+      "value": 171
+    },
+    {
+      "target": "linkedct",
+      "value": 141
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "access_url": "http://www.open-biomed.org.uk/tcmdata/tcm_rdf_data_release3_190609.tar.gz"
+    },
+    {
+      "description": "Download",
+      "access_url": "http://www.open-biomed.org.uk/tcmdata/tcm_rdf_data_release3_190609_turtle.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Hyperthyroidism"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "api",
+      "access_url": "http://www.open-biomed.org.uk/sparql/endpoint/tcm"
+    }
+  ]
+}

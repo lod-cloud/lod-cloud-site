@@ -1,0 +1,36 @@
+{
+  "identifier": "universal-dependencies-treebank-swedish",
+  "title": "Universal Dependencies Treebank Swedish",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Swedish treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Swedish",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 96819,
+  "contact_point": {
+    "name": "Nivre, Joakim; Smith, Aaron"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Swedish Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Swedish/archive/master.zip"
+    },
+    {
+      "title": "UD_Swedish RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "access_url": "https://datahub.io/dataset/e45385fc-30b0-42fa-a5b7-8e8b683d9a19/resource/ebe2c956-02b6-45fa-8414-b3b244d68394/download/udswedish.rdf"
+    }
+  ]
+}

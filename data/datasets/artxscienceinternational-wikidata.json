@@ -1,0 +1,35 @@
+{
+  "identifier": "artxscienceinternational-wikidata",
+  "title": "Wikidata entry for Art × Science International",
+  "description": {
+    "en": "The dataset contains structured RDF data about the organization \"Art × Science International\" as represented in Wikidata, including properties such as founding date, industry, and external identifiers."
+  },
+  "domain": "cross_domain",
+  "website": "https://www.wikidata.org/wiki/Q133812572",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 32,
+  "image": "https://artxsc.org/logo.png",
+  "contact_point": {
+    "name": "Noé Cabannes Michel",
+    "email": "noe@artxsc.org"
+  },
+  "keywords": [
+    "company",
+    "organization",
+    "wikidata",
+    "RDF",
+    "linked data"
+  ],
+  "full_download": [
+    {
+      "title": "Turtle (RDF) version",
+      "download_url": "https://www.wikidata.org/wiki/Special:EntityData/Q133812572.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Wikidata SPARQL Endpoint",
+      "access_url": "https://query.wikidata.org/sparql"
+    }
+  ]
+}

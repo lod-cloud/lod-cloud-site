@@ -1,0 +1,35 @@
+{
+  "identifier": "opendatacommunities-homelessness-acceptances-per-1000",
+  "title": "opendatacommunities-homelessness-acceptances-per-1000",
+  "domain": "government",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-dcat",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "reference-data-gov-uk",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://opendatacommunities.org/data/homelessness-acceptances-per-1000"
+    }
+  ]
+}

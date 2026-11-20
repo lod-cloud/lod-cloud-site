@@ -1,0 +1,46 @@
+{
+  "identifier": "country-authority-list",
+  "title": "Country Name Authority List",
+  "description": {
+    "en": "This country codes authority table is intended to provide a code related to the names of the countries – in a short and in a long form – in the 24 official languages of the European Union.These codes are used for the documentary metadata and may present slight differences with those used for the production of documents at a stylistic level.\n\nThe \"Authority code\" relays on the ISO 3166-1/alpha-3 positions. If the ISO code doesn't exist, an alpha-numeric code is created. A traceability of this codes creation is ensured and historical relationships are also offered as from 1950 till now with the date(s) of event(s).\n\nA country code comparison is provided between ISO codes, IANA codes (Internet ccTLDS – Country-code Top-level Domains), and TIR (Transport International par la Route) Vehicle system codes.\n\nCodes marked in italic are obsolete and should not be used, excepted in the case of back-log work.\n\nISO 3166 is the International standard for country codes. The purpose of ISO 3166 is to establish codes for the representation of names of countries. This standard exists in three forms:\n\n    ISO 3166-1 (2006) contains a two-letter code which is recommended as the general purpose code, a three-letter code which has better mnenomic properties and a numeric-3 code which can be useful if script independence of the codes is important.\n    ISO 3166-2 (2007) gives codes for the names of the principal subdivisions (e.g provinces or states) of all countries coded in ISO 3166-1. This code is based on the two-letter code element from ISO 3166-1 followed by a separator and a further string of up to three alphanumeric characters.\n    ISO 3166-3 (1999) contains a four-letter code for those country names which have been deleted from ISO 3166-1 since its first publication in 1974. The code elements for formerly used country names have a length of four alphabetical characters (alpha-4 code elements).\n\nThe ISO 3166-1 is also used by the EU Geonomenclature of the Statistical Office, the UN/LOCODE, the World Intellectual Property Organisation (WIPO), the International Atomic Energy Agency (IAEA), the Internet Assigned Authority Numbers (IANA) and more other organisations."
+  },
+  "domain": "geography",
+  "website": "https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/country",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 233369,
+  "image": "https://op.europa.eu/documents/6793978/6793980/6724995/b631b122-c2bc-22c1-bf18-eb7451b2542a?t=1584637138416",
+  "contact_point": {
+    "name": "EU Vocabularies team",
+    "email": "op-eu-vocabularies@publications.europa.eu"
+  },
+  "keywords": [
+    "controlled vocabulary",
+    "country",
+    "countries",
+    "geography"
+  ],
+  "links": [
+    {
+      "target": "eurovoc",
+      "value": 198
+    },
+    {
+      "target": "wikidata",
+      "value": 152
+    }
+  ],
+  "full_download": [
+    {
+      "title": "SKOS full release, zip compressed",
+      "description": "The latest release in XML/RDF format compressed as zip. New releases are published quarterly.",
+      "download_url": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/country"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "CELLAR - Query Service of the Publications Office of the European Union",
+      "description": "The query service gives access to Cellar, the digital dissemination repository of the Publications Office of the European Union. Cellar is the semantic web content and metadata repository of legal and non-legal documents produced by the European institutions. Cellar includes about 150 millions of documents in 24 languages; metadata in as many languages are stored and described in RDF, resulting in more than 800 millions of triples. The Cellar SPARQL endpoint, exposed in order to complement linked open data services to potential consumers, receives about 10 million requests per day (Cellar statistics dated April 2018). Cellar is also the source of information for the Eur-Lex portal (http://www.eurlex.eu) which provides access to several types of legal resources including treaties, legislation, case-law and legislative proposals.",
+      "access_url": "http://publications.europa.eu/webapi/rdf/sparql"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "identifier": "AugustiniConfessiones",
+  "title": "Augustini Confessiones in LiLa",
+  "description": {
+    "en": "The Confessiones are a prose work in 13 books by Augustine of Hippo written in the 4th century AD. It contains autobiographical narrative and meditations on religious matters, which become prevalent in the last books (X-XIII). The digital text is taken from The Latin Library. The original text was lemmatized and PoS tagged with the UDPipe tool, using an in-house built trained model based on different UD Latin treebanks. The output of UDPipe was then checked manually at the CIRCSE Research Centre of the Università Cattolica del Sacro Cuore, Milan, Italy. The linking of the text to the Lemma Bank of the LiLa Knowledge Base was performed at CIRCSE, too."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/corpora/CIRCSELatinLibrary/id/corpus/Confessiones",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/corpora/CIRCSELatinLibrary/id/corpus/Confessiones",
+  "triples": 756564,
+  "doi": "10.5281/zenodo.7075790",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Corpus",
+    "LLOD",
+    "LiLa",
+    "Augustinus"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 77580
+    },
+    {
+      "target": "wikidata",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Augustini Confessiones in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization).",
+      "download_url": "https://github.com/CIRCSE/AugustiniConfessiones"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

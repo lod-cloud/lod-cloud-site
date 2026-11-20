@@ -1,0 +1,44 @@
+{
+  "identifier": "UDante",
+  "title": "UDante in LiLa",
+  "description": {
+    "en": "UD treebank  of Dante Alighieri’s Latin works linked to the LiLa Knowledge Base"
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/corpora/UDante/id/corpus",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/corpora/UDante",
+  "triples": 1226015,
+  "doi": "10.5281/zenodo.8435313",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Corpus",
+    "LLOD",
+    "LiLa",
+    "Dante"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 44331
+    }
+  ],
+  "full_download": [
+    {
+      "title": "UDante",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/UDante"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

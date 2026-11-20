@@ -1,0 +1,49 @@
+{
+  "identifier": "dbtune-artists-last-fm",
+  "title": "DBTune.org Artists: Last.fm",
+  "description": {
+    "en": "### Description\r\n\r\nThis service provides an RDF representation of music artists and their similar artists based on the Last.fm API. Responses are linked with identifiers from package:bbc-music as well as with package:dbtune-musicbrainz.\r\n\r\nRDF representations are designed using the Music Ontology and MuSim the music similarity ontology.\r\n\r\n### Statistics\r\n\r\nThe size and link statistics are wild guesses. Googling for Last.fm artist pages yields ~5M results. We assume that each one has ~50 triples and one outlink each to package:dbtune-musicbrainz and package:bbc-music."
+  },
+  "domain": "media",
+  "website": "http://dbtune.org/artists/last-fm/",
+  "namespace": "http://dbtune.org/artists/last-fm/",
+  "triples": 250000000,
+  "contact_point": {
+    "name": "Kurt Jacobson",
+    "email": "kurtjx@gmail.com"
+  },
+  "keywords": [
+    "api",
+    "dbtune",
+    "format-foaf",
+    "format-mo",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "music",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 5000000
+    },
+    {
+      "target": "dbtune-musicbrainz",
+      "value": 5000000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dbtune.org/artists/last-fm/James%20Brown"
+    }
+  ]
+}

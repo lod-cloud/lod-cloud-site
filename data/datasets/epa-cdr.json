@@ -1,0 +1,55 @@
+{
+  "identifier": "epa-cdr",
+  "title": "EPA-CDR",
+  "description": {
+    "en": "The Chemical Data Reporting (CDR) Rule, issued under the Toxic Substances Control Act (TSCA), requires manufacturers (including importers) to give EPA information on the chemicals they manufacture domestically or import into the United States. EPA uses the data to help assess the potential human health and environmental effects of these chemicals and makes the non-confidential business information it receives available to the public."
+  },
+  "website": "https://opendata.epa.gov",
+  "triples": 1797000,
+  "contact_point": {
+    "name": "EPA Office of Environmental Information",
+    "email": "admin@3roundstones.com"
+  },
+  "keywords": [
+    "environmental",
+    "government",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "epa-frs",
+      "value": 58652
+    },
+    {
+      "target": "epa-srs",
+      "value": 28649
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EPA Linked Data Services",
+      "description": "Platform for accessing all EPA Linked Data sets using query tools, services, applications, URI resolution, mapping and more.",
+      "access_url": "https://opendata.epa.gov"
+    },
+    {
+      "title": "CDR Schema",
+      "description": "RDF schema in TTL format describing the classes and predicates in the data.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/cdr/schema.ttl"
+    },
+    {
+      "title": "VoID description",
+      "description": "VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/cdr/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example CDR report",
+      "description": "Sample report from regarding Calcium hydroxide",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/data/cdrreport/110000308523/1305620.ttl"
+    }
+  ]
+}

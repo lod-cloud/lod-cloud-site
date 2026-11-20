@@ -1,0 +1,83 @@
+{
+  "identifier": "bioportal-pmr",
+  "title": "Physical Medicine and Rehabilitation",
+  "description": {
+    "en": "Knowledge representation related to computer-based decision support in rehabilitation; concepts and relationships in the rehabilitation domain, integrating clinical practice, the ICD (specifically its 11th revision), the clinical investigator record ontology, the ICF and SNOMED CT."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3015",
+  "triples": 481,
+  "contact_point": {
+    "name": "X"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 14
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 15
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 17
+    },
+    {
+      "target": "bioportal-icf_x1",
+      "value": 13
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 50
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 27
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 27
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 51
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 13
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 31
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 131
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47011?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "identifier": "imagesnippets",
+  "title": "Imagesnippets Image Descriptions",
+  "description": {
+    "en": "Contains descriptions of a variety of photographic images, using properties defined by the Lightweight Image Ontology."
+  },
+  "domain": "cross_domain",
+  "triples": 1011804,
+  "keywords": [
+    "crossdomain",
+    "lod",
+    "published-by-third-party",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "art-and-architecture-thesaurus",
+      "value": 4111
+    },
+    {
+      "target": "dbpedia",
+      "value": 28176
+    },
+    {
+      "target": "freebase",
+      "value": 199
+    },
+    {
+      "target": "geonames",
+      "value": 4888
+    },
+    {
+      "target": "yago",
+      "value": 4326
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Homepage",
+      "description": "Homepage of the dataset",
+      "access_url": "http://www.imagesnippets.com/dataset/"
+    },
+    {
+      "description": "voiD description",
+      "access_url": "http://www.imagesnippets.com/dataset/"
+    },
+    {
+      "description": "RDF Schema",
+      "access_url": "http://purl.org/net/lio"
+    },
+    {
+      "title": "Daily ntriples dump",
+      "description": "Daily ntriples dump",
+      "media_type": "application/x-gzip",
+      "access_url": "http://www.imagesnippets.com/dataset/imagesnippets.nt.gz"
+    },
+    {
+      "title": "Daily nquads dump",
+      "description": "Daily nquads dump",
+      "media_type": "application/x-gzip",
+      "access_url": "http://www.imagesnippets.com/dataset/imagesnippets.nq.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "HTML+RDFa example link",
+      "media_type": "application/ld+json",
+      "access_url": "http://www.imagesnippets.com/imgtag/rdf/info@margaretwarren.us/honey_moon_13"
+    },
+    {
+      "description": "HTML+RDFa example link",
+      "media_type": "application/ld+json",
+      "access_url": "http://www.imagesnippets.com/imgtag/rdf/info@margaretwarren.us/lightning_kansas0003"
+    },
+    {
+      "description": "HTML+RDFa example link",
+      "media_type": "application/ld+json",
+      "access_url": "http://www.imagesnippets.com/imgtag/rdf/info@margaretwarren.us/http%253A%252F%252Ffarm9.staticflickr.com%252F8518%252F8418131043_a2486ed90f_o.jpg"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www.imagesnippets.com/sparql/images"
+    }
+  ]
+}

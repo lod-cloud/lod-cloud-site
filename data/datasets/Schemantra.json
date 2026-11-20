@@ -1,0 +1,18 @@
+{
+  "identifier": "Schemantra",
+  "title": "Schemantra",
+  "description": {
+    "en": "Schemantra Website"
+  },
+  "domain": "user_generated",
+  "website": "https://schemantra.com",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Ashraf Masadeh",
+    "email": "info@schemantra.com"
+  },
+  "keywords": [
+    "schema generator"
+  ]
+}

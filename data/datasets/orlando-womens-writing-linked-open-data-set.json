@@ -1,0 +1,116 @@
+{
+  "identifier": "orlando-womens-writing-linked-open-data-set",
+  "title": "The Orlando Women's Writing Linked Open Data Set",
+  "description": {
+    "en": "A linked open data set created from the original entries of the Orlando Project, an ongoing collaborative experiment in the use of computers to engage in women's literary history."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 5489,
+  "contact_point": {
+    "name": "The CWRC Project",
+    "email": "sbrown@uoguelph.ca"
+  },
+  "keywords": [
+    "LOD",
+    "Litterature",
+    "Women",
+    "deref-vocab",
+    "format-cwrc",
+    "license-metadata",
+    "lod",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "AAT",
+      "value": 127
+    },
+    {
+      "target": "GeoNames",
+      "value": 4
+    },
+    {
+      "target": "LCSH",
+      "value": 11
+    },
+    {
+      "target": "Muninn-ww1",
+      "value": 1
+    },
+    {
+      "target": "ORCID",
+      "value": 1
+    },
+    {
+      "target": "dbpedia",
+      "value": 67
+    },
+    {
+      "target": "viaf",
+      "value": 15
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download",
+      "description": "Weekly dump in n-quand (triple + graph) format.",
+      "media_type": "application/x-nquads",
+      "download_url": "http://sparql.cwrc.ca/Downloads/data.nq"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (N-Triples, bz2-compressed)",
+      "description": "Raw dumps of the triples are located here.",
+      "media_type": "compressed tarfile containing n-triples",
+      "access_url": "http://sparql.cwrc.ca/Downloads"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "All of the OWL files used by CWRC/Orlando, newest versions.",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://sparql.cwrc.ca/Downloads/cwrc.owl.bz2"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "The Orlando Project is an experiment in the integration of text and technology. It has designed and continues to enhance digital tools to harness the power of computers for critical literary and historical research. The project's constantly expanding and improving storehouse of knowledge about women's lives and writings, the Orlando textbase itself, is rendered uniquely searchable and sortable by its encoding in a linked open data format.",
+      "media_type": "meta/sitemap",
+      "access_url": "http://sparql.cwrc.ca/sitemap.xml"
+    },
+    {
+      "title": "voiD description",
+      "description": "The Orlando Project is an experiment in the integration of text and technology. It has designed and continues to enhance digital tools to harness the power of computers for critical literary and historical research. The project's constantly expanding and improving storehouse of knowledge about women's lives and writings, the Orlando textbase itself, is rendered uniquely searchable and sortable by its encoding in a linked open data format.",
+      "media_type": "meta/void",
+      "access_url": "http://sparql.cwrc.ca/.well-known/void"
+    },
+    {
+      "title": "Mappings",
+      "description": "Mappings are contained as part of the ontologies.",
+      "media_type": "mapping/owl",
+      "access_url": "http://sparql.cwrc.ca/Downloads/cwrc.owl.bz2"
+    },
+    {
+      "title": "Download triples",
+      "description": "Weekly data dump in n3 triple format",
+      "media_type": "application/n-triples",
+      "access_url": "http://sparql.cwrc.ca/Downloads/data.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF Example Link",
+      "description": "The resource will be resolved via content negotiation to RDF or HTML.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://sparql.cwrc.ca/cwrcdata/VirginiaWoolf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint with all triples including ontologies. This endpoint is CORS compliant.",
+      "access_url": "http://sparql.cwrc.ca/sparql"
+    }
+  ]
+}

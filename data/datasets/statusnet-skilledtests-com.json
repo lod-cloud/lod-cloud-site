@@ -1,0 +1,242 @@
+{
+  "identifier": "statusnet-skilledtests-com",
+  "title": "statusnet-skilledtests-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://skilledtests.com"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 68
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 6
+    },
+    {
+      "target": "statusnet-20100-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-alexandrefranke-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-atari-frosch-de",
+      "value": 8
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ced117-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-cooleysekula-net",
+      "value": 10
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 1
+    },
+    {
+      "target": "statusnet-dtdns-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-exdc-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 98
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-glou-org",
+      "value": 2
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 6
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ilikefreedom-ro",
+      "value": 2
+    },
+    {
+      "target": "statusnet-imirhil-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 14
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 3
+    },
+    {
+      "target": "statusnet-lebsanft-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-lydiastench-com",
+      "value": 3
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 3
+    },
+    {
+      "target": "statusnet-maymay-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 19
+    },
+    {
+      "target": "statusnet-mrblog-nl",
+      "value": 2
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 2
+    },
+    {
+      "target": "statusnet-orangeseeds-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 2
+    },
+    {
+      "target": "statusnet-panda-id-au",
+      "value": 1
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 2
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 17
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 375
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 17
+    },
+    {
+      "target": "statusnet-samnoble-org",
+      "value": 3
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 3
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 5
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 7
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 1
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 13
+    },
+    {
+      "target": "statusnet-thornton2-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 14
+    },
+    {
+      "target": "statusnet-tschlotfeldt-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-uni-siegen-de",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://oracle.skilledtests.com/chomskybot/foaf"
+    }
+  ]
+}

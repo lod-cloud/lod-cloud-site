@@ -1,0 +1,95 @@
+{
+  "identifier": "nobelprizes",
+  "title": "Nobel Prizes",
+  "description": {
+    "en": "Linked Open Data about every Nobel Prize since 1901, including information about the Nobel Prizes, the Nobel Laureates and related documentation."
+  },
+  "domain": "cross_domain",
+  "website": "http://www.nobelprize.org/nobel_organizations/nobelmedia/nobelprize_org/developer/manual-linkeddata/terms.html",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.nobelprize.org/resource/",
+  "triples": 88792,
+  "contact_point": {
+    "name": "Hannes Ebner",
+    "email": "hannes@metasolutions.se"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-dbpedia",
+    "format-foaf",
+    "laureate",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "nobel",
+    "nobelmedia",
+    "nobelprize",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "sparql",
+    "sweden"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf",
+      "value": 8
+    },
+    {
+      "target": "dbpedia",
+      "value": 1889
+    },
+    {
+      "target": "freebase",
+      "value": 557
+    },
+    {
+      "target": "linked-life-data",
+      "value": 309
+    },
+    {
+      "target": "viaf",
+      "value": 163
+    },
+    {
+      "target": "yago",
+      "value": 549
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF dump",
+      "description": "Complete dump of the whole dataset. Always updated with the most recent data.",
+      "download_url": "http://data.nobelprize.org/dump.nt"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "LOD entry point",
+      "access_url": "http://data.nobelprize.org"
+    },
+    {
+      "title": "Dataset description (VoID)",
+      "access_url": "http://data.nobelprize.org/dataset"
+    },
+    {
+      "title": "Schema",
+      "access_url": "http://www.nobelprize.org/nobel_organizations/nobelmedia/nobelprize_org/developer/manual-linkeddata/terms.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI",
+      "media_type": "text/html",
+      "access_url": "http://data.nobelprize.org/resource/laureate/1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://data.nobelprize.org/sparql"
+    }
+  ]
+}

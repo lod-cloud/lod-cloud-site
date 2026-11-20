@@ -1,0 +1,73 @@
+{
+  "identifier": "eumida-linked-data",
+  "title": "EUMIDA as Linked Data",
+  "description": {
+    "en": "Data about European Higher Education Institutions, including statistics from 2008 regarding numbers of students, foreign students, PhD students etc. Based on the EUMIDA report."
+  },
+  "website": "http://eumida.publicdata.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://eumida.publicdata.eu/data/",
+  "triples": 133085,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "ckan@keithalexander.co.uk"
+  },
+  "keywords": [
+    "eu-institution",
+    "format-dcterm",
+    "format-ov",
+    "government",
+    "latc",
+    "lod",
+    "no-deref-vocab",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "eurostat-linked-data",
+      "value": 27
+    },
+    {
+      "target": "linked-nuts",
+      "value": 286
+    },
+    {
+      "target": "nuts-geovocab",
+      "value": 286
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID Dataset URI",
+      "description": "VoID Dataset URI",
+      "access_url": "http://eumida.publicdata.eu/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "\"Numbers of Doctorates Awarded by Higher Education Institutions\"",
+      "description": "Example Resource (a dataset)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eumida.publicdata.eu/data/dataset/doctorates-awarded.rdf"
+    },
+    {
+      "title": "\"Federal Ministry of Defence\"",
+      "description": "Example Resource (an institution)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eumida.publicdata.eu/data/institution/AT055.rdf"
+    },
+    {
+      "title": "\"i s c e d6- students-enrolled\"",
+      "description": "Example Resource (an observation)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eumida.publicdata.eu/data/institution/AT055/ISCED6-Students-enrolled.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/eumida/services/sparql"
+    }
+  ]
+}

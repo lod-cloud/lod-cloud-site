@@ -1,0 +1,91 @@
+{
+  "identifier": "bioportal-mthch",
+  "title": "Metathesaurus CPT Hierarchical Terms",
+  "description": {
+    "en": "Metathesaurus CPT Hierarchical Terms"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1510",
+  "triples": 7302,
+  "contact_point": {
+    "name": "Jan Willis"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-rdf",
+    "format-rrf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-cpt",
+      "value": 26
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 81
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 149
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 50
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 51
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 235
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 26
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 29
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 82
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 16
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 18
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 368
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 930
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42994?apikey=BP_API_KEY"
+    }
+  ]
+}

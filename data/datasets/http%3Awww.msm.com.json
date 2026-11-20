@@ -1,0 +1,15 @@
+{
+  "identifier": "http:www.msm.com",
+  "title": "Soccer Dataset",
+  "description": {
+    "en": "This dataset is about the soccer leagues"
+  },
+  "domain": "media",
+  "website": "http://www.msm.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "maria yasir",
+    "email": "mariayasir282000@gmail.com"
+  }
+}

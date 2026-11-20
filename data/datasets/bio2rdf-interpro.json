@@ -1,0 +1,167 @@
+{
+  "identifier": "bio2rdf-interpro",
+  "title": "Bio2RDF::Interpro",
+  "description": {
+    "en": "InterPro is an integrated database of predictive protein 'signatures' used for the classification and automatic annotation of proteins and genomes. InterPro classifies sequences at superfamily, family and subfamily levels, predicting the occurrence of functional domains, repeats and important sites."
+  },
+  "domain": "life_sciences",
+  "website": "http://interpro.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/interpro:",
+  "triples": 2323345,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-blocks",
+      "value": 5787
+    },
+    {
+      "target": "bio2rdf-cath",
+      "value": 2582
+    },
+    {
+      "target": "bio2rdf-cazy",
+      "value": 87
+    },
+    {
+      "target": "bio2rdf-come",
+      "value": 194
+    },
+    {
+      "target": "bio2rdf-ec",
+      "value": 1523
+    },
+    {
+      "target": "bio2rdf-interpro",
+      "value": 26010
+    },
+    {
+      "target": "bio2rdf-iuphar",
+      "value": 173
+    },
+    {
+      "target": "bio2rdf-kegg",
+      "value": 1754
+    },
+    {
+      "target": "bio2rdf-merops",
+      "value": 161
+    },
+    {
+      "target": "bio2rdf-metacyc",
+      "value": 370
+    },
+    {
+      "target": "bio2rdf-msd",
+      "value": 1241
+    },
+    {
+      "target": "bio2rdf-pandit",
+      "value": 7242
+    },
+    {
+      "target": "bio2rdf-pdb",
+      "value": 53625
+    },
+    {
+      "target": "bio2rdf-priam",
+      "value": 823
+    },
+    {
+      "target": "bio2rdf-prosite",
+      "value": 1383
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 26957
+    },
+    {
+      "target": "bio2rdf-scop",
+      "value": 4045
+    },
+    {
+      "target": "bio2rdf-swissprot",
+      "value": 38706
+    },
+    {
+      "target": "bio2rdf-trembl",
+      "value": 3882
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download interpro.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/interpro/interpro.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/interpro/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/interpro/interpro.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/interpro/bio2rdf-interpro.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/interpro/interpro.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/interpro/bio2rdf_interpro_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/interpro/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/interpro:IPR000100"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://interpro.bio2rdf.org/sparql"
+    }
+  ]
+}

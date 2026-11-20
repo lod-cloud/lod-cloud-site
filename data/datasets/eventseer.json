@@ -1,0 +1,35 @@
+{
+  "identifier": "eventseer",
+  "title": "Eventseer",
+  "description": {
+    "en": "This server generates Linked Data versions of the data present on Eventseer.net"
+  },
+  "website": "http://redux.eventseer.net/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 0,
+  "keywords": [
+    "conferences",
+    "events",
+    "latc",
+    "science"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 9568
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Example event resource",
+      "media_type": "RDF",
+      "access_url": "http://linkeddata.few.vu.nl/eventseer/resource/event_16594"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL end point",
+      "access_url": "http://eculture2.cs.vu.nl:8890/sparql"
+    }
+  ]
+}

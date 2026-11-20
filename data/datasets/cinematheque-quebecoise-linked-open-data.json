@@ -1,0 +1,109 @@
+{
+  "identifier": "cinematheque-quebecoise-linked-open-data",
+  "title": "Cinémathèque québécoise Linked Open Data",
+  "description": {
+    "en": "Free knowledge base hosted by Cinémathèque québécoise about movies."
+  },
+  "domain": "media",
+  "website": "https://data.cinematheque.qc.ca",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://data.cinematheque.qc.ca/resource",
+  "triples": 6257814,
+  "image": "https://cinematheque.qc.ca/sites/all/modules/modules_customize/block_directories/blocks/header/images/logo.png",
+  "contact_point": {
+    "name": "Marina Gallet",
+    "email": "mgallet@cinematheque.qc.ca"
+  },
+  "keywords": [
+    "movie",
+    "cinematheque",
+    "cinema",
+    "cultural heritage",
+    "quebec"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 55707
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Latest full dump, gzip compressed, Turtle format",
+      "description": "The latest full dump of all entity data, in Turtle format, compressed with gzip",
+      "media_type": "application/octet-stream",
+      "download_url": "https://data.cinematheque.qc.ca/doc/datasets/cmtq-dataset.ttl.gz"
+    },
+    {
+      "title": "Latest full dump, gzip compressed, N-Triples format",
+      "description": "The latest full dump of all entity data, in N-Triples format, compressed with gzip",
+      "media_type": "application/octet-stream",
+      "download_url": "https://data.cinematheque.qc.ca/doc/datasets/cmtq-dataset.nt.gz"
+    },
+    {
+      "title": "Latest full dump, HDT format",
+      "description": "The latest full dump of all entity data, in HDT format",
+      "media_type": "application/octet-stream",
+      "download_url": "https://data.cinematheque.qc.ca/doc/datasets/cmtq-dataset.hdt"
+    },
+    {
+      "title": "All data dumps",
+      "description": "All data dumps for all formats",
+      "media_type": "asdasd",
+      "download_url": "https://data.cinematheque.qc.ca/doc/lod/datasets"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "SPARQL Query Service, Web UI",
+      "description": "The Web UI of the Query Service offers a convenient interface for authoring or editing SPARQL queries against the Query Service and viewing the results in various formats.",
+      "media_type": "asdasd",
+      "access_url": "https://data.cinematheque.qc.ca/doc/sparql"
+    }
+  ],
+  "example": [
+    {
+      "title": "entity node for Pierre Falardeau",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://data.cinematheque.qc.ca/resource/Person28485"
+    },
+    {
+      "title": "data node for Pierre Falardeau",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://data.cinematheque.qc.ca/data/Person28485"
+    },
+    {
+      "title": "wiki page for Pierre Falardeau",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://data.cinematheque.qc.ca/page/Person28485"
+    },
+    {
+      "title": "Turtle data for Pierre Falardeau",
+      "media_type": "text/turtle",
+      "access_url": "https://data.cinematheque.qc.ca/data/Person28485.ttl"
+    },
+    {
+      "title": "N-Triples data for Pierre Falardeau",
+      "media_type": "application/n-triples",
+      "access_url": "https://data.cinematheque.qc.ca/data/Person28485.nt"
+    },
+    {
+      "title": "RDF/XML data for Pierre Falardeau",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://data.cinematheque.qc.ca/data/Person28485.rdf"
+    },
+    {
+      "title": "VoID dataset description",
+      "description": "Description of published datasets using the VoID ontology. Can also be accessed with https://data.cinematheque.qc.ca/.well-known/void",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://data.cinematheque.qc.ca/void/Dataset"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Query Service",
+      "description": "The Query Service has a hard timeout of 60s.",
+      "access_url": "https://data.cinematheque.qc.ca/sparql"
+    }
+  ]
+}

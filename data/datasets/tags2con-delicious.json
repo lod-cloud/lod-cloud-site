@@ -1,0 +1,73 @@
+{
+  "identifier": "tags2con-delicious",
+  "title": "tags2con delicious",
+  "description": {
+    "en": "The tags2con dataset has been manually created by a group of human annotators that linked del.icio.us tags to their real meaning.\r\n\r\nA subset of a delicious dump has been used to create the tags2con dataset, a set of 500 user-bookmarks pairs have been selected randomly and all the tags used by these pairs have been manually cleaned and disambiguated to WordNet synsets.\r\n\r\nMore user-bookmark are being currently annotated."
+  },
+  "domain": "user_generated",
+  "website": "http://disi.unitn.it/~knowdive/dataset/delicious/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://disi.unitn.it/~knowdive/dataset/delicious/",
+  "triples": 85908,
+  "contact_point": {
+    "name": "Pierre Andrews, Ilya Zaihrayeu, Juan Pane",
+    "email": "andrews@disi.unitn.it; ilya@disi.unitn.it; pane@disi.unitn.it"
+  },
+  "keywords": [
+    "delicious",
+    "deref-vocab",
+    "folksonomy",
+    "format-foaf",
+    "insemtives",
+    "knowdive",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "semantic",
+    "socialweb",
+    "tagging",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "vu-wordnet",
+      "value": 609
+    }
+  ],
+  "other_download": [
+    {
+      "description": "dataset VOID description",
+      "access_url": "http://disi.unitn.it/~knowdive/dataset/delicious/tags2con_dataset.rdf"
+    },
+    {
+      "description": "all tags in the dataset",
+      "access_url": "http://disi.unitn.it/~knowdive/dataset/delicious/all/tags"
+    },
+    {
+      "description": "all bookmarks in the dataset",
+      "access_url": "http://disi.unitn.it/~knowdive/dataset/delicious/all/bookmarks"
+    },
+    {
+      "description": "all users in the dataset",
+      "access_url": "http://disi.unitn.it/~knowdive/dataset/delicious/all/users"
+    },
+    {
+      "description": "all concepts in the dataset",
+      "access_url": "http://disi.unitn.it/~knowdive/dataset/delicious/all/concepts"
+    },
+    {
+      "description": "Proprietary vocabulary",
+      "access_url": "http://disi.unitn.it/~knowdive/dataset/delicious/tags2con"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example tag",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://disi.unitn.it/~knowdive/dataset/delicious/tag/youth_hostels/1691"
+    }
+  ]
+}

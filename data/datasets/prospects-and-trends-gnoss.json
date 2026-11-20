@@ -1,0 +1,119 @@
+{
+  "identifier": "prospects-and-trends-gnoss",
+  "title": "Prospects and Trends (GNOSS)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://red.gnoss.com/en/community/prospectivatecnologica\">Prospects and Trends</a> is a tracking service of prospects and trends that will affect our society, markets and businesses. It is a meeting place for the community of researchers, institutes prospective with the professionals of  innovation, marketing, new product development and business. Prospects and Trends is based on the search, collection, analysis and interpretation of prospective papers, articles, reports, prospective studies on emerging science, technology, economy and society and its impact on the possible generation of social, new consumption, new industries, businesses, products and opportunities. Prospects and Trends aims to publish documents that can be easily used by those who have to make strategic decisions in the company or institutions, and provide professional knowledge service about trends for companies and institutions that need it.\r\n</p>\r\n<p> In Prospects and Trends, we’ve defined a systematic exploration of the future of science, technology, economy, society. We want to identify early changes in society, consumption and markets emerging technologies and other changes likely to produce structural order that allows convert anticipation economic or social benefits.</p>\r\n<p> You can find in this community good materials in the field of advance and identifying scenarios, produced by the best think tanks, prospective institutes, international organizations…</p>\r\n<p>\r\nProspects and Trends works with <a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Prospects and Trends  offers a selection of 508 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://red.gnoss.com/comunidad/prospectivatecnologica\">Prospects and Trends</a>  es un servicio de seguimiento prospectivo de las tendencias que afectarán a nuestra sociedad, mercados y negocios. Es punto de encuentro de la comunidad de investigadores, institutos de prospectiva  con los profesionales de la innovación, el marketing, el desarrollo de nuevos productos y negocios. Prospects and Trends se basa en la búsqueda, compilación, análisis e interpretación prospectiva de papers, artículos, informes, estudios prospectivos sobre emergentes de la ciencia, la tecnología, la economía y la sociedad y su impacto en la posible generación de cambios sociales, nuevos consumos, nuevos sectores, negocios, productos y oportunidades. Prospective Trends  tiene como objetivo que los documentos públicos puedan ser fácilmente utilizados por quienes han de tomar decisiones estratégicas en la empresa o las instituciones; y prestar un servicio profesional ad hoc de conocimiento sobre tendencias para la empresas e instituciones que lo necesiten.\r\n</p>\r\n<p> En Prospects and Trends se ha definido un proceso sistemático de exploración del futuro de la ciencia, la tecnología, la economía, la sociedad, con el propósito de identificar anticipadamente los cambios en la sociedad, el consumo y los mercados que las tecnologías emergentes y otros cambios estructurales probablemente producirán con objeto de que la anticipación permita convertirlos en beneficios económicos o sociales.</p>\r\n<p> En Prospects and Trends se pueden encontrar todos los buenos materiales que en el campo de la anticipación y la identificación de escenarios, producen los mejores Think Tank, Institutos e Instituciones de Prospectiva internacionales y el análisis y conclusiones que de esos contenidos realizamos en Prospects and Trends.</p>\r\n<p>\r\nProspects and Trends trabaja con <a href=\"http://gnoss.com/\">software de GNOSS de RIAM Intelearning Lab</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Prospective Trends ofrece en este caso una selección de 508 recursos (Noviembre 2012). Incluyendo un buscador facetado y contextos enriquecidos, ambos son desarrollos de GNOSS. \r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://gnoss.com/comunidad/prospectivatecnologica",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://gnoss.com/comunidad/prospectivatecnologica",
+  "triples": 42900,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "Web social",
+    "ciencias del conocimiento",
+    "country-spain",
+    "country.es",
+    "dc",
+    "desarrollo sostenible",
+    "desarrollo territorial",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "futuriblesescenarios de futuro",
+    "futuro de la ciencia",
+    "futuro de la economía",
+    "futuro de la sociedad",
+    "futuro de la tecnología",
+    "gestión del conocimiento",
+    "identidad 2.0",
+    "inteligencia artificialvida artificial",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "pensamiento colectivo",
+    "políticas públicas",
+    "prolongación de la vida",
+    "prospectiva y futuros",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "tictecnologías de la información",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dblp-deusto-gnoss",
+      "value": 123
+    },
+    {
+      "target": "dbpedia",
+      "value": 99
+    },
+    {
+      "target": "freebase",
+      "value": 2361
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 55
+    },
+    {
+      "target": "gnoss",
+      "value": 102
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 33
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://red.gnoss.com/voidProspectivaGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in Prospectiva. Currently, almost 500 resources have been published in the platform.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/LIPSOR--Laboratory-for-Investigation-in-Prospecti/5f66995f-af8f-43d0-bfc1-bf15695c5215?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in Prospectiva. Currently, almost 500 resources have been published in the platform.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/comunidad/prospectivatecnologica/recurso/The-Cloud-and-the-Changing-Shape-of-Education--Ea/4d80a051-3dd8-4e0c-b17d-97073a965746?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/prospectivatecnologica/advanced-search/tag/future?rdf"
+    }
+  ]
+}

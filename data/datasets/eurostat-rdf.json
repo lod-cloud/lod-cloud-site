@@ -1,0 +1,89 @@
+{
+  "identifier": "eurostat-rdf",
+  "title": "Eurostat RDF datasets",
+  "description": {
+    "en": "Three RDF datasets:\r\n\r\n* Eurostat country codes\r\n* Eurostat NUTS statistical regions (2008)\r\n* Database of Eurostat-related legal acts\r\n\r\nEach is available as an RDF dump. URIs resolve directly into the RDF dump. The country codes are linked to Geonames, to package:fu-berlin-eurostat, and to Telegraphis (40 links each)."
+  },
+  "website": "http://ec.europa.eu/eurostat/ramon/rdfdata/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://ec.europa.eu/eurostat/",
+  "triples": 68000,
+  "contact_point": {
+    "name": "Søren Roug (EAA)"
+  },
+  "keywords": [
+    "deref-vocab",
+    "eu",
+    "europe",
+    "eurostat",
+    "format-cc",
+    "format-rdf",
+    "geographic",
+    "government",
+    "law",
+    "license-metadata",
+    "lod",
+    "no-vocab-mappings",
+    "nuts",
+    "provenance-metadata",
+    "published-by-producer",
+    "statistics"
+  ],
+  "links": [
+    {
+      "target": "fu-berlin-eurostat",
+      "value": 40
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 40
+    },
+    {
+      "target": "telegraphis",
+      "value": 40
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/void.rdf"
+    },
+    {
+      "description": "Download of NUTS statistical regions (RDF/XML)",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008.rdf"
+    },
+    {
+      "description": "Download of country codes (RDF/XML)",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/countries.rdf"
+    },
+    {
+      "description": "Download of legislation database (RDF/XML)",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/estat-legis.rdf"
+    },
+    {
+      "description": "Download of NACE (Revision 2) codes (RDF/XML)",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/nace_r2.rdf"
+    },
+    {
+      "description": "Download of NACE (Revision 2) translations (RDF/XML)",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/nace_r2_desc.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example region (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/nuts2008.rdf#IE01"
+    },
+    {
+      "description": "Example country (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/countries.rdf#IE"
+    },
+    {
+      "description": "Example legislation record (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ec.europa.eu/eurostat/ramon/rdfdata/estat-legis.rdf#L62450"
+    }
+  ]
+}

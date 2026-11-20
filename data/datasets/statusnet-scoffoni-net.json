@@ -1,0 +1,94 @@
+{
+  "identifier": "statusnet-scoffoni-net",
+  "title": "statusnet-scoffoni-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://scoffoni.net"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 1
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-imirhil-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-kathryl-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-keuser-fr",
+      "value": 4
+    },
+    {
+      "target": "statusnet-planet-libre-org",
+      "value": 8
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 6
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 2
+    },
+    {
+      "target": "statusnet-recit-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-sebseb01-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 2
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-spip-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 38
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://status.scoffoni.net/index.php/pscoffoni/foaf"
+    }
+  ]
+}

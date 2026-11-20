@@ -1,0 +1,37 @@
+{
+  "identifier": "wn-wiki-instances",
+  "title": "Wordnet-Wikipedia/DBpedia instance mapping",
+  "description": {
+    "en": "A mapping that was created between WordNet and DBpedia"
+  },
+  "domain": "linguistics",
+  "website": "https://github.com/jmccrae/wn-wiki-instances",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 7702,
+  "contact_point": {
+    "name": "John McCrae",
+    "email": "john@mccr.ae"
+  },
+  "keywords": [
+    "wordnet",
+    "lexicon",
+    "llod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 7702
+    },
+    {
+      "target": "gwa-ili",
+      "value": 7702
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Full Download",
+      "description": "Download of links from WordNet to DBpedia",
+      "download_url": "https://github.com/jmccrae/wn-wiki-instances/raw/master/ili-map-dbpedia.ttl"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "identifier": "bioportal-sitbac",
+  "title": "Situation-Based Access Control",
+  "description": {
+    "en": "Context-based healthcare access-control policies"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1237",
+  "triples": 4971,
+  "contact_point": {
+    "name": "Mor Peleg"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bcgo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 15
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 11
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 10
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 19
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 11
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 34
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 18
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 43
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 21
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 13
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 10
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 29
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45298?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "identifier": "ispra-lod-ron",
+  "title": "ISPRA - The Italian Data Buoy Network (RON)",
+  "description": {
+    "en": "#### dati.isprambiente.it - ISPRA Linked Open Data - The Italian Data Buoy Network (Rete Ondametrica Nazionale - RON)"
+  },
+  "website": "http://dati.isprambiente.it/id/website/ronRmn/html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Italian National Institute for Environmental Protection and Research, ISPRA",
+    "email": "assistenza-lod@isprambiente.it"
+  },
+  "keywords": [
+    "boa",
+    "buoy",
+    "country-italy",
+    "format-rdf",
+    "lod",
+    "mediterraneansea",
+    "nazionale",
+    "network",
+    "ocean waves",
+    "oceanografia",
+    "oceanography",
+    "onda",
+    "ondametria",
+    "ondametrica",
+    "ondametrico",
+    "onde",
+    "onde marine",
+    "rdf",
+    "rdf-format",
+    "rete",
+    "ron",
+    "waves"
+  ],
+  "links": [
+    {
+      "target": "codes.wmo.int",
+      "value": 338
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF (N-Triples) Distribution (metadata) of dataset of Italian Data Buoy Network (RON)",
+      "description": "RDF (N-Triples) Distribution (metadata) of dataset of Italian Data Buoy Network (RON)",
+      "access_url": "http://dati.isprambiente.it/downloads/ron.nt.gz"
+    },
+    {
+      "title": "RDF (N-Triples) Distribution (data) of dataset of Italian Data Buoy Network (RON)",
+      "description": "RDF (N-Triples) Distribution (data) of dataset of Italian Data Buoy Network (RON)",
+      "access_url": "http://dati.isprambiente.it/downloads/ron-data.nt.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource - Crotone Waves - July 2013",
+      "description": "Crotone Waves with graphics - July 2013",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://dati.isprambiente.it/id/collection/ron/crotone/wave.201307/html"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "main sparql EndPoint",
+      "description": "main sparql EndPoint",
+      "access_url": "http://dati.isprambiente.it/sparql"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "identifier": "statusnet-rainbowdash-net",
+  "title": "statusnet-rainbowdash-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://rainbowdash.net"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 60
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 1
+    },
+    {
+      "target": "statusnet-equestriarp-net",
+      "value": 20
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 9
+    },
+    {
+      "target": "statusnet-freelish-us",
+      "value": 8
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 8
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-mamalibre-com-ar",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 4
+    },
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 10
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 43
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 69
+    },
+    {
+      "target": "statusnet-sweetiebelle-net",
+      "value": 131
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://rainbowdash.net/beatsperpony/foaf"
+    }
+  ]
+}

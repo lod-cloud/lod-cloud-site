@@ -1,0 +1,35 @@
+{
+  "identifier": "twc-data-gov",
+  "title": "TWC Data-gov",
+  "description": {
+    "en": "duplicate of package:twc-logd"
+  },
+  "website": "http://data-gov.tw.rpi.edu",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 5074932510,
+  "contact_point": {
+    "name": "Tetherless World Constellation, RPI"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "energy",
+    "environment",
+    "format-rdf",
+    "government",
+    "housing",
+    "labour",
+    "library",
+    "linkeddata",
+    "medical",
+    "meta.duplicate",
+    "population",
+    "rdf",
+    "statistics"
+  ],
+  "other_download": [
+    {
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data-gov.tw.rpi.edu/wiki/TWC_Data-Gov_Corpus"
+    }
+  ]
+}

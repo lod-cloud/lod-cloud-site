@@ -1,0 +1,48 @@
+{
+  "identifier": "serendipity",
+  "title": "Serendipity",
+  "description": {
+    "en": "Serendipity Linked Open Data includes data about OpenCourseWare and Open Educational Resources. The data was published in RDF format according to the design issues of Linked Open Data. Data can be accessed from a SPARQL endpoint. \r\n## Data: ##\r\n* OCW Institutions: 262\r\n* OCW Repositories:  80\r\n* Localities: 221\r\n* OCW: 15000\r\n* OER: 70000\r\n## Demographics: ##\r\n* Open Educational Resources are in different languages: English, Spanish, Catalan, Arabic, Chinese, Danish, Dutch, Finnish, French, German, Greek, Hebrew, Hindi, Indonesian, Italian, Japanese, Korean, Macedonian, Persian, Polish, Portuguese, Russian, Slovenian, Swedish, Thai, Turkish, Vietnamese\r\n* OER Providers are from different countries: Afghanistan, Australia, Belgium, Brazil, Canada, Chile, China, Colombia, Costa Rica, Denmark, Dominican Republic, Ecuador, Finland, France, Germany, Greece, India, Indonesia, Iran, Israel, Italy, Japan, Kenya, Malaysia, Mexico, Netherlands, Nigeria, Oman, Pakistan, Panama, Peru, Poland, Portugal, Puerto Rico, Republic of Macedonia, Russia, Saudi Arabia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Turkey, United Arab Emirates, United Kingdom, United States, Venezuela and Vietnam."
+  },
+  "domain": "cross_domain",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://serendipity.utpl.edu.ec/lod/resource/",
+  "triples": 800522,
+  "contact_point": {
+    "name": "Nelson Piedra",
+    "email": "nopiedra@utpl.edu.ec"
+  },
+  "keywords": [
+    "Latin American Linked Data Association",
+    "Linked Open Data",
+    "OCW",
+    "OER",
+    "RDF",
+    "format-dc",
+    "format-dcat",
+    "format-org",
+    "format-skos",
+    "lod",
+    "metadata",
+    "no-proprietary-vocab",
+    "semantic web",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 15982
+    },
+    {
+      "target": "loc",
+      "value": 14251
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql EndPoint",
+      "description": "Linked Data of OCW and OER resources",
+      "access_url": "http://serendipity.utpl.edu.ec/lod/sparql"
+    }
+  ]
+}

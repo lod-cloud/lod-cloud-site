@@ -1,0 +1,54 @@
+{
+  "identifier": "wikilinks-rdf-nif",
+  "title": "Wikilinks RDF/NIF",
+  "description": {
+    "en": "The [Wikilinks corpus](http://www.iesl.cs.umass.edu/data/wiki-links) is a coreference resolution corpus of very large scale. It contains over 40 million mentions of over 3 million entities. Mentions are manually labeled links to respective Wikipedia pages in natural language text. They are obtained via a web crawl and aggregated together with the pages' source in the extended corpus of over 180GB in size.\r\n\r\nWe took the corpus and converted it into the [NLP Interchange Format (NIF)](http://nlp2rdf.org/), publishing it here in Linked Open Data, RDF dumps and an accompanying CSV. \r\n\r\nEvery webpage in the corpus was parsed. The text of the html element surrounding the individual Wikipedia links was extracted and concatenated together, if there was more than one link on the page. The position of the links in these texts was located and annotated via string offsets. The position of the html elements containing the links was annotated with Xpath expressions. For every link to Wikipedia, the respective [DBpedia](http://dbpedia.org) page was included as a link. The [DBpedia ontology classes](http://wiki.dbpedia.org/Ontology) of the linked resource were added as well. If a mapping exists, [NERD core classes](http://nerd.eurecom.fr/) were added, too.\r\n\r\nThe data is available in the Apache file system under [http://wiki-link.nlp2rdf.org/data/](http://wiki-link.nlp2rdf.org/data/). However, for ease of use, it is also available in a number of [gzipped Dumpfiles](http://wiki-link.nlp2rdf.org/dumps/). Additionally, there is a [gzipped CSV file](http://wiki-link.nlp2rdf.org/wikilink_ne.csv.tar.gz) containing the core of the data."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 533016300,
+  "contact_point": {
+    "name": "Martin Brümmer",
+    "email": "bruemmer@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "format-nif",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "ner",
+    "nif",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 31542468
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Dump download directory",
+      "description": "Contains the whole corpus as 110 gzipped turtle dump files.",
+      "access_url": "http://wiki-link.nlp2rdf.org/dumps/"
+    },
+    {
+      "title": "Core data as CSV",
+      "description": "Gzipped CSV file containing the data core:\r\n\r\n\"Link text\",\"DBpedia URL\",\"Linked Data URL\",\"NE Type\"\r\n\r\n Where Linked Data URL contains a link to the respective resource on this server and NE Type means the type of the resource (like Person, Location, etc). Note that the type is missing in many of the cases, due to the sheer size of the dataset and heterogenity of the data itself.",
+      "access_url": "http://wiki-link.nlp2rdf.org/wikilink_ne.csv.tar.gz"
+    },
+    {
+      "title": "LOD Wikilinks corpus DataID file",
+      "description": "DataID describing the dataset and providing some metadata like number of triples, links, etc as well as links to all distribution files.",
+      "access_url": "http://wiki-link.nlp2rdf.org/dataid.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "description": "Example converted webpage with multiple paragraphs containing wiki links",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://wiki-link.nlp2rdf.org/linkeddata.php?t=url&f=html&i=http://commons.wikimedia.org/wiki/File:Cana_Island_Light_-_Door_County_Wisconsin.jpg#char=0,520"
+    }
+  ]
+}

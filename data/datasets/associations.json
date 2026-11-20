@@ -1,0 +1,78 @@
+{
+  "identifier": "associations",
+  "title": "associations",
+  "description": {
+    "en": "A collection of associations and mapping to DBpedia entities. Currently consisting of 780000 human associations from the Edinburgh Associative Thesaurus (as RDF) and a verified mapping of 790 strong distinct associations (corresponding to ~25000 human associations) to DBpedia entities.\r\n\r\nSee https://w3id.org/associations for more information."
+  },
+  "website": "https://w3id.org/associations",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://w3id.org/associations/",
+  "triples": 1680000,
+  "contact_point": {
+    "name": "Jörn Hees",
+    "email": "associations+spamprotect+remove+if+human@joernhees.de"
+  },
+  "keywords": [
+    "Artificial Intelligence",
+    "associations",
+    "format-rdfs",
+    "human associations",
+    "lifesciences",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "machine learning",
+    "psychological",
+    "psychology",
+    "published-by-producer",
+    "semantic associations",
+    "thesaurus",
+    "word associations"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1580
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Edinburgh Associative Thesaurus (EAT) as RDF",
+      "description": "A transformation of the original EAT dataset to RDF using the association vocabulary.\r\n\r\nThe original dataset was obtained from http://www.eat.rl.ac.uk/ that sadly is no longer available. Here you find a transformation of it into RDF consisting of ~1.7 M triples\r\n\r\nOriginal publication:\r\nKiss, G., Armstrong, C., Milroy, R., & Piper, J. (1973). An associative thesaurus of English and its computer analysis. In A. J. Aitken, R. W. Bailey, & N. Hamilton-Smith (Eds.), The Computer and Literary Studies (pp. 153–165). Edinburgh, UK: Edinburgh University Press. Retrieved from http://www.eat.rl.ac.uk/Kiss_EAT_Chapter_1973.pdf",
+      "media_type": "application/gzip",
+      "download_url": "https://w3id.org/associations/eat.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Website",
+      "access_url": "https://w3id.org/associations"
+    },
+    {
+      "title": "Association Vocabulary",
+      "description": "The vocabulary to model associations (consisting of terms, stimuli, responses) and their (verified) mappings to other datasets like DBpedia.",
+      "access_url": "https://w3id.org/associations/vocab.ttl"
+    },
+    {
+      "title": "Verified Semantic Associations mapped to DBpedia",
+      "access_url": "https://w3id.org/associations/mapping_eat_dbpedia.rdf"
+    },
+    {
+      "title": "voiD file",
+      "description": "voiD description",
+      "access_url": "https://w3id.org/associations/void.ttl"
+    },
+    {
+      "title": "Verified Semantic Associations mapped to DBpedia (TSV)",
+      "access_url": "https://w3id.org/associations/mapping_eat_dbpedia.tsv"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF example link",
+      "description": "An example for the association http://www.eat.rl.ac.uk/#stimulus=crop&response=wheat being mapped to its DBpedia entities.",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://w3id.org/associations/mapping_eat_dbpedia#crop/wheat"
+    }
+  ]
+}

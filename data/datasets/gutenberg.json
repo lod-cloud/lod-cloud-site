@@ -1,0 +1,50 @@
+{
+  "identifier": "gutenberg",
+  "title": "Project Gutenberg",
+  "description": {
+    "en": "Overview: \r\n\r\nProject Gutenberg is the first and largest single collection of free electronic books, or eBooks.\r\n\r\nStatistics: \r\nOver 100,000 titles, some duplication, of course.\r\n\r\nLicense:\r\nMajority of works in public domain. Works posted with permission from copyright holders are licensed under the Project Gutenberg license.\r\n\r\nFormats:\r\nMost Project Gutenberg eBooks are available in plain text,\r\njust so they can be used with nearly any hardware/software,\r\nand many are also available in a variety of other formats.\r\n\r\nOver 30,000 eBooks in over 50 languages at gutenberg.org\r\n\r\nOver 75,000 eBooks in over 100 languages at gutenberg.cc\r\n\r\n\r\nThis is my first attempt to rewrite this little blurb,\r\nso I will keep it brief for now to see what happens.\r\n\r\n\r\nMichael S. Hart\r\nFounder\r\nProject Gutenberg,\r\nInventor of eBooks\r\nhttp://www.gutenberg.org/wiki/Michael_S._Hart"
+  },
+  "domain": "publications",
+  "website": "http://www.gutenberg.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.gutenberg.org/",
+  "triples": 5450115,
+  "contact_point": {
+    "name": "Project Gutenberg",
+    "email": "http://www.gutenberg.org/wiki/Gutenberg:Contact_Information"
+  },
+  "keywords": [
+    "access-bulk",
+    "access-ftp",
+    "access-http",
+    "access-rsync",
+    "bibliographic",
+    "book",
+    "ebook",
+    "format-dcmit",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "other_download": [
+    {
+      "media_type": "text/html",
+      "access_url": "http://www.gutenberg.org/wiki/Gutenberg:Information_About_Robot_Access_to_our_Pages#Getting_All_EBook_Files"
+    },
+    {
+      "access_url": "http://www.gutenberg.cc"
+    },
+    {
+      "title": "metadata dump in RDFXML",
+      "description": "the complete metadata dump in RDF XML",
+      "access_url": "http://www.gutenberg.org/feeds/catalog.rdf.bz2"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example item",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.gutenberg.org/ebooks/12345.rdf"
+    }
+  ]
+}

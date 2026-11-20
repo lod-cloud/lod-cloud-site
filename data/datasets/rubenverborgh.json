@@ -1,0 +1,49 @@
+{
+  "identifier": "rubenverborgh",
+  "title": "Ruben Verborgh's data",
+  "description": {
+    "en": "Data about Ruben Verborgh's professional activities, including metadata about publications, blog posts, and people."
+  },
+  "website": "https://data.verborgh.org/ruben",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 40100,
+  "contact_point": {
+    "name": "Ruben Verborgh"
+  },
+  "keywords": [
+    "blog",
+    "lod",
+    "metadata",
+    "people",
+    "publications",
+    "research"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3165
+    },
+    {
+      "target": "doi",
+      "value": 6901
+    },
+    {
+      "target": "wikidata",
+      "value": 979
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Triple Pattern Fragments (HTML)",
+      "access_url": "https://data.verborgh.org/ruben"
+    },
+    {
+      "title": "Triple Pattern Fragments (Turtle)",
+      "access_url": "https://data.verborgh.org/ruben"
+    },
+    {
+      "title": "Triple Pattern Fragments (JSON-LD)",
+      "access_url": "https://data.verborgh.org/ruben"
+    }
+  ]
+}

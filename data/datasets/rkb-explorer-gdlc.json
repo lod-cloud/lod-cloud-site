@@ -1,0 +1,41 @@
+{
+  "identifier": "rkb-explorer-gdlc",
+  "title": "gdlc",
+  "domain": "publications",
+  "website": "http://gdlc.rkbexplorer.com",
+  "triples": 0,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "broken_link",
+    "format-rdf",
+    "lod",
+    "lodcloud.unconnected"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://gdlc.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://gdlc.rkbexplorer.com/models/void.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://gdlc.rkbexplorer.com/sparql"
+    }
+  ]
+}

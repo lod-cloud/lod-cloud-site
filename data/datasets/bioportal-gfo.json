@@ -1,0 +1,87 @@
+{
+  "identifier": "bioportal-gfo",
+  "title": "General Formal Ontology",
+  "description": {
+    "en": "The General Formal Ontology (GFO) is a top-level ontology integrating objects and processes."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1439",
+  "triples": 647,
+  "contact_point": {
+    "name": "Heinrich Herre"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aero",
+      "value": 13
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 15
+    },
+    {
+      "target": "bioportal-gfo-bio",
+      "value": 38
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 16
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 40
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 12
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 10
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 10
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 13
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 15
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42452?apikey=BP_API_KEY"
+    }
+  ]
+}

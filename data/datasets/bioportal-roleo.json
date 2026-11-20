@@ -1,0 +1,91 @@
+{
+  "identifier": "bioportal-roleo",
+  "title": "Role Ontology",
+  "description": {
+    "en": "The Role Ontology (RoleO) is a ontology in the domain of role classification. RoleO aims to standardize role classification and support computer-assisted reasoning.  RoleO is a community-based ontology, and its development follows the OBO Foundry principles."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1538",
+  "triples": 4101,
+  "contact_point": {
+    "name": "Oliver He"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 17
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 19
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 36
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 14
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 22
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 51
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 16
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 24
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 44
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 112
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 10
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 177
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 425
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44694?apikey=BP_API_KEY"
+    }
+  ]
+}

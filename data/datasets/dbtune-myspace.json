@@ -1,0 +1,42 @@
+{
+  "identifier": "dbtune-myspace",
+  "title": "DBTune.org MySpace RDF Service",
+  "description": {
+    "en": "This service provides a live RDF representation of [Myspace](http://myspace.com/) users. If the user is also an artist, then the corresponding tracks in the streaming audio cache are included in the RDF. Note that only the top friends of the target Myspace user are included in the RDF.\r\n\r\nThis representations is designed using the Music Ontology, FOAF, and a small Myspace Ontology.\r\n\r\n### Issues\r\n\r\nTriple count is a wild guess based on assumption of 10 triples for each of the 66M MySpace users.\r\n\r\nAll the links are down, marking for removal.\r\n\r\nAs of July 21, 2011:\r\nUnfortunately due to changes in the MySpace pages, the DBtune MySpace service will be down indefinitely. Sorry for inconvenience. If you have time to help fix the service you can join the MoTools project of SF or email kurtjx at gmail."
+  },
+  "domain": "social_networking",
+  "website": "http://dbtune.org/myspace/",
+  "namespace": "http://dbtune.org/myspace/",
+  "triples": 660000000,
+  "contact_point": {
+    "name": "Kurt Jacobson",
+    "email": "kurtjx@gmail.com"
+  },
+  "keywords": [
+    "dbtune",
+    "format-rdf",
+    "lod",
+    "lodcloud.needsfixing",
+    "media",
+    "music",
+    "myspace",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party",
+    "socialnetwork"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 232
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://dbtune.org/myspace/sparql/"
+    }
+  ]
+}

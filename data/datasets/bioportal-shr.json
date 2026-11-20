@@ -1,0 +1,195 @@
+{
+  "identifier": "bioportal-shr",
+  "title": "Student Health Record",
+  "description": {
+    "en": "The goal of SHR project is to develop an ontology for the description of student health records. Student health records are created for entering college students in order to provide better health services will be formed. This file contains various sections such as history of disease, family history of disease, public examinations and ... ."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1665",
+  "triples": 1327,
+  "contact_point": {
+    "name": "Dr.Gholamreza Ghayour, Hassan Shojaee"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 28
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 10
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 53
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 74
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 38
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 18
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 31
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 35
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 22
+    },
+    {
+      "target": "bioportal-fhho",
+      "value": 13
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 53
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 36
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 27
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 11
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 14
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 25
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 42
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 98
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 40
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 66
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 42
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 123
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 17
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 86
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 170
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 37
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 51
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 12
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 39
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 12
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 80
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 31
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 265
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 35
+    },
+    {
+      "target": "bioportal-who",
+      "value": 25
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46314?apikey=BP_API_KEY"
+    }
+  ]
+}

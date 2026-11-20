@@ -1,0 +1,85 @@
+{
+  "identifier": "statusnet-bka-li",
+  "title": "statusnet-bka-li",
+  "description": {
+    "en": "StatusNet instance hosted at http://bka.li"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 5
+    },
+    {
+      "target": "statusnet-1w6-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-atari-frosch-de",
+      "value": 4
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 4
+    },
+    {
+      "target": "statusnet-lebsanft-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 5
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 21
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://bka.li/foaf"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "identifier": "open-bantu-isixhosa-lexicon",
+  "title": "Open Bantu isiXhosa Lexicon",
+  "description": {
+    "en": "The isiXhosa Lexicon is an RDF dataset that consists of lexical and morphological data and English translations that are linked to WordNet RDF. The data is based on tabular noun and verb data, that was provided by Prof. Sonja Bosch (University of South Africa) and manually compiled by a linguist. The dataset is based on the Bantu Language Model, i.e. an ontology that is mainly based on the OntoLex-Lemon and MMoOn vocabularies.\r\n\r\nFor more information, please refer to the publication: Sonja Bosch, Thomas Eckart, Bettina Klimek, Dirk Goldhahn and Uwe Quasthoff (2018): Preparation and Usage of Xhosa Lexicographical Data for a Multilingual, Federated Environment at 11th Edition of the Language Resources and Evaluation Conference LREC 2018, Miyazaki (Japan)."
+  },
+  "website": "https://github.com/MMoOn-Project/OpenBantu/tree/master/xho",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://rdf.corpora.uni-leipzig.de/resources/xho/inventory/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Bettina Klimek",
+    "email": "klimek@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "Bantu",
+    "isiXhosa",
+    "lexicon",
+    "linguistics",
+    "llod",
+    "lod",
+    "morphology"
+  ],
+  "links": [
+    {
+      "target": "wordnet-rdf",
+      "value": 2818
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Xhosa inventory",
+      "description": "Main dataset with links to WordNet.",
+      "access_url": "https://raw.githubusercontent.com/MMoOn-Project/OpenBantu/master/xho/inventory/ob_xho.ttl"
+    },
+    {
+      "title": "Bantu Language Model",
+      "description": "Ontology underlying the isiXhosa inventory/main dataset.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://mmoon.org/bnt/schema/bantulm/"
+    },
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://rdf.corpora.uni-leipzig.de/sparql"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "CLaSSES",
+  "title": "Corpus for Latin Sociolinguistic Studies on Epigraphic textS (CLaSSES) in LiLa",
+  "description": {
+    "en": "The CLaSSES corpus linked to the LiLa Knowledge Base is a digital resource which gathers non-literary Latin texts (inscriptions, writing tablets, letters) of different periods and provinces of the Roman Empire. Each text is tagged with linguistic and extra-linguistic information that allows to analyze the spelling variations in Latin non-literary sources in the light of the sociolinguistic context of the Roman world."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/corpora/CLaSSES/id/corpus",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/corpora/CLaSSES",
+  "triples": 393094,
+  "doi": "10.5281/zenodo.7463303",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Corpus",
+    "LLOD",
+    "LiLa",
+    "Epigraphy"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 1000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "CLaSSES",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/CLaSSES"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

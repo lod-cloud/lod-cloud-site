@@ -1,0 +1,44 @@
+{
+  "identifier": "LatinAffectus",
+  "title": "LatinAffectus in LiLa",
+  "description": {
+    "en": "Sentiment lexicons linked to the LiLa Knowledge Base. Gold: prior polarity lexicon of Latin lemmas created by two experts of Latin language and culture following a multi-stage process and an extensive reconciliation phase. It follows a five-way classification: 1 (fully positive), 0.5 (somewhat positive), 0 (neutral), -0.5 (somewhat negative), -1 (fully negative) Silver: prior polarity lexicon built by deriving new entries through synonym, antonym and derivational relations with the entries in the gold standard."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/LatinAffectus/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/LatinAffectus",
+  "triples": 46571,
+  "doi": "10.5281/zenodo.3865153",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Sentiment"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 5172
+    }
+  ],
+  "full_download": [
+    {
+      "title": "LatinAffectus",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/Latin_Sentiment_Lexicons"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

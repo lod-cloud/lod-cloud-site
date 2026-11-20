@@ -1,0 +1,48 @@
+{
+  "identifier": "eur-lex-rdf",
+  "title": "EUR-Lex as Linked Data",
+  "description": {
+    "en": "The data contained in this dataset was extracted from An API for European Union legislation and is provided as Linked Data here.\r\n\r\nEUR-Lex provides access to documents published in the Official Journal of the European Union. It contains more than 2.8 million documents with such dating back to the year 1951. The original website provides only access to the original documents via search, whereas the extracted data also contains metadata for better filtering and querying possibilities."
+  },
+  "domain": "publications",
+  "website": "http://eur-lex.publicdata.eu/",
+  "namespace": "http://eur-lex.publicdata.eu/ontology/",
+  "triples": 3412252,
+  "contact_point": {
+    "name": "Philipp Frischmuth",
+    "email": "frischmuth@informatik.uni-leipzig.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "format-rdfa",
+    "latc",
+    "legal",
+    "lod",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example resource",
+      "access_url": "http://eur-lex.publicdata.eu/id/139911"
+    },
+    {
+      "title": "Example resource",
+      "access_url": "http://eur-lex.publicdata.eu/resource/export/f/rdfxml?r=http%3A%2F%2Feur-lex.publicdata.eu%2Fid%2F139911"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://eur-lex.publicdata.eu/sparql"
+    }
+  ]
+}

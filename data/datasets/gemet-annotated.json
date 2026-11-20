@@ -1,0 +1,31 @@
+{
+  "identifier": "gemet-annotated",
+  "title": "gemet-annotated",
+  "description": {
+    "en": "Details about how this dataset was built are described in the article: Are SKOS concept schemes ready for multilingual retrieval applications? — Diana Tanase and Epaminondas Kapetanios"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 231297,
+  "contact_point": {
+    "name": "Diana Tanase",
+    "email": "diana.tanase@my.westminster.ac.uk"
+  },
+  "keywords": [
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "gemet",
+      "value": 103569
+    }
+  ],
+  "other_download": [
+    {
+      "title": "2012-09-02T184411/gemet-annotated.rdf",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-09-02T184411/gemet-annotated.rdf"
+    }
+  ]
+}

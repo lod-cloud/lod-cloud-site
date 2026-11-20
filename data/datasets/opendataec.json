@@ -1,0 +1,58 @@
+{
+  "identifier": "opendataec",
+  "title": "Open Data of Ecuador",
+  "description": {
+    "en": "Open Data Ecuador Linked Open Data includes data about intellectual production of Ecuador. The data was published in RDF format according to the design issues of Linked Open Data. Data can be accessed from a SPARQL endpoint. \r\n## Data: ##\r\n* Academic Articles: 6468\r\n* Affiliations: 3121\r\n* Authors: 22030 \r\n##Creator:##\r\nNelson Piedra @nopiedra\r\n##Collaborators:##\r\n* Elizabeth Cadme\r\n* Janneth Chicaiza\r\n* Eduardo Encalada\r\n* Richard Guaya\r\n* Jorge Lopez-Vargas\r\n* Diana Torres"
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.utpl.edu.ec/ecuadorresearch/lod/resource/",
+  "triples": 1276020,
+  "contact_point": {
+    "name": "Nelson Piedra",
+    "email": "nopiedra@utpl.edu.ec"
+  },
+  "keywords": [
+    "Ecuador",
+    "Latin American Linked Data Association",
+    "Linked Open Data",
+    "Papers",
+    "RDF",
+    "format-dc",
+    "format-foaf",
+    "format-org",
+    "format-schema",
+    "format-skos",
+    "format-vivo",
+    "library",
+    "lod",
+    "no-proprietary-vocab",
+    "sparql-endpoint",
+    "university"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2019
+    },
+    {
+      "target": "es.dbpedia",
+      "value": 262
+    },
+    {
+      "target": "wikidata",
+      "value": 166
+    },
+    {
+      "target": "yago",
+      "value": 165
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql EndPoint",
+      "description": "Access to papers published by ecuadorian authors",
+      "access_url": "http://data.utpl.edu.ec/ecuadorresearch/lod/sparql"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "identifier": "whisky-circle-info",
+  "title": "Whisky Circle",
+  "description": {
+    "en": "Whisky Circle dataset, built with WordLift for the https://www.whisky-circle.info/ website"
+  },
+  "domain": "cross_domain",
+  "website": "https://www.whisky-circle.info/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 6690,
+  "image": "https://pbs.twimg.com/profile_images/3348430083/471d818785e19eb8d6b48fff0104430b_400x400.png",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "whisky",
+    "wordlift"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 180
+    },
+    {
+      "target": "freebase",
+      "value": 174
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 62
+    },
+    {
+      "target": "wikidata",
+      "value": 80
+    },
+    {
+      "target": "yago",
+      "value": 135
+    }
+  ],
+  "full_download": [
+    {
+      "title": "WhiskyCircle",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/wl0164.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Whisky Circle",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.wordlift.io/wl0164/entity/schottland"
+    }
+  ]
+}

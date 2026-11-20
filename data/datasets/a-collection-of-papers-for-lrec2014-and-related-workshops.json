@@ -1,0 +1,31 @@
+{
+  "identifier": "a-collection-of-papers-for-lrec2014-and-related-workshops",
+  "title": "A collection of Papers for LREC2014 and related Workshops",
+  "description": {
+    "en": "aA collection of accepted Papers at LREC2014 and related Workshops"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 2993,
+  "contact_point": {
+    "name": "Riccardo Del Gratta",
+    "email": "riccardo.delgratta@ilc.cnr.it"
+  },
+  "keywords": [
+    "LOD",
+    "Linguistic Dataset LOD RDF",
+    "linguistic"
+  ],
+  "other_download": [
+    {
+      "title": "a-collection-of-papers-for-lrec2014-and-related-workshops",
+      "description": "a collection of accepted papers at LREC2014 and related workshops",
+      "media_type": "text/xml",
+      "access_url": "http://www.resourcebook.eu/lremap/owl/lremap_paper"
+    },
+    {
+      "title": "a-collection-of-papers-for-lrec2014-and-related-workshops",
+      "media_type": "text/xml",
+      "access_url": "http://www.resourcebook.eu/lremap/owl/lremap_paper"
+    }
+  ]
+}

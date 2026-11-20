@@ -1,0 +1,33 @@
+{
+  "identifier": "http:cultural-opposition.eu",
+  "title": "COURAGE Dataset",
+  "description": {
+    "en": "The COURAGE project was founded to investigate strategies for socialist-era cultural resistance during 1950-1990 and to highlight the variety of alternative cultural scenes that flourished in Eastern Europe before 1989, despite rigorous government control.  The project has compiled a registry of historical collections, people, groups, events, and collection items. This registry is an online RDF store containing scholar-curated linked data on the cultural heritage of the former 'Eastern bloc'. It has been used to create virtual and real exhibitions, scientific publications, and learning materials (see http://cultural-opposition.eu/)."
+  },
+  "domain": "cross_domain",
+  "website": "http://cultural-opposition.eu/registry/",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "triples": 0,
+  "image": "https://tti.abtk.hu/images/esemenyek/2016/COURAGE_new_logo_zoom.jpg",
+  "contact_point": {
+    "name": "András Micsik",
+    "email": "micsik@sztaki.hu"
+  },
+  "keywords": [
+    "history",
+    "cultural heritage"
+  ],
+  "full_download": [
+    {
+      "title": "COURAGE Dataset Snapshot",
+      "media_type": "application/zip",
+      "download_url": "https://doi.org/10.5281/zenodo.2550579."
+    }
+  ],
+  "sparql": [
+    {
+      "title": "COURAGE SPARQL Endpoint",
+      "access_url": "http://courage.btk.mta.hu:3030/"
+    }
+  ]
+}

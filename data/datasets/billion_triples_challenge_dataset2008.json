@@ -1,0 +1,36 @@
+{
+  "identifier": "billion_triples_challenge_dataset2008",
+  "title": "Billion Triples Challenge Dataset 2008",
+  "description": {
+    "en": "Data exposed: various dumps\r\nSize of dump and data set: 1 billion triples"
+  },
+  "website": "http://challenge.semanticweb.org/",
+  "triples": 1000000000,
+  "contact_point": {
+    "name": "Peter Mika, James Hendler"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "crossdomain",
+    "format-rdf",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-proprietary-vocab",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "full_download": [
+    {
+      "download_url": "http://www.cs.vu.nl/~pmika/swc/btc.html"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/ld+json",
+      "access_url": "http://dbpedia.org/resource/Engineering_and_Physical_Sciences_Research_Council"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "identifier": "hito",
+  "title": "HITO",
+  "description": {
+    "en": "A Health IT Ontology for systematically describing application systems and software products in health IT."
+  },
+  "domain": "life_sciences",
+  "website": "https://hitontology.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://hitontology.eu/ontology/",
+  "triples": 14313,
+  "contact_point": {
+    "name": "Konrad Höffner",
+    "email": "konrad.hoeffner@uni-leipzig.de"
+  },
+  "keywords": [
+    "health IT",
+    "health informatics",
+    "free/libre open-source software"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 101
+    },
+    {
+      "target": "snik",
+      "value": 174
+    }
+  ],
+  "full_download": [
+    {
+      "title": "HITO",
+      "description": "RDF/Turtle serialization of all of HITO, including software products and related attributes.\nSource files are available at  https://github.com/hitontology/ontology.",
+      "download_url": "https://raw.githubusercontent.com/hitontology/ontology/dist/all.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF Browser",
+      "description": "RickView RDF Browser providing both HTML for human consumption as well as N-Triples, Turtle and RDF/XML serializations.",
+      "access_url": "https://hitontology.eu/ontology/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Software Product",
+      "media_type": "application/n-triples",
+      "access_url": "https://hitontology.eu/ontology/SoftwareProduct"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "HITO SPARQL Endpoint",
+      "access_url": "https://hitontology.eu/sparql"
+    }
+  ]
+}

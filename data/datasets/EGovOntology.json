@@ -1,0 +1,29 @@
+{
+  "identifier": "EGovOntology",
+  "title": "E-Government Ontology",
+  "description": {
+    "en": "The e-government Ontology, submitted by Stamatis Theocharis, in partial fulfiment of the requirements for the degree of Doctor of Philosophy"
+  },
+  "domain": "government",
+  "website": "http://example.org",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Stamatis",
+    "email": "stheohar@unipi.gr"
+  },
+  "full_download": [
+    {
+      "title": "Ontology Download",
+      "description": "The full .owl file about the e-gov ontology, by Stamatis Theocharis",
+      "download_url": "http://example.org"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "e-gov ontology sparql endpoint",
+      "description": "The e-gov ontolgogy Sparql Endpoint via virtuoso",
+      "access_url": "http://example.org"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "identifier": "gesis-thesoz",
+  "title": "TheSoz Thesaurus for the Social Sciences (GESIS)",
+  "description": {
+    "en": "The Thesaurus for the Social Sciences (Thesaurus Sozialwissenschaften) contains about 12,000 entries, of which more than 8,000 are descriptors (authorised keywords) and about 4,000 non-descriptors. Topics in all of the social science disciplines are included. This SKOS version of the thesaurus uses also SKOS-XL and additionally defined extensions."
+  },
+  "domain": "publications",
+  "website": "http://lod.gesis.org/thesoz/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://lod.gesis.org/thesoz/",
+  "triples": 438901,
+  "contact_point": {
+    "name": "GESIS - Leibniz Institute for the Social Sciences",
+    "email": "http://www.gesis.org/"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-skos",
+    "format-skosxl",
+    "germany",
+    "library",
+    "license-metadata",
+    "linkeddata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "social",
+    "socialsciences",
+    "thesaurus",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "agrovoc-skos",
+      "value": 846
+    },
+    {
+      "target": "dbpedia",
+      "value": 5024
+    },
+    {
+      "target": "stw-thesaurus-for-economics",
+      "value": 5294
+    }
+  ],
+  "other_download": [
+    {
+      "title": "voiD file",
+      "description": "voiD file",
+      "access_url": "http://lod.gesis.org/thesoz/void.ttl"
+    },
+    {
+      "title": "Vocabulary Extensions",
+      "description": "Vocabulary Extensions",
+      "access_url": "http://lod.gesis.org/thesoz/ext/thesoz_ext.rdf"
+    },
+    {
+      "title": "Download RDF/XML",
+      "description": "Link to download page",
+      "media_type": "RDF",
+      "access_url": "http://www.gesis.org/en/services/research/thesauri-und-klassifikationen/social-science-thesaurus/"
+    },
+    {
+      "title": "Download RDF/Turtle",
+      "description": "Link to RDF/Turtle download file",
+      "media_type": "application/zip",
+      "access_url": "http://www.etracker.de/lnkcnt.php?et=qPKGYV&url=http://www.gesis.org/fileadmin/upload/dienstleistung/tools_standards/thesoz_skos_turtle.zip&lnkname=fileadmin/upload/dienstleistung/tools_standards/thesoz_skos_turtle.zip"
+    },
+    {
+      "title": "Vocabulary Mappings",
+      "description": "Vocabulary Mappings to SKOS and SKOS-XL",
+      "access_url": "http://lod.gesis.org/thesoz/vocabulary-mappings.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "TheSoz Example Concept",
+      "description": "Example Concept (RDF/XML)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://lod.gesis.org/thesoz/concept/10041741"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "TheSoz SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://lod.gesis.org/thesoz/sparql"
+    }
+  ]
+}

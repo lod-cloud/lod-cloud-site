@@ -1,0 +1,49 @@
+{
+  "identifier": "http:guava.iis.sinica.edu.twr4r",
+  "title": "Relations for Reusing (R4R) Ontology",
+  "description": {
+    "en": "R4R is a light-weight ontology for representing general relationships of resource for publication and reusing."
+  },
+  "domain": "cross_domain",
+  "website": "http://guava.iis.sinica.edu.tw/r4r/",
+  "triples": 131,
+  "contact_point": {
+    "name": "Andrea Wei-Ching Huang",
+    "email": "andreasinica@gmail.com"
+  },
+  "keywords": [
+    "ontology",
+    "reuse",
+    "curation",
+    "reusing",
+    "publication",
+    "interpretation",
+    "citation",
+    "provenance",
+    "article",
+    "data",
+    "code"
+  ],
+  "full_download": [
+    {
+      "title": "Relations for Reusing (R4R) Ontology",
+      "description": "RDF/XML file",
+      "media_type": "application/rdf+xml",
+      "download_url": "http://guava.iis.sinica.edu.tw/wiki/R4R.owl"
+    },
+    {
+      "title": "Relations for Reusing (R4R) Ontology",
+      "description": "Turtle file",
+      "media_type": "text/turtle",
+      "download_url": "http://guava.iis.sinica.edu.tw/wiki/R4R.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Open Data Web",
+      "description": "Publishing and reusing 84000 CC0 metadata into LOD via R4R ontology.",
+      "media_type": "text/html",
+      "access_url": "http://data.odw.tw/"
+    }
+  ]
+}

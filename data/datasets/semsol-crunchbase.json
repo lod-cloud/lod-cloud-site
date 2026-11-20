@@ -1,0 +1,40 @@
+{
+  "identifier": "semsol-crunchbase",
+  "title": "Semantic CrunchBase",
+  "description": {
+    "en": "This datasource seems to be permanently down. A potential pointer might be this tweet from the maintainer: https://twitter.com/#!/bengee/status/90414011685941248:\r\n\r\n\"another dependency (before #job search) removed: semsol.com now redirects to bnowack.de\""
+  },
+  "domain": "cross_domain",
+  "website": "http://cb.semsol.org",
+  "triples": 955676,
+  "contact_point": {
+    "name": "Benjamin Nowack",
+    "email": "bnowack@semsol.com"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-rdf",
+    "lod",
+    "lodcloud.needsfixing",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 250
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (last month)",
+      "media_type": "RDF",
+      "access_url": "http://cb.semsol.org/sparql?query=dump"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://cb.semsol.org/sparql"
+    }
+  ]
+}

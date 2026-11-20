@@ -1,0 +1,77 @@
+{
+  "identifier": "data-incubator-climb",
+  "title": "Climb Dataincubator",
+  "description": {
+    "en": "A collection of data about climbing routes, crags, and mountains, screen-scraped from UKClimbing.com"
+  },
+  "website": "http://climb.dataincubator.org/",
+  "namespace": "http://climb.dataincubator.org/",
+  "triples": 174120,
+  "contact_point": {
+    "name": "Keith Alexander",
+    "email": "k.j.w.alexander@gmail.com"
+  },
+  "keywords": [
+    "climbing",
+    "deref-vocab",
+    "format-climb",
+    "format-dc",
+    "format-foaf",
+    "format-geo",
+    "format-rdf",
+    "format-rdfs",
+    "geographic",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "mountaineering",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "sport"
+  ],
+  "links": [
+    {
+      "target": "data-incubator-metoffice",
+      "value": 1047
+    },
+    {
+      "target": "data-incubator-smcjournals",
+      "value": 43
+    },
+    {
+      "target": "dbpedia",
+      "value": 300
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://climb.dataincubator.org/dataset"
+    },
+    {
+      "description": "Climb Vocabulary",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://climb.dataincubator.org/vocabs/climb/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource (Venue)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://climb.dataincubator.org/venues/Buachaille_etive_mor_rannoch_wall_(argyll_and_bute)"
+    },
+    {
+      "description": "example resource (Route)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://climb.dataincubator.org/venues/Buachaille_etive_mor_rannoch_wall_(argyll_and_bute)/A_game_of_dice"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/climb/services/sparql"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-latin-proiel",
+  "title": "Universal Dependencies Treebank Latin-PROIEL",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Latin-PROIEL treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Latin-PROIEL",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 165201,
+  "contact_point": {
+    "name": "Haug, Dag"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Latin-PROIEL Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Latin-PROIEL/archive/master.zip"
+    },
+    {
+      "title": "UD_Latin-PROIEL RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/53daee93-f868-401d-a83d-55ae58ae4c11/resource/0aae3178-5c2f-4391-b9db-791f3def7161/download/udlatin-proiel.rdf"
+    }
+  ]
+}

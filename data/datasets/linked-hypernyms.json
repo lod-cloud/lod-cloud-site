@@ -1,0 +1,49 @@
+{
+  "identifier": "linked-hypernyms",
+  "title": "linked hypernyms",
+  "description": {
+    "en": "This Linked Hypernym dataset attaches entity articles in English, German and Dutch Wikipedia with a DBpedia resource or a DBpedia ontology concept as their type. The types are hypernyms mined from articles' free text using hand-crafted lexicosyntactic patterns.\r\n\r\nThe dataset contains 2.8 million entity-type assignments, out of which nearly 2.5 million are novel with respect to DBpedia and 2 million w.r.t. Yago 2s and DBpedia."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 73000000,
+  "contact_point": {
+    "name": "Tomas Kliegr, Milan Dojchinovski",
+    "email": "http://ner.vse.cz/datasets/linkedhypernyms/contact/"
+  },
+  "keywords": [
+    "ldl-2014",
+    "lexical-resources",
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia"
+    },
+    {
+      "target": "yago"
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Dutch instances",
+      "download_url": "http://ner.vse.cz/datasets/linkedhypernyms/nl.instances.all.nt.gz"
+    },
+    {
+      "title": "English instances",
+      "download_url": "http://ner.vse.cz/datasets/linkedhypernyms/en.instances.all.nt.gz"
+    },
+    {
+      "title": "German instances",
+      "download_url": "http://ner.vse.cz/datasets/linkedhypernyms/de.instances.all.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Description",
+      "access_url": "http://ner.vse.cz/datasets/linkedhypernyms/"
+    }
+  ]
+}

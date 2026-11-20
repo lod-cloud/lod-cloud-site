@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-tamil",
+  "title": "Universal Dependencies Treebank Tamil",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Tamil treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Tamil",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 8635,
+  "contact_point": {
+    "name": "Ramasamy, Loganathan; Zeman, Daniel",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Tamil Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Tamil/archive/master.zip"
+    },
+    {
+      "title": "UD_Tamil RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/60303b15-3a53-41ef-b4ec-5b535d79a41b/resource/7216cb7b-0067-45a5-8ad1-643a439e4a55/download/udtamil.rdf"
+    }
+  ]
+}

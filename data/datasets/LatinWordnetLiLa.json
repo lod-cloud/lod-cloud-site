@@ -1,0 +1,51 @@
+{
+  "identifier": "LatinWordnetLiLa",
+  "title": "Latin WordNet Revision in LiLa",
+  "description": {
+    "en": "Ongoing quality revision of Minozzi's Latin WordNet linked to the LiLa Knowledge Base, mapped to version 3.0 of the Princeton WordNet (as opposed to Minozzi's original mapping to version 1.6). The latest release contains synsets for 1612 additional lemmas that were not included in the original selection performed by Minozzi."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/LatinWordNet/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/LatinWordNet",
+  "triples": 466696,
+  "doi": "10.5281/zenodo.4030822",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Wordnet"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 8536
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Latin WordNet Revision in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization).",
+      "download_url": "https://github.com/CIRCSE/latinWordnet-revision"
+    }
+  ],
+  "example": [
+    {
+      "title": "\"impositio\"",
+      "description": "A lexical entry of the Latin Wordnet in LiLa",
+      "access_url": "http://lila-erc.eu/data/lexicalResources/LatinWordNet/id/LexicalEntry/l_106648"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

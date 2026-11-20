@@ -1,0 +1,108 @@
+{
+  "identifier": "biblioteca-escolar-digital-cita",
+  "title": "Biblioteca Escolar Digital CITA",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://bibliotecaescolardigital.es\">Biblioteca Escolar Digital</a> is an educational tool for teachers, students, parents, educators and researchers in the world of education created by the <a href=\"http://cita.fundaciongsr.com/\">Centro Internacional de Tecnologías Avanzadas (CITA)</a> of the foundation in Peñaranda de Bracamonte (Salamanca, España).\r\n</p>\r\n<p>\r\nThe Biblioteca Escolar Digital’s repository works with <a href=\"http://products.gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. The project includes a faceted-based search engine and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n\r\n<p>\r\nLa <a href=\"http://bibliotecaescolardigital.es\">Biblioteca Escolar Digital</a> es una herramienta didáctica para profesores, alumnos, padres, pedagogos e investigadores del mundo de la educación creada por el <a href=\"http://cita.fundaciongsr.com/\">Centro Internacional de Tecnologías Avanzadas (CITA)</a> de la Fundación en Peñaranda de Bracamonte (Salamanca, España).\r\n</p>\r\n<p>\r\nEl repositorio trabaja con <a href=\"http://products.gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto incluye un buscador facetado y contextos enriquecidos.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://red.gnoss.com/comunidad/Biblioteca-Escolar-Digital",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://bibliotecaescolardigital.es",
+  "triples": 930765,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "Biblioteca Escolar Digital",
+    "CITA",
+    "Centro Internacional de Tecnologías Avanzadas",
+    "alumnos",
+    "corporate excellence",
+    "country-spain",
+    "country.es",
+    "dc",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "gnoss",
+    "laboratorio de ideas",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "padres",
+    "pedagogos",
+    "profesores",
+    "provenance-metadata",
+    "published-by-third-party",
+    "recursos educativos",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 4367
+    },
+    {
+      "target": "didactalia",
+      "value": 30000
+    },
+    {
+      "target": "freebase",
+      "value": 12355
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 96
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 4148
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://red.gnoss.com/voidCITA.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the Biblioteca Escolar Digital (CITA) community.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://bibliotecaescolardigital.es/comunidad/BibliotecaEscolarDigital/recurso/las-funciones-cerebrales-superiores/f37772c7-cdcb-400a-aba4-53f5091152bf?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the Biblioteca Escolar Digital (CITA) community.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://bibliotecaescolardigital.es/comunidad/BibliotecaEscolarDigital/busqueda?search=caracol%20serafin"
+    },
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/Biblioteca-Escolar-Digital/advanced-search/tag/clase?rdf"
+    }
+  ]
+}

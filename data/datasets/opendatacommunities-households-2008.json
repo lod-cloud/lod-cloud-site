@@ -1,0 +1,27 @@
+{
+  "identifier": "opendatacommunities-households-2008",
+  "title": "opendatacommunities-households-2008",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-dcat",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "reference-data-gov-uk",
+      "value": 1
+    }
+  ]
+}

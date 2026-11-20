@@ -1,0 +1,51 @@
+{
+  "identifier": "iislod-test",
+  "title": "Test Site, LOD Lab 317",
+  "description": {
+    "en": "Sample linked data converted from Union Catalog of Digital Archives Taiwan."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.odw.tw/",
+  "triples": 5188,
+  "contact_point": {
+    "name": "Institute of Information Science, Academia Sinica",
+    "email": "cjlee@iis.sinica.edu.tw"
+  },
+  "keywords": [
+    "format-cc",
+    "format-dc",
+    "format-dct",
+    "format-foaf",
+    "format-org",
+    "format-prov",
+    "format-r4r",
+    "format-rdfs",
+    "format-schema",
+    "format-skos",
+    "format-wde",
+    "format-xsd",
+    "license-metadata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "example": [
+    {
+      "title": "DL_001_0001, His Holiness the 14th Dalai Lama on Dzong-ka-ba, \"Medium Exposition of the Stages of the Path to Enlightenment\" 略論",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "http://data.odw.tw/record/d3108593.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://sparql.odw.tw"
+    }
+  ]
+}

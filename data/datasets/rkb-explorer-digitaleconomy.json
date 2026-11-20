@@ -1,0 +1,56 @@
+{
+  "identifier": "rkb-explorer-digitaleconomy",
+  "title": "digitaleconomy",
+  "description": {
+    "en": "This is a store that contains the email archive of the University of Southampton Digital Economy mailing list.\r\nIt mostly uses the SIOC ontology.\r\nThe mbox2rdf translator was provided by Toby Inkster."
+  },
+  "website": "http://digitaleconomy.rkbexplorer.com",
+  "namespace": "http://digitaleconomy.rkbexplorer.com/id/",
+  "triples": 3500,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "broken_link",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-proprietary-vocab",
+    "published-by-producer",
+    "usergeneratedcontent",
+    "void-sparql-endpoint"
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://digitaleconomy.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://digitaleconomy.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://digitaleconomy.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "example ressource (rdf)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://digitaleconomy.rkbexplorer.com/data/person-J.G.Lumby"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://digitaleconomy.rkbexplorer.com/sparql"
+    }
+  ]
+}

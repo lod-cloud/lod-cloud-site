@@ -1,0 +1,62 @@
+{
+  "identifier": "dm2e",
+  "title": "DM2E",
+  "description": {
+    "en": "Metadata about digitalised manuscripts coming from the DM2E project (http://dm2e.eu)."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://dm2e.eu/data",
+  "triples": 0,
+  "contact_point": {
+    "name": "Dominique Ritze",
+    "email": "dominique@informatik.uni-mannheim.de"
+  },
+  "keywords": [
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "manuscripts"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 14210
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 22698
+    },
+    {
+      "target": "freebase",
+      "value": 1868
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1574
+    },
+    {
+      "target": "judaicalink",
+      "value": 3108
+    },
+    {
+      "target": "lcsh",
+      "value": 552
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 5770
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 570
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DM2E",
+      "description": "DM2E Linked Data service",
+      "media_type": "text/html",
+      "access_url": "http://data.dm2e.eu"
+    }
+  ]
+}

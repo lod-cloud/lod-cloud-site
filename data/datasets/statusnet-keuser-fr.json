@@ -1,0 +1,53 @@
+{
+  "identifier": "statusnet-keuser-fr",
+  "title": "statusnet-keuser-fr",
+  "description": {
+    "en": "StatusNet instance hosted at http://keuser.fr"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 12
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 6
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://keuser.fr/lythari/foaf"
+    }
+  ]
+}

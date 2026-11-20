@@ -1,0 +1,23 @@
+{
+  "identifier": "neurolex-wiki",
+  "title": "NeuroLex Wiki",
+  "description": {
+    "en": "NeuroLex.org is a freely editable semantic wiki for community-based curation of the terms used in Neuroscience. It is a joint project of the Neuroscience Information Framework and the International Neuroinformatics Coordinating Facility.\r\n\r\nThis Wiki takes advantage of the Semantic Mediawiki software and the Halo Extension and has loaded all the NIF ontology classes. Many of the annotation properties associated with those classes have been tagged with properties here. Restrictions have not yet been ported over. However, in this current version, most classes just have the NIF id and the parent class/category associated with them.\r\n\r\nThe Wiki version of the NIF encodes classes as \"categories\", as in the standard Wikipedia. These class categories themselves have editable pages. This therefore allows anyone to update the definitions of the classes.\r\n\r\nThis Wiki also allows other \"instance\" articles to be tagged with those classes. Properties between classes or between \"instance\" articles can be defined as well. This allows individual terms within \"instance\" articles to be tagged with these properties. There are a few examples of this below.\r\n\r\nBy tagging parts of a page with a property, a query mechanism can reshuffle the data within those pages in tables or by generating dynamic lists."
+  },
+  "website": "http://neurolex.org/wiki/NeuroLex:About",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1813169,
+  "keywords": [
+    "lexicon",
+    "neuroinformatics",
+    "neuroscience",
+    "ontology"
+  ],
+  "other_download": [
+    {
+      "description": "http://neurolex.org/wiki/NeuroLex_SPARQL_endpoint",
+      "media_type": "RDF",
+      "access_url": "http://api.talis.com/stores/neurolex-dev1/services/sparql"
+    }
+  ]
+}

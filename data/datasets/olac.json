@@ -1,0 +1,33 @@
+{
+  "identifier": "olac",
+  "title": "OLAC Metadata",
+  "description": {
+    "en": "Metadata of linguistic resources participating in Open Language Archives Community."
+  },
+  "website": "http://www.language-archives.org/archive_records.php",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 5143342,
+  "keywords": [
+    "language_description",
+    "linguistics"
+  ],
+  "links": [
+    {
+      "target": "lexvo",
+      "value": 344260
+    }
+  ],
+  "other_download": [
+    {
+      "title": "OLAC metadata triples",
+      "description": "Compressed RDF XML of the compete OLAC catalog of language resources, containing the archive descriptions of the approximately 60 participating OLAC archives and the item descriptions of the approximately 250,000 language resources that they hold. The compressed dataset is regenerated nightly. See [presentation](http://www-01.sil.org/~simonsg/presentation/OLAC%20Metadata%20as%20LD.pdf) about the project.",
+      "media_type": "application/x-gzip",
+      "access_url": "http://www.language-archives.org/static/olac-datahub.rdf.gz"
+    },
+    {
+      "title": "OLAC metadata sample triples",
+      "description": "Sample triples from a snapshot taken on May 15, 2016.",
+      "access_url": "http://www.language-archives.org/static/sample-20160515.rdf.xml"
+    }
+  ]
+}

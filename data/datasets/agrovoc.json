@@ -1,0 +1,94 @@
+{
+  "identifier": "agrovoc",
+  "title": "AGROVOC",
+  "description": {
+    "en": "AGROVOC is a controlled vocabulary covering all areas of interest of the Food and Agriculture Organization (FAO) of the United Nations, including food, nutrition, agriculture, forestry, fisheries, scientific and common names of animals and plants, environment, biological notions, techniques of plant cultivation and more.. It is published by FAO and edited by a community of experts.\n\nAGROVOC is an RDF/ SKOS-XL concept scheme, and a Linked Open Data (LOD) set edited by the VocBench tool. It is available in up to 41 languages. The basic notions for a concept scheme are: concepts and terms. Concepts are grouped into 25 broad subject areas. For more information on the structure of the thesaurus and its historical background please consult the thesaurus introduction.\n\nAGROVOC is widely used in specialized libraries as well as digital libraries and repositories to index content and for the purpose of text mining. It is also used as a specialized tagging resource for knowledge and content organization by FAO and other third-party stakeholders."
+  },
+  "domain": "life_sciences",
+  "website": "http://www.fao.org/agrovoc/",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "namespace": "http://aims.fao.org/aos/agrovoc/",
+  "triples": 5878468,
+  "contact_point": {
+    "name": "Inmaculada SubiratsColl",
+    "email": "imma.subirats@fao.org"
+  },
+  "keywords": [
+    "food",
+    "nutrition",
+    "agriculture",
+    "forestry",
+    "fisheries",
+    "scientific and common names of animals and plants",
+    "environment",
+    "biological notions",
+    "techniques of plant cultivation"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 11013
+    },
+    {
+      "target": "dewey_decimal_classification",
+      "value": 401
+    },
+    {
+      "target": "environmental-applications-reference-thesaurus",
+      "value": 1385
+    },
+    {
+      "target": "eurovoc",
+      "value": 1783
+    },
+    {
+      "target": "fao-geopolitical-ontology",
+      "value": 253
+    },
+    {
+      "target": "gemet",
+      "value": 1185
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 206
+    },
+    {
+      "target": "lcsh",
+      "value": 1079
+    }
+  ],
+  "full_download": [
+    {
+      "title": "AGROVOC CORE NT",
+      "description": "which only includes AGROVOC concepts (NT format). See https://data.apps.fao.org/catalog/organization/agrovoc  for latest link, updated monthly.",
+      "media_type": "application/zip",
+      "download_url": "https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.nt.zip"
+    },
+    {
+      "title": "AGROVOC Linked Open Data (LOD)  NT",
+      "description": "which includes AGROVOC concepts + links to outside resources (NT format). See https://data.apps.fao.org/catalog/organization/agrovoc  for latest link, updated monthly.",
+      "media_type": "application/zip",
+      "download_url": "https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nt.zip"
+    },
+    {
+      "title": "AGROVOC CORE RDF",
+      "description": "which only includes AGROVOC concepts (RDF). See also https://data.apps.fao.org/catalog/organization/agrovoc  for latest link, updated monthly.",
+      "media_type": "application/zip",
+      "download_url": "https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.rdf.zip"
+    },
+    {
+      "title": "AGROVOC Linked Open Data (LOD)  NQ",
+      "description": "which includes AGROVOC concepts + links to outside resources (NQ format). See also https://data.apps.fao.org/catalog/organization/agrovoc  for latest link, updated monthly.",
+      "media_type": "application/zip",
+      "download_url": "https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nq.zip"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Public SPARQL endpoint",
+      "description": "Public SPARQL endpoint,  Fuseki 3.6.0 .",
+      "access_url": "https://agrovoc.fao.org/sparql"
+    }
+  ]
+}

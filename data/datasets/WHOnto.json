@@ -1,0 +1,52 @@
+{
+  "identifier": "WHOnto",
+  "title": "Corona Virus Infected Cases Ontology",
+  "description": {
+    "en": "Ontology for Corona virus infected cases according to WHO. It is open-source ontology in the area of corona virus infectious disease. The WHOnto provide information about active cases, total number of death across the country. WHOnto is developed to provide standardized human- and computer interpret able annotation and representation of various corona virus infectious diseases, including their etiology, transmission,  diagnosis, prevention, and treatment."
+  },
+  "domain": "publications",
+  "website": "https://purl.org/whonto/onto",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://purl.org/whonto/onto",
+  "triples": 257,
+  "contact_point": {
+    "name": "Sumit Sharma",
+    "email": "sharma24h@gmail.com"
+  },
+  "keywords": [
+    "Covid_19 Ontology",
+    "Who Reported case ontology",
+    "Corona Virus Ontology"
+  ],
+  "links": [
+    {
+      "target": "Covid-on-the-Web",
+      "value": 1
+    },
+    {
+      "target": "HealthCare_Ontology",
+      "value": 2
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Corona Virus Infected Cases Ontology",
+      "description": "WHOnto provide information about active cases, total number of death across the country. WHOnto is developed to provide standardized human- and computer interpret able annotation and representation of various corona virus infectious diseases, including their etiology, transmission,  diagnosis, prevention, and treatment.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://purl.org/whonto/onto"
+    },
+    {
+      "title": "Corona Virus Infected Cases Ontology",
+      "description": "WHOnto provide information about active cases, total number of death across the country. WHOnto is developed to provide standardized human- and computer interpret able annotation and representation of various corona virus infectious diseases, including their etiology, transmission,  diagnosis, prevention, and treatment.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://purl.org/whonto/onto"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WHO Corona Virus infected case",
+      "description": "Country wise Corona Virus active cases, new cases, death status",
+      "access_url": "https://purl.org/whonto/onto"
+    }
+  ]
+}

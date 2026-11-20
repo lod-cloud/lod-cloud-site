@@ -1,0 +1,291 @@
+{
+  "identifier": "bioportal-mp",
+  "title": "Mammalian phenotype",
+  "description": {
+    "en": "The Mammalian Phenotype Ontology is under development as a community effort to provide standard terms for annotating mammalian phenotypic data."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1025",
+  "triples": 117067,
+  "contact_point": {
+    "name": "JAX list"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 35
+    },
+    {
+      "target": "bioportal-air",
+      "value": 23
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 679
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 18
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 15
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 157
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 88
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 363
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 370
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 134
+    },
+    {
+      "target": "bioportal-ctx",
+      "value": 29
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 344
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 121
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 40
+    },
+    {
+      "target": "bioportal-fbcv",
+      "value": 13
+    },
+    {
+      "target": "bioportal-fypo",
+      "value": 26
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 315
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 67
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 77
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 774
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 159
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 256
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 183
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 39
+    },
+    {
+      "target": "bioportal-icpc",
+      "value": 29
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 390
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 17
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 102
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 72
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 15
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 483
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 995
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 153
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 1291
+    },
+    {
+      "target": "bioportal-mpath",
+      "value": 109
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 598
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 309
+    },
+    {
+      "target": "bioportal-nbo",
+      "value": 47
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 642
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 378
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 384
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 25
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 45
+    },
+    {
+      "target": "bioportal-nigo",
+      "value": 40
+    },
+    {
+      "target": "bioportal-ogmd",
+      "value": 10
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 1049
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 217
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 26
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 41
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 43
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 14
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 673
+    },
+    {
+      "target": "bioportal-repo",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 185
+    },
+    {
+      "target": "bioportal-shr",
+      "value": 17
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 1828
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 175
+    },
+    {
+      "target": "bioportal-sso",
+      "value": 36
+    },
+    {
+      "target": "bioportal-tm-signs-and-sympts",
+      "value": 22
+    },
+    {
+      "target": "bioportal-vt",
+      "value": 25
+    },
+    {
+      "target": "bioportal-who",
+      "value": 289
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47363?apikey=BP_API_KEY"
+    }
+  ]
+}

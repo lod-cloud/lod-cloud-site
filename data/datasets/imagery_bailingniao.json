@@ -1,0 +1,22 @@
+{
+  "identifier": "imagery_bailingniao",
+  "title": "imagery bailingniao",
+  "description": {
+    "en": "imagery bailingniao"
+  },
+  "domain": "cross_domain",
+  "website": "http://baixue.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "wageawgw",
+    "email": "ewagrehawg@qage.com"
+  },
+  "full_download": [
+    {
+      "title": "imagery",
+      "media_type": "MIME type",
+      "download_url": "https://demo.ckan.org/dataset/5e065f17-b055-4485-9e41-165de0953871/resource/16e2fc92-6676-4a07-8ca4-e3ce7a52fbf2/download/imagery.json   Text"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "identifier": "world-wide-web-foundation",
+  "title": "World Wide Web Foundation",
+  "description": {
+    "en": "WebIndex and OpenData Barometer from the World Wide Web Foundation"
+  },
+  "website": "http://data.webfoundation.org",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-cube",
+    "format-dcterm",
+    "format-foaf",
+    "format-org",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-time",
+    "format-void",
+    "government",
+    "lodcloud-diagram-2014-08-30",
+    "part-deref-vocab"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 61
+    },
+    {
+      "target": "fao-geopolitical-ontology",
+      "value": 64
+    },
+    {
+      "target": "personal-homepages",
+      "value": 72
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml ; charset=utf-8",
+      "access_url": "http://data.webfoundation.org/webindex/data/observation/WBC-Imputed/obs27"
+    }
+  ]
+}

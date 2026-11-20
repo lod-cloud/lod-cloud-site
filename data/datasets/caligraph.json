@@ -1,0 +1,53 @@
+{
+  "identifier": "caligraph",
+  "title": "CaLiGraph",
+  "description": {
+    "en": "CaLiGraph - A Knowledge Graph from Wikipedia Categories and Lists"
+  },
+  "domain": "cross_domain",
+  "website": "http://caligraph.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://caligraph.org/",
+  "triples": 330000000,
+  "doi": "10.5281/zenodo.3484511",
+  "image": "http://caligraph.org/resources/icon/caligraph_icon_whitering.ico",
+  "contact_point": {
+    "name": "Heiko Paulheim",
+    "email": "caligraph@informatik.uni-mannheim.de"
+  },
+  "keywords": [
+    "General-purpose",
+    "Wikipedia-based",
+    "Categories",
+    "Lists"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 5000000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "CaLiGraph Dumps on Zenodo",
+      "download_url": "https://zenodo.org/records/8068322"
+    }
+  ],
+  "example": [
+    {
+      "title": "University of Mannheim",
+      "access_url": "http://caligraph.org/resource/University_of_Mannheim"
+    },
+    {
+      "title": "16th century Swiss painters",
+      "access_url": "http://caligraph.org/ontology/16th-century_Swiss_painter"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "CaLiGraph SPARQL Endpoint",
+      "description": "SPARQL Endpoint of the CaLiGraph page",
+      "access_url": "http://caligraph.org/sparql"
+    }
+  ]
+}

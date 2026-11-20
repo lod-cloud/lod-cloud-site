@@ -1,0 +1,34 @@
+{
+  "identifier": "statusnet-mulestable-net",
+  "title": "statusnet-mulestable-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://mulestable.net"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 73
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html",
+      "access_url": "http://mulestable.net/nords/foaf"
+    }
+  ]
+}

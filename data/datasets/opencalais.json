@@ -1,0 +1,71 @@
+{
+  "identifier": "opencalais",
+  "title": "OpenCalais",
+  "description": {
+    "en": "OpenCalais is a web service that extracts semantic metadata from text content, such as web pages."
+  },
+  "domain": "cross_domain",
+  "website": "http://www.opencalais.com/",
+  "namespace": "http://d.opencalais.com/",
+  "triples": 4500000,
+  "contact_point": {
+    "name": "Thomson Reuters"
+  },
+  "keywords": [
+    "crossdomain",
+    "debug-tinylod",
+    "deref-vocab",
+    "format-foaf",
+    "format-geo",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "nlp",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1000
+    },
+    {
+      "target": "freebase",
+      "value": 1000
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1000
+    },
+    {
+      "target": "linkedmdb",
+      "value": 1000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Linked Data documentation",
+      "access_url": "http://www.opencalais.com/documentation/linked-data-entities"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://d.opencalais.com/er/company/ralg-tr1r/9e3f6c34-aa6b-3a3b-b221-a07aa7933633"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://d.opencalais.com/genericHasher-1/5f968907-d20d-3a45-a882-0d9ba4311230.html"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html;charset=utf-8",
+      "access_url": "http://d.opencalais.com/genericHasher-1/bcc912a5-ce31-3071-8d7e-f862e7fdf229.html"
+    }
+  ]
+}

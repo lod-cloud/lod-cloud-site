@@ -1,0 +1,35 @@
+{
+  "identifier": "https:www.luigiusai.itlinked-dataluigiusai",
+  "title": "Writer Luigi Usai",
+  "description": {
+    "en": "The first dataset submitted by the philosopher, writer and inventor Luigi Usai."
+  },
+  "domain": "user_generated",
+  "website": "https://www.luigiusai.it",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Dr. Usai Luigi",
+    "email": "usailuigi@gmail.com"
+  },
+  "keywords": [
+    "Luigi Usai",
+    "Atlantis",
+    "Sardinia",
+    "Usai Keyboard",
+    "Tastiera Usai",
+    "Stigmergy",
+    "Riflessioni sul metodo cartesiano e la pratica musicale",
+    "writer",
+    "inventor",
+    "philosopher",
+    "new Atlantis Theory",
+    "Atlanti Graben Horst Structure"
+  ],
+  "full_download": [
+    {
+      "title": "Writer Luigi Usai",
+      "download_url": "https://www.luigiusai.it/linked-data/luigiusai"
+    }
+  ]
+}

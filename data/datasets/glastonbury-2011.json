@@ -1,0 +1,43 @@
+{
+  "identifier": "glastonbury-2011",
+  "title": "Glastonbury 2011 Programme",
+  "description": {
+    "en": "This has been screen scraped from the Glastonbury website."
+  },
+  "website": "http://programme.ecs.soton.ac.uk/glastonbury/2011/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 42581,
+  "keywords": [
+    "arts",
+    "deref-vocab",
+    "festival",
+    "glastonbury",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "music",
+    "programme",
+    "published-by-third-party",
+    "rdf",
+    "usergeneratedcontent"
+  ],
+  "other_download": [
+    {
+      "description": "Download 2011 Glastonbury Line Up in RDF",
+      "media_type": "RDF",
+      "access_url": "http://programme.ecs.soton.ac.uk/glastonbury/2011/glastonbury2011.rdf"
+    },
+    {
+      "description": "External URIs to artists homepage mapping, to enable someone else to create solid links from this data.",
+      "media_type": "RDF",
+      "access_url": "http://programme.ecs.soton.ac.uk/glastonbury/2011/homepages.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://programme.ecs.soton.ac.uk/glastonbury/2011/glastonbury2011.rdf#session-7979af337cd00d6b9e9d481a954953d5-Sunday-12:56"
+    }
+  ]
+}

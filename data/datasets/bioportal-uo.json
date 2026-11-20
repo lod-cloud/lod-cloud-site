@@ -1,0 +1,131 @@
+{
+  "identifier": "bioportal-uo",
+  "title": "Units of measurement",
+  "description": {
+    "en": "Metrical units for use in conjunction with PATO"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1112",
+  "triples": 5038,
+  "contact_point": {
+    "name": "Unit Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 16
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 95
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 84
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 17
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 22
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 56
+    },
+    {
+      "target": "bioportal-mo",
+      "value": 98
+    },
+    {
+      "target": "bioportal-ms",
+      "value": 35
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 166
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 22
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 16
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 16
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 11
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 46
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 65
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 87
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 34
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 120
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 245
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 315
+    },
+    {
+      "target": "bioportal-unitsontology",
+      "value": 33
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47017?apikey=BP_API_KEY"
+    }
+  ]
+}

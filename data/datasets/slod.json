@@ -1,0 +1,39 @@
+{
+  "identifier": "slod",
+  "title": "Linked Stage Graph",
+  "description": {
+    "en": "Linked Stage Graph is a Knowledge Graph using a dataset by the Archive of Baden-Wuerttemberg, Germany. It contains black and white photographs and metadata about the Stuttgart State Theaters from the 1890s to the 1940s. The original EAD-XML files were converted to RDF and named entities were extracted and linked to Wikidata and the German Authority Files (GND)."
+  },
+  "domain": "media",
+  "website": "http://slod.fiz-karlsruhe.de/",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "namespace": "http://slod.fiz-karlsruhe.de",
+  "triples": 143345,
+  "contact_point": {
+    "name": "Tabea Tietz",
+    "email": "tabea.tietz@fiz-karlsruhe.de"
+  },
+  "keywords": [
+    "theater",
+    "photographs",
+    "cultural heritage",
+    "archive",
+    "glam"
+  ],
+  "links": [
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 95
+    },
+    {
+      "target": "wikidata",
+      "value": 1839
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Linked Stage Graph",
+      "access_url": "http://slod.fiz-karlsruhe.de/sparql"
+    }
+  ]
+}

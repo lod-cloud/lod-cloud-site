@@ -1,0 +1,85 @@
+{
+  "identifier": "statusnet-ssweeny-net",
+  "title": "statusnet-ssweeny-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://ssweeny.net"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 9
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 18
+    },
+    {
+      "target": "statusnet-freelish-us",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 25
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 8
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 5
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 9
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 4
+    },
+    {
+      "target": "wordpress",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://status.ssweeny.net/foaf"
+    }
+  ]
+}

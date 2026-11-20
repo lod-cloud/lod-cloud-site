@@ -1,0 +1,37 @@
+{
+  "identifier": "ciard-ring",
+  "title": "ciard-ring",
+  "domain": "publications",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-adms",
+    "format-content",
+    "format-dcat",
+    "format-dcterm",
+    "format-doap",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "format-skos",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "provenance-metadata",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://ring.ciard.net/field_collection_item/1850.rdf"
+    }
+  ]
+}

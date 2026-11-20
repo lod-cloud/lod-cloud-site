@@ -1,0 +1,67 @@
+{
+  "identifier": "agris",
+  "title": "AGRIS",
+  "description": {
+    "en": "AGRIS is one of the most important world-wide information systems in the area of the agricultural sciences. AGRIS is an initiative that was set up by FAO of the United Nations in 1974 to make information on agriculture research globally available. The historical overall objective of AGRIS is to improve access and exchange of information serving “the information needs of developed and developing countries on a partnership basis”."
+  },
+  "domain": "publications",
+  "website": "http://agris.fao.org/aos/records/info.html",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 239565943,
+  "contact_point": {
+    "name": "FAO OEKC",
+    "email": "agris@fao.org"
+  },
+  "keywords": [
+    "agriculture",
+    "deref-vocab",
+    "fisheries",
+    "forestry",
+    "hunger",
+    "lod",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "agrovoc-skos",
+      "value": 10000000
+    },
+    {
+      "target": "dbpedia",
+      "value": 3000000
+    },
+    {
+      "target": "fao-geopolitical-ontology",
+      "value": 500000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF Dump",
+      "media_type": "application/x-tgz",
+      "download_url": "http://lprapp14.fao.org/agris_data/LOD/rdf_output.tar.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "access_url": "http://agris.fao.org/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDFXML",
+      "description": "An RDF-XML example record",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://agris.fao.org/aos/records/data/JP2010001379?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql Endpoint",
+      "description": "AGRIS RECORDS RDF Sparql Endpoint",
+      "access_url": "http://202.45.139.84:10035/catalogs/fao/repositories/agris"
+    }
+  ]
+}
