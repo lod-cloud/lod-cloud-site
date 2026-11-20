@@ -38,6 +38,27 @@ The migration only makes mechanical fixes, so many records do not yet satisfy th
 
 `known-issues.json` lists, per file, the problems that existed when the data was migrated (2,646 across 1,067 files). They are tolerated so unrelated changes are not blocked, but any file you change must be fully valid, and any new problem anywhere fails. When you fix problems, regenerate the list with `python3 scripts/validate.py --write-known-issues` (it only ever needs to shrink; the run reports entries that no longer occur).
 
+## Adding and changing datasets
+
+Contributors who do not want to edit JSON use the issue forms (**Submit a dataset** on the site, or *New issue* here): *Add a dataset* and *Update a dataset*. The **Submissions** workflow (`.github/workflows/submissions.yml`, `scripts/issue_to_record.py`) turns the issue into a pull request against `dev` with the new or changed file in `data/datasets`, commits it with the submitter as co-author, and links the pull request in a comment on the issue. The Validate workflow then checks it like any other pull request, and a maintainer reviews and merges it (there is no auto-merge).
+
+- If the form cannot be turned into a valid record, the workflow comments with the list of problems and opens nothing; editing the issue runs it again, and updates the pull request if there already is one.
+- In an update a blank field means "unchanged", and a filled-in list (downloads, endpoints, keywords, links) replaces the current one. Removing a value is done by editing the file.
+- The checks cover the whole record, as for any change to a file (see Validation), so updating a dataset that has a known problem needs the problem fixed in the same form.
+- Only issues created from the two forms (they carry the `add-dataset` / `update-dataset` label) are processed. The issue text is only parsed, never run.
+
+### Setting up the Submissions app (maintainers, once)
+
+A pull request opened with the default `GITHUB_TOKEN` does not trigger the Validate check, which the branch rules require, so the workflow uses a GitHub App:
+
+1. Organisation settings → Developer settings → GitHub Apps → New GitHub App. Name it e.g. `lod-cloud-submissions`; no webhook; permissions *Repository → Contents: read and write* and *Pull requests: read and write*; installable only on this account.
+2. Generate a private key, and note the App ID.
+3. Install the App on `lod-cloud/lod-cloud-site` only.
+4. In the repository, Settings → Secrets and variables → Actions: add `SUBMISSIONS_APP_ID` (the App ID) and `SUBMISSIONS_APP_PRIVATE_KEY` (the whole `.pem` file).
+5. Create the labels `add-dataset` and `update-dataset` (the forms apply them; creating them first just gives them a colour).
+
+The workflow only runs once it is on `main`. Until the App exists, the workflow fails at the "create-github-app-token" step, after it has already commented on invalid submissions.
+
 ## Link status
 
 Whether the download, example and SPARQL URLs still respond is checked weekly by the **Links** workflow (`scripts/check_links.py`). The result for each URL (`status`, `http`, `last_checked`, `last_ok`, `failures`: the number of failed checks in a row) is kept in `resources.json` on the `link-status` branch, not in the dataset files and not on `main` or `dev`. The results are informational: some servers block the addresses of GitHub's runners, so a single failure means little and `failures` is the number to look at.

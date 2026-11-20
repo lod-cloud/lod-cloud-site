@@ -1,0 +1,149 @@
+name: "Update a dataset"
+description: "Change the details of a dataset that is already in the LOD Cloud"
+title: "Update dataset: "
+labels: ["update-dataset"]
+body:
+  - type: markdown
+    attributes:
+      value: "Fill in only what should change; anything left blank stays as it is. A filled-in list (downloads, endpoints, keywords, links) replaces the current list. A pull request is opened for you automatically and checked; a maintainer reviews it before it is merged. To remove a value, edit the file directly: https://github.com/lod-cloud/lod-cloud-site/tree/main/data/datasets"
+  - type: input
+    id: identifier
+    attributes:
+      label: "Identifier of the dataset to update"
+      description: "The identifier from the dataset's page address (/dataset/<identifier>)."
+      placeholder: "my-dataset"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: "Title"
+      description: "The name of the dataset. Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description (English)"
+      description: "What the dataset contains. Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: dropdown
+    id: domain
+    attributes:
+      label: "Domain"
+      description: "Which cloud the dataset is drawn in. Leave blank to keep the current value."
+      options:
+        - "Cross-Domain"
+        - "Geography"
+        - "Government"
+        - "Life Sciences"
+        - "Linguistics"
+        - "Media"
+        - "Publications"
+        - "Social Networking"
+        - "User-Generated"
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: "Website"
+      description: "Home page of the dataset (https://...). Leave blank to keep the current value."
+      placeholder: "https://example.org/dataset"
+    validations:
+      required: false
+  - type: input
+    id: contact_name
+    attributes:
+      label: "Contact name"
+      description: "Optional. Published with the dataset. Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: input
+    id: contact_email
+    attributes:
+      label: "Contact email"
+      description: "Published with the dataset on a public site. Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: input
+    id: license
+    attributes:
+      label: "License"
+      description: "URL of the license, e.g. https://creativecommons.org/licenses/by/4.0/ Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: input
+    id: keywords
+    attributes:
+      label: "Keywords"
+      description: "Comma-separated. Replaces the current list if filled in."
+      placeholder: "lexicon, linguistics"
+    validations:
+      required: false
+  - type: input
+    id: namespace
+    attributes:
+      label: "Namespace"
+      description: "URI namespace of the dataset's resources. Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: input
+    id: triples
+    attributes:
+      label: "Number of triples"
+      description: "A whole number. Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: input
+    id: doi
+    attributes:
+      label: "DOI"
+      description: "Bare DOI, e.g. `10.5281/zenodo.4772094`. Leave blank to keep the current value."
+    validations:
+      required: false
+  - type: textarea
+    id: full_download
+    attributes:
+      label: "Full downloads"
+      description: "Complete dumps of the dataset. One per line: `URL`, or `URL | title`. Replaces the current list if filled in."
+      placeholder: "https://example.org/dump.nt.gz | N-Triples dump"
+    validations:
+      required: false
+  - type: textarea
+    id: other_download
+    attributes:
+      label: "Other downloads"
+      description: "Partial dumps, vocabularies, documentation. One per line: `URL`, or `URL | title`. Replaces the current list if filled in."
+    validations:
+      required: false
+  - type: textarea
+    id: example
+    attributes:
+      label: "Examples"
+      description: "Example resources. One per line: `URL`, or `URL | title`. Replaces the current list if filled in."
+    validations:
+      required: false
+  - type: textarea
+    id: sparql
+    attributes:
+      label: "SPARQL endpoints"
+      description: "One URL per line, optionally `URL | title`. Replaces the current list if filled in."
+    validations:
+      required: false
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links to other datasets"
+      description: "Datasets in the cloud that this one links to, one per line: `identifier` or `identifier | number of links`. Replaces the current list if filled in."
+      placeholder: "dbpedia | 12000"
+    validations:
+      required: false
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: "Public data"
+      options:
+        - label: "I understand that everything in this form, including the contact email, will be published in the LOD Cloud data in this public repository."
+          required: true
