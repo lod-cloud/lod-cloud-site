@@ -1,6 +1,6 @@
 # LOD Cloud site
 
-A [Jekyll](https://jekyllrb.com/) site generated from the dataset files in `../data/datasets`. It replaces the Java application in `src/` and is not deployed yet (see #105).
+A [Jekyll](https://jekyllrb.com/) site generated from the dataset files in `../data/datasets`. It replaces the Java application in `src/` (see #105 for the move; "Publishing" below).
 
 ## Build
 
@@ -35,11 +35,19 @@ Check the result with `python3 scripts/check_site_paths.py _site` and `python3 s
 
 Text from dataset files is escaped, and URLs are only emitted if they start with `http://`, `https://` or `ftp://` (`safe_url`), because records arrive through pull requests.
 
-## Temporary settings in `_config.yml`
+## Settings in `_config.yml`
 
-- `cloud_base`: the diagrams under `clouds/` and `versions/` are not generated here yet (#97, #98), so they load from the live site. Set it to `""` when the site serves its own.
+- `cloud_base`: where the diagrams under `/clouds/` come from; `""`, because the build downloads the current set from its release into the site (below). A preview under a path sets it, with `baseurl`, to that path.
 - `github_branch`: edit and source links point at this branch of the repository.
-- `submit_url`: where "Submit a dataset" goes until the issue forms exist (#92).
+- `submit_url`: where "Submit a dataset" goes (the issue forms, #92).
+
+## Publishing
+
+`.github/workflows/site.yml` builds and checks the site on every pull request and push. A push to `main` also publishes the checked site to GitHub Pages (Settings → Pages → Source: *GitHub Actions*), at `https://lod-cloud.github.io/lod-cloud-site/`. `lod-cloud.net` is served from there by the nginx reverse proxy, which maps `/` to that address (#105), so the site is built for the root of its host (`baseurl: ""`).
+
+- **Preview.** While the site is only reachable at the Pages address, the repository variable `PAGES_BASEURL` is `/lod-cloud-site`: the build then prefixes every link with it and the pages say `noindex`. Setting it to empty (or deleting it) at the cutover makes the next push to `main` build for the root.
+- **Diagrams.** `scripts/fetch_clouds.py` downloads the files of the newest release listed in `_data/versions.yml` into `_site/clouds/`, because release downloads are attachments and cannot be shown in a page or used as an interactive SVG. `/versions/<dir>/` pages redirect to the release of that set; the old file URLs below them (`/versions/<dir>/lod-cloud.png`) are not redirected, because static hosting has no way to.
+- **Canonical address.** Every page has `<link rel="canonical">` to `https://lod-cloud.net/...` so the Pages address is not a competing copy.
 
 ## Diagrams
 

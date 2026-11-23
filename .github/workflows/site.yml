@@ -1,7 +1,13 @@
 name: Site
 
-# Builds the Jekyll site in site/ and the data files from data/datasets. It is not deployed yet;
-# publishing to GitHub Pages is part of the cutover (#105).
+# Builds the Jekyll site in site/ and the data files from data/datasets, and checks it. A push
+# to main also publishes it to GitHub Pages (the `deploy` job), as the exact site that was
+# checked. Pages is at https://lod-cloud.github.io/lod-cloud-site/; lod-cloud.net is served
+# from it by the nginx reverse proxy (#105).
+#
+# Repository variable PAGES_BASEURL: "/lod-cloud-site" while the site is only previewed at that
+# address (every link then includes the prefix, and pages say noindex); empty once nginx
+# serves it at the root of lod-cloud.net.
 on:
   pull_request:
     branches: [main, dev]
@@ -49,7 +55,11 @@ jobs:
 
       - name: Build
         working-directory: site
-        run: bundle exec jekyll build --strict_front_matter --destination ../_site
+        env:
+          BASEURL: ${{ vars.PAGES_BASEURL }}
+        run: |
+          printf 'baseurl: "%s"\ncloud_base: "%s"\n' "$BASEURL" "$BASEURL" > "$RUNNER_TEMP/baseurl.yml"
+          bundle exec jekyll build --strict_front_matter --config _config.yml,"$RUNNER_TEMP/baseurl.yml" --destination ../_site
 
       # lod-data.json, extract/, json/, api/, rdf/, ttl/ and nt/ (the old dynamic URLs)
       - name: Export data files
@@ -59,11 +69,19 @@ jobs:
       - name: Search index
         run: npx --yes pagefind@1.4.0 --site _site
 
+      # The current diagram set, from its GitHub release (the site serves it under /clouds/)
+      - name: Current diagrams
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/fetch_clouds.py _site/clouds
+
       - name: Every dataset has its pages and files
         run: python scripts/check_site_paths.py _site
 
       - name: Internal links resolve
-        run: python scripts/check_site_links.py _site
+        env:
+          BASEURL: ${{ vars.PAGES_BASEURL }}
+        run: python scripts/check_site_links.py _site --baseurl "$BASEURL"
 
       # Tarred first: upload-artifact rejects file names containing ":" and
       # 28 dataset identifiers contain one.
@@ -75,3 +93,27 @@ jobs:
           name: site
           path: site.tar.gz
           retention-days: 7
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        with:
+          path: _site
+
+  # Only the main branch is published. Needs Pages set to "GitHub Actions" in the settings.
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
