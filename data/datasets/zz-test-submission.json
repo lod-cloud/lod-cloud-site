@@ -1,0 +1,21 @@
+{
+  "identifier": "zz-test-submission",
+  "title": "ZZ test submission (delete me)",
+  "description": {
+    "en": "Test of the submission workflow. Delete."
+  },
+  "domain": "media",
+  "website": "https://example.org/test",
+  "contact_point": {
+    "email": "test@example.org"
+  },
+  "keywords": [
+    "test"
+  ],
+  "sparql": [
+    {
+      "title": "Test",
+      "access_url": "https://example.org/sparql"
+    }
+  ]
+}
