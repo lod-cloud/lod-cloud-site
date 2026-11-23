@@ -37,6 +37,7 @@ ALGORITHMS = ["lbfgs", "sd"]
 RELEASE_PREFIX = "clouds-"  # release tag = prefix + directory name
 PNG_ZOOM = 3  # the old PNGs were 3x the SVG's width
 JPEG_SCALE = 0.4  # of the PNG size
+MAX_PNG_PIXELS = 120_000_000  # a finished diagram is about 45 million (6,600 x 6,700)
 
 
 def draw(binary, data, stem, canvas, out, iterations):
@@ -58,8 +59,28 @@ def draw(binary, data, stem, canvas, out, iterations):
     raise SystemExit("%s: lod-cloud-draw failed with %s" % (stem, " and ".join(ALGORITHMS)))
 
 
+def png_zoom(svg):
+    """PNG_ZOOM, or less when the drawing is so large that the PNG would be absurd.
+
+    A layout that has not converged (a pull request's dry run uses 100 iterations)
+    can be several times wider than a finished one, and librsvg refuses images over
+    32,767 pixels either way. The pixel limit is far above a finished diagram.
+    """
+    head = svg.read_text(encoding="utf-8", errors="replace")[:2000]
+    m = re.search(r'<svg[^>]*?\swidth="([\d.]+)"[^>]*?\sheight="([\d.]+)"', head)
+    if not m:
+        return PNG_ZOOM
+    pixels = float(m.group(1)) * float(m.group(2)) * PNG_ZOOM ** 2
+    if pixels <= MAX_PNG_PIXELS:
+        return PNG_ZOOM
+    zoom = round(PNG_ZOOM * (MAX_PNG_PIXELS / pixels) ** 0.5, 2)
+    print("%s is %sx%s: drawing the PNG at zoom %s instead of %s" % (svg.name, m.group(1), m.group(2), zoom, PNG_ZOOM),
+          file=sys.stderr)
+    return zoom
+
+
 def to_png(svg):
-    subprocess.run(["rsvg-convert", "-z", str(PNG_ZOOM), "-b", "white", "-f", "png",
+    subprocess.run(["rsvg-convert", "-z", str(png_zoom(svg)), "-b", "white", "-f", "png",
                     "-o", str(svg.with_suffix(".png")), str(svg)], check=True)
 
 
@@ -74,7 +95,7 @@ def to_jpeg(svg, jpeg):
     if not convert:
         raise SystemExit("ImageMagick (magick or convert) is required for the JPEG")
     small = jpeg.with_suffix(".small.png")
-    subprocess.run(["rsvg-convert", "-z", str(PNG_ZOOM * JPEG_SCALE), "-b", "white", "-f", "png",
+    subprocess.run(["rsvg-convert", "-z", str(png_zoom(svg) * JPEG_SCALE), "-b", "white", "-f", "png",
                     "-o", str(small), str(svg)], check=True)
     try:
         subprocess.run([convert, str(small), "-quality", "85", str(jpeg)], check=True)

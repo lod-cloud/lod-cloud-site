@@ -56,3 +56,25 @@ class CloudListTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PngZoomTest(unittest.TestCase):
+    def zoom(self, width, height):
+        with tempfile.TemporaryDirectory() as d:
+            svg = Path(d) / "x.svg"
+            svg.write_text('<svg\n    xmlns="http://www.w3.org/2000/svg" width="%s" height="%s">\n</svg>' % (width, height))
+            return gc.png_zoom(svg)
+
+    def test_a_finished_diagram_gets_the_normal_zoom(self):
+        self.assertEqual(self.zoom(2200, 2242), gc.PNG_ZOOM)
+
+    def test_a_huge_unconverged_one_is_scaled_down_to_the_pixel_limit(self):
+        zoom = self.zoom(11000, 11000)
+        self.assertLess(zoom, gc.PNG_ZOOM)
+        self.assertLessEqual(11000 * 11000 * zoom ** 2, gc.MAX_PNG_PIXELS * 1.01)
+
+    def test_unreadable_size_falls_back_to_the_normal_zoom(self):
+        with tempfile.TemporaryDirectory() as d:
+            svg = Path(d) / "x.svg"
+            svg.write_text("<svg></svg>")
+            self.assertEqual(gc.png_zoom(svg), gc.PNG_ZOOM)
