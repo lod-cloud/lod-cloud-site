@@ -1,0 +1,47 @@
+{
+  "identifier": "Smart_POI_dataset",
+  "title": "Smart Points Of Interest @PSNC",
+  "description": {
+    "en": "The Smart Points of Interest dataset (SPOI) is the seamless and open resource of POIs that is available for all users to download, search or reuse in applications and services SPOI’s principal target is to provide information as Linked data together with other dataset containing road network. The added value of the Smart approach in comparison to other similar solutions consists in implementation of linked data, using of standardized and respected datatype properties and development of the completely harmonized dataset with uniform data model and common classification. The SPOI dataset is created as a combination of global data (selected points from OpenStreetMap) and local data provided by the SDI4Apps partners or data available on the web. The dataset can be reached by Sparql endpoint (http://data.plan4all.eu/sparql), for detailed information please follow: http://sdi4apps.eu/spoi."
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://www.sdi4apps.eu/poi.rdf",
+  "triples": 407628622,
+  "image": "https://box.psnc.pl/f/8b58bf96f3/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "smart point of interest",
+    "openstreet map",
+    "geonames",
+    "dbpedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 30823653
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 30842076
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 26942671
+    },
+    {
+      "target": "wikidata",
+      "value": 12516983
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

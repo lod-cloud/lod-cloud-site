@@ -1,0 +1,57 @@
+{
+  "identifier": "lcsh",
+  "title": "Library of Congress Subject Headings",
+  "description": {
+    "en": "LCSH has been actively maintained since 1898 to catalog materials held at the Library of Congress. By virtue of cooperative cataloging other libraries around the United States also use LCSH to provide subject access to their collections. In addition LCSH is used internationally, often in translation."
+  },
+  "domain": "publications",
+  "website": "http://id.loc.gov/authorities/",
+  "namespace": "http://id.loc.gov/",
+  "triples": 7332816,
+  "keywords": [
+    "authorities",
+    "bibliographic",
+    "format-rdf",
+    "format-skos",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "stitch-rameau",
+      "value": 55281
+    }
+  ],
+  "full_download": [
+    {
+      "title": "LCSH SKOS (ntriples)",
+      "description": "N-Triples using SKOS and DublinCore",
+      "media_type": "application/zip",
+      "download_url": "http://id.loc.gov/static/data/authoritiessubjects.nt.skos.zip"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "LCSH SKOS (rdf/xml)",
+      "description": "RDF/XML using SKOS and DublinCore vocabularies",
+      "media_type": "RDF",
+      "access_url": "http://id.loc.gov/static/data/authoritiessubjects.rdfxml.skos.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "RDF/XML example",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://id.loc.gov/authorities/subjects/sh87001447.rdf"
+    }
+  ]
+}

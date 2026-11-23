@@ -1,0 +1,22 @@
+{
+  "identifier": "http:data.linkedeodata.euroadidStateRoadD010Turkey-1",
+  "title": "RoadTrb",
+  "description": {
+    "en": "Road"
+  },
+  "domain": "geography",
+  "website": "http://data.linkedeodata.eu/road/id/StateRoadD010Turkey-1",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "triples": 0,
+  "contact_point": {
+    "name": "..",
+    "email": "d@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "RoadTrb",
+      "media_type": "..",
+      "download_url": "http://data.linkedeodata.eu/road/id/StateRoadD010Turkey-1"
+    }
+  ]
+}

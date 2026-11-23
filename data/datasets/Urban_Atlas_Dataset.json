@@ -1,0 +1,29 @@
+{
+  "identifier": "Urban_Atlas_Dataset",
+  "title": "Urban Atlas dataset @PSNC",
+  "description": {
+    "en": "This dataset contains agriculture related lands (hilucs_code<200) & for main cities in Czech Republic (centers of NUTS3 regions), Poland (agglomeration areas from Urban Atlas) and Spain (agglomeration areas from Urban Atlas)"
+  },
+  "domain": "geography",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/atlas/",
+  "triples": 19606088,
+  "image": "https://box.psnc.pl/f/7dec1f2ca1/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "keywords": [
+    "agriculture",
+    "landuse",
+    "urban atlas",
+    "agglomeration"
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

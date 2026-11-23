@@ -1,0 +1,70 @@
+{
+  "identifier": "apertium-rdf-eo-fr",
+  "title": "Apertium RDF EO-FR",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary EO-FR. The original dataset (in LMF) comes from http://hdl.handle.net/10230/22867 . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 726281,
+  "contact_point": {
+    "name": "Jacob Nordfalk ; Universitat d'Alacant. Grup Transducens ; Corinne Daudier  ; Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA) ; Hector Alòs i Font"
+  },
+  "keywords": [
+    "Apertium",
+    "Esperanto",
+    "French",
+    "bilingual",
+    "dictionary",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 11340
+    },
+    {
+      "target": "lexinfo",
+      "value": 52622
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (EO, FR) and the Translation Set EO-FR, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2015-02-27T15:34:57.743Z/apertium-eo-fr-rdf.zip"
+    },
+    {
+      "title": "Esperanto lexicon URI",
+      "description": "This online lexicon not only contains the EO lexical entries from the EO-FR bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in EO coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconEO"
+    },
+    {
+      "title": "French lexicon URI",
+      "description": "This online lexicon not only contains the FR lexical entries from the EO-FR bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in FR coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconFR"
+    },
+    {
+      "title": "EO-FR translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetEO-FR"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-eo-fr.rdf with licence and provenance.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2015-03-06T10:21:39.263Z/apertium-eo-fr-dataset-metadata.rdf"
+    }
+  ]
+}

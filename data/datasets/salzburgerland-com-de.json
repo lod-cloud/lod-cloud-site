@@ -1,0 +1,57 @@
+{
+  "identifier": "salzburgerland-com-de",
+  "title": "Salzburgerland DE",
+  "description": {
+    "en": "Salzburgerland dataset for German resources, built with WordLift from the website https://www.salzburgerland.com/de/"
+  },
+  "domain": "media",
+  "website": "https://www.salzburgerland.com/de/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 28833,
+  "image": "https://www.salzburgerland.com/de/wp-content/themes/slt/assets/img/logo.svg",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "travel",
+    "wordlift",
+    "salzbugerland"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 726
+    },
+    {
+      "target": "freebase",
+      "value": 679
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 191
+    },
+    {
+      "target": "wikidata",
+      "value": 168
+    },
+    {
+      "target": "yago",
+      "value": 372
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Salzburgerland DE",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/de.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Bezirk St. Johann im Pongau",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://open.salzburgerland.com/de/entity/bezirk_st-_johann_im_pongau"
+    }
+  ]
+}

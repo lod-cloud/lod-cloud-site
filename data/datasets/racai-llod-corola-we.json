@@ -1,0 +1,27 @@
+{
+  "identifier": "racai-llod-corola-we",
+  "title": "Romanian CoRoLa Word Embeddings",
+  "description": {
+    "en": "Word embeddings from the representative corpus of contemporary Romanian language (CoRoLa)"
+  },
+  "domain": "linguistics",
+  "website": "https://racai.ro/p/llod/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://corolaws.racai.ro/word_embeddings/",
+  "triples": 1254723,
+  "contact_point": {
+    "name": "Verginica Mititelu",
+    "email": "vergi@racai.ro"
+  },
+  "keywords": [
+    "Romanian",
+    "word embeddings"
+  ],
+  "full_download": [
+    {
+      "title": "CoRoLa word embeddings converted to LLOD format",
+      "description": "Downloadable file with word embeddings in Turtle format",
+      "download_url": "http://www.racai.ro/p/llod/resources/corola.300.20.vec.ttl"
+    }
+  ]
+}

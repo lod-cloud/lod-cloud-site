@@ -1,0 +1,282 @@
+{
+  "identifier": "betweenourworlds",
+  "title": "Between Our Worlds",
+  "description": {
+    "en": "A dataset that provides metadata information about anime."
+  },
+  "domain": "media",
+  "website": "https://betweenourworlds.org",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://betweenourworlds.org/",
+  "triples": 4338673,
+  "image": "https://betweenourworlds.org/img/logo.png",
+  "contact_point": {
+    "name": "Pieter Heyvaert",
+    "email": "pieterheyvaert@gmail.com"
+  },
+  "keywords": [
+    "anime",
+    "episode",
+    "season",
+    "character",
+    "trailer",
+    "stream",
+    "movie",
+    "series",
+    "article"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3443
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Release 2018-09",
+      "description": "The HDT file of the 2018-09 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2018-09.hdt"
+    },
+    {
+      "title": "Release 2018-10",
+      "description": "The HDT file of the 2018-10 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2018-10.hdt"
+    },
+    {
+      "title": "Release 2018-11",
+      "description": "The HDT file of the 2018-11 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2018-11.hdt"
+    },
+    {
+      "title": "Release 2018-12",
+      "description": "The HDT file of the 2018-12 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2018-12.hdt"
+    },
+    {
+      "title": "Release 2019-01",
+      "description": "The HDT file of the 2019-01 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-01.hdt"
+    },
+    {
+      "title": "Release 2019-06",
+      "description": "The HDT file of the 2019-06 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-06.hdt"
+    },
+    {
+      "title": "Release 2019-07",
+      "description": "The HDT file of the 2019-07 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-07.hdt"
+    },
+    {
+      "title": "Release 2019-08",
+      "description": "The HDT file of the 2019-08 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-08.hdt"
+    },
+    {
+      "title": "Release 2019-09",
+      "description": "The HDT file of the 2019-09 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-09.hdt"
+    },
+    {
+      "title": "Release 2019-10",
+      "description": "The HDT file of the 2019-10 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-10.hdt"
+    },
+    {
+      "title": "Release 2019-11",
+      "description": "The HDT file of the 2019-11 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-11.hdt"
+    },
+    {
+      "title": "Release 2019-12",
+      "description": "The HDT file of the 2019-12 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2019-12.hdt"
+    },
+    {
+      "title": "Release 2020-01",
+      "description": "The HDT file of the 2020-01 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-01.hdt"
+    },
+    {
+      "title": "Release 2020-02",
+      "description": "The HDT file of the 2020-02 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-02.hdt"
+    },
+    {
+      "title": "Release 2020-03",
+      "description": "The HDT file of the 2020-03 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-03.hdt"
+    },
+    {
+      "title": "Release 2020-04",
+      "description": "The HDT file of the 2020-04 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-04.hdt"
+    },
+    {
+      "title": "Release 2020-05",
+      "description": "The HDT file of the 2020-05 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-05.hdt"
+    },
+    {
+      "title": "Release 2020-06",
+      "description": "The HDT file of the 2020-06 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-06.hdt"
+    },
+    {
+      "title": "Release 2020-07",
+      "description": "The HDT file of the 2020-07 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-07.hdt"
+    },
+    {
+      "title": "Release 2020-08",
+      "description": "The HDT file of the 2020-08 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-08.hdt"
+    },
+    {
+      "title": "Release 2020-09",
+      "description": "The HDT file of the 2020-09 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-09.hdt"
+    },
+    {
+      "title": "Release 2020-10",
+      "description": "The HDT file of the 2020-10 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-10.hdt"
+    },
+    {
+      "title": "Release 2020-11",
+      "description": "The HDT file of the 2020-11 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-11.hdt"
+    },
+    {
+      "title": "Release 2020-12",
+      "description": "The HDT file of the 2020-12 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2020-12.hdt"
+    },
+    {
+      "title": "Release 2021-01",
+      "description": "The HDT file of the 2021-01 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-01.hdt"
+    },
+    {
+      "title": "Release 2021-02",
+      "description": "The HDT file of the 2021-02 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-02.hdt"
+    },
+    {
+      "title": "Release 2021-03",
+      "description": "The HDT file of the 2021-03 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-03.hdt"
+    },
+    {
+      "title": "Release 2021-04",
+      "description": "The HDT file of the 2021-04 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-04.hdt"
+    },
+    {
+      "title": "Release 2021-05",
+      "description": "The HDT file of the 2021-05 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-05.hdt"
+    },
+    {
+      "title": "Release 2021-06",
+      "description": "The HDT file of the 2021-06 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-06.hdt"
+    },
+    {
+      "title": "Release 2021-07",
+      "description": "The HDT file of the 2021-07 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-07.hdt"
+    },
+    {
+      "title": "Release 2021-08",
+      "description": "The HDT file of the 2021-08 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-08.hdt"
+    },
+    {
+      "title": "Release 2021-09",
+      "description": "The HDT file of the 2021-09 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-09.hdt"
+    },
+    {
+      "title": "Release 2021-10",
+      "description": "The HDT file of the 2021-10 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-10.hdt"
+    },
+    {
+      "title": "Release 2021-11",
+      "description": "The HDT file of the 2021-11 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-11.hdt"
+    },
+    {
+      "title": "Release 2021-12",
+      "description": "The HDT file of the 2021-12 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2021-12.hdt"
+    },
+    {
+      "title": "Release 2022-01",
+      "description": "The HDT file of the 2022-01 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2022-01.hdt"
+    },
+    {
+      "title": "Release 2022-02",
+      "description": "The HDT file of the 2022-02 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2022-02.hdt"
+    },
+    {
+      "title": "Release 2022-03",
+      "description": "The HDT file of the 2022-03 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2022-03.hdt"
+    },
+    {
+      "title": "Release 2022-04",
+      "description": "The HDT file of the 2022-04 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2022-04.hdt"
+    },
+    {
+      "title": "Release 2022-05",
+      "description": "The HDT file of the 2022-05 release.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://datadump.betweenourworlds.org/2022-05.hdt"
+    }
+  ]
+}

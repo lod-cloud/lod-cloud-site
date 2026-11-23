@@ -1,0 +1,53 @@
+{
+  "identifier": "model1",
+  "title": "An automatic approach for land-change detection and land updates based on integrated NDVI timing analysis and the CVAPS method with GEE support",
+  "description": {
+    "en": "Land-use/land-cover information is the basis of global-change research and regional governmental management. Automatic approaches are always required to update land maps for large-scale areas, and change detection techniques are the most important component of land-updating methods. Previous research has confirmed that simple change detection based on Landsat images from two different years with two different phenophases yields unsatisfactory results and may induce many misclassifications and pseudo-change identifications because of the phenological differences between remote sensing images. With the support of the Google Earth Engine (GEE), we propose a land-use/land-cover type discrimination method based on a classification and regression tree (CART), apply change-vector analysis in posterior probability space (CVAPS) and the best histogram maximum entropy method for change detection, and further improve the accuracy of the land-updating results in combination with NDVI timing analysis, which indicates the annual growth of ground vegetation. In the case study, we select western China as the research area and obtain a 2014 land map based on the ESA GlobCover 2009 dataset. The results confirm that the accuracy of the land-renewal results based on the CART-CVAPS-NDVI method reach 78.6-88.2%, which is 4-10% higher than that of the CART-CVPAS method without NDVI timing analysis. The CART-CVAPS-NDVI method has more detailed and accurate resolutions for land-change detection."
+  },
+  "domain": "geography",
+  "website": "https://www.researchgate.net/publication/329344038_An_automatic_approach_for_land-change_detection_and_land_updates_based_on_integrated_NDVI_timing_analysis_and_the_CVAPS_method_with_GEE_support",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "NDVI",
+    "timing analysis"
+  ],
+  "other_download": [
+    {
+      "title": "An automatic approach for land-change detection and land updates based on integrated NDVI timing analysis and the CVAPS method with GEE support",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://www.researchgate.net/publication/329344038_An_automatic_approach_for_land-change_detection_and_land_updates_based_on_integrated_NDVI_timing_analysis_and_the_CVAPS_method_with_GEE_support"
+    },
+    {
+      "title": "Land use change detection model based on NDVI time series analysis",
+      "description": "ImplementedByAlgorithm",
+      "access_url": "https://www.chinageoss.cn/knowledgehub/model/modelDetail/639af8f0f64eb66545fa020a"
+    },
+    {
+      "title": "1 km grid land use data of Beijing 2000",
+      "description": "InPutData",
+      "access_url": "http://www.geodata.cn/data/datadetails.html?dataguid=360631&docId=13257"
+    },
+    {
+      "title": "Surface reflectance data of Beijing 2000",
+      "description": "InPutData",
+      "access_url": "https://chinageoss.cn/datasharing/datasetDetails/6391a040e4e304405178506c"
+    },
+    {
+      "title": "Land use change detection model based on NDVI time series analysis",
+      "description": "IllustratedByDocument",
+      "access_url": "https://www.chinageoss.cn/knowledgehub/model/modelDetail/639af8f0f64eb66545fa020a"
+    },
+    {
+      "title": "Land use change detection software based on NDVI time series analysis",
+      "description": "ImplementedBySoftware",
+      "media_type": "Software",
+      "access_url": "https://none"
+    }
+  ]
+}

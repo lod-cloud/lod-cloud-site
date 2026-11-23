@@ -1,0 +1,65 @@
+{
+  "identifier": "parole-simple-lexinfo-ontology-lexicons",
+  "title": "Parole/Simple 'lexinfo' Ontology & lexicons",
+  "description": {
+    "en": "The Parole/Simple 'lemon' Ontology is the OWL version of the Parole/Simple model (defined during the PAROLE LE2-4017 and SIMPLE LE4-8346 projects) once mapped to the lemon model.\r\n\r\nThe goal of SIMPLE project was to add semantic information, selected for its relevance for LE applications, to the set of harmonised multifunctional lexica built for 12 European languages by the PAROLE consortium. PAROLE +SIMPLE lexicons \r\ncontain morphological, syntactic and semantic information, organised according to a common model and to common linguistic specifications. \r\n\r\nThe original Parole/Simple model expressed in the parole DTD has been mapped into the lemon model (http://lemon-model.net/lemon#). \r\nThus the resulting Parole/Simple Ontology imports the Lexinfo+lemon Ontology and adds 'parole elements' (classes and/or properties)\r\nwhenever these cannot be mapped to any 'lexinfo element'. \r\n\r\nThe Spanish lexicon includes 7572 entries fully annotated with syntactic and semantic information.\r\n\r\nThe Catalan lexicon includes 20545 entries annotated with syntactic information half of which are also annotated with semantic information. The latest version of the Catalan lexicon includes links to the Catalan EuroWordNet lemon lexicon (http://lod.iula.upf.edu/resources/WordNetLemonCAT).\r\n\r\nThese resources were developed with the support of METANET4U: Enhancing the European Linguistic Infrastructure, (2011-2013), funded by UNER - Competitiveness and Innovation Framework Program, (CIP-PSP-270893).\r\n\r\nSources can be found at https://github.com/martavillegas/ParoleSimpleLemon"
+  },
+  "domain": "linguistics",
+  "website": "http://gilmere.upf.edu/corpus_data/ParoleSimpleOntology/ParoleOntology.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 10279,
+  "contact_point": {
+    "name": "Marta Villegas",
+    "email": "marta.villegas@upf.edu"
+  },
+  "keywords": [
+    "PAROLE",
+    "SIMPLE",
+    "lemon",
+    "lexicon",
+    "lexinfo",
+    "linguistic lod",
+    "linguistics"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 394
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Parole/Simple 'lemon' Ontology",
+      "description": "The Parole/Simple 'lemon' Ontology is the OWL version of the Parole / Simple model (defined during the PAROLE LE2-4017 and SIMPLE LE4-8346 projects) once mapped to the lemon  Model.\r\nThe goal of SIMPLE project was to add semantic information, selected for its relevance for LE applications, to the set \r\nof harmonised multifunctional lexica built for 12 European languages by the PAROLE consortium. PAROLE +SIMPLE lexicons \r\ncontain morphological, syntactic and semantic information, organised according to a common model and to common linguistic \r\nspecifications. \r\n\r\nThe original Parole/Simple model expressed in the parole DTD has been mapped into the lemon model (http://lemon-model.net/). \r\nThus the resulting Parole/Simple Ontology imports the Lexinfo+lemon Ontology and adds 'parole elements' (classes and/or properties)\r\nwhenever these cannot be mapped to any 'lexinfo element'. \r\nThe Spanish lexicon includes 7572 entries fully annotated with syntactic and semantic information.\r\nThe Catalan lexicon includes 20545 entries annotated with syntactic information half of which are also annotated with semantic information. The latest version of the Catalan lexicon is linked to the Catalan EuroWordNet lemon lexicon (http://lod.iula.upf.edu/resources/WordNetLemonCAT)\r\n\r\nThese resources were developed with the support of METANET4U: Enhancing the European Linguistic Infrastructure, (2011-2013), funded by UNER - Competitiveness and Innovation Framework Program, (CIP-PSP-270893).",
+      "access_url": "https://github.com/martavillegas/ParoleSimpleLemon/blob/master/ParoleOntologyLod.ttl"
+    },
+    {
+      "title": "example",
+      "description": "The example contains the full annotation for the Catalan adjective \"madur\"",
+      "access_url": "http://lodserver.iula.upf.edu/id/ParoleSimple/lexiconCAT/madur-a"
+    },
+    {
+      "title": "Parole/Simple 'lemon' Spanish lexicon",
+      "description": "This file contains the Simple Spanish lemon encoded according to the Parole/Simple lemon ontology.\r\n\r\nPAROLE +SIMPLE lexicons \r\ncontain morphological, syntactic and semantic information, organised according to a common model and to common linguistic \r\nspecifications. \r\n\r\nThis Spanish data includes 7572 LexicalEntries fully annotated for syntactic and semantic information.",
+      "media_type": "rdf/turtle",
+      "access_url": "http://gilmere.upf.edu/corpus_data/ParoleSimpleOntology/ParoleEntries.owl"
+    },
+    {
+      "title": "Parole/Simple 'lemon' Catalan lexicon",
+      "description": "The Catalan Parole/Simple lemon lexicon includes 20545 entries annotated with syntactic information half of which are also annotated with semantic information. The latest version of the Catalan lexicon is linked to the Catalan EuroWordNet lemon lexicon (http://lod.iula.upf.edu/resources/WordNetLemonCAT).\r\n\r\nThe lexicon is published at http://lodserver.iula.upf.edu/id/ParoleSimple/lexiconCAT/",
+      "access_url": "https://github.com/martavillegas/ParoleSimpleLemon/blob/master/ParoleSimpleCatala.ttl"
+    },
+    {
+      "title": "Parole/Simple 'lemon' Spanish lexicon (ttl)",
+      "description": "The Spanish Parole/Simple 'lemon' lexicon contains the origonal Spanish PArole/Simple lexicon once mapped to LexInfo & Lemon models.\r\n\r\nThe lexicon contains 7572 entries fully annotated with syntactic and semantic information in turtle format.",
+      "media_type": "ttl",
+      "access_url": "http://gilmere.upf.edu/corpus_data/ParoleSimpleOntology/ParoleEntries.ttl"
+    },
+    {
+      "title": "Parole/Simple 'lexinfo' Catalan lexicon (ttl)",
+      "description": "This lexicon contains the Catalan Parole/Simple lexicon once mapped to LexInfo & lemon models.\r\n\r\nThe Catalan lexicon includes 20545 entries annotated with syntactic information half of which are also annotated with semantic information.",
+      "media_type": "ttl",
+      "access_url": "http://gilmere.upf.edu/corpus_data/ParoleSimpleOntology/ParoleEntriesCat.ttl"
+    }
+  ]
+}

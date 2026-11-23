@@ -1,0 +1,49 @@
+{
+  "identifier": "flybase",
+  "title": "Flybase",
+  "website": "http://code.google.com/p/open-biomed/wiki/Flybase",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 83743853,
+  "contact_point": {
+    "name": "Jun Zhao"
+  },
+  "keywords": [
+    "flybase",
+    "linkeddata",
+    "open-biomed"
+  ],
+  "links": [
+    {
+      "target": "open-biomed-flyatlas",
+      "value": 15852
+    },
+    {
+      "target": "open-biomed-flyted",
+      "value": 2457
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Turtle, tar.gz packed",
+      "access_url": "http://www.open-biomed.org.uk/open-biomed-data/flybase-dump-core-fb201102.tar.gz"
+    },
+    {
+      "description": "Linked data API",
+      "access_url": "http://www.open-biomed.org.uk/service/flybase/features"
+    },
+    {
+      "description": "Linked data API",
+      "access_url": "http://www.open-biomed.org.uk/service/flybase/features/fbgn/{fbgn}"
+    },
+    {
+      "description": "Linked data API",
+      "access_url": "http://www.open-biomed.org.uk/service/flybase/features/name/{name}"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www.open-biomed.org.uk/sparql/endpoint/flybase"
+    }
+  ]
+}

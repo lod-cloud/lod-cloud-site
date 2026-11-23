@@ -1,0 +1,24 @@
+{
+  "identifier": "spanish-linguistic-datasets",
+  "title": "Spanish Linguistic Datasets",
+  "description": {
+    "en": "Spanish Linguistic Datasets (SLD) is an open initiative to expose as Linked Data available Spanish Linguistic resources maintained at OEG. It is worth noting that we host Spanish multilingual resources.\r\nAt the moment, the collection of SLDs are (1) NC geo dictionary. Nomeclator Conciso; (2) BCN geo dictionary. Base Cartogrófica Numérica; (3) Badele lexical database. and (4) BNE thesaurus."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 16111,
+  "contact_point": {
+    "name": "Spanish Linguistic Community"
+  },
+  "keywords": [
+    "Spanish",
+    "geodata",
+    "lexicon",
+    "linguistics",
+    "thesaurus"
+  ],
+  "sparql": [
+    {
+      "access_url": "http://linguistic.linkeddata.es/sparql"
+    }
+  ]
+}

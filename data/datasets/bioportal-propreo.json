@@ -1,0 +1,115 @@
+{
+  "identifier": "bioportal-propreo",
+  "title": "Proteomics data and process provenance",
+  "description": {
+    "en": "A comprehensive proteomics data and process provenance ontology."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1039",
+  "triples": 2807,
+  "contact_point": {
+    "name": "Satya S. Sahoo"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 24
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 20
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 11
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 13
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 14
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 16
+    },
+    {
+      "target": "bioportal-ms",
+      "value": 11
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 58
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 26
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 10
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 13
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 12
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 37
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/13386?apikey=BP_API_KEY"
+    }
+  ]
+}

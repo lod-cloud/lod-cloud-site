@@ -1,0 +1,51 @@
+{
+  "identifier": "pokepedia-fr",
+  "title": "Poképédia",
+  "description": {
+    "en": "Linked data on all Pokemon franchise"
+  },
+  "domain": "media",
+  "website": "http://www.pokepedia.fr",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://www.pokepedia.fr/",
+  "triples": 115150,
+  "contact_point": {
+    "name": "Poképédia",
+    "email": "misdre@pokepedia.misdre.info"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "media",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "pokemon",
+    "pokémon",
+    "published-by-producer",
+    "smw",
+    "wiki"
+  ],
+  "links": [
+    {
+      "target": "data-incubator-pokedex",
+      "value": 510
+    },
+    {
+      "target": "dbpedia",
+      "value": 493
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Full dataset download",
+      "media_type": "application/x-gzip",
+      "access_url": "http://data.pokepedia.fr/dumps/pokepedia-fr_rdfdump.tar.gz"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "access_url": "http://www.pokepedia.fr/Spécial:ExportRDF/Bulbizarre"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "identifier": "isic-v4",
+  "title": "ISIC V4",
+  "description": {
+    "en": "International Standard Industrial Classification of All Economic Activities, United Nations Statistics Division is a product scheme classification used by the United Nations to create statistics. \r\n\r\nAuthors:\r\n\r\nJose María Alvarez Rodríguez & Jose Emilio Labra Gayo \r\n\r\nWESO-University of Oviedo"
+  },
+  "website": "http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://purl.org/weso/pscs/isic/v4/resource",
+  "triples": 18986,
+  "contact_point": {
+    "name": "Jose María Alvarez Rodríguez at WESO (University of Oviedo)",
+    "email": "josem.alvarez@weso.es"
+  },
+  "keywords": [
+    "10ders",
+    "deref-vocab",
+    "e-procurement",
+    "euroalert",
+    "format-dc",
+    "format-dcterms",
+    "format-gr",
+    "format-skos",
+    "format-skosxl",
+    "geodata",
+    "government",
+    "isic",
+    "license-metadata",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "oviedo",
+    "procurement",
+    "provenance-metadata",
+    "pscs",
+    "public_contracts",
+    "published-by-third-party",
+    "uniovi",
+    "university-of-oviedo",
+    "v4",
+    "vocab-mappings",
+    "weso"
+  ],
+  "links": [
+    {
+      "target": "http://productontology.org",
+      "value": 2995
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ISIC V4",
+      "description": "Data Dump ISIC V4",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/weso/datasets/pscs/isic/v4/isic-v4.ttl"
+    },
+    {
+      "title": "Linked Data Frontend-ISIC V4",
+      "description": "Linked Data Frontend-ISIC V4",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/weso/pscs/isic/v4/resource/ds"
+    },
+    {
+      "title": "VoID of ISIC V4",
+      "description": "VoID of ISIC V4",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/weso/pscs/data/isic/v4/resource/ds?output=ttl"
+    },
+    {
+      "title": "Custom definitions of ISIC V4",
+      "description": "Custom definitions of ISIC V4",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/weso/datasets/pscs/psc-ontology.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of resource-ISIC V4",
+      "description": "Example of resource-ISIC V4",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/weso/pscs/data/isic/v4/resource/0116?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WESO SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://156.35.82.103/sparql"
+    }
+  ]
+}

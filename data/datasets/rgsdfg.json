@@ -1,0 +1,21 @@
+{
+  "identifier": "rgsdfg",
+  "title": "sdafsadf",
+  "description": {
+    "en": "dsfsdfsdf"
+  },
+  "domain": "user_generated",
+  "website": "http://mtimo.de",
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
+  "triples": 0,
+  "contact_point": {
+    "name": "saklf",
+    "email": "salkfj@sdf.de"
+  },
+  "sparql": [
+    {
+      "title": "asdf",
+      "access_url": "http://mtimo.de/234"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "oceandrilling-ldeo",
+  "title": "Ocean Drilling - LDEO log files as data (TEST leg 218 only)",
+  "description": {
+    "en": "LDEO log files as data (TEST leg 218 only)\r\n\r\n\r\nWe are still in a development mode and working in particular and the namespace URI's and their hosting. So some elements here will change as we tweak responsibility for maintaining namespaces and curating them. You are welcome (encouraged) to explore our sparql endpoint (http://data.oceandrilling.org/sparql) and engage us, comment and criticize. (Doug)\r\n\r\nThis site is guided by the linked data pattern (http://linkeddata.org/). Information on this effort and the steps being taken to expose data in this approach are described here.\r\n\r\nThis data represents only a small percentage of the data available but is sufficient for testing at this time. Additional data related to log files from LDEO, timescales from CHRONOS and data from TAMU are yet to be loaded."
+  },
+  "website": "http://data.oceandrilling.org/linkeddata.html",
+  "namespace": "http://data.oceandrilling.org/source/ldeo/dataset/logs/",
+  "triples": 24489366,
+  "contact_point": {
+    "name": "Consortium for Ocean Leadership",
+    "email": "dfils@oceanleadership.org"
+  },
+  "keywords": [
+    "drilling",
+    "geographic",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "ocean",
+    "published-by-producer"
+  ],
+  "example": [
+    {
+      "description": "example ressource (xhtml+rdfa)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.oceandrilling.org/codices/drillsite/209/1275"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.oceandrilling.org/sparql"
+    }
+  ]
+}

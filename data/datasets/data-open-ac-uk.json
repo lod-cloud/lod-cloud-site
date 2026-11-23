@@ -1,0 +1,74 @@
+{
+  "identifier": "data-open-ac-uk",
+  "title": "data.open.ac.uk, Linked Data from the Open University",
+  "description": {
+    "en": "The result of extracting and interlinking data from various institutional repositories of the [Open University](http://www.open.ac.uk/) and making it available for reuse.\r\n\r\n\r\n#### RDF statistics\r\n\r\n1.6 Million triples, updated daily. \r\n\r\n#### Links\r\n\r\nCourse descriptions link to geonames for availability and price validity. \r\n\r\nURI from the Open University linked to the corresponding URI in education.data.gov.uk\r\n\r\nBuildings are linked to their postcode in ordnancesurvey.co.uk\r\n\r\nSome links to DBPedia, with various levels of validity."
+  },
+  "domain": "publications",
+  "website": "http://data.open.ac.uk/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.open.ac.uk/resource/",
+  "triples": 1600000,
+  "contact_point": {
+    "name": "[LUCERO Team](http://lucero-project.info)",
+    "email": "info@lucero-project.info"
+  },
+  "keywords": [
+    "course",
+    "education",
+    "format-bibo",
+    "format-rdf",
+    "format-skos",
+    "kmiou",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "openuniversity",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "data-gov-uk",
+      "value": 14500
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 170000
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 218
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.open.ac.uk/resource/oro/21166"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.open.ac.uk/resource/podcast/218dce44a4ed17b36ada50d18b866b03"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.open.ac.uk/resource/person/c9aa7f2e582d191ed728ad414c5ea711"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.open.ac.uk/resource/course/m366"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.open.ac.uk/query"
+    }
+  ]
+}

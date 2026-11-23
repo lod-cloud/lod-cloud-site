@@ -1,0 +1,85 @@
+{
+  "identifier": "dbnary",
+  "title": "DBnary",
+  "description": {
+    "en": "Extracts of wiktionary data for several languages, structured as an RDF graph, based mainly on the ontolex-lemon model. Bulgarian, Chinese, Dutch, English, Finnish, French, German, Greek, Indonesian, Italian, Japanese, Kurdish, Latin, Lithuanian, Malagasy, Norwegian, Polish, Portuguese, Russian, Serbo-Croatian, Spanish, Swedish and Turkish."
+  },
+  "domain": "linguistics",
+  "website": "http://kaiko.getalp.org/about-dbnary",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://kaiko.getalp.org/dbnary",
+  "triples": 415328503,
+  "contact_point": {
+    "name": "Gilles Sérasset",
+    "email": "gilles.serasset@imag.fr"
+  },
+  "keywords": [
+    "Dutch",
+    "Linguistic Dataset LOD RDF",
+    "bulgarian",
+    "english",
+    "finnish",
+    "french",
+    "german",
+    "greek",
+    "indonesian",
+    "italian",
+    "japanese",
+    "latin",
+    "lemon",
+    "lexical-resources",
+    "lithuanian",
+    "llod",
+    "lod",
+    "malagasy",
+    "polish",
+    "portuguese",
+    "russian",
+    "serbo-croatian",
+    "spanish",
+    "swedish",
+    "turkish",
+    "wiktionary",
+    "chinese",
+    "norwegian",
+    "kurdish"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 36307256
+    },
+    {
+      "target": "lexvo",
+      "value": 25642047
+    },
+    {
+      "target": "olia",
+      "value": 28540367
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Sample French entry \"dictionnaire\"",
+      "description": "The resource will be resolved via content negotiation to either [an html description](http://kaiko.getalp.org/describe/?url=http%3A%2F%2Fkaiko.getalp.org%2Fdbnary/fra/dictionnaire) or [a rdf/xml dataset](http://kaiko.getalp.org/sparql?query=DESCRIBE%20%3Chttp%3A%2F%2Fkaiko.getalp.org%2Fdbnary%2Ffra%2Fdictionnaire%3E&format=application%2Frdf%2Bxml).",
+      "access_url": "http://kaiko.getalp.org/dbnary/fra/dictionnaire"
+    },
+    {
+      "title": "Download URL for latest versions",
+      "description": "Directory: Most up to date extracts in ONTOLEX formats.",
+      "access_url": "http://kaiko.getalp.org/about-dbnary/ontolex/latest/"
+    },
+    {
+      "title": "Download URL for all versions",
+      "description": "Download URL for data in LEMON or ONTOLEX formats (the later has replaced the former in newer versions).",
+      "access_url": "http://kaiko.getalp.org/static/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint for dbnary",
+      "description": "A SPARQL endpoint to browse dbnary data. The data URIs are resolvable",
+      "access_url": "http://kaiko.getalp.org/sparql"
+    }
+  ]
+}

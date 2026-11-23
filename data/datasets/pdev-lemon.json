@@ -1,0 +1,41 @@
+{
+  "identifier": "pdev-lemon",
+  "title": "PDEV-Lemon",
+  "description": {
+    "en": "PDEV is a dictionary which provides insight\r\ninto how verbs collocate with nouns and other words\r\nusing an empirically well-founded apparatus of syntactic\r\nand semantic categories. PDEV is a valuable resource for\r\nNLP because it specifies in detail the contextual conditions\r\nthat determine meaning of a word. Thus the main motivation\r\nfor building a Semantic-Web-compliant resource is to\r\nprovide the Semantic Web and the NLP communities with\r\nan easier access to PDEV."
+  },
+  "domain": "linguistics",
+  "triples": 233372,
+  "contact_point": {
+    "name": "Ismail El Maarouf, Jane Bradbury and Patrick Hanks",
+    "email": "elmaarouf.ismail@yahoo.fr"
+  },
+  "keywords": [
+    "ldl-2014",
+    "lexical-resources",
+    "lexicon",
+    "linguistic",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 2078
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Data",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://pdev.org.uk/pdevlemonfiles/pdevlemon.nt.tar.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Description",
+      "access_url": "http://pdev.org.uk"
+    }
+  ]
+}

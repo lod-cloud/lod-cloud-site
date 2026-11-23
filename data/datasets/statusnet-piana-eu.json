@@ -1,0 +1,81 @@
+{
+  "identifier": "statusnet-piana-eu",
+  "title": "statusnet-piana-eu",
+  "description": {
+    "en": "StatusNet instance hosted at http://piana.eu"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 12
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-freelish-us",
+      "value": 4
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 23
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 5
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-status-cat",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 5
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.piana.eu/carlopiana/foaf"
+    }
+  ]
+}

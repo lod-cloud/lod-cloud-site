@@ -1,0 +1,56 @@
+{
+  "identifier": "jrc-names-ec",
+  "title": "JRC-Names",
+  "description": {
+    "en": "JRC-Names is a highly multilingual named entity resource for person and organisation names developed by the European Commission’s Joint Research Centre (JRC). JRC-Names consists of large lists of names and their many spelling variants (up to hundreds for a single person), including across scripts (Latin, Greek, Arabic, Cyrillic, Japanese, Chinese, etc.).\r\n\r\nThe resource is the by-product of the [Europe Media Monitor](http://emm.newsbrief.eu/overview.html) (EMM)) family of applications, which has been analysing up to 220,000 news reports per day, since 2004. EMM recognises names mentioned in the news in over twenty languages and decides automatically for each newly found name whether it belongs to a new entity or whether it is a spelling variant of a previously known entity. This resource allows EMM users to display news about people or organisations even if their names are spelt differently or if the news articles are written in different languages and scripts.\r\n\r\nThe new linked data edition, accessible through the European Union’s [Open Data Portal](https://open-data.europa.eu/en/data/dataset/jrc-names), offers more information compared to the previously released resource and tool, including: titles and function names that have been historically found next to the person mentions; information about the time period during which name variants and their titles were found; various frequency counts; as well as links to other linked datasets such as DBPedia.\r\n\r\nThe JRC-Names RDF representation is based on [lemon](http://lemon-model.net/) (Lexicon Model for Ontologies) and includes links towards [DBpedia](http://dbpedia.org/), [New York Times Open Data](http://data.nytimes.com/) and [Talk of Europe](http://linkedpolitics.ops.few.vu.nl). \r\n\r\nPrevious editions includes: the [original release](https://ec.europa.eu/jrc/en/language-technologies/jrc-names) by the JRC since September 2011 (consisting of name variant lists and accompanying software) and a first [linked data version](https://datahub.io/dataset/jrc-names-mlode) produced during the [MLODE](http://sabre2012.infai.org/mlode) 2012 workshop."
+  },
+  "website": "https://ec.europa.eu/jrc/en/language-technologies/jrc-names",
+  "triples": 72586712,
+  "contact_point": {
+    "name": "EC Joint Research Center",
+    "email": "guillaume.jacquet@jrc.ec.europa.eu"
+  },
+  "keywords": [
+    "Linguistics",
+    "Multiligualism",
+    "Name Variants",
+    "Named Entities",
+    "lemon model"
+  ],
+  "links": [
+    {
+      "target": "DBpedia",
+      "value": 95437
+    }
+  ],
+  "other_download": [
+    {
+      "title": "JRC-Names EC RDF dump",
+      "media_type": "ntriples",
+      "access_url": "https://open-data.europa.eu/en/data/dataset/jrc-names"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://open-data.europa.eu/en/linked-data"
+    },
+    {
+      "title": "License",
+      "media_type": "application/pdf",
+      "access_url": "http://optima.jrc.it/Resources/LICENCE-EULA_JRC-Names_2011.pdf"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This descripton extends the one provided by:\r\nhttps://datahub.io/dataset/jrc-names-ec.rdf",
+      "access_url": "https://datahub.io/dataset/dffd3b0a-a85c-49e9-9f42-e5e7e0a0b19e/resource/b1c0f769-0d04-4c73-9a96-a7b4b4541617/download/jrc-names-ec-dcat.ttl"
+    },
+    {
+      "title": "Dereferenceable URIs",
+      "access_url": "https://open-data.europa.eu/resource/jrc-names/"
+    },
+    {
+      "title": "Example: URI of the entity \"Jean-Claude Juncker\"",
+      "access_url": "https://open-data.europa.eu/resource/jrc-names/Jean-Claude_Juncker"
+    }
+  ]
+}

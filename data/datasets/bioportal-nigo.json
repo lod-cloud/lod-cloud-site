@@ -1,0 +1,239 @@
+{
+  "identifier": "bioportal-nigo",
+  "title": "Neural-Immune Gene Ontology",
+  "description": {
+    "en": "The Neural-Immune Gene Ontology (NIGO) is a subset of GO directed for neurological and immunological systems. NIGO was created by clipping those GO terms that are not associated to any gene in human, rat and mouse, and by clipping terms not found to be relevant to the neural and/or immune domains."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1539",
+  "triples": 81702,
+  "contact_point": {
+    "name": "Eitan Rubin"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-apo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 14
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 139
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 63
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 20
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 2743
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 160
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 11
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 23
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 10
+    },
+    {
+      "target": "bioportal-fypo",
+      "value": 95
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 53
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 4837
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 4559
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 63
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 13
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 24
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 26
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 61
+    },
+    {
+      "target": "bioportal-iev",
+      "value": 122
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 35
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 186
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mego",
+      "value": 20
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 359
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 40
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 234
+    },
+    {
+      "target": "bioportal-nbo",
+      "value": 50
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 312
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 38
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 3849
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 14
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 13
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 56
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 37
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 11
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 62
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 25
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 80
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 10
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 162
+    },
+    {
+      "target": "bioportal-spo",
+      "value": 16
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 93
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 18
+    },
+    {
+      "target": "bioportal-vt",
+      "value": 65
+    },
+    {
+      "target": "bioportal-ypo",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44724?apikey=BP_API_KEY"
+    }
+  ]
+}

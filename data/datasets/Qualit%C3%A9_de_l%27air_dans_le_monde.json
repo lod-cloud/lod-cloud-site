@@ -1,0 +1,41 @@
+{
+  "identifier": "Qualité_de_l'air_dans_le_monde",
+  "title": "Qualité de l'air dans le monde",
+  "description": {
+    "en": "Mesures de certains polluants dans des villes à travers le monde"
+  },
+  "domain": "user_generated",
+  "website": "https://mmisw.org/ont/~jqueiros/air_quality",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Julie Queiros",
+    "email": "julie.queiros7@gmail.com"
+  },
+  "keywords": [
+    "Qualité air"
+  ],
+  "full_download": [
+    {
+      "title": "RDF/XML",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=rdf&iri=https://mmisw.org/ont/~jqueiros/air_quality"
+    },
+    {
+      "title": "Turtle",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=ttl&iri=https://mmisw.org/ont/~jqueiros/air_quality"
+    },
+    {
+      "title": "JSON-LD",
+      "media_type": "application/json+ld;charset=UTF-8",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=jsonld&iri=https://mmisw.org/ont/~jqueiros/air_quality"
+    },
+    {
+      "title": "N-Triples",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=nt&iri=https://mmisw.org/ont/~jqueiros/air_quality"
+    },
+    {
+      "title": "N3",
+      "download_url": "https://mmisw.org/ont/api/v0/ont?format=n3&iri=https://mmisw.org/ont/~jqueiros/air_quality"
+    }
+  ]
+}

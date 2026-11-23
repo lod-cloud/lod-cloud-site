@@ -1,0 +1,63 @@
+{
+  "identifier": "bioportal-oboe",
+  "title": "OBOE",
+  "description": {
+    "en": "Observational Modeling"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1524",
+  "triples": 872,
+  "contact_point": {
+    "name": "Ben Leinfelder"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 14
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 10
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 51
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 46
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 14
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44258?apikey=BP_API_KEY"
+    }
+  ]
+}

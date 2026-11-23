@@ -1,0 +1,51 @@
+{
+  "identifier": "bioportal-thesaurus",
+  "title": "thesaurus",
+  "description": {
+    "en": "thesaurus alternativa"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/3034",
+  "triples": 799,
+  "contact_point": {
+    "name": "Catarina"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 15
+    },
+    {
+      "target": "bioportal-thealternativa",
+      "value": 135
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47266?apikey=BP_API_KEY"
+    }
+  ]
+}

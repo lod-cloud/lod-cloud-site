@@ -1,0 +1,44 @@
+{
+  "identifier": "loc",
+  "title": "Linked Open Colors",
+  "description": {
+    "en": "Linked Open Colors, dataset created for the April Fools' Day of 2011 as an informal initiative for promoting Linked Data. \r\nhttp://lists.w3.org/Archives/Public/public-lod/2011Apr/0003.html"
+  },
+  "website": "http://linkedopencolors.appspot.com/",
+  "namespace": "http://purl.org/colors/",
+  "triples": 160000000,
+  "contact_point": {
+    "name": "Sergio Fernández",
+    "email": "sergio.fernandez@fundacionctic.org"
+  },
+  "keywords": [
+    "aprilfools",
+    "crossdomain",
+    "ctic",
+    "format-rdf",
+    "lod",
+    "no-proprietary-vocab",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 16000000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "void",
+      "media_type": "meta/void",
+      "access_url": "http://linkedopencolors.appspot.com/void.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (red)",
+      "description": "Example (red)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/colors/rgb/ff0000"
+    }
+  ]
+}

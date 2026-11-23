@@ -1,0 +1,191 @@
+{
+  "identifier": "bioportal-tgma",
+  "title": "Mosquito gross anatomy",
+  "description": {
+    "en": "A structured controlled vocabulary of the anatomy of mosquitoes."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1030",
+  "triples": 57288,
+  "contact_point": {
+    "name": "C. Louis"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 41
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 32
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 30
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 47
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 35
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 67
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 30
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 20
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 59
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 29
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 37
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 133
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 36
+    },
+    {
+      "target": "bioportal-gro_x1",
+      "value": 13
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 162
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 33
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 15
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 51
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 35
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 41
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 104
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 24
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 23
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 13
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 30
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 46
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 89
+    },
+    {
+      "target": "bioportal-spd",
+      "value": 21
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 35
+    },
+    {
+      "target": "bioportal-tads",
+      "value": 42
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 40
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 105
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 34
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 25
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 33
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 35
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46273?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "identifier": "roceeh-road",
+  "title": "ROCEEH Out of Africa Database (ROAD)",
+  "description": {
+    "en": "Database on human origins in Africa and Eurasia between 3,000,000 and 20,000 years ago covering prehistoric archaeology, paleoanthropology, paleoenvironment and geography."
+  },
+  "domain": "user_generated",
+  "website": "https://www.hadw-bw.de/en/research/research-center/roceeh",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 4000000,
+  "image": "https://www.hadw-bw.de/sites/default/files/styles/teaser_image_1x_largescreen/public/media/Roceeh.jpg?h=d92b20e8&itok=gKBbZXNA",
+  "contact_point": {
+    "name": "Christian Sommer",
+    "email": "christian.sommer@uni-tuebingen.de"
+  },
+  "keywords": [
+    "Archaeology",
+    "Paleoanthropology",
+    "Paleoenvironment",
+    "Paleontology",
+    "Palynology",
+    "Prehistory",
+    "Geography"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    },
+    {
+      "target": "periodo",
+      "value": 1
+    },
+    {
+      "target": "w3c",
+      "value": 1
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://www.roceeh.uni-tuebingen.de:3030/road/sparql"
+    }
+  ]
+}

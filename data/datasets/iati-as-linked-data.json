@@ -1,0 +1,74 @@
+{
+  "identifier": "iati-as-linked-data",
+  "title": "IATI as Linked Data",
+  "description": {
+    "en": "International Aid Transparancy Initiative model and data from IATIRegistry as Linked Open Data. \r\n\r\nFor more information see: http://iati2lod.appspot.com\r\n\r\nIt is widely recognized that the effectiveness of aid can be improved by providing transparant insight into aid activities. The International Aid Transparency Initiative (IATI), a multi-stakeholder initiative that seeks to improve the transparency of aid, has developed an open standard for the publication of aid information. As of 2013, over 150 donors, NGOs and governments have registered to the IATI registry for publishing their aid activities in this XML standard. Based on the IATI data, we have created a Linked Data model and converted the open data to Linked Data. In order to show the added benefits of Linked Data, we have linked the IATI dataset to various other datasets such as World Bank indicators and DBPedia information. Finally, we have created several applications which combine the information from the IATI dataset and the datasets it was linked to. As a result, we have shown that creating Linked Data for the IATI dataset and linking it to other datasets give new valuable insights in aid transparency. Based on actual information needs and use cases of IATI users, we were able to show that linking IATI data adds significant value to the data and is able to fulfill the needs of IATI users."
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 36629045,
+  "contact_point": {
+    "name": "Kasper Brandt"
+  },
+  "keywords": [
+    "Aid",
+    "Development",
+    "Transparency",
+    "accountibility",
+    "developing countries",
+    "government",
+    "ict4d",
+    "international-development",
+    "ld4d",
+    "linked data",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "cia-world-factbook",
+      "value": 240
+    },
+    {
+      "target": "dbpedia",
+      "value": 484
+    },
+    {
+      "target": "fao-linked-data",
+      "value": 191
+    },
+    {
+      "target": "geonames",
+      "value": 2486
+    },
+    {
+      "target": "transparency-linked-data",
+      "value": 182
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 212
+    }
+  ],
+  "other_download": [
+    {
+      "title": "GIT repository for data dump",
+      "description": "Git repository for a zipfile containing the RDF turtle files. note that because of the data model, there are *a lot* of files.",
+      "access_url": "https://bitbucket.org/biktorrr/iati2lod_data"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI (Country Chad)",
+      "description": "Returns RDF/XML, RDF/Turtle, JSON-LD or HTML depending on HTTP Request header (Content negotiation)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/collections/iati/codelist/Country/TD"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "IATI Sparql Endpoint",
+      "access_url": "http://semanticweb.cs.vu.nl/iati/sparql/"
+    }
+  ]
+}

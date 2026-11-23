@@ -1,0 +1,255 @@
+{
+  "identifier": "bioportal-rnao",
+  "title": "RNA ontology",
+  "description": {
+    "en": "The central aim of the RNA Ontology Consortium (ROC) is to develop an ontology to capture all aspects of RNA - from primary sequence to alignments, secondary and tertiary structure from base pairing and base stacking to sophisticated motifs."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1500",
+  "triples": 2973,
+  "contact_point": {
+    "name": "Colin Batchelor"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 40
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 61
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-bfo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 11
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 39
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 47
+    },
+    {
+      "target": "bioportal-cao",
+      "value": 39
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 21
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 40
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 44
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 41
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 48
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 39
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 40
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 39
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 39
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 40
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 39
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 39
+    },
+    {
+      "target": "bioportal-mfoem",
+      "value": 39
+    },
+    {
+      "target": "bioportal-miro",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 24
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 39
+    },
+    {
+      "target": "bioportal-neomark",
+      "value": 12
+    },
+    {
+      "target": "bioportal-neumore",
+      "value": 15
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 59
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 46
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 46
+    },
+    {
+      "target": "bioportal-nmr",
+      "value": 36
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 41
+    },
+    {
+      "target": "bioportal-oae",
+      "value": 39
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 28
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 47
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 42
+    },
+    {
+      "target": "bioportal-ogms",
+      "value": 39
+    },
+    {
+      "target": "bioportal-omrse",
+      "value": 39
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 39
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 39
+    },
+    {
+      "target": "bioportal-pvonto",
+      "value": 15
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 40
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 40
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 28
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 41
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 40
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 33
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 22
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44005?apikey=BP_API_KEY"
+    }
+  ]
+}

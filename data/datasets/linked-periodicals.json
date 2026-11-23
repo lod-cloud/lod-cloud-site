@@ -1,0 +1,65 @@
+{
+  "identifier": "linked-periodicals",
+  "title": "Linked Periodicals Database",
+  "description": {
+    "en": "The Linked Periodicals Database is a data set from the [Data Incubator](http://dataincubator.org/) which aggregates journal metadata provided by [CrossRef](http://crossref.org), [Highwire Press](http://highwire.stanford.edu/) and the [National Library of Medicine](http://www.nlm.nih.gov).\r\n\r\nIncluded in the data are resources for journals and publishers which are available as RDF and JSON."
+  },
+  "website": "http://periodicals.dataincubator.org/",
+  "triples": 100000000,
+  "keywords": [
+    "academic",
+    "articles",
+    "format-rdf",
+    "journals",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud.nolinks"
+  ],
+  "other_download": [
+    {
+      "description": "URI for the journal Nature, will conneg for RDF and JSON",
+      "media_type": "n/a",
+      "access_url": "http://periodicals.dataincubator.org/journal/nature"
+    },
+    {
+      "description": "RDF XML for the journal Nature",
+      "media_type": "RDF",
+      "access_url": "http://periodicals.dataincubator.org/journal/nature.rdf"
+    },
+    {
+      "description": "RDF Turtle for the journal Nature",
+      "media_type": "text/turtle",
+      "access_url": "http://periodicals.dataincubator.org/journal/nature.turtle"
+    },
+    {
+      "description": "JSON for the journal Nature",
+      "media_type": "JSON",
+      "access_url": "http://periodicals.dataincubator.org/journal/nature.json"
+    },
+    {
+      "description": "URI for the publisher Nature Publishing Group",
+      "media_type": "n/a",
+      "access_url": "http://periodicals.dataincubator.org/organization/nature-publishing-group"
+    },
+    {
+      "description": "RDF XML for the publisher Nature Publishing Group",
+      "media_type": "RDF",
+      "access_url": "http://periodicals.dataincubator.org/organization/nature-publishing-group.rdf"
+    },
+    {
+      "description": "RDF Turtle for the publisher Nature Publishing Group",
+      "media_type": "text/turtle",
+      "access_url": "http://periodicals.dataincubator.org/organization/nature-publishing-group.turtle"
+    },
+    {
+      "description": "JSON for the publisher Nature Publishing Group",
+      "media_type": "JSON",
+      "access_url": "http://periodicals.dataincubator.org/organization/nature-publishing-group.json"
+    },
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://api.talis.com/stores/periodicals/services/sparql"
+    }
+  ]
+}

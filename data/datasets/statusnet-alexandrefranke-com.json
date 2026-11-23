@@ -1,0 +1,48 @@
+{
+  "identifier": "statusnet-alexandrefranke-com",
+  "title": "statusnet-alexandrefranke-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://alexandrefranke.com"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.alexandrefranke.com/afranke/foaf"
+    }
+  ]
+}

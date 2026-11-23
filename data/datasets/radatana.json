@@ -1,0 +1,82 @@
+{
+  "identifier": "radatana",
+  "title": "Rådata nå!",
+  "description": {
+    "en": "This is an RDF representation of the personal name authorities in the BIBSYS authority file, the dataset was created with funding from the Norwegian Archive, Library and Museum Authority (ABM-utvikling) by BIBSYS and NTNU University Library.\r\n\r\nSee also [http://brinxmat.posterous.com/bibsys-personal-name-linked-open-data-publish](http://brinxmat.posterous.com/bibsys-personal-name-linked-open-data-publish)."
+  },
+  "domain": "publications",
+  "website": "http://data.bibsys.no/data",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://data.bibsys.no/data/notrbib/authorityentry/",
+  "triples": 9370074,
+  "contact_point": {
+    "name": "BIBSYS",
+    "email": "support@bibsys.no"
+  },
+  "keywords": [
+    "authorities",
+    "bibliographic",
+    "deref-vocab",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-radatana",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-whois",
+    "format-xsd",
+    "linked-data",
+    "linked-open-data",
+    "linkeddata",
+    "lld",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "norwegian",
+    "persons",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 30346
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 209681
+    },
+    {
+      "target": "viaf",
+      "value": 311154
+    }
+  ],
+  "full_download": [
+    {
+      "description": "RDF bulk download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://www.bibsys.no/linked_data/authority"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "access_url": "http://def.bibsys.no/xmlns/radatana/1.0#"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example",
+      "media_type": "application/rdf+xml;charset=utf-8",
+      "access_url": "http://data.bibsys.no/data/notrbib/authorityentry/x90061718"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.bibsys.no/data/query_authority.html"
+    }
+  ]
+}

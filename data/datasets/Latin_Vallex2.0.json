@@ -1,0 +1,48 @@
+{
+  "identifier": "Latin_Vallex2.0",
+  "title": "Latin Vallex 2.0 in LiLa",
+  "description": {
+    "en": "Latin Vallex 2.0 is a valency lexicon for Latin built according to the same style of the VALLEX lexicon for Czech.\nLatin Vallex 2.0 works in connection with the Latin WordNet (LWN). Each Synset in LWN is paired with a LV Valency Frame. The two resources are linked together to the LiLa Lemma Bank."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/lexicalResources/LatinVallex/Lexicon",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/lexicalResources/LatinVallex/",
+  "triples": 659304,
+  "doi": "10.5281/zenodo.4032429",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "Lexicon",
+    "LLOD",
+    "LiLa",
+    "Valency"
+  ],
+  "links": [
+    {
+      "target": "LatinWordnetLiLa",
+      "value": 4532
+    },
+    {
+      "target": "LemmaBank",
+      "value": 4532
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Latin Vallex 2.0 in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization)",
+      "download_url": "https://github.com/CIRCSE/Latin_Vallex2.0"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

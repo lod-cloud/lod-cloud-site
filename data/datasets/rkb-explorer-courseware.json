@@ -1,0 +1,138 @@
+{
+  "identifier": "rkb-explorer-courseware",
+  "title": "Resilient Computing Courseware (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://courseware.rkbexplorer.com",
+  "namespace": "http://courseware.rkbexplorer.com/id/",
+  "triples": 45780,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 41
+    },
+    {
+      "target": "lingvoj",
+      "value": 42
+    },
+    {
+      "target": "opencyc",
+      "value": 39
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 19
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 11
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 53
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 13
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 16
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 17
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-wordnet",
+      "value": 38
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 1
+    },
+    {
+      "target": "w3c-wordnet",
+      "value": 38
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://courseware.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://courseware.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://courseware.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://courseware.rkbexplorer.com/id/assessment-method/Oral-Examination"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://courseware.rkbexplorer.com/sparql/"
+    }
+  ]
+}

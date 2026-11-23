@@ -1,0 +1,99 @@
+{
+  "identifier": "dbpedia-fr",
+  "title": "DBpedia in French",
+  "description": {
+    "en": "DBpedia in French dataset. Part of the DBpedia internationalisation effort. Data are extracted here from French speaking pages of wikipedia."
+  },
+  "domain": "cross_domain",
+  "website": "http://fr.dbpedia.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://fr.dbpedia.org/resource/",
+  "triples": 131000000,
+  "contact_point": {
+    "name": "julien_cojan",
+    "email": "contact@dbpedia.fr"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "français",
+    "french",
+    "lod",
+    "no-proprietary-vocab",
+    "published-by-producer",
+    "rdf",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 854635
+    },
+    {
+      "target": "dbpedia-it",
+      "value": 474524
+    },
+    {
+      "target": "dbpedia-ja",
+      "value": 224710
+    },
+    {
+      "target": "dbpedia-nl",
+      "value": 402443
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download",
+      "download_url": "http://fr.dbpedia.org/download/"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Linked Data entry example",
+      "description": "The resource will be resolved via content negotiation to either:\r\nhttp://dbpedia.org/page/Paris\r\nor \r\nhttp://dbpedia.org/data/Paris.rdf\r\nhttp://dbpedia.org/data/Paris.n3\r\nhttp://dbpedia.org/data/Paris.json",
+      "access_url": "http://fr.dbpedia.org/resource/Paris"
+    },
+    {
+      "title": "RDF schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://downloads.dbpedia.org/3.6/dbpedia_3.6.owl.bz2"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML example",
+      "description": "Link to an example data item within the dataset (RDF/XML)\r\nThe actual URI is http://dbpedia.org/resource/Paris, which redirect via 303 to application/rdf+xml",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://fr.dbpedia.org/data/Paris.rdf"
+    },
+    {
+      "title": "Turtle Example",
+      "description": "Link to an example data item within the dataset (text/n3)\r\nThe actual URI is http://dbpedia.org/resource/Paris, which redirect via 303 to text/n3",
+      "media_type": "example/n3",
+      "access_url": "http://fr.dbpedia.org/data/Paris.n3"
+    },
+    {
+      "title": "RDFa Example",
+      "description": "Link to an example data item within the dataset (html + rdfsa)\r\nThe actual URI is http://dbpedia.org/resource/Paris, which redirect via 303 to html + rdfa",
+      "media_type": "example/rdfa",
+      "access_url": "http://fr.dbpedia.org/page/Paris"
+    },
+    {
+      "title": "N-Triples Example",
+      "description": "Link to an example data item within the dataset \r\nThe actual URI is http://dbpedia.org/resource/Paris, which redirect via 303",
+      "media_type": "example/ntriples",
+      "access_url": "http://fr.dbpedia.org/data/Paris.nt"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://fr.dbpedia.org/sparql"
+    }
+  ]
+}

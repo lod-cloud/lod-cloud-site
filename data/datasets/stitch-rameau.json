@@ -1,0 +1,78 @@
+{
+  "identifier": "stitch-rameau",
+  "title": "RAMEAU subject headings (STITCH)",
+  "description": {
+    "en": "Data exposed: SKOS representation of the RAMEAU book indexing vocabulary, maintained by the French National Library (BnF)\r\nSize of dump and data set: 130 MB uncompressed\r\nNotes: aligned to LCSH and SWD via SKOS mapping links\r\n\r\nPublished as SKOS/RDF by the STITCH project.\r\n\r\nAs of February 2012, URIs of the RAMEAU concepts redirect to equivalent descriptions at data.bnf.fr, see http://data.bnf.fr/semanticweb-en"
+  },
+  "domain": "publications",
+  "website": "http://stitch.cs.vu.nl/rameau/",
+  "namespace": "http://stitch.cs.vu.nl/vocabularies/rameau/",
+  "triples": 1619918,
+  "contact_point": {
+    "name": "Antoine Isaac <http://www.few.vu.nl/~aisaac>, Rameau committee <http://rameau.bnf.fr>",
+    "email": "aisaac@few.vu.nl"
+  },
+  "keywords": [
+    "authorities",
+    "ckanupload.esw.200910",
+    "decommissioned",
+    "format-rdf",
+    "format-skos",
+    "library",
+    "linkeddata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party",
+    "rdf",
+    "vu"
+  ],
+  "links": [
+    {
+      "target": "agrovoc-skos",
+      "value": 700
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 20000
+    },
+    {
+      "target": "lcsh",
+      "value": 60000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Subject headings (SKOS)",
+      "media_type": "RDF",
+      "access_url": "http://www.cs.vu.nl/STITCH/rameau/dump/Rameau.skos.gz"
+    },
+    {
+      "description": "LCSH mappings (SKOS)",
+      "media_type": "RDF",
+      "access_url": "http://www.cs.vu.nl/STITCH/rameau/dump/MACSMapping-Rameau_LCSH.skos.gz"
+    },
+    {
+      "description": "SWD mappings (SKOS)",
+      "media_type": "application/zip",
+      "access_url": "http://www.cs.vu.nl/STITCH/rameau/dump/MACSMappings-Rameau_SWD.rdf.zip"
+    },
+    {
+      "title": "Dump at data.bnf.fr",
+      "description": "RAMEAU data in the officiel data.bnf.fr (open license)",
+      "access_url": "http://echanges.bnf.fr/PIVOT/databnf_all_rdf_xml.tar.gz?user=databnf&password=databnf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://stitch.cs.vu.nl/vocabularies/rameau/autorites_matieres"
+    }
+  ]
+}

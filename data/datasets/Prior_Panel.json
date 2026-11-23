@@ -1,0 +1,35 @@
+{
+  "identifier": "Prior_Panel",
+  "title": "Prior Panel",
+  "description": {
+    "en": "Indian Publishing  Website"
+  },
+  "domain": "publications",
+  "website": "https://priorpanel.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "Prior_Panel",
+  "triples": 1,
+  "contact_point": {
+    "name": "Akash Singh",
+    "email": "graph@priorpanel.com"
+  },
+  "keywords": [
+    "Prior Panel",
+    "Priorpanel",
+    "priorinfo"
+  ],
+  "links": [
+    {
+      "target": "wikilinks-rdf-nif",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Prior Panel",
+      "description": "Indian Publishing  Website",
+      "media_type": "SQL",
+      "download_url": "https://priorpanel.com/info/Q78"
+    }
+  ]
+}

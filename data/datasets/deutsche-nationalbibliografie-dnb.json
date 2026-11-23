@@ -1,0 +1,97 @@
+{
+  "identifier": "deutsche-nationalbibliografie-dnb",
+  "title": "Deutsche Nationalbibliografie (DNB)",
+  "description": {
+    "en": "The Linked Data Service of the German National Library  (Deutsche Nationalbibliothek, DNB) includes bibliographic data since January 2012. As a first step, the bibliographic data of the DNB’s main collection (apart from the collection  of the Deutsches Exilarchiv) and the serials \n(magazines, newspapers and series of the German Union Catalogue of serials (ZDB)) have been converted. \nFor more information see https://www.dnb.de/lds\nFrom January 2014 on, the Linked Data Service of the German National Library (DNB) will issue scheduled releases and will be integrated in the export releases of the other formats. Changes to the conversion and to the data modelling will be made in January, May and September. Changes will be notified in advance via the Linked Data Service mailing list (http://lists.dnb.de/mailman/listinfo/lds). Please subscribe if you are interested in receiving information about future developments in DNB Linked Data Services. In a schedule corresponding to the export releases, updated dumps of the authority and bibliographic data in RDF/XML and Turtle will be available for download in February, June and October. \n\n**Documentation** of the data model and used vocabularies: [https://d-nb.info/1241844151/34](https://d-nb.info/1241844151/34)"
+  },
+  "domain": "publications",
+  "website": "http://www.dnb.de/EN/lds",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://d-nb.info/",
+  "triples": 521028069,
+  "contact_point": {
+    "name": "Deutsche Nationalbibliothek (German National Library)",
+    "email": "metadatendienste@dnb.de"
+  },
+  "keywords": [
+    "bibliographic",
+    "bibliographic data",
+    "cc0",
+    "germany",
+    "lld",
+    "lod",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "deutsche-nationalbibliografie-dnb",
+      "value": 24794541
+    },
+    {
+      "target": "dewey_decimal_classification",
+      "value": 1550034
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 31039088
+    },
+    {
+      "target": "doi",
+      "value": 2454367
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Deutsche Nationalbibliografie (DNB)",
+      "description": "RDF/XML",
+      "media_type": "application/x-gzip",
+      "download_url": "https://data.dnb.de/opendata/dnb-all_lds.rdf.gz"
+    },
+    {
+      "title": "Deutsche Nationalbibliografie (DNB)",
+      "description": "RDF/turtle",
+      "media_type": "application/x-gzip",
+      "download_url": "https://data.dnb.de/opendata/dnb-all_lds.ttl.gz"
+    },
+    {
+      "title": "Deutsche Nationalbibliografie (DNB)",
+      "description": "JSON-LD",
+      "media_type": "application/x-gzip",
+      "download_url": "https://data.dnb.de/opendata/dnb-all_lds.jsonld.gz"
+    },
+    {
+      "title": "Deutsche Nationalbibliografie (DNB)",
+      "description": "nTriples",
+      "media_type": "application/x-gzip",
+      "download_url": "https://data.dnb.de/opendata/dnb-all_lds.nt.gz"
+    },
+    {
+      "title": "Deutsche Nationalbibliografie (DNB)",
+      "description": "HDT",
+      "media_type": "application/x-gzip",
+      "download_url": "https://data.dnb.de/opendata/dnb-all_lds.hdt.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example series",
+      "access_url": "https://d-nb.info/011078677/about/lds"
+    },
+    {
+      "title": "Example article",
+      "access_url": "https://d-nb.info/1014234816/about/lds"
+    },
+    {
+      "title": "Example collection",
+      "access_url": "https://d-nb.info/1015411169/about/lds"
+    },
+    {
+      "title": "Example book",
+      "access_url": "https://d-nb.info/1022139770/about/lds"
+    },
+    {
+      "title": "Example periodical",
+      "access_url": "https://d-nb.info/944912621/about/lds"
+    }
+  ]
+}

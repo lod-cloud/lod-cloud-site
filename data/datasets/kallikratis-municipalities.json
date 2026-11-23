@@ -1,0 +1,74 @@
+{
+  "identifier": "kallikratis-municipalities",
+  "title": "Kallikratis municipalities",
+  "description": {
+    "en": "The Kalikratis municipalities project represents an attempt to retrieve useful information from Hellenic municipalities of Kalikratis program. Kalikratis program, is called the Greek law, which implements the administrative division of Greece into new municipalities. The main goal of this attempt is to gather all the related to these municipalities data to a united space, so as to be used by innovative applications and services. Another goal is to enrich Greek open data."
+  },
+  "domain": "government",
+  "website": "http://greek-lod.math.auth.gr/kalikratis/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://greek-lod.math.auth.gr/kalikratis/resource/",
+  "triples": 31068,
+  "contact_point": {
+    "name": "Nena Xanthopoulou",
+    "email": "neksanth@hotmail.com"
+  },
+  "keywords": [
+    "Greece",
+    "administrative-divisions",
+    "country-greece",
+    "format-dcterms",
+    "format-foaf",
+    "format-geo",
+    "format-geonames",
+    "format-owl",
+    "format-rdf",
+    "format-skos",
+    "government",
+    "greek",
+    "hellenic",
+    "license-metadata",
+    "lod",
+    "lodcloud",
+    "municipalities",
+    "municipality",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 137
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 392
+    },
+    {
+      "target": "eurostat-rdf",
+      "value": 67
+    },
+    {
+      "target": "freebase",
+      "value": 336
+    },
+    {
+      "target": "geonames",
+      "value": 54
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://greek-lod.auth.gr/Kalikratis/kalikratis.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Kalikratis municipalities SPARQL endpoint",
+      "access_url": "http://greek-lod.math.auth.gr/kalikratis/sparql"
+    }
+  ]
+}

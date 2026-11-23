@@ -1,0 +1,36 @@
+{
+  "identifier": "Uganda-Disasters-rdf-data_",
+  "title": "Uganda Disasters",
+  "description": {
+    "en": "A data set containing all disasters recorded to have occurred in Uganda. Created by GI members of Makerere University, Kampala, Uganda."
+  },
+  "domain": "geography",
+  "website": "http://ld4du.optimistcarter.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/gicentre/onto/ugdom#",
+  "triples": 155993,
+  "contact_point": {
+    "name": "Mosi Kiroge",
+    "email": "mosikiroge@yahoo.co.uk"
+  },
+  "keywords": [
+    "disaster",
+    "uganda",
+    "hazard",
+    "disaster data"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 347
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF dataset",
+      "description": "RDF file contains 155993 statements",
+      "media_type": "text/html",
+      "download_url": "http://ld4du.optimistcarter.com/ugdom.owl/"
+    }
+  ]
+}

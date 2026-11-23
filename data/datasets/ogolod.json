@@ -1,0 +1,67 @@
+{
+  "identifier": "ogolod",
+  "title": "Orthology and Diseases Information - OGO",
+  "description": {
+    "en": "The OGOLOD system, an extension of the OGO Knowledge Base, publishes ortholog/diseases information using Linked Data. This gives the scientists the ability to query the structured information in connection with other Linked\r\nData and to discover new information in the cloud, related to orthologs and human diseases."
+  },
+  "domain": "life_sciences",
+  "website": "http://miuras.inf.um.es/~ogo/ogolod.html",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http:miuras.inf.um.es/ogolod/resource/Gene/67440",
+  "triples": 38035102,
+  "contact_point": {
+    "name": "José Antonio Miñarro Gimenez and Mikel Egaña Aranguren",
+    "email": "megana@fi.upm.es"
+  },
+  "keywords": [
+    "deref-vocab",
+    "diseases-information-orthology",
+    "format-ogo",
+    "lifesciences",
+    "lod",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-chebi",
+      "value": 3456570
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 18141
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://miuras.inf.um.es/sitemap_index.xml"
+    },
+    {
+      "description": "Void description",
+      "media_type": "meta/void",
+      "access_url": "http://miuras.inf.um.es/lod/voidogolod.ttl"
+    },
+    {
+      "description": "Main schema used",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://miuras.inf.um.es/lod/ogolod2.owl"
+    }
+  ],
+  "example": [
+    {
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "text/rdf",
+      "access_url": "http://miuras.inf.um.es/dump/dump.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://miuras.inf.um.es/sparql"
+    }
+  ]
+}

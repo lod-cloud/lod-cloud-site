@@ -1,0 +1,82 @@
+{
+  "identifier": "yahoo_geoplanet",
+  "title": "Yahoo Geoplanet RDF",
+  "description": {
+    "en": "This is a Linked Data version of the publically available data dumps from the Yahoo! GeoPlanet database. GeoPlanet helps bridge the gap between the real and virtual worlds by providing an open, permanent, and intelligent infrastructure for geo-referencing data on the Internet. By exposing it as Linked Data we enable additional cross-linking between more data sources.\r\n\r\n*Note* this RDF version of the dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "geography",
+  "website": "http://kasabi.com/dataset/yahoo-geoplanet",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.kasabi.com/dataset/yahoo-geoplanet",
+  "triples": 49734022,
+  "keywords": [
+    "format-rdf",
+    "geodata",
+    "geographic",
+    "lodcloud-diagram-2011-09-19",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 248
+    },
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 9591825
+    },
+    {
+      "target": "telegraphis",
+      "value": 248
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Kasabi Homepage for Yahoo Geoplanet dataset",
+      "access_url": "http://kasabi.com/dataset/yahoo-geoplanet"
+    },
+    {
+      "description": "Kasabi page for Yahoo Geoplanet Search API",
+      "access_url": "http://kasabi.com/api/search-api-yahoo-geoplanet"
+    },
+    {
+      "description": "Kasabi page for Yahoo Geoplanet SPARQL Endpoint",
+      "access_url": "http://kasabi.com/api/sparql-endpoint-yahoo-geoplanet"
+    },
+    {
+      "description": "Kasabi page for Yahoo Geoplanet Lookup API",
+      "access_url": "http://kasabi.com/api/lookup-api-yahoo-geoplanet"
+    },
+    {
+      "description": "Kasabi page for Yahoo Geoplanet Reconciliation API",
+      "access_url": "http://kasabi.com/api/reconciliation-api-yahoo-geoplanet"
+    },
+    {
+      "description": "Kasabi page for Yahoo Geoplanet Augmentation API",
+      "access_url": "http://kasabi.com/api/augmentation-api-yahoo-geoplanet"
+    },
+    {
+      "description": "Void description of Yahoo Geoplanet dataset",
+      "access_url": "http://data.kasabi.com/dataset/yahoo-geoplanet"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to Internet Archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/yahoo-geoplanet.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/yahoo-geoplanet/place/2359974"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint for Yahoo Geoplanet",
+      "access_url": "http://api.kasabi.com/dataset/yahoo-geoplanet/apis/sparql"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "identifier": "tcga",
+  "title": "The Cancer Genome Atlas",
+  "description": {
+    "en": "The RDF representation of TCGA was achieved by representing data elements from the TCGA dataset as statements from the S3DB Core Model (see S3DB Core Model for more information on the S3DB Core Model). As such, the RDF graph that fuels this endpoint is structured according the S3DB Core Model entities: Collections, Items, Rules and Statements. The advantage of this annotation is that entities that belong to the description of the domain are annotated as \"Collections\" (for example, \"Sample\" is a Collection) or Rules (for example, \"GenomicCharacterization-obtainedFrom-Sample\" is a Rule) and their instances are annotated as Items (for example, \"TCGA-01-0001\" is an Item of the collection \"Samples) or Statements (for example, \"TCGA-01-0001\"-\"provided\"-\"GC1234\" is as Statement that uses the Rule \"GenomicCharacterization-obtainedFrom-Sample\"). For more information see Deus HF, DF Veiga, PR Freire, JN Weinstein, GB Mills, JS Almeida (2010) Exposing The Cancer Genome Atlas as a SPARQL endpoint. Journal Biomedical Informatics [PMID 20851208]."
+  },
+  "website": "http://tcga.s3db.org/",
+  "namespace": "http://ibl.mdanderson.org/TCGA/",
+  "triples": 65470,
+  "contact_point": {
+    "name": "Helena F. Deus",
+    "email": "helena.deus@deri.org"
+  },
+  "keywords": [
+    "cancer",
+    "gene",
+    "life",
+    "lifesciences",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "microarray",
+    "no-deref-vocab",
+    "protein",
+    "published-by-third-party",
+    "tcga"
+  ],
+  "other_download": [
+    {
+      "title": "Dump",
+      "description": "Dump",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-01-03T123420/TCGA.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ibl.mdanderson.org/TCGA/I417388"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint for TCGA",
+      "description": "SPARQL endpoint for TCGA",
+      "access_url": "http://hcls.deri.org:8080/openrdf-sesame/repositories/tcga"
+    }
+  ]
+}

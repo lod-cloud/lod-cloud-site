@@ -1,0 +1,35 @@
+{
+  "identifier": "heartfailure",
+  "title": "Meriterm Heart Failure Multilingual Terminology",
+  "description": {
+    "en": "Multilingual (English and French) Heart Failure Terminology linked with SNOMED-CT and ICD-10. Contains also mappings with UMLS and ICPC2.\r\nEach Term Entry has several lexical representations, technical, lay-term and popular.\r\nThe terminology model is based on the Terminological Markup Framework (ISO 16642) and Data Categories from ISO 12620.\r\nThis is still a work-in-progress version of the resource\r\n\r\nThe license is Creative Commons Attribution Non-Commercial Share-Alike\r\nhttp://creativecommons.org/licenses/by-nc-sa/2.0/"
+  },
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 13704,
+  "contact_point": {
+    "name": "Joseph Roumier, Maxime Warnier, Marc Jamoulle, Robert Vander Stichele, Elena Cardillo, Laurent Romary",
+    "email": "joseph.roumier@cetic.be"
+  },
+  "keywords": [
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "bioportal-icd10",
+      "value": 127
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 161
+    }
+  ],
+  "example": [
+    {
+      "title": "Meriterm Heart Failure Multilingual Terminology",
+      "description": "Multilingual (English and French) Heart Failure Terminology linked with SNOMED-CT and ICD-10. Contains also mappings with UMLS and ICPC2.\r\nEach Term Entry has several lexical representations, technical, lay-term and popular.\r\nThe terminology model is based on the Terminological Markup Framework (ISO 16642) and Data Categories from ISO 12620.",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://meriterm.org/heartfailure/heartfailure.rdf"
+    }
+  ]
+}

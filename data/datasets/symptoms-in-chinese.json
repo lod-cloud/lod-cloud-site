@@ -1,0 +1,48 @@
+{
+  "identifier": "symptoms-in-chinese",
+  "title": "Symptoms in Chinese",
+  "description": {
+    "en": "This is a dataset containing entities of symptoms and symptom-related facts. It  is extracted from eight mainstream healthcare websites, three Chinese encyclopedia sites as well as Electronic Medical Records (EMRs). It also includes the link results between symptoms in our dataset and concepts in UMLS. We provide lookup interface and SPARQL endpoint for our dataset (http://dsc.nlp-bigdatalab.org:8081/search.html)."
+  },
+  "website": "http://dsc.nlp-bigdatalab.org:8081/search.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1008772,
+  "contact_point": {
+    "name": "East China University of Science and Technology",
+    "email": "ruantong@ecust.edu.cn"
+  },
+  "keywords": [
+    "Linked Data",
+    "life science",
+    "symptoms in Chinese"
+  ],
+  "other_download": [
+    {
+      "title": "Dataset of Symptoms in Chinese",
+      "description": "Symptom entities, symptom-related entities and their properties in Chinese.",
+      "media_type": "application/vnd.rar",
+      "access_url": "https://datahub.ckan.io/dataset/003abde3-aa16-4126-a8da-2f5d9e472285/resource/8d8bf867-23f6-475a-b023-91ec6093b7bf/download/dsc.nlp-bigdatalab.org.rar"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "media_type": "text/plain",
+      "access_url": "https://datahub.ckan.io/dataset/003abde3-aa16-4126-a8da-2f5d9e472285/resource/600164ff-fdf5-40cf-9d03-3efbb7ef4d95/download/dataset-description-in-dcat.txt"
+    },
+    {
+      "title": "Example",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/003abde3-aa16-4126-a8da-2f5d9e472285/resource/c68762ff-fa0b-443b-882a-f090faab052d/download/example.ttl"
+    },
+    {
+      "description": "Schema of the dataset",
+      "media_type": "text/plain",
+      "access_url": "https://datahub.ckan.io/dataset/003abde3-aa16-4126-a8da-2f5d9e472285/resource/9c38197a-c7e0-4d9c-ab27-5005dc8a41ac/download/dsc-schema.txt"
+    },
+    {
+      "title": "Evaluation results of the dataset",
+      "description": "We sampled 417 triples from 26445 triples which describe the rdf:type of the instances is symptom for calculating the precision of symptoms. We sampled 423 triples from 364,657 triples which are related to symptom (triples containing rdf:type and same:As are not involved). We sampled 395 triples from 6024 triples which describe the links (sameAs) to UMLS. The precisions are 98%, 96%, 92%.",
+      "media_type": "application/vnd.rar",
+      "access_url": "https://datahub.ckan.io/dataset/003abde3-aa16-4126-a8da-2f5d9e472285/resource/e902e889-25a5-4320-acf7-dd96a240d61a/download/evaluation-results-of-the-dataset.rar"
+    }
+  ]
+}

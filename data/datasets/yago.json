@@ -1,0 +1,67 @@
+{
+  "identifier": "yago",
+  "title": "YAGO",
+  "description": {
+    "en": "YAGO3 is a huge semantic knowledge base, derived from Wikipedia WordNet and GeoNames. Currently, YAGO3 has knowledge of more than 10 million entities (like persons, organizations, cities, etc.) and contains more than 120 million facts about these entities."
+  },
+  "domain": "cross_domain",
+  "website": "http://yago-knowledge.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://yago-knowledge.org/resource/",
+  "triples": 120000000,
+  "contact_point": {
+    "name": "YAGO Team"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "crossdomain",
+    "format-rdf",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "ontology",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2625671
+    }
+  ],
+  "other_download": [
+    {
+      "title": "The entire YAGO in RDF/TTL/Turtle format",
+      "media_type": "application/x-7z-compressed",
+      "access_url": "http://resources.mpi-inf.mpg.de/yago-naga/yago3.1/yago3.1_entire_ttl.7z"
+    },
+    {
+      "title": "The entire YAGO in TSV format",
+      "media_type": "application/x-7z-compressed",
+      "access_url": "http://resources.mpi-inf.mpg.de/yago-naga/yago3.1/yago3.1_entire_tsv.7z"
+    },
+    {
+      "title": "Schema of YAGO in TTL/Turtle/RDF",
+      "media_type": "application/x-7z-compressed",
+      "access_url": "http://resources.mpi-inf.mpg.de/yago-naga/yago3.1/yagoSchema.ttl.7z"
+    },
+    {
+      "title": "rdf:type facts of YAGO in RDF/TTL/Turtle",
+      "media_type": "application/x-7z-compressed",
+      "access_url": "http://resources.mpi-inf.mpg.de/yago-naga/yago3.1/yagoTypes.ttl.7z"
+    },
+    {
+      "title": "Taxonomy of YAGO in RDF/TTL/Turtle",
+      "media_type": "application/x-7z-compressed",
+      "access_url": "http://resources.mpi-inf.mpg.de/yago-naga/yago3.1/yagoTaxonomy.ttl.7z"
+    },
+    {
+      "title": "Simplified taxonomy, multilingual, links to DBpedia, geonames, WordNet",
+      "description": "Go to the Web page of YAGO to check individual downloads. These include:\r\n\r\n* TAXONOMY: All types of entitites, and the class structure of YAGO2s. Moreover, it has formal definitions of YAGO relations.\r\n* SIMPLETAX: An alternative, simpler taxonomy of YAGO.\r\n* CORE: Core facts of YAGO2s, such as the facts between entities, the facts containing literals,i.e., numbers, dates, strings, etc.\r\n* GEONAMES: Geographical entities, classes taken from GeoNames.\r\n* META: Temporally and spatially scoped facts together with statistics and extraction sources about the facts.\r\n* MULTILINGUAL: The multilingual names for entities.\r\n* LINK: The connection of YAGO2s to Wordnet, DBPedia, etc.\r\n* OTHER: Miscellaneous features of YAGO2s, such as Wikipedia in-outlinks, etc.",
+      "access_url": "http://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/downloads/"
+    }
+  ]
+}

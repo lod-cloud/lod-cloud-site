@@ -1,0 +1,51 @@
+{
+  "identifier": "epa-rcra",
+  "title": "EPA-RCRA",
+  "description": {
+    "en": "Hazardous waste information is contained in the Resource Conservation and Recovery Act Information (RCRAInfo), a national program management and inventory system about hazardous waste handlers."
+  },
+  "website": "https://opendata.epa.gov",
+  "triples": 132010000,
+  "contact_point": {
+    "name": "EPA Office of Environmental Information",
+    "email": "admin@3roundstones.com"
+  },
+  "keywords": [
+    "environmental",
+    "government",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "epa-frs",
+      "value": 855512
+    }
+  ],
+  "other_download": [
+    {
+      "title": "EPA Linked Data Services",
+      "description": "Platform for accessing all EPA Linked Data sets using query tools, services, applications, URI resolution, mapping and more.",
+      "access_url": "https://opendata.epa.gov"
+    },
+    {
+      "title": "RCRA Schema",
+      "description": "RDF schema in TTL format describing the classes and predicates in the data.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/rcra/schema.ttl"
+    },
+    {
+      "title": "VoID description",
+      "description": "VoID is an RDF Schema vocabulary for expressing metadata about RDF datasets",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/meta/rcra/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RCRA report",
+      "description": "Sample RCRA waste handling report for a nuclear plant",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://opendata.epa.gov/data/rcrareport/AL8640015410/AL/N/16.ttl"
+    }
+  ]
+}

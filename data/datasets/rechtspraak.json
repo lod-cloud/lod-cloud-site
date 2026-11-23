@@ -1,0 +1,68 @@
+{
+  "identifier": "rechtspraak",
+  "title": "Rechtspraak.nl",
+  "description": {
+    "en": "RDF version of the official case law dataset of the Netherlands Council of the Judiciary (at [http://www.rechtspraak.nl](http://www.rechtspraak.nl)). It contains approximately 145k descriptions of court proceedings, linked to DBPedia and Geonames (places mentioned in cases). It contains all Dutch courts and their locations.\r\n\r\nURIs are dereferenceable.\r\n\r\nExample: [http://linkeddata.few.vu.nl/rechtspraak/uitspraak/BM4461](http://linkeddata.few.vu.nl/rechtspraak/uitspraak/BM4461)\r\n\r\nThis dataset was developed within the BEST project at the VU University Amsterdam."
+  },
+  "domain": "government",
+  "website": "http://www.best-project.nl",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://linkeddata.few.vu.nl/rechtspraak/",
+  "triples": 1931860,
+  "contact_point": {
+    "name": "Rinke Hoekstra",
+    "email": "hoekstra@few.vu.nl"
+  },
+  "keywords": [
+    "broken_link",
+    "case-law",
+    "deref-vocab",
+    "format-dbo",
+    "format-dbpedia",
+    "format-geo",
+    "format-geonames",
+    "format-metalex",
+    "format-owl",
+    "format-rdf",
+    "government",
+    "law",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "void-sparql-endpoint",
+    "vu"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 575
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 220058
+    }
+  ],
+  "other_download": [
+    {
+      "description": "VOID Description",
+      "media_type": "meta/void",
+      "access_url": "http://www.best-project.nl/rechtspraak.ttl"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://linkeddata.few.vu.nl/rechtspraak/uitspraak/BM4461"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://eculture2.cs.vu.nl:5020/sparql/"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "identifier": "rkb-explorer-southampton",
+  "title": "School of Electronics and Computer Science, University of Southampton (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://southampton.rkbexplorer.com",
+  "namespace": "http://southampton.rkbexplorer.com/id/",
+  "triples": 298067,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 11
+    },
+    {
+      "target": "ecs",
+      "value": 100
+    },
+    {
+      "target": "freebase",
+      "value": 10
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 3142
+    },
+    {
+      "target": "rkb-explorer-bibo",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 2637
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 47
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 6386
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 60
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 73841
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 39937
+    },
+    {
+      "target": "rkb-explorer-epsrc",
+      "value": 36
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 20
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 104
+    },
+    {
+      "target": "rkb-explorer-jisc",
+      "value": 9
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 711
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 11
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 118
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 41
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 24877
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 2624
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 12
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 54
+    },
+    {
+      "target": "semantictweet",
+      "value": 1
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 8526
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://southampton.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://southampton.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://southampton.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://southampton.rkbexplorer.com/id/person-00021"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://southampton.rkbexplorer.com/sparql/"
+    }
+  ]
+}

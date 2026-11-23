@@ -1,0 +1,57 @@
+{
+  "identifier": "salzburgerland-com-it",
+  "title": "Salzburgerland IT",
+  "description": {
+    "en": "Salzburgerland dataset for Italian resources, built with WordLift from the website https://www.salzburgerland.com/it/"
+  },
+  "domain": "media",
+  "website": "https://www.salzburgerland.com/it/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 4352,
+  "image": "https://www.salzburgerland.com/de/wp-content/themes/slt/assets/img/logo.svg",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "travel",
+    "wordlift",
+    "salzbugerland"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 192
+    },
+    {
+      "target": "freebase",
+      "value": 184
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 41
+    },
+    {
+      "target": "wikidata",
+      "value": 4
+    },
+    {
+      "target": "yago",
+      "value": 80
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Salzburgerland IT",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/it.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Austria",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://open.salzburgerland.com/it/entity/austria"
+    }
+  ]
+}

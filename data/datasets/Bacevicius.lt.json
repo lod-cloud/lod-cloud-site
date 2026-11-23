@@ -1,0 +1,20 @@
+{
+  "identifier": "Bacevicius.lt",
+  "title": "Bacevicius.lt",
+  "description": {
+    "en": "Aivaras Bacevičius"
+  },
+  "domain": "cross_domain",
+  "website": "https://bacevicius.lt",
+  "license": "https://opendefinition.org/licenses/fal",
+  "triples": 0,
+  "image": "https://bacevicius.lt/favicon/apple-touch-icon.png",
+  "contact_point": {
+    "name": "-",
+    "email": "slamstastika@gmail.com"
+  },
+  "keywords": [
+    "SEO",
+    "digital marketing"
+  ]
+}

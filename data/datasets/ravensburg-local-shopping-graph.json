@@ -1,0 +1,47 @@
+{
+  "identifier": "ravensburg-local-shopping-graph",
+  "title": "Ravensburg Local Shopping Graph",
+  "description": {
+    "en": "The complete (99% of all points of interest), quality-controlled (60% updated within the last 4 weeks) GoodRelations-based description of shopping and trade in a major German city, with a unique data density."
+  },
+  "website": "http://www.lieber-ravensburg.de/developer/",
+  "triples": 100000,
+  "contact_point": {
+    "name": "die-welfenburg.de, at data Software GmbH, Aulendorf, Hepp Research GmbH, Ravensburg"
+  },
+  "keywords": [
+    "commerce",
+    "ecommerce",
+    "goodrelations",
+    "lodcloud.nolinks",
+    "no-deref-vocab",
+    "opendatachallenge",
+    "published-by-third-party",
+    "ravensburg"
+  ],
+  "other_download": [
+    {
+      "description": "Sitemap file",
+      "media_type": "XML",
+      "access_url": "http://www.wifo-ravensburg.de/rdf/sitemap.xml"
+    },
+    {
+      "description": "Utility vocabulary",
+      "media_type": "RDF",
+      "access_url": "http://www.wifo-ravensburg.de/rdf/semanticweb.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.wifo-rv.de/rdf/semanticweb12.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Linked Open Commerce SPARQL endpoint",
+      "access_url": "http://linkedopencommerce.com/sparql"
+    }
+  ]
+}

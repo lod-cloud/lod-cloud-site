@@ -1,0 +1,190 @@
+{
+  "identifier": "rkb-explorer-acm",
+  "title": "Association for Computing Machinery (ACM) (RKBExplorer)",
+  "description": {
+    "en": "Linked Data version of publications of the Association for Computing Machinery (ACM), along with details of their authors."
+  },
+  "domain": "publications",
+  "website": "http://acm.rkbexplorer.com/",
+  "namespace": "http://acm.rkbexplorer.com/id/",
+  "triples": 12402336,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 5
+    },
+    {
+      "target": "freebase",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 38
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 208852
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 44
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 9
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 17
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 869965
+    },
+    {
+      "target": "rkb-explorer-deepblue",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 15116
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 70169
+    },
+    {
+      "target": "rkb-explorer-epsrc",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 196
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 2465
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 827
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 52286
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 210
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 899
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 34
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 99757
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 100
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 4783
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 102
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 55
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 66
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 2114
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 18
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 42
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 33
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 67
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://acm.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://acm.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://acm.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://acm.rkbexplorer.com/id/998550"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://acm.rkbexplorer.com/sparql/"
+    }
+  ]
+}

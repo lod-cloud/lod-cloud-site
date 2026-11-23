@@ -1,0 +1,49 @@
+{
+  "identifier": "geoecuador",
+  "title": "GeoEcuador",
+  "description": {
+    "en": "Ecuadorian geospatial LD dataset"
+  },
+  "namespace": "http://geo.linkeddata.ec/resource",
+  "triples": 1278288,
+  "contact_point": {
+    "name": "Universidad de Cuenca",
+    "email": "victor.saquicela@ucuenca.edu.ec"
+  },
+  "keywords": [
+    "geospatial",
+    "linked data",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 4502
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Sparql Endpoint",
+      "description": "GeoSparql Endpoint geo.linkeddata.ec dataset",
+      "media_type": "RDF",
+      "access_url": "http://190.15.132.241/marmotta/sparql/select"
+    },
+    {
+      "title": "Ecuadorian GeoSpatial",
+      "media_type": "application/zip",
+      "access_url": "http://geo.linkeddata.ec/download/data.zip"
+    },
+    {
+      "title": "internal owl:sameAs links",
+      "description": "1993",
+      "media_type": "application/zip",
+      "access_url": "http://geo.linkeddata.ec/download/owlSameAs.zip"
+    },
+    {
+      "title": "DBPedia owl:sameAs",
+      "description": "4502",
+      "access_url": "http://geo.linkeddata.ec/download/DBPedia_owlSameAs.zip"
+    }
+  ]
+}

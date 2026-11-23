@@ -1,0 +1,36 @@
+{
+  "identifier": "CONNECTED",
+  "title": "MIMO",
+  "description": {
+    "en": "This is the MIMO Ontology, a knowledge graph to model the concept of Manifest. The Manifest is a machine-readable formal description that enriches the model with a detailed explanation of its interface, adopting existing standards and ontologies, such as LOINC, SNOMED-CT, and UOM. It essentially allows us to produce a computable version of the model that can be shared, reused, and linked. The adoption of the Manifest allows for the development of algorithms to automatically index models, aggregate their capabilities, and exploit them to deal with complex tasks. By using an ontology to construct our formal representation of ML models, we standardize the nomenclature and representation of ML model reports, essentially producing a computable version of the model that can be shared, reused, and linked. Manifests are computable artifacts, able to link information about ML models, leverage semantic reasoning to link the information, and open up software tooling opportunities, aggregation of models, and querying of the information for healthcare ML research."
+  },
+  "domain": "life_sciences",
+  "website": "https://christianderrico.github.io/CONNECTED",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://model-interface-manifest-ontology-ad0613.gitlab.io",
+  "triples": 290,
+  "contact_point": {
+    "name": "Christian D'Errico",
+    "email": "christian.derrico2@unibo.it"
+  },
+  "links": [
+    {
+      "target": "Bioportal",
+      "value": 1
+    }
+  ],
+  "full_download": [
+    {
+      "title": "MIMO Ontology",
+      "description": "This is a link for MIMO download",
+      "download_url": "https://model-interface-manifest-ontology-ad0613.gitlab.io/MIMO.owl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "MIMO/endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://localhost:3030/Dataset/query"
+    }
+  ]
+}

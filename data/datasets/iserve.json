@@ -1,0 +1,71 @@
+{
+  "identifier": "iserve",
+  "title": "iServe: Linked Services Registry",
+  "description": {
+    "en": "iServe is the place on the Web where linked data meets services. In a nutshell, iServe is a platform for publishing Semantic Web Services as linked data, no matter their original format."
+  },
+  "domain": "cross_domain",
+  "website": "http://iserve.kmi.open.ac.uk/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://iserve.kmi.open.ac.uk/iserve/",
+  "triples": 2239738,
+  "contact_point": {
+    "name": "iServe Team",
+    "email": "iserve-general@googlegroups.com"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-hrests",
+    "format-http",
+    "format-msm",
+    "format-msm-nfp",
+    "format-msm-wsdl",
+    "format-rdf",
+    "format-sawsdl",
+    "format-wl",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 448
+    },
+    {
+      "target": "freebase",
+      "value": 536
+    },
+    {
+      "target": "yago",
+      "value": 394
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Minimal Service Model",
+      "description": "RDF Schema",
+      "access_url": "http://iserve.kmi.open.ac.uk/ns/msm"
+    },
+    {
+      "description": "Service description example",
+      "access_url": "http://iserve.kmi.open.ac.uk/iserve/id/services/774d974e-175b-4747-9326-63787de9e086/twitter"
+    },
+    {
+      "title": "voID description",
+      "access_url": "http://iserve.kmi.open.ac.uk/iserve/void.ttl#iServe"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://iserve.kmi.open.ac.uk/iserve/sparql"
+    }
+  ]
+}

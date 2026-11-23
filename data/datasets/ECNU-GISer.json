@@ -1,0 +1,51 @@
+{
+  "identifier": "ECNU-GISer",
+  "title": "《老子》译本传播知识图谱",
+  "description": {
+    "en": "《老子》译本传播知识图谱由模式层和数据层所构成，模式层由典籍译本传播本体来定义，数据层是在典籍译本传播本体的框架下针对《老子》译本传播进行的实例填充。"
+  },
+  "domain": "cross_domain",
+  "website": "http://139.9.165.59:8080/laozi_vite/index.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 12689,
+  "contact_point": {
+    "name": "Cui Yu",
+    "email": "277867343@qq.com"
+  },
+  "keywords": [
+    "Lao Tzu",
+    "Digital Humanities"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 512
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 498
+    }
+  ],
+  "full_download": [
+    {
+      "title": "book",
+      "download_url": "https://raw.githubusercontent.com/cuiyu0316/Lao-Tzu/refs/heads/main/book.rdf"
+    },
+    {
+      "title": "language",
+      "download_url": "https://raw.githubusercontent.com/cuiyu0316/Lao-Tzu/refs/heads/main/language.rdf"
+    },
+    {
+      "title": "country",
+      "download_url": "https://raw.githubusercontent.com/cuiyu0316/Lao-Tzu/refs/heads/main/country.rdf"
+    },
+    {
+      "title": "city",
+      "download_url": "https://raw.githubusercontent.com/cuiyu0316/Lao-Tzu/refs/heads/main/city.rdf"
+    },
+    {
+      "title": "person",
+      "download_url": "https://raw.githubusercontent.com/cuiyu0316/Lao-Tzu/refs/heads/main/person.rdf"
+    }
+  ]
+}

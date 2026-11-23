@@ -1,0 +1,44 @@
+{
+  "identifier": "clld-glottolog",
+  "title": "CLLD-GLOTTOLOG",
+  "description": {
+    "en": "Glottolog 2.7 published by the CLLD project"
+  },
+  "domain": "linguistics",
+  "website": "http://glottolog.org",
+  "triples": 8322839,
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 7822
+    },
+    {
+      "target": "geonames",
+      "value": 10763
+    },
+    {
+      "target": "gold",
+      "value": 24393
+    },
+    {
+      "target": "lexvo",
+      "value": 7822
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID description",
+      "access_url": "http://glottolog.org/void.ttl"
+    },
+    {
+      "title": "RDF dump",
+      "media_type": "text/n3",
+      "access_url": "http://glottolog.org/static/download/glottolog-dataset.n3.gz"
+    }
+  ]
+}

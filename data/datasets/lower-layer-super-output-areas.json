@@ -1,0 +1,66 @@
+{
+  "identifier": "lower-layer-super-output-areas",
+  "title": "Lower Layer Super Output Areas",
+  "description": {
+    "en": "This dataset provides information on the Lower Layer Super Output Areas for England and Wales, derived from information from the Office of National Statistics.\r\n\r\nThe data is in the form of Linked Data.  Each area has a URI, name, centroid location as lat/long and easting/northing and a link to the corresponding local authority area.\r\n\r\nThese identifiers are used by the Index of Multiple Deprivation linked data datasets at http://opendatacommunities.org\r\n\r\n273128 triples"
+  },
+  "website": "http://opendatacommunities.org/datasets/geography",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "triples": 273128,
+  "contact_point": {
+    "name": "Bill Roberts",
+    "email": "bill@swirrl.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "england",
+    "format-rdf",
+    "geographic",
+    "geography",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "output-areas",
+    "published-by-producer",
+    "wales"
+  ],
+  "other_download": [
+    {
+      "description": "RDF data dump in Turtle format (zipped)",
+      "media_type": "application/zip",
+      "access_url": "http://opendatacommunities-downloads.s3.amazonaws.com/lsoa.ttl.zip"
+    },
+    {
+      "description": "API metadata",
+      "access_url": "http://opendatacommunities.org/datasets/geography.ttl"
+    },
+    {
+      "description": "Example resource",
+      "access_url": "http://opendatacommunities.org/id/geography/lsoa/E01000001.json"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/n-triples",
+      "access_url": "http://opendatacommunities.org/id/geography/lsoa/E01000001.nt"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://opendatacommunities.org/id/geography/lsoa/E01000001.rdf"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "http://opendatacommunities.org/id/geography/lsoa/E01000001.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://opendatacommunities.org/sparql"
+    }
+  ]
+}

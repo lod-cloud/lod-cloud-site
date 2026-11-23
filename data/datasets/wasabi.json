@@ -1,0 +1,67 @@
+{
+  "identifier": "wasabi",
+  "title": "WASABI RDF Knowledge Graph",
+  "description": {
+    "en": "The WASABI RDF Knowledge Graph provides an RDF representation of the WASABI song corpus, a corpus of 2M+ songs enriched with metadata extracted from music databases on the Web, and resulting from the processing of song lyrics and from audio analysis."
+  },
+  "domain": "media",
+  "website": "https://github.com/micbuffa/WasabiDataset",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://ns.inria.fr/wasabi/",
+  "triples": 183494891,
+  "doi": "10.5281/zenodo.3833753",
+  "contact_point": {
+    "name": "Michel BUFFA",
+    "email": "buffa@i3s.unice.fr"
+  },
+  "keywords": [
+    "music",
+    "metadata",
+    "lyrics analysis",
+    "linked data",
+    "audio analysis",
+    "song"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 222329
+    },
+    {
+      "target": "wikidata",
+      "value": 34449
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF dump",
+      "description": "The dataset is downloadable from Zenodo as a single archive consisting of several RDF dumps in Turtle.",
+      "media_type": "application/octet-stream",
+      "download_url": "https://zenodo.org/record/3833753/files/covidontheweb-1-1.tar"
+    }
+  ],
+  "example": [
+    {
+      "title": "Song example",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/micbuffa/WasabiDataset/blob/master/ontology/example_song.ttl"
+    },
+    {
+      "title": "Album example",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/micbuffa/WasabiDataset/blob/master/ontology/example_album.ttl"
+    },
+    {
+      "title": "Artist example",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/micbuffa/WasabiDataset/blob/master/ontology/example_artist.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WASABI SPARQL endpoint",
+      "description": "See the description of the available named graphs on https://github.com/micbuffa/WasabiDataset",
+      "access_url": "http://wasabi.inria.fr/sparql"
+    }
+  ]
+}

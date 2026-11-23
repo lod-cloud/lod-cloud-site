@@ -1,0 +1,30 @@
+{
+  "identifier": "Organchem-Data",
+  "title": "Medicine and Natural Product Data",
+  "description": {
+    "en": "The data of the Shanghai Institute of Organic Chemistry serves chemical and scientific research and development, providing information on compound structure and identification, natural product and medicinal chemistry, safety and environmental protection, chemical literature, chemical reactions and synthesis.Medicine and Natural Product Data 3,127,633 Triples The medicine and natural product dataset contains mainly medicine and natural product information for compounds. In particular, it is composed of the following 2 aspects: drug information: physicochemical properties, pharmacological toxicity, uses, etc.; natural product information: applications, development status, decomposition coefficients, toxicity test data, etc."
+  },
+  "domain": "cross_domain",
+  "website": "http://semweb.csdb.cn/organchem",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 3127633,
+  "contact_point": {
+    "name": "Dai Jingfang",
+    "email": "chemdatabase@mail.sioc.ac.cn"
+  },
+  "keywords": [
+    "Medicine and Natural Product Data"
+  ],
+  "links": [
+    {
+      "target": "Bioportal",
+      "value": 8589
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Organchem-Data",
+      "access_url": "http://organchem.semweb.csdb.cn/MedNPs/sparql"
+    }
+  ]
+}

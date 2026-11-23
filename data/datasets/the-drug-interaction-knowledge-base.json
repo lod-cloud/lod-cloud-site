@@ -1,0 +1,62 @@
+{
+  "identifier": "the-drug-interaction-knowledge-base",
+  "title": "The Drug Interaction Knowledge Base",
+  "description": {
+    "en": "The Drug Interaction Knowledge Base (DIKB) is clinically-oriented, evidence-based, knowledge base designed to support pharmacoepidemiology and clinical decision support. It contains quantitative and qualitative assertions about drug mechanisms and pharmacokinetic drug-drug interactions for over 60 drugs; primarily psychotropics and HMG-CoA reductase inhibitors (statins). The linked-data version of the DIKB was implemented using emerging practices from the W3C HCLS SIG Linking Open Drug Data and Scientific Discource task forces."
+  },
+  "website": "http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/front-page.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 39992,
+  "contact_point": {
+    "name": "Richard D Boyce",
+    "email": "rdb20@pitt.edu"
+  },
+  "keywords": [
+    "deref-vocab",
+    "drug-drug-interactions",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "medications-safety",
+    "no-proprietary-vocab",
+    "pharmacoepidemiology",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "title": "The Linked-data version of the Drug Interaction Knowledge Base",
+      "description": "Sparql endpoint",
+      "media_type": "text/rdf+n3",
+      "access_url": "https://dbmi-icode-01.dbmi.pitt.edu/dikb/sparql"
+    },
+    {
+      "title": "Home page for the evidence-base component of the DIKB",
+      "description": "Home page for the evidence-base component of the DIKB",
+      "media_type": "HTML",
+      "access_url": "http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/front-page.html"
+    },
+    {
+      "title": "Example URI",
+      "description": "Example URI",
+      "media_type": "text/rdf+n3",
+      "access_url": "https://dbmi-icode-01.dbmi.pitt.edu/dikb/page/DDIObservations1"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI",
+      "description": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "https://dbmi-icode-01.dbmi.pitt.edu/dikb/page/DDIPredictions/1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint to the DIKB",
+      "description": "SPARQL endpoint to the DIKB",
+      "access_url": "https://dbmi-icode-01.dbmi.pitt.edu/dikb/sparql"
+    }
+  ]
+}

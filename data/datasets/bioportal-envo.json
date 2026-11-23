@@ -1,0 +1,175 @@
+{
+  "identifier": "bioportal-envo",
+  "title": "Environment Ontology",
+  "description": {
+    "en": "Ontology of environmental features and habitats"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1069",
+  "triples": 26584,
+  "contact_point": {
+    "name": "Envo Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-adw",
+      "value": 13
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 21
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 25
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 20
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 69
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 18
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 25
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 54
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 112
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 24
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 15
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 65
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 72
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mcv",
+      "value": 37
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 140
+    },
+    {
+      "target": "bioportal-mfo",
+      "value": 28
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 129
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 129
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 22
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 26
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 11
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 10
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 22
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 124
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 28
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 10
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 214
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 24
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 32
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 15
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45418?apikey=BP_API_KEY"
+    }
+  ]
+}

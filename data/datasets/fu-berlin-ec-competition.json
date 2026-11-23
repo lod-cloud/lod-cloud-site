@@ -1,0 +1,37 @@
+{
+  "identifier": "fu-berlin-ec-competition",
+  "title": "European Commission Competition data set (FU Berlin)",
+  "description": {
+    "en": "Case database of antitrust cases, cartels, mergers, and state aid, maintained by the European Commission. Republished as Linked Data."
+  },
+  "website": "http://www4.wiwiss.fu-berlin.de/eccompetition/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/eccompetition/resource/",
+  "triples": 582579,
+  "keywords": [
+    "antitrust",
+    "business",
+    "cartels",
+    "competition",
+    "ec",
+    "eccompetition",
+    "europe",
+    "europeanunion",
+    "latc",
+    "lod",
+    "mergers",
+    "stateaid"
+  ],
+  "example": [
+    {
+      "title": "Example merger (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/eccompetition/resource/Merger/M.10"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/eccompetition/sparql"
+    }
+  ]
+}

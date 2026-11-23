@@ -1,0 +1,53 @@
+{
+  "identifier": "SCBG-Data",
+  "title": "SCBG Data",
+  "description": {
+    "en": "South China Botanical Garden of the Chinese Academy of Sciences, formerly known as the National Sun Yat-sen University Institute of Agricultural and Forestry Botany, by the famous botanist Chen Huanyong academician founded in 1929. On May 30, 2022, the State Council approved the establishment of the South China National Botanical Garden based on the South China Botanical Garden of the Chinese Academy of Sciences. The whole garden consists of three parks.\nGuangdong Botanical Journal Electronic Edition 92,027 Triples The dataset is compiled by the Key Laboratory of Data Botanical Garden of Guangdong Province through the electronic \"Guangdong Botanical Record\", including Latin name, Chinese name, family and genus information, plant description, distribution, origin, and use, and then collated, audited, and analyzed, and standardized the plant name information, processed the geographic location information, and added the geographic coordinate information, in order to achieve the data standard associated with other data, and to share the data free of charge.\nDongguan Forest Economy Plant List 8,285 Triples On the basis of a comprehensive survey of Dongguan's municipal area, 735 species of new and superior understory economic plants in Guangdong Province were collected, listing the botanical names, Latin names, families, genera, uses, and so on.\nChina Energy Plant Dataset 57,099 Triples The South China Botanical Garden, part of the Chinese Academy of Sciences, has gathered valuable scientific data resources over 50 years, particularly through the \"Scientific and Technological Fundamental Special Project - Survey, Collection, and Preservation of Non-food Diesel Energy Plants and Related Microbial Resources.\" This data is essential for establishing China's non-food biodiesel feedstock plant feasibility system and oil utility standards. It will play a pivotal role in identifying high-quality energy plant resources, ensuring energy security, and supporting China's economic and environmental goals."
+  },
+  "domain": "life_sciences",
+  "website": "http://semweb.csdb.cn/scbg",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 3,
+  "contact_point": {
+    "name": "谭辉同",
+    "email": "network@scbg.ac.cn"
+  },
+  "keywords": [
+    "Species",
+    "Classification",
+    "kingdom",
+    "Phylum",
+    "class",
+    "order",
+    "Family",
+    "Genus"
+  ],
+  "links": [
+    {
+      "target": "UniProt",
+      "value": 13
+    },
+    {
+      "target": "bio2rdf-ctd",
+      "value": 25
+    },
+    {
+      "target": "bio2rdf-ndc",
+      "value": 4
+    },
+    {
+      "target": "dbpedia",
+      "value": 3622
+    },
+    {
+      "target": "yago",
+      "value": 3427
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SCBG Data SPARQL endpoint",
+      "access_url": "https://semweb.scbg.ac.cn/sparql"
+    }
+  ]
+}

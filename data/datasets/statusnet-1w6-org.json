@@ -1,0 +1,85 @@
+{
+  "identifier": "statusnet-1w6-org",
+  "title": "statusnet-1w6-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://1w6.org"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    },
+    {
+      "target": "personal-homepages",
+      "value": 5
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 2
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 1
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-mrblog-nl",
+      "value": 1
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 54
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 6
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 2
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://sn.1w6.org/drak/foaf"
+    }
+  ]
+}

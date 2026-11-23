@@ -1,0 +1,30 @@
+{
+  "identifier": "enslaved.org",
+  "title": "Enslaved.org",
+  "description": {
+    "en": "The primary focus of Enslaved.org is people—individuals who were enslaved, owned slaves, were connected to the slave trade, and worked to emancipate slaves."
+  },
+  "domain": "cross_domain",
+  "website": "https://enslaved.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 55729113,
+  "image": "https://enslaved.org/assets/images/Logo.svg",
+  "contact_point": {
+    "name": "Matrix: the Center for Digital Humanities and Social Sciences",
+    "email": "enslaved.org@gmail.com"
+  },
+  "keywords": [
+    "Slave Trade",
+    "Digital Humanities",
+    "People",
+    "Events",
+    "Places"
+  ],
+  "full_download": [
+    {
+      "title": "Full RDF dump Enslaved.org",
+      "media_type": "application/octet-stream",
+      "download_url": "https://manta.matrix.msu.edu/msumatrix/public/exports/wikibase/2bde7b5b/latest.wikibase.dump.rdf.gz"
+    }
+  ]
+}

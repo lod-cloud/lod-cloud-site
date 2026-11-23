@@ -1,0 +1,45 @@
+{
+  "identifier": "ILUSOC",
+  "title": "Interpretation of Land Use Data in Ordos City",
+  "description": {
+    "en": "Interpretation of Land Use Data in Ordos City"
+  },
+  "domain": "geography",
+  "website": "https://github.com/cks1999/EOKP",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "cks",
+    "email": "caikuangsheng@126.com"
+  },
+  "keywords": [
+    "Ordos City; Land Use"
+  ],
+  "other_download": [
+    {
+      "title": "Landsat-5-TM raw remote sensing image dataset for China region, April 1986-November 2011",
+      "access_url": "https://www.chinageoss.cn/rsgs/datasharing/datasetDetails/624683ed19d7dd03f13c8c2c"
+    },
+    {
+      "title": "Landsat-7-ETM raw remote sensing image dataset for the China region, July 1999-September 2004",
+      "access_url": "https://www.chinageoss.cn/rsgs/datasharing/datasetDetails/624686bf19d7dd03f13c8c2f"
+    },
+    {
+      "title": "Landsat-8-OLI_TIRS raw remote sensing image dataset for China region, May 2013-April 2022",
+      "access_url": "https://data.casearth.cn/sdo/detail/6253cddb819aec49731a4b61"
+    },
+    {
+      "title": "Land use data of Ordos City in 2010",
+      "access_url": "https://data.tpdc.ac.cn/zh-hans/data/a75843b4-6591-4a69-a5e4-6f94099ddc2d"
+    },
+    {
+      "title": "Study on Land Use/Cover and Vegetation Cover Changes in Ordos City",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=HboJJBuTKtQFhACEoLKyI3KmipjQNLzkurbsQO8CPhHpKABhPihRXe7ja0Kb443weoiwqbPEXIq3dd28E3OGLzOsDH7OHC_QT_dvfqcKOjoNMHtFqI_CZS-fMsve0ZDrDB54mVcdvwxd9GmmWARZZ1nBH2wCL11zLDcu5VO-GvU=&uniplatform=NZKPT&language=CHS"
+    },
+    {
+      "title": "ARCGIS",
+      "access_url": "https://desktop.arcgis.com/"
+    }
+  ]
+}

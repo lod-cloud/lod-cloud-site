@@ -1,0 +1,77 @@
+name: Site
+
+# Builds the Jekyll site in site/ and the data files from data/datasets. It is not deployed yet;
+# publishing to GitHub Pages is part of the cutover (#105).
+on:
+  pull_request:
+    branches: [main, dev]
+  push:
+    branches: [main, dev]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # No LFS: the site's own images are stored normally, and the old
+      # versions/ images (several GB in LFS) are not needed to build it.
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      # Which datasets are flagged as unavailable comes from the link check's results
+      # (the Links workflow, on the link-status branch). Before the first check there are none.
+      - name: Link status
+        run: |
+          if git fetch -q --depth 1 origin link-status; then
+            git show FETCH_HEAD:resources.json > resources.json
+          fi
+          python scripts/availability.py --state resources.json --out site/_data/availability.json
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+          working-directory: site
+
+      - name: Build
+        working-directory: site
+        run: bundle exec jekyll build --strict_front_matter --destination ../_site
+
+      # lod-data.json, extract/, json/, api/, rdf/, ttl/ and nt/ (the old dynamic URLs)
+      - name: Export data files
+        run: python scripts/export_site_data.py _site
+
+      # The search index of the dataset pages (site/search/), written to _site/pagefind/
+      - name: Search index
+        run: npx --yes pagefind@1.4.0 --site _site
+
+      - name: Every dataset has its pages and files
+        run: python scripts/check_site_paths.py _site
+
+      - name: Internal links resolve
+        run: python scripts/check_site_links.py _site
+
+      # Tarred first: upload-artifact rejects file names containing ":" and
+      # 28 dataset identifiers contain one.
+      - name: Archive site
+        run: tar czf site.tar.gz -C _site .
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site.tar.gz
+          retention-days: 7

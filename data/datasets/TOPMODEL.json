@@ -1,0 +1,49 @@
+{
+  "identifier": "TOPMODEL",
+  "title": "Topography based Hydrological Model",
+  "description": {
+    "en": "TOPMODEL is a physically-based, semi-distributed, variable-source area rainfall-runoff model, and is based on the Topographic Wetness Index (TWI)."
+  },
+  "domain": "geography",
+  "website": "https://geomodeling.njnu.edu.cn/modelItem/5ee7cd6a-c71d-45a8-b7d6-060c07978be9",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "ki",
+    "email": "544834722@qq.com"
+  },
+  "keywords": [
+    "Hydrological model",
+    "Runoff analysis"
+  ],
+  "other_download": [
+    {
+      "title": "Land cover type data of Heihe Jinpeng Reservoir",
+      "description": "DescribedByPaper",
+      "media_type": "data",
+      "access_url": "http://globalchange.nsdc.cn"
+    },
+    {
+      "title": "DEM data of 30m×30m",
+      "description": "DescribedByPaper",
+      "access_url": "http://www.gscloud.cn"
+    },
+    {
+      "title": "Application and improvement of TOPMODEL in runoff simulation analysis in sub-humid region",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ijP0rjQD-AVm8oHBO0FTadn5HqUGdzqKohQDVWXZIqdI6uet5WU4sWdZZU_CYS1u1&uniplatform=NZKPT"
+    },
+    {
+      "title": "Application of HEC-HMS model and TOPMODEL to forecast mountain flood in Dongzhuang River Basin",
+      "description": "DescribedByPaper",
+      "media_type": "paper",
+      "access_url": "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iLik5jEcCI09uHa3oBxtWoGBiw_lHE7FEog3WR_fEfVMvBy8YRxgiqOIXaPPpv6wL&uniplatform=NZKPT"
+    },
+    {
+      "title": "Topography based Hydrological Model code",
+      "description": "ImplementedByAlgorithm",
+      "access_url": "https://geomodeling.njnu.edu.cn/modelItem/753cba90-7afa-455b-888b-60be46ac0aa1"
+    }
+  ]
+}

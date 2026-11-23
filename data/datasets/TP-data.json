@@ -1,0 +1,32 @@
+{
+  "identifier": "TP-data",
+  "title": "Observation dataset of forest ecosystems",
+  "description": {
+    "en": "The National Tibetan Plateau Data Center (TPDC) is one of the first of 20 national data centers established in 2019 by the Ministry of Science and Technology and the Ministry of Finance of the People’s Republic of China. It is the only data center in China with the most complete scientific data for the Tibetan Plateau and surrounding regions. TPDC is hosted by the Institute of Tibetan Plateau Research of Chinese Academy of Sciences (ITPCAS), with support from Lanzhou University, Beijing Normal University, and Computer Network Information Center, Chinese Academy of Sciences. ITPCAS also hosts the Third Pole Environment (TPE) International Program Office.Observation dataset of forest ecosystems on the eastern margin of the Tibet Plateau (2005-2008) mainly contains the qinghai-tibet plateau edge site forest ecosystem experimental station observation data such as weather, soil, vegetation, mainly from 2005-2008."
+  },
+  "domain": "cross_domain",
+  "website": "http://semweb.csdb.cn/tpdc",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 12793,
+  "contact_point": {
+    "name": "Yang Xiaojuan",
+    "email": "data@itpcas.ac.cn"
+  },
+  "keywords": [
+    "Observation",
+    "Tibet Plateau",
+    "Forest"
+  ],
+  "links": [
+    {
+      "target": "plant-specimen",
+      "value": 588
+    }
+  ],
+  "sparql": [
+    {
+      "title": "TP-data",
+      "access_url": "http://tpdc.semweb.csdb.cn/forestObserv/sparql"
+    }
+  ]
+}

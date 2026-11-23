@@ -1,0 +1,50 @@
+{
+  "identifier": "zbw-labs",
+  "title": "ZBW Labs",
+  "description": {
+    "en": "ZBW Labs projects exposed as Linked Open Data.\r\n\r\nZBW Labs gives you insight into some of the latest software developments of ZBW Leibniz Information Cenre for Economis. Through this platform, ZBW's department for Innovative Information Systems and Publishing Technologies is constantly presenting applications and (web)services in an experimental or 'beta' state."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://zbw.eu/labs/",
+  "triples": 1000,
+  "contact_point": {
+    "name": "ZBW German National Library of Economics - Leibniz Centre for Economics"
+  },
+  "keywords": [
+    "format-dc",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfa",
+    "format-schema",
+    "format-skos",
+    "license-metadata",
+    "lld",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 70
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ZBW Labs Website",
+      "description": "RDFa enhanced Drupal-Website. dcterms, doap, schema.org and adms vocabularies used.",
+      "access_url": "http://zbw.eu/labs"
+    }
+  ],
+  "example": [
+    {
+      "title": "Web Services for Economics project",
+      "description": "Example project description",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://zbw.eu/labs/en/project/econ-ws"
+    }
+  ]
+}

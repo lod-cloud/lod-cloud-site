@@ -1,0 +1,33 @@
+{
+  "identifier": "bioportal-qibo",
+  "title": "Quantitative Imaging Biomarker Ontology",
+  "description": {
+    "en": "An ontology that describes various concepts in quantitative imaging biomarkers."
+  },
+  "website": "http://bioportal.bioontology.org/ontologies/1671",
+  "triples": 3156,
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46348?apikey=BP_API_KEY"
+    }
+  ]
+}

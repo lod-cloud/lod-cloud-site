@@ -1,0 +1,40 @@
+{
+  "identifier": "nextprot",
+  "title": "neXtProt",
+  "description": {
+    "en": "neXtProt is an innovative knowledge platform dedicated to human proteins. This resource contains a wealth of high-quality data on all the human proteins that are produced by the 20'000 protein-coding genes found in the human genome. The content of neXtProt is continuously extended so as to provide many more carefully selected data sets and analysis tools."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.nextprot.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "nextprot.org",
+  "triples": 1384908234,
+  "contact_point": {
+    "name": "neXtProt team",
+    "email": "support@nextprot.org"
+  },
+  "keywords": [
+    "Proteins",
+    "Proteome",
+    "Model organisms",
+    "Protein modifications",
+    "Variants",
+    "protein resource"
+  ],
+  "links": [
+    {
+      "target": "UniProt",
+      "value": 1
+    },
+    {
+      "target": "uniprotkb",
+      "value": 2
+    }
+  ],
+  "sparql": [
+    {
+      "title": "neXtProt SPARQL Endpoint",
+      "access_url": "https://sparql.nextprot.org/"
+    }
+  ]
+}

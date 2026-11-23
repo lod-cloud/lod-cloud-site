@@ -1,0 +1,110 @@
+{
+  "identifier": "frb-linked-data",
+  "title": "Federal Reserve Board (FRB) Linked Data",
+  "description": {
+    "en": "FRB data and metadata"
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://frb.270a.info/dataset/",
+  "triples": 185300000,
+  "contact_point": {
+    "name": "Sarven Capadisli",
+    "email": "info@csarven.ca"
+  },
+  "keywords": [
+    "central bank",
+    "country-codes",
+    "currency-codes",
+    "economics",
+    "europe",
+    "format-dcterms",
+    "format-prov",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "governmen",
+    "government",
+    "indicator",
+    "indicators",
+    "international",
+    "license-metadata",
+    "linked-dat",
+    "linked-data",
+    "lod",
+    "lodcloud",
+    "lodcloud.candida",
+    "lodcloud.candidate",
+    "no-proprietary-voca",
+    "no-proprietary-vocab",
+    "projects",
+    "provenance-metadata",
+    "published-by-third-party",
+    "statistic",
+    "statistics",
+    "vocab-mapping",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 280
+    },
+    {
+      "target": "ecb-linked-data",
+      "value": 276
+    },
+    {
+      "target": "nasa",
+      "value": 276
+    },
+    {
+      "target": "oecd-linked-data",
+      "value": 34
+    },
+    {
+      "target": "uis-linked-data",
+      "value": 280
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 280
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID",
+      "description": "A VoID Description of the frb.270a.info dataset",
+      "media_type": "meta/void",
+      "access_url": "http://frb.270a.info/.well-known/void"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "Schema and metadata used for all of the data in the FRB dataset",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://frb.270a.info/data/meta.tar.gz"
+    },
+    {
+      "title": "FRB Datasets",
+      "description": "FRB Datasets which contain the statistical observations",
+      "media_type": "RDF",
+      "access_url": "http://frb.270a.info/data/data.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF/XML",
+      "description": "Example RDF/XML of a dataset which contains statistical observations.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://frb.270a.info/dataset/Z1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://frb.270a.info/sparql"
+    }
+  ]
+}

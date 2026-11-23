@@ -1,0 +1,41 @@
+{
+  "identifier": "framebase-schema",
+  "title": "FrameBase schema",
+  "description": {
+    "en": "FrameBase is a linked open knowledge base meant to *uniformly represent a wide range of knowledge*, tackling semantic heterogeneity among various sources of structured knowledge, such as the ones in the Linked Open Data cloud. It provides a flexible and uniform way of capturing n-ary relationships by adapting and combining repositories of frames from the fields of linguistics and cognitive science (FrameNet and WordNet) to establish a large and wide-coverage vocabulary that can be used to represent complex knowledge and extended with more specific elements.\r\n\r\nThere are two interconnected representation levels in FrameBase:\r\n\r\n* A highly expressive layer where information is represented with explicit entities instantiating the frames, and representing specific situations, processes or events of any kind, organized into a rich hierarchy.\r\n\r\n* A less expressive but simpler layer based on direct binary predicates between the elements (participants, properties) of the frames. This level is more compact to store and query, and it is connected with the other layer by means Reification-Dereification (ReDer) rules. It can also be used to connect to similar predicates in other sources of structured knowledge or natural language.\r\n\r\nFrameBase is distributed in RDF (Resource Description Format), though it can be translated to other formats.\r\n\r\nFrameBase connects to other knowledge bases by means of integration rules that can link data in ways that cannot be implemented with existing binary properties like owl:sameAs and rdfs:subClassOf .\r\n\r\nFurthermore, because of FrameNet's ties to linguistic semantics, it offers additional possibilities for interfacing with natural language, both for querying and text mining."
+  },
+  "website": "http://www.framebase.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://framebase.org/",
+  "triples": 500000,
+  "contact_point": {
+    "name": "FrameBase team",
+    "email": "jacobo@rouces.org"
+  },
+  "keywords": [
+    "data heterogeneity",
+    "data mining",
+    "graph databases",
+    "knowledge bases",
+    "linguistics",
+    "linked data",
+    "rdf",
+    "semantic web"
+  ],
+  "links": [
+    {
+      "target": "lexvo",
+      "value": 25000
+    },
+    {
+      "target": "wordnet-rdf",
+      "value": 6000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "FrameBase is distributed in RDF (Resource Description Format), though it can be translated to other formats.",
+      "access_url": "http://www.framebase.org/data"
+    }
+  ]
+}

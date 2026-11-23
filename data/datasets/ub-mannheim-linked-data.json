@@ -1,0 +1,55 @@
+{
+  "identifier": "ub-mannheim-linked-data",
+  "title": "Linked Data Service der Universitätsbibliothek Mannheim",
+  "description": {
+    "en": "Publishes RDF for a number of bibliographic resources:\r\n\r\n* Bibliograhic data of the Südwestdeutscher Bibliotheksverbund (SWB)\r\n* Bibliographic data of the Hessisches Bibliotheksinformationssystem (HeBIS)\r\n* Classifications of the Regensburger Verbundklassifikation (RVK)\r\n* Bibliographic data of the Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen (HBZ)"
+  },
+  "domain": "publications",
+  "website": "http://data.bib.uni-mannheim.de/",
+  "namespace": "http://data.bib.uni-mannheim.de/data/",
+  "triples": 53415605,
+  "contact_point": {
+    "name": "Mannheim University Library",
+    "email": "philipp.zumstein@bib.uni-mannheim.de"
+  },
+  "keywords": [
+    "bibliographic",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-skos",
+    "format-xhtml",
+    "germany",
+    "library",
+    "lld",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 3839380
+    },
+    {
+      "target": "rdf-book-mashup",
+      "value": 1429424
+    }
+  ],
+  "example": [
+    {
+      "description": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.bib.uni-mannheim.de/data/rvk/ST"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.bib.uni-mannheim.de/sparql"
+    }
+  ]
+}

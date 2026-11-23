@@ -1,0 +1,187 @@
+{
+  "identifier": "bioportal-cpt",
+  "title": "Current Procedural Terminology",
+  "description": {
+    "en": "Current Procedural Terminology"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1504",
+  "triples": 76229,
+  "contact_point": {
+    "name": "Dorith Brown"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-rdf",
+    "format-rrf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bho",
+      "value": 14
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 13
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 59
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 85
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 215
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 16
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 51
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 113
+    },
+    {
+      "target": "bioportal-hcpcs",
+      "value": 108
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 21
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 276
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 126
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 21
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 452
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 767
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 37
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 595
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 287
+    },
+    {
+      "target": "bioportal-mthch",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 287
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 78
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 209
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 40
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 22
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 24
+    },
+    {
+      "target": "bioportal-pdq",
+      "value": 48
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 13
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 10
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 22
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 887
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 37
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 80
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 4879
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 140
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 90
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42853?apikey=BP_API_KEY"
+    }
+  ]
+}

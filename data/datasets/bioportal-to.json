@@ -1,0 +1,91 @@
+{
+  "identifier": "bioportal-to",
+  "title": "Plant Trait Ontology",
+  "description": {
+    "en": "A controlled vocabulary to describe phenotypic traits in plants. Each trait is a distinguishable feature, characteristic, quality or phenotypic feature of a developing or mature plant, or a plant part."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1037",
+  "triples": 13219,
+  "contact_point": {
+    "name": "Plant Ontology Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bdo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-co_wheat",
+      "value": 34
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 19
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 13
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 16
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 13
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 28
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 19
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 19
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 19
+    },
+    {
+      "target": "bioportal-soy",
+      "value": 52
+    },
+    {
+      "target": "bioportal-spto",
+      "value": 29
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47396?apikey=BP_API_KEY"
+    }
+  ]
+}

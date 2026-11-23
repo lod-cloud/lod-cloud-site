@@ -1,0 +1,208 @@
+{
+  "identifier": "rkb-explorer-dblp",
+  "title": "DBLP Computer Science Bibliography (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://dblp.rkbexplorer.com",
+  "namespace": "http://dblp.rkbexplorer.com/id/",
+  "triples": 24112294,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2
+    },
+    {
+      "target": "freebase",
+      "value": 2
+    },
+    {
+      "target": "john-goodwins-family-tree",
+      "value": 1
+    },
+    {
+      "target": "l3s-dblp",
+      "value": 1196418
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 1148679
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 105
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 301497
+    },
+    {
+      "target": "rkb-explorer-cordis",
+      "value": 15
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 11
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 23
+    },
+    {
+      "target": "rkb-explorer-deepblue",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 67
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 63083
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 111963
+    },
+    {
+      "target": "rkb-explorer-epsrc",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 117
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 15
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 312
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 5049
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 3053
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 80997
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 290
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 1440
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 10
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 254854
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 157
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 6122
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 33
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 32
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 360
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 5587
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 64
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 46
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 654
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 1
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 167
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://dblp.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://dblp.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://dblp.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/xml",
+      "access_url": "http://dblp.rkbexplorer.com/id/conf/otm/JaffriGM07"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "text/xml",
+      "access_url": "http://dblp.rkbexplorer.com/id/conf/otm/JaffriGM07"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://dblp.rkbexplorer.com/sparql/"
+    }
+  ]
+}

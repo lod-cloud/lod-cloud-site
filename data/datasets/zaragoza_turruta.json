@@ -1,0 +1,38 @@
+{
+  "identifier": "zaragoza_turruta",
+  "title": "zaragoza_turruta",
+  "domain": "government",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcterm",
+    "format-foaf",
+    "format-hartigprov",
+    "format-owl",
+    "format-pos",
+    "format-prvt",
+    "format-rdf",
+    "format-rdfg",
+    "format-rdfs",
+    "format-skos",
+    "format-turismo",
+    "government",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "provenance-metadata"
+  ],
+  "links": [
+    {
+      "target": "zaragoza-datosabiertos",
+      "value": 16
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "identifier": "twc-hub",
+  "title": "Instance Hub (all)",
+  "description": {
+    "en": "Linked Data representations of common entities and concepts that occur in many datasets."
+  },
+  "domain": "cross_domain",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://purl.org/twc/hub/",
+  "triples": 101092,
+  "contact_point": {
+    "name": "Tetherless World Constellation, RPI"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-con",
+    "format-conv",
+    "format-datafaqs",
+    "format-dbpedia",
+    "format-dc",
+    "format-dcat",
+    "format-dgtwc",
+    "format-doap",
+    "format-foaf",
+    "format-irw",
+    "format-oboro",
+    "format-opm",
+    "format-ov",
+    "format-owl",
+    "format-pml",
+    "format-pmlj",
+    "format-pmlp",
+    "format-prov",
+    "format-rdf",
+    "format-rdfs",
+    "format-sio",
+    "format-sioc",
+    "format-skos",
+    "format-tag",
+    "format-vann",
+    "format-void",
+    "lod",
+    "no-license-metadata",
+    "prizms",
+    "provenance-metadata",
+    "published-by-producer",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2
+    }
+  ],
+  "full_download": [
+    {
+      "title": "N-Triples Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://purl.org/twc/hub/source/hub/file/cr-full-dump/version/latest/conversion/purl-org-twc-hub.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "pmlp RDF Schema",
+      "access_url": "http://inference-web.org/2.0/pml-provenance.owl"
+    },
+    {
+      "title": "owl RDF Schema",
+      "access_url": "http://www.w3.org/2002/07/owl"
+    },
+    {
+      "title": "dcat RDF Schema",
+      "access_url": "http://www.w3.org/ns/dcat"
+    },
+    {
+      "title": "pmlj RDF Schema",
+      "access_url": "http://inference-web.org/2.0/pml-justification.owl"
+    },
+    {
+      "title": "prov RDF Schema",
+      "access_url": "http://www.w3.org/ns/prov"
+    },
+    {
+      "title": "dbpedia RDF Schema",
+      "access_url": "http://dbpedia.org/resource/"
+    },
+    {
+      "title": "pml RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://provenanceweb.org/ns/pml"
+    },
+    {
+      "title": "void RDF Schema",
+      "access_url": "http://rdfs.org/ns/void"
+    },
+    {
+      "title": "rdf RDF Schema",
+      "access_url": "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+    },
+    {
+      "title": "conv RDF Schema",
+      "access_url": "http://purl.org/twc/vocab/conversion/"
+    },
+    {
+      "title": "dc RDF Schema",
+      "access_url": "http://purl.org/dc/terms/"
+    },
+    {
+      "title": "datafaqs RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/twc/vocab/datafaqs"
+    },
+    {
+      "title": "vann RDF Schema",
+      "access_url": "http://purl.org/vocab/vann/"
+    },
+    {
+      "title": "rdfs RDF Schema",
+      "access_url": "http://www.w3.org/2000/01/rdf-schema"
+    },
+    {
+      "title": "oboro RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://obofoundry.org/ro/ro.owl"
+    },
+    {
+      "title": "foaf RDF Schema",
+      "access_url": "http://xmlns.com/foaf/0.1/"
+    },
+    {
+      "title": "prov RDF Schema",
+      "access_url": "http://purl.org/net/provenance/ns"
+    },
+    {
+      "title": "opm RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://openprovenance.org/ontology"
+    },
+    {
+      "title": "doap RDF Schema",
+      "access_url": "http://usefulinc.com/ns/doap"
+    },
+    {
+      "title": "con RDF Schema",
+      "access_url": "http://www.w3.org/2000/10/swap/pim/contact"
+    },
+    {
+      "title": "tag RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://www.holygoat.co.uk/owl/redwood/0.1/tags/"
+    },
+    {
+      "title": "irw RDF Schema",
+      "access_url": "http://www.ontologydesignpatterns.org/ont/web/irw.owl"
+    },
+    {
+      "title": "ov RDF Schema",
+      "media_type": "text/html",
+      "access_url": "http://open.vocab.org/terms/"
+    },
+    {
+      "title": "VoID Listing",
+      "description": "Listing of all RDF datasets available, using the Vocabulary of Interlinked Datasets (VoID)",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/twc/hub/void.ttl"
+    },
+    {
+      "title": "Sitemap",
+      "description": "Listing of all RDF datasets available.",
+      "media_type": "meta/sitemap",
+      "access_url": "http://purl.org/twc/hub/source/hub/file/cr-sitemap/version/latest/conversion/sitemap.xml"
+    },
+    {
+      "title": "Conversion Enhancement Parameters",
+      "media_type": "mapping/twc-conversion",
+      "access_url": "http://purl.org/twc/hub/source/hub/file/cr-aggregated-params/version/latest/conversion/hub-cr-aggregated-params-latest.ttl.gz"
+    },
+    {
+      "title": "sio RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://semanticscience.org/resource/"
+    },
+    {
+      "title": "dgtwc RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf"
+    },
+    {
+      "title": "sioc RDF Schema",
+      "access_url": "http://rdfs.org/sioc/ns"
+    },
+    {
+      "title": "skos RDF Schema",
+      "access_url": "http://www.w3.org/2004/02/skos/core"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/twc/hub/id/us/fed/agency/Department_of_Agriculture/crop/apples"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://purl.org/twc/hub/sparql"
+    }
+  ]
+}

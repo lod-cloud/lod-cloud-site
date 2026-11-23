@@ -1,0 +1,55 @@
+{
+  "identifier": "bioportal-geospecies",
+  "title": "GeoSpecies Ontology",
+  "description": {
+    "en": "This ontology was designed to help integrate species concepts with species occurrences, gene sequences, images, references and geographical information. See also Taxonconcept.org"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1247",
+  "triples": 9616,
+  "contact_point": {
+    "name": "Peter J. DeVries"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-hl7",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 43
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 13
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/39933?apikey=BP_API_KEY"
+    }
+  ]
+}

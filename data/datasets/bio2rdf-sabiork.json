@@ -1,0 +1,127 @@
+{
+  "identifier": "bio2rdf-sabiork",
+  "title": "Bio2RDF::Sabiork",
+  "description": {
+    "en": "SABIO-RK is a database for biochemical reactions, their kinetic equations with their parameters, and the experimental conditions under which these parameters were measured."
+  },
+  "domain": "life_sciences",
+  "website": "http://sabiork.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/sabiork:",
+  "triples": 2716421,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-bto",
+      "value": 238
+    },
+    {
+      "target": "bio2rdf-chebi",
+      "value": 2772
+    },
+    {
+      "target": "bio2rdf-ec",
+      "value": 1404
+    },
+    {
+      "target": "bio2rdf-nonpubmed",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 495
+    },
+    {
+      "target": "bio2rdf-sabiork",
+      "value": 4848
+    },
+    {
+      "target": "bio2rdf-sbo",
+      "value": 53
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 712
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 2522
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download sabiork.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/sabiork/sabiork.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/sabiork/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/sabiork/sabiork.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/sabiork/bio2rdf-sabiork.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/sabiork/sabiork.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/sabiork/bio2rdf_sabiork_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/sabiork/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://bio2rdf.org/sabiork/describe/rdf?uri=http://sabiork.h-its.org/biopax%23catalysis11900"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://sabiork.bio2rdf.org/sparql"
+    }
+  ]
+}

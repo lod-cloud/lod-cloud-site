@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-russian-syntagrus",
+  "title": "Universal Dependencies Treebank Russian-SynTagRus",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Russian-SynTagRus treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Russian-SynTagRus",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 1068483,
+  "contact_point": {
+    "name": "Droganova, Kira; Lyashevskaya, Olga; Zeman, Daniel; Shakurova, Lena; Mustafina, Nina",
+    "email": "zeman@ufal.mff.cuni.cz"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Russian-SynTagRus Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Russian-SynTagRus/archive/master.zip"
+    },
+    {
+      "title": "UD_Russian-SynTagRus RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "access_url": "https://datahub.io/dataset/fc0ba360-fcb3-4957-a856-4126bbc16979/resource/5a64d47e-3d2c-4bf1-a7d3-714c2930ef10/download/udrussian-syntagrus.rdf"
+    }
+  ]
+}

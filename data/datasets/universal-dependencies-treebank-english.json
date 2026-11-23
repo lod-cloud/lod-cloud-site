@@ -1,0 +1,38 @@
+{
+  "identifier": "universal-dependencies-treebank-english",
+  "title": "Universal Dependencies Treebank English",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's English treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_English",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 254830,
+  "contact_point": {
+    "name": "Silveira, Natalia; Dozat, Timothy; Manning, Christopher; Schuster, Sebastian; Bauer, John; Connor, Miriam; de Marneffe, Marie-Catherine; Bowman, Sam; Zhu, Hanzhi; Galbraith, Daniel",
+    "email": "syntacticdependencies@lists.stanford.edu"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_English Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_English/archive/master.zip"
+    },
+    {
+      "title": "UD_English RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/b0f1f6df-bc12-43ff-83fd-f929827edac7/resource/f824a85f-51dc-452e-a20a-0080ba8d1966/download/udenglish.rdf"
+    }
+  ]
+}

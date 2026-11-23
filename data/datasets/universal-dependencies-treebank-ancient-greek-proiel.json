@@ -1,0 +1,36 @@
+{
+  "identifier": "universal-dependencies-treebank-ancient-greek-proiel",
+  "title": "Universal Dependencies Treebank Ancient_Greek-PROIEL",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Ancient_Greek-PROIEL treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Ancient_Greek-PROIEL",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 206966,
+  "contact_point": {
+    "name": "Haug, Dag"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Ancient_Greek-PROIEL Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Ancient_Greek-PROIEL/archive/master.zip"
+    },
+    {
+      "title": "UD_Ancient_Greek_PROIEL RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "access_url": "https://datahub.io/dataset/e4de1d13-faec-45f3-afbf-9d80abc5a732/resource/c53c368e-41f1-46a3-95b5-7034bd2dc407/download/udancientgreek-proiel.rdf"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{% comment %} Rows of the history table, from _data/versions.yml, newest first. Files are in the GitHub release named by `release`, or else in versions/ on the old site. {% endcomment %}
+{% assign versions = site.data.versions | sort: "date" | reverse %}
+{% for v in versions %}
+{% if v.release %}{% capture base %}{{ site.github_url }}/releases/download/{{ v.release | uri_escape }}/{% endcapture %}{% else %}{% capture base %}{{ site.cloud_base }}/versions/{{ v.dir | default: v.date }}/{% endcapture %}{% endif %}
+<tr typeof="dctype:Image" about="#cloud_{{ v.date }}" property="dc:title" content="LOD cloud diagram, version {{ v.date }}">
+  <th property="dc:date" datatype="xsd:date" content="{{ v.date }}">{{ v.date }}</th>
+  {% include version-cells.html files=v.white base=base %}
+  {% include version-cells.html files=v.colored base=base %}
+  <td>{% if v.graph %}<a href="{{ base }}{{ v.graph | uri_escape }}">json</a>{% endif %}</td>
+  <td class="dataset-count">{{ v.datasets | thousands }}</td>
+</tr>
+{% endfor %}

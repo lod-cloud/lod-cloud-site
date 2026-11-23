@@ -1,0 +1,37 @@
+{
+  "identifier": "billion_triples_challenge_dataset_2010",
+  "title": "Billion Triples Challenge Dataset 2010",
+  "description": {
+    "en": "Dataset that was used for the Billion Triples Challenge 2010:\r\n\r\nSee: http://challenge.semanticweb.org/\r\n\r\nThe major part of the dataset was crawled from the Web of Linked Data during March/April 2010 based on datasets provided by Falcon-S, Sindice, Swoogle, SWSE, and Watson using the MultiCrawler/SWSE framework. We also included partial data from data.gov and data.gov.uk. \r\n\r\nThe downloaded content was parsed using the Redland toolkit with the rdfxml parser. We rewrote blank node identifiers to include the data source in order to provide unique blank nodes for each data source, and appended the data source to the output file. The data is encoded in NQuads format and split into chunks of 10m statements each. \r\n\r\nThe datasets of the Billion Triples Challenges 2008 and 2009 are also still available."
+  },
+  "website": "http://km.aifb.kit.edu/projects/btc-2010/",
+  "triples": 3200000000,
+  "contact_point": {
+    "name": "Andreas Harth",
+    "email": "chris@bizer.de"
+  },
+  "keywords": [
+    "crossdomain",
+    "format-gr",
+    "format-rdf",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-proprietary-vocab",
+    "published-by-third-party"
+  ],
+  "full_download": [
+    {
+      "description": "The dataset is split into multiple download files",
+      "download_url": "http://km.aifb.kit.edu/projects/btc-2010/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://products.semweb.bestbuy.com/company.rdf#BusinessEntity_BestBuy"
+    }
+  ]
+}

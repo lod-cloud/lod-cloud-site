@@ -1,0 +1,37 @@
+{
+  "identifier": "classical_temples",
+  "title": "Temples of the Classical World",
+  "description": {
+    "en": "A searchable digital database of temples (loosely defined) constructed in the Classical World (also loosely defined)."
+  },
+  "domain": "geography",
+  "website": "https://romeresearchgroup.org/database-of-temples/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://romeresearchgroup.org/items/",
+  "triples": 0,
+  "contact_point": {
+    "name": "John Muccigrosso",
+    "email": "jmuccigr@drew.edu"
+  },
+  "keywords": [
+    "Rome",
+    "Greece",
+    "religion",
+    "temple",
+    "ancient",
+    "classics"
+  ],
+  "other_download": [
+    {
+      "title": "All temples in turtle format",
+      "access_url": "https://romeresearchgroup.org/items/temples.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Temple of Bellona",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://romeresearchgroup.org/items/1000004"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "identifier": "vivo2doi",
+  "title": "vivo2doi",
+  "description": {
+    "en": "A proof-of-concept application was created to automatically cross-link publications that were written by the same person through harvesting linked open data from institution-based research networking systems. This is important because it (1) helps people identify related articles when exploring the biomedical literature, (2) gives scientists appropriate credit for the work they have done, and (3) makes it easier to find experts in a subject area.\r\n\r\nThis project was funded by NSF SciSIP Award #1238469, NIH grants 8UL1TR000170 and 1UL1TR001102, and Harvard University and its affiliated academic health centers."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://lod.hackerceo.org/ANGEL/VIVO2DOI/",
+  "triples": 7073060,
+  "contact_point": {
+    "name": "Nick Benik, Timothy Lebo, Griffin M Weber"
+  },
+  "keywords": [
+    "academic",
+    "deref-vocab",
+    "doi",
+    "format-bibo",
+    "format-foaf",
+    "format-prov",
+    "format-sio",
+    "format-void",
+    "license-metadata",
+    "lifesciences",
+    "literature",
+    "lod",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "vivo"
+  ],
+  "links": [
+    {
+      "target": "doi",
+      "value": 23352
+    },
+    {
+      "target": "vivo-scripps-research-institute",
+      "value": 50911
+    },
+    {
+      "target": "vivo-university-of-florida",
+      "value": 1887251
+    },
+    {
+      "target": "vivo-weill-cornell-medical-college",
+      "value": 542769
+    },
+    {
+      "target": "vivo-wustl",
+      "value": 86301
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Homepage",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://research.hackerceo.org/renaissance/ANGEL/Datasets/VIVO2DOI"
+    },
+    {
+      "title": "VoID File",
+      "description": "Listing of all Linkset Bundles available, using the Vocabulary of Interlinked Datasets (VoID)",
+      "media_type": "text/turtle;charset=UTF-8",
+      "access_url": "http://lod.hackerceo.org/ANGEL/VIVO2DOI/void.ttl"
+    },
+    {
+      "title": "7 Million N-Triples Dump File (20150802)",
+      "description": "Compressed n-triples file of 7,073,060 triples crawled 2 Aug 2015 from the 168,928 void:subsets listed at http://lod.hackerceo.org/ANGEL/VIVO2DOI/void.ttl on 2 Aug 2015.",
+      "media_type": "text/ntriples",
+      "access_url": "http://lodcloud.tw.rpi.edu/source/hackerceo-org/vivo2doi/version/2015-Aug-02/publish/vivo2doi_20150802.nt.gz"
+    },
+    {
+      "title": "prv RDF Schema",
+      "access_url": "http://purl.org/net/provenance/ns#"
+    },
+    {
+      "title": "BIBO RDF Schema",
+      "access_url": "http://purl.org/ontology/bibo/"
+    },
+    {
+      "title": "VoID RDF Schema",
+      "access_url": "http://rdfs.org/ns/void#"
+    },
+    {
+      "title": "SIO RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://semanticscience.org/resource/"
+    },
+    {
+      "title": "PROV RDF Schema",
+      "access_url": "http://www.w3.org/ns/prov#"
+    },
+    {
+      "title": "FOAF RDF Schema",
+      "access_url": "http://xmlns.com/foaf/0.1/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example URI",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://lod.hackerceo.org/ANGEL/VIVO2DOI/http-reach.suny.edu/individual/Yamamoto_A"
+    }
+  ]
+}

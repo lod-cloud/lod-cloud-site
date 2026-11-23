@@ -1,0 +1,123 @@
+{
+  "identifier": "bioportal-cdao",
+  "title": "Comparative Data Analysis Ontology",
+  "description": {
+    "en": "A formalization of concepts and relations relevant to evolutionary comparative analysis, such as phylogenetic trees, OTUs (operational taxonomic units) and compared characters (including molecular characters as well as other types). CDAO is being developed by scientists in biology, evolution, and computer science"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1128",
+  "triples": 2565,
+  "contact_point": {
+    "name": "Jim Balhoff"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-amino-acid",
+      "value": 45
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 19
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 24
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 24
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 24
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 55
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 18
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 61
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 70
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 36
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 15
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 30
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 28
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 20
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 54
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 71
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 20
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 91
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 17
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/40648?apikey=BP_API_KEY"
+    }
+  ]
+}

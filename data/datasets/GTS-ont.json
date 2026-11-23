@@ -1,0 +1,31 @@
+{
+  "identifier": "GTS-ont",
+  "title": "Geological Timescale Ontology",
+  "description": {
+    "en": "OWL ontology for the RDF representation of the Geologic Timescale."
+  },
+  "domain": "geography",
+  "website": "https://github.com/CGI-IUGS/timescale-ont",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://resource.geosciml.org/ontology/timescale/gts#",
+  "triples": 785,
+  "doi": "10.25919/5f051113e2e2e",
+  "contact_point": {
+    "name": "Simon Cox",
+    "email": "simon.cox@csiro.au"
+  },
+  "keywords": [
+    "ontology",
+    "geology",
+    "stratigraphy",
+    "timescale",
+    "owl-time"
+  ],
+  "full_download": [
+    {
+      "title": "Geological Timescale Ontology - TTL",
+      "description": "Download TTL from GitHub",
+      "download_url": "https://raw.githack.com/CGI-IUGS/timescale-ont/master/rdf/gts.ttl"
+    }
+  ]
+}

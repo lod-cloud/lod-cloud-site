@@ -1,0 +1,57 @@
+{
+  "identifier": "tharawat-magazine-com",
+  "title": "tharawat magazine",
+  "description": {
+    "en": "Tharawat dataset, Knowledge Graph built using WordLift from the website https://www.tharawat-magazine.com/"
+  },
+  "domain": "publications",
+  "website": "https://www.tharawat-magazine.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 35852,
+  "image": "https://www.tharawat-magazine.com/wp-content/uploads/2016/07/tharawatmagazinewebsiteheader-720-2.svg",
+  "contact_point": {
+    "name": "WordLift Team",
+    "email": "andrea@wordlift.io"
+  },
+  "keywords": [
+    "family business",
+    "tharawat",
+    "wordlift"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 291
+    },
+    {
+      "target": "freebase",
+      "value": 272
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 59
+    },
+    {
+      "target": "wikidata",
+      "value": 17
+    },
+    {
+      "target": "yago",
+      "value": 197
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF Download",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "download_url": "https://api.wordlift.it/datasets/tharawat.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Sample resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://data.tharawat-magazine.com/tharawat/entity/ananthakrishnan_ak_sankaranarayanan"
+    }
+  ]
+}

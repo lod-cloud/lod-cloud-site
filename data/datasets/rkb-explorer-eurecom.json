@@ -1,0 +1,118 @@
+{
+  "identifier": "rkb-explorer-eurecom",
+  "title": "Institut Eurécom (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://eurecom.rkbexplorer.com",
+  "namespace": "http://eurecom.rkbexplorer.com/id/",
+  "triples": 40863,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 157
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 49
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 36
+    },
+    {
+      "target": "rkb-explorer-ft",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-italy",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 5
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-lisbon",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 36
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 5
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://eurecom.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://eurecom.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://eurecom.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://eurecom.rkbexplorer.com/id/people-dacier"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://eurecom.rkbexplorer.com/id/people-dacier"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://eurecom.rkbexplorer.com/sparql/"
+    }
+  ]
+}

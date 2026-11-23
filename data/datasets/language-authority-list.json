@@ -1,0 +1,52 @@
+{
+  "identifier": "language-authority-list",
+  "title": "Language Name Authority List",
+  "description": {
+    "en": "The Languages name authority list (NAL) or Common Authority Table (CAT) is a controlled vocabulary listing languages with their authority code and label(s) in the 24 official languages of the EU (when available).\n\nThe language code table is based on ISO 639 standard which is issued in several parts:\n\n    ISO 639-1 contains strictly two alphabetic letters, called α-2,\n    ISO 639-2/B \"B\" = bibliographic – α-3 is used for bibliographic purpose,\n    ISO 639-2/T \"T\" = terminology – α-3 is used for technical purpose,\n    ISO 639-3 α-3 covers all the languages and macro-languages of the world; the values are compliant with ISO 639-2/T.\n\nThe Languages NAL is part of the Core Metadata (CM) used in the data exchange between the institutions involved in the legal decision making process and the Publications Office of the EU. The NAL is under governance of the Interinstitutional Metadata Maintenance Committee (IMMC) and maintained by the Publications Office of the EU in its Metadata Registry (MDR)."
+  },
+  "domain": "linguistics",
+  "website": "https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/language",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://publications.europa.eu/resource/authority/language",
+  "triples": 423313,
+  "image": "https://op.europa.eu/documents/6793978/6793980/6724995/b631b122-c2bc-22c1-bf18-eb7451b2542a?t=1584637138416",
+  "contact_point": {
+    "name": "EU Vocabularies team",
+    "email": "op-eu-vocabularies@publications.europa.eu"
+  },
+  "keywords": [
+    "controlled vocabulary",
+    "language",
+    "languages",
+    "linguistics"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 18
+    },
+    {
+      "target": "eurovoc",
+      "value": 100
+    },
+    {
+      "target": "wikidata",
+      "value": 153
+    }
+  ],
+  "full_download": [
+    {
+      "title": "SKOS full release, zip compressed",
+      "description": "The latest release in XML/RDF format compressed as zip. New releases are published quarterly.",
+      "media_type": "application/octet-stream",
+      "download_url": "http://publications.europa.eu/resource/cellar/16cdd72e-2b56-11e7-9412-01aa75ed71a1.0001.09/zip"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "CELLAR - Query Service of the Publications Office of the European Union",
+      "description": "The query service gives access to Cellar, the digital dissemination repository of the Publications Office of the European Union. Cellar is the semantic web content and metadata repository of legal and non-legal documents produced by the European institutions. Cellar includes about 150 millions of documents in 24 languages; metadata in as many languages are stored and described in RDF, resulting in more than 800 millions of triples. The Cellar SPARQL endpoint, exposed in order to complement linked open data services to potential consumers, receives about 10 million requests per day (Cellar statistics dated April 2018). Cellar is also the source of information for the Eur-Lex portal (http://www.eurlex.eu) which provides access to several types of legal resources including treaties, legislation, case-law and legislative proposals.",
+      "access_url": "http://publications.europa.eu/webapi/rdf/sparql"
+    }
+  ]
+}

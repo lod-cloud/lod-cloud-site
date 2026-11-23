@@ -1,0 +1,60 @@
+{
+  "identifier": "the-view-from",
+  "title": "The View From",
+  "description": {
+    "en": "A set of data about photos of the view from various places"
+  },
+  "domain": "geography",
+  "website": "http://theviewfrom.org/",
+  "namespace": "http://theviewfrom.org/things/",
+  "triples": 368,
+  "contact_point": {
+    "name": "Tom Heath",
+    "email": "tom.heath@talis.com"
+  },
+  "keywords": [
+    "format-dc",
+    "format-rdf",
+    "geographic",
+    "lod",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "photo",
+    "photography",
+    "published-by-third-party",
+    "tourism",
+    "usergeneratedcontent",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 31
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://theviewfrom.org/.rdf"
+    },
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://api.talis.com/stores/theviewfrom/items"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://theviewfrom.org/things/en/Banff_Springs_Hotel"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/theviewfrom/services/sparql"
+    }
+  ]
+}

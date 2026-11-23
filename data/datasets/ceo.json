@@ -1,0 +1,34 @@
+{
+  "identifier": "ceo",
+  "title": "Linked Data Cultural Heritage Agency of the Netherlands",
+  "description": {
+    "en": "Linked data about cultural-historical objects. This includes built and archaeological national monuments, finds, find locations, complexes, archaeological complexes, research areas and sites.\nThis dataset offers linked open data from the Archaeological Information System (Archis) and the National Monument Register. Both databases are maintained by the RCE.\nArchis contains data on archaeological sites and sites in the Netherlands. The National Monuments Register contains information about all monuments in the Netherlands that have been designated by the State as protected monuments. These are historical buildings, archaeological sites or green, landscaped buildings."
+  },
+  "domain": "government",
+  "website": "https://linkeddata.cultureelerfgoed.nl/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://linkeddata.cultureelerfgoed.nl/def/ceo",
+  "triples": 65048765,
+  "contact_point": {
+    "name": "Joop Vanderheiden",
+    "email": "j.vanderheiden@cultureelerfgoed.nl"
+  },
+  "keywords": [
+    "archeology",
+    "archaeology",
+    "heritage",
+    "cultural heritage"
+  ],
+  "links": [
+    {
+      "target": "cht",
+      "value": 1
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQLViewer",
+      "access_url": "https://api.linkeddata.cultureelerfgoed.nl/datasets/rce/cho/services/cho/sparql"
+    }
+  ]
+}

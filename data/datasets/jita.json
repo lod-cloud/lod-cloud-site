@@ -1,0 +1,80 @@
+{
+  "identifier": "jita",
+  "title": "JITA Classification System of Library and Information Science",
+  "description": {
+    "en": "The JITA Classification Schema has been developed starting from a merger of NewsAgentTopic Classification Scheme (maintained by Mike Keen at Aberystwyth, UK, until 31st March 1998) and the RIS classification scheme of the (now defunct) Review of Information Science originally conceived by Dagobert Soergel (University of Maryland). JITA is an acronym of the authors' first names: \"J\"osé Manuel Barrueco Cruz, \"I\"mma Subirats Coll, \"T\"homas Krichel and \"A\"ntonella De Robbio. The authors thank Michael Keen, University of Wales Aberystwyth and Andy Powell, UKOLN for the permission of the using NewsAgentTopic Classification Scheme in the development of this schema. In addition, the authors are grateful for comments by Lorcan Dempsey (OCLC) and Sophie Rigny (Library of Congress)."
+  },
+  "domain": "publications",
+  "website": "http://www.destin-informatique.com/ASKOSI/Wiki.jsp?page=JITA%20Maintenance",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://aims.fao.org/aos/jita/",
+  "triples": 3500,
+  "contact_point": {
+    "name": "Imma Subirats",
+    "email": "Imma.Subirats@fao.org"
+  },
+  "keywords": [
+    "classification",
+    "format-skos",
+    "format-xhtml",
+    "information-science",
+    "library",
+    "lld",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-producer",
+    "schemata"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 96
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Draft version",
+      "description": "Draft version for Community examination and discussion (one file)",
+      "media_type": "RDF",
+      "access_url": "http://www.destin-informatique.com/scheme/skos.jsp?about=jita"
+    },
+    {
+      "title": "SKOS/RDF Schema file",
+      "description": "SKOS/RDF Schema file",
+      "access_url": "http://www.w3.org/2004/02/skos/core#"
+    },
+    {
+      "title": "JITA voiD description",
+      "access_url": "http://www.askosi.org/jita/void.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "1. Theoretical and General",
+      "description": "Official FAO publishing, Starting point of section 1. \"Theoretical and General\"",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aims.fao.org/aos/jita/T?output=xml"
+    },
+    {
+      "title": "2. User oriented, directional, and management functionalities",
+      "description": "Official FAO publishing, Starting point of section 2. \"User oriented, directional, and management functionalities\"",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aims.fao.org/aos/jita/P?output=xml"
+    },
+    {
+      "title": "3. Objects, Pragmatics and Technicalities",
+      "description": "Official FAO publishing, Starting point of section 3. \"Objects, Pragmatics and Technicalities\"",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aims.fao.org/aos/jita/O?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL",
+      "description": "Temporary experimental SPARQL endpoint",
+      "access_url": "http://202.73.13.50:55824/catalogs/performance/repositories/jita"
+    }
+  ]
+}

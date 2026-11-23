@@ -1,0 +1,23 @@
+{
+  "identifier": "Location_Ontology",
+  "title": "Location Ontology",
+  "description": {
+    "en": "Can find out location of any place."
+  },
+  "domain": "user_generated",
+  "website": "https://drive.google.com/file/d/1iUuw6VXE5on5xxRnYlJiCyz2bZsEY5t8/view?usp=sharing",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "image": "https://drive.google.com/file/d/1BU75PMsgVYnr88wFnkDN2cqxTIVWPKPA/view?usp=sharing",
+  "contact_point": {
+    "name": "Neha Dhanotiya",
+    "email": "nehadhanotiya1612@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "Location Ontology",
+      "media_type": "text/html; charset=utf-8",
+      "download_url": "https://drive.google.com/file/d/1iUuw6VXE5on5xxRnYlJiCyz2bZsEY5t8/view?usp=sharing"
+    }
+  ]
+}

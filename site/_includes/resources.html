@@ -1,0 +1,17 @@
+{% comment %}
+  A list of downloads, endpoints or examples.
+  Parameters: items (array of resources), heading, fallback (link text when untitled).
+{% endcomment %}
+{% if include.items and include.items.size > 0 %}
+<h4>{{ include.heading }}</h4>
+<ul>
+  {% for r in include.items %}
+  {% assign href = r.download_url | default: r.access_url | safe_url %}
+  <li>
+    {% if href != "" %}<a href="{{ href | escape }}" rel="nofollow">{% if r.title %}{{ r.title | escape }}{% else %}{{ include.fallback }}{% endif %}</a>
+    {% else %}{% if r.title %}{{ r.title | escape }}{% else %}{{ include.fallback }}{% endif %} <span class="text-muted">(invalid URL)</span>{% endif %}
+    {% if r.description %}({{ r.description | escape }}){% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

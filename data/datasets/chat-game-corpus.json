@@ -1,0 +1,37 @@
+{
+  "identifier": "chat-game-corpus",
+  "title": "Chat Game corpus",
+  "description": {
+    "en": "A corpus resulting from an object arrangement game using a computer-mediated setting."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 15750,
+  "contact_point": {
+    "name": "SFB 673, Project B6",
+    "email": "pmenke@TechFak.Uni-Bielefeld.DE"
+  },
+  "keywords": [
+    "conferences locations lod",
+    "format-rdf",
+    "linguistics",
+    "llod",
+    "lod",
+    "published-by-producer",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "fiesta",
+      "value": 4190
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/Turtle serialisation of the FiESTA representation",
+      "description": "A RDF representation of the corpus modeled using the FiESTA/MExiCo data model for complex multimodal data.",
+      "media_type": "text/turtle",
+      "access_url": "http://data.sfb673.org/corpora/chat_game_corpus.ttl"
+    }
+  ]
+}

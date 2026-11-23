@@ -1,0 +1,81 @@
+{
+  "identifier": "statusnet-belfalas-org",
+  "title": "statusnet-belfalas-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://belfalas.org"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    },
+    {
+      "target": "statusnet-20100-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-ced117-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 8
+    },
+    {
+      "target": "statusnet-imirhil-fr",
+      "value": 8
+    },
+    {
+      "target": "statusnet-keuser-fr",
+      "value": 5
+    },
+    {
+      "target": "statusnet-planet-libre-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 9
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 7
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 5
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 8
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 9
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.belfalas.org/flink/foaf"
+    }
+  ]
+}

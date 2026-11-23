@@ -1,0 +1,73 @@
+{
+  "identifier": "prelinger_archives",
+  "title": "Prelinger Archives",
+  "description": {
+    "en": "The Prelinger Archives is a collection of films relating to U.S. cultural history, the evolution of the American landscape, everyday life and social history. It was physically located in New York City from 1982-2002 and is now in San Francisco.\r\n\r\nThe Archives was founded by Rick Prelinger in 1982 in order to preserve what he calls \"ephemeral\" films: films sponsored by corporations and organizations, educational films, and amateur and home movies. Typically, ephemeral films were produced to fulfill specific purposes at specific times, and many exist today only by chance or accident. About 65% of the Archive's holdings are in the public domain because their copyrights have expired, or because they were U.S. productions that were published without proper copyright notice.\r\n\r\nThis dataset consists of metadata about more than 2,000 public domain films that the Prelinger Archives have made available for unrestricted use via the Internet Archive.\r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "website": "http://kasabi.com/dataset/prelinger-archives",
+  "license": "http://www.opendefinition.org/licenses/odc-pddl",
+  "namespace": "http://data.kasabi.com/dataset/prelinger-archives",
+  "triples": 454904,
+  "contact_point": {
+    "name": "Leigh Dodds",
+    "email": "leigh@ldodds.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dcmit",
+    "format-foaf",
+    "format-rdf",
+    "license-metadata",
+    "media",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "Kasabi Homepage for Prelinger Archives dataset",
+      "access_url": "http://kasabi.com/dataset/prelinger-archives"
+    },
+    {
+      "description": "Kasabi page for Prelinger Archives Search API",
+      "access_url": "http://kasabi.com/dataset/prelinger-archives/apis/search"
+    },
+    {
+      "description": "Kasabi page for Prelinger Archives SPARQL Endpoint",
+      "access_url": "http://kasabi.com/dataset/prelinger-archives/apis/sparql"
+    },
+    {
+      "description": "Kasabi page for Prelinger Archives Lookup API",
+      "access_url": "http://kasabi.com/dataset/prelinger-archives/apis/lookup"
+    },
+    {
+      "description": "Kasabi page for Prelinger Archives Reconciliation API",
+      "access_url": "http://kasabi.com/dataset/prelinger-archives/apis/reconciliation"
+    },
+    {
+      "description": "Kasabi page for Prelinger Archives Augmentation API",
+      "access_url": "http://kasabi.com/dataset/prelinger-archives/apis/augmentation"
+    },
+    {
+      "description": "Void description of Prelinger Archives dataset",
+      "access_url": "http://data.kasabi.com/dataset/prelinger-archives"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to the internet archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/prelinger-archives.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example RDF for Prelinger Archives",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/prelinger-archives/film//1935_comedy_mallinckrodt.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint for Prelinger Archives",
+      "access_url": "http://api.kasabi.com/dataset/prelinger-archives/apis/sparql"
+    }
+  ]
+}

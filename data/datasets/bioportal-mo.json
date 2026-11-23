@@ -1,0 +1,163 @@
+{
+  "identifier": "bioportal-mo",
+  "title": "MGED Ontology",
+  "description": {
+    "en": "Concepts, definitions, terms, and resources for standardized description of a microarray experiment in support of MAGE v.1."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1131",
+  "triples": 5492,
+  "contact_point": {
+    "name": "MGED"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 11
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 83
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 21
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 252
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 11
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 17
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 17
+    },
+    {
+      "target": "bioportal-jerm",
+      "value": 14
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 32
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 43
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 33
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 131
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 40
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 11
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 25
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 10
+    },
+    {
+      "target": "bioportal-pato",
+      "value": 29
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 18
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 13
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 54
+    },
+    {
+      "target": "bioportal-so_x1",
+      "value": 19
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 26
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-uo",
+      "value": 98
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/38801?apikey=BP_API_KEY"
+    }
+  ]
+}

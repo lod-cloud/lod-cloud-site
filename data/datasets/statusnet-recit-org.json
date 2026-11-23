@@ -1,0 +1,48 @@
+{
+  "identifier": "statusnet-recit-org",
+  "title": "statusnet-recit-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://recit.org"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-keuser-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 3
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 31
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://recit.org/endirect/invite14ddl/foaf"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "identifier": "FAO_species",
+  "title": "FAO ASFIS classification of biological entities @PSNC",
+  "description": {
+    "en": "Taxonomic classification of biological entities, data is maintained in ASFIS, by FAO. This model implements the ontology design patterns for taxonomic classifications. See http://ontologydesignpatterns.org. This ontology has been made for testing purposes and should not be used as official expressions of any of the classifications systems modelled.  Source: NeOn project, creator: Caterina Caracciolo, KCEW - FA"
+  },
+  "domain": "life_sciences",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://www.fao.org/aims/aos/fi/taxonomic/",
+  "triples": 318359,
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "identifier": "copyrighttermbank",
+  "title": "CopyrightTermBank",
+  "description": {
+    "en": "Terminology on copyright and related concepts"
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 11068,
+  "contact_point": {
+    "name": "Víctor Rodríguez-Doncel",
+    "email": "vrodriguez@delicias.dia.fi.upm.es"
+  },
+  "keywords": [
+    "lemon",
+    "lexicon",
+    "linguistics",
+    "linked data",
+    "llod",
+    "lod",
+    "ontolex",
+    "rdf",
+    "terminology"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 237
+    },
+    {
+      "target": "iate-rdf",
+      "value": 92
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Linked Data",
+      "description": "Linked Data portal",
+      "access_url": "http://copyrighttermbank.linkeddata.es/resource"
+    },
+    {
+      "title": "RDF Dump",
+      "description": "RDF Dump in format text/turtle",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/11d67b88-bed3-4016-b88b-3b8fdf77ba20/resource/06baff90-92b2-460a-9cdd-95758e0ada7b/download/copyrighttermbank.ttl"
+    },
+    {
+      "title": "RDF Dump",
+      "description": "RDF Dump In format NTRIPLES",
+      "media_type": "application/n-triples",
+      "access_url": "https://datahub.ckan.io/dataset/11d67b88-bed3-4016-b88b-3b8fdf77ba20/resource/6ebb4098-8443-42c4-a4fa-07c06f81d52e/download/copyrighttermbank.nt"
+    },
+    {
+      "title": "Documentation",
+      "description": "Academic work describing the resource",
+      "media_type": "application/pdf",
+      "access_url": "http://delicias.dia.fi.upm.es/~vrodriguez/pdf/2015.12.jurix.pdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example",
+      "description": "One example of concept",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/11d67b88-bed3-4016-b88b-3b8fdf77ba20/resource/a75e14bc-447a-4f44-86b3-44a49f47bfb8/download/example.ttl"
+    }
+  ]
+}

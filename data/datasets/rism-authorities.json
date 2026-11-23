@@ -1,0 +1,53 @@
+{
+  "identifier": "rism-authorities",
+  "title": "RISM Authority data",
+  "description": {
+    "en": "Authority data used in the ([RISM catalogue](https://opac.rism.info \"RISM Opac\"), [dataset description](http://datahub.io/dataset/rism \"Dataset description for RISM Opac\")). It contains information about persons, organisations and literary works."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://data.rism.info/id/rismauthorities/",
+  "triples": 1154325,
+  "contact_point": {
+    "name": "RISM"
+  },
+  "keywords": [
+    "authorities",
+    "library",
+    "license-metadata",
+    "literature",
+    "lld",
+    "lod",
+    "organisations",
+    "persons",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 19360
+    },
+    {
+      "target": "viaf",
+      "value": 6138
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Example Resource",
+      "description": "Authority data for Johann Sebastian Bach  (1685-1750)",
+      "access_url": "http://data.rism.info/id/rismauthorities/pe2539?format=rdf"
+    },
+    {
+      "title": "Downloadable Data Dump",
+      "media_type": "application/x-gzip",
+      "access_url": "https://opac.rism.info/fileadmin/user_upload/lod/update/rismAuthoritiesRDF.ttl.gz"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "RISM SPARQL Endpoint",
+      "access_url": "http://data.rism.info/sparql"
+    }
+  ]
+}

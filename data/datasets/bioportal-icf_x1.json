@@ -1,0 +1,199 @@
+{
+  "identifier": "bioportal-icf_x1",
+  "title": "International Classification of Functioning, Disability and Health (ICF)",
+  "description": {
+    "en": "The International Classification of Functioning, Disability and Health, known more commonly as ICF, is a classification of health and health-related domains. These domains are classified from body, individual and societal perspectives by means of two lists: a list of body functions and structure, and a list of domains of activity and participation. Since an individual's functioning and disability occurs in a context, the ICF also includes a list of environmental factors.\n<br><br>\nSource: <a href=\"http://www.who.int/classifications/icf/en/\">http://www.who.int/classifications/icf/en/</a>"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1411",
+  "triples": 28475,
+  "contact_point": {
+    "name": "The World Health Organization"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 20
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 13
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 10
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 52
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 15
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 30
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 43
+    },
+    {
+      "target": "bioportal-cogat",
+      "value": 13
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 66
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 16
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 28
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 42
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 73
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 77
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 31
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 10
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 96
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 37
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 23
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 52
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 260
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 96
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 93
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 27
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 10
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 19
+    },
+    {
+      "target": "bioportal-pmr",
+      "value": 13
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 92
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 52
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 506
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 44
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 48
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 26
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 15
+    },
+    {
+      "target": "bioportal-zfa",
+      "value": 12
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47404?apikey=BP_API_KEY"
+    }
+  ]
+}

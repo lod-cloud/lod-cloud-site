@@ -1,0 +1,31 @@
+{
+  "identifier": "https:raw.githubusercontent.comGVogelerbookkeepingmasterbookkeeping.ttl",
+  "title": "Bookkeeping",
+  "description": {
+    "en": "Bookkeeping.  --- Warning: educational upload since vacuum about accounting data on LOD web.  I'm trying this resource..."
+  },
+  "domain": "cross_domain",
+  "website": "http://gams.uni-graz.at/",
+  "license": "https://opendefinition.org/licenses/against-drm",
+  "triples": 0,
+  "contact_point": {
+    "name": "zim",
+    "email": "zim@uni-graz.at"
+  },
+  "keywords": [
+    "bookkeeping"
+  ],
+  "full_download": [
+    {
+      "title": "Bookkeeping",
+      "description": "Bookkeeping",
+      "download_url": "https://raw.githubusercontent.com/GVogeler/bookkeeping/master/bookkeeping.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "bookkeeping",
+      "access_url": "https://raw.githubusercontent.com/GVogeler/bookkeeping/master/bookkeeping.ttl"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "identifier": "PubChem_RDF",
+  "title": "PubChem RDF",
+  "description": {
+    "en": "RDF version of the PubChem database."
+  },
+  "domain": "life_sciences",
+  "website": "https://pubchem.ncbi.nlm.nih.gov/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 80535498217,
+  "doi": "10.1186/s13321-015-0084-4",
+  "contact_point": {
+    "name": "Evan Bolton",
+    "email": "bolton@ncbi.nlm.nih.gov"
+  },
+  "keywords": [
+    "chemistry"
+  ],
+  "links": [
+    {
+      "target": "bioportal-chebi",
+      "value": 97853
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF Download folder",
+      "download_url": "https://ftp.ncbi.nlm.nih.gov/pubchem/RDF/"
+    }
+  ],
+  "example": [
+    {
+      "title": "(3r,5r)-7-[3-(anilinocarbonyl)-5-(4-fluorophenyl)-2-isopropyl-4-phenyl-1h-pyrrol-1-yl]-3,5-dihydroxyheptanoic acid",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://rdf.ncbi.nlm.nih.gov/pubchem/compound/CID60823"
+    }
+  ]
+}

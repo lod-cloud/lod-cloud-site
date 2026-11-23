@@ -1,0 +1,33 @@
+{
+  "identifier": "notIdentifier",
+  "title": "NITP",
+  "description": {
+    "en": "NITP_PROFESSORS_DATA"
+  },
+  "domain": "cross_domain",
+  "website": "https://lod-cloud.net/add-dataset#",
+  "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "triples": 5000,
+  "contact_point": {
+    "name": "LOD",
+    "email": "rupalitiwary0311@gmail.com"
+  },
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 150
+    }
+  ],
+  "full_download": [
+    {
+      "title": "nitpInfo",
+      "description": "Information about NIT Patna",
+      "download_url": "https://raw.githubusercontent.com/Rupali0311/RDF/main/nitpInfo-xlsx.ttl"
+    },
+    {
+      "title": "professors",
+      "description": "Information about professors of NIT Patna",
+      "download_url": "https://raw.githubusercontent.com/Rupali0311/RDF/main/professors.ttl"
+    }
+  ]
+}

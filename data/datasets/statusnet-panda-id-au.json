@@ -1,0 +1,40 @@
+{
+  "identifier": "statusnet-panda-id-au",
+  "title": "statusnet-panda-id-au",
+  "description": {
+    "en": "StatusNet instance hosted at http://panda.id.au"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-ourcoffs-org-au",
+      "value": 2
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://status.panda.id.au/foaf"
+    }
+  ]
+}

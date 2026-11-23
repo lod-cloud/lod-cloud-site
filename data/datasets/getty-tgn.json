@@ -1,0 +1,90 @@
+{
+  "identifier": "getty-tgn",
+  "title": "The Getty Thesaurus of Geographic Names",
+  "description": {
+    "en": "Getty Thesaurus of Geographic Names® (TGN) is a structured vocabulary of geographic names intended to provide terminology and other information important to various diciplines that specialize in art, architecture and material culture. The TGN includes names and associated information about places. Places in TGN include administrative political entities (e.g., cities, nations) and physical features (e.g., mountains, rivers). Current and historical places are included. Like all of the Getty Vocabularies, the TGN is compliant with international standards and grows through contribution. \r\n\r\n** Openness **\r\nTGN data is released under Open Data Commons Attribution License. Adherence to ODC Attribution instructions for the correct assertion of attribution is encouraged. The preferred form of attribution for TGN is:\r\n\r\n\"*This [title or report or article or dataset] contains information from the Getty Thesaurus of Geographic Names® (TGN) which is made available under the ODC Attribution License.*\"\r\n\r\nSpecial Case: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical TGN URIs is adequate to satisfy Section 4.3 of the ODC Attribution License."
+  },
+  "domain": "geography",
+  "website": "http://www.getty.edu/research/tools/vocabularies/tgn/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "\"The Getty Research Institute\"",
+    "email": "VocabLod@getty.edu"
+  },
+  "keywords": [
+    "cultural heritage",
+    "format-skos",
+    "format-skosxl",
+    "geographic",
+    "getty",
+    "size-xlarge",
+    "skos",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "schema-org",
+      "value": 1409085
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Home Page",
+      "description": "This is the Linked Open Data publication of the Getty Vocabularies. The data is described semantically following linked data principles using the Resource Description Framework (RDF) format.",
+      "access_url": "http://vocab.getty.edu"
+    },
+    {
+      "title": "Getty Vocabulary Program ontology",
+      "access_url": "http://vocab.getty.edu/ontology"
+    },
+    {
+      "title": "Semantic Representation Documentation",
+      "access_url": "http://vocab.getty.edu/doc"
+    },
+    {
+      "title": "Total TGN statements",
+      "description": "NTriples zip, file size is 864 MB",
+      "media_type": "application/zip",
+      "access_url": "http://vocab.getty.edu/dataset/tgn/full.zip"
+    },
+    {
+      "title": "Explicit TGN statements",
+      "description": "NTriples zip, file size is 461.7 MB",
+      "media_type": "application/zip",
+      "access_url": "http://vocab.getty.edu/dataset/aat/explicit.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Sienna",
+      "description": "Example with multiple parents and associative relationships.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/tgn/7011179"
+    },
+    {
+      "title": "Machupicchu",
+      "description": "Example of a cultural site in Peru with a rich history.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/tgn/7015574"
+    },
+    {
+      "title": "Aleppo",
+      "description": "Example of a Syrian city with a rich history.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/tgn/7002252"
+    },
+    {
+      "title": "Great Lakes Region",
+      "description": "Example that has bounding box coordinates and elevation.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/tgn/3000034-geometry"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://vocab.getty.edu/sparql"
+    }
+  ]
+}

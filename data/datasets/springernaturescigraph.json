@@ -1,0 +1,58 @@
+{
+  "identifier": "springernaturescigraph",
+  "title": "Springer Nature SciGraph",
+  "description": {
+    "en": "SciGraph is the Springer Nature Linked Data platform that collates information from across the research landscape, i.e. the things, documents, people, places and relations of importance to the science and scholarly domain. Metadata for millions of entities are available to explore online, as well as for downloading to reuse within your own application."
+  },
+  "domain": "publications",
+  "website": "https://www.springernature.com/scigraph",
+  "license": "https://scigraph.springernature.com/explorer/license/",
+  "triples": 979658882,
+  "image": "https://github.com/springernature/scigraph/blob/master/extras/SN_SciGraph_logo.jpg",
+  "contact_point": {
+    "name": "Michele Pasin",
+    "email": "scigraph@springernature.com"
+  },
+  "keywords": [
+    "scientific publishing",
+    "grants",
+    "articles",
+    "books",
+    "chapters",
+    "publications",
+    "research organizations"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1649135
+    },
+    {
+      "target": "doi",
+      "value": 13310639
+    },
+    {
+      "target": "grid_dataset",
+      "value": 5923024
+    },
+    {
+      "target": "nlm_2007_mesh",
+      "value": 1580
+    },
+    {
+      "target": "wikidata",
+      "value": 350
+    }
+  ],
+  "full_download": [
+    {
+      "download_url": "http://scigraph.springernature.com/explorer/downloads/"
+    }
+  ],
+  "example": [
+    {
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://scigraph.springernature.com/things/journal-brands/012496b06989edb434c6b8e1d0b0a7db"
+    }
+  ]
+}

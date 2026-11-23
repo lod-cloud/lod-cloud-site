@@ -1,0 +1,58 @@
+{
+  "identifier": "biographical-directory-of-the-united-states-congress",
+  "title": "Biographical Directory of the United States Congress",
+  "description": {
+    "en": "Names, positions, state, party, and congress number of members of US Congress 1774-present.\r\n\r\nScraped from http://bioguide.congress.gov/biosearch/biosearch.asp \r\nby https://scraperwiki.com/scrapers/biographical_directory_usc/#"
+  },
+  "domain": "government",
+  "website": "http://bioguide.congress.gov/biosearch/biosearch.asp",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://logd.tw.rpi.edu/source/congress-gov/dataset/biographical-directory-of-the-united-states-congress/version/2012-Jan-04/",
+  "triples": 2042215,
+  "keywords": [
+    "government",
+    "lod",
+    "no-deref-vocab",
+    "provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 50
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 50
+    },
+    {
+      "target": "govtrack",
+      "value": 56
+    }
+  ],
+  "other_download": [
+    {
+      "title": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://logd.tw.rpi.edu/source/congress-gov/file/biographical-directory-of-the-united-states-congress/version/2012-Jan-04/conversion/congress-gov-biographical-directory-of-the-united-states-congress-2012-Jan-04.void.ttl"
+    },
+    {
+      "title": "Turtle download",
+      "media_type": "text/turtle",
+      "access_url": "http://logd.tw.rpi.edu/source/congress-gov/file/biographical-directory-of-the-united-states-congress/version/2012-Jan-04/conversion/congress-gov-biographical-directory-of-the-united-state s-congress-2012-Jan-04.ttl.tgz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Turtle example link",
+      "media_type": "example/turtle",
+      "access_url": "http://logd.tw.rpi.edu/source/congress-gov/file/biographical-directory-of-the-united-states-congress/version/2012-Jan-04/conversion/congress-gov-biographical-directory-of-the-united-states-congress-2012-Jan-04.e1.sample.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Rensselaer LOGD SPARQL Endpoint",
+      "access_url": "http://logd.tw.rpi.edu/sparql"
+    }
+  ]
+}

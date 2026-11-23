@@ -1,0 +1,91 @@
+{
+  "identifier": "lista-encabezamientos-materia",
+  "title": "Lista de  Encabezamientos de Materia as Linked Open Data",
+  "description": {
+    "en": "Este nuevo recurso informático que la Dirección General de Libro, Archivos y Bibliotecas pone a disposición del ciudadano supone un importante avnace tecnologico pueste que implica la tranformación de la Lista de Encabezamietos de Materia (LEM) al Simple Knowledge Organization System SKOS, uno de los pilares del Linked Open Data y de su adaptación a Europeana como uno de los namespaces constitutivos del Europeana Data Model. \r\nSe ha establecido ademas, siempre que ha sido posible, un skos:closeMatch con los LCSH y se está progresando para proporcionar una funcionalidad análoga con RAMEAU o SWD.\r\nIncorpora además un fichero en zip de los registros MARC dea utoridades de materia, es decir aquellos basados en el campo 150 en los que se ha añadido las URI de las LEM y las del LCSH.\r\n\r\n---\r\n\r\nThis new digital resource that the Dirección General del Libro, Archivos y Bibliotecas offers to its users represents a huge technological step forward, for it means the transformation of the Subject Headings List (Lista de Encabezamientos de Materia, LEM) to the Simple Knowledge Organization System (SKOS), one of the main pillars of Linked Open Data and of its adaptation to Europeana as one of the Europeana Data Model primary namespaces.\r\nskos:closeMatch links to LCSH have been defined whenever possible, and work is being done towards establishing similar links to RAMEAU and SWD.\r\nThe list is also presented in a zipped MARC file of subject authorities (those based on field 150 in which LEM and LCSH URIs have been added)."
+  },
+  "domain": "publications",
+  "website": "http://id.sgcb.mcu.es",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://id.sgcb.mcu.es/",
+  "triples": 193865,
+  "contact_point": {
+    "name": "Ministerio de Educación, Cultura y Deporte - Gobierno de España",
+    "email": "lemskos@mcu.es"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-rdf",
+    "format-skos",
+    "lem",
+    "library",
+    "linkeddata",
+    "lld",
+    "lod",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "data-bnf-fr",
+      "value": 7572
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 6660
+    },
+    {
+      "target": "lcsh",
+      "value": 8937
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Zipped RDF/XML file (Full ontology)",
+      "media_type": "ZIP",
+      "access_url": "http://id.sgcb.mcu.es/lem/ficheros/lem-rdf-xml.zip"
+    },
+    {
+      "description": "Zipped MARC 21 authorities file",
+      "media_type": "application/marc",
+      "access_url": "http://id.sgcb.mcu.es/lem/ficheros/lem-marc21.zip"
+    },
+    {
+      "description": "Faceted Browser",
+      "media_type": "HTML",
+      "access_url": "http://id.sgcb.mcu.es/fct"
+    },
+    {
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://id.sgcb.mcu.es/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "Arquitectura Musulmana / Islamic Architecture (example dereferenceable URI)",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://id.sgcb.mcu.es/Autoridades/LEM201000848/concept"
+    },
+    {
+      "description": "Arquitectura Musulmana / Islamic Architecture (Turtle example)",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://id.sgcb.mcu.es/data/Autoridades/LEM201000848/concept.ttl"
+    },
+    {
+      "description": "Esquema General de Encabezamientos de Materia (example dereferenceable URI)",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://id.sgcb.mcu.es/Autoridades/conceptScheme"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://id.sgcb.mcu.es/sparql"
+    }
+  ]
+}

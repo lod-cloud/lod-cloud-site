@@ -1,0 +1,78 @@
+{
+  "identifier": "greekchildrensartmuseum",
+  "title": "Greek Children Art  Museum dataset",
+  "description": {
+    "en": "The \"LD-project\" deals with the creation of cultural Open Linked Data (LOD), based on the artifacts of Greek Children Art Museum, in Greece, Athens. It was created in the frame of Master Thesis of MSc. students, Marini Efstathia and Chondrogianni Maria, in Cultural Informatics postgraduate program at the Department of Cultural Technology and Communication of the University of the Aegean.\n\nLinks to published datasets : \nWikidata: 151 links,\nDBpedia: 489 links,\nWikiArt: 17 links,\nMoMA: 2 links,\nOthers (Wikimedia Commons, Benaki Museum, SearchCulture.org, etc.) with 1 link each: 15 links,\nTotal 674,\n\nDCAT Description: https://www.childrensartmuseum.gr/LD-project/"
+  },
+  "domain": "user_generated",
+  "website": "https://www.childrensartmuseum.gr/LD-project/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://www.childrensartmuseum.gr/LD-project/",
+  "triples": 2211,
+  "doi": "10.5281/zenodo.4425440",
+  "image": "https://www.childrensartmuseum.gr/LD-project/mept.png",
+  "contact_point": {
+    "name": "Sotiris Angelis",
+    "email": "sotiris@aegean.gr"
+  },
+  "keywords": [
+    "Painting",
+    "Child Art",
+    "Creative Work",
+    "Museum"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 489
+    },
+    {
+      "target": "wikidata",
+      "value": 151
+    }
+  ],
+  "full_download": [
+    {
+      "title": "children_artworks.ttl",
+      "description": "Turtle Description of Children Art Museum Dataset",
+      "download_url": "https://www.childrensartmuseum.gr/LD-project/children_artworks.ttl"
+    },
+    {
+      "title": "children_artworks.rdf",
+      "description": "RDF Description of Children Art Museum Dataset",
+      "download_url": "https://www.childrensartmuseum.gr/LD-project/children_artworks.rdf"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DCAT Description",
+      "description": "DCAT Description: https://www.childrensartmuseum.gr/LD-project/",
+      "access_url": "https://www.childrensartmuseum.gr/LD-project/dcat.ttl"
+    },
+    {
+      "title": "dcat_zenodo.rdf",
+      "access_url": "https://www.childrensartmuseum.gr/LD-project/dcat_zenodo.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example",
+      "description": "Painting Description",
+      "media_type": "text/turtle",
+      "access_url": "https://www.childrensartmuseum.gr/LD-project/example.ttl"
+    },
+    {
+      "title": "Query Examples",
+      "description": "Query Examples using our SPARQL query GUI",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://ct-linkdata.aegean.gr/query/gcam"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "GCAM sparql endpoint",
+      "description": "Fuseki2 Server",
+      "access_url": "http://ct-linkdata.aegean.gr/gcam/sparql"
+    }
+  ]
+}

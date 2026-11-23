@@ -1,0 +1,85 @@
+{
+  "identifier": "renewable_energy_generators",
+  "title": "Renewable Energy Generators",
+  "description": {
+    "en": "The Renewable Energy Federation maintains an online database of renewable energy generators located in the United Kingdom. The dataset consists of over 5500 generators around the UK, including both on-shore and off-shore installations. The generators have all been categorized based on type and many of them include details of their address, geographic location, and details of the organizations that developed, operate, or own the site. Some wind turbine installations also include details on the number, size and type of turbines.\r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "government",
+  "website": "http://kasabi.com/dataset/renewable-energy-generators",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.kasabi.com/dataset/renewable-energy-generators",
+  "triples": 99917,
+  "contact_point": {
+    "name": "Leigh Dodds",
+    "email": "leigh@ldodds.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-foaf",
+    "format-rdf",
+    "geodata",
+    "geographic",
+    "government",
+    "lodcloud-diagram-2011-09-19",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 991
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 5539
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Kasabi Homepage for Renewable Energy Generators dataset",
+      "access_url": "http://kasabi.com/dataset/renewable-energy-generators/"
+    },
+    {
+      "description": "Kasabi page for Renewable Energy Generators Search API",
+      "access_url": "http://kasabi.com/dataset/renewable-energy-generators/apis/search"
+    },
+    {
+      "description": "Kasabi page for Renewable Energy Generators SPARQL Endpoint",
+      "access_url": "http://kasabi.com/dataset/renewable-energy-generators/apis/sparql"
+    },
+    {
+      "description": "Kasabi page for Renewable Energy Generators Lookup API",
+      "access_url": "http://kasabi.com/dataset/renewable-energy-generators/apis/lookup"
+    },
+    {
+      "description": "Kasabi page for Renewable Energy Generators Reconciliation API",
+      "access_url": "http://kasabi.com/dataset/renewable-energy-generators/apis/reconciliation"
+    },
+    {
+      "description": "Kasabi page for Renewable Energy Generators Augmentation API",
+      "access_url": "http://kasabi.com/dataset/renewable-energy-generators/apis/augmentation"
+    },
+    {
+      "description": "Void description of Renewable Energy Generators dataset",
+      "access_url": "http://data.kasabi.com/dataset/renewable-energy-generators"
+    },
+    {
+      "title": "Dataset export",
+      "description": "Dump of the dataset uploaded to internet archive",
+      "media_type": "application/octet-stream",
+      "access_url": "http://archive.org/download/kasabi/renewable-energy-generators.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example RDF for Renewable Energy Generators dataset",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/renewable-energy-generators/generator/R00001NANI.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint for Renewable Energy Generators",
+      "access_url": "http://api.kasabi.com/dataset/renewable-energy-generators/apis/sparql"
+    }
+  ]
+}

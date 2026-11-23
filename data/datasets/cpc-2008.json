@@ -1,0 +1,91 @@
+{
+  "identifier": "cpc-2008",
+  "title": "CPC 2008",
+  "description": {
+    "en": "The Central Product Classification (CPC)  is a product scheme classification used to extract statistics. It was a previous attempt to CPV.\r\n\r\nAuthors of the linked data version:\r\n\r\n-Jose María Alvarez Rodríguez & Jose Emilio Labra Gayo\r\n\r\nWESO-University of Oviedo"
+  },
+  "website": "http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://purl.org/weso/pscs/cpa/2008/resource",
+  "triples": 100819,
+  "contact_point": {
+    "name": "Jose María Alvarez Rodríguez at WESO (University of Oviedo)",
+    "email": "josem.alvarez@weso.es"
+  },
+  "keywords": [
+    "10ders",
+    "cpc",
+    "cpc-2008",
+    "deref-vocab",
+    "e-procurement",
+    "euroalert",
+    "format-dc",
+    "format-dcterms",
+    "format-gr",
+    "format-skos",
+    "format-skosxl",
+    "geodata",
+    "government",
+    "license-metadata",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "oviedo",
+    "procurement",
+    "provenance-metadata",
+    "pscs",
+    "public_contracts",
+    "published-by-third-party",
+    "uniovi",
+    "university-of-oviedo",
+    "vocab-mappings",
+    "weso"
+  ],
+  "links": [
+    {
+      "target": "http://productontology.org",
+      "value": 26144
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Central Product Classification 2008",
+      "description": "Data Dump Central Product Classification 2008",
+      "media_type": "text/turtle",
+      "access_url": "http://purl.org/weso/datasets/pscs/cpc/2008/cpc-2008.ttl"
+    },
+    {
+      "title": "Linked Data Frontend-Central Product Classification 2008 (CPC)",
+      "description": "Linked Data Frontend-Central Product Classification 2008 (CPC)",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/weso/pscs/cpc/2008/resource/ds"
+    },
+    {
+      "title": "VoID of Central Product Classification 2008 (CPC)",
+      "description": "VoID of Central Product Classification 2008 (CPC)",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/weso/pscs/cpc/2008/resource/ds"
+    },
+    {
+      "title": "Custom definitions of Central Product Classification 2008 (CPC)",
+      "description": "Custom definitions of Central Product Classification 2008 (CPC)",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/weso/datasets/pscs/psc-ontology.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of resource-Central Product Classification 2008 (CPC)",
+      "description": "Example of resource-Central Product Classification 2008 (CPC)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/weso/pscs/data/cpc/2008/resource/01111?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WESO SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://purl.org/weso/sparql"
+    }
+  ]
+}

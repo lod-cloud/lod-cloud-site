@@ -1,0 +1,32 @@
+---
+layout: default
+title: Page not found
+permalink: /404.html
+---
+<div class="container">
+  <h1>Page not found</h1>
+  <p>The page you asked for does not exist. Try the <a href="{{ '/datasets/' | relative_url }}">list of datasets</a> or the <a href="{{ '/' | relative_url }}">home page</a>.</p>
+</div>
+
+{% comment %}
+  Dataset identifiers that cannot be a published file name (e.g. "ISSN:0080-3626") live at an
+  encoded path; send requests for the original spelling there. Map written by
+  scripts/export_site_data.py.
+{% endcomment %}
+<script>
+  (function () {
+    var base = "{{ site.baseurl }}";
+    var m = location.pathname.slice(base.length).match(/^\/(dataset|edit-dataset)\/(.+?)\/?$/);
+    if (!m) return;
+    var id;
+    try { id = decodeURIComponent(m[2]); } catch (e) { return; }
+    fetch(base + "/dataset-redirects.json")
+      .then(function (r) { return r.json(); })
+      .then(function (map) {
+        if (Object.prototype.hasOwnProperty.call(map, id)) {
+          location.replace(base + "/" + m[1] + "/" + encodeURIComponent(map[id]) + "/");
+        }
+      })
+      .catch(function () {});
+  })();
+</script>

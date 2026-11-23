@@ -1,0 +1,114 @@
+{
+  "identifier": "linked-open-data-of-ecology",
+  "title": "Linked Open Data of Ecology",
+  "description": {
+    "en": "Linked Open Data of Ecology ([LODE][]) is a prototype to integrate the data of ecology by linked data approach. So far the subjects include most of [wildfire][], [taxonomy][], biodiversity data of [plants][] and [insects][] in Taiwan. \r\n\r\n2011/07/20: Recently we added a new dataset about measurements of DBH(diameters breast height) of tree entities in Nansi forest dynamics plot ([FDP-NS][]).\r\n\r\n[LODE]: http://ecowlim.tfri.gov.tw/lode\r\n[wildfire]: http://ecowlim.tfri.gov.tw/lode/resource/firedb/ForestFireEvent\r\n[taxonomy]: http://ecowlim.tfri.gov.tw/lode/page/taibnet/Species\r\n[plants]: http://ecowlim.tfri.gov.tw/lode/page/taif/Species\r\n[insects]: http://ecowlim.tfri.gov.tw/lode/page/flyhorse/Species\r\n[FDP-NS]: http://ecowlim.tfri.gov.tw/lode/resource/fdp/NansiForestDynamicsPlotCensus/01"
+  },
+  "website": "http://ecowlim.tfri.gov.tw/lode",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://ecowlim.tfri.gov.tw/lode/resource/",
+  "triples": 23015257,
+  "contact_point": {
+    "name": "Jason Mai",
+    "email": "trashmai@gmail.com"
+  },
+  "keywords": [
+    "biodiversity",
+    "crossdomain",
+    "deref-vocab",
+    "ecology",
+    "environment",
+    "format-dbo",
+    "format-dbpedia",
+    "format-dbpowl",
+    "format-dbpprop",
+    "format-dc",
+    "format-dwc",
+    "format-event",
+    "format-foaf",
+    "format-geo",
+    "format-muo",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-time",
+    "format-tl",
+    "format-ucum",
+    "insects",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "measurement",
+    "plants",
+    "provenance-metadata",
+    "published-by-producer",
+    "wildfire"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-uniprot-taxonomy",
+      "value": 28059
+    },
+    {
+      "target": "dbpedia",
+      "value": 10000
+    },
+    {
+      "target": "freebase",
+      "value": 3870
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 230
+    },
+    {
+      "target": "geospecies",
+      "value": 3739
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 1023
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Sitemap index",
+      "media_type": "meta/sitemap",
+      "access_url": "http://ecowlim.tfri.gov.tw/sitemap_index.xml"
+    },
+    {
+      "description": "A voiD description of LODE dataset",
+      "media_type": "meta/void",
+      "access_url": "http://ecowlim.tfri.gov.tw/lode/resource/void/Dataset"
+    }
+  ],
+  "example": [
+    {
+      "description": "a RDF-formatted document of data describing a specimen collecting event",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ecowlim.tfri.gov.tw/lode/data/flyhorse/CollectingEvent/10015?output=xml"
+    },
+    {
+      "description": "a N3-formatted document of data describing a specimen",
+      "media_type": "example/n3",
+      "access_url": "http://ecowlim.tfri.gov.tw/lode/data/taif/Specimen/TAIF-PLANT-1-1-10026-187900?output=n3"
+    },
+    {
+      "description": "a RDF-formatted document of data describing a species and its taxonomy status",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ecowlim.tfri.gov.tw/lode/data/taibnet/Species/Callyodon_laxtoni?output=xml"
+    },
+    {
+      "description": "a RDF-formatted document of data describing a wildfire event",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ecowlim.tfri.gov.tw/lode/data/firedb/ForestFireEvent/1065?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "sparql endpoint",
+      "access_url": "http://ecowlim.tfri.gov.tw/sparql/query"
+    }
+  ]
+}

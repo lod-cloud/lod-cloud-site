@@ -1,0 +1,38 @@
+{
+  "identifier": "oceandrilling-borehole",
+  "title": "oceandrilling-borehole",
+  "domain": "geography",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "deref-vocab",
+    "format-dcterm",
+    "format-doap",
+    "format-foaf",
+    "format-hartigprov",
+    "format-prvt",
+    "format-rdf",
+    "format-rdfs",
+    "format-sd",
+    "format-void",
+    "geographic",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "w3c",
+      "value": 5
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://logs.oceandrilling.org/data/file/716017"
+    }
+  ]
+}

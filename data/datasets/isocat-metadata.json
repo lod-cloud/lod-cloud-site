@@ -1,0 +1,45 @@
+{
+  "identifier": "isocat-metadata",
+  "title": "ISOcat-metadata",
+  "description": {
+    "en": "The linguistics community is building a metadata-based infrastructure for the description of its research data and tools. At its core is the ISOcat registry ISOcat.org, a collaborative platform to hold a (to be standardized) set of data catgories (i.e., field descriptors). Descriptors have definitions in natural language and little explicit interrelations. With the registry growing to many hundred entries, authored by many, it is becoming increasingly apparent that the rather informal definitions and their glossary-like design make it hard for users to grasp, exploit and manage the registry’s content. Here we take a large subset of the ISOcat term set and reconstruct from it a tree structure following the footsteps of schema.org. Our ontological re-engineering yields a representation that gives users a hierarchical view of linguistic, metadata-related terminology. The new representation adds to the precision of all definitions by making explicit information which is only implicitly given in the ISOcat registry. It also helps uncovering and addressing potential inconsistencies in term definitions as well as gaps and redundancies in the overall ISOcat term set. The new representation can serve as a complement to the existing ISOcat model, providing additional support for authors and users in browsing, (re-)using, maintaining, and further extending the community’s terminological metadata repertoire.\r\n\r\nThe set of data categories has been taken from the TDG Metadata of the ISOcat data category registry. As the ISOcat registry changes over time, we give a snapshot of all data in this RDF representation, as generated automatically from the registry's export functionality in Dec 2011. Note that this data is a flat representation of the TDG Metadata entries. Each entry is only represented in RDF with its mnemonic identifier, name, persistent identifier and natural language definition. No other information, in particular, no structural information is given.\r\n(http://www.sfs.uni-tuebingen.de/nalida/en/docu/isocat-hierarchy.html)\r\n\r\nFree for academic and research use.\r\n(http://www.sfs.uni-tuebingen.de/nalida/images/isocat/isocatOWL.owl)"
+  },
+  "domain": "linguistics",
+  "triples": 830,
+  "contact_point": {
+    "name": "Nalida Tübingen",
+    "email": "nalida@sfs.uni-tuebingen.de"
+  },
+  "keywords": [
+    "ISOcat",
+    "linguistic",
+    "llod",
+    "lod",
+    "metadata",
+    "ontology",
+    "terminology"
+  ],
+  "links": [
+    {
+      "target": "isocat",
+      "value": 65
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ISOcat TDG Metadata Ontology (OWL)",
+      "description": "OWL representation",
+      "access_url": "http://www.sfs.uni-tuebingen.de/nalida/images/isocat/isocatOWL.owl"
+    },
+    {
+      "title": "ISOcat TDG Metadata Ontology (html)",
+      "description": "HTML version",
+      "access_url": "http://www.sfs.uni-tuebingen.de/nalida/images/isocat/isocat_hierarchy.html"
+    },
+    {
+      "title": "Description (en)",
+      "description": "Description",
+      "access_url": "http://www.sfs.uni-tuebingen.de/nalida/en/docu/isocat-hierarchy.html"
+    }
+  ]
+}

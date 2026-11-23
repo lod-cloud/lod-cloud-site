@@ -1,0 +1,123 @@
+{
+  "identifier": "rkb-explorer-ibm",
+  "title": "IBM Research GmbH (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://ibm.rkbexplorer.com",
+  "namespace": "http://ibm.rkbexplorer.com/id/",
+  "triples": 44721,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 262
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 260
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 498
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 269
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 30
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 102
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 16
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 14
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 131
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 25
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://ibm.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://ibm.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://ibm.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/xml",
+      "access_url": "http://ibm.rkbexplorer.com/id/person-acd10592dc6fcfcce6b7327ce2321bd0"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://ibm.rkbexplorer.com/sparql/"
+    }
+  ]
+}

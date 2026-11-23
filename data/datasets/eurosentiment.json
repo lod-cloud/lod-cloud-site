@@ -1,0 +1,226 @@
+{
+  "identifier": "eurosentiment",
+  "title": "EuroSentiment",
+  "description": {
+    "en": "Gabriela Vulcu, Raul Lario Monje, Mario Munoz, Paul Buitelaar and Carlos A. Iglesias (2014), Linked-Data based Domain-Specific Sentiment Lexicons, In: Proceedings of the 3rd Workshop on Linked Data in Linguistics (LDL-2014), Reykjavik, Iceland, May 2014\r\n\r\n    Resource Type: \tLexicon\r\n    Resource Name: \tEUROSENTIMENT domain-specific sentiment lexicons\t\r\n    Size: \t9160\t\r\n    Resource Production Status: \tNewly created-in progress\t\r\n    Language(s): \tW\t\r\n    Modality: \tWritten\t\r\n    Use of the Resource: \tEmotion Recognition/Generation\t\r\n    Resource Availability: \tFreely Avalable\t\r\n    Resource URL (if available): \thttp://140.203.155.231:8080/eurosentiment/\t\r\n    Resource Description: \tPlease see the submitted article. It describes this language resource and all other involved."
+  },
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "triples": 975566,
+  "contact_point": {
+    "name": "Gabriela Vulcu et al.",
+    "email": "gabriela.vulcu@insight-centre.org"
+  },
+  "keywords": [
+    "ldl-2014",
+    "lexicon",
+    "linguistic",
+    "llod",
+    "lod",
+    "sentiment"
+  ],
+  "links": [
+    {
+      "target": "lexinfo"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Annotated corpus in German  for  Electronics",
+      "description": "Annotated corpus in German  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000030_000001.nq"
+    },
+    {
+      "title": "Annotated corpus in Catalan  for  Electronics",
+      "description": "Annotated corpus in Catalan  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/electronics_ca_human_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  Electronics",
+      "description": "Annotated corpus in English  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/electronics_en_human_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Spanish  for  Electronics",
+      "description": "Annotated corpus in Spanish  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/electronics_es_human_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Portuguese   for  Electronics",
+      "description": "Annotated corpus in Portuguese   for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/electronics_pt_human_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Italian  for  Finance",
+      "description": "Annotated corpus in Italian  for  Finance",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000013_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Italian  for  Music",
+      "description": "Annotated corpus in Italian  for  Music",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000014_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  Pharmacy",
+      "description": "Annotated corpus in English  for  Pharmacy",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000015_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Italian  for  Post",
+      "description": "Annotated corpus in Italian  for  Post",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000016_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  Engineering",
+      "description": "Annotated corpus in English  for  Engineering",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000017_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Italian  for  Post",
+      "description": "Annotated corpus in Italian  for  Post",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000018_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English   for  Vehicles",
+      "description": "Annotated corpus in English   for  Vehicles",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000019_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  News",
+      "description": "Annotated corpus in English  for  News",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000020_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  Engineering",
+      "description": "Annotated corpus in English  for  Engineering",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000021_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  News",
+      "description": "Annotated corpus in English  for  News",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000022_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Italian  for  Finance",
+      "description": "Annotated corpus in Italian  for  Finance",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000023_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Italian  for Music",
+      "description": "Annotated corpus in Italian  for Music",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000024_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  Pharmacy",
+      "description": "Annotated corpus in English  for  Pharmacy",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000025_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  Electronics",
+      "description": "Annotated corpus in English  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000026_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English for  Tourism",
+      "description": "Annotated corpus in English for  Tourism",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000028_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Catalan for  Tourism",
+      "description": "Annotated corpus in Catalan for  Tourism",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000029_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Spanish  for  Electronics",
+      "description": "Annotated corpus in Spanish  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000030_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Portuguese  for  Tourism",
+      "description": "Annotated corpus in Portuguese  for  Tourism",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000031_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Spanish  for Tourism",
+      "description": "Annotated corpus in Spanish  for Tourism",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000033_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Catalan  for  Electronics",
+      "description": "Annotated corpus in Catalan  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000034_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Portuguese  for  Electronics",
+      "description": "Annotated corpus in Portuguese  for  Electronics",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000035_000001_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in English  for  Hotels",
+      "description": "Annotated corpus in English  for  Hotels",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/hotel_en_human_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Spanish  for  Hotels",
+      "description": "Annotated corpus in Spanish  for  Hotels",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/hotel_es_human_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Portuguese  for  Hotels",
+      "description": "Annotated corpus in Portuguese  for  Hotels",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/hotel_pt_human_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in German  for  Cars",
+      "description": "Annotated corpus in German  for  Cars",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/human_de_cars_250_revised_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in German  for  Technology",
+      "description": "Annotated corpus in German  for  Technology",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/human_de_tech_250_revised_final_metadata.nq"
+    },
+    {
+      "title": "Annotated corpus in Catalan  for  Hotels",
+      "description": "Annotated corpus in Catalan  for  Hotels",
+      "media_type": "n-quads",
+      "access_url": "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/hotel_ca_human_final_metadata.nq"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://virtuoso-eurosentiment.paradigmatecnologico.com/sparql"
+    }
+  ]
+}

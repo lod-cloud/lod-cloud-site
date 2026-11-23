@@ -1,0 +1,67 @@
+{
+  "identifier": "ordnance-survey-linked-data",
+  "title": "Ordnance Survey Linked Data",
+  "description": {
+    "en": "See also package:ordnance_survey.\r\n\r\n### Published data\r\n\r\n* Geographical data about England, Wales, and Scotland\r\n* Provides identifiers for counties, cities, wards, census areas\r\n* Provides identifiers for postcodes\r\n* Relationships between geographical areas (containment, borders)\r\n\r\n### Licence\r\n\r\nOS Open Data Licence\r\n\r\n> The following attribution statement applies to this licence:\r\n> Contains Ordnance Survey data © Crown copyright and database right 2010\r\n> These terms have been aligned to be interoperable with any Creative Commons Attribution 3.0\r\nLicence."
+  },
+  "domain": "geography",
+  "website": "http://data.ordnancesurvey.co.uk/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.ordnancesurvey.co.uk/doc/postcodeunit/",
+  "triples": 2788872,
+  "contact_point": {
+    "name": "Ordnance Survey"
+  },
+  "keywords": [
+    "country-uk",
+    "deref-vocab",
+    "format-admingeo",
+    "format-dc",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-spacerel",
+    "geo",
+    "geographic",
+    "license-metadata",
+    "lod",
+    "lodcloud.nolinks",
+    "no-vocab-mappings",
+    "ordnance-survey",
+    "postcode",
+    "provenance-metadata",
+    "published-by-producer",
+    "sparql"
+  ],
+  "other_download": [
+    {
+      "description": "Linked Data starting point",
+      "access_url": "http://data.ordnancesurvey.co.uk/"
+    },
+    {
+      "description": "voiD description",
+      "access_url": "http://data.ordnancesurvey.co.uk/"
+    }
+  ],
+  "example": [
+    {
+      "description": "The City of Southampton example (RDF/XML)",
+      "media_type": "text/turtle",
+      "access_url": "http://data.ordnancesurvey.co.uk/id/7000000000037256"
+    },
+    {
+      "description": "Postcode example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.ordnancesurvey.co.uk/id/postcodeunit/SO164GU"
+    }
+  ],
+  "sparql": [
+    {
+      "access_url": "http://api.talis.com/stores/ordnance-survey/services/sparql"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/ordnance-survey/services/sparql"
+    }
+  ]
+}

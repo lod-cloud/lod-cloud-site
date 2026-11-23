@@ -1,0 +1,39 @@
+{
+  "identifier": "opendatacommunities-impact-indicators-affordable-housing-starts",
+  "title": "opendatacommunities-impact-indicators-affordable-housing-starts",
+  "domain": "government",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-dcat",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "opendatacommunities-transparency-impact-indicators-affordable-housing-starts",
+      "value": 1
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://opendatacommunities.org/data/impact-indicators-affordable-housing-starts"
+    }
+  ]
+}

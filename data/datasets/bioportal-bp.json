@@ -1,0 +1,68 @@
+{
+  "identifier": "bioportal-bp",
+  "title": "BioPAX",
+  "description": {
+    "en": "The BioPAX ontology (www.biopax.org) is a standard language for formally representing biological pathways. BioPAX Level 3 supports the representation of metabolic pathways, signal transduction pathways, protein-protein interaction networks, gene regulatory networks and genetic interactions."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1522",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1230,
+  "contact_point": {
+    "name": "Dr Emek Demir"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-canco",
+      "value": 10
+    },
+    {
+      "target": "bioportal-chem2bio2owl",
+      "value": 35
+    },
+    {
+      "target": "bioportal-dikb-evidence",
+      "value": 29
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 34
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/44167?apikey=BP_API_KEY"
+    }
+  ]
+}

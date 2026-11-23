@@ -1,0 +1,108 @@
+{
+  "identifier": "interactivemaps-gnoss",
+  "title": "Interactive Maps, a collection of interactive flash maps (GNOSS)",
+  "description": {
+    "en": "<p>\r\n<a href=\"http://mapasinteractivos.didactalia.net/\">Mapas interactivos</a> is a collection of interactive flash maps developed by \r\n<a href=\"http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos/perfil/Enrique-Alonso-Guti%C3%A9rrez/\">Enrique Alonso</a>\r\n to facilitate the physical and political geography learning. It includes maps of Spain and its autonomies, Europe and its countries, the European Union, Asia, Africa, and America and countries of America. The project, with maps in 10 languages, is part of <a href=\"http://didactalia.net/\">Didactalia (GNOSS)</a>.\r\n</p>\r\n<p>\r\nMapas interactivos works with \r\n<a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>\r\n. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Mapas interactivos offers a selection of 841 maps (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.\r\n</p>\r\n\r\n<p>\r\n<a href=\"http://mapasinteractivos.didactalia.net/\">Mapas interactivos</a>\r\n es una colección de mapas en flash elaborados por <a href=\"http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos/perfil/Enrique-Alonso-Guti%C3%A9rrez/\">Enrique Alonso</a> para facilitar el aprendizaje de Geografía (física y política). Incluye mapas de España y sus Comunidades Autónomas; países de Europa, Europa y la Unión Europea; Asia; África; y países de América y América. El proyecto forma parte de <a href=\"http://didactalia.net/\">Didactalia (GNOSS)</a> y está en 10 idiomas.\r\n</p>\r\n<p>\r\nMapas interactivos trabaja con \r\n<a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Mapas interactivos ofrece en este caso una colección con 841 mapas en flash (Octubre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos",
+  "triples": 90226,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "country-spain",
+    "country.es",
+    "dc",
+    "enrique alonso",
+    "enrique alonso gutiérrez",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "juegos de geografía",
+    "language-spa",
+    "license-metadata",
+    "lod",
+    "mapas enrique alonso",
+    "mapas flash",
+    "mapas flash interactivos",
+    "mapas físicos",
+    "mapas interactivos",
+    "mapas interactivos flash",
+    "mapas políticos",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 11
+    },
+    {
+      "target": "didactalia",
+      "value": 4180
+    },
+    {
+      "target": "freebase",
+      "value": 180
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 1359
+    },
+    {
+      "target": "gnoss",
+      "value": 1096
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "access_url": "http://mapasinteractivos.didactalia.net/voidMapasInteractivosGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in Mapas Flash Interactivos. Currently, almost 1000 resources have been published in the community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos/recurso/Rios-de-Espa%C3%B1a-Donde-esta-Avanzado/7ad059aa-dd45-4659-9436-a12958941879?rdf"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in Mapas Flash Interactivos. Currently, almost 1000 resources have been published in the community.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos/recurso/Paises-de-Europa-Puzzle/08fe090d-681b-4422-8615-07b8444c9c9c?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://red.gnoss.com/en/community/mapasflashinteractivos/advanced-search/tag/spain?rdf"
+    }
+  ]
+}

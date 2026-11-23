@@ -1,0 +1,119 @@
+{
+  "identifier": "fao-geopolitical-ontology",
+  "title": "FAO geopolitical ontology",
+  "description": {
+    "en": "The FAO geopolitical ontology provides a master reference for geopolitical information, as it manages names in multiple languages (English, French, Spanish, Arabic, Chinese, Russian and Italian); maps standard coding systems (UN, ISO, FAOSTAT, AGROVOC, DBPedia, etc); provides relations among territories (land borders, group membership, etc); and tracks historical changes.\r\n\r\nThe ontology contains <br>\r\n*number of triples : 22495 triples  <br>\r\n*links to other data sets: 195 links to DBPEDIA <br>\r\n\r\n\r\nThe Food and Agriculture Organization of the United Nations (FAO) leads international efforts to defeat hunger and serves as a knowledge network."
+  },
+  "domain": "geography",
+  "website": "http://www.fao.org/countryprofiles/geoinfo.asp?lang=en",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/",
+  "triples": 22495,
+  "contact_point": {
+    "name": "FAO Country profiles",
+    "email": "FAO-country-profiles@fao.org"
+  },
+  "keywords": [
+    "access-web",
+    "agrovoc",
+    "arabic",
+    "borders",
+    "change",
+    "chinese",
+    "code",
+    "country",
+    "country-netherlands",
+    "crossdomain",
+    "dbpedia",
+    "deref-vocab",
+    "english",
+    "fao",
+    "faostat",
+    "format-dc",
+    "format-owl",
+    "french",
+    "geographic",
+    "geopolitical",
+    "government",
+    "group",
+    "historical",
+    "id",
+    "information",
+    "iso2",
+    "iso3",
+    "italian",
+    "llod",
+    "lod",
+    "lod.fao.geopolitical",
+    "lodcloud-diagram-2011",
+    "lodcloud-diagram-2014",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "memberships",
+    "names",
+    "no-license-metadata",
+    "ontology",
+    "owl",
+    "profiles",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "russian",
+    "schemata",
+    "services",
+    "spanish",
+    "track",
+    "un",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 195
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Overview of all resources",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource"
+    },
+    {
+      "description": "RDF dump download",
+      "media_type": "RDF",
+      "access_url": "http://www.fao.org/countryprofiles/geoinfo/geopolitical/data"
+    },
+    {
+      "description": "OWL download",
+      "media_type": "RDF",
+      "access_url": "http://aims.fao.org/aos/geopolitical.owl"
+    },
+    {
+      "description": "Overview of Web Services",
+      "media_type": "XML",
+      "access_url": "http://www.fao.org/countryprofiles/webservices.asp"
+    },
+    {
+      "description": "Application to download RDF/XML/CSV",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.fao.org/countryprofiles/geoinfo/modulemaker/index.html"
+    },
+    {
+      "description": "Vocabulary Mappings",
+      "access_url": "http://www.w3.org/2002/07/owl#sameAs"
+    }
+  ],
+  "example": [
+    {
+      "description": "RDF/XML link to an example data item (country)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.fao.org/countryprofiles/geoinfo/geopolitical/data/self_governing"
+    },
+    {
+      "description": "HTML+RDFa link to an example data item (country)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://www.fao.org/countryprofiles/geoinfo/geopolitical/page/self_governing"
+    }
+  ]
+}

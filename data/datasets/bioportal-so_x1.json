@@ -1,0 +1,247 @@
+{
+  "identifier": "bioportal-so_x1",
+  "title": "Sequence types and features",
+  "description": {
+    "en": "The Sequence Ontology provides a structured controlled vocabulary for sequence annotation, for the exchange of annotation data and for the description of sequence objects in databases. <a href=\"http://obo.cvs.sourceforge.net/*checkout*/song/ontology/sofa.obo\">SOFA</a> is a minimal version of SO for use in data exchange."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1109",
+  "triples": 31419,
+  "contact_point": {
+    "name": "So Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-amino-acid",
+      "value": 19
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 20
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 32
+    },
+    {
+      "target": "bioportal-bootstrep",
+      "value": 42
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 32
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 11
+    },
+    {
+      "target": "bioportal-cdao",
+      "value": 20
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 74
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 92
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 47
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 37
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 25
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 25
+    },
+    {
+      "target": "bioportal-gro_x2",
+      "value": 42
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 14
+    },
+    {
+      "target": "bioportal-imgt",
+      "value": 20
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 92
+    },
+    {
+      "target": "bioportal-mao",
+      "value": 16
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 33
+    },
+    {
+      "target": "bioportal-mego",
+      "value": 32
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 201
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 22
+    },
+    {
+      "target": "bioportal-mo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-mod",
+      "value": 22
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 209
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 254
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 73
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 86
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 11
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 11
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 26
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 14
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 23
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 34
+    },
+    {
+      "target": "bioportal-peo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 44
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 10
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 21
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 11
+    },
+    {
+      "target": "bioportal-sbo",
+      "value": 13
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 31
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 121
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 76
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 144
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 36
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 21
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47407?apikey=BP_API_KEY"
+    }
+  ]
+}

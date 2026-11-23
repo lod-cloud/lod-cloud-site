@@ -1,0 +1,140 @@
+{
+  "identifier": "bio2rdf-hgnc",
+  "title": "Bio2RDF::Hgnc",
+  "description": {
+    "en": "The HGNC gives unique and meaningful names to every human gene. For each known human gene we approve a gene name and symbol (short-form abbreviation).  All approved symbols are stored in the HGNC database."
+  },
+  "domain": "life_sciences",
+  "website": "http://hgnc.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/hgnc:",
+  "triples": 3628205,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-ccds",
+      "value": 29446
+    },
+    {
+      "target": "bio2rdf-ensembl",
+      "value": 56758
+    },
+    {
+      "target": "bio2rdf-hgnc",
+      "value": 41826
+    },
+    {
+      "target": "bio2rdf-mgi",
+      "value": 17768
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 34453
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 14252
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 16672
+    },
+    {
+      "target": "bio2rdf-refseq",
+      "value": 36512
+    },
+    {
+      "target": "bio2rdf-rgd",
+      "value": 17417
+    },
+    {
+      "target": "bio2rdf-ucsc",
+      "value": 21270
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 19603
+    },
+    {
+      "target": "bio2rdf-vega",
+      "value": 24348
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download hgnc_complete_set.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/hgnc/hgnc_complete_set.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/hgnc/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/hgnc/hgnc.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/hgnc/bio2rdf-hgnc.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/hgnc/hgnc.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/hgnc/bio2rdf_hgnc_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/hgnc/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/hgnc:7"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://hgnc.bio2rdf.org/sparql"
+    }
+  ]
+}

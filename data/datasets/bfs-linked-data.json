@@ -1,0 +1,93 @@
+{
+  "identifier": "bfs-linked-data",
+  "title": "Bundesamt für Statistik (BFS) - Swiss Federal Statistical Office (FSO) Linked Data",
+  "description": {
+    "en": "Bundesamt für Statistik - Swiss Federal Statistical Office data. Currently contains only the classifications."
+  },
+  "domain": "government",
+  "website": "http://bfs.270a.info/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://bfs.270a.info/dataset/",
+  "triples": 1050000,
+  "contact_point": {
+    "name": "Sarven Capadisli",
+    "email": "info@csarven.ca"
+  },
+  "keywords": [
+    "country",
+    "country-codes",
+    "demographics",
+    "economics",
+    "format-dcterms",
+    "format-prov",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "indicators",
+    "international",
+    "license-metadata",
+    "linked-data",
+    "lod",
+    "lodcloud",
+    "lodcloud.candidate",
+    "national",
+    "no-proprietary-vocab",
+    "projects",
+    "provenance-metadata",
+    "published-by-third-party",
+    "statistics",
+    "switzerland",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 261
+    },
+    {
+      "target": "ecb-linked-data",
+      "value": 221
+    },
+    {
+      "target": "imf-linked-data",
+      "value": 24
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 185
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID",
+      "description": "A VoiD Description of the bfs.270a.info dataset",
+      "access_url": "http://fao.270a.info/.well-known/void"
+    },
+    {
+      "title": "RDF Schema",
+      "media_type": "RDF",
+      "access_url": "http://bfs.270a.info/data/meta.tar.gz"
+    },
+    {
+      "title": "BFS Data dump",
+      "media_type": "RDF",
+      "access_url": "http://bfs.270a.info/data/meta.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF/XML",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://bfs.270a.info/code/1.0/CL_STATES_AND_TERRITORIES"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://bfs.270a.info/sparql"
+    }
+  ]
+}

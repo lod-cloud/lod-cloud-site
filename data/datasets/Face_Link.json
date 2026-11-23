@@ -1,0 +1,20 @@
+{
+  "identifier": "Face_Link",
+  "title": "Face Link",
+  "description": {
+    "en": "Face"
+  },
+  "domain": "cross_domain",
+  "website": "http://loki.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "DDD",
+    "email": "realcom@msn.com"
+  },
+  "links": [
+    {
+      "target": "yahoo_geoplanet"
+    }
+  ]
+}

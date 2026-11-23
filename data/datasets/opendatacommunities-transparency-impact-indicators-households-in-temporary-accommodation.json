@@ -1,0 +1,34 @@
+{
+  "identifier": "opendatacommunities-transparency-impact-indicators-households-in-temporary-accommodation",
+  "title": "opendatacommunities-transparency-impact-indicators-households-in-temporary-accommodation",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-cube",
+    "format-dcat",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-sdmxa",
+    "format-sdmxd",
+    "format-void",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "reference-data-gov-uk",
+      "value": 1
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 1
+    }
+  ]
+}

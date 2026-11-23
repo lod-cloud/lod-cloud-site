@@ -1,0 +1,28 @@
+{
+  "identifier": "opendatascotland-simd-income-rank",
+  "title": "opendatascotland-simd-income-rank",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-cube",
+    "format-dcat",
+    "format-dcterm",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "government",
+    "license-metadata",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 1
+    }
+  ]
+}

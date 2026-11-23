@@ -1,0 +1,139 @@
+{
+  "identifier": "hellenic-police",
+  "title": "Hellenic Police",
+  "description": {
+    "en": "The Hellenic Police project encompasses efforts to extract valuable information from Greek Open Data originating from the Ministry of Public Order & Citizen Protection and in particular from the Hellenic Police Department. It involves mainly crime incidents and aims to exploit these in the best possible manner so as to form meaningful scenarios. The primary goal is to provide applications and services that would reveal potentials for the department to improve upon its management procedures, have economic benefits from cost reductions and improvements in its crime prevention efficiency.\r\nA secondary but equally important goal is to encourage additional contributions of Greek Open Data as well as of innovative applications and services based on the latter."
+  },
+  "domain": "government",
+  "website": "http://greek-lod.math.auth.gr/police/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://greek-lod.math.auth.gr/police/resource/",
+  "triples": 145368,
+  "contact_point": {
+    "name": "IOANNIS PARAPONTIS",
+    "email": "PARAPONTISJ@GMAIL.COM"
+  },
+  "keywords": [
+    "country-greece",
+    "format",
+    "format-akt",
+    "format-dc",
+    "format-dcterms",
+    "format-foaf",
+    "format-geo",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "format-void",
+    "government",
+    "greece",
+    "greek",
+    "hellenic",
+    "hellenic-police",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "police",
+    "provenance-metadata",
+    "published-by-producer",
+    "sparql",
+    "sparql-endpoint",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 21916
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 16
+    },
+    {
+      "target": "diavgeia",
+      "value": 60
+    },
+    {
+      "target": "enakting-crime",
+      "value": 20250
+    },
+    {
+      "target": "freebase",
+      "value": 11116
+    },
+    {
+      "target": "fu-berlin-eurostat",
+      "value": 15
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 43
+    },
+    {
+      "target": "kallikratis-municipalities",
+      "value": 26
+    },
+    {
+      "target": "linked-eurostat",
+      "value": 15
+    },
+    {
+      "target": "nuts-geovocab",
+      "value": 15
+    },
+    {
+      "target": "umbel",
+      "value": 11115
+    }
+  ],
+  "full_download": [
+    {
+      "title": "An RDF dump of the Police dataset in N-Triple format",
+      "description": "Download dump of Police dataset in N-Triple format",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://greek-lod.auth.gr/Police/police.nt.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Hellenic Police D2R Server",
+      "description": "Hellenic Police D2R Server",
+      "media_type": "application/xhtml+xml;charset=utf-8",
+      "access_url": "http://greek-lod.auth.gr/police"
+    },
+    {
+      "title": "An RDF dump of the Police dataset in RDF/XML format",
+      "description": "Download dump of Police dataset in RDF/XML format",
+      "media_type": "RDF",
+      "access_url": "http://greek-lod.auth.gr/Police/police.rdf.gz"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "access_url": "http://greek-lod.auth.gr/sitemap.xml"
+    },
+    {
+      "title": "voiD file",
+      "description": "voiD file",
+      "access_url": "http://greek-lod.auth.gr/Police/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML)",
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://greek-lod.auth.gr/police/data/gad/10?output=rdfxml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Hellenic Police SPARQL endpoint",
+      "description": "Hellenic Police SPARQL endpoint",
+      "access_url": "http://greek-lod.auth.gr/police/sparql"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "LucaniPharsalia",
+  "title": "Lucani Pharsalia in LiLa",
+  "description": {
+    "en": "The Pharsalia is an epic poem in 10 books written by Lucan in 1st century AD. It portrays the civil war between Caesar and the Senate's forces, led by Pompey. The digital text of the 10 books of the Pharsalia by Lucan is taken from Perseus collection. The original text was lemmatized and PoS tagged with the UDPipe tool, using an in-house built trained model based on different UD Latin treebanks. The output of UDPipe was then checked manually at the CIRCSE Research Centre of the Università Cattolica del Sacro Cuore, Milan, Italy. The linking of the text to the Lemma Bank of the LiLa Knowledge Base was also performed at CIRCSE."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/corpora/CIRCSELatinLibrary/id/corpus/Pharsalia",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/corpora/CIRCSELatinLibrary/id/corpus/Pharsalia",
+  "triples": 549597,
+  "doi": "10.5281/zenodo.8027880",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Latin",
+    "LLOD",
+    "LiLa",
+    "Corpus",
+    "Lucanus"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 51823
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Lucani Pharsalia in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization).",
+      "download_url": "https://github.com/CIRCSE/LucaniPharsalia"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

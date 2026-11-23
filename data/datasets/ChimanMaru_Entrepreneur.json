@@ -1,0 +1,24 @@
+{
+  "identifier": "ChimanMaru_Entrepreneur",
+  "title": "Chiman Maru",
+  "description": {
+    "en": "Chiman Maru is an Indian entrepreneur and the founder and CEO of FynoX Inc., an IT company specializing in ERP solutions, web development, and digital marketing services. He is also a filmmaker, known for directing the documentary Madhavpur: A Cinematic Journey (2024)."
+  },
+  "domain": "media",
+  "website": "https://www.chimanmaru.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jVcInG2HYpMDUGdl3Vlilw.jpeg",
+  "contact_point": {
+    "name": "Chiman Maru",
+    "email": "contact.fynox@gmail.com"
+  },
+  "keywords": [
+    "Entrepreneur",
+    "Filmmaker",
+    "IT",
+    "ERP Solutions",
+    "Web Development",
+    "Digital Marketing."
+  ]
+}

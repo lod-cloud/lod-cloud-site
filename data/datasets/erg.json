@@ -1,0 +1,15 @@
+{
+  "identifier": "erg",
+  "title": "reg",
+  "description": {
+    "en": "erg"
+  },
+  "domain": "cross_domain",
+  "website": "https://lod-cloud.net/add-dataset",
+  "license": "https://opendefinition.org/licenses/eff-open-audio-license",
+  "triples": 0,
+  "contact_point": {
+    "name": "erg",
+    "email": "erg@gmail.com"
+  }
+}

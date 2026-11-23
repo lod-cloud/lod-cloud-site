@@ -1,0 +1,64 @@
+{
+  "identifier": "doi",
+  "title": "CrossRef DOI Resolver",
+  "description": {
+    "en": "Digital Object Idenfiers (DOI) are a persistent identifier strategy used by around 3,000 publishers to identify their documents: mostly scholarly publications. An example of a DOI is\r\n\r\n> doi:10.1038/171737a0\r\n\r\nwhich identifies:\r\n\r\n> Watson JD, Crick FH (April 1953). \"Molecular structure of nucleic acids; a structure for deoxyribose nucleic acid\" (PDF). Nature 171 (4356): 737?738. \r\n\r\n[CrossRef](http://crossref.org) maintains one of the largest DOI registries, and has minted URLs for every DOI they manage. For example the DOI above can also be expressed as the URL:\r\n\r\n> http://dx.doi.org/10.1038/171737a0\r\n\r\nWhen resolved this URL will redirect to the publisher's page for the document that is identified. The dx.doi.org service will content negotiate to make available alternate representations of the citation metadata:\r\n\r\n* application/rdf+xml\r\n* text/turtle\r\n* application/atom+xml\r\n* application/unixref+xml (CrossRef's homegrown XML format)\r\n\r\nFor example:\r\n\r\n> curl --location --header \"Accept: application/rdf+xml\" http://dx.doi.org/10.1038/171737a0\r\n\r\nDetailed information about journals, pages, authors can be found in the data, as well as links to journals in the [Linked Periodicals](http://periodicals.dataincubator.org/.html) dataset. More about the service can be found on a CrossRef \r\n[blog post](http://www.crossref.org/CrossTech/2011/04/content_negotiation_for_crossr.html)."
+  },
+  "domain": "publications",
+  "website": "http://dx.doi.org",
+  "triples": 1000000000,
+  "keywords": [
+    "academic",
+    "articles",
+    "citation",
+    "format-bibo",
+    "format-dc",
+    "format-prism",
+    "format-rdf",
+    "library",
+    "linkeddata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-deref-vocab",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "linked-periodicals",
+      "value": 100000000
+    }
+  ],
+  "full_download": [
+    {
+      "download_url": "http://www.crossref.org/titleList/"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "content negotiate for HTML splash page from publisher",
+      "access_url": "http://dx.doi.org/10.1038/171737a0"
+    },
+    {
+      "description": "content negotiate for Atom XML",
+      "access_url": "http://dx.doi.org/10.1038/171737a0"
+    },
+    {
+      "description": "content negotiate for CrossRef's XML",
+      "access_url": "http://dx.doi.org/10.1038/171737a0"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource: content negotiate for RDF as XML",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://dx.doi.org/10.1038/171737a0"
+    },
+    {
+      "description": "Example resource:  content negotiate RDF as Turtle",
+      "media_type": "example/turtle",
+      "access_url": "http://dx.doi.org/10.1038/171737a0"
+    }
+  ]
+}

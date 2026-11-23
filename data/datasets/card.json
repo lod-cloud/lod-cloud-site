@@ -1,0 +1,15 @@
+{
+  "identifier": "card",
+  "title": "person",
+  "description": {
+    "en": "FoaF"
+  },
+  "domain": "social_networking",
+  "website": "https://1drv.ms/u/s!AsFgXSXbjIZRv3TdS-LTUmfuAfXc",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 0,
+  "contact_point": {
+    "name": "monjed",
+    "email": "10027@hebron.edu"
+  }
+}

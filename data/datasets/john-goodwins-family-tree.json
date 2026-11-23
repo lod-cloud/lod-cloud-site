@@ -1,0 +1,57 @@
+{
+  "identifier": "john-goodwins-family-tree",
+  "title": "John Goodwin's Family Tree",
+  "description": {
+    "en": "Data about John Goodwin's family tree."
+  },
+  "domain": "user_generated",
+  "website": "http://www.johngoodwin.me.uk/family/",
+  "namespace": "http://www.johngoodwin.me.uk/family/",
+  "triples": 177867,
+  "contact_point": {
+    "name": "John Goodwin",
+    "email": "John.Goodwin@ordnancesurvey.co.uk"
+  },
+  "keywords": [
+    "format-bio",
+    "format-event",
+    "format-foaf",
+    "format-owl",
+    "format-rdf",
+    "format-rel",
+    "genealogy",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-producer",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 500
+    }
+  ],
+  "other_download": [
+    {
+      "description": "voiD description",
+      "access_url": "http://www.johngoodwin.me.uk/family/?&_output=turtle"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www.johngoodwin.me.uk/family/I0243"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/jgoodwin-genealogy/services/sparql"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "identifier": "bis-linked-data",
+  "title": "Bank for International Settlements (BIS) Linked Data",
+  "description": {
+    "en": "BIS data and metadata"
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://bis.270a.info/dataset/",
+  "triples": 54200000,
+  "contact_point": {
+    "name": "Sarven Capadisli",
+    "email": "info@csarven.ca"
+  },
+  "keywords": [
+    "bank",
+    "country-codes",
+    "economics",
+    "europe",
+    "format-dcterms",
+    "format-prov",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "indicators",
+    "international",
+    "license-metadata",
+    "linked-data",
+    "lod",
+    "lodcloud",
+    "lodcloud-candidate",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party",
+    "statistics",
+    "vocab-mappings",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "bfs-linked-data",
+      "value": 466
+    },
+    {
+      "target": "dbpedia",
+      "value": 534
+    },
+    {
+      "target": "ecb-linked-data",
+      "value": 574
+    },
+    {
+      "target": "fao-linked-data",
+      "value": 472
+    },
+    {
+      "target": "frb-linked-data",
+      "value": 54
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 515
+    },
+    {
+      "target": "imf-linked-data",
+      "value": 72
+    },
+    {
+      "target": "nasa",
+      "value": 46
+    },
+    {
+      "target": "oecd-linked-data",
+      "value": 17
+    },
+    {
+      "target": "the-eurostat-linked-data",
+      "value": 489
+    },
+    {
+      "target": "transparency-linked-data",
+      "value": 406
+    },
+    {
+      "target": "uis-linked-data",
+      "value": 2310
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 487
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID",
+      "description": "A VoID Description of the bis.270a.info dataset",
+      "media_type": "meta/void",
+      "access_url": "http://bis.270a.info/.well-known/void"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "Schema and metadata used for all of the data in the BIS dataset",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://bis.270a.info/data/meta.tar.gz"
+    },
+    {
+      "title": "BIS Datasets",
+      "description": "BIS Datasets which contain the statistical observations",
+      "media_type": "RDF",
+      "access_url": "http://bis.270a.info/data/data.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF/XML",
+      "description": "Example RDF/XML of a dataset which contains statistical observations.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://bis.270a.info/dataset/BIS_M_CIBL_IB"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://bis.270a.info/sparql"
+    }
+  ]
+}

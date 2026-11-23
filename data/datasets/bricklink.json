@@ -1,0 +1,76 @@
+{
+  "identifier": "bricklink",
+  "title": "Bricklink",
+  "description": {
+    "en": "Bricklink is an unofficial lego marketplace. Essentially it is the EBay for lego, where you can buy or sell anything to do with Lego. The lego community maintain a number of fantastic resources that catalogue all of the Lego products, often down to the detail of the number, colour and type of each part in a lego set. The catalogue that powers the Bricklink website is available for download and reuse and has been used to create this dataset.\r\n\r\nCurrently the dataset consists of descriptions of over 9000 Lego sets and over 23,000 Lego parts. A number of the lego sets have detailed inventories including number, type and colour of parts. There are also links to sets, instructions and part images.\r\n\r\n*Note* this dataset is no longer updated, it was taken off-line during the shutdown of Kasabi. A dump of the dataset has been [uploaded to the Internet Archive](http://archive.org/details/kasabi)"
+  },
+  "domain": "media",
+  "website": "http://kasabi.com/dataset/bricklink",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://data.kasabi.com/dataset/bricklink/",
+  "triples": 3314214,
+  "contact_point": {
+    "name": "Leigh Dodds",
+    "email": "leigh@ldodds.com"
+  },
+  "keywords": [
+    "format-rdf",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "published",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 25797
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Dataset export",
+      "description": "Exported version of the dataset on the Internet Archive",
+      "media_type": "application/x-nquads",
+      "download_url": "http://archive.org/download/kasabi/bricklink.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Kasabi page for Bricklink Search API",
+      "access_url": "http://kasabi.com/api/search-api-bricklink"
+    },
+    {
+      "description": "Kasabi page for Bricklink SPARQL Endpoint",
+      "access_url": "http://kasabi.com/api/sparql-endpoint-bricklink"
+    },
+    {
+      "description": "Kasabi page for Bricklink Lookup API",
+      "access_url": "http://kasabi.com/dataset/bricklink/apis/lookup"
+    },
+    {
+      "description": "Kasabi page for Bricklink Reconciliation API",
+      "access_url": "http://kasabi.com/dataset/bricklink/apis/reconciliation"
+    },
+    {
+      "description": "Kasabi page for Bricklink Augmentation API",
+      "access_url": "http://kasabi.com/dataset/bricklink/apis/augmentation"
+    },
+    {
+      "description": "Void description of Bricklink dataset",
+      "access_url": "http://data.kasabi.com/dataset/bricklink"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example RDF for Bricklink",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.kasabi.com/dataset/bricklink/colour/67.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint for Bricklink",
+      "access_url": "http://api.kasabi.com/dataset/bricklink/apis/sparql"
+    }
+  ]
+}

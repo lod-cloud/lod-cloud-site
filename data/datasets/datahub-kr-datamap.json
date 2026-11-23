@@ -1,0 +1,31 @@
+{
+  "identifier": "datahub-kr-datamap",
+  "title": "Open Datasets in South Korea",
+  "description": {
+    "en": "- about 146,126 datasets (and their metadata) provided by various data portals in Korea\n- 2,298,017 triples provided"
+  },
+  "domain": "government",
+  "website": "https://labs.datahub.kr/projects/search/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 2298017,
+  "contact_point": {
+    "name": "HIKE Lab.",
+    "email": "hike.cau@gmail.com"
+  },
+  "keywords": [
+    "dataset",
+    "opendata"
+  ],
+  "example": [
+    {
+      "title": "Ministry of Health and Welfare_COVID-19 outbreak status",
+      "access_url": "http://data.datahub.kr/id/datamap/ds-public-841415098776"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "virtuoso sparql endpoint",
+      "access_url": "https://data.datahub.kr/virtuoso/sparql"
+    }
+  ]
+}

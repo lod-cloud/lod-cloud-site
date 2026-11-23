@@ -1,0 +1,48 @@
+{
+  "identifier": "berlios",
+  "title": "berlios",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-admin",
+    "format-dcterm",
+    "format-doap",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 3
+    },
+    {
+      "target": "linkedmarkmail",
+      "value": 3
+    },
+    {
+      "target": "personal-homepages",
+      "value": 2
+    },
+    {
+      "target": "rdfohloh",
+      "value": 5
+    },
+    {
+      "target": "wordpress",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=ISO-8859-1",
+      "access_url": "http://swaml.berlios.de/doap.rdf"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "identifier": "bioportal-zfa",
+  "title": "Zebrafish anatomy and development",
+  "description": {
+    "en": "A structured controlled vocabulary of the anatomy and development of the Zebrafish (<i>Danio rerio</i>)."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1051",
+  "triples": 71952,
+  "contact_point": {
+    "name": "ZFIN administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-aao",
+      "value": 368
+    },
+    {
+      "target": "bioportal-aba",
+      "value": 19
+    },
+    {
+      "target": "bioportal-acgt",
+      "value": 48
+    },
+    {
+      "target": "bioportal-aeo",
+      "value": 161
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 15
+    },
+    {
+      "target": "bioportal-basic-vertebrate-gross-anatomy",
+      "value": 12
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 13
+    },
+    {
+      "target": "bioportal-bila",
+      "value": 57
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 434
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 88
+    },
+    {
+      "target": "bioportal-bodysystem",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bto",
+      "value": 342
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 746
+    },
+    {
+      "target": "bioportal-caro",
+      "value": 57
+    },
+    {
+      "target": "bioportal-cl",
+      "value": 783
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 272
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 34
+    },
+    {
+      "target": "bioportal-dc_cl",
+      "value": 19
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 698
+    },
+    {
+      "target": "bioportal-ehda",
+      "value": 2577
+    },
+    {
+      "target": "bioportal-ehdaa",
+      "value": 702
+    },
+    {
+      "target": "bioportal-ehdaa2",
+      "value": 223
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 505
+    },
+    {
+      "target": "bioportal-fbbt",
+      "value": 105
+    },
+    {
+      "target": "bioportal-fma",
+      "value": 240
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 271
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 10
+    },
+    {
+      "target": "bioportal-gro_x1",
+      "value": 13
+    },
+    {
+      "target": "bioportal-hao",
+      "value": 64
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 13
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 37
+    },
+    {
+      "target": "bioportal-icf_x1",
+      "value": 12
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 36
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 11
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 40
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 203
+    },
+    {
+      "target": "bioportal-ma",
+      "value": 383
+    },
+    {
+      "target": "bioportal-mat",
+      "value": 128
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 47
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 1224
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 12
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 612
+    },
+    {
+      "target": "bioportal-mfo",
+      "value": 98
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 360
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 754
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 10
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 179
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 54
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 29
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 23
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 17
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 10
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 25
+    },
+    {
+      "target": "bioportal-po",
+      "value": 11
+    },
+    {
+      "target": "bioportal-po_x2",
+      "value": 13
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 237
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 286
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 36
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 42
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 612
+    },
+    {
+      "target": "bioportal-spd",
+      "value": 10
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 404
+    },
+    {
+      "target": "bioportal-tads",
+      "value": 30
+    },
+    {
+      "target": "bioportal-tao",
+      "value": 5182
+    },
+    {
+      "target": "bioportal-tgma",
+      "value": 35
+    },
+    {
+      "target": "bioportal-uberon",
+      "value": 1125
+    },
+    {
+      "target": "bioportal-vao",
+      "value": 150
+    },
+    {
+      "target": "bioportal-vhog",
+      "value": 318
+    },
+    {
+      "target": "bioportal-wbbt",
+      "value": 53
+    },
+    {
+      "target": "bioportal-xao",
+      "value": 479
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47182?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "universal-dependencies-treebank-arabic",
+  "title": "Universal Dependencies Treebank Arabic",
+  "description": {
+    "en": "Universal Dependencies is a project that seeks to develop cross-linguistically consistent treebank annotation for many languages, with the goal of facilitating multilingual parser development, cross-lingual learning, and parsing research from a language typology perspective. The annotation scheme is based on (universal) Stanford dependencies (de Marneffe et al., 2006, 2008, 2014), Google universal part-of-speech tags (Petrov et al., 2012), and the Interset interlingua for morphosyntactic tagsets (Zeman, 2008).\r\n\r\nThis dataset refers to UD's Arabic treebank."
+  },
+  "website": "https://github.com/UniversalDependencies/UD_Arabic",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 242056,
+  "contact_point": {
+    "name": "Zeman, Daniel; Žabokrtský, Zdeněk; Saleh, Shadi"
+  },
+  "keywords": [
+    "corpus",
+    "linguistics",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "olia",
+      "value": 72
+    }
+  ],
+  "other_download": [
+    {
+      "title": "UD_Arabic Treebank",
+      "media_type": "application/zip",
+      "access_url": "https://github.com/UniversalDependencies/UD_Arabic/archive/master.zip"
+    },
+    {
+      "title": "UD_Arabic RDF Example",
+      "description": "Converted test.conllu using ACoLi's conll-rdf converter",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/4a059399-2314-4225-96e4-d42b991ce1ff/resource/0aee5d8a-de54-4ec8-b1a1-3711175cfee1/download/udarabic.rdf"
+    }
+  ]
+}

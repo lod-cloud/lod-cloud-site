@@ -1,0 +1,21 @@
+{
+  "identifier": "varsha",
+  "title": "terrorist attack",
+  "description": {
+    "en": "about terrorist"
+  },
+  "domain": "user_generated",
+  "website": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1040&context=ece_rpts",
+  "license": "https://opendefinition.org/licenses/tcl",
+  "triples": 0,
+  "contact_point": {
+    "name": "varsha",
+    "email": "varshathakur510@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "terrorist",
+      "download_url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1040&context=ece_rpts"
+    }
+  ]
+}

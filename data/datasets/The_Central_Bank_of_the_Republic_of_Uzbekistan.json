@@ -1,0 +1,29 @@
+{
+  "identifier": "The_Central_Bank_of_the_Republic_of_Uzbekistan",
+  "title": "Open data of Uzbekistan",
+  "description": {
+    "en": "Government"
+  },
+  "domain": "government",
+  "website": "https://data.gov.uz/en",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 14,
+  "image": "https://data.gov.uz/img/logo.png",
+  "contact_point": {
+    "name": "Akrom Sultanov",
+    "email": "akromsultanov82@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "Exchange rate of foreign currencies to national currency of Republic of Uzbekistan set by the Central bank",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "https://data.gov.uz/uz/datasets/2485"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "API",
+      "access_url": "https://data.gov.uz/uz/docs/do/view/usage"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "LASLA",
+  "title": "LASLA corpus in LiLa",
+  "description": {
+    "en": "This dataset contains the triples linking the LASLA corpus to the LiLa LemmaBank.\nThe LASLA Latin corpus consists of a large amount of texts of Classical Latin, semi-automatically lemmatized and annotated with morphosyntactic information, with full manual verification."
+  },
+  "domain": "linguistics",
+  "website": "https://lila-erc.eu/data/corpora/Lasla/id/corpus",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/corpora/Lasla",
+  "triples": 31919270,
+  "doi": "10.5281/zenodo.5961377",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Lemma",
+    "LLOD",
+    "Corpus",
+    "Latin",
+    "LiLa"
+  ],
+  "links": [
+    {
+      "target": "LemmaBank",
+      "value": 1745314
+    }
+  ],
+  "full_download": [
+    {
+      "title": "LASLA corpus in LiLa",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization), but they are also available as SQL dump of a relational database",
+      "download_url": "https://github.com/CIRCSE/LASLA"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

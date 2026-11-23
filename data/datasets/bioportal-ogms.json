@@ -1,0 +1,291 @@
+{
+  "identifier": "bioportal-ogms",
+  "title": "Ontology for General Medical Science",
+  "description": {
+    "en": "The Ontology for General Medical Science (OGMS) is based on the papers Toward an Ontological Treatment of Disease and Diagnosis and On Carcinomas and Other Pathological Entities. The ontology attempts to address some of the issues raised at the Workshop on Ontology of Diseases (Dallas, TX) and the Signs, Symptoms, and Findings Workshop(Milan, Italy). OGMS was formerly called the clinical phenotype ontology. Terms from OGMS hang from the Basic Formal Ontology. See http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1414",
+  "triples": 1550,
+  "contact_point": {
+    "name": "Albert Goldfain"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 45
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 75
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 22
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 21
+    },
+    {
+      "target": "bioportal-bfo",
+      "value": 39
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 42
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 57
+    },
+    {
+      "target": "bioportal-cao",
+      "value": 41
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 50
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 50
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 51
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 54
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 10
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 50
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 49
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 12
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 51
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 55
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 11
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 48
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 55
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 58
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 135
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 39
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 21
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 26
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 50
+    },
+    {
+      "target": "bioportal-mfoem",
+      "value": 50
+    },
+    {
+      "target": "bioportal-miro",
+      "value": 39
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 60
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 43
+    },
+    {
+      "target": "bioportal-neomark",
+      "value": 22
+    },
+    {
+      "target": "bioportal-neumore",
+      "value": 17
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 70
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 50
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 51
+    },
+    {
+      "target": "bioportal-nmr",
+      "value": 36
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 34
+    },
+    {
+      "target": "bioportal-oae",
+      "value": 47
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 42
+    },
+    {
+      "target": "bioportal-ocre",
+      "value": 14
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 48
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 41
+    },
+    {
+      "target": "bioportal-omrse",
+      "value": 50
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 50
+    },
+    {
+      "target": "bioportal-ontodt",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ooevv",
+      "value": 11
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 50
+    },
+    {
+      "target": "bioportal-pvonto",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 13
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rnao",
+      "value": 39
+    },
+    {
+      "target": "bioportal-sao",
+      "value": 37
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 128
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 23
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 45
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 46
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 50
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 40
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 32
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46293?apikey=BP_API_KEY"
+    }
+  ]
+}

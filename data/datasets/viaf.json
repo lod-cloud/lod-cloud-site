@@ -1,0 +1,88 @@
+{
+  "identifier": "viaf",
+  "title": "VIAF: The Virtual International Authority File",
+  "description": {
+    "en": "VIAF (Virtual International Autority File) is an OCLC dataset and service -- built in cooperation with national libraries and other partners -- that virtually combines multiple LAM (Library Archives Museum) name authority files into a single name authority service. Put simply it is a large database of people and organizations that occur in library catalogs.\r\n\r\n\r\nVIAF is a joint project of 20  national libraries, implemented and hosted by OCLC. The project's goal is to lower the cost and increase the utility of library authority files by matching and linking the authority files of national libraries, and then making that information available on the Web.\r\n\r\n### Openness\r\n\r\nThe data is released under Open Data Commons Attribution license. Attribution is requested as follows:\r\n\r\n> Adherence to ODC Attribution instructions for the correct assertion of attribution is encouraged. The preferred form of attribution for VIAF is:\r\n>\r\n> \"This [title of report or article or dataset] contains information from VIAF (Virtual International Authority File) which is made available under the ODC Attribution License.\"\r\n> \r\n> Special cases: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical VIAF URIs is adequate to satisfy Section 4.3 of the ODC Attribution License.\r\n\r\n#### Older information preserved for archival purposes\r\n\r\nOCLC is currently in discussion with partners about how to license material. [Message from Thom Hickey, OCLC Chief Scientist](http://groups.google.com/group/nyt_linked_open_data/browse_thread/thread/46ea00276e3d5a2e#) on public Google Groups mailing list in January 2010 states:\r\n\r\n> VIAF is a joint project with the contributing institutions and OCLC doesn?t claim any rights to the data beyond what the group has.  Unfortunately the group as a whole has problems coming up with a statement of exactly what is permitted.  In lieu of that, our position is that the data on the site is freely available for use through the APIs, although if someone wants a copy of the whole thing they would have to apply to the VIAF consortium (they could do that through me or Barbara Tillett at LC).  Along those same lines, if someone is going to have substantial activity against VIAF (multiple queries/second) we?d like to know about it ahead of time. \r\n\r\n> Over the next few months we will be working on a better statement of what?s permitted, but our intention is to make the data as freely available as possible (even to the NYT). \r\n\r\n\r\nFurther update from Thom Hickey:\r\n(http://outgoing.typepad.com/outgoing/2011/03/use-of-viaf.html)\r\n\r\n> I responded to a recent blog post on LibraryThing which mentioned restrictions on the use of VIAF and its relationship to the LC authority file.\r\n\r\n> In fact, VIAF is open for use by anyone.  Here's what I said about the use of VIAF:\r\n\r\n> VIAF is a project led by LC, the French and German national libraries and OCLC. There are no restrictions on its use. Dumps of the complete file are available, but need the approval of the project leaders.\r\n\r\n> VIAF is not designed to replace the LC/NACO authority file, but rather is built from it and a number of similar files.\r\n\r\n> I hope that is clear.  We really do want people to use VIAF!\r\n\r\nGood news, but no explicit license or complete dumps freely available without asking, so not (yet) OKD compliant"
+  },
+  "domain": "publications",
+  "website": "http://viaf.org/viaf/data/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://viaf.org/viaf/",
+  "triples": 200000000,
+  "contact_point": {
+    "name": "OCLC Online Computer Library Center, Inc.",
+    "email": "oclc@oclc.org"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-owl",
+    "format-rdf",
+    "format-skos",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-deref-vocab",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 10000
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 4000000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VIAF Links (txt)",
+      "description": "This is a text file showing the correspondence between source IDs in clusters, including external links such as Wikipedia",
+      "media_type": "gz:txt",
+      "access_url": "http://viaf.org/viaf/data/viaf-20130615-links.txt.gz"
+    },
+    {
+      "title": "VIAF Clusters (XML)",
+      "description": "This file contains one 'native' XML record per line for each VIAF cluster",
+      "access_url": "http://viaf.org/viaf/data/viaf-20130615-clusters.xml.gz"
+    },
+    {
+      "title": "VIAF Clusters (RDF)",
+      "description": "This file contains one RDF record per line for each VIAF cluster",
+      "access_url": "http://viaf.org/viaf/data/viaf-20130615-clusters-rdf.xml.gz"
+    },
+    {
+      "title": "VIAF Clusters (MARC 21)",
+      "description": "This file contains one MARC-21 XML record per line for each VIAF cluster",
+      "access_url": "http://viaf.org/viaf/data/viaf-20130615-clusters-marc21.xml.gz"
+    },
+    {
+      "title": "VIAF clusters (MARC 21 - ISO-2709)",
+      "description": "This file contains one ISO-2709 MARC-21 record per line for each VIAF cluster",
+      "access_url": "http://viaf.org/viaf/data/viaf-20130615-clusters-marc21.iso.gz"
+    },
+    {
+      "title": "VIAF redirections (RDF)",
+      "description": "This file shows redirections within the VIAF dataset (in RDF)",
+      "access_url": "http://viaf.org/viaf/data/viaf-20130615-persist-rdf.xml.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://viaf.org/viaf/40280446/"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://viaf.org/viaf/86518157"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "identifier": "odc-imd-environment-score",
+  "title": "Index of Multiple Deprivation, Living Environment Deprivation Domain, Scores 2010",
+  "description": {
+    "en": "This dataset contains the scores for the Living Environment Deprivation Domain of the Index of Multiple Deprivation, 2010. This indicator measures the quality of individuals’ immediate surroundings both within and outside the home. A high number indicates a high level of deprivation. \r\n\r\n\r\nExample:\r\nhttp://opendatacommunities.org/id/IMD/2010/IMD-environment-score/LSOA/E01000001\r\n\r\nDownload:\r\nhttp://opendatacommunities-downloads.s3.amazonaws.com/imd-2010-environment-score.ttl.zip"
+  },
+  "website": "http://opendatacommunities.org/datasets/imd-environment-score-2010",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "triples": 194892,
+  "contact_point": {
+    "name": "http://reference.data.gov.uk/id/department/dclg"
+  },
+  "keywords": [
+    "deref-vocab",
+    "government",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "Datasest Description",
+      "access_url": "http://opendatacommunities.org/datasets/imd-environment-score-2010.ttl"
+    },
+    {
+      "description": "Download",
+      "media_type": "application/zip",
+      "access_url": "http://opendatacommunities-downloads.s3.amazonaws.com/imd-2010-environment-score.ttl.zip"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://opendatacommunities.org/id/IMD/2010/IMD-environment-score/LSOA/E01000001"
+    }
+  ]
+}

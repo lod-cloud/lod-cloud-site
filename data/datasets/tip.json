@@ -1,0 +1,58 @@
+{
+  "identifier": "tip",
+  "title": "TIP",
+  "description": {
+    "en": "A SPARQL endpoint of Taiwan Indigenous People provides Taiwan Indigenous people information, including 6 major subjects : [Ethnic](http://lod.apc.gov.tw:8890/schemas/Ethnic_Introduction/), [Culture](http://lod.apc.gov.tw:8890/schemas/Cultural_Creative/), [Travel](http://lod.apc.gov.tw:8890/schemas/Travel/), [Gourmet](http://lod.apc.gov.tw:8890/schemas/Gourmet/), [Ceremony](http://lod.apc.gov.tw:8890/schemas/Ceremony/) and [Business] (http://lod.apc.gov.tw:8890/schemas/Business/)."
+  },
+  "domain": "government",
+  "triples": 264034,
+  "contact_point": {
+    "name": "Tai-Ting Wu",
+    "email": "taitingwu@itri.org.tw"
+  },
+  "keywords": [
+    "Indigenous People",
+    "Taiwan",
+    "aboriginal",
+    "government",
+    "indigenous",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 314
+    },
+    {
+      "target": "freebase",
+      "value": 91
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 20
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 6
+    },
+    {
+      "target": "wikidata",
+      "value": 89
+    },
+    {
+      "target": "wikipediaontology",
+      "value": 11
+    },
+    {
+      "target": "yago-knowledge",
+      "value": 89
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint of Taiwan Indigenous People",
+      "description": "SPARQL endpoint",
+      "access_url": "http://lod.apc.gov.tw/sparql"
+    }
+  ]
+}

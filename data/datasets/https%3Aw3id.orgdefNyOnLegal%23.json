@@ -1,0 +1,34 @@
+{
+  "identifier": "https:w3id.orgdefNyOnLegal#",
+  "title": "Legal Ontology",
+  "description": {
+    "en": "NyOn aka Nyaya Ontology is a schema describing core legal concepts to annotate the legal named enitties as well as the concepts for structuring the legal court judgmenet documents that are common to different countries judicial judgments."
+  },
+  "domain": "government",
+  "website": "https://w3id.org/def/NyOnLegal#",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://w3id.org/def/NyOnLegal#",
+  "triples": 0,
+  "image": "https://github.com/semintelligence/NyOn/blob/main/OnToology/NyOn.owl/diagrams/NyOn%20V2%20Concept%20Diagram.png",
+  "contact_point": {
+    "name": "Pooja Harde",
+    "email": "pmharde29@gmail.com"
+  },
+  "keywords": [
+    "Legal",
+    "Court Judgments",
+    "Legal Ontology"
+  ],
+  "full_download": [
+    {
+      "title": "NyOn  The Legal Core Ontology",
+      "download_url": "https://semintelligence.github.io/NyOn/OnToology/NyOn.owl/documentation/ontology.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "https://dbpedia.org/sparql"
+    }
+  ]
+}

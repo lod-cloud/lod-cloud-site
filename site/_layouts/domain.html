@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container">
+  <h1>{{ page.label | escape }}</h1>
+  <p><a href="{{ '/#subclouds' | relative_url }}">All subclouds</a></p>
+  <a href="{{ site.cloud_base }}/clouds/{{ page.stem }}.svg">
+    <img src="{{ site.cloud_base }}/clouds/{{ page.stem }}.png" width="100%"
+         alt="{{ page.label | escape }} Linked Open Data Cloud" title="Click for Interactive SVG"/>
+  </a>
+
+  <h3>{{ page.datasets.size }} datasets</h3>
+  <ul class="dataset-list">
+    {% for d in page.datasets %}
+    {% assign avail = site.data.availability[d.identifier] %}
+    <li><a href="{{ d.identifier | dataset_url }}">{{ d.title | escape }}</a>{% if avail.state %} <span class="badge badge-warning" title="Unavailable since {{ avail.since }}">unavailable</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</div>

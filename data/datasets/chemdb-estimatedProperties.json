@@ -1,0 +1,33 @@
+{
+  "identifier": "chemdb-estimatedProperties",
+  "title": "chemdb estimated properties dataset",
+  "description": {
+    "en": "This dataset collects information on the estimated properties of compounds, including ALogP,ALogP_MR, Minimized_Energy,et. al. via the law of corresponding states (LCS), the method of group contributions (GC), and the like."
+  },
+  "domain": "life_sciences",
+  "website": "http://chemdc.casdc.cn/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 6113040,
+  "contact_point": {
+    "name": "赵月红",
+    "email": "yhzhao@ipe.ac.cn"
+  },
+  "keywords": [
+    "compound",
+    "estimated  properties",
+    "LCS",
+    "GC"
+  ],
+  "links": [
+    {
+      "target": "bioportal-cheminf",
+      "value": 2037680
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://chemdb.semweb.csdb.cn/sparql"
+    }
+  ]
+}

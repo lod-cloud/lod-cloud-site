@@ -1,0 +1,58 @@
+{
+  "identifier": "bbc-music",
+  "title": "BBC Music",
+  "description": {
+    "en": "BBC Music is a team working in the department of Audio and Music Interactive at the BBC. Responsible for the BBC Music website - the portal site to music content across the BBC website. It is also the location of the BBC's album reviews, covering all major releases in every genre on a monthly basis and written by a wide range of music experts. Contributors include Andrew Mueller, Nick Barraclough, David Quantick, Barney Hoskyns and Paul Lester. Music reviews are edited by former Drowned in Sound and Clash magazine online editor Mike Diver."
+  },
+  "domain": "media",
+  "website": "http://www.bbc.co.uk/music",
+  "namespace": "http://www.bbc.co.uk/music/artist/",
+  "triples": 20000000,
+  "contact_point": {
+    "name": "Tom Scott",
+    "email": "http://derivadow.com"
+  },
+  "keywords": [
+    "bbc",
+    "deref-vocab",
+    "format-bio",
+    "format-foaf",
+    "format-mo",
+    "format-rdf",
+    "format-rev",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "music",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 23000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema",
+      "access_url": "http://motools.sourceforge.net/doc/musicontology.rdfs"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html",
+      "access_url": "http://www.bbc.co.uk/music/artists/79239441-bfd5-4981-a70c-55c3f15c1287.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://api.talis.com/stores/bbc-backstage/services/sparql"
+    }
+  ]
+}

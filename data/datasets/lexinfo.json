@@ -1,0 +1,30 @@
+{
+  "identifier": "lexinfo",
+  "title": "lexinfo",
+  "description": {
+    "en": "Ontology of lexical categories"
+  },
+  "domain": "linguistics",
+  "website": "http://lexinfo.net/",
+  "triples": 4374,
+  "keywords": [
+    "crossdomain",
+    "linguistic",
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "ontology"
+  ],
+  "links": [
+    {
+      "target": "isocat",
+      "value": 359
+    }
+  ],
+  "other_download": [
+    {
+      "title": "The lexinfo ontology",
+      "access_url": "http://www.lexinfo.net/ontology/2.0/lexinfo.rdf"
+    }
+  ]
+}

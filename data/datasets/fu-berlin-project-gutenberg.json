@@ -1,0 +1,43 @@
+{
+  "identifier": "fu-berlin-project-gutenberg",
+  "title": "Project Gutenberg in RDF (FU Berlin)",
+  "description": {
+    "en": "Metadata about public domain works available at Project Gutenberg.\r\n\r\nData last updated in 2007."
+  },
+  "domain": "publications",
+  "website": "http://www4.wiwiss.fu-berlin.de/gutendata/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/gutendata/resource/",
+  "triples": 10000,
+  "contact_point": {
+    "name": "Christian Bizer",
+    "email": "chris@bizer.de"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dcmit",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2007-05-01",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-third-party"
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/gutendata/resource/etext10128"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/gutendata/sparql"
+    }
+  ]
+}

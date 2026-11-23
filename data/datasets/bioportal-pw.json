@@ -1,0 +1,75 @@
+{
+  "identifier": "bioportal-pw",
+  "title": "Pathway ontology",
+  "description": {
+    "en": "The goal of the Pathway Ontology is to capture the various kinds of biological networks, the relationships between them and the alterations or malfunctioning of such networks within a hierarchical structure. The five nodes are: classic metabolic pathways, regulatory pathways, signaling pathways, drug pathways and disease pathways for complex human conditions. KEGG and Reactome databases, as well as extensive literature searches have been used to choose terms and their position within the tree. A complex human disease pathway is viewed in the context of genetic and environmental attributes that can affect or impair the functioning of various molecular and cellular pathways; their combined, accumulated effect is manifested in the diseased phenotype. In many cases the identity of the malfunctioning dynamic entity is speculated rather than known. Metabolic, regulatory or signaling pathway terms have associated terms for the altered version of the pathway and the level at which the alteration(s) may occur. Proteins with mutations known to affect a particular pathway can be annotated to the normal and altered version(s) of the pathway and to a disease pathway, if known. The ontology provides a unified way to annotate gene products to any type of pathway as well as to deviant pathways. Its hierarchical structure offers the researcher a 'view' of the connections, if not the dependencies between individual pathways, of the possible link between alterations within these complex biological circuitries and diseases."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1035",
+  "triples": 16830,
+  "contact_point": {
+    "name": "Victoria Petri"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-cco",
+      "value": 12
+    },
+    {
+      "target": "bioportal-go_x1",
+      "value": 19
+    },
+    {
+      "target": "bioportal-go_x2",
+      "value": 22
+    },
+    {
+      "target": "bioportal-iev",
+      "value": 11
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 16
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 66
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 27
+    },
+    {
+      "target": "bioportal-rs",
+      "value": 39
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/47202?apikey=BP_API_KEY"
+    }
+  ]
+}

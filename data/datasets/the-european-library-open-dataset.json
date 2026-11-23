@@ -1,0 +1,87 @@
+{
+  "identifier": "the-european-library-open-dataset",
+  "title": "The European Library Open Dataset",
+  "description": {
+    "en": "The dataset is derived from the data aggregated by The European Library. It is comprised of all the aggregated data that is made openly available by the data providing libraries (European national and research libraries). The dataset includes national bibliographies, library catalogues, and research collections including both digital and physical resources. The data is made available under open licensing terms, which allow the unrestricted use of the data for any purpose by anyone, including commercial use."
+  },
+  "domain": "publications",
+  "website": "https://lod-cloud.net/edit-dataset/the-european-library-open-dataset",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.theeuropeanlibrary.org/BibliographicResource/",
+  "triples": 4418628287,
+  "contact_point": {
+    "name": "The European Library",
+    "email": "info@theeuropeanlibrary.org"
+  },
+  "keywords": [
+    "bibliographic data",
+    "crossdomain",
+    "format-dcterms",
+    "format-dctypes",
+    "format-foaf",
+    "format-frbr",
+    "format-owl",
+    "format-rda",
+    "format-schema",
+    "format-skos",
+    "format-wgs",
+    "license-metadata",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "b3kat",
+      "value": 1000000
+    },
+    {
+      "target": "data-bnf-fr",
+      "value": 75000
+    },
+    {
+      "target": "dewey_decimal_classification",
+      "value": 600000
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 42000
+    },
+    {
+      "target": "lcsh",
+      "value": 7500000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page",
+      "access_url": "https://pro.europeana.eu/data/home-data-the-european-library-open-dataset-the-european-library-open-dataset"
+    },
+    {
+      "title": "RDF/XML download",
+      "access_url": "http://data.theeuropeanlibrary.org/download/opendata/datasets.rdf.tar"
+    },
+    {
+      "title": "Turtle download",
+      "access_url": "http://data.theeuropeanlibrary.org/download/opendata/datasets.ttl.tar"
+    },
+    {
+      "title": "URL",
+      "access_url": "http://www.theeuropeanlibrary.org/tel4/access/data/opendata"
+    },
+    {
+      "title": "VOID file for The European Library Open Dataset",
+      "media_type": "text/turtle",
+      "access_url": "https://datahub.ckan.io/dataset/71714db9-6dd7-4551-b021-83f0ed82ab87/resource/5b33837e-2588-4295-bef0-90051c9547ac/download/theeuropeanlibraryopendataset.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of a bibliographic resource",
+      "media_type": "example/turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2015-02-09T17:53:33.979Z/tel-open-dataset-example.ttl"
+    }
+  ]
+}

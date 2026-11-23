@@ -1,0 +1,15 @@
+{
+  "identifier": "somya_omer",
+  "title": "terrorrist ontology",
+  "description": {
+    "en": "terrorrist ontology graph"
+  },
+  "domain": "user_generated",
+  "website": "http://www.cair.za.net/sites/default/files/outputs/LombardOC_Changed_MTechDok_June2014.pdf",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "somya omer",
+    "email": "omersomya1998@gmail.com"
+  }
+}

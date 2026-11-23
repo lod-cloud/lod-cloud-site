@@ -1,0 +1,22 @@
+{
+  "identifier": "SATAR_test",
+  "title": "SATAR test",
+  "description": {
+    "en": "this is a test dataset"
+  },
+  "domain": "cross_domain",
+  "website": "https://lod-cloud.net/add-dataset",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Herun Wan",
+    "email": "1224740708@qq.com"
+  },
+  "full_download": [
+    {
+      "title": "Google Drive",
+      "description": "Google Drive link",
+      "download_url": "https://drive.google.com/file/d/18X4yVgNs6p1SfLxV1wFZd25F_84qocz0/view?usp=sharing"
+    }
+  ]
+}

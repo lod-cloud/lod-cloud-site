@@ -1,0 +1,101 @@
+{
+  "identifier": "statusnet-morphtown-de",
+  "title": "statusnet-morphtown-de",
+  "description": {
+    "en": "StatusNet instance hosted at http://morphtown.de"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 4
+    },
+    {
+      "target": "personal-homepages",
+      "value": 16
+    },
+    {
+      "target": "statusnet-atari-frosch-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 1
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 35
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 4
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 4
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 2
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 74
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 9
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 1
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://micro.morphtown.de/tagesschau/foaf"
+    }
+  ]
+}

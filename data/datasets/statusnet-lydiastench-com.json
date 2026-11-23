@@ -1,0 +1,55 @@
+{
+  "identifier": "statusnet-lydiastench-com",
+  "title": "statusnet-lydiastench-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://lydiastench.com"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 4
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 7
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 7
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 6
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://micro.lydiastench.com/lstench/foaf"
+    }
+  ]
+}

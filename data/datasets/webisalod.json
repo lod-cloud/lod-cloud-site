@@ -1,0 +1,64 @@
+{
+  "identifier": "webisalod",
+  "title": "WebIsALOD",
+  "description": {
+    "en": "Providing Hypernymy Relations extracted from the Web as Linked Open Data"
+  },
+  "website": "http://webisa.webdatacommons.org",
+  "namespace": "http://webisa.webdatacommons.org/",
+  "triples": 470254737,
+  "contact_point": {
+    "name": "Sven Hertling",
+    "email": "sven@informatik.uni-mannheim.de"
+  },
+  "keywords": [
+    "Hearst Patterns",
+    "Hypernyms",
+    "Linked Dataset",
+    "crossdomain",
+    "format-owl",
+    "format-prov",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "lod"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 27016
+    },
+    {
+      "target": "yago",
+      "value": 2834
+    }
+  ],
+  "full_download": [
+    {
+      "title": "N-Quads download",
+      "description": "Gzipped N-quads",
+      "media_type": "application/octet-stream",
+      "download_url": "http://data.dws.informatik.uni-mannheim.de/webisa/webisalod-instances.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "WebIsALOD Homepage",
+      "description": "A Linked Open Data version of the IsA database",
+      "access_url": "http://webisa.webdatacommons.org"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example page: president",
+      "media_type": "example/rdfa",
+      "access_url": "http://webisa.webdatacommons.org/concept/_president_"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://webisa.webdatacommons.org/sparql"
+    }
+  ]
+}

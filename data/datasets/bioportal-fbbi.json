@@ -1,0 +1,91 @@
+{
+  "identifier": "bioportal-fbbi",
+  "title": "Biological imaging methods",
+  "description": {
+    "en": "A structured controlled vocabulary of sample preparation, visualization and imaging methods used in biomedical research."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1023",
+  "triples": 4066,
+  "contact_point": {
+    "name": "Chris Woodcock"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bao",
+      "value": 13
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 20
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 29
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 15
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 17
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 66
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 65
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 46
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 29
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 18
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 18
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 55
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45792?apikey=BP_API_KEY"
+    }
+  ]
+}

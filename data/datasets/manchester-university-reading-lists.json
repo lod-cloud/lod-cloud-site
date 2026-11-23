@@ -1,0 +1,41 @@
+{
+  "identifier": "manchester-university-reading-lists",
+  "title": "Manchester University Reading Lists",
+  "description": {
+    "en": "Reading lists of the university of Manchester"
+  },
+  "website": "http://www.readinglists.manchester.ac.uk/",
+  "namespace": "http://www.readinglists.manchester.ac.uk/",
+  "triples": 2383794,
+  "contact_point": {
+    "name": "Ian Davis",
+    "email": "ian.davis@talis.com"
+  },
+  "keywords": [
+    "education",
+    "format-rdf",
+    "higher-education",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "talis"
+  ],
+  "links": [
+    {
+      "target": "openlibrary",
+      "value": 120182
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://www.readinglists.manchester.ac.uk/resources/0AC09934-6B10-B82D-70CC-782B631A6F4A"
+    }
+  ]
+}

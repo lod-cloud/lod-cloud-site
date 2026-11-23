@@ -1,0 +1,66 @@
+{
+  "identifier": "upper-ontology",
+  "title": "Super Ontology",
+  "description": {
+    "en": "The super ontology as is the theme of this paper describes the structure of the universe and \ndefines the concept of reality. Reality is defined to have an existence that is known as truth.  All objects existing in this world come under the purview of this ontology. All entities belonging to this universe are permanent but undergo countless changes continuously. No destruction takes place during these changes. This ontology is a high-level and Domain independent upper ontology. This ontology is based on a unit of knowledge."
+  },
+  "domain": "user_generated",
+  "website": "https://sonika-malik.github.io/super-ontology/sup_proton.xml",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 1274,
+  "image": "https://sonika-malik.github.io/super-ontology/sup_proton.jpg",
+  "contact_point": {
+    "name": "Sonika Malik",
+    "email": "sonika.malik@gmail.com"
+  },
+  "keywords": [
+    "Matter",
+    "space",
+    "time",
+    "1-sensed",
+    "2-sensed",
+    "3-sensed",
+    "4-sensed",
+    "5-sensed",
+    "reasoning",
+    "knowledge base",
+    "ontology",
+    "intelligent systems",
+    "domain ontologies",
+    "knowledge representation"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 37
+    },
+    {
+      "target": "freebase",
+      "value": 15
+    },
+    {
+      "target": "opencyc",
+      "value": 23
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Super Ontology",
+      "description": "This is an upper ontology that is based on the Unit of knowledge. The unit of knowledge has 6 operators.",
+      "download_url": "http://sonika-malik.github.io/super-ontology/sup_proton.xml"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Sup_Ont.rdf",
+      "description": "The same ontology is in another format i.e. rdf.",
+      "access_url": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "title": "Super ontology in turtle",
+      "description": "same ontology in turtle format i.e. .ttl",
+      "media_type": "ttl",
+      "access_url": "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82"
+    }
+  ]
+}

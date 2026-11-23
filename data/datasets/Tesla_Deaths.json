@@ -1,0 +1,39 @@
+{
+  "identifier": "Tesla_Deaths",
+  "title": "Tesla Deaths: A digital record of Tesla accidents that involved a fatality",
+  "description": {
+    "en": "Tesla Deaths is a digital record of Tesla accidents that involved a driver, occupant, cyclist, motorcyclist, or pedestrian death, whether or not the Tesla or its driver were at fault"
+  },
+  "domain": "cross_domain",
+  "website": "https://www.tesladeaths.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "doi": "10.5281/zenodo.4671088",
+  "contact_point": {
+    "name": "I Capulet",
+    "email": "tesladeaths@protonmail.com"
+  },
+  "keywords": [
+    "deaths",
+    "tesla",
+    "fatalities",
+    "car accidents",
+    "Autopilot",
+    "autonomous vehicles",
+    "Tesla Inc",
+    "collisions",
+    "elon musk"
+  ],
+  "full_download": [
+    {
+      "title": "Tesla Deaths Google Spreadsheet",
+      "download_url": "https://docs.google.com/spreadsheets/d/1ESnyJ4b7m96OCjs3GSQ6EGF7YOMuv0XV-ROXTYIazTs/?shared=true&pub=1"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "TeslaDeaths.com",
+      "access_url": "https://www.tesladeaths.com"
+    }
+  ]
+}

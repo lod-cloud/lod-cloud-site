@@ -1,0 +1,42 @@
+{
+  "identifier": "ysa",
+  "title": "YSA - General Finnish Thesaurus",
+  "description": {
+    "en": "YSA is a general thesaurus in Finnish which covers all fields of research and knowledge, which contains the most common terms and geographical names used in content description. YSA is a tool for providing index terms for printed and electronic materials as well as subject-based information retrieval. The thesaurus works as a shared language between information depositaries and searchers, which improves the ease of finding information."
+  },
+  "domain": "publications",
+  "website": "http://finto.fi/ysa/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://www.yso.fi/onto/ysa/",
+  "triples": 390000,
+  "contact_point": {
+    "name": "Finto service",
+    "email": "finto-posti@helsinki.fi"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-dc",
+    "format-rdf",
+    "format-skos",
+    "lld",
+    "lod",
+    "publications",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "yso",
+      "value": 28000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Turtle dump",
+      "access_url": "http://finto.fi/rest/v1/ysa/data?format=text/turtle"
+    },
+    {
+      "title": "RDF/XML dump",
+      "access_url": "http://finto.fi/rest/v1/ysa/data?format=application/rdf%2Bxml"
+    }
+  ]
+}

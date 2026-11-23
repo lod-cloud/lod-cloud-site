@@ -1,0 +1,343 @@
+{
+  "identifier": "bioportal-pdq",
+  "title": "Physician Data Query",
+  "description": {
+    "en": "Physician Data Query (PDQ) Terminology is part of NCI's comprehensive cancer information database, which contains expert summaries on a wide range of cancer topics, a listing of some 30,000 cancer clinical trials from around the world, a directory of genetics services professionals, the NCI Dictionary of Cancer Terms, and the NCI Drug Dictionary."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1349",
+  "triples": 124212,
+  "contact_point": {
+    "name": "Volker Englisch"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-rdf",
+    "format-rrf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 64
+    },
+    {
+      "target": "bioportal-air",
+      "value": 21
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 33
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 74
+    },
+    {
+      "target": "bioportal-bho",
+      "value": 20
+    },
+    {
+      "target": "bioportal-biomodels",
+      "value": 28
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 11
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 384
+    },
+    {
+      "target": "bioportal-cco",
+      "value": 25
+    },
+    {
+      "target": "bioportal-chebi",
+      "value": 519
+    },
+    {
+      "target": "bioportal-cpt",
+      "value": 48
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 1447
+    },
+    {
+      "target": "bioportal-cst",
+      "value": 178
+    },
+    {
+      "target": "bioportal-ctcae",
+      "value": 28
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 341
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 316
+    },
+    {
+      "target": "bioportal-eo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 21
+    },
+    {
+      "target": "bioportal-ev",
+      "value": 40
+    },
+    {
+      "target": "bioportal-fbcv",
+      "value": 15
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 510
+    },
+    {
+      "target": "bioportal-gaz",
+      "value": 28
+    },
+    {
+      "target": "bioportal-hcpcs",
+      "value": 21
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 41
+    },
+    {
+      "target": "bioportal-hp_x1",
+      "value": 81
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 194
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 313
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 241
+    },
+    {
+      "target": "bioportal-icnp",
+      "value": 26
+    },
+    {
+      "target": "bioportal-icpc",
+      "value": 25
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 302
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 11
+    },
+    {
+      "target": "bioportal-idomal",
+      "value": 29
+    },
+    {
+      "target": "bioportal-imr",
+      "value": 75
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 1627
+    },
+    {
+      "target": "bioportal-mcbcc",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mccl",
+      "value": 33
+    },
+    {
+      "target": "bioportal-mccl_x1",
+      "value": 411
+    },
+    {
+      "target": "bioportal-mddb",
+      "value": 11
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 2894
+    },
+    {
+      "target": "bioportal-medlineplus",
+      "value": 315
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 2751
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 14
+    },
+    {
+      "target": "bioportal-mp",
+      "value": 41
+    },
+    {
+      "target": "bioportal-mpath",
+      "value": 29
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 4125
+    },
+    {
+      "target": "bioportal-mthch",
+      "value": 18
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 306
+    },
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 29
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 7043
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 1473
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 3274
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 433
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 10
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 46
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 14
+    },
+    {
+      "target": "bioportal-omim",
+      "value": 561
+    },
+    {
+      "target": "bioportal-omit",
+      "value": 19
+    },
+    {
+      "target": "bioportal-ontoorpha",
+      "value": 110
+    },
+    {
+      "target": "bioportal-pedterm",
+      "value": 22
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 21
+    },
+    {
+      "target": "bioportal-pma",
+      "value": 41
+    },
+    {
+      "target": "bioportal-pr",
+      "value": 81
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 2854
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 110
+    },
+    {
+      "target": "bioportal-rs",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 2808
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 26
+    },
+    {
+      "target": "bioportal-shr",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 6249
+    },
+    {
+      "target": "bioportal-snpo",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 282
+    },
+    {
+      "target": "bioportal-syn",
+      "value": 18
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 1486
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 36
+    },
+    {
+      "target": "bioportal-who",
+      "value": 132
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45074?apikey=BP_API_KEY"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "identifier": "CoDa",
+  "title": "Cooperation Databank",
+  "description": {
+    "en": "An annotated history of empirical studies on human cooperation in social dilemmas. Social Dilemmas are situations that involve a conflict of interests and people must choose between a behavior that is best for themselves and a behavior that is best for the collective. Cooperation is choosing to do a behavior that is best for the collective. CoDa contains six decades of studies on individual decision making in dyads and groups facing social dilemmas.The databank contains studies on human cooperation published in Chinese, English, and Japanese. Experts annotated these studies for 275 variables, including the quantitative results (effect sizes). We developed an ontology that defines and relates concepts in cooperation research and that can represent the relationships between individual study results. We have created an application that allows users to search the databank, and enables users to retrieve studies that test the relation of variables with cooperation, visualize these study results, and perform (1) meta-analyses, (2) meta-regressions, (3) estimates of publication bias, and (4) statistical power analyses for future studies."
+  },
+  "domain": "life_sciences",
+  "website": "https://data.cooperationdatabank.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://data.cooperationdatabank.org/",
+  "triples": 795849,
+  "contact_point": {
+    "name": "Benny Markovitch",
+    "email": "benny.markovitch@triply.cc"
+  },
+  "keywords": [
+    "Psychology",
+    "Sociology",
+    "Economics",
+    "Cooperation research",
+    "Prisoner's dilemma",
+    "Public Goods Game",
+    "Resource Dilemma",
+    "social dilemmas"
+  ],
+  "links": [
+    {
+      "target": "doi",
+      "value": 1645
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download graphs here",
+      "media_type": "application/trig",
+      "download_url": "https://data.cooperationdatabank.org/coda/databank/download.trig.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "What's in the Databank?",
+      "description": "A datastory showing how to make use of the databank.",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://data.cooperationdatabank.org/coda/-/stories/overview"
+    },
+    {
+      "title": "Paper ENG00013",
+      "media_type": "text/turtle",
+      "access_url": "https://data.cooperationdatabank.org/id/ENG00013"
+    },
+    {
+      "title": "Study ENG01818_1",
+      "description": "Participants were asked to pick a strategy first (C or D)\nto be applied for all 36 faces of potential partners depicted in photographs.",
+      "media_type": "text/turtle",
+      "access_url": "https://data.cooperationdatabank.org/id/ENG01818_1"
+    },
+    {
+      "title": "Effect size no. ENG01818_1.1.1.2.d",
+      "media_type": "text/turtle",
+      "access_url": "https://data.cooperationdatabank.org/id/ENG01818_1.1.1.2.d"
+    },
+    {
+      "title": "Treatment ENG01818_1.1.1",
+      "media_type": "text/turtle",
+      "access_url": "https://data.cooperationdatabank.org/id/ENG01818_1.1.1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL API",
+      "access_url": "https://api.cooperationdatabank.org/datasets/coda/databank/services/databank/sparql"
+    }
+  ]
+}

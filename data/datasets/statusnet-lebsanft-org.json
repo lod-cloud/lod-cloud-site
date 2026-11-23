@@ -1,0 +1,51 @@
+{
+  "identifier": "statusnet-lebsanft-org",
+  "title": "statusnet-lebsanft-org",
+  "description": {
+    "en": "StatusNet instance hosted at http://lebsanft.org"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-bka-li",
+      "value": 1
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 4
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 18
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://mikro.lebsanft.org/foaf"
+    }
+  ]
+}

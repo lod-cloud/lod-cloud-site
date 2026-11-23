@@ -1,0 +1,77 @@
+{
+  "identifier": "istat-immigration",
+  "title": "ISTAT Immigration (LinkedOpenData.it)",
+  "description": {
+    "en": "Statistical data about immigration in Italy and related topics.\r\nOriginal data comes from the National Statistical Institute of Italy (ISTAT, dati.istat.it) and has been put in RDF Data Cube format by Linked Open Data Italia association."
+  },
+  "domain": "government",
+  "website": "http://www.linkedopendata.it/datasets/istat-immigration",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 3024396,
+  "contact_point": {
+    "name": "Linkedopendata.it"
+  },
+  "keywords": [
+    "country-italy",
+    "data-cube",
+    "deref-vocab",
+    "format-foaf",
+    "format-org",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "immigration",
+    "istat",
+    "italy",
+    "license-metadata",
+    "linked-data",
+    "linkedopendata.it",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "provenance-metadata",
+    "published-by-third-party",
+    "statistics",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 319
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 190
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 11
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Dump",
+      "media_type": "RDF",
+      "access_url": "http://dump.linkedopendata.it/istat/immigrazione"
+    },
+    {
+      "description": "VOID Description",
+      "media_type": "meta/void",
+      "access_url": "http://void.linkedopendata.it/istat"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.linkedopendata.it/istat/resource/Obs-DCIS_MATRIMONISTR-2586"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://sparql.linkedopendata.it/istat"
+    }
+  ]
+}

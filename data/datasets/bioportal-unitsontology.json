@@ -1,0 +1,103 @@
+{
+  "identifier": "bioportal-unitsontology",
+  "title": "Units Ontology",
+  "description": {
+    "en": "A small ontology for the units of measurement developed during the development of the Sleep Domain Ontology (SDO). It supports the use of SDO within the PhysioMIMI application."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1650",
+  "triples": 407,
+  "contact_point": {
+    "name": "Sivaram Arabandi"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 10
+    },
+    {
+      "target": "bioportal-bao",
+      "value": 17
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 35
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ep",
+      "value": 38
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 16
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 40
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 10
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 26
+    },
+    {
+      "target": "bioportal-oboe-sbc",
+      "value": 17
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 22
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 64
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 32
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 34
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 36
+    },
+    {
+      "target": "bioportal-uo",
+      "value": 33
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46042?apikey=BP_API_KEY"
+    }
+  ]
+}

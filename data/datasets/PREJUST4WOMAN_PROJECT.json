@@ -1,0 +1,57 @@
+{
+  "identifier": "PREJUST4WOMAN_PROJECT",
+  "title": "PREJUST4WOMEN Knowledge Graph",
+  "description": {
+    "en": "The PREJUST4WOMEN Knowledge Graphs provide structured representations of legal cases related to violence against women, sourced from judgments of the European Court of Human Rights (ECHR). These KGs were developed using two complementary approaches: a bottom-up methodology and an LLM-based approach, leveraging advanced NLP techniques for KG construction. The KGs are designed to support predictive justice, legal reasoning, and enhanced accessibility to legal knowledge for humans and machines. This dataset offers a structured framework for documenting and analyzing cases of violence against women, including types of violence, the involved parties, and legal outcomes. It captures detailed information about the incidents, providing a comprehensive view of the legal ramifications and facilitating in-depth research and analysis in the field of gender-based violence. Published datasets include legal metadata, competency questions, and connections to external resources."
+  },
+  "domain": "user_generated",
+  "website": "https://github.com/khaoulafatima/PJ4W",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 11395,
+  "doi": "10.5281/zenodo.15270174",
+  "contact_point": {
+    "name": "Claudia d'Amato, Giuseppe Rubini, Didio Franceso, Francioso Donato, Fatima Zahra Amara, Nicola Fanizzi",
+    "email": "claudia.damato@uniba.it"
+  },
+  "keywords": [
+    "Violence Against Women",
+    "Legal Cases",
+    "Knowledge Graph",
+    "Jurisdictional Data"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 50
+    }
+  ],
+  "full_download": [
+    {
+      "title": "PREJUST4WOMEN KG APP1 .ttl",
+      "description": "This knowledge graph offers an innovative approach to the issue of violence against women by providing an interconnected, machine-interpretable representation of legal documents. It includes judgments from the European Court of Human Rights related to gender-based violence.",
+      "download_url": "https://github.com/PeppeRubini/EVA-KG/blob/main/KG.ttl"
+    },
+    {
+      "title": "PREJUST4WOMEN KG APP1 .owl",
+      "description": "This knowledge graph is available in JSON-LD format, providing a structured and interconnected representation of data related to violence against women. The JSON-LD format facilitates easy integration with web technologies and supports rich semantic interoperability, allowing for detailed and machine-readable descriptions of entities, relationships, and attributes within the legal domain.",
+      "download_url": "https://github.com/khaoulafatima/PJ4W/blob/PREJUST%2B%2B%2B%2B%2B.py/AEGIS_Fem%20JSON-LD.owl"
+    },
+    {
+      "title": "PREJUST4WOMEN KG APP1 .owl",
+      "description": "This knowledge graph is also available in RDF/XML format, offering a structured and semantically rich representation of data concerning violence against women. The RDF/XML format enables easy integration with existing semantic web technologies and tools, providing a standardized way to represent complex relationships and attributes within the legal domain.",
+      "download_url": "https://github.com/khaoulafatima/PJ4W/blob/PREJUST%2B%2B%2B%2B%2B.py/AEGIS_Fem%20RDF%20XML.owl"
+    },
+    {
+      "title": "PREJUST4WOMEN KG APP2",
+      "description": "This knowledge graph models the dynamics of abuse against women, connecting key entities like victims, perpetrators, and legal cases while capturing contextual, legal, and consequential details.",
+      "download_url": "https://github.com/Fra3005/PreJust4Womans/blob/main/Commons/final_onto.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "PREJUST4WOMEN KG 1 SPARQL endpoint",
+      "description": "This Flask web application allows users to execute SPARQL queries on the PREJUST4WOMEN KG. It utilizes the rdflib library to manage RDF data and provides a simple interface for query submission and result display. The app includes a home page for query input and an endpoint to process and show results.",
+      "access_url": "https://github.com/khaoulafatima/PJ4W/blob/PREJUST%2B%2B%2B%2B%2B.py/PJ4W_SPARQL_endpoint./PREJUS4W.py"
+    }
+  ]
+}

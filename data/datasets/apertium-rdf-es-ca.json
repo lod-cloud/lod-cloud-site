@@ -1,0 +1,73 @@
+{
+  "identifier": "apertium-rdf-es-ca",
+  "title": "Apertium RDF ES-CA",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary ES-CA. The original dataset (in LMF) comes from http://hdl.handle.net/10230/17127 . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 730501,
+  "contact_point": {
+    "name": "Universitat d'Alacant. Grup Transducens ; Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA)"
+  },
+  "keywords": [
+    "Catalan",
+    "Catalán",
+    "Español",
+    "Spanish",
+    "apertium",
+    "bilingual",
+    "dictionary",
+    "es-ca",
+    "lemon",
+    "lexicon",
+    "linguistic LOD",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 35152
+    },
+    {
+      "target": "lexinfo",
+      "value": 59655
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped RDF data dump",
+      "description": "It contains two lexicons (ES, CA) and the Translation Set ES-CA, as well as the metadata file.",
+      "media_type": "application/zip",
+      "access_url": "https://datahub.ckan.io/dataset/144f420d-7d7a-436a-8522-86c3a2f9d7d1/resource/0e312c8d-4cb8-4027-8da7-b2922ce85563/download/apertium-es-ca-rdf.zip"
+    },
+    {
+      "title": "Catalan lexicon URI",
+      "description": "This online lexicon not only contains the CA lexical entries from the ES-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in CA coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconCA"
+    },
+    {
+      "title": "Spanish lexicon URI",
+      "description": "This online lexicon not only contains the ES lexical entries from the ES-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in ES coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconES"
+    },
+    {
+      "title": "ES-CA translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetES-CA"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.ckan.io/dataset/apertium-rdf-es-ca.rdf with licence and provenance",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/144f420d-7d7a-436a-8522-86c3a2f9d7d1/resource/6e82a312-e3fe-45cf-bb66-49eabea14cf0/download/apertium-es-ca_dataset_metadata.rdf"
+    }
+  ]
+}

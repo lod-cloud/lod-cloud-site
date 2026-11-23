@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:dctype="http://purl.org/dc/dcmitype/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/" >
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ site.description | escape }}">
+    <meta name="author" content="{{ site.author | escape }}">
+
+    <title>{% if page.title and page.url != "/" %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="{{ '/lod-cloud.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/site.css' | relative_url }}" rel="stylesheet">
+    {{ page.extra_head }}
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-7">
+          <ul>
+              <li><a href="{{ '/datasets/' | relative_url }}">Browse</a></li>
+              <li><a href="{{ '/search/' | relative_url }}">Search</a></li>
+              <li><a href="{{ site.submit_url }}">Submit a dataset</a></li>
+              <li><a href="{{ '/#diagram' | relative_url }}">Diagram</a></li>
+              <li><a href="{{ '/#subclouds' | relative_url }}">Subclouds</a></li>
+              <li><a href="{{ '/#about' | relative_url }}">About</a></li>
+          </ul>
+          </div>
+      </div>
+    </nav>
+
+    {{ content }}
+
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5">
+      <a href="http://www.insight-centre.org"><img src="{{ '/resources/insight_logo_transparent.png' | relative_url }}" alt="Insight Centre for Data Analytics at NUI Galway" style="left:3px;height:40px;" /></a>
+      <a href="http://www.nuigalway.ie"><img src="{{ '/resources/logo_irish.png' | relative_url }}" alt="National University of Ireland Galway" style="left:3px;height:40px;" /></a>
+      <a href="https://www.hpi.de"><img src="{{ '/resources/hpi-logo.jpg' | relative_url }}" alt="Hasso-Plattner-Institut" style="position:relative;top:3px;height:40px;" /></a>
+      <a href="http://dws.informatik.uni-mannheim.de/"><img src="{{ '/resources/logo-uni-mannheim.gif' | relative_url }}" alt="University of Mannheim" style="position:relative;top:3px;height:40px;" /></a>
+    </div>
+       </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

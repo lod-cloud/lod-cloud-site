@@ -1,0 +1,33 @@
+{
+  "identifier": "Catch_Record_(2014-_2019)",
+  "title": "Norway catch records dataset @PSNC",
+  "description": {
+    "en": "Catch records data from Norway (2014-2019), transformed and published as Linked Data. The source data is in CSV format which has been processed, transformed and published as Linked Data, enabling their integration with other datasets in the LOD datasets. The catch record data involves the catch amount in tonnes for each year, along with the species caught and vessel and fishermen data. fishing regions and catch area data is also included in the respective years in the dataset. The dataset is already linked with some of these datasets, including FAO species, FAO fishing areas, and the ISO-3166 standard codes. The source CSV files can be found in https://www.fiskeridir.no/Tall-og-analyse/AApne-data/AApne-datasett/Fangstdata-koblet-med-fartoeydata."
+  },
+  "domain": "life_sciences",
+  "website": "https://www.foodie-cloud.org/fct/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://w3id.org/foodie/open/catchrecord/norway/",
+  "triples": 192867166,
+  "image": "https://box.psnc.pl/f/49f524951e/?raw=1",
+  "contact_point": {
+    "name": "Raul Palma, Soumya Brahma",
+    "email": "rpalma@man.poznan.pl"
+  },
+  "links": [
+    {
+      "target": "FAO_species",
+      "value": 4858160
+    },
+    {
+      "target": "Water_Areas_Classification",
+      "value": 4858158
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint in Virtuoso",
+      "access_url": "https://www.foodie-cloud.org/sparql"
+    }
+  ]
+}

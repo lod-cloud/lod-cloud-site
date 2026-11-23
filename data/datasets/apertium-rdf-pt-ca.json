@@ -1,0 +1,69 @@
+{
+  "identifier": "apertium-rdf-pt-ca",
+  "title": "Apertium RDF PT-CA",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary PT-CA. The original dataset (in LMF) comes from http://hdl.handle.net/10230/17120 . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 163149,
+  "contact_point": {
+    "name": "Carmen Armentano Oller ; Universitat d'Alacant. Grup Transducens ; Universitat Politècnica de Catalunya\t ; Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA)"
+  },
+  "keywords": [
+    "Apertium",
+    "Catalan",
+    "Portuguese",
+    "bilingual",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "machine_translation",
+    "multilingual",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 14921
+    },
+    {
+      "target": "lexinfo",
+      "value": 13146
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (PT, CA) and the Translation Set PT-CA, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-14T13:35:52.363Z/apertium-pt-ca-rdf.zip"
+    },
+    {
+      "title": "Portuguese lexicon URI",
+      "description": "This online lexicon not only contains the PT lexical entries from the PT-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in PT coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconPT"
+    },
+    {
+      "title": "Catalan lexicon URI",
+      "description": "This online lexicon not only contains the CA lexical entries from the PT-CA bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in CA coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconCA"
+    },
+    {
+      "title": "PT-CA translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetPT-CA"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-pt-ca.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-14T13:39:36.420Z/apertium-pt-ca-dataset-metadata.rdf"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "identifier": "oclc-fast",
+  "title": "Faceted Application of Subject Terminology",
+  "description": {
+    "en": "FAST (Faceted Application of Subject Terminology) is an enumerative, faceted subject heading schema derived from the Library of Congress Subject Headings (LCSH). Its purpose is to be easier to understand, control, apply, and use than LCSH. Any valid set of LC subject headings can be converted to FAST headings.\r\n\r\nFAST contains 1.6M authority records.\r\n\r\nThe triple count (30M) is a rough estimate based on the number of authority records. The LCSH link count is based on the observation that many but not all of the authority records have LCSH links. The Geonames link count is based on [this account](http://www.oclc.org/nextspace/018/research.htm) that states 100k total geographic entities with 60% matched to Geonames."
+  },
+  "domain": "publications",
+  "website": "http://id.worldcat.org/fast/",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://id.worldcat.org/fast/",
+  "triples": 30000000,
+  "contact_point": {
+    "name": "OCLC Research"
+  },
+  "keywords": [
+    "authorities",
+    "format-dc",
+    "format-foaf",
+    "format-skos",
+    "format-void",
+    "license-metadata",
+    "lod",
+    "lodcloud",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "geonames",
+      "value": 60000
+    },
+    {
+      "target": "lcsh",
+      "value": 1600000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "OpenSearch",
+      "access_url": "http://experimental.worldcat.org/fast/xsl/FastOpenSearch.xml"
+    },
+    {
+      "description": "VoID description",
+      "access_url": "http://fast.oclc.org/fast/void/0.1/"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://id.worldcat.org/fast/1411628"
+    }
+  ]
+}

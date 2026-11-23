@@ -1,0 +1,46 @@
+{
+  "identifier": "phoible",
+  "title": "Phonetics Information Base and Lexicon (PHOIBLE)",
+  "description": {
+    "en": "Phonetics Information Base and Lexicon (PHOIBLE) is a data set of phonological inventories with additional linguistic and non-linguistic information."
+  },
+  "domain": "linguistics",
+  "website": "http://phoible.org",
+  "triples": 133076,
+  "contact_point": {
+    "name": "Steve Moran",
+    "email": "steven.moran@uzh.ch"
+  },
+  "keywords": [
+    "linguistics",
+    "llod",
+    "lod",
+    "phonology",
+    "typological-database",
+    "typology"
+  ],
+  "links": [
+    {
+      "target": "gold",
+      "value": 3422
+    }
+  ],
+  "other_download": [
+    {
+      "title": "GitHub repository",
+      "description": "data and code (no RDF data yet)",
+      "access_url": "https://github.com/phoible"
+    },
+    {
+      "title": "Documentation",
+      "access_url": "http://phoible.org/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL end point",
+      "description": "Contains (provisional) PHOIBLE RDF Linked Data for the LLOD, created by Martin Brümmer for MLODE-2012.\r\n\r\n(Update May 18, 2014: Moved to http://linked-data.org/sparql)\r\n\r\nSample query: \r\n\r\nhttp://linked-data.org/sparql?default-graph-uri=http%3A%2F%2Fmlode.nlp2rdf.org%2Fresource%2Fphoible%2F&should-sponge=&query=select+%3Fa+%3Fb+%3Fc+where+%7B%3Fa+%3Fb+%3Fc%7D+LIMIT+100&format=text%2Fhtml&debug=on&timeout=",
+      "access_url": "http://linked-data.org/sparql"
+    }
+  ]
+}

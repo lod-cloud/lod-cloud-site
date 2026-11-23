@@ -1,0 +1,15 @@
+{
+  "identifier": "ISSN:0080-3626",
+  "title": "Pierwszy polski podręcznik bibliotekarski",
+  "description": {
+    "en": "praca poświęcona przedstawieniu i omówieniu poglądów i spostrzeżeń Joachima Lelewela zawartych w pracach poświęconych bibliotekarstwu"
+  },
+  "domain": "publications",
+  "website": "http://rocznikibiblioteczne.ibi.uni.wroc.pl/woluminy/tom-i-zeszyty-1-2-1957/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Jakub Lenczuk",
+    "email": "lenczuk.jakub@gmail.com"
+  }
+}

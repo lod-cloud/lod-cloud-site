@@ -1,0 +1,15 @@
+{
+  "identifier": "https:bioportal.bioontology.orgontologiesIBIOp=summary",
+  "title": "Indian Biodiversity",
+  "description": {
+    "en": "The Indian Biodiversity"
+  },
+  "domain": "life_sciences",
+  "website": "https://bioportal.bioontology.org/ontologies/IBIO/?p=summary",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "triples": 0,
+  "contact_point": {
+    "name": "Vishal Lama",
+    "email": "iamvishallama@gmail.com"
+  }
+}

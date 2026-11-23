@@ -1,0 +1,90 @@
+{
+  "identifier": "asn-us",
+  "title": "ASN:US",
+  "description": {
+    "en": "The [Achievement Standards Network](http://asn.jesandco.org \"Achievement Standards Network\") (ASN) provides open access to machine-readable representations of learning objectives published by education agencies and organizations. This is the ASN:US dataset of \"published\" learning objectives.  The ASN is also used in Australia [(ASN:AU)](http://www.australiancurriculum.edu.au/Technical/Introduction \"ASN:AU\").\r\n\r\nThe ASN is is funded in part by the [Bill & Melinda Gates Foundation](http://gatesfoundation.org \"Bill & Melinda Gates Foundation\") and was initially funded by the [National Science Foundation](http://www.nsf.gov/ \"National Science Foundation\")."
+  },
+  "domain": "government",
+  "website": "http://asn.jesandco.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://purl.org/ASN/schema/core/",
+  "triples": 4632275,
+  "contact_point": {
+    "name": "JES & Co.",
+    "email": "technicalsupport@jesandco.org"
+  },
+  "keywords": [
+    "education",
+    "format-asn",
+    "format-dc",
+    "format-dcterms",
+    "format-skos",
+    "government",
+    "learning outcomes",
+    "license-metadata",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "published-by-third-party",
+    "united states"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 378
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download",
+      "description": "Download of individual ASN RDF/XML \"published\" learning outcomes.",
+      "media_type": "RDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-08-17T160730/asn_published_xml.tgz"
+    },
+    {
+      "title": "RDF Schema",
+      "description": "RDF Schema",
+      "access_url": "http://purl.org/ASN/schema/core/"
+    },
+    {
+      "title": "Download",
+      "description": "RDF dump",
+      "media_type": "GZ",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-08-21T205204/ASN_published_dump.rdf.gz"
+    },
+    {
+      "title": "Virtuoso Faceted Search",
+      "description": "ou can search the entire dataset through the Virtuoso Faceted Search application. You can try the free text search or an entity lookup.",
+      "media_type": "api/search",
+      "access_url": "http://sparql.jesandco.org:8890/fct/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (RDF/XML)",
+      "description": "Example (RDF/XML)",
+      "media_type": "application/xml; charset=utf-8",
+      "access_url": "http://asn.jesandco.org/resources/S2377506.xml"
+    },
+    {
+      "title": "Example (Turtle)",
+      "description": "Example (Turtle)",
+      "media_type": "application/turtle; charset=utf-8",
+      "access_url": "http://asn.jesandco.org/resources/S2377506.ttl"
+    },
+    {
+      "title": "Example (N-Triples)",
+      "description": "Example (N-Triples)",
+      "media_type": "application/rdf+n3; charset=utf-8",
+      "access_url": "http://asn.jesandco.org/resources/S2377506.n3"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.jesandco.org:8890/sparql"
+    }
+  ]
+}

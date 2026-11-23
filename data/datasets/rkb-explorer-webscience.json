@@ -1,0 +1,68 @@
+{
+  "identifier": "rkb-explorer-webscience",
+  "title": "Web Science Conference (RKBExplorer)",
+  "description": {
+    "en": "This is one of several semantic repositories that contains and publishes RDF linked data and co-reference information, forming the underlying distributed storage model behind the RKB Explorer initiative."
+  },
+  "domain": "cross_domain",
+  "website": "http://webscience.rkbexplorer.com",
+  "namespace": "http://webscience.rkbexplorer.com/id/",
+  "triples": 33596,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.needsfixing",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 13
+    },
+    {
+      "target": "semantictweet",
+      "value": 4
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://webscience.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://webscience.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://webscience.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "example ressource (rdf)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://acm.rkbexplorer.com/ontologies/acm#B.1.3.1"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://webscience.rkbexplorer.com/sparql"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "identifier": "ASCDC-AS-TFD-Fish-Species",
+  "title": "Taiwan Fauna Database Research: Taiwan Digital Fish Species Database (AS-TFD-Fish-Species)",
+  "description": {
+    "en": "The LOD dataset of ASCDC_Taiwan Fauna Database Research: Taiwan Digital Fish Species Database (AS-TFD-Fish-Species) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the “Taiwan fauna database research: Taiwan digital fish species database” (臺灣動物相典藏之研究：臺灣魚類相之數位典藏) in the “Taiwan Union Catalog” (數位典藏與數位學習聯合目錄, https://catalog.digitalarchives.tw/Organization/List.jsp?CID=17509). Originally, the metadata was established by the Biodiversity Research Center, Academia Sinica (中央研究院生物多樣性研究中心) in Taiwan (ROC). It provides information on the fish species data collected by the Biodiversity Research Center at the Academia Sinica and can serve as database for the study of fish species in the coastal waters in and around the Taiwan Island. Containing 41,861 data records and 1,477,259 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC 0), while the digitized items are under CC-BY-NC-SA."
+  },
+  "domain": "life_sciences",
+  "website": "https://data.ascdc.tw/en/data.php",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.ascdc.tw/uc/bio/",
+  "triples": 1477259,
+  "contact_point": {
+    "name": "Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.)",
+    "email": "sophy@gate.sinica.edu.tw"
+  },
+  "keywords": [
+    "ASCDC",
+    "Biology",
+    "Aquatic Animals",
+    "Fishes",
+    "Specimen",
+    "Taiwan",
+    "Biodiversity Research Center",
+    "Academia Sinica",
+    "Taiwan Union Catalog"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 35856
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 24435
+    },
+    {
+      "target": "getty-aat",
+      "value": 7899
+    },
+    {
+      "target": "viaf",
+      "value": 80987
+    }
+  ],
+  "full_download": [
+    {
+      "title": "ASCDC LODDatasets",
+      "description": "Launched in 2018, ASCDC LODDatasets is an online portal platform for publishing LOD-based datasets, which are converted and provided by the ASCDC in Taiwan (R.O.C), with service for SPARQL queries and data downloads.",
+      "media_type": "XML, JSON, TTL, CSV.",
+      "download_url": "https://data.ascdc.tw/en/index.php"
+    },
+    {
+      "title": "ASCDC LODDataset of AS-TFD-Fish-Species",
+      "description": "Full download of ASCDC LODDataset of AS-TFD-Fish-Species in ttl format.",
+      "media_type": "ttl",
+      "download_url": "https://data.ascdc.tw/dataset/ASCDC-TFD-Fish-Species.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ASCDC LODDatasets - Downloads",
+      "description": "Webpage of ASCDC LODDatasets for downloads of entire published LOD-based datasets.",
+      "media_type": "text/html",
+      "access_url": "https://data.ascdc.tw/en/data.php"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource: Neoglyphidodon nigroris/ 黑褐副雀鯛",
+      "description": "Resource contains the LOD-based data on the collected fish specimens of “Neoglyphidodon nigroris/ 黑褐副雀鯛”.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.ascdc.tw/uc/bio/as/00003d36"
+    },
+    {
+      "title": "Example Resource: Hippocampus trimaculatus/ 三斑海馬",
+      "description": "Resource contains the LOD-based data on the collected fish specimens of “Hippocampus trimaculatus/ 三斑海馬”.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "https://data.ascdc.tw/uc/bio/as/000039ce"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ASCDC LODDatasets - SPARQL Queries",
+      "description": "Access to the SPARQL endpoint of ASCDC's LOD datasets for data retrieval (with template-based examples), downloads and further reuse.",
+      "access_url": "https://data.ascdc.tw/en/sparql.php"
+    }
+  ]
+}

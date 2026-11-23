@@ -1,0 +1,67 @@
+{
+  "identifier": "rkb-explorer-kaunas",
+  "title": "Vytautas Magnus University, Kaunas (RKBExplorer)",
+  "description": {
+    "en": "This repository contains data supplied from Vytautas Magnus University."
+  },
+  "domain": "publications",
+  "website": "http://kaunas.rkbexplorer.com",
+  "namespace": "http://kaunas.rkbexplorer.com/id/",
+  "triples": 32940,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-coref",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.unconnected",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-laas",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 7
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://kaunas.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://kaunas.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://kaunas.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://kaunas.rkbexplorer.com/id/person-3954"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://kaunas.rkbexplorer.com/sparql"
+    }
+  ]
+}

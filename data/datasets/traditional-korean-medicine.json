@@ -1,0 +1,57 @@
+{
+  "identifier": "traditional-korean-medicine",
+  "title": "Traditional Korean Medicine Ontology",
+  "description": {
+    "en": "Traditional Korean medicine (Hangul: 한의학, Hanja: 韓醫學) developed with the influence of other traditional medicine. Its techniques in treatment and diagnosis are both similar and unique to other traditional medicine. (Visit Wikipedia, http://en.wikipedia.org/wiki/Traditional_Korean_medicine.)\r\n\r\n\"Ontology-based Traditional Korean Medicine Knowledge Framework\" project is systematization of core knowledge of TKM and enhancing the applicability of the knowledge. This project is supported by Korean government and Korea Institute of Oriental Medicine is pursuing this project since 2009.\r\n\r\nTo achieve this, our group is constructing ontology for TKM, in particular, patient status and medicinal treatment for them. The center is conceptualizing disease, pattern, symptom and medical test result to define patient status and medicinal materials, formulas, acupuncture and moxibustion for treatment method.\r\n\r\nFor information about terms of traditional medicine in the area of East Asia, read this WHO standard, http://tkm.kiom.re.kr/ontology/doc/WHO-IST.pdf. This paper can be found at http://www.wpro.who.int/publications/PUB_9789290612487.htm. (Last check: Dec. 17th, 2009)\r\n\r\nAs a first step for construction, the center is focusing on medicinal materials including biological materials (plants and animals), minerals (stone and metal resources)."
+  },
+  "website": "http://tkm.kiom.re.kr",
+  "license": "http://www.opendefinition.org/licenses/gfdl",
+  "namespace": "http://tkm.kiom.re.kr/tkmedicine",
+  "triples": 51932,
+  "contact_point": {
+    "name": "Hyunchul Jang",
+    "email": "hcjang@kiom.re.kr"
+  },
+  "keywords": [
+    "format-ncbitaxon",
+    "lifesciences",
+    "linked-data",
+    "lod",
+    "medicines",
+    "no-deref-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "bioportal-ncbitaxon",
+      "value": 2119
+    }
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML file download",
+      "media_type": "RDF",
+      "access_url": "http://ontology.kiom.re.kr/ontology/lod.rdf"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example (Panax ginseng) (file)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ontology.kiom.re.kr/ontology/ginseng_example.rdf"
+    },
+    {
+      "title": "Example (Panax ginseng) (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://tkm.kiom.re.kr/ontology/get?query=MM%E4%BA%BA%E8%94%98"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://tkm.kiom.re.kr/ontology/sparql"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "identifier": "statusnet-postblue-info",
+  "title": "statusnet-postblue-info",
+  "description": {
+    "en": "StatusNet instance hosted at http://postblue.info"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 1
+    },
+    {
+      "target": "personal-homepages",
+      "value": 20
+    },
+    {
+      "target": "statusnet-20100-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-alexandrefranke-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-atari-frosch-de",
+      "value": 1
+    },
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 8
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 5
+    },
+    {
+      "target": "statusnet-chromic-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-datenfahrt-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-davidhaberthuer-ch",
+      "value": 1
+    },
+    {
+      "target": "statusnet-deuxpi-ca",
+      "value": 1
+    },
+    {
+      "target": "statusnet-exdc-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fcac-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 36
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-glou-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-gomertronic-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-hackerposse-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-ilikefreedom-ro",
+      "value": 1
+    },
+    {
+      "target": "statusnet-imirhil-fr",
+      "value": 4
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 4
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 1
+    },
+    {
+      "target": "statusnet-keuser-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-lebsanft-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 1
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-lydiastench-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-macno-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 10
+    },
+    {
+      "target": "statusnet-mrblog-nl",
+      "value": 1
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-otbm-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-piana-eu",
+      "value": 1
+    },
+    {
+      "target": "statusnet-planet-libre-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-qdnx-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-qth-fr",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 71
+    },
+    {
+      "target": "statusnet-rainbowdash-net",
+      "value": 6
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 6
+    },
+    {
+      "target": "statusnet-samnoble-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-scoffoni-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-sebseb01-net",
+      "value": 1
+    },
+    {
+      "target": "statusnet-shnoulle-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 17
+    },
+    {
+      "target": "statusnet-somsants-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 4
+    },
+    {
+      "target": "statusnet-ssweeny-net",
+      "value": 4
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 5
+    },
+    {
+      "target": "statusnet-tekk-com-ar",
+      "value": 1
+    },
+    {
+      "target": "statusnet-thelovebug-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-thornton2-com",
+      "value": 4
+    },
+    {
+      "target": "statusnet-timttmy-co-uk",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://sn.postblue.info/foaf"
+    }
+  ]
+}

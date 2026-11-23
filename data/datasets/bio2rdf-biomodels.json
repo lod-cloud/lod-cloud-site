@@ -1,0 +1,247 @@
+{
+  "identifier": "bio2rdf-biomodels",
+  "title": "Bio2RDF::Biomodels",
+  "description": {
+    "en": "BioModels Database is a data resource that allows biologists to store, search and retrieve published mathematical models of biological interests."
+  },
+  "domain": "life_sciences",
+  "website": "http://biomodels.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/biomodels:",
+  "triples": 2380009,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-3dmet",
+      "value": 8
+    },
+    {
+      "target": "bio2rdf-bind",
+      "value": 3
+    },
+    {
+      "target": "bio2rdf-biomodels",
+      "value": 180169
+    },
+    {
+      "target": "bio2rdf-bto",
+      "value": 60
+    },
+    {
+      "target": "bio2rdf-cas",
+      "value": 10
+    },
+    {
+      "target": "bio2rdf-cco",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-chebi",
+      "value": 902
+    },
+    {
+      "target": "bio2rdf-cl",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-do",
+      "value": 6
+    },
+    {
+      "target": "bio2rdf-doi",
+      "value": 11
+    },
+    {
+      "target": "bio2rdf-ec",
+      "value": 402
+    },
+    {
+      "target": "bio2rdf-eco",
+      "value": 364
+    },
+    {
+      "target": "bio2rdf-ensembl",
+      "value": 34
+    },
+    {
+      "target": "bio2rdf-fma",
+      "value": 25
+    },
+    {
+      "target": "bio2rdf-go",
+      "value": 1100
+    },
+    {
+      "target": "bio2rdf-hsa",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-icd9",
+      "value": 7
+    },
+    {
+      "target": "bio2rdf-insdc",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-intact",
+      "value": 17
+    },
+    {
+      "target": "bio2rdf-interpro",
+      "value": 99
+    },
+    {
+      "target": "bio2rdf-isbn",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-mi",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-mirbase",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-narcis",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 24
+    },
+    {
+      "target": "bio2rdf-pato",
+      "value": 11
+    },
+    {
+      "target": "bio2rdf-pirsf",
+      "value": 7
+    },
+    {
+      "target": "bio2rdf-pr",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 504
+    },
+    {
+      "target": "bio2rdf-pw",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-reactome",
+      "value": 249
+    },
+    {
+      "target": "bio2rdf-sbo",
+      "value": 18
+    },
+    {
+      "target": "bio2rdf-sce",
+      "value": 424
+    },
+    {
+      "target": "bio2rdf-sgd",
+      "value": 425
+    },
+    {
+      "target": "bio2rdf-so",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 61
+    },
+    {
+      "target": "bio2rdf-tcdb",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 1670
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download biomodels.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/biomodels/biomodels.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/biomodels/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/biomodels/biomodels.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/biomodels/bio2rdf-biomodels.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/biomodels/biomodels.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/biomodels/bio2rdf_biomodels_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/biomodels/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/biomodels:BIOMD0000000048"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://biomodels.bio2rdf.org/sparql"
+    }
+  ]
+}

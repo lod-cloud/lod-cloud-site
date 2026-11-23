@@ -1,0 +1,70 @@
+{
+  "identifier": "apertium-rdf-ca-it",
+  "title": "Apertium RDF CA-IT",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary CA-IT. The original dataset (in LMF) comes from http://hdl.handle.net/10230/17105. The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 180851,
+  "contact_point": {
+    "name": "Antonio Toral ; Mireia Ginestí Rosell ; Francis M. Tyers ; Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA)"
+  },
+  "keywords": [
+    "Apertium",
+    "Catalan",
+    "Italian",
+    "bilingual",
+    "dictionary",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 14212
+    },
+    {
+      "target": "lexinfo",
+      "value": 14592
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (CA, IT) and the Translation Set CA-IT, as well as the metadata file.",
+      "media_type": "BIN",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-14T21:06:49.774Z/apertium-ca-it-rdf.zip"
+    },
+    {
+      "title": "Catalan lexicon URI",
+      "description": "This online lexicon not only contains the CA lexical entries from the CA-IT bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in CA coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconCA"
+    },
+    {
+      "title": "Italian lexicon URI",
+      "description": "This online lexicon not only contains the IT lexical entries from the CA-IT bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in IT coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconIT"
+    },
+    {
+      "title": "CA-IT translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetCA-IT"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-ca-it.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-14T21:07:45.667Z/apertium-ca-it-dataset-metadata.rdf"
+    }
+  ]
+}

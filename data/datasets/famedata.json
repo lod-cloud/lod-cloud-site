@@ -1,0 +1,41 @@
+{
+  "identifier": "famedata",
+  "title": "FAMEData",
+  "description": {
+    "en": "free knowledge database project hosted by Miraheze and edited by volunteers"
+  },
+  "domain": "user_generated",
+  "website": "https://famedata.org",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://famedata.org/entity/",
+  "triples": 2400,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/FAMEData_official_logo.jpg",
+  "contact_point": {
+    "name": "Sunil Butolia",
+    "email": "sunil@famedata.org"
+  },
+  "keywords": [
+    "miraheze",
+    "famepedia",
+    "famedata"
+  ],
+  "example": [
+    {
+      "title": "entity node for Nelson Mandela",
+      "description": "The canonical URI for the concept of Nelson Mandela, the South African anti-apartheid activist and later President, as represented on Famedata. Using content negotiation, the URI redirects to different pages depending on how it is accessed; when opened in a browser, it will usually redirect to the Famedata page for the item, showing its terms, statements and sitelinks, while other clients may be served the data in JSON or RDF formats instead.",
+      "media_type": "application/ld+json; charset=UTF-8",
+      "access_url": "http://famedata.org/entity/Q2030"
+    },
+    {
+      "title": "data node for Nelson Mandela",
+      "description": "The data node for Famedata’s concept of Nelson Mandela. In the linked data interface, this node is the subject of triples describing metadata about the entity record on Famedata. (In the Famedata Query Service, the data node is merged into the entity node.) This is the URI that actually implements content negotiation depending on the client’s Accept headers; the entity URI, when accessed, unconditionally redirects to this one.",
+      "media_type": "application/ld+json; charset=UTF-8",
+      "access_url": "https://famedata.org/wiki/Special:EntityData/Q2030"
+    },
+    {
+      "title": "famedata page for Nelson Mandela",
+      "description": "The Fmedata page for Nelson Mandela, showing the terms, statements and sitelinks of the item. This is what the data node URI redirects to when opened in a browser, and the main way for humans to interact with the item.",
+      "access_url": "https://famedata.org/wiki/Q2030"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "ufo",
+  "title": "Unified Foundational Ontology",
+  "description": {
+    "en": "This dataset contains Unified Foundational Ontology (UFO), a top-level ontology biased towards conceptual modeling support.  The ontology is represented in OWL."
+  },
+  "domain": "cross_domain",
+  "website": "http://onto.fel.cvut.cz/ontologies/ufo/current/index-en.html",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "namespace": "http://onto.fel.cvut.cz/ontologies/ufo/",
+  "triples": 1000,
+  "contact_point": {
+    "name": "Petr Křemen",
+    "email": "petr.kremen@fel.cvut.cz"
+  },
+  "keywords": [
+    "Unified Foundational Ontology",
+    "UFO",
+    "OntoUML"
+  ],
+  "full_download": [
+    {
+      "title": "Ontology (OWL) - TTL",
+      "download_url": "http://onto.fel.cvut.cz/ontologies/ufo"
+    },
+    {
+      "title": "Ontology (OWL) - RDF",
+      "download_url": "http://onto.fel.cvut.cz/ontologies/ufo"
+    }
+  ],
+  "example": [
+    {
+      "title": "Kind - An example of a UFO vocabulary term.",
+      "description": "Kind denotes a UFO type which is a rigid sortal providing the principle of identity for its instances.",
+      "access_url": "http://onto.fel.cvut.cz/ontologies/ufo/kind"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql endpoint (RDF4J) for the current version of UFO",
+      "access_url": "http://onto.fel.cvut.cz/rdf4j-server/repositories/ufo-current"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "identifier": "telegraphis",
+  "title": "Telegraphis Linked Data",
+  "description": {
+    "en": "Data exposed: Countries, continents, capitals, currencies collected from GeoNames and Wikipedia data.\r\n\r\nSize of dump and data set: <10k triples a piece\r\n\r\nNotes: Also has several SPARQL endpoints.\r\n\r\n### Openness\r\n\r\nSounds like the project is currently trying to resolve licensing issues:\r\n\r\n> We are looking into publishing data about country subdivisions, airports, and airlines, but it is dependent on resolving licensing issues (country subdivisions need to be scraped from Wikipedia, as ISO source data poses licensing issues; airports and airlines are licensed under AGPL, rather than a sensible data license)."
+  },
+  "domain": "geography",
+  "website": "http://telegraphis.net/data/",
+  "namespace": "http://telegraphis.net/",
+  "triples": 15257,
+  "contact_point": {
+    "name": "Ian Jacobi <http://www.pipian.com/people/pipian/card#me>"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "deref-vocab",
+    "format-code",
+    "format-geographis",
+    "format-owl",
+    "format-rdf",
+    "geo",
+    "geographic",
+    "license-metadata",
+    "license-nonefordb",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "provenance-metadata",
+    "published-by-producer",
+    "vocab-mappings",
+    "void-sparql-endpoint",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 651
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 486
+    },
+    {
+      "target": "world-factbook-fu-berlin",
+      "value": 233
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://telegraphis.net/data/countries/countries.rdf"
+    },
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://telegraphis.net/data/void"
+    },
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://telegraphis.net/data/continents/continents.rdf"
+    },
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://telegraphis.net/data/capitals/capitals.rdf"
+    },
+    {
+      "description": "Download (RDF/XML)",
+      "media_type": "RDF",
+      "access_url": "http://telegraphis.net/data/currencies/currencies.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (Turtle)",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "http://telegraphis.net/data/countries/GB"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://telegraphis.net/data/countries/sparql"
+    }
+  ]
+}

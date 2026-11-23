@@ -1,0 +1,36 @@
+{
+  "identifier": "BVMC",
+  "title": "Biblioteca Virtual Miguel de Cervantes",
+  "description": {
+    "en": "The catalogue of the Biblioteca Virtual Miguel de Cervantes contains about 200,000 records which were originally created in compliance with the MARC21 standard.\n\nThe database content has been later mapped to RDF triples which employ mainly the RDA vocabulary (Resource Description and Access) to describe the entities, as well as their properties and relationships."
+  },
+  "domain": "publications",
+  "website": "http://data.cervantesvirtual.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.cervantesvirtual.com/",
+  "triples": 13000000,
+  "image": "http://fundacion.cervantesvirtual.com/wp-content/uploads/2017/06/FBVMC-logo-hor.txt.jpg",
+  "contact_point": {
+    "name": "FBVMC development team",
+    "email": "desarrollo@cervantesvirtual.com"
+  },
+  "keywords": [
+    "Miguel de Cervantes",
+    "Library LOD"
+  ],
+  "example": [
+    {
+      "title": "Miguel de Cervantes Saavedra",
+      "description": "Page for the author Miguel de Cervantes Saavedra which includes information from Wikidata",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "http://data.cervantesvirtual.com/person/40"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "BVMC SPARQL endpoint",
+      "description": "Public BVMC SPARQL endpoint",
+      "access_url": "http://data.cervantesvirtual.com/sparql"
+    }
+  ]
+}

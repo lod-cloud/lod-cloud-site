@@ -1,0 +1,89 @@
+{
+  "identifier": "2001-spanish-census-to-rdf",
+  "title": "2001 Spanish Census to RDF",
+  "description": {
+    "en": "This site offers information of the conversion process of a 5% sampling of the 2001 Spanish census from a plain useless format to RDF, a semantic representation supported by different products, services and protocols."
+  },
+  "domain": "government",
+  "website": "http://dataweb.infor.uva.es/census2001",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 93325760,
+  "contact_point": {
+    "name": "Javier D. Fernández",
+    "email": "jfergar@infor.uva.es"
+  },
+  "keywords": [
+    "census",
+    "government",
+    "linked-open-data",
+    "lod",
+    "rdf",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "RDFLicense",
+      "value": 1
+    },
+    {
+      "target": "geonames",
+      "value": 507
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Dump RDF/N3 (90M triples)",
+      "media_type": "RDF",
+      "access_url": "http://visualdataweb.infor.uva.es/censo/census90M.n3.gz"
+    },
+    {
+      "title": "People",
+      "description": "Browse people",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/census/resource/personas"
+    },
+    {
+      "title": "Homes",
+      "description": "Browse homes",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/census/resource/hogares"
+    },
+    {
+      "title": "Houses",
+      "description": "Browse houses",
+      "media_type": "RDF",
+      "access_url": "http://visualdataweb.infor.uva.es/censo/RDFData.html"
+    },
+    {
+      "title": "Buildings",
+      "description": "Browse buildings",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/census/resource/edificios"
+    },
+    {
+      "title": "Familiar nucleus",
+      "description": "Browse familiar nucleus",
+      "media_type": "application/json",
+      "access_url": "http://visualdataweb.infor.uva.es/census/resource/nucleos"
+    },
+    {
+      "title": "VoID description",
+      "media_type": "meta/void",
+      "access_url": "http://visualdataweb.infor.uva.es/censo/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "example of person",
+      "description": "An example of a person in turtle",
+      "media_type": "example/turtle",
+      "access_url": "http://visualdataweb.infor.uva.es:8080/census/resource/personas/0022240003.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql-endpoint",
+      "access_url": "http://visualdataweb.infor.uva.es/sparql"
+    }
+  ]
+}

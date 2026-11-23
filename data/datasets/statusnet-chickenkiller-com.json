@@ -1,0 +1,34 @@
+{
+  "identifier": "statusnet-chickenkiller-com",
+  "title": "statusnet-chickenkiller-com",
+  "description": {
+    "en": "StatusNet instance hosted at http://chickenkiller.com"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-foaf",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "personal-homepages",
+      "value": 5
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://alucardx.chickenkiller.com/statusnet/thinkgnu/foaf"
+    }
+  ]
+}

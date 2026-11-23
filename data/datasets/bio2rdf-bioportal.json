@@ -1,0 +1,1293 @@
+{
+  "identifier": "bio2rdf-bioportal",
+  "title": "Bio2RDF::Bioportal",
+  "description": {
+    "en": "BioPortal is an open repository of biomedical ontologies that provides access via Web services and Web browsers to ontologies developed in OWL, RDF, OBO format and Protege frames. BioPortal functionality includes the ability to browse, search and visualize ontologies."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/bioportal:",
+  "triples": 19920395,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-aao",
+      "value": 1643
+    },
+    {
+      "target": "bio2rdf-abbrev",
+      "value": 7
+    },
+    {
+      "target": "bio2rdf-aeo",
+      "value": 135
+    },
+    {
+      "target": "bio2rdf-apo",
+      "value": 340
+    },
+    {
+      "target": "bio2rdf-aracyc",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-atmo",
+      "value": 223
+    },
+    {
+      "target": "bio2rdf-ato",
+      "value": 6135
+    },
+    {
+      "target": "bio2rdf-atol",
+      "value": 382
+    },
+    {
+      "target": "bio2rdf-beilstein",
+      "value": 8622
+    },
+    {
+      "target": "bio2rdf-bfbbt",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-bfo",
+      "value": 39
+    },
+    {
+      "target": "bio2rdf-binary-data-type",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-biogrid",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-biopax",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-biotop",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-bs",
+      "value": 3
+    },
+    {
+      "target": "bio2rdf-bsa",
+      "value": 92
+    },
+    {
+      "target": "bio2rdf-bsd",
+      "value": 12
+    },
+    {
+      "target": "bio2rdf-bspo",
+      "value": 158
+    },
+    {
+      "target": "bio2rdf-bto",
+      "value": 247
+    },
+    {
+      "target": "bio2rdf-c14240",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-caloha",
+      "value": 142
+    },
+    {
+      "target": "bio2rdf-caro",
+      "value": 51
+    },
+    {
+      "target": "bio2rdf-cas",
+      "value": 10
+    },
+    {
+      "target": "bio2rdf-casrn",
+      "value": 3
+    },
+    {
+      "target": "bio2rdf-cbwinfo",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-chebi",
+      "value": 64024
+    },
+    {
+      "target": "bio2rdf-chembl",
+      "value": 756
+    },
+    {
+      "target": "bio2rdf-chemidplus",
+      "value": 10851
+    },
+    {
+      "target": "bio2rdf-chemspider",
+      "value": 195
+    },
+    {
+      "target": "bio2rdf-chmo",
+      "value": 2826
+    },
+    {
+      "target": "bio2rdf-citexplore",
+      "value": 31951
+    },
+    {
+      "target": "bio2rdf-cl",
+      "value": 2304
+    },
+    {
+      "target": "bio2rdf-clo",
+      "value": 3
+    },
+    {
+      "target": "bio2rdf-cmo",
+      "value": 2503
+    },
+    {
+      "target": "bio2rdf-co",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-co_125",
+      "value": 8
+    },
+    {
+      "target": "bio2rdf-co_321",
+      "value": 176
+    },
+    {
+      "target": "bio2rdf-come",
+      "value": 90
+    },
+    {
+      "target": "bio2rdf-corum",
+      "value": 11
+    },
+    {
+      "target": "bio2rdf-cp",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-cs",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-ctdi",
+      "value": 26
+    },
+    {
+      "target": "bio2rdf-ddanat",
+      "value": 135
+    },
+    {
+      "target": "bio2rdf-dermo",
+      "value": 3514
+    },
+    {
+      "target": "bio2rdf-diffavg",
+      "value": 549
+    },
+    {
+      "target": "bio2rdf-diffformula",
+      "value": 656
+    },
+    {
+      "target": "bio2rdf-diffmono",
+      "value": 560
+    },
+    {
+      "target": "bio2rdf-dis",
+      "value": 1415
+    },
+    {
+      "target": "bio2rdf-do",
+      "value": 10320
+    },
+    {
+      "target": "bio2rdf-doi",
+      "value": 10
+    },
+    {
+      "target": "bio2rdf-drugbank",
+      "value": 2213
+    },
+    {
+      "target": "bio2rdf-ec",
+      "value": 4353
+    },
+    {
+      "target": "bio2rdf-eco",
+      "value": 582
+    },
+    {
+      "target": "bio2rdf-ecogene",
+      "value": 3977
+    },
+    {
+      "target": "bio2rdf-ecolexicon",
+      "value": 271
+    },
+    {
+      "target": "bio2rdf-efo",
+      "value": 128
+    },
+    {
+      "target": "bio2rdf-efopat_id",
+      "value": 10
+    },
+    {
+      "target": "bio2rdf-ehda",
+      "value": 8340
+    },
+    {
+      "target": "bio2rdf-ehdaa",
+      "value": 2270
+    },
+    {
+      "target": "bio2rdf-ehdaa2",
+      "value": 2604
+    },
+    {
+      "target": "bio2rdf-emap",
+      "value": 13731
+    },
+    {
+      "target": "bio2rdf-emapa",
+      "value": 154
+    },
+    {
+      "target": "bio2rdf-emaps",
+      "value": 1876
+    },
+    {
+      "target": "bio2rdf-embl",
+      "value": 97799
+    },
+    {
+      "target": "bio2rdf-ensembl",
+      "value": 16487
+    },
+    {
+      "target": "bio2rdf-envo",
+      "value": 1696
+    },
+    {
+      "target": "bio2rdf-eo",
+      "value": 574
+    },
+    {
+      "target": "bio2rdf-epcc",
+      "value": 13
+    },
+    {
+      "target": "bio2rdf-evm",
+      "value": 19
+    },
+    {
+      "target": "bio2rdf-evoc",
+      "value": 159
+    },
+    {
+      "target": "bio2rdf-fao",
+      "value": 91
+    },
+    {
+      "target": "bio2rdf-fbbi",
+      "value": 624
+    },
+    {
+      "target": "bio2rdf-fbbt",
+      "value": 9192
+    },
+    {
+      "target": "bio2rdf-fbcv",
+      "value": 895
+    },
+    {
+      "target": "bio2rdf-fbdv",
+      "value": 212
+    },
+    {
+      "target": "bio2rdf-fbql",
+      "value": 28
+    },
+    {
+      "target": "bio2rdf-fbsp",
+      "value": 6600
+    },
+    {
+      "target": "bio2rdf-fix",
+      "value": 1163
+    },
+    {
+      "target": "bio2rdf-flybrain_ndb",
+      "value": 220
+    },
+    {
+      "target": "bio2rdf-fma",
+      "value": 1077
+    },
+    {
+      "target": "bio2rdf-formalcharge",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-formula",
+      "value": 912
+    },
+    {
+      "target": "bio2rdf-ftt",
+      "value": 512
+    },
+    {
+      "target": "bio2rdf-fyler",
+      "value": 257
+    },
+    {
+      "target": "bio2rdf-fypo",
+      "value": 3548
+    },
+    {
+      "target": "bio2rdf-gc_id",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-genedb",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-geonames",
+      "value": 373
+    },
+    {
+      "target": "bio2rdf-gmelin",
+      "value": 3451
+    },
+    {
+      "target": "bio2rdf-go",
+      "value": 43159
+    },
+    {
+      "target": "bio2rdf-goc",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-goeco",
+      "value": 22
+    },
+    {
+      "target": "bio2rdf-gramene",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-gro",
+      "value": 239
+    },
+    {
+      "target": "bio2rdf-hamap",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-hao",
+      "value": 16
+    },
+    {
+      "target": "bio2rdf-hgnc",
+      "value": 18425
+    },
+    {
+      "target": "bio2rdf-hmdb",
+      "value": 2392
+    },
+    {
+      "target": "bio2rdf-hom",
+      "value": 66
+    },
+    {
+      "target": "bio2rdf-hp",
+      "value": 14022
+    },
+    {
+      "target": "bio2rdf-hprd",
+      "value": 7473
+    },
+    {
+      "target": "bio2rdf-hsd",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-http",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-iao",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-icd10",
+      "value": 301
+    },
+    {
+      "target": "bio2rdf-icd10cm",
+      "value": 207
+    },
+    {
+      "target": "bio2rdf-icd9",
+      "value": 3
+    },
+    {
+      "target": "bio2rdf-icd9cm",
+      "value": 3363
+    },
+    {
+      "target": "bio2rdf-icdo",
+      "value": 3
+    },
+    {
+      "target": "bio2rdf-id",
+      "value": 253
+    },
+    {
+      "target": "bio2rdf-ido",
+      "value": 15
+    },
+    {
+      "target": "bio2rdf-idoden",
+      "value": 6
+    },
+    {
+      "target": "bio2rdf-idomal",
+      "value": 1688
+    },
+    {
+      "target": "bio2rdf-imex",
+      "value": 333
+    },
+    {
+      "target": "bio2rdf-img",
+      "value": 36
+    },
+    {
+      "target": "bio2rdf-inheres",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-intact",
+      "value": 14924
+    },
+    {
+      "target": "bio2rdf-interpro",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-irac",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-isbn",
+      "value": 7
+    },
+    {
+      "target": "bio2rdf-iupac",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-iwis_traitid",
+      "value": 123
+    },
+    {
+      "target": "bio2rdf-iwis_triatid",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-jaxlabmice",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-kegg",
+      "value": 3607
+    },
+    {
+      "target": "bio2rdf-kupo",
+      "value": 123
+    },
+    {
+      "target": "bio2rdf-lipidmaps",
+      "value": 1800
+    },
+    {
+      "target": "bio2rdf-loinc",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-ma",
+      "value": 3262
+    },
+    {
+      "target": "bio2rdf-maizegdb",
+      "value": 11
+    },
+    {
+      "target": "bio2rdf-massavg",
+      "value": 862
+    },
+    {
+      "target": "bio2rdf-massmono",
+      "value": 907
+    },
+    {
+      "target": "bio2rdf-mat",
+      "value": 459
+    },
+    {
+      "target": "bio2rdf-meddra",
+      "value": 93
+    },
+    {
+      "target": "bio2rdf-mesh",
+      "value": 3404
+    },
+    {
+      "target": "bio2rdf-mesh_dui",
+      "value": 87
+    },
+    {
+      "target": "bio2rdf-metacyc",
+      "value": 6773
+    },
+    {
+      "target": "bio2rdf-mfo",
+      "value": 4359
+    },
+    {
+      "target": "bio2rdf-mgi",
+      "value": 6537
+    },
+    {
+      "target": "bio2rdf-mi",
+      "value": 83
+    },
+    {
+      "target": "bio2rdf-miro",
+      "value": 4365
+    },
+    {
+      "target": "bio2rdf-mmo",
+      "value": 559
+    },
+    {
+      "target": "bio2rdf-molbase",
+      "value": 294
+    },
+    {
+      "target": "bio2rdf-mop",
+      "value": 87
+    },
+    {
+      "target": "bio2rdf-mosbp",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-mp",
+      "value": 11401
+    },
+    {
+      "target": "bio2rdf-mpath",
+      "value": 892
+    },
+    {
+      "target": "bio2rdf-mvc",
+      "value": 519
+    },
+    {
+      "target": "bio2rdf-namerxn",
+      "value": 38
+    },
+    {
+      "target": "bio2rdf-nbo",
+      "value": 828
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 17386
+    },
+    {
+      "target": "bio2rdf-ncit",
+      "value": 5418
+    },
+    {
+      "target": "bio2rdf-ndfrt",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-ne1014",
+      "value": 6
+    },
+    {
+      "target": "bio2rdf-nif_organism",
+      "value": 12
+    },
+    {
+      "target": "bio2rdf-nistchemistrywebbook",
+      "value": 3424
+    },
+    {
+      "target": "bio2rdf-nlx",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-nmodb",
+      "value": 70
+    },
+    {
+      "target": "bio2rdf-nmosp",
+      "value": 41
+    },
+    {
+      "target": "bio2rdf-obi",
+      "value": 41
+    },
+    {
+      "target": "bio2rdf-obo",
+      "value": 1135
+    },
+    {
+      "target": "bio2rdf-obo_sf2_eo",
+      "value": 74
+    },
+    {
+      "target": "bio2rdf-obo_sf_eo",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-obo_sf_go",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-obo_sf_obo",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-ogmd",
+      "value": 134
+    },
+    {
+      "target": "bio2rdf-ogms",
+      "value": 8
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 8009
+    },
+    {
+      "target": "bio2rdf-omit",
+      "value": 395
+    },
+    {
+      "target": "bio2rdf-opb",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-origin",
+      "value": 142
+    },
+    {
+      "target": "bio2rdf-orphanet",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-osics-10",
+      "value": 115
+    },
+    {
+      "target": "bio2rdf-panther",
+      "value": 106
+    },
+    {
+      "target": "bio2rdf-pato",
+      "value": 2531
+    },
+    {
+      "target": "bio2rdf-pdb",
+      "value": 133
+    },
+    {
+      "target": "bio2rdf-pdbechem",
+      "value": 2073
+    },
+    {
+      "target": "bio2rdf-peroxibase",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-pgo",
+      "value": 23
+    },
+    {
+      "target": "bio2rdf-phi",
+      "value": 376
+    },
+    {
+      "target": "bio2rdf-pirsf",
+      "value": 567
+    },
+    {
+      "target": "bio2rdf-plantsystematics_image_archive",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-plo",
+      "value": 14
+    },
+    {
+      "target": "bio2rdf-pmdermo",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-po",
+      "value": 2007
+    },
+    {
+      "target": "bio2rdf-pombase",
+      "value": 34
+    },
+    {
+      "target": "bio2rdf-potato_cooperators",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-pr",
+      "value": 62027
+    },
+    {
+      "target": "bio2rdf-pride",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-pt",
+      "value": 28
+    },
+    {
+      "target": "bio2rdf-pto",
+      "value": 1511
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 1928
+    },
+    {
+      "target": "bio2rdf-pvp",
+      "value": 11
+    },
+    {
+      "target": "bio2rdf-pw",
+      "value": 1551
+    },
+    {
+      "target": "bio2rdf-radlex",
+      "value": 7
+    },
+    {
+      "target": "bio2rdf-rdo",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-reactome",
+      "value": 38255
+    },
+    {
+      "target": "bio2rdf-reaxys",
+      "value": 10354
+    },
+    {
+      "target": "bio2rdf-resid",
+      "value": 382
+    },
+    {
+      "target": "bio2rdf-reto",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-rex",
+      "value": 552
+    },
+    {
+      "target": "bio2rdf-rexo",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-rgd",
+      "value": 3573
+    },
+    {
+      "target": "bio2rdf-rhea",
+      "value": 2798
+    },
+    {
+      "target": "bio2rdf-ro",
+      "value": 51
+    },
+    {
+      "target": "bio2rdf-rs",
+      "value": 3796
+    },
+    {
+      "target": "bio2rdf-rxno",
+      "value": 551
+    },
+    {
+      "target": "bio2rdf-sabiork",
+      "value": 2
+    },
+    {
+      "target": "bio2rdf-sael",
+      "value": 116
+    },
+    {
+      "target": "bio2rdf-sao",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-sbo",
+      "value": 609
+    },
+    {
+      "target": "bio2rdf-sbol",
+      "value": 28
+    },
+    {
+      "target": "bio2rdf-scale",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-sctid",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-sep",
+      "value": 194
+    },
+    {
+      "target": "bio2rdf-sgd",
+      "value": 16
+    },
+    {
+      "target": "bio2rdf-sgf",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-snap",
+      "value": 21
+    },
+    {
+      "target": "bio2rdf-snomedct",
+      "value": 13512
+    },
+    {
+      "target": "bio2rdf-so",
+      "value": 338
+    },
+    {
+      "target": "bio2rdf-solcap",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-source",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-soy",
+      "value": 1835
+    },
+    {
+      "target": "bio2rdf-soygro",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-soyto",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-soywgr",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-spd",
+      "value": 661
+    },
+    {
+      "target": "bio2rdf-spire",
+      "value": 37
+    },
+    {
+      "target": "bio2rdf-ssb",
+      "value": 106
+    },
+    {
+      "target": "bio2rdf-sweetrealm",
+      "value": 203
+    },
+    {
+      "target": "bio2rdf-symptom",
+      "value": 23
+    },
+    {
+      "target": "bio2rdf-synonym",
+      "value": 48
+    },
+    {
+      "target": "bio2rdf-syoid",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-tads",
+      "value": 629
+    },
+    {
+      "target": "bio2rdf-tair",
+      "value": 21
+    },
+    {
+      "target": "bio2rdf-tao",
+      "value": 3105
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 16410
+    },
+    {
+      "target": "bio2rdf-tcdb",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-tdr",
+      "value": 196
+    },
+    {
+      "target": "bio2rdf-termspec",
+      "value": 3
+    },
+    {
+      "target": "bio2rdf-tgma",
+      "value": 1865
+    },
+    {
+      "target": "bio2rdf-tgn",
+      "value": 315
+    },
+    {
+      "target": "bio2rdf-theonlyoutbredstrainofalbinomousefromharlanlabs",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-theoutbredstrainofalbinomousefromcharlesriver",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-trak",
+      "value": 1292
+    },
+    {
+      "target": "bio2rdf-tron",
+      "value": 965
+    },
+    {
+      "target": "bio2rdf-tsn",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-tto",
+      "value": 38705
+    },
+    {
+      "target": "bio2rdf-uberon",
+      "value": 2412
+    },
+    {
+      "target": "bio2rdf-umbbd",
+      "value": 323
+    },
+    {
+      "target": "bio2rdf-umls",
+      "value": 13097
+    },
+    {
+      "target": "bio2rdf-umls_cuineedmoresynonoyms",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-unipathway",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 84160
+    },
+    {
+      "target": "bio2rdf-uo",
+      "value": 333
+    },
+    {
+      "target": "bio2rdf-urn",
+      "value": 30406
+    },
+    {
+      "target": "bio2rdf-uspto",
+      "value": 3419
+    },
+    {
+      "target": "bio2rdf-v",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-value-type",
+      "value": 11
+    },
+    {
+      "target": "bio2rdf-vao",
+      "value": 205
+    },
+    {
+      "target": "bio2rdf-vario",
+      "value": 384
+    },
+    {
+      "target": "bio2rdf-vfb",
+      "value": 4381
+    },
+    {
+      "target": "bio2rdf-vhog",
+      "value": 1185
+    },
+    {
+      "target": "bio2rdf-vo",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-vsmo",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-vt",
+      "value": 3402
+    },
+    {
+      "target": "bio2rdf-vz",
+      "value": 105
+    },
+    {
+      "target": "bio2rdf-wbbt",
+      "value": 7578
+    },
+    {
+      "target": "bio2rdf-wbis",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-wbls",
+      "value": 108
+    },
+    {
+      "target": "bio2rdf-wbpaper",
+      "value": 1
+    },
+    {
+      "target": "bio2rdf-wbphenotype",
+      "value": 2187
+    },
+    {
+      "target": "bio2rdf-webelements",
+      "value": 111
+    },
+    {
+      "target": "bio2rdf-wikipedia",
+      "value": 4903
+    },
+    {
+      "target": "bio2rdf-wormbase",
+      "value": 5
+    },
+    {
+      "target": "bio2rdf-wsio_compression",
+      "value": 11
+    },
+    {
+      "target": "bio2rdf-wsio_data",
+      "value": 9
+    },
+    {
+      "target": "bio2rdf-wsio_operation",
+      "value": 7
+    },
+    {
+      "target": "bio2rdf-wsio_transfer",
+      "value": 4
+    },
+    {
+      "target": "bio2rdf-xao",
+      "value": 391
+    },
+    {
+      "target": "bio2rdf-xco",
+      "value": 462
+    },
+    {
+      "target": "bio2rdf-xeo",
+      "value": 144
+    },
+    {
+      "target": "bio2rdf-ypo",
+      "value": 276
+    },
+    {
+      "target": "bio2rdf-zea",
+      "value": 179
+    },
+    {
+      "target": "bio2rdf-zfa",
+      "value": 3006
+    },
+    {
+      "target": "bio2rdf-zfin",
+      "value": 2828
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download aao.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/aao.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download aba-amb.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/aba-amb.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download acgt-mo.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/acgt-mo.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download ado.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/ado.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download adw.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/adw.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download aeo.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/aeo.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download aero.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/aero.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download amino-acid.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/amino-acid.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download apo.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/apo.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download asdpto.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/bioportal/asdpto.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/bioportal/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/bioportal/bioportal.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/bioportal/bio2rdf-bioportal.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/bioportal/bioportal.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/bioportal/bio2rdf_bioportal_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/bioportal/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/bioportal:1046"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://bioportal.bio2rdf.org/sparql"
+    }
+  ]
+}

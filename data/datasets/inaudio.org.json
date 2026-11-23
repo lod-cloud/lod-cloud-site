@@ -1,0 +1,38 @@
+{
+  "identifier": "inaudio.org",
+  "title": "Royalty Free Music",
+  "description": {
+    "en": "Unlimited Access. Search for amazing Non Copyright Music. World-class royalty free music for YouTube videos, Twitch, Facebook, Games, Instagram"
+  },
+  "domain": "media",
+  "website": "https://inaudio.org/songs/",
+  "license": "https://creativecommons.org/licenses/by/3.0/",
+  "namespace": "Studio YouTube Facebook Tiktok",
+  "triples": 0,
+  "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FInAudio.org%2F&psig=AOvVaw2HZ9dDvRT4uOQGPny_vSQn&ust=1653550938022000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjyn7ST-vcCFQAAAAAdAAAAABAD",
+  "contact_point": {
+    "name": "Ivan Infraction Malkov",
+    "email": "info@inaudio.org"
+  },
+  "keywords": [
+    "royalty free music",
+    "copyright free music",
+    "no copyrigh music",
+    "free royalty free music"
+  ],
+  "full_download": [
+    {
+      "title": "Download unlimeted Royalty free music",
+      "description": "🔓 Unlimited Access. Search for amazing Non Copyright Music. World-class royalty free music for YouTube videos, Twitch, Facebook, Games, Instagram",
+      "media_type": "text/html; charset=UTF-8",
+      "download_url": "https://inaudio.org/royalty-free-music/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Copyright Free Music",
+      "description": "Studio YouTube Facebook Tiktok",
+      "access_url": "https://lod-cloud.net/dataset/Copyright%20Free%20Music"
+    }
+  ]
+}

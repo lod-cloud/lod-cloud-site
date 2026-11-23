@@ -1,0 +1,48 @@
+{
+  "identifier": "opencyc",
+  "title": "OpenCyc",
+  "description": {
+    "en": "### About\r\n\r\n> Now it is even easier to use the rich and diverse collection of real-world concepts in OpenCyc to bring meaning to your semantic web applications! The full OpenCyc content is now available both as downloadable OWL ontologies as well as via semantic web endpoints (i.e., permanent URIs). These URIs return RDF representations of each Cyc concept as well as a human-readable version when accessed via a Web Browser.\r\n\r\nData exposed: OpenCyc Ontology\r\nSize of dump and data set: ~1.6 million triples, ~150MB uncompressed\r\n\r\n### Openness\r\n\r\n[License](http://www.opencyc.org/license) states:\r\n\r\n> These files contain an OWL representation of information contained in the OpenCyc Knowledge Base. The content of these OWL files are licensed under the Creative Commons Attribution 3.0 license whose text can be found at . The content of these OWL files, including the OpenCyc content they represent, constitutes the \"Work\" referred to in the Creative Commons license. The terms of this license equally apply to, without limitation, renamings and other logically equivalent reformulations of the content of these OWL files (or portions thereof) in any natural or formal language, as well as to derivations of this content or inclusion of it in other ontologies."
+  },
+  "domain": "cross_domain",
+  "website": "http://sw.opencyc.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://sw.opencyc.org/concept/",
+  "triples": 1600000,
+  "contact_point": {
+    "name": "Cycorp, Inc.",
+    "email": "http://sw.opencyc.org/concept/Mx4rvViYm5wpEbGdrcN5Y29ycA"
+  },
+  "keywords": [
+    "ckanupload.esw.200910",
+    "crossdomain",
+    "deref-vocab",
+    "format-rdf",
+    "license-nonefordb",
+    "linkeddata",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "ontology",
+    "published-by-producer",
+    "rdf"
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "media_type": "RDF",
+      "access_url": "http://sw.opencyc.org/downloads/opencyc_owl_downloads/opencyc-latest.owl.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://sw.opencyc.org/concept/Mx4rwP1ZTZwpEbGdrcN5Y29ycA"
+    }
+  ]
+}

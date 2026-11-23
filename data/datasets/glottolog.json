@@ -1,0 +1,87 @@
+{
+  "identifier": "glottolog",
+  "title": "Glottolog",
+  "description": {
+    "en": "Glottolog provides information about descriptive literature for all the world's languages. It also provides a language classification as well as knowledge bases for names, codes, and locations.\r\nThe licence is CC-SA"
+  },
+  "domain": "linguistics",
+  "website": "http://glottolog.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 10000000,
+  "contact_point": {
+    "name": "Sebastian Nordhoff and Harald Hammarström",
+    "email": "glottolog@eva.mpg.de"
+  },
+  "keywords": [
+    "bibliography",
+    "deref-vocab",
+    "format-bibo",
+    "format-dcterms",
+    "format-foaf",
+    "format-frbr",
+    "format-gold",
+    "format-lexvo",
+    "format-skos",
+    "format-wgs",
+    "license-metadata",
+    "linguistic",
+    "linguistics",
+    "llod",
+    "lod",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "typology"
+  ],
+  "links": [
+    {
+      "target": "lexvo",
+      "value": 7000
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Languoids as n3",
+      "description": "A dump of all languoids",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://glottolog.org/static/download/glottolog-language.n3.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Languoids as CSV",
+      "media_type": "zip:csv",
+      "access_url": "http://glottolog.org/static/download/glottolog-language.csv.zip"
+    },
+    {
+      "title": "References as bibtex",
+      "media_type": "zip:bib",
+      "access_url": "http://glottolog.org/static/download/glottolog-source.bib.zip"
+    },
+    {
+      "title": "Glottolog dataset description",
+      "description": "Description of the Glottolog dataset using the VOID vocabulary.",
+      "access_url": "http://glottolog.org/void.rdf"
+    },
+    {
+      "title": "References as RDF",
+      "media_type": "N3",
+      "access_url": "http://glottolog.org/static/download/glottolog-source.n3.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Description of the Kinyarwanda langauge",
+      "description": "contains names, codes, genealogical information, geographical location and references for this language.",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://glottolog.org/resource/languoid/id/kiny1244.rdf"
+    },
+    {
+      "title": "Bibliographical Reference",
+      "description": "A reference for the work \"http://www.glottolog.org/resource/reference/id/39524.rdf\" with bibliographical annotation such as author, title, year, topic, etc",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://www.glottolog.org/resource/reference/id/39524.rdf"
+    }
+  ]
+}

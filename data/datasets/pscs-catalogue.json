@@ -1,0 +1,97 @@
+{
+  "identifier": "pscs-catalogue",
+  "title": "Product Scheme Classifications Catalogue",
+  "description": {
+    "en": "This dataset contains several product scheme classifications that have been transformed to linked data. This dataset is a “catalogue” dataset; the individual classifications are:\r\n\r\n* dataset:combined-nomenclature-2012\r\n* dataset:isic-v4\r\n* dataset:cpa-2008\r\n* dataset:cpc-2008\r\n* dataset:cpv-2003\r\n* dataset:cpv-2008\r\n* dataset:naics-2007\r\n* dataset:naics-2012\r\n* dataset:sitc-v4\r\n\r\nAuthors:\r\n\r\n-Jose María Alvarez Rodríguez & Jose Emilio Labra Gayo\r\n\r\nWESO-University of Oviedo"
+  },
+  "domain": "government",
+  "website": "http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://purl.org/weso/pscs/resource",
+  "triples": 1842053,
+  "contact_point": {
+    "name": "Jose María Alvarez Rodríguez at WESO (University of Oviedo)",
+    "email": "josem.alvarez@weso.es"
+  },
+  "keywords": [
+    "10ders",
+    "cpa",
+    "cpc",
+    "cpv",
+    "deref-vocab",
+    "e-procurement",
+    "euroalert",
+    "format-dc",
+    "format-dcterms",
+    "format-gr",
+    "format-skos",
+    "format-skosxl",
+    "geodata",
+    "government",
+    "isic",
+    "license-metadata",
+    "linkeddata",
+    "linkedopendata",
+    "lod",
+    "naics",
+    "naics-2007",
+    "oviedo",
+    "procurement",
+    "provenance-metadata",
+    "pscs",
+    "public_contracts",
+    "published-by-third-party",
+    "sitc",
+    "uniovi",
+    "university-of-oviedo",
+    "vocab-mappings",
+    "weso"
+  ],
+  "links": [
+    {
+      "target": "productontology",
+      "value": 149112
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Product Scheme Classifications Catalogue",
+      "description": "Product Scheme Classifications Catalogue",
+      "media_type": "text/rdf+n3",
+      "access_url": "http://purl.org/weso/pscs/data/resource/ds?output=ttl"
+    },
+    {
+      "title": "Linked Data Frontend-Product Scheme Classifications Catalogue",
+      "description": "Linked Data Frontend-Product Scheme Classifications Catalogue",
+      "media_type": "HTML",
+      "access_url": "http://purl.org/weso/pscs/"
+    },
+    {
+      "title": "VoID of Product Scheme Classifications Catalogue",
+      "description": "VoID of Product Scheme Classifications Catalogue",
+      "media_type": "meta/void",
+      "access_url": "http://purl.org/weso/pscs/resource/ds"
+    },
+    {
+      "title": "Custom definitions of Product Scheme Classifications Catalogue",
+      "description": "Custom definitions of Product Scheme Classifications Catalogue",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://purl.org/weso/datasets/pscs/psc-ontology.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example of resource-Product Scheme Classifications Catalogue",
+      "description": "Example of resource-Product Scheme Classifications Catalogue",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/weso/pscs/data/naics/2007/resource/11111?output=xml"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "WESO SPARQL Endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://purl.org/weso/sparql"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "identifier": "southampton-ac-uk-apps",
+  "title": "Apps using our data (University of Southampton)",
+  "description": {
+    "en": "Dataset from University of Southampton Open Data Service. A catalog of known websites, web widgets, phone apps and other tools using our datasets."
+  },
+  "website": "http://data.southampton.ac.uk/",
+  "license": "http://reference.data.gov.uk/id/open-government-licence",
+  "triples": 200,
+  "keywords": [
+    "crossdomain",
+    "format-rdf",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "no-deref-vocab",
+    "published-by-producer"
+  ],
+  "other_download": [
+    {
+      "description": "HTML",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.southampton.ac.uk/apps.html"
+    },
+    {
+      "description": "RDF (in XML)",
+      "media_type": "RDF",
+      "access_url": "http://id.southampton.ac.uk/dataset/apps/latest.rdf"
+    },
+    {
+      "description": "RDF (in Turtle)",
+      "media_type": "text/turtle",
+      "access_url": "http://id.southampton.ac.uk/dataset/apps/latest.ttl"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example Application Resource",
+      "media_type": "text/turtle;charset=UTF-8",
+      "access_url": "http://id.southampton.ac.uk/app/soton-map-embed"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://sparql.data.southampton.ac.uk/"
+    }
+  ]
+}

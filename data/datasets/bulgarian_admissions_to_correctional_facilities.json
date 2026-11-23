@@ -1,0 +1,60 @@
+{
+  "identifier": "bulgarian_admissions_to_correctional_facilities",
+  "title": "Bulgarian admissions to correctional facilities Jan 2018 - Nov 2024",
+  "description": {
+    "en": "Semantically annotated data conforming to the RRAO ontology (http://w3id.org/rrao#), related to admissions to correctional facilities (n=76,520) of imprisoned persons (m=33,171) from Jan 2018 up to Nov. 2024 (a period of six years and ten months). The data was extracted from the Execution of Sentences Information System (ESIS), a centralised system managed by the General Directorate Execution of Sentences, which operates across all prison facilities and probation services in Bulgaria. Sensitive information kept in the dataset has been anonymized."
+  },
+  "domain": "government",
+  "website": "https://fair-presons.aegean.gr/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "rrao",
+  "triples": 2732306,
+  "doi": "10.5281/zenodo.15069267.svg",
+  "contact_point": {
+    "name": "Sotiris Angelis",
+    "email": "sotiris@aegean.gr"
+  },
+  "keywords": [
+    "admissions",
+    "imprisoned persons",
+    "correctional facility",
+    "recidivism",
+    "prison reentering"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 15
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Bulgarian admissions to correctional facilities Jan 2018 - Nov 2024",
+      "description": "Zenodo publication",
+      "download_url": "https://zenodo.org/records/15069267?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAxZWUyNDIwLTgyYjEtNDM3Mi04NWQ3LWQzMTgzZWQ2NjhiNCIsImRhdGEiOnt9LCJyYW5kb20iOiJkODJkYzJjMGRlOWZjNDhmN2Q3N2IwNzY5NWE4NGUxYyJ9.Cd2RoCeM1EzscpsuQoVvgJGFWvBsvEDWldSma7F0xfp0gHxmQeKGPULY83j8Hh--Q5QC5jyyAUlXaZCbjDPMHg"
+    },
+    {
+      "title": "Bulgarian admissions to correctional facilities Jan 2018 - Nov 2024",
+      "description": "Fuseki 2 Server dataset download",
+      "media_type": "RDF/TTL (turtle)",
+      "download_url": "http://ct-e-justice.aegean.gr:3030/bg-admissions-to-correctional-facilities/data"
+    },
+    {
+      "title": "Bulgarian admissions to correctional facilities Jan 2018 - Nov 2024",
+      "description": "European data portal publication",
+      "download_url": "https://data.europa.eu/data/datasets/bulgarian-admissions-to-correctional-facilities-jan-2018-nov-2024?locale=en"
+    }
+  ],
+  "example": [
+    {
+      "title": "Bulgarian admissions to correctional facilities - example",
+      "access_url": "https://i-lab.aegean.gr/kotis/Ontologies/RRAO/bulgarian%20adimissons%20to%20correctional%20facilities%20-%20example.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "FAIR-PReSONS SPARQL endpoint",
+      "access_url": "http://ct-e-justice.aegean.gr:3030/bg-admissions-to-correctional-facilities/sparql"
+    }
+  ]
+}

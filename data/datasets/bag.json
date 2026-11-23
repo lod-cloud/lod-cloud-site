@@ -1,0 +1,50 @@
+{
+  "identifier": "bag",
+  "title": "Basisregistratie Adressen en Gebouwen",
+  "description": {
+    "en": "De gegevens bestaan uit BAG-panden en een deelselectie van BAG-gegevens van deze panden en de zich daarin bevindende verblijfsobjecten. Ook de ligplaatsen en standplaatsen zijn hierin opgenomen met een deelselectie van BAG-gegevens. De gegevens van de nummeraanduiding zijn in deze services onderdeel van de adresseerbare objecten, hierbij wordt slechts 1 adres opgenomen, dus objecten met meerdere adressen (hoofd- en nevenadressen) zijn niet compleet. In deze services zitten dus niet alle BAG adressen."
+  },
+  "domain": "geography",
+  "website": "https://www.pdok.nl/introductie?articleid=1948911",
+  "namespace": "http://bag.basisregistraties.overheid.nl/def/bag#identificatiecode",
+  "triples": 1000000000,
+  "image": "https://www.pdok.nl/documents/1901824/1952435/kadaster.png/03b48013-32ca-89fd-3b93-29a467efbb74?t=1530020613449",
+  "contact_point": {
+    "name": "Erwin Folmer",
+    "email": "erwin.folmer@kadaster.nl"
+  },
+  "keywords": [
+    "geo",
+    "gis",
+    "eGovernment",
+    "base-registry",
+    "netherlands"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 2505
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download link",
+      "media_type": "application/octet-stream",
+      "download_url": "https://demo.triply.cc/kadaster/bag/assets/5ac4b7e46d64e5027d47bc68"
+    }
+  ],
+  "example": [
+    {
+      "title": "Kantoorpand 'De Brug' te Apeldoorn",
+      "description": "Voorbeeld van een pand registratie in de BAG.",
+      "media_type": "application/rdf+xml;charset=utf-8",
+      "access_url": "http://bag.basisregistraties.overheid.nl/bag/id/pand/0200100000085932"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint voor de BAG",
+      "access_url": "https://data.pdok.nl/sparql"
+    }
+  ]
+}

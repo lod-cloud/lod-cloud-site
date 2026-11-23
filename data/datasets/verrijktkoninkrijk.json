@@ -1,0 +1,76 @@
+{
+  "identifier": "verrijktkoninkrijk",
+  "title": "Verrijkt Koninkrijk",
+  "description": {
+    "en": "The Verrijkt Koninkrijk Data concerns Dr Loe de Jong?s Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog and was based on the PDFs as provided by NIOD at http://www.niod.knaw.nl/koninkrijk/ . The books have been OCRed and transformed to structured XML by researchers from the Universiteit van Amsterdam. This data is available through www.loedejongdigitaal.nl.\r\n\r\nThis dataset contains a data dump of the Verrijkt Koninkrijk semantic layer (live at http://semanticweb.cs.vu.nl/verrijktkoninkrijk/ ). The files are in SKOS (www.w3.org/2004/02/skos/)\r\nThere are 15 main files/named graphs that make up 3 categories of data:\r\n1. The back of the book index in SKOS format, plus schema and SKOS linksto internal and external datasets\r\n2. The named entities index into the book in SKOS format, plus schema and SKOS links to internal and external datasets\r\n3. The NIOD thesaurus in SKOS format, plus the hierarchy, used for links from Back of the Book and Named Entity links."
+  },
+  "domain": "publications",
+  "website": "http://semanticweb.cs.vu.nl/verrijktkoninkrijk/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 5196639,
+  "contact_point": {
+    "name": "Victor de Boer",
+    "email": "v.de.boer@vu.nl"
+  },
+  "keywords": [
+    "Amsterdam",
+    "Dutch",
+    "NIOD",
+    "VU Amsterdam",
+    "Verrijkt Koninkrijk",
+    "WW2",
+    "War",
+    "World War 2",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "cornetto",
+      "value": 250
+    },
+    {
+      "target": "dbpedia",
+      "value": 3320
+    },
+    {
+      "target": "dbpedia-nl",
+      "value": 13160
+    },
+    {
+      "target": "gemeenschappelijke-thesaurus-audiovisuele-archieven",
+      "value": 1589
+    },
+    {
+      "target": "geonames",
+      "value": 487
+    },
+    {
+      "target": "getty-aat",
+      "value": 159
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VK Named Graphs",
+      "description": "THis is a link to a page showing links to all named graphs in the VK semantic layer. Each of the graphs can be downloaded as RDF/Turtle or RDF/XML",
+      "access_url": "http://semanticweb.cs.vu.nl/verrijktkoninkrijk/browse/list_graphs"
+    }
+  ],
+  "example": [
+    {
+      "title": "VK Example: back-of-the-book term \"Haarlem\"",
+      "description": "All RDF triples for the back of the book concept \"haarlem\", the server responds with RDF when requested in the HTTP accept header. Otherwise HTML is returned",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/collections/nl/niod/botb-Haarlem"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "VK SPARQL endpoint",
+      "description": "A SPARQL endpoint for the entire Verrijkt Koninkrijk Semantic Layer an interactive SPARQL editor available at http://semanticweb. cs.vu.nl/verrijktkoninkrijk/flint",
+      "access_url": "http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/"
+    }
+  ]
+}

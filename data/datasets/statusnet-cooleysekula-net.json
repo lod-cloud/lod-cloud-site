@@ -1,0 +1,61 @@
+{
+  "identifier": "statusnet-cooleysekula-net",
+  "title": "statusnet-cooleysekula-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://cooleysekula.net"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 10
+    },
+    {
+      "target": "statusnet-fragdev-com",
+      "value": 5
+    },
+    {
+      "target": "statusnet-jonkman-ca",
+      "value": 8
+    },
+    {
+      "target": "statusnet-linuxwrangling-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 30
+    },
+    {
+      "target": "statusnet-russwurm-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 10
+    },
+    {
+      "target": "statusnet-status-net",
+      "value": 2
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://chirp.cooleysekula.net/jtuggle/foaf"
+    }
+  ]
+}

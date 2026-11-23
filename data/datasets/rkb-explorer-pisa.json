@@ -1,0 +1,126 @@
+{
+  "identifier": "rkb-explorer-pisa",
+  "title": "Università di Pisa (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://pisa.rkbexplorer.com",
+  "namespace": "http://pisa.rkbexplorer.com/id/",
+  "triples": 43219,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-akt",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "rkb-explorer-acm",
+      "value": 162
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 24
+    },
+    {
+      "target": "rkb-explorer-citeseer",
+      "value": 50
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 171
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 35
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 28
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 22
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 8
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 22
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 15
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 4
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 2
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 10
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://pisa.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://pisa.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://pisa.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://pisa.rkbexplorer.com/id/publications/person-225919aa"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://pisa.rkbexplorer.com/id/publications/person-225919aa"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://pisa.rkbexplorer.com/sparql/"
+    }
+  ]
+}

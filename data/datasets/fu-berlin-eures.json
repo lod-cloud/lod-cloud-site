@@ -1,0 +1,48 @@
+{
+  "identifier": "fu-berlin-eures",
+  "title": "European Employment Services (EURES)",
+  "description": {
+    "en": "EURES (European Employment Services) is a cooperation network designed to facilitate the free movement of workers within the European Economic Area (Switzerland is also involved). It publishes Job vacancies in 31 European countries. Partners in the network include public employment services, trade union and employers' organisations. The network is coordinated by the European Commission."
+  },
+  "website": "http://www4.wiwiss.fu-berlin.de/eures/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/eures/resource/",
+  "triples": 7011899,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "business",
+    "deref-vocab",
+    "government",
+    "latc",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2146
+    },
+    {
+      "target": "lexvo",
+      "value": 184
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/eures/resource/City/Berlin"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/eures/sparql"
+    }
+  ]
+}

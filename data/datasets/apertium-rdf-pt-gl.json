@@ -1,0 +1,73 @@
+{
+  "identifier": "apertium-rdf-pt-gl",
+  "title": "Apertium RDF PT-GL",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary PT-GL. The original dataset (in LMF) comes from http://hdl.handle.net/10230/17115 . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 234065,
+  "contact_point": {
+    "name": "Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA) ; Universitat d'Alacant. Grup Transducens ; imaxin|software"
+  },
+  "keywords": [
+    "Apertium",
+    "Galician",
+    "Portuguese",
+    "bilingual",
+    "dictionary",
+    "general ontology of linguistic description",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 4398
+    },
+    {
+      "target": "lexinfo",
+      "value": 18944
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (PT, GL) and the Translation Set PT-GL, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-24T10:59:53.745Z/apertium-pt-gl-rdf.zip"
+    },
+    {
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconPT"
+    },
+    {
+      "title": "Portuguese lexicon URI",
+      "description": "This online lexicon not only contains the PT lexical entries from the PT-GL bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in PT coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconPT"
+    },
+    {
+      "title": "Galician lexicon URI",
+      "description": "This online lexicon not only contains the GL lexical entries from the PT-GL bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in GL coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconGL"
+    },
+    {
+      "title": "PT-GL translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetPT-GL"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-pt-gl.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-24T11:02:32.449Z/apertium-pt-gl-dataset-metadata.rdf"
+    }
+  ]
+}

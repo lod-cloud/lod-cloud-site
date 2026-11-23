@@ -1,0 +1,113 @@
+{
+  "identifier": "arthroscopy",
+  "title": "Arthroscopy community",
+  "description": {
+    "en": "<p> The arthroscopy community is the adecuate space for all those who take part on the arthroscopic surgical procedures of the locomotor system. Its meaning is to create and share knowledge concerning the answers to the current and effective matters on these kind of arthroscopic proceedings: surgical, anesthesic, rehabilitative or even organizing ones.</p>\r\n<p>The arthroscopy community works with <a href=\"http://gnoss.com/\">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.</p>\r\n\r\n<p> Portal de Artroscopia es un espacio de aprendizaje para todas las personas que participan en los procedimientos quirúrgicos artroscópicos del aparato locomotor. El propósito es generar y compartir conocimiento sobre las soluciones a los problemas reales y concretos en este tipo procedimientos, sean estos quirúrgicos, de anestesia, de rehabilitación o de organización. </p><p> Portal de Artroscopia trabaja con <a href=\"http://gnoss.com/\">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.\r\n</p>"
+  },
+  "domain": "user_generated",
+  "website": "http://gnoss.com/comunidad/Arthroscopy",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "namespace": "http://gnoss.com/comunidad/Arthroscopy",
+  "triples": 62355,
+  "contact_point": {
+    "name": "GNOSS Team",
+    "email": "gnoss@gnoss.com"
+  },
+  "keywords": [
+    "Arthroscopy",
+    "aparato locomotor",
+    "arthroscopic proceedings",
+    "artrocopia",
+    "corporate excellence",
+    "country-spain",
+    "country.es",
+    "dc",
+    "foaf",
+    "format-dc",
+    "format-dcam",
+    "format-foaf",
+    "format-rdfg",
+    "format-sioc",
+    "format-skos",
+    "format-wot",
+    "health",
+    "laboratorio de ideas",
+    "language-spa",
+    "license-metadata",
+    "locomotor system",
+    "lod",
+    "no-proprietary-vocab",
+    "no-vocab-mappings",
+    "procesos quirúrgicos",
+    "provenance-metadata",
+    "published-by-third-party",
+    "schemata",
+    "sioc",
+    "skos",
+    "socialweb",
+    "sp",
+    "spain",
+    "surgical procedures",
+    "usergeneratedcontent",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dblp-deusto-gnoss",
+      "value": 789
+    },
+    {
+      "target": "dbpedia",
+      "value": 16245
+    },
+    {
+      "target": "freebase",
+      "value": 6088
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 223
+    },
+    {
+      "target": "gnoss",
+      "value": 2
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 383
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Gnoss Ontology",
+      "description": "Gnoss OWL Ontology",
+      "access_url": "http://gnoss.com/gnoss.owl"
+    },
+    {
+      "title": "voiD description",
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://museos.gnoss.com/voidArtroscopyGNOSS.n3"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML resource example",
+      "description": "This is an RDF/XML example link of one of the resources published in the arthroscopy community.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://portalartroscopia.com/en/community/Arthroscopy/resource/Reconstruccion-de-LCA-mediante-tendones-isquiotibi/267556b2-67f0-4264-8071-1932151c8439"
+    },
+    {
+      "title": "RDF/XML resource example 2",
+      "description": "This is an RDF/XML example link of one of the resources published in the arthroscopy community.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://portalartroscopia.com/en/community/Arthroscopy/resource/Reparacion-de-cartilago-en-la-rodilla/a7617f64-8a3c-4913-aea1-17657100cc45?rdf"
+    },
+    {
+      "title": "RDF/XML search example",
+      "description": "This is an RDF/XML example link of a search results.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://portalartroscopia.com/en/community/Arthroscopy/advanced-search/tag/Arthroscopy?rdf"
+    }
+  ]
+}

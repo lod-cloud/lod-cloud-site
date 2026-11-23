@@ -1,0 +1,118 @@
+{
+  "identifier": "data-persee-fr",
+  "title": "Persée in RDF",
+  "description": {
+    "en": "![data.persee.fr](http://data.persee.fr/cropped-Logo-data.persee_petit.png)\r\n\r\n[data.persee.fr](http://data.persee.fr) is a triplestore opened in 2017. It gathers all the metadata produced by Persée and makes it available in a structured way (RDF graph) according to the semantic web principles (DCMI, FRBR, FOAF, CITO, BIBO, SKOS). The mapping between Persée’s data and international information systems enables the researchers to explore Persée database and to link to data offered by the library community (IdRef, data.bnf.fr, etc.), the scientific community (the Cairo Gazetteer, the Global Biodiversity Information Facility - GBIF) and other crowded sources (DBpedia)"
+  },
+  "domain": "publications",
+  "website": "http://data.persee.fr/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 60000000,
+  "image": "https://www.persee.fr/tiny.png",
+  "contact_point": {
+    "name": "UAR Persée",
+    "email": "viviane.bouletreau@persee.fr"
+  },
+  "keywords": [
+    "dataset-collection",
+    "deref-vocab",
+    "format-bibo",
+    "format-biro",
+    "format-cito",
+    "format-dcterms",
+    "format-foaf",
+    "format-marcrel",
+    "format-rda",
+    "format-rdf",
+    "format-schema",
+    "format-skos",
+    "license-metadata",
+    "lod",
+    "pedagogic-material",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "sparql-endpoint",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-taxon",
+      "value": 97000
+    },
+    {
+      "target": "data-bnf-fr",
+      "value": 85000
+    },
+    {
+      "target": "dbpedia",
+      "value": 11000
+    },
+    {
+      "target": "idreffr",
+      "value": 141000
+    },
+    {
+      "target": "taxonconcept",
+      "value": 700
+    },
+    {
+      "target": "viaf",
+      "value": 141000
+    },
+    {
+      "target": "wikidata",
+      "value": 36000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Linked Persee Persons (tgz dump)",
+      "description": "Dump of the alignments between Persons from Persée's collections to several external datasets : [Idref](https://datahub.ckan.io/dataset/idreffr) (about 55,000 links), primarily, but also data.bnf.fr, VIAF, ISNI, dbPedia, etc.",
+      "media_type": "application/x-gzip",
+      "access_url": "http://data.persee.fr/dumps/PERSEE_person_align_rdf.tar.gz"
+    },
+    {
+      "title": "Persée's OWL schema",
+      "description": "Mainly a refined typology for documents defined with sub-classes of elements from the bibo ontology.",
+      "access_url": "http://data.persee.fr/ontology/persee-ontology.owl"
+    },
+    {
+      "title": "Documentation : Persée's data formats",
+      "description": "Some documentation about Persée's data formats.\r\nTexts are in French, but there are accompanied by informative illustrations.",
+      "access_url": "http://data.persee.fr/explorer/schemas-de-donnees/"
+    },
+    {
+      "title": "Download page",
+      "description": "This page provide access to several dumps (rdf/xml, targ-gzipped)\r\n\r\n- Full dump of collections available on Persée\r\n- Dumps generated for each collection (journal)",
+      "access_url": "http://data.persee.fr/explorer/demander-un-dump/dumps-collections/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example : record of a person (rdf/xml)",
+      "description": "For more information about the content and organisation of our records, have a look at [our data formats](http://data.persee.fr/explorer/schemas-de-donnees/)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://data.persee.fr/authority/196565#Person"
+    },
+    {
+      "title": "Example: record of an article (rdf/xml)",
+      "description": "Full record of an article available on Persée",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://data.persee.fr/doc/bulmo_0007-473x_2000_num_158_2_2373"
+    },
+    {
+      "title": "Example: record of a journal (rdf/xml)",
+      "description": "Example of record describing a journal",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://data.persee.fr/collection/ahess_0395-2649"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "See: http://data.persee.fr/explorer/schemas-de-donnees/",
+      "access_url": "http://data.persee.fr/sparql"
+    }
+  ]
+}

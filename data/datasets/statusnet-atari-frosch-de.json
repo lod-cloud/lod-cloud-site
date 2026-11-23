@@ -1,0 +1,65 @@
+{
+  "identifier": "statusnet-atari-frosch-de",
+  "title": "statusnet-atari-frosch-de",
+  "description": {
+    "en": "StatusNet instance hosted at http://atari-frosch.de"
+  },
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-rdfs",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    },
+    {
+      "target": "statusnet-bka-li",
+      "value": 4
+    },
+    {
+      "target": "statusnet-kaimi-cc",
+      "value": 5
+    },
+    {
+      "target": "statusnet-morphtown-de",
+      "value": 2
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 5
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 1
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 48
+    },
+    {
+      "target": "statusnet-schiessle-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 7
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://statusnet.atari-frosch.de/atarifrosch/foaf"
+    }
+  ]
+}

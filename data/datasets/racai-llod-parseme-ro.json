@@ -1,0 +1,33 @@
+{
+  "identifier": "racai-llod-parseme-ro",
+  "title": "PARSEME-Ro corpus",
+  "description": {
+    "en": "PARSEME-Ro corpus is the v.1.2 Romanian corpus annotated with verbal multiword expressions according to version 1.2 of the PARSEME guidelines. It contains annotation for verbal idioms, light verb constructions and inherently reflexive verbs. The corpus belongs to the journalistic genre."
+  },
+  "domain": "media",
+  "website": "https://racai.ro/p/llod/",
+  "license": "http://creativecommons.org/licenses/by-nc/2.0/",
+  "triples": 11203698,
+  "contact_point": {
+    "name": "Verginica Barbu Mititelu",
+    "email": "vergi@racai.ro"
+  },
+  "keywords": [
+    "verbal multiword expressions"
+  ],
+  "full_download": [
+    {
+      "title": "PARSEME-Ro",
+      "description": "Romanian corpus annotated with verbal multiword expressions",
+      "media_type": "application/zip",
+      "download_url": "https://www.racai.ro/p/llod/resources/parseme-rdf.zip"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "PARSEME-Ro SPARQL endpoint",
+      "description": "SPARQL endpoint for PARSEME-Ro hosted at RACAI. A query form is available at https://relate.racai.ro/datasets/dataset.html?tab=query&ds=/parseme",
+      "access_url": "https://relate.racai.ro/datasets/parseme/query"
+    }
+  ]
+}

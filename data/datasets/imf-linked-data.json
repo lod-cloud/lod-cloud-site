@@ -1,0 +1,103 @@
+{
+  "identifier": "imf-linked-data",
+  "title": "International Monetary Fund (IMF) Linked Data",
+  "description": {
+    "en": "IMF data and metadata"
+  },
+  "domain": "government",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://imf.270a.info/dataset/",
+  "triples": 36000000,
+  "contact_point": {
+    "name": "Sarven Capadisli",
+    "email": "info@csarven.ca"
+  },
+  "keywords": [
+    "country-codes",
+    "economic",
+    "economics",
+    "europe",
+    "format-dcterms",
+    "format-prov",
+    "format-qb",
+    "format-rdf",
+    "format-sdmx",
+    "format-skos",
+    "government",
+    "indicators",
+    "international",
+    "license-metadata",
+    "linked-data",
+    "lod",
+    "lodcloud",
+    "lodcloud.candidate",
+    "no-proprietary-vocab",
+    "projects",
+    "provenance-metadata",
+    "published-by-third-",
+    "published-by-third-party",
+    "statistics",
+    "vocab-mappings",
+    "void-sparql-endpoint",
+    "world"
+  ],
+  "links": [
+    {
+      "target": "bfs-linked-data",
+      "value": 24
+    },
+    {
+      "target": "dbpedia",
+      "value": 25
+    },
+    {
+      "target": "ecb-linked-data",
+      "value": 26
+    },
+    {
+      "target": "fao-linked-data",
+      "value": 23
+    },
+    {
+      "target": "transparency-linked-data",
+      "value": 23
+    },
+    {
+      "target": "world-bank-linked-data",
+      "value": 26
+    }
+  ],
+  "other_download": [
+    {
+      "title": "VoID",
+      "description": "A VoID Description of the imf.270a.info dataset",
+      "media_type": "meta/void",
+      "access_url": "http://imf.270a.info/.well-known/void"
+    },
+    {
+      "title": "IMF Datasets",
+      "description": "IMF Datasets which contain the statistical observations",
+      "media_type": "RDF",
+      "access_url": "http://imf.270a.info/data/data.tar.gz"
+    },
+    {
+      "title": "RDF Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://imf.270a.info/data/meta.tar.gz"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example RDF/XML",
+      "description": "Example RDF/XML of a dataset which contains statistical observations.",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://imf.270a.info/dataset/PGI"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://imf.270a.info/sparql"
+    }
+  ]
+}

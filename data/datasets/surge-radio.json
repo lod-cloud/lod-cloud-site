@@ -1,0 +1,47 @@
+{
+  "identifier": "surge-radio",
+  "title": "Surge Radio",
+  "description": {
+    "en": "Has RDF descriptions of featured artists and tracks, derived from package:musicbrainz"
+  },
+  "domain": "media",
+  "website": "http://www.surgeradio.co.uk/",
+  "namespace": "http://www.surgeradio.co.uk/",
+  "triples": 218000,
+  "contact_point": {
+    "name": "Nicholas J Humfrey",
+    "email": "njh@aelius.com"
+  },
+  "keywords": [
+    "format-event",
+    "format-foaf",
+    "format-mo",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "media",
+    "music",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 100000
+    },
+    {
+      "target": "dbpedia",
+      "value": 1000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.surgeradio.co.uk/music/artists/302bd7b9-d012-4360-897a-93b00c855680.rdf"
+    }
+  ]
+}

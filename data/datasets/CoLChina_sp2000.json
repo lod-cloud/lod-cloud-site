@@ -1,0 +1,32 @@
+{
+  "identifier": "CoLChina_sp2000",
+  "title": "Catalogue of Life in China 2003 Edition",
+  "description": {
+    "en": "The Catalogue of Life in China 2023 edition includes a total of 148,637 species and 22,468 genus. Following the data standards of Species 2000, each species in the list contains data on scientific names, synonyms, aliases, literature, taxonomic systems, distribution areas, Chinese names, etc. The Catalogue of Life in China 2023 edition was released by the Institute of Zoology, Chinese Academy of Sciences (CAS), which is a research institution focusing on zoological studies. It maintains rich data resources, covering the following aspects：Species databases, Specimen and specimen collection data,Ecological monitoring data, Genetic information and genomic data,Literature and publications."
+  },
+  "domain": "life_sciences",
+  "website": "http://semweb.csdb.cn/ioz",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 1640003,
+  "contact_point": {
+    "name": "Lin Congtian",
+    "email": "linct@ioz.ac.cn"
+  },
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 27450
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 291585
+    }
+  ],
+  "sparql": [
+    {
+      "title": "CoLChina_sp2000",
+      "description": "By visist  http://ioz.semweb.csdb.cn/CoLChina_sp2000/sparql, you can view and get the RDF data of  The Catalogue of Life in China 2023 edition.",
+      "access_url": "http://ioz.semweb.csdb.cn/CoLChina_sp2000/sparql"
+    }
+  ]
+}

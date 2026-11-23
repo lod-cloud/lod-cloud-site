@@ -1,0 +1,98 @@
+{
+  "identifier": "aemet",
+  "title": "AEMET metereological dataset",
+  "description": {
+    "en": "AemetLinked Data (.es) is an open initiative of the Ontology Engineering Group (OEG) whose aim is to enrich the Web of Data with Spanish geospatial data. This initiative started off by publishing diverse information sources belonging to the Spanish Meteorological Agency."
+  },
+  "domain": "cross_domain",
+  "website": "http://aemet.linkeddata.es/",
+  "namespace": "http://aemet.linkeddata.es/resource/",
+  "triples": 62932032,
+  "contact_point": {
+    "name": "Ontology Engineering Group, Facultad de Informática, Universidad Politécnica de Madrid.",
+    "email": "dgarijov@gmail.com"
+  },
+  "keywords": [
+    "crossdomain",
+    "deref-vocab",
+    "format-geo",
+    "format-geobuddies",
+    "format-ssn",
+    "format-w3c-owl-time",
+    "geographic",
+    "linked-sensor-data",
+    "lod",
+    "meteorology",
+    "no-license-metadata",
+    "provenance-metadata",
+    "published-by-third-party",
+    "spain",
+    "ssn-ontology",
+    "topic.crossdomain",
+    "topic.geographic",
+    "vocab-mappings",
+    "weather",
+    "weather-forecasts"
+  ],
+  "links": [
+    {
+      "target": "DBpedia",
+      "value": 82
+    },
+    {
+      "target": "geolinkeddata",
+      "value": 153
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download (.zip containing all the n-triples)",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://aemet.linkeddata.es/source/rdf/data.zip"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "HTML with the SPARQL endpoint of the dataset",
+      "access_url": "http://aemet.linkeddata.es/sparql_en.html"
+    },
+    {
+      "description": "Linked Data application using the endppoint",
+      "access_url": "http://aemet.linkeddata.es/browser_en.html"
+    },
+    {
+      "description": "RDF schema download (.RAR)",
+      "media_type": "application/rar",
+      "access_url": "http://aemet.linkeddata.es/files/aemetontologynetworkv2.rar"
+    },
+    {
+      "description": "Mappings (already included in the main schema)",
+      "media_type": "mapping/owl",
+      "access_url": "http://aemet.linkeddata.es/files/aemet%20ontology%20network%20v2.rar"
+    },
+    {
+      "description": "Void description",
+      "access_url": "http://aemet.linkeddata.es/metadata/aemetvoid.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example in RDF/XML",
+      "description": "Link to an example data item within the dataset (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aemet.linkeddata.es/resource/WeatherStation/id08001"
+    },
+    {
+      "title": "Example in turtle",
+      "description": "Link to an example data item within the dataset (turtle)",
+      "media_type": "example/x-turtle",
+      "access_url": "http://aemet.linkeddata.es/resource/WeatherStation/id08001?output=ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint of the dataset",
+      "access_url": "http://aemet.linkeddata.es/sparql"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "identifier": "Sherry_Wine",
+  "title": "Sherry Wine Vocabulary",
+  "description": {
+    "en": "Vocabulary about Sherry Wine"
+  },
+  "domain": "geography",
+  "website": "https://www.sherry.wine/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://metadataregistry.org/schema/show/id/223.html",
+  "triples": 0,
+  "contact_point": {
+    "name": "Miguel Angel Corado Guerrero",
+    "email": "corado42@gmail.com"
+  },
+  "full_download": [
+    {
+      "title": "Vocabulary about Sherry Wine",
+      "description": "Vocabulary about Sherry Wine",
+      "media_type": "http://www.semanticweb.org/jaime/ontologies/2022/0/untitled-ontology-3",
+      "download_url": "http://www.semanticweb.org/jaime/ontologies/2022/0/untitled-ontology-3"
+    }
+  ]
+}

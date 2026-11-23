@@ -1,0 +1,70 @@
+{
+  "identifier": "apertium-rdf-fr-es",
+  "title": "Apertium RDF FR-ES",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary FR-ES. The original dataset (in LMF) comes from http://hdl.handle.net/10230/17090. The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 495614,
+  "contact_point": {
+    "name": "Prompsit Language Engineering, S.L ; Eleka Ingenieritza Linguistikoa S.L ; Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA)"
+  },
+  "keywords": [
+    "Apertium",
+    "French",
+    "Spanish",
+    "bilingual",
+    "dictionary",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 29144
+    },
+    {
+      "target": "lexinfo",
+      "value": 40121
+    }
+  ],
+  "other_download": [
+    {
+      "title": "French lexicon URI",
+      "description": "This online lexicon not only contains the FR lexical entries from the FR-ES bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in FR coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconFR"
+    },
+    {
+      "title": "Spanish lexicon URI",
+      "description": "This online lexicon not only contains the ES lexical entries from the FR-ES bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in ES coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconES"
+    },
+    {
+      "title": "FR-ES translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetFR-ES"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-fr-es.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-05T10:37:56.032Z/apertium-fr-es-dataset-metadata.rdf"
+    },
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (FR, ES) and the Translation Set FR-ES, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-12T14:01:15.900Z/apertium-fr-es-pol-rdf.zip"
+    }
+  ]
+}

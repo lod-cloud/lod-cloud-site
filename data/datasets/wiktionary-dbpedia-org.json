@@ -1,0 +1,62 @@
+{
+  "identifier": "wiktionary-dbpedia-org",
+  "title": "wiktionary.dbpedia.org",
+  "description": {
+    "en": "We aim to provide a open-source framework (based on DBpedia) to extract semantic lexical resources (a ontology about language use) from Wiktionary. The data currently includes language, part of speech, senses, definitions, synonyms, taxonomies (hyponyms, hyperonyms, synonyms, antonyms) and translations for each lexical word."
+  },
+  "domain": "linguistics",
+  "website": "http://wiktionary.dbpedia.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 0,
+  "contact_point": {
+    "name": "Jonas Brekle",
+    "email": "jonas.brekle@gmail.com"
+  },
+  "keywords": [
+    "crossdomain",
+    "linguistics",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 25155
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Downloads",
+      "description": "Downloads",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://downloads.dbpedia.org/wiktionary/"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDFa Example",
+      "media_type": "example/rdfa",
+      "access_url": "http://wiktionary.dbpedia.org/page/dog"
+    },
+    {
+      "title": "RDF/XML Example",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://wiktionary.dbpedia.org/data/dog.rdf"
+    },
+    {
+      "title": "N3 Example",
+      "media_type": "example/n3",
+      "access_url": "http://wiktionary.dbpedia.org/data/dog.n3"
+    },
+    {
+      "title": "N-Triples Example",
+      "media_type": "example/ntriples",
+      "access_url": "http://wiktionary.dbpedia.org/data/dog.ntriples"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "sparql endpoint",
+      "access_url": "http://wiktionary.dbpedia.org/sparql"
+    }
+  ]
+}

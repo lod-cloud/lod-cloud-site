@@ -1,0 +1,66 @@
+{
+  "identifier": "SDDEC",
+  "title": "Simulation of desertification dynamics in Ordos City from 2000 to 2030 with coupled natural-human factors",
+  "description": {
+    "en": "Simulation of desertification dynamics in Ordos City from 2000 to 2030 with coupled natural-human factors"
+  },
+  "domain": "geography",
+  "website": "https://github.com/cks1999/EOKP",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "cks",
+    "email": "caikuangsheng@126.com"
+  },
+  "other_download": [
+    {
+      "title": "A dynamic system dynamics model of desertification coupled with natural-human factors",
+      "media_type": "paper",
+      "access_url": "https://www.sciencedirect.com/science/article/pii/S1364815216301530"
+    },
+    {
+      "title": "Land use data of Ordos City in 2010",
+      "access_url": "https://data.tpdc.ac.cn/zh-hans/data/a75843b4-6591-4a69-a5e4-6f94099ddc2d"
+    },
+    {
+      "title": "2000-2010 rainfall data of Ordos City",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf017f4fc7e8065c663e1e"
+    },
+    {
+      "title": "2000-2010 temperature data for Ordos City",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf06204fc7e8065c663e22"
+    },
+    {
+      "title": "2000-2010 solar radiation data for Ordos City",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf07944fc7e8065c663e27"
+    },
+    {
+      "title": "Ordos City Vegetation Net Primary Productivity Dataset in 2010",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/63ae7502f64eb66545fa03c7"
+    },
+    {
+      "title": "Soil moisture data of Ordos City in 2010",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf0c2a4fc7e8065c663e2e"
+    },
+    {
+      "title": "2000-2010 Ordos City GDP data",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf2aa94fc7e8065c668222"
+    },
+    {
+      "title": "2000-2010 population data for Ordos City",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf2f0d4fc7e8065c673c1e"
+    },
+    {
+      "title": "Ordos City Road Transportation Network Data in 2010",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf302f4fc7e8065c673c28"
+    },
+    {
+      "title": "Ordos road surface elevation data",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/65bf302f4fc7e8065c673c28"
+    },
+    {
+      "title": "2011-2030 Ordos City net primary productivity of vegetation dataset",
+      "access_url": "https://www.chinageoss.cn/datasharing/datasetDetails/63ae7502f64eb66545fa03c7"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "identifier": "semantic-universe",
+  "title": "Semantic Universe Data",
+  "description": {
+    "en": "Semantic Universe has begun producing linked data for its Enterprise Data World and Semantic Technology Conferences.\r\n\r\nWith these as starting points, it is easy to start to navigate the datasets or query directly against the appropriate RDF endpoint using SPARQL.\r\n\r\nhttp://semanticuniverse.com/blogs-semantic-universe-linked-data-part-i-rdfification.html"
+  },
+  "website": "http://data.semanticuniverse.com",
+  "triples": 20000,
+  "contact_point": {
+    "name": "Semantic Universe"
+  },
+  "keywords": [
+    "deref-vocab",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "publications",
+    "published-by-producer"
+  ],
+  "example": [
+    {
+      "description": "Exampe (SemTech 2008)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.semanticuniverse.com/resource/semtech-2008"
+    },
+    {
+      "description": "Exampe (SemTech 2009)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.semanticuniverse.com/resource/semtech-2009"
+    },
+    {
+      "description": "Exampe (SemTech 2010)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.semanticuniverse.com/resource/semtech-2010"
+    },
+    {
+      "description": "Exampe (SemTech 2011)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.semanticuniverse.com/resource/semtech-2011"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://data.semanticuniverse.com/sparql"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "identifier": "linked-edgar",
+  "title": "Linked EDGAR (OntologyCentral)",
+  "description": {
+    "en": "Wrapper for SEC Edgar data, (which are the legal submissions, usually by publicly floated companies, to the Securities and Exchanges Commission, USA). Currently providing XBRL forms (10-Q, 10-K, 8-K, S4-A, 6-K, 10-Q/A) and form 4."
+  },
+  "domain": "government",
+  "website": "http://edgarwrap.ontologycentral.com/",
+  "namespace": "http://edgarwrap.ontologycentral.com/",
+  "triples": 32000000,
+  "contact_point": {
+    "name": "U.S. Securities and Exchange Commission (SEC)"
+  },
+  "keywords": [
+    "country.us",
+    "edgar",
+    "format-rdf",
+    "government",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "published-by-third-party",
+    "sec",
+    "wrapper"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 50
+    },
+    {
+      "target": "freebase",
+      "value": 120627
+    },
+    {
+      "target": "sec-rdfabout",
+      "value": 200000
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://edgarwrap.ontologycentral.com/cik/links.rdf"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml;;charset=UTF-8",
+      "access_url": "http://edgarwrap.ontologycentral.com/cik/1014931"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://edgarwrap.ontologycentral.com/sic/"
+    },
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://edgarwrap.ontologycentral.com/feed/usgaap"
+    }
+  ]
+}

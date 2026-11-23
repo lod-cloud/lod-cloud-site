@@ -1,0 +1,36 @@
+{
+  "identifier": "chemdb-thermochemistry",
+  "title": "chemdb thermochemistry dataset",
+  "description": {
+    "en": "This dataset collects information on the thermochemical properties and basic physicochemical properties of compounds at gaseous state and condensed state, including heat capacity, standard entropy and standard enthalpy, et. al."
+  },
+  "domain": "life_sciences",
+  "website": "http://chemdc.casdc.cn/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 42003,
+  "contact_point": {
+    "name": "赵月红",
+    "email": "yhzhao@ipe.ac.cn"
+  },
+  "keywords": [
+    "compound",
+    "thermochemical properties",
+    "physicochemical properties"
+  ],
+  "links": [
+    {
+      "target": "bioportal-cheminf",
+      "value": 10516
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 31487
+    }
+  ],
+  "sparql": [
+    {
+      "title": "chemdb-thermochemistry SPARQL endpoint",
+      "access_url": "http://chemdb.semweb.csdb.cn/sparql"
+    }
+  ]
+}

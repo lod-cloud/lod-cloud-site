@@ -1,0 +1,79 @@
+{
+  "identifier": "bioportal-icd10pcs",
+  "title": "ICD-10-PCS",
+  "description": {
+    "en": "ICD-10-PCS, 2009"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1425",
+  "triples": 1844776,
+  "contact_point": {
+    "name": "Pat Brooks"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-rdf",
+    "format-rrf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-csp",
+      "value": 17
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 10
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 13
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 24
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 11
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 26
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 15
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 44
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 144
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46303?apikey=BP_API_KEY"
+    }
+  ]
+}

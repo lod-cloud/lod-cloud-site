@@ -1,0 +1,56 @@
+{
+  "identifier": "zhishi-lemon",
+  "title": "zhishi.lemon",
+  "description": {
+    "en": "[Zhishi.me](http://zhishi.me/) is an effort to build Chinese Linking Open Data. Currently, it covers three largest Chinese encyclopedias: Baidu Baike, Hudong Baike and Chinese Wikipedia. Additional information about Zhishi.me can be found in this [published paper](http://iswc2011.semanticweb.org/fileadmin/iswc/Papers/In-Use/70320209.pdf)\r\n\r\n[Zhishi.lemon](http://lemon.zhishi.me/) is a newly developed dataset based on the lemon model that constitutes the lexical realization of Zhishi.me. It combines the [lemon core](http://www.lemon-model.net/) with the [lemon translation module](http://linguistic.linkeddata.es/def/translation-content/index.html) in order to build a linked data lexicon in Chinese with translations into Spanish and English. Links to BabelNet (a vast multilingual encyclopedic resource) have been provided as well. The license of the dataset is CC-BY.\r\n\r\nWe also present a [SPARQL endpoint](http://lemon.zhishi.me/sparql.html) for user to query our dataset. For more information, we provide two detailed schema diagrams with several instance examples to help users better understand the dataset and create more valuable SPARQL queries. You can download them from the following two dois: [Chinese Lexicalization Module](https://dx.doi.org/10.6084/m9.figshare.3438545.v1), [Multilingual Translation Module](https://dx.doi.org/10.6084/m9.figshare.3438548.v1)."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 7036338,
+  "contact_point": {
+    "name": "East China University of Science and Technology",
+    "email": "whfcarter@ecust.edu.cn"
+  },
+  "keywords": [
+    "babelnet",
+    "dbpedia",
+    "lemon",
+    "llod",
+    "lod",
+    "zhishi.me"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 16424
+    },
+    {
+      "target": "dbpedia-en",
+      "value": 218654
+    },
+    {
+      "target": "dbpedia-es",
+      "value": 77392
+    },
+    {
+      "target": "zhishi-me",
+      "value": 229606
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DUMP (N-TRIPLE)",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://drive.google.com/file/d/0B8VUbXki5Q0ibEIzbkUxSnQ5Ulk/view?usp=sharing"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "media_type": "application/rdf+xml",
+      "access_url": "https://datahub.ckan.io/dataset/3132a738-4714-4036-ae11-843af152dba5/resource/d4337c93-ada3-4978-9154-740b1f8e6b1e/download/meta.rdf"
+    },
+    {
+      "title": "Example",
+      "media_type": "application/n-triples",
+      "access_url": "https://datahub.ckan.io/dataset/3132a738-4714-4036-ae11-843af152dba5/resource/7837b0ab-b0bd-494d-8dc7-b520a15a531a/download/example.nt"
+    }
+  ]
+}

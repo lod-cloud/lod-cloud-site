@@ -1,0 +1,79 @@
+{
+  "identifier": "ASCDC-NMMBA-Aquatic-Animals-in-Taiwan",
+  "title": "Research on the Aquatic Animals in Taiwan and its Neighborhood Area (NMMBA-Aquatic-Animals-in-Taiwan)",
+  "description": {
+    "en": "The LOD dataset of ASCDC_Research on the Aquatic Animals in Taiwan and its Neighborhood Area (NMMBA-Aquatic-Animals-in- Taiwan) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the “Research on the Aquatic Animals in Taiwan and its Neighborhood Area” (臺灣及鄰近地區水域動物相典藏之研究：魚類及蝦、蟹類計畫) in the “Taiwan Union Catalog” (數位典藏與數位學習聯合目錄, https://catalog.digitalarchives.tw/Organization/List.jsp?CID=4892). Originally, the metadata was established by the National Museum of Marine Biology and Aquarium (NMMBA, 國立海洋生物博物館) in Taiwan (ROC). It provides information on specimens of aquatic animals collected by the NMMBA and can serve as a database for the study of species in the coastal waters in and around Taiwan. Containing 7,311 data records and 73,696 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC 0), while the digitized items are under CC-BY-NC-SA."
+  },
+  "domain": "life_sciences",
+  "website": "https://data.ascdc.tw/en/data.php",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://data.ascdc.tw/uc/bio/nmmba/",
+  "triples": 73696,
+  "contact_point": {
+    "name": "Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.)",
+    "email": "sophy@gate.sinica.edu.tw"
+  },
+  "keywords": [
+    "ASCDC",
+    "Biology",
+    "Aquatic Animals",
+    "Fishes",
+    "Crabs",
+    "Shrimps",
+    "Specimen",
+    "Taiwan",
+    "National Museum of Marine Biology and Aquarium",
+    "Taiwan Union Catalog"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 3947
+    },
+    {
+      "target": "viaf",
+      "value": 21765
+    }
+  ],
+  "full_download": [
+    {
+      "title": "ASCDC LODDatasets",
+      "description": "Launched in 2018, ASCDC LODDatasets is an online portal platform for publishing LOD-based datasets, which are converted and provided by the ASCDC in Taiwan (R.O.C), with service for SPARQL queries and data downloads.",
+      "media_type": "XML, JSON, TTL, CSV.",
+      "download_url": "https://data.ascdc.tw/en/index.php"
+    },
+    {
+      "title": "ASCDC LODDataset of AS-NMMBA-Aquatic-Animals-in-Taiwan",
+      "description": "Full download of ASCDC LODDataset of AS-NMMBA-Aquatic-Animals-in-Taiwan in ttl format.",
+      "media_type": "ttl",
+      "download_url": "https://data.ascdc.tw/dataset/ASCDC-NMMBA-BIO.ttl"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ASCDC LODDatasets - Downloads",
+      "description": "Webpage of ASCDC LODDatasets for downloads of entire published LOD-based datasets.",
+      "media_type": "text/html",
+      "access_url": "https://data.ascdc.tw/en/data.php"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example Resource: NMMBA10051, Cardisoma carnifex/ 兇狠圓軸蟹",
+      "description": "Resource contains the LOD-based data on the collected aquatic animal specimens of “Cardisoma carnifex / 兇狠圓軸蟹”.",
+      "access_url": "http://data.ascdc.tw/uc/bio/nmmba/0047d07d"
+    },
+    {
+      "title": "Example Resource: NMMBA10909, Munidae pilorhyncha / 毛額刺鎧蝦",
+      "description": "Resource contains the LOD-based data on the collected aquatic animal specimens of “Munidae pilorhyncha / 毛額刺鎧蝦”.",
+      "access_url": "http://data.ascdc.tw/uc/bio/nmmba/00033543"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ASCDC LODDatasets - SPARQL Queries",
+      "description": "Access to the SPARQL endpoint of ASCDC's LOD datasets for data retrieval (with template-based examples), downloads and further reuse.",
+      "access_url": "https://data.ascdc.tw/en/sparql.php"
+    }
+  ]
+}

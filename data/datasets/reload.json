@@ -1,0 +1,102 @@
+{
+  "identifier": "reload",
+  "title": "Repository for Linked Open Archival Data",
+  "description": {
+    "en": "ReLoad project will foster experimentation with the technology and methods of linked open data for archival resources and its goal is the creation of a web of linked archival data"
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://lod.xdams.org/reload/oad/",
+  "triples": 10455463,
+  "contact_point": {
+    "name": "Reload Team: Archivio Centrale dello Stato, Istituto per i Beni culturali dell?Emilia-Romagna, regesta.exe"
+  },
+  "keywords": [
+    "LODLAM",
+    "archives",
+    "country-italy",
+    "library",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "open_archives"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 8133
+    },
+    {
+      "target": "linkedgeodata",
+      "value": 8548
+    },
+    {
+      "target": "ocd",
+      "value": 596
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Archivio della Direzione generale dell?Agricoltura del MAIC 1860 ? 1912",
+      "description": "Dataset from Archivio Centrale dello Stato",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/acs/entiMaic.rdf"
+    },
+    {
+      "title": "Assemblea Costituente",
+      "description": "data from Historical Archive of Chamber of deputies",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/cd/assembleaCostituente.rdf"
+    },
+    {
+      "title": "commissioni parlamentari d'inchiesta",
+      "description": "data from Historical Archive of Chamber of deputies",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/cd/commissioniParlamentariInchiesta.rdf"
+    },
+    {
+      "title": "Places from historical archives",
+      "description": "dataset from Archivio Centrale dello Stato",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/acs/luoghiACS.rdf"
+    },
+    {
+      "title": "persons from Archivio Centrale dello Stato",
+      "description": "dataset from Archivio Centrale dello Stato",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/acs/personeMaic.rdf"
+    },
+    {
+      "title": "Titolario from Archivio Centrale dello stato",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/acs/titolarioMAIC.rdf"
+    },
+    {
+      "title": "Unit of Description from Archivio Centrale dello Stato",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/acs/uodMAIC.rdf"
+    },
+    {
+      "title": "Units of description from Istituto per i beni culturali dell?Emilia Romagna",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/ibc/caster_complessi.rdf"
+    },
+    {
+      "title": "Corporate body from Istituto per i beni culturali dell?Emilia Romagna",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/ibc/caster_soggettiConservatori.rdf"
+    },
+    {
+      "title": "Corporate body from Istituto per i beni culturali dell?Emilia Romagna",
+      "access_url": "https://github.com/regestaexe/ReloadProject/tree/master/data/ibc/caster_soggettiProduttori.rdf"
+    },
+    {
+      "title": "VOID of RELOAD dataset",
+      "access_url": "http://labs.regesta.com/progettoReload/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "description": "\"Assemblea Costituente\" finding aid of Historical Archive of Chamber of deputies",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lod.xdams.org/reload/oad/uod/CD1700000001"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Endpoint SPARQL",
+      "access_url": "http://lod.xdams.org/sparql"
+    }
+  ]
+}

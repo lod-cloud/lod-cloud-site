@@ -1,0 +1,38 @@
+{
+  "identifier": "bio2rdf-dataset",
+  "title": "bio2rdf-dataset",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "dump",
+    "format-dcterm",
+    "format-foaf",
+    "format-owl",
+    "format-prov",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "lifesciences",
+    "lodcloud-diagram-2014-08-30",
+    "sparql"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf",
+      "value": 29
+    },
+    {
+      "target": "personal-homepages",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/bio2rdf_dataset:geneid"
+    }
+  ]
+}

@@ -1,0 +1,4782 @@
+{
+ "0080-3626.json": [
+  "schema: full_download.download_url: pattern"
+ ],
+ "11.json": [
+  "schema: namespace: pattern"
+ ],
+ "2000-us-census-rdf.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "2001-spanish-census-to-rdf.json": [
+  "link-target-missing: RDFLicense",
+  "link-target-missing: geonames"
+ ],
+ "AISHE.json": [
+  "link-self: AISHE"
+ ],
+ "Cine_Figure.json": [
+  "schema: namespace: pattern"
+ ],
+ "Copyright_Free_Music.json": [
+  "schema: namespace: pattern"
+ ],
+ "GACS.json": [
+  "schema: namespace: pattern"
+ ],
+ "Generalized_Super_Ontology.json": [
+  "schema: namespace: pattern"
+ ],
+ "God_.json": [
+  "schema: namespace: pattern"
+ ],
+ "Hoa_Thinh_Phat.json": [
+  "schema: namespace: pattern"
+ ],
+ "ISSN%3A_0080-3626.json": [
+  "schema: namespace: pattern"
+ ],
+ "LEGIJA_STRANACA.json": [
+  "schema: namespace: pattern"
+ ],
+ "NITP.json": [
+  "schema: namespace: pattern"
+ ],
+ "Prior_Panel.json": [
+  "schema: namespace: pattern"
+ ],
+ "SCBG-Data.json": [
+  "link-target-missing: UniProt"
+ ],
+ "SudershanTech.json": [
+  "schema: namespace: pattern"
+ ],
+ "Terrorist_attack.json": [
+  "schema: (record): required: website"
+ ],
+ "The_Respublic_of_Uzbekistan.json": [
+  "schema: namespace: pattern"
+ ],
+ "Uros_Legija_Susa.json": [
+  "schema: namespace: pattern"
+ ],
+ "Uros_Susa.json": [
+  "schema: namespace: pattern"
+ ],
+ "a-collection-of-papers-for-lrec2014-and-related-workshops.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "abs-linked-data.json": [
+  "schema: (record): required: website"
+ ],
+ "acadonto.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "acorn-sat.json": [
+  "link-target-missing: geonames"
+ ],
+ "addgene.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "aemet.json": [
+  "link-target-missing: DBpedia"
+ ],
+ "agrinepaldata.json": [
+  "schema: (record): required: website"
+ ],
+ "agris.json": [
+  "link-target-missing: agrovoc-skos"
+ ],
+ "aliada-scanbit-net.json": [
+  "link-target-missing: geonames"
+ ],
+ "allie-abbreviation-and-long-form-database-in-life-science.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "alpino-rdf.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "apache.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "apertium-rdf-ca-it.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-en-ca.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-en-es.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-en-gl.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-eo-ca.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-eo-en.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-eo-es.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-eo-fr.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-es-an.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-es-ast.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-es-ca.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-es-gl.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-es-pt.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-es-ro.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-eu-en.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-eu-es.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-fr-ca.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-fr-es.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-oc-ca.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-oc-es.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-pt-ca.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf-pt-gl.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "apertium-rdf.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "archiveshub-linkeddata.json": [
+  "schema: contact_point: required: email"
+ ],
+ "arrayexpress-e-afmx-1.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "arrayexpress_e-mtab-104.json": [
+  "schema: (record): required: website"
+ ],
+ "artenuevosmedios-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "arthroscopy.json": [
+  "link-target-missing: gnoss"
+ ],
+ "asjp.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "aspire-mmu.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "associations.json": [
+  "schema: (record): required: domain"
+ ],
+ "athelia-rfid.json": [
+  "link-target-missing: gnoss"
+ ],
+ "babelnet.json": [
+  "link-target-missing: wikipedia",
+  "schema: (record): required: website"
+ ],
+ "basque-eurowordnet-lemon-lexicon-3-0.json": [
+  "link-target-missing: sumo",
+  "schema: (record): required: website, contact_point"
+ ],
+ "bbc-music.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "bbc-programmes.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "bbc-wildlife-finder.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "bbop-selected.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bdgp.json": [
+  "schema: (record): required: description, domain",
+  "schema: contact_point: required: email"
+ ],
+ "bendevoficial.json": [
+  "schema: namespace: pattern"
+ ],
+ "beneficiaries-of-the-european-commission.json": [
+  "schema: (record): required: domain"
+ ],
+ "berlios.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "biblioteca-nacional-escolar-bnescolar.json": [
+  "schema: (record): required: website"
+ ],
+ "billion_triples_challenge_dataset2008.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "billion_triples_challenge_dataset_2010.json": [
+  "schema: (record): required: domain"
+ ],
+ "bio2rdf-affymetrix.json": [
+  "link-self: bio2rdf-affymetrix"
+ ],
+ "bio2rdf-biomodels.json": [
+  "link-self: bio2rdf-biomodels",
+  "link-target-missing: bio2rdf-3dmet",
+  "link-target-missing: bio2rdf-bind",
+  "link-target-missing: bio2rdf-bto",
+  "link-target-missing: bio2rdf-cas",
+  "link-target-missing: bio2rdf-cco",
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-cl",
+  "link-target-missing: bio2rdf-do",
+  "link-target-missing: bio2rdf-doi",
+  "link-target-missing: bio2rdf-ec",
+  "link-target-missing: bio2rdf-eco",
+  "link-target-missing: bio2rdf-ensembl",
+  "link-target-missing: bio2rdf-fma",
+  "link-target-missing: bio2rdf-go",
+  "link-target-missing: bio2rdf-hsa",
+  "link-target-missing: bio2rdf-icd9",
+  "link-target-missing: bio2rdf-insdc",
+  "link-target-missing: bio2rdf-intact",
+  "link-target-missing: bio2rdf-isbn",
+  "link-target-missing: bio2rdf-mi",
+  "link-target-missing: bio2rdf-mirbase",
+  "link-target-missing: bio2rdf-narcis",
+  "link-target-missing: bio2rdf-pato",
+  "link-target-missing: bio2rdf-pirsf",
+  "link-target-missing: bio2rdf-pr",
+  "link-target-missing: bio2rdf-pw",
+  "link-target-missing: bio2rdf-reactome",
+  "link-target-missing: bio2rdf-sbo",
+  "link-target-missing: bio2rdf-sce",
+  "link-target-missing: bio2rdf-so",
+  "link-target-missing: bio2rdf-tcdb",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "bio2rdf-bioportal.json": [
+  "link-target-missing: bio2rdf-aao",
+  "link-target-missing: bio2rdf-abbrev",
+  "link-target-missing: bio2rdf-aeo",
+  "link-target-missing: bio2rdf-apo",
+  "link-target-missing: bio2rdf-aracyc",
+  "link-target-missing: bio2rdf-atmo",
+  "link-target-missing: bio2rdf-ato",
+  "link-target-missing: bio2rdf-atol",
+  "link-target-missing: bio2rdf-beilstein",
+  "link-target-missing: bio2rdf-bfbbt",
+  "link-target-missing: bio2rdf-bfo",
+  "link-target-missing: bio2rdf-binary-data-type",
+  "link-target-missing: bio2rdf-biogrid",
+  "link-target-missing: bio2rdf-biopax",
+  "link-target-missing: bio2rdf-biotop",
+  "link-target-missing: bio2rdf-bs",
+  "link-target-missing: bio2rdf-bsa",
+  "link-target-missing: bio2rdf-bsd",
+  "link-target-missing: bio2rdf-bspo",
+  "link-target-missing: bio2rdf-bto",
+  "link-target-missing: bio2rdf-c14240",
+  "link-target-missing: bio2rdf-caloha",
+  "link-target-missing: bio2rdf-caro",
+  "link-target-missing: bio2rdf-cas",
+  "link-target-missing: bio2rdf-casrn",
+  "link-target-missing: bio2rdf-cbwinfo",
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-chemidplus",
+  "link-target-missing: bio2rdf-chemspider",
+  "link-target-missing: bio2rdf-chmo",
+  "link-target-missing: bio2rdf-citexplore",
+  "link-target-missing: bio2rdf-cl",
+  "link-target-missing: bio2rdf-clo",
+  "link-target-missing: bio2rdf-cmo",
+  "link-target-missing: bio2rdf-co",
+  "link-target-missing: bio2rdf-co_125",
+  "link-target-missing: bio2rdf-co_321",
+  "link-target-missing: bio2rdf-come",
+  "link-target-missing: bio2rdf-corum",
+  "link-target-missing: bio2rdf-cp",
+  "link-target-missing: bio2rdf-cs",
+  "link-target-missing: bio2rdf-ctdi",
+  "link-target-missing: bio2rdf-ddanat",
+  "link-target-missing: bio2rdf-dermo",
+  "link-target-missing: bio2rdf-diffavg",
+  "link-target-missing: bio2rdf-diffformula",
+  "link-target-missing: bio2rdf-diffmono",
+  "link-target-missing: bio2rdf-dis",
+  "link-target-missing: bio2rdf-do",
+  "link-target-missing: bio2rdf-doi",
+  "link-target-missing: bio2rdf-ec",
+  "link-target-missing: bio2rdf-eco",
+  "link-target-missing: bio2rdf-ecogene",
+  "link-target-missing: bio2rdf-ecolexicon",
+  "link-target-missing: bio2rdf-efo",
+  "link-target-missing: bio2rdf-efopat_id",
+  "link-target-missing: bio2rdf-ehda",
+  "link-target-missing: bio2rdf-ehdaa",
+  "link-target-missing: bio2rdf-ehdaa2",
+  "link-target-missing: bio2rdf-emap",
+  "link-target-missing: bio2rdf-emapa",
+  "link-target-missing: bio2rdf-emaps",
+  "link-target-missing: bio2rdf-embl",
+  "link-target-missing: bio2rdf-ensembl",
+  "link-target-missing: bio2rdf-envo",
+  "link-target-missing: bio2rdf-eo",
+  "link-target-missing: bio2rdf-epcc",
+  "link-target-missing: bio2rdf-evm",
+  "link-target-missing: bio2rdf-evoc",
+  "link-target-missing: bio2rdf-fao",
+  "link-target-missing: bio2rdf-fbbi",
+  "link-target-missing: bio2rdf-fbbt",
+  "link-target-missing: bio2rdf-fbcv",
+  "link-target-missing: bio2rdf-fbdv",
+  "link-target-missing: bio2rdf-fbql",
+  "link-target-missing: bio2rdf-fbsp",
+  "link-target-missing: bio2rdf-fix",
+  "link-target-missing: bio2rdf-flybrain_ndb",
+  "link-target-missing: bio2rdf-fma",
+  "link-target-missing: bio2rdf-formalcharge",
+  "link-target-missing: bio2rdf-formula",
+  "link-target-missing: bio2rdf-ftt",
+  "link-target-missing: bio2rdf-fyler",
+  "link-target-missing: bio2rdf-fypo",
+  "link-target-missing: bio2rdf-gc_id",
+  "link-target-missing: bio2rdf-genedb",
+  "link-target-missing: bio2rdf-geonames",
+  "link-target-missing: bio2rdf-gmelin",
+  "link-target-missing: bio2rdf-go",
+  "link-target-missing: bio2rdf-goc",
+  "link-target-missing: bio2rdf-goeco",
+  "link-target-missing: bio2rdf-gramene",
+  "link-target-missing: bio2rdf-gro",
+  "link-target-missing: bio2rdf-hamap",
+  "link-target-missing: bio2rdf-hao",
+  "link-target-missing: bio2rdf-hmdb",
+  "link-target-missing: bio2rdf-hom",
+  "link-target-missing: bio2rdf-hp",
+  "link-target-missing: bio2rdf-hprd",
+  "link-target-missing: bio2rdf-hsd",
+  "link-target-missing: bio2rdf-http",
+  "link-target-missing: bio2rdf-iao",
+  "link-target-missing: bio2rdf-icd10",
+  "link-target-missing: bio2rdf-icd10cm",
+  "link-target-missing: bio2rdf-icd9",
+  "link-target-missing: bio2rdf-icd9cm",
+  "link-target-missing: bio2rdf-icdo",
+  "link-target-missing: bio2rdf-id",
+  "link-target-missing: bio2rdf-ido",
+  "link-target-missing: bio2rdf-idoden",
+  "link-target-missing: bio2rdf-idomal",
+  "link-target-missing: bio2rdf-imex",
+  "link-target-missing: bio2rdf-img",
+  "link-target-missing: bio2rdf-inheres",
+  "link-target-missing: bio2rdf-intact",
+  "link-target-missing: bio2rdf-irac",
+  "link-target-missing: bio2rdf-isbn",
+  "link-target-missing: bio2rdf-iupac",
+  "link-target-missing: bio2rdf-iwis_traitid",
+  "link-target-missing: bio2rdf-iwis_triatid",
+  "link-target-missing: bio2rdf-jaxlabmice",
+  "link-target-missing: bio2rdf-kegg",
+  "link-target-missing: bio2rdf-kupo",
+  "link-target-missing: bio2rdf-lipidmaps",
+  "link-target-missing: bio2rdf-loinc",
+  "link-target-missing: bio2rdf-ma",
+  "link-target-missing: bio2rdf-maizegdb",
+  "link-target-missing: bio2rdf-massavg",
+  "link-target-missing: bio2rdf-massmono",
+  "link-target-missing: bio2rdf-mat",
+  "link-target-missing: bio2rdf-meddra",
+  "link-target-missing: bio2rdf-mesh_dui",
+  "link-target-missing: bio2rdf-metacyc",
+  "link-target-missing: bio2rdf-mfo",
+  "link-target-missing: bio2rdf-mi",
+  "link-target-missing: bio2rdf-miro",
+  "link-target-missing: bio2rdf-mmo",
+  "link-target-missing: bio2rdf-molbase",
+  "link-target-missing: bio2rdf-mop",
+  "link-target-missing: bio2rdf-mosbp",
+  "link-target-missing: bio2rdf-mp",
+  "link-target-missing: bio2rdf-mpath",
+  "link-target-missing: bio2rdf-mvc",
+  "link-target-missing: bio2rdf-namerxn",
+  "link-target-missing: bio2rdf-nbo",
+  "link-target-missing: bio2rdf-ncit",
+  "link-target-missing: bio2rdf-ndfrt",
+  "link-target-missing: bio2rdf-ne1014",
+  "link-target-missing: bio2rdf-nif_organism",
+  "link-target-missing: bio2rdf-nistchemistrywebbook",
+  "link-target-missing: bio2rdf-nlx",
+  "link-target-missing: bio2rdf-nmodb",
+  "link-target-missing: bio2rdf-nmosp",
+  "link-target-missing: bio2rdf-obi",
+  "link-target-missing: bio2rdf-obo",
+  "link-target-missing: bio2rdf-obo_sf2_eo",
+  "link-target-missing: bio2rdf-obo_sf_eo",
+  "link-target-missing: bio2rdf-obo_sf_go",
+  "link-target-missing: bio2rdf-obo_sf_obo",
+  "link-target-missing: bio2rdf-ogmd",
+  "link-target-missing: bio2rdf-ogms",
+  "link-target-missing: bio2rdf-omit",
+  "link-target-missing: bio2rdf-opb",
+  "link-target-missing: bio2rdf-origin",
+  "link-target-missing: bio2rdf-osics-10",
+  "link-target-missing: bio2rdf-panther",
+  "link-target-missing: bio2rdf-pato",
+  "link-target-missing: bio2rdf-pdb",
+  "link-target-missing: bio2rdf-pdbechem",
+  "link-target-missing: bio2rdf-peroxibase",
+  "link-target-missing: bio2rdf-pgo",
+  "link-target-missing: bio2rdf-phi",
+  "link-target-missing: bio2rdf-pirsf",
+  "link-target-missing: bio2rdf-plantsystematics_image_archive",
+  "link-target-missing: bio2rdf-plo",
+  "link-target-missing: bio2rdf-pmdermo",
+  "link-target-missing: bio2rdf-po",
+  "link-target-missing: bio2rdf-pombase",
+  "link-target-missing: bio2rdf-potato_cooperators",
+  "link-target-missing: bio2rdf-pr",
+  "link-target-missing: bio2rdf-pride",
+  "link-target-missing: bio2rdf-pt",
+  "link-target-missing: bio2rdf-pto",
+  "link-target-missing: bio2rdf-pvp",
+  "link-target-missing: bio2rdf-pw",
+  "link-target-missing: bio2rdf-radlex",
+  "link-target-missing: bio2rdf-rdo",
+  "link-target-missing: bio2rdf-reactome",
+  "link-target-missing: bio2rdf-reaxys",
+  "link-target-missing: bio2rdf-resid",
+  "link-target-missing: bio2rdf-reto",
+  "link-target-missing: bio2rdf-rex",
+  "link-target-missing: bio2rdf-rexo",
+  "link-target-missing: bio2rdf-rgd",
+  "link-target-missing: bio2rdf-rhea",
+  "link-target-missing: bio2rdf-ro",
+  "link-target-missing: bio2rdf-rs",
+  "link-target-missing: bio2rdf-rxno",
+  "link-target-missing: bio2rdf-sael",
+  "link-target-missing: bio2rdf-sao",
+  "link-target-missing: bio2rdf-sbo",
+  "link-target-missing: bio2rdf-sbol",
+  "link-target-missing: bio2rdf-scale",
+  "link-target-missing: bio2rdf-sctid",
+  "link-target-missing: bio2rdf-sep",
+  "link-target-missing: bio2rdf-sgf",
+  "link-target-missing: bio2rdf-snap",
+  "link-target-missing: bio2rdf-snomedct",
+  "link-target-missing: bio2rdf-so",
+  "link-target-missing: bio2rdf-solcap",
+  "link-target-missing: bio2rdf-source",
+  "link-target-missing: bio2rdf-soy",
+  "link-target-missing: bio2rdf-soygro",
+  "link-target-missing: bio2rdf-soyto",
+  "link-target-missing: bio2rdf-soywgr",
+  "link-target-missing: bio2rdf-spd",
+  "link-target-missing: bio2rdf-spire",
+  "link-target-missing: bio2rdf-ssb",
+  "link-target-missing: bio2rdf-sweetrealm",
+  "link-target-missing: bio2rdf-symptom",
+  "link-target-missing: bio2rdf-synonym",
+  "link-target-missing: bio2rdf-syoid",
+  "link-target-missing: bio2rdf-tads",
+  "link-target-missing: bio2rdf-tair",
+  "link-target-missing: bio2rdf-tao",
+  "link-target-missing: bio2rdf-tcdb",
+  "link-target-missing: bio2rdf-tdr",
+  "link-target-missing: bio2rdf-termspec",
+  "link-target-missing: bio2rdf-tgma",
+  "link-target-missing: bio2rdf-tgn",
+  "link-target-missing: bio2rdf-theonlyoutbredstrainofalbinomousefromharlanlabs",
+  "link-target-missing: bio2rdf-theoutbredstrainofalbinomousefromcharlesriver",
+  "link-target-missing: bio2rdf-trak",
+  "link-target-missing: bio2rdf-tron",
+  "link-target-missing: bio2rdf-tsn",
+  "link-target-missing: bio2rdf-tto",
+  "link-target-missing: bio2rdf-uberon",
+  "link-target-missing: bio2rdf-umbbd",
+  "link-target-missing: bio2rdf-umls",
+  "link-target-missing: bio2rdf-umls_cuineedmoresynonoyms",
+  "link-target-missing: bio2rdf-unipathway",
+  "link-target-missing: bio2rdf-uniprot",
+  "link-target-missing: bio2rdf-uo",
+  "link-target-missing: bio2rdf-urn",
+  "link-target-missing: bio2rdf-uspto",
+  "link-target-missing: bio2rdf-v",
+  "link-target-missing: bio2rdf-value-type",
+  "link-target-missing: bio2rdf-vao",
+  "link-target-missing: bio2rdf-vario",
+  "link-target-missing: bio2rdf-vfb",
+  "link-target-missing: bio2rdf-vhog",
+  "link-target-missing: bio2rdf-vo",
+  "link-target-missing: bio2rdf-vsmo",
+  "link-target-missing: bio2rdf-vt",
+  "link-target-missing: bio2rdf-vz",
+  "link-target-missing: bio2rdf-wbbt",
+  "link-target-missing: bio2rdf-wbis",
+  "link-target-missing: bio2rdf-wbls",
+  "link-target-missing: bio2rdf-wbpaper",
+  "link-target-missing: bio2rdf-wbphenotype",
+  "link-target-missing: bio2rdf-webelements",
+  "link-target-missing: bio2rdf-wikipedia",
+  "link-target-missing: bio2rdf-wsio_compression",
+  "link-target-missing: bio2rdf-wsio_data",
+  "link-target-missing: bio2rdf-wsio_operation",
+  "link-target-missing: bio2rdf-wsio_transfer",
+  "link-target-missing: bio2rdf-xao",
+  "link-target-missing: bio2rdf-xco",
+  "link-target-missing: bio2rdf-xeo",
+  "link-target-missing: bio2rdf-ypo",
+  "link-target-missing: bio2rdf-zea",
+  "link-target-missing: bio2rdf-zfa",
+  "link-target-missing: bio2rdf-zfin"
+ ],
+ "bio2rdf-clinicaltrials.json": [
+  "link-self: bio2rdf-clinicaltrials",
+  "link-target-missing: bio2rdf-obi"
+ ],
+ "bio2rdf-ctd.json": [
+  "link-target-missing: bio2rdf-reactome"
+ ],
+ "bio2rdf-dataset.json": [
+  "link-target-missing: bio2rdf",
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "bio2rdf-dbsnp.json": [
+  "link-self: bio2rdf-dbsnp",
+  "link-target-missing: bio2rdf-genbank",
+  "link-target-missing: bio2rdf-gi",
+  "link-target-missing: bio2rdf-refseq"
+ ],
+ "bio2rdf-drugbank.json": [
+  "link-self: bio2rdf-drugbank",
+  "link-target-missing: bio2rdf-ahfs",
+  "link-target-missing: bio2rdf-atc",
+  "link-target-missing: bio2rdf-bindingdb",
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-chemspider",
+  "link-target-missing: bio2rdf-dpd",
+  "link-target-missing: bio2rdf-genatlas",
+  "link-target-missing: bio2rdf-genbank",
+  "link-target-missing: bio2rdf-genecards",
+  "link-target-missing: bio2rdf-gi",
+  "link-target-missing: bio2rdf-gtp",
+  "link-target-missing: bio2rdf-iuphar",
+  "link-target-missing: bio2rdf-kegg",
+  "link-target-missing: bio2rdf-pdb",
+  "link-target-missing: bio2rdf-uniprot",
+  "link-target-missing: bio2rdf-uspto",
+  "link-target-missing: bio2rdf-wikipedia"
+ ],
+ "bio2rdf-genage.json": [
+  "link-self: bio2rdf-genage",
+  "link-target-missing: bio2rdf-hagr",
+  "link-target-missing: bio2rdf-unigene",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "bio2rdf-gendr.json": [
+  "link-self: bio2rdf-gendr"
+ ],
+ "bio2rdf-goa.json": [
+  "link-self: bio2rdf-goa",
+  "link-target-missing: bio2rdf-eco",
+  "link-target-missing: bio2rdf-go",
+  "link-target-missing: bio2rdf-pdb",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "bio2rdf-hgnc.json": [
+  "link-self: bio2rdf-hgnc",
+  "link-target-missing: bio2rdf-ccds",
+  "link-target-missing: bio2rdf-ensembl",
+  "link-target-missing: bio2rdf-refseq",
+  "link-target-missing: bio2rdf-rgd",
+  "link-target-missing: bio2rdf-ucsc",
+  "link-target-missing: bio2rdf-uniprot",
+  "link-target-missing: bio2rdf-vega"
+ ],
+ "bio2rdf-homologene.json": [
+  "link-self: bio2rdf-homologene",
+  "link-target-missing: bio2rdf-gi",
+  "link-target-missing: bio2rdf-refseq"
+ ],
+ "bio2rdf-interpro.json": [
+  "link-self: bio2rdf-interpro",
+  "link-target-missing: bio2rdf-blocks",
+  "link-target-missing: bio2rdf-cath",
+  "link-target-missing: bio2rdf-cazy",
+  "link-target-missing: bio2rdf-come",
+  "link-target-missing: bio2rdf-ec",
+  "link-target-missing: bio2rdf-iuphar",
+  "link-target-missing: bio2rdf-kegg",
+  "link-target-missing: bio2rdf-merops",
+  "link-target-missing: bio2rdf-metacyc",
+  "link-target-missing: bio2rdf-msd",
+  "link-target-missing: bio2rdf-pandit",
+  "link-target-missing: bio2rdf-pdb",
+  "link-target-missing: bio2rdf-priam",
+  "link-target-missing: bio2rdf-prosite",
+  "link-target-missing: bio2rdf-scop",
+  "link-target-missing: bio2rdf-swissprot",
+  "link-target-missing: bio2rdf-trembl"
+ ],
+ "bio2rdf-iproclass.json": [
+  "link-self: bio2rdf-iproclass",
+  "link-target-missing: bio2rdf-ensembl",
+  "link-target-missing: bio2rdf-genbank",
+  "link-target-missing: bio2rdf-gi",
+  "link-target-missing: bio2rdf-go",
+  "link-target-missing: bio2rdf-ipi",
+  "link-target-missing: bio2rdf-pdb",
+  "link-target-missing: bio2rdf-pfam",
+  "link-target-missing: bio2rdf-pirsf",
+  "link-target-missing: bio2rdf-refseq",
+  "link-target-missing: bio2rdf-unigene",
+  "link-target-missing: bio2rdf-uniparc",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "bio2rdf-irefindex.json": [
+  "link-self: bio2rdf-irefindex",
+  "link-target-missing: bio2rdf-bind",
+  "link-target-missing: bio2rdf-biogrid",
+  "link-target-missing: bio2rdf-cygd",
+  "link-target-missing: bio2rdf-dip",
+  "link-target-missing: bio2rdf-flybase",
+  "link-target-missing: bio2rdf-genbank",
+  "link-target-missing: bio2rdf-hprd",
+  "link-target-missing: bio2rdf-i2d",
+  "link-target-missing: bio2rdf-innatedb",
+  "link-target-missing: bio2rdf-intact",
+  "link-target-missing: bio2rdf-ipi",
+  "link-target-missing: bio2rdf-matrixdb",
+  "link-target-missing: bio2rdf-mi",
+  "link-target-missing: bio2rdf-mips",
+  "link-target-missing: bio2rdf-pdb",
+  "link-target-missing: bio2rdf-refseq",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "bio2rdf-linkedspl.json": [
+  "schema: (record): required: domain"
+ ],
+ "bio2rdf-lsr.json": [
+  "link-self: bio2rdf-lsr",
+  "link-target-missing: bio2rdf-bio2rdf",
+  "link-target-missing: bio2rdf-biodbcore",
+  "link-target-missing: bio2rdf-miriam"
+ ],
+ "bio2rdf-mesh.json": [
+  "link-self: bio2rdf-mesh"
+ ],
+ "bio2rdf-mgi.json": [
+  "link-self: bio2rdf-mgi",
+  "link-target-missing: bio2rdf-ensembl",
+  "link-target-missing: bio2rdf-genbank",
+  "link-target-missing: bio2rdf-mp",
+  "link-target-missing: bio2rdf-refseq",
+  "link-target-missing: bio2rdf-trembl",
+  "link-target-missing: bio2rdf-uniprot",
+  "link-target-missing: bio2rdf-vega"
+ ],
+ "bio2rdf-ndc.json": [
+  "link-self: bio2rdf-ndc"
+ ],
+ "bio2rdf-nextprot.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "bio2rdf-omim-resources.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "bio2rdf-omim.json": [
+  "link-self: bio2rdf-omim",
+  "link-target-missing: bio2rdf-do",
+  "link-target-missing: bio2rdf-eom",
+  "link-target-missing: bio2rdf-gi",
+  "link-target-missing: bio2rdf-hp",
+  "link-target-missing: bio2rdf-hprd",
+  "link-target-missing: bio2rdf-icd10",
+  "link-target-missing: bio2rdf-icd9",
+  "link-target-missing: bio2rdf-img",
+  "link-target-missing: bio2rdf-ordr",
+  "link-target-missing: bio2rdf-snomedct",
+  "link-target-missing: bio2rdf-umls"
+ ],
+ "bio2rdf-orphanet.json": [
+  "link-target-missing: bio2rdf-reactome"
+ ],
+ "bio2rdf-pathwaycommons.json": [
+  "schema: (record): required: domain"
+ ],
+ "bio2rdf-pubmed.json": [
+  "link-self: bio2rdf-pubmed"
+ ],
+ "bio2rdf-sabiork.json": [
+  "link-self: bio2rdf-sabiork",
+  "link-target-missing: bio2rdf-bto",
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-ec",
+  "link-target-missing: bio2rdf-nonpubmed",
+  "link-target-missing: bio2rdf-sbo",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "bio2rdf-sgd-resources.json": [
+  "link-target-missing: bio2rdf",
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "bio2rdf-sgd.json": [
+  "link-self: bio2rdf-sgd",
+  "link-target-missing: bio2rdf-apo",
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-ec",
+  "link-target-missing: bio2rdf-eco",
+  "link-target-missing: bio2rdf-gene3d",
+  "link-target-missing: bio2rdf-gi",
+  "link-target-missing: bio2rdf-go",
+  "link-target-missing: bio2rdf-obi",
+  "link-target-missing: bio2rdf-refseq",
+  "link-target-missing: bio2rdf-so"
+ ],
+ "bio2rdf-sider.json": [
+  "link-self: bio2rdf-sider",
+  "link-target-missing: bio2rdf-dailymed",
+  "link-target-missing: bio2rdf-stitch",
+  "link-target-missing: bio2rdf-umls"
+ ],
+ "bio2rdf-taxon.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "bio2rdf-taxonomy.json": [
+  "link-target-missing: bio2rdf-doi",
+  "link-target-missing: bio2rdf-http",
+  "link-target-missing: bio2rdf-obi"
+ ],
+ "bio2rdf-wikipathways.json": [
+  "schema: (record): required: domain"
+ ],
+ "bio2rdf-wormbase.json": [
+  "link-self: bio2rdf-wormbase",
+  "link-target-missing: bio2rdf-eco",
+  "link-target-missing: bio2rdf-go",
+  "link-target-missing: bio2rdf-wbphenotype"
+ ],
+ "biographical-directory-of-the-united-states-congress.json": [
+  "schema: (record): required: contact_point",
+  "schema: other_download.access_url: pattern"
+ ],
+ "biolod-pdb.json": [
+  "link-target-missing: dppedia",
+  "link-target-missing: geonames",
+  "schema: (record): required: contact_point"
+ ],
+ "biomodels-rdf.json": [
+  "link-target-missing: identifiers.org",
+  "schema: (record): required: website, contact_point"
+ ],
+ "bioportal-aao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-aba.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-acgt.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-adw.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-aeo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-aero.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-air.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-amino-acid.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-apo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-atmo.json": [
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ato.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-basic-vertebrate-gross-anatomy.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: (record): required: contact_point"
+ ],
+ "bioportal-bcgo.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bdo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bfo.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bho.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bila.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-birnlex.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bootstrep.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bp.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bro_x1.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bspo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bt.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-bto.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-canco.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pol",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cao.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: (record): required: contact_point"
+ ],
+ "bioportal-carelex.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cco.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cdao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-chebi.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-chem2bio2owl.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cheminf.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cl.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-clo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cmo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cno.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-co_wheat.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cogat.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cogpo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cpt.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-csp.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-ogr",
+  "link-target-missing: bioportal-opb.properties",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-cst.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ctcae.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ctx.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-dc_cl.json": [
+  "link-self: bioportal-dc_cl",
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ddanat.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ddi.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-opb.properties",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-diagnosticont.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-dikb-evidence.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-doid.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ecg.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-eco.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-efo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ehda.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ehdaa.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ehdaa2.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-emap.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-envo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-eo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ep.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-epileponto.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ero.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ev.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-exo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fao.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fbbi.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fbbt.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fbcv.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fbdv.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fbsp.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fda-meddevice.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fhho.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-flu.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fma.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-fypo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-geospecies.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-gfo-bio.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-gfo.json": [
+  "link-target-missing: bioportal-cpr",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-go_x1.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-go_x2.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-gro.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-gro_x1.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-gro_x2.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hcpcs.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hl7.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hlth_indics.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hom.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hom_harvard.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hp_x1.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hpio.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-hugo.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-iao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icd10.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icd10cm.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icd10pcs.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icd9cm.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icf_x1.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icnp.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icpc.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icpc2p.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-icps.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ido.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-idobru.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-idomal.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-iev.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-imgt.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-imr.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ino.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-invertebrata.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ixno.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-jerm.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-kisao.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-lhn.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-lipro.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-lnc.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ma.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mao.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mat.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mcbcc.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mccl.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mccl_x1.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mcv.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mddb.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mdr.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-medlineplus.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mego.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mesh-owl.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-ogr",
+  "link-target-missing: bioportal-pol",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-thealternativa",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mf.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mfo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mfoem.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mhc.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mi.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-miro.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mmo.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mod.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mp.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mpath.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ms.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-msh.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-ogr",
+  "link-target-missing: bioportal-pol",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-mthch.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-natpro.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ncbitaxon.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ncit.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-bpmetadata",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-cbo",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ogr",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-opb.properties",
+  "link-target-missing: bioportal-phylont",
+  "link-target-missing: bioportal-pol",
+  "link-target-missing: bioportal-pro-ont",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-thealternativa",
+  "link-target-missing: bioportal-wsio",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nddf.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ndfrt.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nemo_x1.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-opb.properties",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-neomark.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-neomarkontology.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nif.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-opb.properties",
+  "link-target-missing: bioportal-phylont",
+  "link-target-missing: bioportal-pol",
+  "link-target-missing: bioportal-pro-ont",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nif_cell.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nif_dysfunction.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nigo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nmr.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-nonrctontology.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-npo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-opb.properties",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-oae.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-obi.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-oboe-sbc.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-oboe.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ocre.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-ooevv",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-odgi.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ogi.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ogmd.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ogms.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-omim.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-omit.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ontodm.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ontodt.json": [
+  "link-target-missing: bioportal-ooevv",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ontoorpha.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-opl.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-pato.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-pdq.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-pedterm.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-peo.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-phare.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-pko.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "bioportal-pma.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-pmr.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-po.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-po_x1.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-po_x2.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-pr.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-propreo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-pw.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-qibo.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "bioportal-rcd.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-rctontology.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-repo.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-rex.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-rid.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-rnao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-roleo.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-rs.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-rxnorm.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sbo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sbro.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sdo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sep.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-shr.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sio.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sitbac.json": [
+  "link-target-missing: bioportal-cpr",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-snomedct.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-hom_ehs",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-phylont",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "link-target-missing: bioportal-zea",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-snpo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-so_x1.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sopharm.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-nbo",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-soy.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-spd.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-spto.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-sso.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-swo.json": [
+  "link-target-missing: bioportal-cpr",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-tads.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-tao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-taxrank.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-teddy.json": [
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-teo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-ooevv",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-tgma.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-thesaurus.json": [
+  "link-target-missing: bioportal-thealternativa",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-tm-signs-and-sympts.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-tmo.json": [
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-to.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-tok.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-tto.json": [
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-uberon.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-spo",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-unitsontology.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-uo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-vandf.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-vao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-vhog.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-vivo.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-vo.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-cpr",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-neumore",
+  "link-target-missing: bioportal-pvonto",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-vt.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-wbbt.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-gaz",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-wbls.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-wbphenotype.json": [
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-who.json": [
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-nbo",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-xao.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-xco.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-ypo.json": [
+  "link-target-missing: bioportal-galen",
+  "schema: contact_point: required: email"
+ ],
+ "bioportal-zfa.json": [
+  "link-target-missing: bioportal-biomodels",
+  "link-target-missing: bioportal-bodysystem",
+  "link-target-missing: bioportal-caro",
+  "link-target-missing: bioportal-galen",
+  "link-target-missing: bioportal-syn",
+  "schema: contact_point: required: email"
+ ],
+ "biosamples-rdf.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "bis-linked-data.json": [
+  "link-target-missing: nasa",
+  "schema: (record): required: website"
+ ],
+ "bll-thesaurus.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "bluk-bnb.json": [
+  "link-target-missing: ddc (books)",
+  "link-target-missing: ddc (forthcoming books)",
+  "link-target-missing: ddc (serials)",
+  "link-target-missing: isni (books)",
+  "link-target-missing: isni (forthcoming books)",
+  "link-target-missing: isni (serials)",
+  "link-target-missing: lcsh (books)",
+  "link-target-missing: lcsh (forthcoming books)",
+  "link-target-missing: lcsh (serials)",
+  "link-target-missing: viaf (books)",
+  "link-target-missing: viaf (forthcoming books)",
+  "link-target-missing: viaf (serials)",
+  "schema: links.target: pattern"
+ ],
+ "bpr.json": [
+  "schema: (record): required: website"
+ ],
+ "brazilian-politicians.json": [
+  "schema: (record): required: domain"
+ ],
+ "british-museum-collection.json": [
+  "schema: (record): required: domain"
+ ],
+ "brown-corpus-in-rdf-nif.json": [
+  "schema: (record): required: website"
+ ],
+ "bulgarian_admissions_to_correctional_facilities.json": [
+  "schema: namespace: pattern"
+ ],
+ "cablegate.json": [
+  "schema: contact_point: required: email"
+ ],
+ "cap-italy-rdf.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "catalan-eurowordnet-lemon-lexicon-3-0.json": [
+  "link-target-missing: sumo",
+  "schema: (record): required: website, contact_point"
+ ],
+ "ce4r.json": [
+  "link-target-missing: gnoss",
+  "link-target-missing: prospect-and-trends-gnoss"
+ ],
+ "chat-game-corpus.json": [
+  "schema: (record): required: website"
+ ],
+ "chem2bio2rdf.json": [
+  "link-target-missing: bio2rdf-cas",
+  "link-target-missing: bio2rdf-geneid",
+  "schema: (record): required: description"
+ ],
+ "chembl-rdf.json": [
+  "link-target-missing: identifiers.org",
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "chempedia-rdf.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "chronicling-america.json": [
+  "schema: contact_point: required: email"
+ ],
+ "ciard-ring.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "cipfa.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "ckan.json": [
+  "link-self: ckan",
+  "link-target-missing: eurostat-ontologycentral",
+  "link-target-missing: openlibrary",
+  "link-target-missing: ugent_biblio",
+  "schema: (record): required: description, contact_point"
+ ],
+ "clld-afbo.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "clld-apics.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "clld-ewave.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "clld-glottolog.json": [
+  "link-target-missing: geonames",
+  "schema: (record): required: contact_point"
+ ],
+ "clld-phoible.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "clld-sails.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "clld-wals.json": [
+  "link-target-missing: geonames",
+  "schema: (record): required: contact_point"
+ ],
+ "clld-wold.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "coins-openuplabs.json": [
+  "schema: (record): required: domain"
+ ],
+ "colinda.json": [
+  "link-target-missing: geonames"
+ ],
+ "combined-nomenclature-2012.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "copyrighttermbank.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "cpa-2008.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "cpc-2008.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "cpv-2003.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "cpv-2008.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "crowdsourcing-fb.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "culturalinkeddata.json": [
+  "schema: (record): required: domain"
+ ],
+ "cz-contracts.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-ctia-bans.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-ctia-confiscations.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-ctia-focus.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-ctia-inspections.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-ctia-sanctions.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-fulfillments.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-list-of-databoxes.json": [
+  "schema: (record): required: domain"
+ ],
+ "cz-nace.json": [
+  "schema: (record): required: domain"
+ ],
+ "cz-nkod.json": [
+  "schema: (record): required: domain"
+ ],
+ "cz-orders.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-ovm-agendas.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "cz-sao-check-actions-law.json": [
+  "link-self: cz-sao-check-actions-law"
+ ],
+ "cz-souhrnne-typy-ovm.json": [
+  "schema: (record): required: domain"
+ ],
+ "czech_addresses.json": [
+  "link-target-missing: czech_regions_code_list",
+  "schema: (record): required: description"
+ ],
+ "data-bnf-fr.json": [
+  "link-target-missing: agrovoc-skos",
+  "link-target-missing: isni",
+  "link-target-missing: musicbrainz"
+ ],
+ "data-gov-ie.json": [
+  "schema: (record): required: domain"
+ ],
+ "data-gov-uk-time-intervals.json": [
+  "schema: contact_point: required: email"
+ ],
+ "data-gov.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "data-hnm-hu.json": [
+  "link-target-missing: http://isni.org/isni/",
+  "link-target-missing: library-of-congress-name-authority-file",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "data-incubator-climb.json": [
+  "schema: (record): required: domain"
+ ],
+ "data-incubator-moseley.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "data-incubator-our-airports.json": [
+  "schema: (record): required: domain"
+ ],
+ "data-incubator-smcjournals.json": [
+  "schema: (record): required: domain"
+ ],
+ "data-open-ac-uk.json": [
+  "link-target-missing: data-gov-uk"
+ ],
+ "data-szepmuveszeti-hu.json": [
+  "link-target-missing: geonames"
+ ],
+ "datahub.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "dataturcyl-lod-for-tourists-in-castilla-y-leon-spain.json": [
+  "link-target-missing: RDFLicense",
+  "schema: (record): required: website"
+ ],
+ "datos-artium-org.json": [
+  "link-target-missing: geonames"
+ ],
+ "dbkwik.json": [
+  "schema: (record): required: domain"
+ ],
+ "dbpedia-abstract-corpus.json": [
+  "schema: (record): required: website"
+ ],
+ "dbpedia-commons.json": [
+  "schema: (record): required: domain, website",
+  "schema: contact_point: required: email"
+ ],
+ "dbpedia-el.json": [
+  "link-target-missing: wikicompany",
+  "schema: contact_point: required: email"
+ ],
+ "dbpedia-es.json": [
+  "link-target-missing: dbpedia-cs",
+  "link-target-missing: dbpedia-de",
+  "link-target-missing: dbpedia-it",
+  "link-target-missing: dbpedia-ko"
+ ],
+ "dbpedia-eu.json": [
+  "schema: (record): required: domain"
+ ],
+ "dbpedia-fr.json": [
+  "link-target-missing: dbpedia-it"
+ ],
+ "dbpedia-ja.json": [
+  "link-target-missing: dbpedia-cs",
+  "link-target-missing: dbpedia-de",
+  "link-target-missing: dbpedia-it",
+  "link-target-missing: dbpedia-ko",
+  "link-target-missing: dbpedia-pl",
+  "link-target-missing: dbpedia-ru",
+  "link-target-missing: wordnet-ja"
+ ],
+ "dbpedia-nl.json": [
+  "link-target-missing: dblp",
+  "link-target-missing: dbpedia-de",
+  "link-target-missing: dbtune",
+  "link-target-missing: drugbank",
+  "link-target-missing: gadm-geovocab",
+  "link-target-missing: geonames",
+  "link-target-missing: musicbrainz",
+  "link-target-missing: openei",
+  "link-target-missing: wordnet"
+ ],
+ "dbpedia-spotlight-nif-ner-corpus.json": [
+  "schema: (record): required: website",
+  "schema: contact_point.email: pattern"
+ ],
+ "dbpedia.json": [
+  "link-target-missing: wikicompany"
+ ],
+ "dbtropes.json": [
+  "schema: contact_point: required: email"
+ ],
+ "dbtune-musicbrainz.json": [
+  "schema: (record): required: domain"
+ ],
+ "de-gaap-ontology-lexicon.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "debian-package-tracking-system.json": [
+  "schema: contact_point: required: email"
+ ],
+ "deustoentrepreneurship.json": [
+  "link-target-missing: gnoss"
+ ],
+ "deustotech.json": [
+  "link-target-missing: gnoss"
+ ],
+ "deutsche-nationalbibliografie-dnb.json": [
+  "link-self: deutsche-nationalbibliografie-dnb"
+ ],
+ "dev8d.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "dewey_decimal_classification.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point.email: pattern"
+ ],
+ "diavgeia.json": [
+  "link-target-missing: eurostat",
+  "link-target-missing: kalikratis-municipalities"
+ ],
+ "didactalia.json": [
+  "link-target-missing: gnoss"
+ ],
+ "dkh-deusto-knowledge-hub.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "dm2e.json": [
+  "schema: (record): required: website"
+ ],
+ "doi.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "drug-data-hifm.json": [
+  "schema: (record): required: website"
+ ],
+ "dutch-national-regulations-metalex.json": [
+  "schema: (record): required: domain"
+ ],
+ "dutch-ships-and-sailors.json": [
+  "link-target-missing: geonames",
+  "schema: (record): required: website"
+ ],
+ "dws-group.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "ecb-statistics-linked-data.json": [
+  "schema: (record): required: domain"
+ ],
+ "ecco-tcp-linked-data.json": [
+  "schema: (record): required: domain"
+ ],
+ "eclap.json": [
+  "link-target-missing: geonames",
+  "schema: (record): required: domain, website"
+ ],
+ "edublogs.json": [
+  "schema: (record): required: website"
+ ],
+ "education-data-gov-uk.json": [
+  "schema: contact_point: required: email"
+ ],
+ "eea-rod.json": [
+  "schema: other_download.access_url: pattern"
+ ],
+ "eea-vocabularies.json": [
+  "link-target-missing: geonames",
+  "schema: (record): required: website"
+ ],
+ "ei2a.json": [
+  "schema: namespace: pattern"
+ ],
+ "eionet-rdf.json": [
+  "link-target-missing: eurostat-linked-data",
+  "schema: (record): required: contact_point"
+ ],
+ "emn.json": [
+  "schema: (record): required: website"
+ ],
+ "enakting-energy.json": [
+  "link-target-missing: purl"
+ ],
+ "enakting-mortality.json": [
+  "link-target-missing: data.gov.uk",
+  "link-target-missing: data.openpsi.org",
+  "link-target-missing: rkbexplorer"
+ ],
+ "enakting-population.json": [
+  "link-target-missing: rkbexplorer"
+ ],
+ "english-heritage-periods-list.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "english-index-of-multiple-deprivation-ranking-2010.json": [
+  "schema: namespace: pattern"
+ ],
+ "entrez_gene.json": [
+  "schema: contact_point: required: email"
+ ],
+ "environmental-applications-reference-thesaurus.json": [
+  "link-target-missing: agrovoc-skos",
+  "link-target-missing: eurovoc-in-skos"
+ ],
+ "epa-cdr.json": [
+  "schema: (record): required: domain"
+ ],
+ "epa-frs.json": [
+  "schema: (record): required: domain"
+ ],
+ "epa-rcra.json": [
+  "schema: (record): required: domain"
+ ],
+ "epa-srs.json": [
+  "link-target-missing: chemidplus",
+  "schema: (record): required: domain"
+ ],
+ "epa-tri.json": [
+  "schema: (record): required: domain"
+ ],
+ "eprints-harvest-rkbexplorer.json": [
+  "link-target-missing: rkb-explorer-biolit",
+  "schema: (record): required: website"
+ ],
+ "eprtr.json": [
+  "link-target-missing: eurostat-linked-data"
+ ],
+ "es-msssi-drug-prices.json": [
+  "schema: (record): required: domain"
+ ],
+ "esd-toolkit.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "eu-agencies-bodies.json": [
+  "link-target-missing: eurostat-linked-data"
+ ],
+ "eu-parliament-media.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point.email: pattern"
+ ],
+ "eu-who-is-who.json": [
+  "schema: (record): required: domain"
+ ],
+ "eumida-linked-data.json": [
+  "link-target-missing: eurostat-linked-data",
+  "schema: (record): required: domain"
+ ],
+ "eurobarometer-standard.json": [
+  "link-target-missing: eurostat-linked-data",
+  "schema: (record): required: domain"
+ ],
+ "european-election-results.json": [
+  "link-target-missing: eurostat-linked-data",
+  "schema: (record): required: domain"
+ ],
+ "europeana-lod-v1.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "europeana-sparql.json": [
+  "link-target-missing: geonames",
+  "schema: (record): required: website"
+ ],
+ "eurosentiment.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "eurostat-rdf.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "euskadi-farmacias.json": [
+  "schema: contact_point: required: email"
+ ],
+ "eventkg.json": [
+  "schema: (record): required: domain"
+ ],
+ "eventseer.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "farmbio-chembl.json": [
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-kegg-enzyme",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "fiesta.json": [
+  "schema: (record): required: website"
+ ],
+ "finnish-municipalities.json": [
+  "link-target-missing: wikipedia"
+ ],
+ "flybase.json": [
+  "link-target-missing: open-biomed-flyatlas",
+  "link-target-missing: open-biomed-flyted",
+  "schema: (record): required: description, domain",
+  "schema: contact_point: required: email"
+ ],
+ "flyted.json": [
+  "schema: (record): required: description, domain",
+  "schema: contact_point: required: email"
+ ],
+ "foodista.json": [
+  "schema: (record): required: domain"
+ ],
+ "foodpedia.json": [
+  "schema: (record): required: domain"
+ ],
+ "framebase-schema.json": [
+  "schema: (record): required: domain"
+ ],
+ "framester.json": [
+  "schema: (record): required: domain"
+ ],
+ "frb-linked-data.json": [
+  "link-target-missing: nasa",
+  "schema: (record): required: website"
+ ],
+ "fu-berlin-dblp.json": [
+  "schema: (record): required: domain"
+ ],
+ "fu-berlin-diseasome.json": [
+  "link-target-missing: bio2rdf-geneid"
+ ],
+ "fu-berlin-drugbank.json": [
+  "link-target-missing: bio2rdf-cas",
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-kegg-compound",
+  "link-target-missing: bio2rdf-pdb",
+  "link-target-missing: bio2rdf-pfam",
+  "link-target-missing: bio2rdf-uniprot"
+ ],
+ "fu-berlin-ec-competition.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "fu-berlin-euraxess.json": [
+  "schema: (record): required: domain"
+ ],
+ "fu-berlin-eures.json": [
+  "schema: (record): required: domain"
+ ],
+ "fu-berlin-medicare.json": [
+  "schema: (record): required: description"
+ ],
+ "fu-berlin-stitch.json": [
+  "link-target-missing: bio2rdf-chebi",
+  "link-target-missing: bio2rdf-pubchem"
+ ],
+ "galician-eurowordnet-lemon-lexicon-3-0.json": [
+  "link-target-missing: sumo",
+  "schema: (record): required: website, contact_point"
+ ],
+ "garnicaplywood.json": [
+  "link-target-missing: gnoss"
+ ],
+ "gemet-annotated.json": [
+  "schema: (record): required: website"
+ ],
+ "gemet.json": [
+  "link-target-missing: agrovoc-skos"
+ ],
+ "gene-expression-atlas-rdf.json": [
+  "link-target-missing: identifiers.org",
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "geodomainwn.json": [
+  "schema: (record): required: website"
+ ],
+ "geoecuador.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "geographic-names-information-system-gnis.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "geospecies.json": [
+  "link-target-missing: bio2rdf-uniprot",
+  "link-target-missing: bio2rdf-uniprot-taxonomy"
+ ],
+ "geowordnet.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "german-labor-law-thesaurus.json": [
+  "link-target-missing: zbw.eu/stw",
+  "schema: links.target: pattern"
+ ],
+ "germlex.json": [
+  "schema: (record): required: website"
+ ],
+ "gesis-thesoz.json": [
+  "link-target-missing: agrovoc-skos",
+  "schema: contact_point.email: pattern"
+ ],
+ "getty-tgn.json": [
+  "link-target-missing: schema-org"
+ ],
+ "gipuzkoademografia.json": [
+  "schema: (record): required: domain"
+ ],
+ "glastonbury-2011.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "gold.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "googleart-wrapper.json": [
+  "schema: (record): required: domain"
+ ],
+ "govagribus-denmark.json": [
+  "link-target-missing: GeoNames",
+  "schema: (record): required: domain, website"
+ ],
+ "greek-administrative-geography.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "greek-wordnet.json": [
+  "schema: (record): required: website"
+ ],
+ "green-competitiveness-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "gutenberg.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "heartfailure.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "hedatuz.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "https%3Abioportal.bioontology.orgontologiesIBIO.json": [
+  "schema: namespace: pattern"
+ ],
+ "iate-rdf.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "iati-as-linked-data.json": [
+  "link-target-missing: cia-world-factbook",
+  "link-target-missing: geonames",
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "icane.json": [
+  "link-target-missing: eurostat",
+  "link-target-missing: geonames",
+  "link-target-missing: ine",
+  "schema: (record): required: domain"
+ ],
+ "ichoose.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "idreffr.json": [
+  "link-target-missing: FMeSH"
+ ],
+ "ids.json": [
+  "link-target-missing: glottolog-langdoc",
+  "link-target-missing: wals",
+  "schema: contact_point: required: email"
+ ],
+ "ietflang.json": [
+  "link-target-missing: glottolog-langdoc",
+  "link-target-missing: wals",
+  "schema: (record): required: website"
+ ],
+ "iislod-test.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "imagery_bailingniao.json": [
+  "schema: full_download.download_url: pattern"
+ ],
+ "imagesnippets.json": [
+  "link-target-missing: art-and-architecture-thesaurus",
+  "link-target-missing: geonames",
+  "schema: (record): required: website, contact_point"
+ ],
+ "imf-linked-data.json": [
+  "schema: (record): required: website"
+ ],
+ "inaudio.org.json": [
+  "schema: namespace: pattern"
+ ],
+ "ineverycrea-argentina.json": [
+  "link-target-missing: gnoss"
+ ],
+ "ineverycrea.json": [
+  "link-target-missing: gnoss"
+ ],
+ "influence-tracker-dataset.json": [
+  "schema: (record): required: domain"
+ ],
+ "instance-hub-fiscal-years.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "interactivemaps-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "intervalue.json": [
+  "schema: (record): required: domain"
+ ],
+ "iptc-newscodes.json": [
+  "schema: namespace: pattern"
+ ],
+ "isic-v4.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "isil-dbpedia.json": [
+  "link-target-missing: dbpedia-de",
+  "schema: contact_point.email: pattern"
+ ],
+ "iso-639-oasis.json": [
+  "schema: contact_point: required: email"
+ ],
+ "isocat-metadata.json": [
+  "schema: (record): required: website"
+ ],
+ "ispra-lod-place.json": [
+  "link-target-missing: dbpedia-it",
+  "link-target-missing: gadm.geovocab",
+  "link-target-missing: geonames",
+  "link-target-missing: istat",
+  "link-target-missing: musicbrainz",
+  "schema: (record): required: domain, website"
+ ],
+ "ispra-lod-ron.json": [
+  "link-target-missing: codes.wmo.int",
+  "schema: (record): required: domain"
+ ],
+ "istat-immigration.json": [
+  "schema: contact_point: required: email"
+ ],
+ "it-aifa-drug-prices.json": [
+  "schema: (record): required: domain"
+ ],
+ "iwn.json": [
+  "schema: (record): required: website"
+ ],
+ "jel-classification.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "jiscopenbib-bl_bnb-1.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "jrc-names-ec.json": [
+  "link-target-missing: DBpedia",
+  "schema: (record): required: domain"
+ ],
+ "jrc-names-mlode.json": [
+  "schema: (record): required: domain"
+ ],
+ "judaicalink.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "kallikratis-municipalities.json": [
+  "link-target-missing: geonames"
+ ],
+ "klappstuhlclub.json": [
+  "schema: contact_point: required: email"
+ ],
+ "kore-50-nif-ner-corpus.json": [
+  "schema: (record): required: website",
+  "schema: contact_point.email: pattern"
+ ],
+ "kupkb.json": [
+  "link-target-missing: bio2rdf-genbank",
+  "schema: (record): required: website, contact_point"
+ ],
+ "lcsh.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "lcsubjects.json": [
+  "link-target-missing: geonames",
+  "schema: (record): required: domain, contact_point"
+ ],
+ "lemonuby.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "lemonwiktionary.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "lexin-rdf.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lexinfo.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "lexvo-org.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "lichfield-spending.json": [
+  "schema: contact_point: required: email"
+ ],
+ "lime.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lingvoj.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "linked-crunchbase.json": [
+  "schema: (record): required: domain",
+  "schema: example.access_url: pattern"
+ ],
+ "linked-drugs.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "linked-edgar.json": [
+  "schema: contact_point: required: email"
+ ],
+ "linked-eurostat.json": [
+  "schema: contact_point: required: email"
+ ],
+ "linked-hypernyms.json": [
+  "schema: (record): required: website",
+  "schema: contact_point.email: pattern"
+ ],
+ "linked-logainm.json": [
+  "schema: (record): required: website"
+ ],
+ "linked-open-commerce.json": [
+  "schema: (record): required: domain"
+ ],
+ "linked-open-data-of-ecology.json": [
+  "link-target-missing: bio2rdf-uniprot-taxonomy",
+  "schema: (record): required: domain"
+ ],
+ "linked-open-piracy.json": [
+  "schema: (record): required: domain"
+ ],
+ "linked-periodicals.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "linked-stockindex.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "linked-structured-product-labels.json": [
+  "link-target-missing: bio2rdf.org",
+  "link-target-missing: chebi",
+  "link-target-missing: drugbank",
+  "link-target-missing: rxnorm"
+ ],
+ "linked-taiwan-geo-names.json": [
+  "link-target-missing: geonames-semantic-web:",
+  "schema: (record): required: domain",
+  "schema: namespace: pattern"
+ ],
+ "linked-tcga.json": [
+  "schema: (record): required: website"
+ ],
+ "linked-user-feedback.json": [
+  "schema: (record): required: domain"
+ ],
+ "linked-uspto-patent-data.json": [
+  "link-target-missing: epo",
+  "schema: (record): required: domain"
+ ],
+ "linkedcrowdsourceddata.json": [
+  "schema: (record): required: website"
+ ],
+ "linkedgeodata.json": [
+  "schema: contact_point: required: email"
+ ],
+ "linkedlccn.json": [
+  "link-target-missing: books-isbn",
+  "link-target-missing: openlibrary"
+ ],
+ "linkedmarkmail.json": [
+  "schema: contact_point: required: email"
+ ],
+ "linkedspending.json": [
+  "schema: full_download.download_url: pattern"
+ ],
+ "linklion.json": [
+  "schema: (record): required: website"
+ ],
+ "lobid-organisations.json": [
+  "link-target-missing: dbpedia-de"
+ ],
+ "lobid-resources.json": [
+  "link-target-missing: dbpedia-de",
+  "link-target-missing: iso-639-2",
+  "link-target-missing: oclc",
+  "link-target-missing: zdb"
+ ],
+ "loc.json": [
+  "schema: (record): required: domain"
+ ],
+ "locv.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lod-a-lot.json": [
+  "schema: (record): required: domain"
+ ],
+ "lod2-project-wiki.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "lofd.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lower-layer-super-output-areas.json": [
+  "schema: (record): required: domain"
+ ],
+ "lremap-auth.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lremap-conf.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lremap-ri.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lremap-sub.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "lsq.json": [
+  "schema: (record): required: domain, website",
+  "schema: contact_point: required: email"
+ ],
+ "manchester-university-reading-lists.json": [
+  "link-target-missing: openlibrary",
+  "schema: (record): required: domain"
+ ],
+ "marc-codes.json": [
+  "link-target-missing: wikipedia",
+  "schema: (record): required: domain"
+ ],
+ "masc-bn-nif.json": [
+  "schema: (record): required: website"
+ ],
+ "masc.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "massobservationarchivecatalogue.json": [
+  "schema: (record): required: domain"
+ ],
+ "medline.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "metashare.json": [
+  "link-target-missing: dblp",
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "mexico.json": [
+  "schema: (record): required: website"
+ ],
+ "miguiadeviajes-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "mismuseos-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "mlsa.json": [
+  "link-target-missing: glottolog-langdoc",
+  "link-target-missing: wals"
+ ],
+ "morelab.json": [
+  "link-target-missing: geonames"
+ ],
+ "multext-east.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "multimedia-lab.json": [
+  "link-target-missing: dblp",
+  "schema: (record): required: website, contact_point"
+ ],
+ "muninn-world-war-i.json": [
+  "link-target-missing: GeoNames",
+  "link-target-missing: LCSH",
+  "link-target-missing: Orlando"
+ ],
+ "museosespania-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "my-family-lineage.json": [
+  "link-target-missing: geonames"
+ ],
+ "myopenlink-dataspaces.json": [
+  "link-target-missing: pub-bielefeld",
+  "schema: (record): required: website, contact_point"
+ ],
+ "naics-2007.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "naics-2012.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "national-diet-library-authorities.json": [
+  "schema: contact_point: required: email"
+ ],
+ "national-library-of-greece-authority-records.json": [
+  "schema: (record): required: domain"
+ ],
+ "near.json": [
+  "link-target-missing: edubase",
+  "schema: contact_point: required: email"
+ ],
+ "neurolex-wiki.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "news-100-nif-ner-corpus.json": [
+  "schema: (record): required: website"
+ ],
+ "nextprot.json": [
+  "link-target-missing: UniProt",
+  "schema: namespace: pattern"
+ ],
+ "nextweb-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "nhs-jargon.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "nlr-dataset-mod.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "nobelprizes.json": [
+  "link-target-missing: bio2rdf"
+ ],
+ "nomenclator-asturias.json": [
+  "link-target-missing: sdmx-concept"
+ ],
+ "nottingham-trent-university-resource-lists.json": [
+  "link-target-missing: openlibrary",
+  "schema: (record): required: domain"
+ ],
+ "npm.json": [
+  "schema: (record): required: domain"
+ ],
+ "nuts-geovocab.json": [
+  "schema: contact_point: required: email"
+ ],
+ "nvs.json": [
+  "link-target-missing: geonames"
+ ],
+ "ocd.json": [
+  "link-target-missing: dbpedia-it",
+  "schema: (record): required: website"
+ ],
+ "oceandrilling-borehole.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "oceandrilling-dbseabed.json": [
+  "link-target-missing: codices",
+  "schema: (record): required: domain"
+ ],
+ "oceandrilling-janus.json": [
+  "link-target-missing: coreref",
+  "schema: (record): required: domain"
+ ],
+ "oceandrilling-janusamp.json": [
+  "schema: (record): required: domain"
+ ],
+ "oceandrilling-ldeo.json": [
+  "schema: (record): required: domain"
+ ],
+ "oclc-fast.json": [
+  "link-target-missing: geonames",
+  "schema: contact_point: required: email"
+ ],
+ "odc-imd-environment-score.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "odc-lsoa.json": [
+  "link-target-missing: stats",
+  "schema: contact_point: required: email"
+ ],
+ "oecd-linked-data.json": [
+  "link-self: oecd-linked-data"
+ ],
+ "ogolod.json": [
+  "link-target-missing: bio2rdf-chebi",
+  "schema: namespace: pattern"
+ ],
+ "olac.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "olia-discourse.json": [
+  "schema: (record): required: website"
+ ],
+ "ontobeef-domain.json": [
+  "link-target-missing: agrovoc-skos",
+  "link-target-missing: nalt"
+ ],
+ "ookaboo-rdf-dump.json": [
+  "schema: (record): required: domain"
+ ],
+ "open-bantu-isixhosa-lexicon.json": [
+  "schema: (record): required: domain"
+ ],
+ "open-data-euskadi.json": [
+  "schema: contact_point: required: email"
+ ],
+ "open-data-risp.json": [
+  "link-target-missing: gnoss"
+ ],
+ "open-election-data-project.json": [
+  "schema: (record): required: domain"
+ ],
+ "openbiomed-flyatlas.json": [
+  "schema: (record): required: description, domain",
+  "schema: contact_point: required: email"
+ ],
+ "opencalais.json": [
+  "schema: contact_point: required: email"
+ ],
+ "opencorporates.json": [
+  "schema: contact_point: required: email"
+ ],
+ "opencyc.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "opendatacommunities-dev-local-authority-services.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-homelessness-acceptances-per-1000.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-homelessness-households-accommodated-temporary-housing-types.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-households-2008.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-households-accommodated-per-1000.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-households-projections-population.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-households-projections-totalhouseolds.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-households-social-lettings-general-needs-lettings-prp-household-composition.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-households-social-lettings-general-needs-lettings-prp-number-bedrooms.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-housing-market.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-imd-crime-rank-2010.json": [
+  "link-target-missing: opendatacommunities-societal-wellbeing-deprivation-imd-crime-rank-2010",
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-imd-environment-rank-2010.json": [
+  "link-target-missing: opendatacommunities-societal-wellbeing-deprivation-imd-environment-rank-2010",
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-imd-income-rank-la-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-imd-rank-2010.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-imd-score-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-impact-indicators-affordable-housing-starts.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-impact-indicators-energy-efficiency-new-builds.json": [
+  "link-target-missing: opendatacommunities-transparency-impact-indicators-energy-efficiency-new-builds",
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-impact-indicators-housing-starts.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-impact-indicators-planning-applications-granted.json": [
+  "link-target-missing: opendatacommunities-transparency-impact-indicators-planning-applications-granted",
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-input-indicators-local-authority-funding-from-government-grant.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-net-additional-dwellings.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-service-expenditure.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-education-rank-la-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-employment-rank-la-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-employment-score-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-health-rank-la-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-health-score-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-housing-rank-la-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-income-rank-la-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-rank-2007.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-rank-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-rank-la-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-societal-wellbeing-deprivation-imd-score-2010.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-transparency-impact-indicators-affordable-housing-starts.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-transparency-impact-indicators-households-in-temporary-accommodation.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-transparency-impact-indicators-housing-starts.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-transparency-impact-indicators-neighbourhood-plans.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-transparency-impact-indicators-troubled-families.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-transparency-input-indicators-local-authorities-working-with-troubled-families.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "opendatacommunities-transparency-input-indicators-local-authority-funding-from-government-grant.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-wellbeing-happy-yesterday-standard-deviation.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-wellbeing-lsoa-happy-yesterday-mean.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatacommunities-wellbeing-worthwhile-mean.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendataec.json": [
+  "link-target-missing: es.dbpedia",
+  "schema: (record): required: website"
+ ],
+ "opendatascotland-graph-education-pupils-by-school-and-datazone.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-graph-simd-rank.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-simd-crime-rank.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-simd-education-rank.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-simd-employment-rank.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-simd-geographic-access-rank.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-simd-health-rank.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-simd-housing-rank.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "opendatascotland-simd-income-rank.json": [
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "openlink-lod-cache.json": [
+  "schema: (record): required: domain"
+ ],
+ "openlinksw-dataspaces.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "openlylocal.json": [
+  "schema: contact_point: required: email"
+ ],
+ "ordnance-survey-linked-data.json": [
+  "schema: contact_point: required: email"
+ ],
+ "oreilly.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "orlando-womens-writing-linked-open-data-set.json": [
+  "link-target-missing: AAT",
+  "link-target-missing: GeoNames",
+  "link-target-missing: LCSH",
+  "link-target-missing: Muninn-ww1",
+  "link-target-missing: ORCID",
+  "schema: (record): required: domain, website"
+ ],
+ "pali-english-lexicon.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "pdev-lemon.json": [
+  "schema: (record): required: website"
+ ],
+ "pdevlemon.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "periodo.json": [
+  "link-target-missing: worldcat",
+  "schema: (record): required: website"
+ ],
+ "personal-homepages.json": [
+  "link-target-missing: aspire-manchester",
+  "link-target-missing: bibsonomy",
+  "link-target-missing: bio2rdf-geneid",
+  "link-target-missing: bootsnall",
+  "link-target-missing: codehaus",
+  "link-target-missing: dbpedia-de",
+  "link-target-missing: dbpedia-it",
+  "link-target-missing: gnu-licenses",
+  "link-target-missing: indymedia",
+  "link-target-missing: jugem",
+  "link-target-missing: linked-railway-data-project",
+  "link-target-missing: livejournal-com",
+  "link-target-missing: nalt",
+  "link-target-missing: statusnet-status-cat",
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "planetdata-project-wiki.json": [
+  "link-target-missing: aspire-manchester",
+  "link-target-missing: city-lichfield",
+  "link-target-missing: currency-designators",
+  "schema: (record): required: contact_point"
+ ],
+ "pleiades.json": [
+  "schema: namespace: pattern"
+ ],
+ "prelinger_archives.json": [
+  "schema: (record): required: domain"
+ ],
+ "premon.json": [
+  "schema: namespace: pattern"
+ ],
+ "princeton-library-findingaids.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "productdb.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "prospects-and-trends-gnoss.json": [
+  "link-target-missing: gnoss"
+ ],
+ "provenanceweb.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "proyectoapadrina.json": [
+  "link-target-missing: gnoss"
+ ],
+ "public-spending-in-greece.json": [
+  "link-target-missing: geonames",
+  "link-target-missing: weso"
+ ],
+ "qboairbase.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "rainis-and-aspazija-linked-digital-collection.json": [
+  "schema: (record): required: domain"
+ ],
+ "ravensburg-local-shopping-graph.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "rdfize-lastfm.json": [
+  "link-target-missing: qdos"
+ ],
+ "rdflicense.json": [
+  "schema: (record): required: website"
+ ],
+ "rdfohloh.json": [
+  "link-target-missing: doapspace",
+  "schema: namespace: pattern"
+ ],
+ "reactome-rdf.json": [
+  "link-target-missing: identifiers.org",
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "red-uno-internacional-santillana.json": [
+  "link-target-missing: gnoss"
+ ],
+ "reload.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "reuters-128-nif-ner-corpus.json": [
+  "schema: (record): required: website"
+ ],
+ "revyu.json": [
+  "link-target-missing: naplesplus"
+ ],
+ "riese.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "rism-authorities.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "rism.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "rkb-explorer-citeseer.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-cordis.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-courseware.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-crime.json": [
+  "schema: contact_point: required: email"
+ ],
+ "rkb-explorer-curriculum.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-darmstadt.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-dblp.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-deepblue.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-deploy.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-digitaleconomy.json": [
+  "schema: (record): required: domain"
+ ],
+ "rkb-explorer-dotac.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-era.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-eurecom.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-ft.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-fun.json": [
+  "link-target-missing: semantic_web_dog_food",
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-gdlc.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-ibm.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-ieee.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-irit.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-jisc.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-kisti.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-laas.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-newcastle.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-nsf.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-oai.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-os.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-photos.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-pisa.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-rae2001.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-resex.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-risks.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-roma.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-roni.json": [
+  "schema: (record): required: description, domain"
+ ],
+ "rkb-explorer-southampton.json": [
+  "link-target-missing: rkb-explorer-bibo",
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-ulm.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-unlocode.json": [
+  "schema: (record): required: description"
+ ],
+ "rkb-explorer-wiki.json": [
+  "schema: (record): required: description"
+ ],
+ "rss-500-nif-ner-corpus.json": [
+  "schema: (record): required: website"
+ ],
+ "rubentaelman.json": [
+  "schema: (record): required: domain"
+ ],
+ "rubenverborgh.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "russian-universities-specialities.json": [
+  "link-target-missing: rdfs",
+  "schema: (record): required: domain"
+ ],
+ "sadi-semantic-web-services-framework-registry.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "saldo-rdf.json": [
+  "schema: (record): required: website"
+ ],
+ "saldom-rdf.json": [
+  "schema: (record): required: website"
+ ],
+ "sandrart-net.json": [
+  "schema: contact_point: required: email"
+ ],
+ "sanskrit-english-lexicon.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "santillana_guide_dataset.json": [
+  "schema: (record): required: domain"
+ ],
+ "schemapedia.json": [
+  "schema: (record): required: domain"
+ ],
+ "scoreboard.json": [
+  "schema: (record): required: domain"
+ ],
+ "sears.json": [
+  "schema: contact_point: required: email"
+ ],
+ "secold.json": [
+  "schema: (record): required: domain"
+ ],
+ "semanlink.json": [
+  "link-target-missing: codehaus",
+  "link-target-missing: gnu-licenses",
+  "link-target-missing: pub-bielefeld",
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "semantic-universe.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "semantic-web-grundlagen.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "semanticquran.json": [
+  "link-target-missing: DBpedia",
+  "link-target-missing: wiktionary"
+ ],
+ "sentiws.json": [
+  "schema: contact_point: required: email"
+ ],
+ "serendipity.json": [
+  "schema: (record): required: website"
+ ],
+ "shoah-victims-names.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "simple.json": [
+  "schema: (record): required: website"
+ ],
+ "sitc-v4.json": [
+  "link-target-missing: http://productontology.org",
+  "schema: (record): required: domain",
+  "schema: links.target: pattern"
+ ],
+ "sli_galnet_rdf.json": [
+  "schema: (record): required: domain"
+ ],
+ "slideshare2rdf.json": [
+  "schema: (record): required: domain"
+ ],
+ "sors.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "southampton-ac-uk-apps.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "southampton-ac-uk.json": [
+  "link-target-missing: linked-railway-data-project",
+  "schema: (record): required: description, domain, website, contact_point"
+ ],
+ "spanish-linguistic-datasets.json": [
+  "schema: (record): required: domain, website",
+  "schema: contact_point: required: email"
+ ],
+ "sparql-endpoint-status.json": [
+  "schema: (record): required: domain"
+ ],
+ "springernaturescigraph.json": [
+  "link-target-missing: grid_dataset",
+  "link-target-missing: nlm_2007_mesh"
+ ],
+ "srcmf.json": [
+  "schema: (record): required: domain, website",
+  "schema: contact_point.email: pattern"
+ ],
+ "ssf.json": [
+  "link-target-missing: wordnet"
+ ],
+ "st-andrews-resource-lists.json": [
+  "link-target-missing: openlibrary",
+  "schema: (record): required: domain"
+ ],
+ "staff-organograms-and-pay-thurrock-thames-gateway-development-corporation.json": [
+  "link-target-missing: uk-organogram",
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "statusnet-1w6-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-20100-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-alexandrefranke-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-atari-frosch-de.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-belfalas-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-bka-li.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-bonifaz-ec.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-ced117-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-chickenkiller-com.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-chromic-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-cooleysekula-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-coreyavis-com.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-datenfahrt-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-davidhaberthuer-ch.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-deuxpi-ca.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-doomicile-de.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-dtdns-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-equestriarp-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-exdc-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-fcac-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-fcestrada-com.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-fragdev-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-freelish-us.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-gegeweb-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-glou-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-gomertronic-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-hackerposse-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-hii-co-il.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-ilikefreedom-ro.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-imirhil-fr.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-integralblue-com.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-johndrinkwater-name.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-jonkman-ca.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-kaimi-cc.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-kathryl-fr.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-kenzoid-com.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-keuser-fr.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-ldn-fai-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-lebsanft-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-legadolibre-com-ar.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-linuxwrangling-com.json": [
+  "link-target-missing: statusnet-status-cat",
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-ludost-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-lydiastench-com.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-m-kuttner-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-macno-org.json": [
+  "link-target-missing: statusnet-status-cat",
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-mamalibre-com-ar.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-maymay-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-morphtown-de.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-mrblog-nl.json": [
+  "link-target-missing: statusnet-status-cat",
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-mulestable-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-my-status-tk.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-opensim-chat-eu.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-orangeseeds-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-otbm-fr.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-ourcoffs-org-au.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-panda-id-au.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-piana-eu.json": [
+  "link-target-missing: statusnet-status-cat",
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-planet-libre-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-postblue-info.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-progval-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-qdnx-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-qth-fr.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-quitter-se.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-rainbowdash-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-recit-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-russwurm-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-samnoble-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-schiessle-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-scoffoni-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-sebseb01-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-shnoulle-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-skilledtests-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-somsants-net.json": [
+  "link-target-missing: statusnet-status-cat",
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-soucy-cc.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-spip-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-spraci-org.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-ssweeny-net.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-status-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-sweetiebelle-net.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-tekk-com-ar.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "statusnet-thelovebug-org.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-thornton2-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-timttmy-co-uk.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-tl1n-com.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-tschlotfeldt-de.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "statusnet-uni-siegen-de.json": [
+  "schema: (record): required: domain, website, contact_point"
+ ],
+ "steak.json": [
+  "schema: (record): required: domain"
+ ],
+ "stitch-rameau.json": [
+  "link-target-missing: agrovoc-skos"
+ ],
+ "stw-thesaurus-for-economics.json": [
+  "link-target-missing: agrovoc-skos",
+  "link-target-missing: ontobeef",
+  "schema: contact_point.email: pattern"
+ ],
+ "swefn-rdf.json": [
+  "schema: (record): required: website"
+ ],
+ "symptoms-in-chinese.json": [
+  "schema: (record): required: domain"
+ ],
+ "t4gm-info.json": [
+  "schema: (record): required: domain"
+ ],
+ "tags2con-delicious.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "taiwan-geographic-names.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "taxonconcept-assets.json": [
+  "link-target-missing: gnu-licenses",
+  "link-target-missing: nalt",
+  "schema: (record): required: website, contact_point"
+ ],
+ "taxonconcept-occurences.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "taxonconcept.json": [
+  "link-target-missing: bio2rdf",
+  "link-target-missing: eol",
+  "link-target-missing: gni"
+ ],
+ "tcga.json": [
+  "schema: (record): required: domain"
+ ],
+ "tcmgenedit_dataset.json": [
+  "schema: contact_point: required: email"
+ ],
+ "tds.json": [
+  "schema: (record): required: website"
+ ],
+ "telegraphis.json": [
+  "schema: contact_point: required: email"
+ ],
+ "testee.json": [
+  "schema: (record): required: domain, website",
+  "schema: contact_point.email: pattern"
+ ],
+ "the-drug-interaction-knowledge-base.json": [
+  "schema: (record): required: domain"
+ ],
+ "the-living-lod-cloud.json": [
+  "schema: (record): required: website"
+ ],
+ "thesaurus-datenwissen.json": [
+  "schema: (record): required: domain"
+ ],
+ "thesaurus-w.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "thist.json": [
+  "link-target-missing: agrovoc-skos",
+  "link-target-missing: eurovoc-in-skos"
+ ],
+ "tip.json": [
+  "link-target-missing: wikipediaontology",
+  "link-target-missing: yago-knowledge",
+  "schema: (record): required: website"
+ ],
+ "trackloaded.json": [
+  "schema: namespace: pattern"
+ ],
+ "traditional-korean-medicine.json": [
+  "schema: (record): required: domain"
+ ],
+ "traffic-scotland.json": [
+  "schema: (record): required: domain"
+ ],
+ "transparency-linked-data.json": [
+  "link-target-missing: geonames"
+ ],
+ "transport-data-gov-uk.json": [
+  "schema: contact_point: required: email"
+ ],
+ "twarql.json": [
+  "schema: contact_point: required: email"
+ ],
+ "twc-data-gov.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "twc-healthdata.json": [
+  "schema: (record): required: domain"
+ ],
+ "twc-hub.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "twc-logd.json": [
+  "schema: contact_point: required: email"
+ ],
+ "twc-opendap.json": [
+  "schema: (record): required: website"
+ ],
+ "typepad.json": [
+  "schema: (record): required: website, contact_point"
+ ],
+ "uis-linked-data.json": [
+  "schema: (record): required: website"
+ ],
+ "uk-postcodes.json": [
+  "schema: contact_point: required: email"
+ ],
+ "umbel.json": [
+  "link-target-missing: proton",
+  "link-target-missing: wikipedia"
+ ],
+ "un-hazardous-numbers.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "uniprot-metadata.json": [
+  "link-target-missing: aspire-ucl",
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "uniprot.json": [
+  "link-target-missing: go",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-ancient-greek-proiel.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-ancient-greek.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-arabic.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-basque.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-bulgarian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point.email: pattern"
+ ],
+ "universal-dependencies-treebank-catalan.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-chinese.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-coptic.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-croatian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-czech-cac.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-czech-cltt.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-czech.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-danish.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-dutch-lassysmall.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-dutch.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-english-esl.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-english-lines.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-english.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-estonian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-finnish-ftb.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-finnish.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point.email: pattern"
+ ],
+ "universal-dependencies-treebank-french.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point.email: pattern"
+ ],
+ "universal-dependencies-treebank-galician-treegal.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-galician.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-german.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-gothic.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-greek.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-hebrew.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-hindi.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-hungarian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-indonesian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point.email: pattern"
+ ],
+ "universal-dependencies-treebank-irish.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-italian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-japanese-ktc.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-japanese.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-kazakh.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-latin-ittb.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-latin-proiel.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-latin.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-latvian.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-norwegian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-old-church-slavonic.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-persian.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-polish.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-portuguese-bosque.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-portuguese-br.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-portuguese.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-romanian.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-russian-syntagrus.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-russian.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-sanskrit.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-slovak.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-slovenian-sst.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-slovenian.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-spanish-ancora.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-spanish.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-swedish-lines.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-swedish-sign-language.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-swedish.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "universal-dependencies-treebank-tamil.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-turkish.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-ukrainian.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-uyghur.json": [
+  "schema: (record): required: domain"
+ ],
+ "universal-dependencies-treebank-vietnamese.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point.email: pattern"
+ ],
+ "universidad-de-cuenca-linkeddata.json": [
+  "schema: (record): required: website"
+ ],
+ "university-plymouth-reading-lists.json": [
+  "link-target-missing: openlibrary",
+  "schema: (record): required: domain"
+ ],
+ "university-sussex-reading-lists.json": [
+  "link-target-missing: openlibrary",
+  "schema: (record): required: domain"
+ ],
+ "unodc.json": [
+  "link-target-missing: eurostat-linked-data",
+  "schema: other_download.access_url: pattern"
+ ],
+ "uriburner.json": [
+  "schema: contact_point: required: email"
+ ],
+ "usage-review-corpus.json": [
+  "schema: (record): required: domain, website"
+ ],
+ "utpl-lod.json": [
+  "link-target-missing: es.dbpedia",
+  "schema: (record): required: website"
+ ],
+ "verrijktkoninkrijk.json": [
+  "link-target-missing: geonames"
+ ],
+ "vivo-cornell-university.json": [
+  "schema: contact_point: required: email"
+ ],
+ "vivo-indiana-university.json": [
+  "schema: contact_point: required: email"
+ ],
+ "vivo-ponce.json": [
+  "schema: (record): required: domain",
+  "schema: contact_point: required: email"
+ ],
+ "vivo-scripps-research-institute.json": [
+  "schema: contact_point: required: email"
+ ],
+ "vivo-weill-cornell-medical-college.json": [
+  "schema: contact_point: required: email"
+ ],
+ "vivo-wustl.json": [
+  "schema: contact_point: required: email"
+ ],
+ "vivo2doi.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "w3c.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "webisalod.json": [
+  "schema: (record): required: domain"
+ ],
+ "webnmasunotraveler.json": [
+  "schema: (record): required: description, contact_point"
+ ],
+ "wikilinks-rdf-nif.json": [
+  "schema: (record): required: website"
+ ],
+ "wold.json": [
+  "link-target-missing: iso-639-3",
+  "link-target-missing: wals",
+  "schema: namespace: pattern"
+ ],
+ "woodtrick.json": [
+  "schema: namespace: pattern"
+ ],
+ "wordnet-rdf.json": [
+  "link-target-missing: verbnet",
+  "schema: (record): required: website"
+ ],
+ "wordpress.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "world-bank-linked-data.json": [
+  "link-target-missing: nasa"
+ ],
+ "world-wide-web-foundation.json": [
+  "schema: (record): required: domain, contact_point"
+ ],
+ "ww1lod.json": [
+  "link-target-missing: muninn",
+  "link-target-missing: pcdhn",
+  "schema: (record): required: website, contact_point"
+ ],
+ "xlid-lexica.json": [
+  "schema: (record): required: website",
+  "schema: contact_point.email: pattern"
+ ],
+ "yago.json": [
+  "schema: contact_point: required: email"
+ ],
+ "yahoo_geoplanet.json": [
+  "schema: (record): required: contact_point"
+ ],
+ "yale_senselab.json": [
+  "schema: (record): required: domain"
+ ],
+ "yordhis.json": [
+  "schema: namespace: pattern"
+ ],
+ "yso-fi-allars.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "yso-fi-ysa.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "zaragoza_turruta.json": [
+  "schema: (record): required: description, website, contact_point"
+ ],
+ "zbw-labs.json": [
+  "schema: (record): required: website",
+  "schema: contact_point: required: email"
+ ],
+ "zbw-pressemappe20.json": [
+  "schema: contact_point.email: pattern"
+ ],
+ "zhishi-lemon.json": [
+  "link-target-missing: dbpedia-en",
+  "schema: (record): required: domain, website"
+ ],
+ "zhishi-me.json": [
+  "schema: contact_point: required: email"
+ ]
+}

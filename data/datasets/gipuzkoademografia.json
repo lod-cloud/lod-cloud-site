@@ -1,0 +1,50 @@
+{
+  "identifier": "gipuzkoademografia",
+  "title": "Gipuzkoa Demografia",
+  "description": {
+    "en": "Gipuzkoako zenbait herriren populazioaren jatorria"
+  },
+  "website": "http://datahub.io/dataset/GipuzkoaDemografia",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://datos.eurohelp.es/PruebasFinales/",
+  "triples": 1711,
+  "contact_point": {
+    "name": "GipuzkoaIrekia",
+    "email": "megana@eurohelp.es"
+  },
+  "keywords": [
+    "format-rdf",
+    "government",
+    "license-metadata",
+    "lod"
+  ],
+  "other_download": [
+    {
+      "title": "RDF/XML download",
+      "media_type": "RDF",
+      "access_url": "http://lod.eurohelp.es/engimu/rdf/?project=PruebasFinales&file=ataun2014.csv"
+    },
+    {
+      "title": "Download page",
+      "access_url": "http://lod.eurohelp.es/engimu/?project=PruebasFinales&file=ataun2014.csv"
+    },
+    {
+      "title": "voiD file",
+      "media_type": "meta/void",
+      "access_url": "http://lod.eurohelp.es/engimu/void/?project=PruebasFinales&file=ataun2014.csv"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML example link",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://datos.eurohelp.es/PruebasFinales/resource/ataun_2014_urtekojaiotzenestatistika_1"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://ckan.eurohelp.es:8890/sparql"
+    }
+  ]
+}

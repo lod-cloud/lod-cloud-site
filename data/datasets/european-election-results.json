@@ -1,0 +1,73 @@
+{
+  "identifier": "european-election-results",
+  "title": "European Election Results",
+  "description": {
+    "en": "EU Election Results from 2009."
+  },
+  "website": "http://elections.publicdata.eu",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "http://elections.publicdata.eu/data/",
+  "triples": 3165,
+  "contact_point": {
+    "name": "Tim Hodson",
+    "email": "tim.hodson@kasabi.com"
+  },
+  "keywords": [
+    "deref-vocab",
+    "eu",
+    "eu-institution",
+    "europe",
+    "european parliament",
+    "format-qb",
+    "format-rdfs",
+    "format-skos",
+    "geographic",
+    "government",
+    "latc",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "lodcloud",
+    "provenance-metadata",
+    "published-by-third-party",
+    "rdf"
+  ],
+  "links": [
+    {
+      "target": "eurostat-linked-data",
+      "value": 27
+    }
+  ],
+  "other_download": [
+    {
+      "title": "voiD Description",
+      "access_url": "http://elections.publicdata.eu/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "Netherlands",
+      "description": "example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://elections.publicdata.eu/data/country/nl"
+    },
+    {
+      "title": "example election result observation",
+      "description": "Example Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://elections.publicdata.eu/data/2009/national_parties/observation/7"
+    },
+    {
+      "title": "Europe of Freedom and Democracy Group",
+      "description": "Example Resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://elections.publicdata.eu/data/political_group/efd"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://api.talis.com/stores/elections/services/sparql"
+    }
+  ]
+}

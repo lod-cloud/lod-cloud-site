@@ -1,0 +1,58 @@
+{
+  "identifier": "de-gaap-ontology-lexicon",
+  "title": "de-gaap-ontology-lexicon",
+  "description": {
+    "en": "The dataset is a German-English financial ontology-lexicon with 728 bilingual annotated phrases with Constituent and Part-Of-Speech Tags in <a href=\"http://lexinfo.net/\">lexinfo</a>/<a href=\"http://lemon-model.net/\">lemon</a> format. The ontology lexicon was generated from the rdf version (using xbrl2rdf by Dennis Spohr) of the German <a href=\"http://xbrl.de\">XBRL</a> HGB Taxonomy V4.1 which describes financial concepts used in German reporting. Special thanks to Noëmi Aepli for the part-of-speech annotions. All work was done within the <a href=\"http://monnet-project.eu/\">MONNET (Multilingual Ontologies for Networked Knowledge Project</a>.The ontology-lexicon and its ontology be downloaded here."
+  },
+  "domain": "linguistics",
+  "triples": 246522,
+  "contact_point": {
+    "name": "Tobias Wunner"
+  },
+  "keywords": [
+    "lemon",
+    "llod",
+    "lod",
+    "multilingual",
+    "ontology",
+    "ontology-lexicon",
+    "parse tree"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 43727
+    }
+  ],
+  "other_download": [
+    {
+      "title": "data-set-description.pdf",
+      "media_type": "PDF",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-09-24T124029/de-gaap-ontology-lexicon-data-set-description.pdf"
+    },
+    {
+      "title": "Example of annotation: Lizenzen and Rechten und Werten",
+      "description": "Shows the lexinfo/lemon annotation of the German term \"Lizenzen and Rechten und Werten\" (licence in rights and assets) parsed from the s-expression \"(NP (NN-Lizenzen) (PP (APPR-an) (CNP (NN-Rechten) (KON-und) (NN-Werten))))\"",
+      "media_type": "RDF",
+      "access_url": "http://lemon-model.net/lexica/de-gaap/de/Lizenzen+an+Rechten+und+Werten"
+    },
+    {
+      "title": "Model as file",
+      "description": "The lemon model with 2020 German and 1819 English lexical entries as one file instead of uris hosted at lemon-model.net/lexica/de-gaap",
+      "media_type": "ZIP",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2012-10-18T110739/model.lemon.rdf.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "English de-gaap ontology-lexicon",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lemon-model.net/lexica/de-gaap/lexicon.en"
+    },
+    {
+      "title": "German de-gaap ontology-lexicon",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://lemon-model.net/lexica/de-gaap/lexicon.de"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "identifier": "publications_office_authority_tables",
+  "title": "Publications Office Authority tables",
+  "description": {
+    "en": "The European Union Publications Office (OP) publishes a series of Authority tables (also known as Named Authority Lists or NALs) that are used to harmonise and standardise the codes and associated labels used in various environments (web platforms, systems and applications) and in facilitating data exchanges between the institutions involved in decision-making process across the EU and not only.\nThe NALs catalogue contain over 150 lists of values covering everything from Address types to Languages, Corporate bodies, Currencies, File types or Countries. Every list is made available in SKOS/RDF and several other formats depending on the specific particularity of the subject"
+  },
+  "domain": "cross_domain",
+  "website": "https://op.europa.eu/en/web/eu-vocabularies/authority-tables",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://publications.europa.eu/resource/authority/",
+  "triples": 973342,
+  "image": "https://op.europa.eu/documents/6793978/6793980/6724995/b631b122-c2bc-22c1-bf18-eb7451b2542a?t=1584637138416",
+  "contact_point": {
+    "name": "EU Vocabularies team",
+    "email": "op-eu-vocabularies@publications.europa.eu"
+  },
+  "keywords": [
+    "European Union",
+    "Reference data",
+    "Authority tables",
+    "RDF",
+    "SKOS",
+    "controlled vocabulary",
+    "government"
+  ],
+  "links": [
+    {
+      "target": "eurovoc",
+      "value": 247
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Catalogue of authority tables",
+      "description": "Every authority tables has at least 2 SKOS/RDF distributions.",
+      "download_url": "https://op.europa.eu/en/web/eu-vocabularies/authority-tables"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Currency authority table",
+      "description": "The Currency authority table is a controlled vocabulary that lists concepts associated with currencies and currency subunits.\nThe concepts included are correlated with the ISO 4217 international standard.",
+      "access_url": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/currency"
+    },
+    {
+      "title": "Country authority table",
+      "description": "The Country authority table is a controlled vocabulary that lists concepts associated with names of countries and territories.\n\nIts main scope is to support documentary metadata activities.\n\nThe concepts included are correlated with the ISO 3166 international standard. ISO 3166-1 contains a two-letter code which is recommended as the general purpose code, a three-letter code which has better mnenomic properties and a numeric-3 code which can be useful if script independence of the codes is important. The authority code relies on the ISO 3166-1/alpha-3 positions. If an authority code is needed for a country without assigned ISO code, an alphanumeric code is created in order to not confuse with ISO codes that are strictly alphabetic or numeric.\n\nA country code comparison is provided between ISO codes, IANA codes (Internet Country-code Top-level Domains) and TIR (Transport International par la Route) Vehicle system codes.",
+      "access_url": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/country"
+    },
+    {
+      "title": "Language authority table",
+      "description": "The Language authority table is a controlled vocabulary that lists concepts associated with languages.\n\nIts main scope is to support activities associated with publication process.\n\nThe concepts included are correlated with the ISO 639 international standard. This standard is issued in several parts:\n\nISO 639-1 contains strictly two alphabetic letters (alpha-2),\n\nISO 639-2/B (B = bibliographic) is used for bibliographic purpose (alpha-3),\n\nISO 639-2/T (T = terminology) is used for technical purpose (alpha-3),\n\nISO 639-3 covers all the languages and macro-languages of the world (alpha-3); the values are compliant with ISO 639-2/T.\n\nIf an authority code is needed for a language without assigned ISO code, an alphanumeric code is created in order to not confuse with ISO codes that are strictly alphabetic.\n\nContributions to the Language authority table are accepted following a review made by EU Vocabularies team of the Publications Office of the EU.",
+      "access_url": "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language"
+    }
+  ],
+  "example": [
+    {
+      "title": "Schengen area",
+      "description": "The Schengen area is an area comprising European countries which have acknowledged the abolishment of their internal borders with other member countries and outside, for the free and unrestricted movement of people, goods, services, and capital, in harmony with common rules for controlling external borders and fighting criminality by strengthening common judicial system and police cooperation.",
+      "media_type": "text/html;charset=UTF-8",
+      "access_url": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/membership-classification/SCHENGEN"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "CELLAR - Query Service of the Publications Office of the European Union",
+      "description": "The query service gives access to Cellar, the digital dissemination repository of the Publications Office of the European Union. Cellar is the semantic web content and metadata repository of legal and non-legal documents produced by the European institutions. Cellar includes over 150 millions of documents in 24 languages; metadata in as many languages are stored and described in RDF, resulting in more than 800 millions of triples. The Cellar SPARQL endpoint, exposed in order to complement linked open data services to potential consumers, receives about 10 million requests per day (Cellar statistics dated April 2018). Cellar is also the source of information for the Eur-Lex portal (http://www.eurlex.eu) which provides access to a wide range of legal resources including treaties, legislation, case-law and legislative proposals.",
+      "access_url": "http://publications.europa.eu/webapi/rdf/sparql"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "ietflang",
+  "title": "ietflang",
+  "description": {
+    "en": "Mapping from IETF language tags (aka. RFC 4646 or BCP 47) to Lexvo, Glottolog, WALS, IDS and ontologi.es"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 100000,
+  "contact_point": {
+    "name": "John McCrae",
+    "email": "john@mccr.ae"
+  },
+  "keywords": [
+    "llod",
+    "lod",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "glottolog-langdoc",
+      "value": 10000
+    },
+    {
+      "target": "ids",
+      "value": 10000
+    },
+    {
+      "target": "lexvo",
+      "value": 10000
+    },
+    {
+      "target": "wals",
+      "value": 10000
+    }
+  ],
+  "example": [
+    {
+      "title": "German as spoken in Germany and written in Latin script",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://monnetproject.deri.ie/ietflang/de-Latn-DE"
+    }
+  ]
+}

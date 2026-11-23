@@ -1,0 +1,97 @@
+{
+  "identifier": "premon",
+  "title": "PreMOn",
+  "description": {
+    "en": "Predicate Model For Ontologies (2018a version)"
+  },
+  "domain": "linguistics",
+  "website": "http://premon.fbk.eu",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "pm",
+  "triples": 32611819,
+  "image": "https://premon.fbk.eu/images/premon-big.png",
+  "contact_point": {
+    "name": "Marco Rospocher",
+    "email": "marco.rospocher@univr.it"
+  },
+  "keywords": [
+    "predicate models",
+    "framenet",
+    "verbnet",
+    "propbank",
+    "nombank",
+    "semlink",
+    "predicate matrix",
+    "frames",
+    "framebase",
+    "eso",
+    "linked data",
+    "nif",
+    "premon"
+  ],
+  "links": [
+    {
+      "target": "lexinfo",
+      "value": 62805
+    },
+    {
+      "target": "lexvo",
+      "value": 1
+    },
+    {
+      "target": "lime",
+      "value": 48080
+    },
+    {
+      "target": "wordnet-rdf",
+      "value": 123565
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Dataset Download (2018a version)",
+      "description": "Each single component of the PreMOn Dataset can be downloaded independently.",
+      "download_url": "https://premon.fbk.eu/download.html"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Introductory paper (LREC-16)",
+      "description": "The paper where we introduced PreMOn (predicate model for ontologies), a linguistic resource for exposing predicate models (PropBank, NomBank, VerbNet, and FrameNet) and mappings between them (e.g, SemLink, PredicateMatrix) as Linked Open Data.",
+      "media_type": "application/pdf",
+      "access_url": "http://www.lrec-conf.org/proceedings/lrec2016/pdf/854_Paper.pdf"
+    },
+    {
+      "title": "Extended paper (LRE Journal, 2019)",
+      "description": "A more detailed description of the resource, including latest updates and use cases)",
+      "access_url": "https://link.springer.com/article/10.1007/s10579-018-9437-8"
+    }
+  ],
+  "example": [
+    {
+      "title": "Examples",
+      "description": "Many examples available here",
+      "media_type": "text/html",
+      "access_url": "https://premon.fbk.eu/browse.html"
+    },
+    {
+      "title": "Link to an example Linked Data entry [Look.01 roleset in PropBank 1.7]",
+      "access_url": "http://premon.fbk.eu/resource/pb17-look.01"
+    },
+    {
+      "title": "Link to an example data item within the dataset (RDF/XML) [Look.01 roleset in PropBank 1.7]",
+      "access_url": "https://premon.fbk.eu/resource/pb17-look.01.rdf"
+    },
+    {
+      "title": "Link to an example data item within the dataset (Turtle) [Look.01 roleset in PropBank 1.7]",
+      "access_url": "https://premon.fbk.eu/resource/pb17-look.01.n3"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "PreMOn Sparql Endpoint",
+      "description": "PreMOn data can be programmatically queried using the SPARQL endpoint publicly available at http://premon.fbk.eu/sparql.",
+      "access_url": "http://premon.fbk.eu/sparql"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "identifier": "statusnet-shnoulle-net",
+  "title": "statusnet-shnoulle-net",
+  "description": {
+    "en": "StatusNet instance hosted at http://shnoulle.net"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "statusnet-belfalas-org",
+      "value": 4
+    },
+    {
+      "target": "statusnet-gegeweb-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-planet-libre-org",
+      "value": 1
+    },
+    {
+      "target": "statusnet-postblue-info",
+      "value": 4
+    },
+    {
+      "target": "statusnet-skilledtests-com",
+      "value": 1
+    },
+    {
+      "target": "statusnet-soucy-cc",
+      "value": 4
+    },
+    {
+      "target": "statusnet-spip-org",
+      "value": 23
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://ostatus.shnoulle.net/foaf"
+    }
+  ]
+}

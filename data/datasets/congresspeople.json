@@ -1,0 +1,56 @@
+{
+  "identifier": "congresspeople",
+  "title": "2011 US Congress People",
+  "description": {
+    "en": "The 2011 US congress people data, with ntriples format. Could benefit from connections to http://thedatahub.org/dataset/congresspedia"
+  },
+  "domain": "government",
+  "website": "http://www.contactingthecongress.org/",
+  "namespace": "http://logd.tw.rpi.edu/source/contactingthecongress/dataset/directory-for-the-112th-congress/",
+  "triples": 0,
+  "contact_point": {
+    "name": "Yanning Chen",
+    "email": "cheny18@rpi.edu"
+  },
+  "keywords": [
+    "format-con",
+    "format-conv",
+    "format-dbo",
+    "format-dbp",
+    "format-dc",
+    "format-doap",
+    "format-foaf",
+    "format-ov",
+    "format-owl",
+    "format-pmlj",
+    "format-pmlp",
+    "format-rdf",
+    "format-rdfs",
+    "format-scovo",
+    "format-vann",
+    "format-void",
+    "government"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 67
+    },
+    {
+      "target": "geonames-semantic-web",
+      "value": 50
+    },
+    {
+      "target": "govtrack",
+      "value": 56
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Congress People 2011",
+      "description": "US Congress People in 2011",
+      "media_type": "BIN",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2011-11-01T195324/triples.nt"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "identifier": "bioportal-fda-meddevice",
+  "title": "FDA Medical Devices (2010)",
+  "description": {
+    "en": "Medical Devices as downloaded from the FDA site in Jan. 2011"
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1576",
+  "triples": 61147,
+  "contact_point": {
+    "name": "Ketty Mobed"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-chebi",
+      "value": 16
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 37
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 15
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 36
+    },
+    {
+      "target": "bioportal-hl7",
+      "value": 25
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 54
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 137
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 148
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 87
+    },
+    {
+      "target": "bioportal-nddf",
+      "value": 22
+    },
+    {
+      "target": "bioportal-ndfrt",
+      "value": 62
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 12
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 42
+    },
+    {
+      "target": "bioportal-rxnorm",
+      "value": 14
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 193
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 10
+    },
+    {
+      "target": "bioportal-vandf",
+      "value": 26
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45231?apikey=BP_API_KEY"
+    }
+  ]
+}

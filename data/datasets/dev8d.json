@@ -1,0 +1,35 @@
+{
+  "identifier": "dev8d",
+  "title": "dev8d",
+  "domain": "publications",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-c4dm",
+    "format-dcterm",
+    "format-foaf",
+    "format-oo",
+    "format-owl",
+    "format-pos",
+    "format-prog",
+    "format-rdf",
+    "format-rdfs",
+    "format-timeline",
+    "lodcloud-diagram-2014-08-30",
+    "publications"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html",
+      "access_url": "http://data.dev8d.org/2012/programme/?person=MarkMacGillivray"
+    }
+  ]
+}

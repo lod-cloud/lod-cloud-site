@@ -1,0 +1,22 @@
+{
+  "identifier": "http:www.RAG.comgameonto#",
+  "title": "Game Ontology",
+  "description": {
+    "en": "This is a dataset that represents triples in a videogame domain. It connects a game with its most important attributes such as publisher, developer, genre, etc."
+  },
+  "domain": "media",
+  "website": "http://www.RAG.com/gameonto#",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 0,
+  "contact_point": {
+    "name": "Game Ontology",
+    "email": "i191679@nu.edu.pk"
+  },
+  "full_download": [
+    {
+      "title": "VideoGame Ontology",
+      "media_type": "Games",
+      "download_url": "http://www.RAG.com/gameonto#"
+    }
+  ]
+}

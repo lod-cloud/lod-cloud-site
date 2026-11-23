@@ -1,0 +1,214 @@
+{
+  "identifier": "bio2rdf-iproclass",
+  "title": "Bio2RDF::Iproclass",
+  "description": {
+    "en": "The iProClass database provides value-added information reports for UniProtKB and unique UniParc proteins, with links to over 90 biological databases, including databases for protein families, functions and pathways, interactions, structures and structural classifications, genes and genomes, ontologies, literature, and taxonomy."
+  },
+  "domain": "life_sciences",
+  "website": "http://iproclass.bio2rdf.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://bio2rdf.org/iproclass:",
+  "triples": 3306107223,
+  "contact_point": {
+    "name": "Bio2RDF",
+    "email": "bio2rdf@googlegroups.com"
+  },
+  "keywords": [
+    "bio2rdf",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-rdfs",
+    "license-metadata",
+    "lifesciences",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-third-party",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-ensembl",
+      "value": 1195975
+    },
+    {
+      "target": "bio2rdf-genbank",
+      "value": 68498274
+    },
+    {
+      "target": "bio2rdf-gi",
+      "value": 95540862
+    },
+    {
+      "target": "bio2rdf-go",
+      "value": 22789
+    },
+    {
+      "target": "bio2rdf-ipi",
+      "value": 257120
+    },
+    {
+      "target": "bio2rdf-iproclass",
+      "value": 74181457
+    },
+    {
+      "target": "bio2rdf-ncbigene",
+      "value": 13878455
+    },
+    {
+      "target": "bio2rdf-omim",
+      "value": 17916
+    },
+    {
+      "target": "bio2rdf-pdb",
+      "value": 247349
+    },
+    {
+      "target": "bio2rdf-pfam",
+      "value": 14839
+    },
+    {
+      "target": "bio2rdf-pirsf",
+      "value": 11766
+    },
+    {
+      "target": "bio2rdf-pubmed",
+      "value": 974573
+    },
+    {
+      "target": "bio2rdf-refseq",
+      "value": 20380489
+    },
+    {
+      "target": "bio2rdf-taxonomy",
+      "value": 484101
+    },
+    {
+      "target": "bio2rdf-unigene",
+      "value": 506685
+    },
+    {
+      "target": "bio2rdf-uniparc",
+      "value": 31486979
+    },
+    {
+      "target": "bio2rdf-uniprot",
+      "value": 56555610
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.1.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.1.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.2.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.2.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.3.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.3.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.4.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.4.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.5.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.5.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.6.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.6.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.7.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.7.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.8.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.8.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.9.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.9.nq.gz"
+    },
+    {
+      "title": "Download (n-quads, gzipped)",
+      "description": "Download iproclass.10.nq.gz (n-quads, gzipped)",
+      "media_type": "application/x-nquads",
+      "download_url": "http://download.bio2rdf.org/current/iproclass/iproclass.10.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download page (n-quads, gz compressed)",
+      "description": "Download",
+      "access_url": "http://download.bio2rdf.org/current/iproclass/"
+    },
+    {
+      "title": "Dataset description (HTML)",
+      "description": "Dataset description (HTML)",
+      "media_type": "HTML",
+      "access_url": "http://download.bio2rdf.org/current/iproclass/iproclass.html"
+    },
+    {
+      "title": "Dataset description (RDF)",
+      "description": "Dataset description (RDF)",
+      "media_type": "meta/void",
+      "access_url": "http://download.bio2rdf.org/current/iproclass/bio2rdf-iproclass.nq"
+    },
+    {
+      "title": "OWL Schema",
+      "description": "OWL Schema",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://download.bio2rdf.org/release/3/iproclass/iproclass.schema.owl"
+    },
+    {
+      "title": "Mappings (SIO)",
+      "description": "Mappings (SIO)",
+      "media_type": "mapping/owl",
+      "access_url": "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/iproclass/bio2rdf_iproclass_sio_mapping.owl"
+    },
+    {
+      "title": "Semantic Web Sitemap",
+      "description": "Semantic Web Sitemap",
+      "media_type": "meta/sitemap",
+      "access_url": "http://download.bio2rdf.org/release/3/iproclass/sitemap.xml"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource (RDF)",
+      "description": "Example resource (RDF)",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/iproclass:P69380"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "description": "SPARQL endpoint",
+      "access_url": "http://iproclass.bio2rdf.org/sparql"
+    }
+  ]
+}

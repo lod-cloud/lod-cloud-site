@@ -1,0 +1,71 @@
+{
+  "identifier": "Hoa_Thinh_Phat",
+  "title": "Hoa Thịnh Phát",
+  "description": {
+    "en": "Hoa Thịnh Phát là đơn vị đi đầu trong lĩnh vực cung cấp và thi công các loại cỏ nhân tạo cho sân vườn, xây hồ bơi, thiết kế hồ cá koi, sân bóng đá, cát trắng sân chơi trẻ em,… chuyên nghiệp nhất cả nước."
+  },
+  "domain": "social_networking",
+  "website": "https://hoathinhphatgroup.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "Hoa Thịnh Phát",
+  "triples": 17,
+  "image": "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_162,h_111/http://hoathinhphatgroup.com/wp-content/uploads/2020/08/logohoathinhphat2-2.png",
+  "contact_point": {
+    "name": "Hoa Thịnh Phát",
+    "email": "trangtrihoathinhphat@gmail.com"
+  },
+  "keywords": [
+    "cỏ nhân tạo",
+    "xây hồ bơi",
+    "thiết bị hồ bơi",
+    "tường cây giả",
+    "cỏ nhân tạo sân vườn",
+    "thi công hồ cá koi",
+    "cát trắng sân chơi",
+    "cát trắng tự nhiên"
+  ],
+  "full_download": [
+    {
+      "title": "XML Sitemap",
+      "description": "XML Sitemap",
+      "download_url": "https://hoathinhphatgroup.com/sitemap_index.xml"
+    },
+    {
+      "title": "Tường cây  giả",
+      "description": "Tường cây giả đang là sự lựa chọn hàng đầu trong thiết kế nội thất, tiểu cảnh sân vườn hiện nay. Thay vì đầu tư vuờn lá cây thật tốn nhiều thời gian, công sức chăm sóc, chi phí thì ngày nay người ta sẽ chọn thi công tường lá cây giả để mang không gian xanh vào trong ngôi nhà một cách đơn giản nhất.",
+      "download_url": "https://hoathinhphatgroup.com/tuong-cay-gia/"
+    },
+    {
+      "title": "Giới Thiệu",
+      "description": "Trong hơn 3 nằm gầy dựng thương hiệu, công ty cỏ nhân tạo Hoa Thịnh Phát đã thực sự chinh phục được sự hài lòng của người tiêu dùng qua sản phẩm thật chất lượng, dịch vụ tuyệt vời, giá thành hợp lý mà còn bởi chế độ bảo hành siêu lâu.",
+      "download_url": "https://hoathinhphatgroup.com/gioi-thieu/"
+    },
+    {
+      "title": "Cỏ nhân tạo",
+      "description": "Đặc điểm cỏ nhân tạo sân vườn: Tiện lợi, đẹp, bền, không mất công chăm sóc nên được sử dụng với các mục đích để làm sân bóng đá, sân bóng chày, sân tenis, trang trí sân vườn, sân chơi công viên",
+      "download_url": "https://hoathinhphatgroup.com/co-nhan-tao/"
+    },
+    {
+      "title": "Cát trắng tự nhiên",
+      "description": "Trang trí nhà cửa, sân chơi,  vườn cây cảnh, quán cà phê, sân golf… bằng CÁT TRẮNG sân chơi đã trở thành trào lưu thịnh hành trong những năm gần đây.",
+      "download_url": "https://hoathinhphatgroup.com/cat-trang-tu-nhien/"
+    },
+    {
+      "title": "Xây hồ bơi",
+      "description": "Xây hồ bơi gia đình đang là mô hình được nhiều người đón nhận trong không gian sống của mình. Một thực tế cho thấy, hiện nay các gia đình có điều kiện họ thi công bể bơi luôn trong nhà của mình, ở sân vườn hoặc sân thượng, hoặc 1 góc cạnh nào đó của không gian",
+      "download_url": "https://hoathinhphatgroup.com/chi-phi-xay-ho-boi-gia-dinh/#gia_dinh"
+    },
+    {
+      "title": "Thiết bị hồ bơi",
+      "description": "Một hồ bơi tốt phải được trang bị những thiết bị chất lượng và phù hợp. Bạn đang đắn đo không biết nên sắm sửa thiết bị hồ bơi giá tốt ở đâu? Vậy còn trần trừ gì mà không tìm đến Hoa Thịnh Phát – đơn vị thiết kế, xây dựng, cung cấp mọi trang thiết bị cần thiết cho hồ bơi nhà bạn trọn gói nhất.",
+      "download_url": "https://hoathinhphatgroup.com/thiet-bi-ho-boi/"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Liên hệ",
+      "description": "Liên hệ",
+      "access_url": "https://hoathinhphatgroup.com/lien-he/"
+    }
+  ]
+}

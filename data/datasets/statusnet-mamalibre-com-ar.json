@@ -1,0 +1,45 @@
+{
+  "identifier": "statusnet-mamalibre-com-ar",
+  "title": "statusnet-mamalibre-com-ar",
+  "description": {
+    "en": "StatusNet instance hosted at http://mamalibre.com.ar"
+  },
+  "domain": "social_networking",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-bio",
+    "format-foaf",
+    "format-pos",
+    "format-rdf",
+    "format-sioc",
+    "lodcloud-diagram-2014-08-30",
+    "social web"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 2
+    },
+    {
+      "target": "statusnet-legadolibre-com-ar",
+      "value": 5
+    },
+    {
+      "target": "statusnet-opensim-chat-eu",
+      "value": 4
+    },
+    {
+      "target": "statusnet-quitter-se",
+      "value": 4
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://statusnet.mamalibre.com.ar/parnassus/foaf"
+    }
+  ]
+}

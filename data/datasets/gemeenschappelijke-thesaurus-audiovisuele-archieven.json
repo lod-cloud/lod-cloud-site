@@ -1,0 +1,77 @@
+{
+  "identifier": "gemeenschappelijke-thesaurus-audiovisuele-archieven",
+  "title": "Gemeenschappelijke Thesaurus Audiovisuele Archieven ? Common Thesaurus Audiovisual Archives",
+  "description": {
+    "en": "The Netherlands Institute for Sound and Vision\r\n<http://portal.beeldengeluid.nl/> is the Dutch archive for public broadcast television. They employ the GTAA, which is a Dutch acronym for Common Thesaurus [for] Audiovisual Archives, to index and disclose their\r\naudiovisaul documents.\r\n\r\nThe GTAA closely follows the ISO-2788 standard for\r\nthesaurus structures. The thesaurus consists of several facets for describing TV programs: subjects; people mentioned; named entities (Corporation names, music bands etc); locations; genres; makers and presentators.\r\n\r\nThe GTAA contains approximately 160.000 terms: ~3800 Subjects, ~97.000 Persons, ~27.000 Names, ~14.000 Locations, 113 Genres and ~18.000 Makers, and is continually updated as new concepts emerge on TV."
+  },
+  "domain": "media",
+  "website": "http://data.beeldengeluid.nl/gtaa/GTAA",
+  "license": "http://www.opendefinition.org/licenses/odc-odbl",
+  "namespace": "http://data.beeldengeluid.nl/gtaa/",
+  "triples": 992797,
+  "contact_point": {
+    "name": "Johan Oomen",
+    "email": "joomen@beeldengeluid.nl"
+  },
+  "keywords": [
+    "deref-vocab",
+    "digital-humanities",
+    "format-rdf",
+    "format-skos",
+    "gtaa",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "media",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "schemata",
+    "thesaurus"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 25844
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download zipped turtle dump",
+      "description": "Download RDF Turtle (Old version 25 aug 2010, hosted at VUA)",
+      "media_type": "GZ",
+      "access_url": "http://semanticweb.cs.vu.nl/lod/beeldengeluid/GTAA-25aug2010.ttl.gz"
+    },
+    {
+      "title": "OpenSKOS landing page (to access the RDF Data)",
+      "description": "The OpenSKOS landing page for the GTAA, this page details the (RDF) API as well as the OAI-PMH interface.",
+      "access_url": "http://data.beeldengeluid.nl/"
+    },
+    {
+      "title": "OAI PMH API",
+      "description": "The OpenSKOS project supports 2 metadataPrefixes: oai_dc and oai_rdf.\r\n\r\nOpenSKOS implements a Service Provider:\r\n\r\nIdentify:\r\n/oai-pmh?verb=Identify\r\nList metadataPrefixes:\r\n/oai-pmh?verb=ListMetadataFormats\r\nList ConceptSchemes (as OAI-PMH \"sets\"):\r\n/oai-pmh?verb=ListSets\r\nList Concepts:\r\n/oai-pmh?verb=ListRecords&metadataPrefix=oai_dc\r\nList Concepts modified since 2011-09-01 12:00:00:\r\n/oai-pmh?verb=ListRecords&metadataPrefix=oai_dc&from=2011-09-01T12:00:00Z\r\nList Concepts modified between 2011-09-01 and 2011-09-10:\r\n/oai-pmh?verb=ListRecords&metadataPrefix=oai_dc&from=2011-09-01&until=2011-09-10\r\nList Concepts in from the \"Gemeenschappelijke Thesaurus Audiovisuele Archieven\" (setSpec 4):\r\n/oai-pmh?verb=ListRecords&metadataPrefix=oai_dc&set=4\r\nGet Concepts \"A.G. Wildervankkanaal\" (uuid 238c8bfb-8915-0379-b52e-0885bfc9e500):\r\n/oai-pmh?verb=GetRecord&metadataPrefix=oai_dc&identifier=238c8bfb-8915-0379-b52e-0885bfc9e500",
+      "media_type": "text/xml; charset=utf8",
+      "access_url": "http://data.beeldengeluid.nl/oai-pmh?verb=ListRecords&metadataPrefix=oai_dc"
+    }
+  ],
+  "example": [
+    {
+      "description": "Linked data entry point hosted at VUA",
+      "media_type": "application/ld+json",
+      "access_url": "http://data.beeldengeluid.nl/gtaa/GTAA"
+    },
+    {
+      "title": "Example: Person (Ron Zwerver)",
+      "description": "Example (RDF/XML)",
+      "media_type": "application/ld+json",
+      "access_url": "http://data.beeldengeluid.nl/gtaa/173390.rdf"
+    },
+    {
+      "title": "Example HTML: Person (Ron Zwerver)",
+      "description": "OpenSKOS HTML landing page",
+      "media_type": "application/ld+json",
+      "access_url": "http://data.beeldengeluid.nl/gtaa/173390"
+    }
+  ]
+}

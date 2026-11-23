@@ -1,0 +1,37 @@
+{
+  "identifier": "bioportal-emap",
+  "title": "Mouse gross anatomy and development",
+  "description": {
+    "en": "A structured controlled vocabulary of stage-specific anatomical structures of the mouse (Mus)."
+  },
+  "website": "http://bioportal.bioontology.org/ontologies/1010",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 96117,
+  "contact_point": {
+    "name": "EMAP Administrators"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/45267?apikey=BP_API_KEY"
+    }
+  ]
+}

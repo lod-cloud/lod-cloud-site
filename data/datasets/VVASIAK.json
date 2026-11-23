@@ -1,0 +1,21 @@
+{
+  "identifier": "VVASIAK",
+  "title": "VVASIAK - Sklepy Internetowe, Strony WWW i Wideo dla Firm",
+  "description": {
+    "en": "Sklepy Internetowe, Strony WWW i Wideo dla Firm – Profesjonalna Obsługa Online ... VVASIAK oferuje kompleksowe usługi: tworzenie sklepów internetowych dla firm SEO"
+  },
+  "domain": "cross_domain",
+  "website": "https://vvasiak.pl",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "Kamila",
+    "email": "kamila@vvasiak.pl"
+  },
+  "keywords": [
+    "Strony Internetowe",
+    "Strony WWW",
+    "Wideo",
+    "Sklepy Internetowe"
+  ]
+}

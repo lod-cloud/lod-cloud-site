@@ -1,0 +1,71 @@
+{
+  "identifier": "statistics-data-gov-uk",
+  "title": "statistics.data.gov.uk",
+  "description": {
+    "en": "Linked data about administrative areas used within UK government official statistics.\r\n\r\nThe various areas are typed using classes in the following namespaces:\r\n\r\n* http://data.ordnancesurvey.co.uk/ontology/admingeo/\r\n* http://statistics.data.gov.uk/def/administrative-geography/\r\n* http://statistics.data.gov.uk/def/geography/"
+  },
+  "domain": "government",
+  "website": "http://statistics.data.gov.uk/",
+  "namespace": "http://statistics.data.gov.uk/id/",
+  "triples": 343733,
+  "contact_point": {
+    "name": "Data.gov.uk Team",
+    "email": "team@data.gov.uk"
+  },
+  "keywords": [
+    "constituencies",
+    "countries",
+    "country-uk",
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "format-skos",
+    "geography",
+    "government",
+    "local-authorities",
+    "local-education-authorities",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "regions",
+    "ukgov",
+    "wards"
+  ],
+  "links": [
+    {
+      "target": "ordnance-survey-linked-data",
+      "value": 32284
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download (N-Triples)",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://source.data.gov.uk/data/statistics/administrative-geography/2009-11-20/admin-geo.tar.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Search API",
+      "media_type": "api/search",
+      "access_url": "http://services.data.gov.uk/statistics/search"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example local authority district",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://statistics.data.gov.uk/doc/local-authority-district/47UG.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://services.data.gov.uk/statistics/sparql"
+    }
+  ]
+}

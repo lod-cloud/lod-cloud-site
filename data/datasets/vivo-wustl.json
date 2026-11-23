@@ -1,0 +1,43 @@
+{
+  "identifier": "vivo-wustl",
+  "title": "VIVO WUSTL",
+  "description": {
+    "en": "VIVO is a research-focused discovery tool that enables collaboration among scientists across all disciplines.\r\n\r\nBrowse or search information on people, departments, courses, grants, and publications."
+  },
+  "domain": "publications",
+  "website": "http://vivo.wustl.edu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 161000,
+  "contact_point": {
+    "name": "VIVO"
+  },
+  "keywords": [
+    "deref-vocab",
+    "education",
+    "format-rdf",
+    "format-rdfs",
+    "format-vitro",
+    "lod",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "science",
+    "social-networks",
+    "vivo"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 58
+    }
+  ],
+  "other_download": [
+    {
+      "title": "2012-04-09T135834/ProductionRDF.n3",
+      "media_type": "text/turtle",
+      "access_url": "https://commondatastorage.googleapis.com/ckannet-storage/2012-04-09T135834/ProductionRDF.n3"
+    }
+  ]
+}

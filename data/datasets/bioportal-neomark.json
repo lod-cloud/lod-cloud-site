@@ -1,0 +1,283 @@
+{
+  "identifier": "bioportal-neomark",
+  "title": "Neomark Oral Cancer Ontology",
+  "description": {
+    "en": "Ontology that describes the medical information necessary for early detection of the oral cancer reoccurrence extracted from the NeoMark Project."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1686",
+  "triples": 3223,
+  "contact_point": {
+    "name": "Dario Salvi"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-acgt",
+      "value": 22
+    },
+    {
+      "target": "bioportal-aero",
+      "value": 28
+    },
+    {
+      "target": "bioportal-bdo",
+      "value": 11
+    },
+    {
+      "target": "bioportal-bfo",
+      "value": 12
+    },
+    {
+      "target": "bioportal-birnlex",
+      "value": 18
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 41
+    },
+    {
+      "target": "bioportal-cao",
+      "value": 15
+    },
+    {
+      "target": "bioportal-cheminf",
+      "value": 15
+    },
+    {
+      "target": "bioportal-clo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-cogpo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-cpr",
+      "value": 16
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ddi",
+      "value": 15
+    },
+    {
+      "target": "bioportal-doid",
+      "value": 21
+    },
+    {
+      "target": "bioportal-ecg",
+      "value": 16
+    },
+    {
+      "target": "bioportal-efo",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ero",
+      "value": 20
+    },
+    {
+      "target": "bioportal-flu",
+      "value": 16
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 12
+    },
+    {
+      "target": "bioportal-hpio",
+      "value": 17
+    },
+    {
+      "target": "bioportal-iao",
+      "value": 17
+    },
+    {
+      "target": "bioportal-icd10",
+      "value": 35
+    },
+    {
+      "target": "bioportal-icd10cm",
+      "value": 35
+    },
+    {
+      "target": "bioportal-icd9cm",
+      "value": 53
+    },
+    {
+      "target": "bioportal-icpc2p",
+      "value": 11
+    },
+    {
+      "target": "bioportal-ido",
+      "value": 17
+    },
+    {
+      "target": "bioportal-idobru",
+      "value": 25
+    },
+    {
+      "target": "bioportal-ino",
+      "value": 12
+    },
+    {
+      "target": "bioportal-lnc",
+      "value": 24
+    },
+    {
+      "target": "bioportal-mdr",
+      "value": 66
+    },
+    {
+      "target": "bioportal-mesh-owl",
+      "value": 25
+    },
+    {
+      "target": "bioportal-mf",
+      "value": 15
+    },
+    {
+      "target": "bioportal-mfoem",
+      "value": 15
+    },
+    {
+      "target": "bioportal-miro",
+      "value": 12
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 21
+    },
+    {
+      "target": "bioportal-natpro",
+      "value": 56
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 73
+    },
+    {
+      "target": "bioportal-nemo_x1",
+      "value": 17
+    },
+    {
+      "target": "bioportal-neomarkontology",
+      "value": 12
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 62
+    },
+    {
+      "target": "bioportal-nif_cell",
+      "value": 16
+    },
+    {
+      "target": "bioportal-nif_dysfunction",
+      "value": 18
+    },
+    {
+      "target": "bioportal-npo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-oae",
+      "value": 13
+    },
+    {
+      "target": "bioportal-obi",
+      "value": 23
+    },
+    {
+      "target": "bioportal-odgi",
+      "value": 20
+    },
+    {
+      "target": "bioportal-ogi",
+      "value": 14
+    },
+    {
+      "target": "bioportal-ogms",
+      "value": 22
+    },
+    {
+      "target": "bioportal-omrse",
+      "value": 15
+    },
+    {
+      "target": "bioportal-ontodm",
+      "value": 15
+    },
+    {
+      "target": "bioportal-opl",
+      "value": 14
+    },
+    {
+      "target": "bioportal-rcd",
+      "value": 78
+    },
+    {
+      "target": "bioportal-rid",
+      "value": 11
+    },
+    {
+      "target": "bioportal-rnao",
+      "value": 12
+    },
+    {
+      "target": "bioportal-sdo",
+      "value": 27
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 149
+    },
+    {
+      "target": "bioportal-sopharm",
+      "value": 56
+    },
+    {
+      "target": "bioportal-teo",
+      "value": 15
+    },
+    {
+      "target": "bioportal-tmo",
+      "value": 18
+    },
+    {
+      "target": "bioportal-vo",
+      "value": 17
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46492?apikey=BP_API_KEY"
+    }
+  ]
+}

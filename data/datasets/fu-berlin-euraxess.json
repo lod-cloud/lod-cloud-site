@@ -1,0 +1,45 @@
+{
+  "identifier": "fu-berlin-euraxess",
+  "title": "EURAXESS - Researchers in Motion",
+  "description": {
+    "en": "EURAXESS Jobs is a website for research job vacancies, funding opportunities and fellowships throughout Europe."
+  },
+  "website": "http://www4.wiwiss.fu-berlin.de/euraxess/",
+  "namespace": "http://www4.wiwiss.fu-berlin.de/euraxess/resource/",
+  "triples": 2110003,
+  "contact_point": {
+    "name": "Anja Jentzsch",
+    "email": "anja@anjeve.de"
+  },
+  "keywords": [
+    "business",
+    "deref-vocab",
+    "government",
+    "latc",
+    "lod",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 200
+    },
+    {
+      "target": "lexvo",
+      "value": 200
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/euraxess/resource/Job/19451361"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql endpoint",
+      "access_url": "http://www4.wiwiss.fu-berlin.de/euraxess/sparql"
+    }
+  ]
+}

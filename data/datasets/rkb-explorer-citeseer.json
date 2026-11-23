@@ -1,0 +1,166 @@
+{
+  "identifier": "rkb-explorer-citeseer",
+  "title": "CiteSeer (Research Index) (RKBExplorer)",
+  "domain": "publications",
+  "website": "http://citeseer.rkbexplorer.com/",
+  "namespace": "http://citeseer.rkbexplorer.com/id/",
+  "triples": 8146852,
+  "contact_point": {
+    "name": "Hugh Glaser",
+    "email": "hg@ecs.soton.ac.uk"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-dc",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "publications",
+    "published-by-third-party",
+    "void-sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-acm",
+      "value": 187741
+    },
+    {
+      "target": "rkb-explorer-budapest",
+      "value": 57
+    },
+    {
+      "target": "rkb-explorer-courseware",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-curriculum",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-dblp",
+      "value": 231920
+    },
+    {
+      "target": "rkb-explorer-deploy",
+      "value": 1
+    },
+    {
+      "target": "rkb-explorer-dotac",
+      "value": 12572
+    },
+    {
+      "target": "rkb-explorer-eprints",
+      "value": 104693
+    },
+    {
+      "target": "rkb-explorer-eurecom",
+      "value": 3
+    },
+    {
+      "target": "rkb-explorer-ibm",
+      "value": 218
+    },
+    {
+      "target": "rkb-explorer-ieee",
+      "value": 932
+    },
+    {
+      "target": "rkb-explorer-irit",
+      "value": 528
+    },
+    {
+      "target": "rkb-explorer-kisti",
+      "value": 149281
+    },
+    {
+      "target": "rkb-explorer-laas",
+      "value": 99
+    },
+    {
+      "target": "rkb-explorer-newcastle",
+      "value": 558
+    },
+    {
+      "target": "rkb-explorer-nsf",
+      "value": 10
+    },
+    {
+      "target": "rkb-explorer-oai",
+      "value": 227149
+    },
+    {
+      "target": "rkb-explorer-pisa",
+      "value": 34
+    },
+    {
+      "target": "rkb-explorer-rae2001",
+      "value": 5022
+    },
+    {
+      "target": "rkb-explorer-resex",
+      "value": 6
+    },
+    {
+      "target": "rkb-explorer-risks",
+      "value": 11
+    },
+    {
+      "target": "rkb-explorer-roma",
+      "value": 23
+    },
+    {
+      "target": "rkb-explorer-southampton",
+      "value": 1763
+    },
+    {
+      "target": "rkb-explorer-ulm",
+      "value": 15
+    },
+    {
+      "target": "rkb-explorer-wiki",
+      "value": 16
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 15
+    }
+  ],
+  "other_download": [
+    {
+      "description": "XML Sitemap",
+      "media_type": "text/xml",
+      "access_url": "http://citeseer.rkbexplorer.com/sitemap.xml"
+    },
+    {
+      "description": "voiD description",
+      "media_type": "meta/void",
+      "access_url": "http://citeseer.rkbexplorer.com/models/void.ttl"
+    },
+    {
+      "title": "Download (tar gzip of RDF)",
+      "media_type": "application/x-gzip",
+      "access_url": "http://citeseer.rkbexplorer.com/models/dump.tgz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://citeseer.rkbexplorer.com/id/resource-CSP26378"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://citeseer.rkbexplorer.com/sparql/"
+    }
+  ]
+}

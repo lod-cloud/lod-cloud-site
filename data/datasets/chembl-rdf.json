@@ -1,0 +1,55 @@
+{
+  "identifier": "chembl-rdf",
+  "title": "ChEMBL RDF",
+  "description": {
+    "en": "ChEMBL is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs.\r\n\r\nIt is available in RDF form through EMBL-EBI's RDF Platform."
+  },
+  "domain": "life_sciences",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://rdf.ebi.ac.uk/resource/chembl/",
+  "triples": 425304329,
+  "contact_point": {
+    "name": "EMBL-EBI Chemogenomics Team"
+  },
+  "keywords": [
+    "bioinformatics",
+    "cheminformatics",
+    "lifesciences",
+    "linked data",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "vocab-mappings"
+  ],
+  "links": [
+    {
+      "target": "identifiers.org",
+      "value": 93186
+    },
+    {
+      "target": "uniprotkb",
+      "value": 6795
+    }
+  ],
+  "other_download": [
+    {
+      "title": "ChEMBL RDF FTP download",
+      "description": "EMBL-EBI provides bulk downloads for a number of Linked Datasets through its RDF Platform.",
+      "media_type": "text/turtle",
+      "access_url": "ftp://ftp.ebi.ac.uk/pub/databases/RDF/chembl/"
+    },
+    {
+      "title": "ChEMBL VoID description",
+      "access_url": "http://rdf.ebi.ac.uk/dataset/chembl/description"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "ChEMBL SPARQL endpoint",
+      "description": "EMBL-EBI provides SPARQL access for a number of datasets through its RDF Platform.",
+      "access_url": "https://www.ebi.ac.uk/rdf/services/chembl/sparql"
+    }
+  ]
+}

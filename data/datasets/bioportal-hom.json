@@ -1,0 +1,36 @@
+{
+  "identifier": "bioportal-hom",
+  "title": "Ontology of homology and related concepts in biology",
+  "description": {
+    "en": "This ontology represents concepts related to homology, as well as other concepts used to describe similarity and non-homology."
+  },
+  "website": "http://bioportal.bioontology.org/ontologies/1328",
+  "triples": 1314,
+  "contact_point": {
+    "name": "Julien Roux"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-obo",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/42117?apikey=BP_API_KEY"
+    }
+  ]
+}

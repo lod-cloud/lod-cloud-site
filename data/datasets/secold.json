@@ -1,0 +1,102 @@
+{
+  "identifier": "secold",
+  "title": "Source Code Ecosystem Linked Data",
+  "description": {
+    "en": "SECOLD contains structured source code facts from open source projects. It is developed to service source code mining, search and traceability research and tools by providing structural source code search over open source code on the Internet.\r\n\r\nIt has 1.5 billion facts extracted from more than 1 million source code file. SECOLD is connected to DBpedia, freebase and opencyc.\r\n\r\nIt extracts fine-grained facts from source code in several levels (e.g. presentation, syntax, and semantic)."
+  },
+  "website": "http://aseg.cs.concordia.ca/secold",
+  "namespace": "http://aseg.cs.concordia.ca/secold/resource/",
+  "triples": 1500000000,
+  "contact_point": {
+    "name": "Iman Keivanloo",
+    "email": "keivanloo@ieee.org"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "open_source",
+    "published-by-producer",
+    "software",
+    "source_code",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 2100
+    },
+    {
+      "target": "freebase",
+      "value": 25
+    },
+    {
+      "target": "opencyc",
+      "value": 2000
+    }
+  ],
+  "full_download": [
+    {
+      "description": "All triples of SECOLD Version 001 (Compressed)",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://aseg.cs.concordia.ca/secold/download/static/secold_v_001.tar"
+    }
+  ],
+  "other_download": [
+    {
+      "description": "RDF Schema (SOCON)",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://aseg.cs.concordia.ca/ontologies/2010/11/socon.rdf"
+    },
+    {
+      "description": "RDF Schema (VERON)",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://aseg.cs.concordia.ca/ontologies/2010/11/veron.rdf"
+    },
+    {
+      "description": "RDF Schema (METON)",
+      "media_type": "meta/rdf-schema",
+      "access_url": "http://aseg.cs.concordia.ca/ontologies/2010/11/meton.rdf"
+    },
+    {
+      "description": "Sparql Endpoint (Ajax-based GUI)",
+      "access_url": "http://aseg.cs.concordia.ca/secold/sparql/"
+    },
+    {
+      "description": "SECOLD download Page",
+      "media_type": "text/html",
+      "access_url": "http://aseg.cs.concordia.ca/secold/download"
+    }
+  ],
+  "example": [
+    {
+      "description": "Link to an example data item (a Java type) within the data set (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aseg.cs.concordia.ca/secold/download/static/secold_001_samples/sample_fqn_java.util.Collection.rdf"
+    },
+    {
+      "description": "Link to an example data item (a software project) within the data set (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aseg.cs.concordia.ca/secold/download/static/secold_001_samples/sample_project_apache_lucene.rdf"
+    },
+    {
+      "description": "Link to an example data item (a project snapshot) within the data set (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aseg.cs.concordia.ca/secold/download/static/secold_001_samples/sample_snapshot_of_lucene_project.rdf"
+    },
+    {
+      "description": "Link to an example data item (a source code file) within the data set (RDF/XML)",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://aseg.cs.concordia.ca/secold/download/static/secold_001_samples/sample_variation_of_a_java_class.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "Sparql Endpoint (No GUI)",
+      "access_url": "http://aseg.cs.concordia.ca/secold/sparqlendpoint"
+    }
+  ]
+}

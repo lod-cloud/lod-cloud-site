@@ -1,0 +1,143 @@
+{
+  "identifier": "semanlink",
+  "title": "semanlink",
+  "domain": "user_generated",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "format-dcterm",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-skos",
+    "lodcloud-diagram-2014-08-30",
+    "non-deref-vocab",
+    "usergeneratedcontent"
+  ],
+  "links": [
+    {
+      "target": "apache",
+      "value": 47
+    },
+    {
+      "target": "bbc-music",
+      "value": 2
+    },
+    {
+      "target": "bbc-wildlife-finder",
+      "value": 2
+    },
+    {
+      "target": "codehaus",
+      "value": 2
+    },
+    {
+      "target": "data-bnf-fr",
+      "value": 1
+    },
+    {
+      "target": "datahub",
+      "value": 4
+    },
+    {
+      "target": "dbpedia",
+      "value": 7
+    },
+    {
+      "target": "dbpedia-fr",
+      "value": 1
+    },
+    {
+      "target": "eea",
+      "value": 2
+    },
+    {
+      "target": "eea-rod",
+      "value": 8
+    },
+    {
+      "target": "eunis",
+      "value": 4
+    },
+    {
+      "target": "gnu-licenses",
+      "value": 3
+    },
+    {
+      "target": "linked-open-vocabularies-lov",
+      "value": 4
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 73
+    },
+    {
+      "target": "openlinksw-dataspaces",
+      "value": 81
+    },
+    {
+      "target": "personal-homepages",
+      "value": 796
+    },
+    {
+      "target": "prefix-cc",
+      "value": 3
+    },
+    {
+      "target": "princeton-library-findingaids",
+      "value": 10
+    },
+    {
+      "target": "productdb",
+      "value": 3
+    },
+    {
+      "target": "productontology",
+      "value": 2
+    },
+    {
+      "target": "pub-bielefeld",
+      "value": 4
+    },
+    {
+      "target": "semantic-web-dog-food",
+      "value": 14
+    },
+    {
+      "target": "semanticweb-org",
+      "value": 12
+    },
+    {
+      "target": "southampton-ecs-eprints",
+      "value": 9
+    },
+    {
+      "target": "stw-thesaurus-for-economics",
+      "value": 7
+    },
+    {
+      "target": "typepad",
+      "value": 13
+    },
+    {
+      "target": "umbel",
+      "value": 1
+    },
+    {
+      "target": "w3c",
+      "value": 560
+    },
+    {
+      "target": "wordpress",
+      "value": 32
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://www.semanlink.net/tag/mp3.rdf"
+    }
+  ]
+}

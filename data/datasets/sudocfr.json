@@ -1,0 +1,72 @@
+{
+  "identifier": "sudocfr",
+  "title": "Sudoc bibliographic data",
+  "description": {
+    "en": "Source : [Sudoc](http://www.sudoc.abes.fr)\r\n\r\nSudoc is the French academic union catalogue, maintained by ABES\r\n\r\nSize : 10 millions bibliographic records\r\n\r\n[Documentation](http://documentation.abes.fr/sudoc/manuels/administration/sudoc_rdf/index.html)\r\n\r\nVocabularies : Dublin Core, FOAF, BIBO, RDA, ISBD, etc.\r\n\r\nLicensing : Licence ouverte / Open licence (http://www.etalab.gouv.fr/pages/Licence_ouverte_Open_licence-5899923.html)"
+  },
+  "domain": "publications",
+  "website": "http://punktokomo.abes.fr/2011/07/04/le-sudoc-sur-le-web-de-donnees/",
+  "namespace": "http://www.sudoc.fr/",
+  "triples": 350000000,
+  "contact_point": {
+    "name": "ABES",
+    "email": "apisudoc@abes.fr"
+  },
+  "keywords": [
+    "bibliographic",
+    "format-rdf",
+    "format-skos",
+    "france",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "provenance-metadata",
+    "publications",
+    "published-by-producer",
+    "rdf",
+    "sudoc",
+    "unioncatalogue"
+  ],
+  "links": [
+    {
+      "target": "dewey_decimal_classification",
+      "value": 2500000
+    },
+    {
+      "target": "idreffr",
+      "value": 20000000
+    },
+    {
+      "target": "lexvo",
+      "value": 9000000
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Resource URI with 303 redirection",
+      "access_url": "http://www.sudoc.fr/012367206/id"
+    },
+    {
+      "description": "Sitemap",
+      "media_type": "text/plain; charset=UTF-8",
+      "access_url": "http://www.sudoc.fr/noticesbiblio/sitemap.txt"
+    }
+  ],
+  "example": [
+    {
+      "description": "a thesis record in RDF/XML",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://www.sudoc.fr/012367206.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sudoc SPARQL endpoint (via Sindice)",
+      "description": "Sudoc is one graph amon Sindice SPARQL endpoint graphs",
+      "access_url": "http://sparql.sindice.com/sparql"
+    }
+  ]
+}

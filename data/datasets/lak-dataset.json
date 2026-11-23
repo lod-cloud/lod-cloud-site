@@ -1,0 +1,64 @@
+{
+  "identifier": "lak-dataset",
+  "title": "Learning Analytics and Knowledge (LAK) Dataset",
+  "description": {
+    "en": "The LAK dataset provides access to structured fulltext and metadata from key research publications in the field of learning analytics and educational data mining (see http://lak.linkededucation.org for details). It is regularly updated with data, for instance, from the LAK or EDM Conference series."
+  },
+  "domain": "cross_domain",
+  "website": "http://www.solaresearch.org/resources/lak-dataset/",
+  "namespace": "http://data.linkededucation.org/resource/",
+  "contact_point": {
+    "name": "LAK Data Team",
+    "email": "admin@data.linkededucation.org"
+  },
+  "keywords": [
+    "bibliographic data",
+    "crossdomain",
+    "deref-vocab",
+    "education",
+    "format-http",
+    "format-rdf",
+    "l3s",
+    "learning-analytics",
+    "lod",
+    "published-by-producer",
+    "sparql",
+    "sparql-endpoint",
+    "topic.crossdomain"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 150
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Dump (NT)",
+      "download_url": "http://lak.linkededucation.org/lak/LAK-DATASET-DUMP.nt.zip"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Schema",
+      "access_url": "http://lak.linkededucation.org/schema/lak.rdf"
+    },
+    {
+      "title": "Dump (RDF/XML)",
+      "access_url": "http://lak.linkededucation.org/lak/LAK-DATASET-DUMP.rdf.zip"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://data.linkededucation.org/resource/lak/conference/lak2013/paper/93"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://data.linkededucation.org/request/lak-conference/sparql"
+    }
+  ]
+}

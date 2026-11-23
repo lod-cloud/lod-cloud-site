@@ -1,0 +1,51 @@
+{
+  "identifier": "dbpedia-spotlight-nif-ner-corpus",
+  "title": "DBpedia Spotlight NIF NER Corpus",
+  "description": {
+    "en": "Based on P. N. Mendes, M. Jakob, A. García-Silva, and C. Bizer. DBpedia Spotlight: shedding light on the web of documents. In Proc. of the 7th Int. Conf. on Semantic Systems, 2011.\r\n\r\nIt contains 60 natural language sentences from ten different New York Times articles with overall 249 annotated DBpedia entities, i. e. the entities are not explicitely bound to mentions within the texts, which causes a certain lack of clarity. Therefore, we (in all conscience) retroactively have allocated the entities to their positions within the texts.\r\nThe entities dbp:Markup_Language and dbp:PBC_CSKA_Moscow could not be linked in the texts, since there was also a more specific entity enlisted occupying their solely possible location, e. g. hypertext markup language has been annotated with dbp:HTML rather than dbp:Markup_language."
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 3425,
+  "contact_point": {
+    "name": "Magnus Knuth",
+    "email": "magnus.knuth\"at\"hpi.uni-potsdam.de"
+  },
+  "keywords": [
+    "dbpedia",
+    "evaluatio",
+    "linguistic",
+    "linguistics",
+    "lod",
+    "ner",
+    "nif",
+    "spotlight",
+    "training"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 325
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Complete DBpedia Spotlight corpus",
+      "description": "Complete Corpus in turtle format",
+      "media_type": "text/plain",
+      "access_url": "http://www.yovisto.com/labs/ner-benchmarks/data/dbpedia-spotlight-nif.ttl"
+    },
+    {
+      "title": "Documentation paper",
+      "description": "Title: Statistical Analyses of Named Entity Disambiguation Benchmarks\r\n\r\nAuthors: Nadine Steinmetz, Magnus Knuth, and Harald Sack\r\n\r\nIn: 1st Workshop on NLP&DBpedia 2013 (in conjunction with ISWC 2013), 2013",
+      "media_type": "application/pdf",
+      "access_url": "http://ceur-ws.org/Vol-1064/Steinmetz_Statistical.pdf"
+    },
+    {
+      "title": "DataID",
+      "description": "Metadata description of the corpus",
+      "media_type": "text/turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-10-29T16:26:34.291Z/dataid.ttl"
+    }
+  ]
+}

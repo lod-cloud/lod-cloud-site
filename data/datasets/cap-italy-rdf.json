@@ -1,0 +1,57 @@
+{
+  "identifier": "cap-italy-rdf",
+  "title": "Postal codes Italy (LinkedOpenData.it)",
+  "description": {
+    "en": "List of postal codes in Italy. Includes street names, city and administrative regions."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.linkedopendata.it/cap/resource/",
+  "triples": 436603,
+  "contact_point": {
+    "name": "Linkedopendata.it",
+    "email": "info@linkedopendata.it"
+  },
+  "keywords": [
+    "cap",
+    "country.it",
+    "deref-vocab",
+    "format-rdf",
+    "format-vcard",
+    "geographic",
+    "italy",
+    "license-metadata",
+    "linkeddata",
+    "lod",
+    "lodcloud.nolinks",
+    "lodcloud.unconnected",
+    "postal-code",
+    "provenance-metadata",
+    "published-by-producer",
+    "void-sparql-endpoint"
+  ],
+  "other_download": [
+    {
+      "description": "RDF dump",
+      "media_type": "RDF",
+      "access_url": "http://dump.linkedopendata.it/cap"
+    },
+    {
+      "description": "Void description",
+      "media_type": "meta/void",
+      "access_url": "http://void.linkedopendata.it/cap"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://data.linkedopendata.it/cap/resource/ANCONA-VIA_ACHILLE_BARILATTI"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.linkedopendata.it/cap"
+    }
+  ]
+}

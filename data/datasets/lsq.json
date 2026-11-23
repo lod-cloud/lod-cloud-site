@@ -1,0 +1,28 @@
+{
+  "identifier": "lsq",
+  "title": "LSQ",
+  "description": {
+    "en": "Linked SQ: a Linked Dataset describing SPARQL queries extracted from the logs of a variety of prominent public SPARQL endpoints. We argue that this dataset has a variety of uses for the SPARQL research community, be it, for example, to generate benchmarks on-the-fly by selecting real-world queries with specific characteristics that we describe, or to conduct analysis of what SPARQL (1.1) query features are most often used to interrogate endpoints, or to characterise the behaviour of the different types of agents that are using these endpoints, or to find out what queries agents are asking about a given resource, etc."
+  },
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "triples": 73201194,
+  "contact_point": {
+    "name": "Muhammad Saleem, Intizar Ali, Qaiser Mehmood, Aidan Hogan, Axel-Cyrille Ngonga Ngomo"
+  },
+  "keywords": [
+    "lod"
+  ],
+  "other_download": [
+    {
+      "title": "Home Page",
+      "description": "Project home page",
+      "access_url": "http://aksw.github.io/LSQ/"
+    },
+    {
+      "title": "RDF Representation",
+      "description": "A sample RDF representation of a query",
+      "media_type": "turtle",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2015-05-04T11:04:52.323Z/sample-rdf.txt"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "identifier": "Thinkphile",
+  "title": "ThinkPhile (Publisher | Blog , Content ,News , and Media Website)",
+  "description": {
+    "en": "ThinkPhilecom is an online publishing Blog ,Content ,News and Media Platform . Helping you realize BIG things for your blog & side-hustle! Served with a complimentary side of snark and a smile.��"
+  },
+  "domain": "media",
+  "website": "http://www.thinkphile.com",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 2,
+  "image": "https://ibb.co/mS5RbJG",
+  "contact_point": {
+    "name": "thinkphile",
+    "email": "contact@thinkphile.com"
+  },
+  "keywords": [
+    "Publisher",
+    "blog",
+    "blogger",
+    "content",
+    "news",
+    "media website",
+    "website",
+    "news and media"
+  ],
+  "links": [
+    {
+      "target": "SocialLink",
+      "value": 1
+    }
+  ]
+}

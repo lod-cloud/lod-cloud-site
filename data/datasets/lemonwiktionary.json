@@ -1,0 +1,62 @@
+{
+  "identifier": "lemonwiktionary",
+  "title": "LemonWiktionary",
+  "description": {
+    "en": "[Lemon](http://www.lemon-model.net) data extracted from Wiktionary"
+  },
+  "domain": "linguistics",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 5000000,
+  "keywords": [
+    "crossdomain",
+    "lemon",
+    "linguistics",
+    "llod",
+    "lod",
+    "wiktionary"
+  ],
+  "links": [
+    {
+      "target": "wiktionary-dbpedia-org",
+      "value": 500000
+    }
+  ],
+  "other_download": [
+    {
+      "title": "French Lexicon URI",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/fr/Lexicon"
+    },
+    {
+      "title": "Dutch Lexicon URI",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/nl/Lexicon"
+    },
+    {
+      "title": "Spanish Lexicon URI",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/es/Lexicon"
+    },
+    {
+      "title": "German Lexicon URI",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/de/Lexicon"
+    },
+    {
+      "title": "Japanese Lexicon URI",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/ja/Lexicon"
+    },
+    {
+      "title": "Zipped Dump",
+      "media_type": "application/x-gzip",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/en/en.nt.gz"
+    },
+    {
+      "title": "Landing Page",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/"
+    }
+  ],
+  "example": [
+    {
+      "title": "English Lexicon URI",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://lemon-model.net/lexica/wiktionary_en/en/Lexicon"
+    }
+  ]
+}

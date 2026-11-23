@@ -1,0 +1,65 @@
+{
+  "identifier": "Covid-on-the-Web",
+  "title": "Covid-on-the-Web Dataset",
+  "description": {
+    "en": "Covid-on-the-Web Dataset is an RDF dataset that provides two main knowledge graphs produced by analyzing the scholarly articles of the COVID-19 Open Research Dataset (CORD-19, https://www.semanticscholar.org/cord19), a resource of articles about COVID-19 and the coronavirus family of viruses:\n\n(1) the CORD-19 Named Entities Knowledge Graph describes named entities identified and disambiguated by NCBO BioPortal annotator, Entity-fishing and DBpedia Spotlight.\n(2) the CORD-19 Argumentative Knowledge Graph describes argumentative components and PICO elements extracted from the articles by the Argumentative Clinical Trial Analysis platform (ACTA).\n\nA description of the dataset, in the Turtle format, as well as examples are provided in https://github.com/Wimmics/CovidOnTheWeb/tree/master/dataset.\n\nCovid-on-the-Web Dataset is an initiative of the Wimmics team, I3S laboratory, University Côte d'Azur, Inria, CNRS."
+  },
+  "domain": "life_sciences",
+  "website": "https://github.com/Wimmics/CovidOnTheWeb",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "namespace": "http://ns.inria.fr/covid19/",
+  "triples": 1361451364,
+  "doi": "10.5281/zenodo.4247134",
+  "contact_point": {
+    "name": "Franck Michel",
+    "email": "franck.michel@cnrs.fr"
+  },
+  "keywords": [
+    "annotation",
+    "coronavirus",
+    "NER",
+    "cord19",
+    "covid19",
+    "literature",
+    "named entity",
+    "named entity recognition",
+    "argumentation theory",
+    "argument mining"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 4084979
+    },
+    {
+      "target": "wikidata",
+      "value": 66098777
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF dump",
+      "description": "The dataset is downloadable from Zenodo as a single archive consisting of several RDF dumps (in Turtle syntax).",
+      "download_url": "https://doi.org/10.5281/zenodo.4247134"
+    }
+  ],
+  "example": [
+    {
+      "title": "Named entities example",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/Wimmics/CovidOnTheWeb/blob/master/dataset/cord19-nekg-example.ttl"
+    },
+    {
+      "title": "Argumentative components example",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "https://github.com/Wimmics/CovidOnTheWeb/blob/master/dataset/cord19-akg-example.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Covid-on-the-Web SPARQL endpoint",
+      "description": "See the description of the available named graphs on https://github.com/Wimmics/CovidOnTheWeb",
+      "access_url": "https://covidontheweb.inria.fr/sparql"
+    }
+  ]
+}

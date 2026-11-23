@@ -1,0 +1,41 @@
+{
+  "identifier": "st-andrews-resource-lists",
+  "title": "St. Andrews University Resource Lists",
+  "description": {
+    "en": "Search for lists, modules & courses\r\n\r\n  \r\nBrowse hierarchy | Recent changes"
+  },
+  "website": "http://resourcelists.st-andrews.ac.uk/",
+  "namespace": "http://resourcelists.st-andrews.ac.uk/",
+  "triples": 1223619,
+  "contact_point": {
+    "name": "Ian Davis",
+    "email": "ian.davis@talis.com"
+  },
+  "keywords": [
+    "education",
+    "format-rdf",
+    "higher-education",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "talis"
+  ],
+  "links": [
+    {
+      "target": "openlibrary",
+      "value": 37784
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://resourcelists.st-andrews.ac.uk/lists/A99D9239-0866-D6F4-9728-61E65C2C0974"
+    }
+  ]
+}

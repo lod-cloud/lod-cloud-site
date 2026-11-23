@@ -1,0 +1,60 @@
+{
+  "identifier": "dbpedia-eu",
+  "title": "DBpedia in Basque",
+  "description": {
+    "en": "Basque chapter of DBpedia. DBpedia is a \"community effort to extract structured information from Wikipedia and to make this information available on the Web. DBpedia allows you to ask sophisticated queries against Wikipedia, and to link other data sets on the Web to Wikipedia data. We hope this will make it easier for the amazing amount of information in Wikipedia to be used in new and interesting ways, and that it might inspire new mechanisms for navigating, linking and improving the encyclopedia itself.\""
+  },
+  "website": "http://eudbpedia.deusto.es",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://eudbpedia.deusto.es/resource/",
+  "triples": 7113378,
+  "contact_point": {
+    "name": "Jon Lazaro",
+    "email": "jlazaro@deusto.es"
+  },
+  "keywords": [
+    "access-api",
+    "basque",
+    "crossdomain",
+    "dbpedia",
+    "deref-vocab",
+    "format-foaf",
+    "format-rdf",
+    "format-rdfs",
+    "format-xhtml",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-licence-metadata",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-producer",
+    "wikipedia"
+  ],
+  "other_download": [
+    {
+      "title": "Resource example",
+      "description": "The resource will be resolved via content negotiation to either: http://eudbpedia.deusto.es/page/Euskal_Herria or http://eudbpedia.deusto.es/data/Euskal_Herria.",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eu.dbpedia.org/resource/Euskal_Herria"
+    },
+    {
+      "title": "voID description",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://eu.dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Feu.dbpedia.org%2Fvoid&query=select+*+WHERE+{%3Fs+%3Fp+%3Fo}&should-sponge=&format=text%2Fhtml&timeout=0&debug=on"
+    }
+  ],
+  "example": [
+    {
+      "title": "RDF/XML example",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://eu.dbpedia.org/data/Euskal_Herria.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://eu.dbpedia.org/sparql"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "identifier": "open-library",
+  "title": "Open Library",
+  "description": {
+    "en": "## About\r\n\r\n> One web page for every book ever published. It's a lofty, but achievable, goal.\r\n\r\n> To build it, we need hundreds of millions of book records, a brand new database infrastructure for handling huge amounts of dynamic information, a wiki interface, multi-language support, and people who are willing to contribute their time, effort, and book data.\r\n\r\n> To date, we have gathered about 30 million records (13.4 million are available through the site now), and more are on the way. We have built the database infrastructure and the wiki interface, and you can search millions of book records, narrow results by facet, and search across the full text of 230,000 scanned books. \r\n\r\n## Openness\r\n\r\nAll Open Library contributions are in the public domain.  See <http://openlibrary.org/about/license>.\r\n\r\n## Data\r\n\r\n * Dump of author records: <http://openlibrary.org/data/ol_dump_authors_latest.txt.gz>\r\n\r\n * Dump of edition records: <http://openlibrary.org/data/ol_dump_editions_latest.txt.gz>\r\n\r\n * API documentation: <http://openlibrary.org/developers/api>\r\n\r\n## Issues\r\n\r\nThe content negotiation on entity URIs is buggy. Asking for only application/rdf xml works, but asking for multiple types doesn't.\r\n\r\nThe triple count is a wild guess based on the numbers of 13 million records and 30 triples per record."
+  },
+  "domain": "publications",
+  "website": "http://openlibrary.org/",
+  "namespace": "http://openlibrary.org/",
+  "triples": 400000000,
+  "contact_point": {
+    "name": "Internet Archive, a 501(c)(3) non-profit",
+    "email": "info@openlibrary.org"
+  },
+  "keywords": [
+    "access-api",
+    "access-bulk",
+    "access-json",
+    "bibliographic",
+    "book",
+    "data",
+    "format-bibo",
+    "format-rdf",
+    "library",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "lodcloud.nolinks",
+    "no-license-metadata",
+    "no-proprietary-vocab",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "publications",
+    "published-by-producer",
+    "us"
+  ],
+  "other_download": [
+    {
+      "access_url": "http://openlibrary.org/data"
+    },
+    {
+      "description": "Example (JSON)",
+      "media_type": "application/json",
+      "access_url": "http://openlibrary.org/books/OL6807502M.json"
+    },
+    {
+      "title": "Open Library API documentation",
+      "description": "Overview of available APIs, with links to more detailed documentation for each API.",
+      "access_url": "http://openlibrary.org/developers/api"
+    },
+    {
+      "title": "Latest monthly dump",
+      "description": "Gzip'ed text file containing the latest (at the time of the dump) revisions of all records.\r\n\r\nDocumentation about the exact contents can be found at http://openlibrary.org/developers/dumps.",
+      "media_type": "application/octet-stream",
+      "access_url": "http://openlibrary.org/data/ol_dump_latest.txt.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example (RDF/XML)",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://openlibrary.org/books/OL6807502M.rdf"
+    }
+  ]
+}

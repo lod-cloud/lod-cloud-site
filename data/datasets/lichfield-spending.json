@@ -1,0 +1,66 @@
+{
+  "identifier": "lichfield-spending",
+  "title": "Lichfield District Council - Spending",
+  "description": {
+    "en": "Monthly published data on expenditure over £500 including VAT of Lichfield District."
+  },
+  "domain": "government",
+  "website": "http://spending.lichfielddc.gov.uk",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "triples": 93839,
+  "contact_point": {
+    "name": "Lichfield District Council"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-csv",
+    "format-rdfs",
+    "format-xml",
+    "government",
+    "lod",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 17
+    },
+    {
+      "target": "opencorporates",
+      "value": 304
+    },
+    {
+      "target": "reference-data-gov-uk",
+      "value": 51
+    },
+    {
+      "target": "statistics-data-gov-uk",
+      "value": 4641
+    }
+  ],
+  "other_download": [
+    {
+      "description": "Download",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://spending.lichfielddc.gov.uk/all.rdf"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example CSV",
+      "media_type": "text/csv",
+      "access_url": "http://spending.lichfielddc.gov.uk/apps/spending/public/data/September_2010_v1.csv"
+    },
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://spending.lichfielddc.gov.uk/spend/8654106.rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://spending.lichfielddc.gov.uk/sparql"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "identifier": "dutch-ships-and-sailors",
+  "title": "Dutch Ships and Sailors",
+  "description": {
+    "en": "Dutch Ships and Sailors brings together four Dutch maritime historical datasets. The datasets are modeled as Linked Data, with internal and external links and a schema mapping to a common DSS schema. The four RDF datasets are:\r\n\r\n1. The Northern Monsterrollen databases, which contain elaborate data on the crew composition of ships from the Northern Netherlands (c. 1800-1930) and provide information on the sailors involved,such as the places of origin, wage and age.\r\n2. The VOC Opvarenden database, providing extensive data on crews of VOC ships leaving the Dutch Republic.\r\n3. The Dutch-Asiatic Shipping (DAS) database, providing data on all inter-continental voyages of VOC ships.\r\n4. The Generale Zeemonsterrollen (GZM) database, providing data on the crew composition and sometimes location of VOC ships stationed in Asia and not engaged in inter-continental shipping."
+  },
+  "domain": "publications",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 30801840,
+  "contact_point": {
+    "name": "Victor de Boer",
+    "email": "v.de.boer@vu.nl"
+  },
+  "keywords": [
+    "digital history",
+    "dutch",
+    "e-history",
+    "economic-history",
+    "history",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "maritime",
+    "nederlands",
+    "publications",
+    "sailors",
+    "ships"
+  ],
+  "links": [
+    {
+      "target": "geonames",
+      "value": 2510
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Browse the DSS data interactively",
+      "description": "Browse the data using the ClioPatria triple store GUI. Individual Named Graphs can be downloaded",
+      "access_url": "http://semanticweb.cs.vu.nl/dss/"
+    }
+  ],
+  "example": [
+    {
+      "title": "Example: DSS schema in RDF Turtle format",
+      "description": "Example data file (the DSS RDFS schema) in turtle format. The other Named Graphs can be downloaded through the ClioPatria GUI.",
+      "media_type": "text/plain; charset=UTF-8",
+      "access_url": "http://semanticweb.cs.vu.nl/dss/api/export_graph?graph=http%3A%2F%2Fpurl.org%2Fcollections%2Fnl%2Fdss%2Fdss_schema.ttl&mimetype=text%2Fplain&format=turtle"
+    },
+    {
+      "title": "Example resource:  a mustering of the ship Midwolda in 1890",
+      "description": "Depending on HTTP accept parameters, RDF (XML,JSON,TTL) or HTML is returned",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://purl.org/collections/nl/dss/mdb/aanmonstering-del_gem-1890-35"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL endpoint for Dutch Ships and Sailors",
+      "description": "SPARQL 1.1 endpoint for Dutch Ships and Sailors. Anonymous access possible. An interactive (human-readable) SPARQL interface can be found at http://semanticweb.cs.vu.nl/dss/yasgui",
+      "access_url": "http://semanticweb.cs.vu.nl/dss/sparql/"
+    },
+    {
+      "title": "SPARQL endpoint hosted by Huygens ING",
+      "description": "This endpoint is the 'official' one and is hosted by the Huygens institute. \r\n\r\nThe endpoint is SPARQL 1.1 compliant and hosted by ClioPatria. Anonymous access possible. An interactive (human-readable) SPARQL interface can be found at http://dutchshipsandsailors.nl/data/yasgui",
+      "access_url": "http://dutchshipsandsailors.nl/data/sparql/"
+    }
+  ]
+}

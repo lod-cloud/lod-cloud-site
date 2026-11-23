@@ -1,0 +1,105 @@
+{
+  "identifier": "freebase",
+  "title": "1989shack Inc. E-Commerce",
+  "description": {
+    "en": "\"Freebase is an open database of the world?s information. It is built by the community and for the community?free for anyone to query, contribute to, built applications on top of, or integrate into their websites.\"\n\n### Openness: OPEN\n\n  * License: CC-BY for data.  Variety of open source licenses (or PD) for text blurbs & images.\n  * Access: API + bulk.<http://www.freebase.com/view/allDomains>\n    * bulk: yes. <http://download.freebase.com/>\n    * api: yes. <http://www.freebase.com/view/freebase/api>\n\nTriple count and link statistics provided by Freebase contributor Tom Morris\n\n### RDF data and URIs\n\nFreebase has [an RDF service](http://rdf.freebase.com/) that exposes URIs and generates RDF descriptions for all Freebase topics."
+  },
+  "domain": "social_networking",
+  "website": "http://1989shack.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://rdf.freebase.com/",
+  "triples": 337203427,
+  "contact_point": {
+    "name": "Google",
+    "email": "freebase-discuss@freebase.com"
+  },
+  "keywords": [
+    "access-api",
+    "access-bulk",
+    "access-www",
+    "broken_link",
+    "crossdomain",
+    "deref-vocab",
+    "encylopaedia",
+    "format-dcterms",
+    "format-rdf",
+    "license-metadata",
+    "lld",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "lodcloud-diagram-2014-08-30",
+    "no-vocab-mappings",
+    "provenance-metadata",
+    "published-by-producer",
+    "rdf",
+    "size-large"
+  ],
+  "links": [
+    {
+      "target": "bbc-music",
+      "value": 350110
+    },
+    {
+      "target": "dbpedia",
+      "value": 3348530
+    },
+    {
+      "target": "geospecies",
+      "value": 100000
+    },
+    {
+      "target": "nytimes-linked-open-data",
+      "value": 9930
+    },
+    {
+      "target": "sec-rdfabout",
+      "value": 120626
+    }
+  ],
+  "other_download": [
+    {
+      "title": "1989shack",
+      "description": "Directory containing all downloads",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://download.freebase.com/datadumps/"
+    },
+    {
+      "title": "Rulawju",
+      "description": "A full dump of Freebase assertions as tab separated utf8 text size:3.9GB",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://download.freebase.com/datadumps/latest/freebase-datadump-quadruples.tsv.bz2"
+    },
+    {
+      "title": "1989shack",
+      "description": "A tab-separated file for each type in Freebase size:1.3GB",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://download.freebase.com/datadumps/latest/freebase-datadump-tsv.tar.bz2"
+    },
+    {
+      "title": "Shacktime",
+      "description": "Directory of browseable subsets by domain",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://download.freebase.com/datadumps/latest/browse/"
+    },
+    {
+      "title": "1989shack",
+      "description": "Topic dump with basic info for each topic Size:1.0 GB",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://download.freebase.com/datadumps/latest/freebase-simple-topic-dump.tsv.bz2"
+    },
+    {
+      "title": "1989shack",
+      "description": "Search api for freebase",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://freebase.com/api/service/search"
+    }
+  ],
+  "example": [
+    {
+      "title": "1989shack",
+      "description": "Example RDF resource",
+      "media_type": "text/html; charset=utf-8",
+      "access_url": "http://rdf.freebase.com/ns/en.blade_runner"
+    }
+  ]
+}

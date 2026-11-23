@@ -1,0 +1,48 @@
+{
+  "identifier": "orkg",
+  "title": "Open Research Knowledge Graph (ORKG)",
+  "description": {
+    "en": "The Open Research Knowledge Graph (ORKG) is a community initiative aimed at extracting structured information from research publications and making this information accessible on the Web. ORKG enables users to perform sophisticated queries against research information and to link other datasets and software on the Web to research publications in the ORKG.\n\nThe ORKG knowledge base currently describes 33,619 research publications,  5304 datasets, and 1423 software with a total of 1.6M statements, almost 500,000 resources, and over 800,000 literals. It provides detailed metadata, such as authors, venues, publication year, and citations. The ORKG is a comprehensive and interconnected knowledge graph. This structured data allows for advanced querying capabilities and facilitates the integration of research data with other web resources.\n\nFor thorough statistics and general information on the ORKG datasets, please visit the ORKG website."
+  },
+  "domain": "publications",
+  "website": "https://orkg.org/",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://orkg.org/",
+  "triples": 1631808,
+  "contact_point": {
+    "name": "ORKG Curation & Community Building Team",
+    "email": "curation@orkg.org"
+  },
+  "keywords": [
+    "access-api",
+    "rdf",
+    "research",
+    "publication",
+    "dataset",
+    "software",
+    "sparql-endpoint"
+  ],
+  "links": [
+    {
+      "target": "geonames-semantic-web",
+      "value": 19
+    },
+    {
+      "target": "wikidata",
+      "value": 4220
+    }
+  ],
+  "full_download": [
+    {
+      "title": "RDF Dump",
+      "media_type": "application/n-triples",
+      "download_url": "https://orkg.org/api/rdf/dump"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "https://orkg.org/triplestore"
+    }
+  ]
+}

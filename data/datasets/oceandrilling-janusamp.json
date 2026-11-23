@@ -1,0 +1,42 @@
+{
+  "identifier": "oceandrilling-janusamp",
+  "title": "Ocean Drilling - Janus Age Models",
+  "description": {
+    "en": "A collection of age models for the Deep Sea Drilling Program (DSDP), Ocean Drilling Program (ODP) and Integrated Ocean Drilling Program (IODP) drilling sites.\r\n\r\nThese can be used to convert depth measurement to geologic age. \r\n\r\nhttp://data.oceandrilling.org/linkeddata.html"
+  },
+  "website": "http://chronos.org/janusAmp/",
+  "namespace": "http://chronos.org/janusamp/",
+  "triples": 24489366,
+  "contact_point": {
+    "name": "CHRONOS",
+    "email": "dfils@oceanleadership.org"
+  },
+  "keywords": [
+    "drilling",
+    "geographic",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-deref-vocab",
+    "ocean",
+    "published-by-producer"
+  ],
+  "links": [
+    {
+      "target": "oceandrilling-codices",
+      "value": 6414
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://data.oceandrilling.org/codices/lsh/1/7/A"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL Endpoint",
+      "access_url": "http://data.oceandrilling.org/sparql"
+    }
+  ]
+}

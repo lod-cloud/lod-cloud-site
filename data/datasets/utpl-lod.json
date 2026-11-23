@@ -1,0 +1,56 @@
+{
+  "identifier": "utpl-lod",
+  "title": "Universidad Técnica Particular de Loja - Linked Open Data",
+  "description": {
+    "en": "Linked Open Data from the Universidad Técnica Particular de Loja (UTPL), Loja, Ecuador includes data about its academic structure. The data was published in RDF format according to the design issues of Linked Open Data. Data can be accessed from a SPARQL endpoint. \r\n## Data: ##\r\n* Institution: 1\r\n* Person: 19\r\n* Campus: 86\r\n* skos:Concept: 395\r\n* School: 31\r\n* Faculty: 7\r\n* Research Group: 59\r\n* Department: 17\r\n* Course: 1749\r\n* Programme: 233\r\n* Organizational Unit: 17\r\n* Study Program: 101\r\n##Collaborators:##\r\n* Elizabeth Cadme\r\n* Janneth Chicaiza\r\n* Eduardo Encalada\r\n* Jorge Landacay\r\n* Jorge Lopez-Vargas\r\n* Diana Torres"
+  },
+  "domain": "user_generated",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://data.utpl.edu.ec/utpl/lod/resource/",
+  "triples": 21198,
+  "contact_point": {
+    "name": "Nelson Piedra",
+    "email": "nopiedra@utpl.edu.ec"
+  },
+  "keywords": [
+    "Ecuador",
+    "Latin American Linked Data Association",
+    "Linked data",
+    "Open data",
+    "RDF",
+    "University",
+    "format-dc",
+    "format-foaf",
+    "format-org",
+    "format-schema",
+    "format-skos",
+    "lod",
+    "no-proprietary-vocab",
+    "published-by-producer",
+    "semantic web",
+    "sparql-endpoint",
+    "structure",
+    "university"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 689
+    },
+    {
+      "target": "es.dbpedia",
+      "value": 73
+    },
+    {
+      "target": "yago",
+      "value": 12
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Sparql EndPoint",
+      "description": "Data about the structure and organization of UTPL",
+      "access_url": "http://data.utpl.edu.ec/utpl/lod/sparql"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "identifier": "bioportal-dikb-evidence",
+  "title": "DIKB-Evidence-Ontology",
+  "description": {
+    "en": "An evidence taxonomy that, when combined with a set of inclusion criteria, enable drug experts to specify what their confidence in a drug mechanism assertion would be if it were supported by a specific set of evidence.\n\nBoyce R, Collins C, Horn J, Kalet I. Computing with evidence Part I: A drug-mechanism evidence taxonomy oriented toward confidence assignment. J Biomed Inform. 2009 Dec;42(6):979-89. Epub 2009 May 10. PubMed PMID: 19435613; PubMed Central PMCID: PMC2783801."
+  },
+  "domain": "life_sciences",
+  "website": "http://bioportal.bioontology.org/ontologies/1672",
+  "triples": 2278,
+  "contact_point": {
+    "name": "Richard D Boyce"
+  },
+  "keywords": [
+    "biomedicine",
+    "bioportal",
+    "format-owl",
+    "format-rdf",
+    "lod",
+    "ontology",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "bioportal-bp",
+      "value": 29
+    },
+    {
+      "target": "bioportal-canco",
+      "value": 16
+    },
+    {
+      "target": "bioportal-chem2bio2owl",
+      "value": 17
+    },
+    {
+      "target": "bioportal-csp",
+      "value": 11
+    },
+    {
+      "target": "bioportal-galen",
+      "value": 10
+    },
+    {
+      "target": "bioportal-mi",
+      "value": 14
+    },
+    {
+      "target": "bioportal-msh",
+      "value": 13
+    },
+    {
+      "target": "bioportal-ncit",
+      "value": 69
+    },
+    {
+      "target": "bioportal-nif",
+      "value": 11
+    },
+    {
+      "target": "bioportal-phare",
+      "value": 10
+    },
+    {
+      "target": "bioportal-pko",
+      "value": 10
+    },
+    {
+      "target": "bioportal-sio",
+      "value": 12
+    },
+    {
+      "target": "bioportal-snomedct",
+      "value": 28
+    }
+  ],
+  "other_download": [
+    {
+      "description": "REST API Wiki Documentation",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://www.bioontology.org/wiki/index.php/BioPortal_REST_services"
+    },
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://sparql.bioontology.org/"
+    },
+    {
+      "description": "Download link, BioPortal API KEY is required",
+      "access_url": "http://rest.bioontology.org/bioportal/ontologies/download/46402?apikey=BP_API_KEY"
+    }
+  ]
+}

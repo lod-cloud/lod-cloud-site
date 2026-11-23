@@ -1,0 +1,52 @@
+{
+  "identifier": "twarql",
+  "title": "Twarql",
+  "description": {
+    "en": "Twarql encodes information from microblog posts as Linked Open Data in order to enable flexibility for those interested in collectively analyzing microblog data for sensemaking. Our approach can be summarized as follows:\r\n\r\n* extract content (e.g. entity mentions, hashtags and URLs) from microposts streamed from Twitter;\r\n* encode content in RDF using shared and well-known vocabularies (FOAF, SIOC, MOAT, etc.);\r\n* enable structured querying of microposts with SPARQL;\r\nenable subscription to a stream of microposts that match a given query; and\r\n* enable scalable real-time delivery of streamed but annotated data using sparqlPuSH.\r\n\r\nThis dataset is an example created for a brand tracking scenario involving the Apple IPad."
+  },
+  "domain": "user_generated",
+  "website": "http://wiki.knoesis.org/index.php/Twarql",
+  "namespace": "http://twarql.org/",
+  "triples": 4990776,
+  "contact_point": {
+    "name": "Pablo Mendes, Alexandre Passant, Pavan Kapanipathi"
+  },
+  "keywords": [
+    "deref-vocab",
+    "format-rdf",
+    "format-xhtml",
+    "geographic",
+    "lod",
+    "lodcloud-diagram-2011-09-19",
+    "no-license-metadata",
+    "no-provenance-metadata",
+    "no-vocab-mappings",
+    "published-by-third-party"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 981415
+    }
+  ],
+  "full_download": [
+    {
+      "description": "Download",
+      "media_type": "application/x-ntriples",
+      "download_url": "http://twarql.org/twarqlIpadTriples.n3.gz"
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "example/rdf+xml",
+      "access_url": "http://twarql.org/resource/page/user/HotAboutApple"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://twarql.org:8890/sparql"
+    }
+  ]
+}

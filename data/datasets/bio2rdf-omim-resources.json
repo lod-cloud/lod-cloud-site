@@ -1,0 +1,30 @@
+{
+  "identifier": "bio2rdf-omim-resources",
+  "title": "bio2rdf-omim-resources",
+  "triples": 0,
+  "keywords": [
+    "LinkedDataCrawl2014",
+    "crawledLinkedDataCloud2014",
+    "dataset-level-metadata",
+    "format-dcterm",
+    "format-owl",
+    "format-rdf",
+    "format-rdfs",
+    "format-void",
+    "lifesciences",
+    "lodcloud-diagram-2014-08-30"
+  ],
+  "links": [
+    {
+      "target": "bio2rdf-omim",
+      "value": 1
+    }
+  ],
+  "example": [
+    {
+      "description": "Example resource",
+      "media_type": "application/rdf+xml; charset=UTF-8",
+      "access_url": "http://bio2rdf.org/omim_resource:157140_allele_24"
+    }
+  ]
+}

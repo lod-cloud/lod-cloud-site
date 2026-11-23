@@ -1,0 +1,96 @@
+{
+  "identifier": "LemmaBank",
+  "title": "LiLa Lemma Bank",
+  "description": {
+    "en": "The Lemma Bank is a collection of approximately 200,000 canonical forms for Latin that is used to interlink the linguistic resources in the LiLa Knowledge Base. The canonical forms are modeled using the Ontolex ontology."
+  },
+  "domain": "linguistics",
+  "website": "http://lila-erc.eu/data/id/lemma/LemmaBank",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://lila-erc.eu/data/id/lemma/",
+  "triples": 1699687,
+  "doi": "10.5281/zenodo.8300851",
+  "image": "https://lila-erc.eu/wp-content/uploads/2018/10/cropped-lila-logo-9.png",
+  "contact_point": {
+    "name": "Marco Passarotti",
+    "email": "marco.passarotti@unicatt.it"
+  },
+  "keywords": [
+    "Lemma",
+    "LLOD",
+    "Latin",
+    "Lexicon",
+    "Canonical forms",
+    "LiLa"
+  ],
+  "links": [
+    {
+      "target": "AugustiniConfessiones",
+      "value": 77580
+    },
+    {
+      "target": "CompHistSem",
+      "value": 1058077
+    },
+    {
+      "target": "CorpusFibonacci",
+      "value": 16117
+    },
+    {
+      "target": "DanteLatinLoanwords",
+      "value": 765
+    },
+    {
+      "target": "EtymologicalDictionaryofLatin",
+      "value": 1452
+    },
+    {
+      "target": "IGVLL",
+      "value": 1759
+    },
+    {
+      "target": "IndexThomisticusTreebank",
+      "value": 403526
+    },
+    {
+      "target": "LASLA",
+      "value": 1745314
+    },
+    {
+      "target": "LatinAffectus",
+      "value": 5172
+    },
+    {
+      "target": "LatinWordnetLiLa",
+      "value": 8536
+    }
+  ],
+  "full_download": [
+    {
+      "title": "LiLa Lemma Bank",
+      "description": "GitHub page of the project. The data are distributed as RDF (Turtle serialization), but they are also available as SQL dump of a relational database",
+      "download_url": "https://github.com/CIRCSE/LiLa_Lemma-Bank"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Download",
+      "description": "RDF Schema",
+      "access_url": "https://lila-erc.eu/lodview/data/id/lemma/LemmaBank?output=application%2Frdf%2Bxml"
+    }
+  ],
+  "example": [
+    {
+      "title": "amor",
+      "description": "Lemma of the common noun \"amor\" (love)",
+      "access_url": "http://lila-erc.eu/data/id/lemma/88717"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "LiLa SPARQL endpoint",
+      "description": "SPARQL endpoint of the LiLa project",
+      "access_url": "https://lila-erc.eu/sparql/lila_knowledge_base/sparql"
+    }
+  ]
+}

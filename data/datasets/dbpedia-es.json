@@ -1,0 +1,96 @@
+{
+  "identifier": "dbpedia-es",
+  "title": "DBpedia in Spanish",
+  "description": {
+    "en": "These data correspond to the ontology DBpedia version 2014."
+  },
+  "domain": "cross_domain",
+  "website": "http://es.dbpedia.org",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "http://es.dbpedia.org/resource/",
+  "triples": 169101647,
+  "contact_point": {
+    "name": "Mariano Rico",
+    "email": "mariano.rico@fi.upm.es"
+  },
+  "keywords": [
+    "crossdomain",
+    "linguistic",
+    "lod",
+    "lodcloud-diagram-2014-08-30",
+    "no-proprietary-vocab",
+    "published-by-producer",
+    "wikipedia"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 837609
+    },
+    {
+      "target": "dbpedia-cs",
+      "value": 161377
+    },
+    {
+      "target": "dbpedia-de",
+      "value": 425511
+    },
+    {
+      "target": "dbpedia-el",
+      "value": 66175
+    },
+    {
+      "target": "dbpedia-fr",
+      "value": 538425
+    },
+    {
+      "target": "dbpedia-it",
+      "value": 457626
+    },
+    {
+      "target": "dbpedia-ja",
+      "value": 257732
+    },
+    {
+      "target": "dbpedia-ko",
+      "value": 169592
+    },
+    {
+      "target": "dbpedia-nl",
+      "value": 429827
+    },
+    {
+      "target": "dbpedia-pt",
+      "value": 440350
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DBpedia ontology 2014 version",
+      "description": "DBpedia in Spanish dataset. Part of the DBpedia internationalisation effort.",
+      "media_type": "meta/rdf+schema",
+      "access_url": "http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/dbpedia_2014.owl"
+    },
+    {
+      "title": "Download",
+      "description": "DBpedia in Spanish dataset. Part of the DBpedia internationalisation effort. Data are extracted here from Spanish language pages of wikipedia.",
+      "media_type": "HTML",
+      "access_url": "http://es.dbpedia.org/DBpediaESdata"
+    }
+  ],
+  "example": [
+    {
+      "title": "N-Triples Example",
+      "description": "Link to an example data item within the dataset The actual URI is http://es.dbpedia.org/resource/Madrid, which redirect via 303",
+      "media_type": "application/n-triples; charset=UTF-8",
+      "access_url": "http://es.dbpedia.org/data/Madrid.ntriples"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL EndPoint",
+      "description": "DBpedia in Spanish dataset. Part of the DBpedia internationalisation effort. Data are extracted here from Spanish language pages of wikipedia (es.wikipedia.org).",
+      "access_url": "http://es.dbpedia.org/sparql"
+    }
+  ]
+}

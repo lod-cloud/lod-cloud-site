@@ -1,0 +1,70 @@
+{
+  "identifier": "apertium-rdf-oc-es",
+  "title": "Apertium RDF OC-ES",
+  "description": {
+    "en": "RDF version of the Apertium bilingual dictionary OC-ES. The original dataset (in LMF) comes from <http://hdl.handle.net/10230/17124> . The RDF version of the lexica is modelled using lemon (http://lemon-model.net/) and the translation module (http://purl.org/net/translation). More about the Apertium RDF dictionaries at http://linguistic.linkeddata.es/apertium/"
+  },
+  "domain": "linguistics",
+  "triples": 317162,
+  "contact_point": {
+    "name": "Universitat Pompeu Fabra. Institut Universitari de Lingüística Aplicada (IULA) ; Universitat d'Alacant. Grup Transducens ; Prompsit Language Engineering, S.L"
+  },
+  "keywords": [
+    "Apertium",
+    "Occitan",
+    "Spanish",
+    "addiction",
+    "bilingual",
+    "lemon",
+    "lexicon",
+    "linguistic lod",
+    "linguistics",
+    "llod",
+    "lod",
+    "multilingual",
+    "rdf",
+    "translation"
+  ],
+  "links": [
+    {
+      "target": "babelnet",
+      "value": 2932
+    },
+    {
+      "target": "lexinfo",
+      "value": 24505
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zipped Dump",
+      "description": "It contains two lexicons (OC, ES) and the Translation Set OC-ES, as well as the metadata file.",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-20T16:18:55.203Z/apertium-oc-es-rdf.zip"
+    },
+    {
+      "title": "Occitan lexicon URI",
+      "description": "This online lexicon not only contains the OC lexical entries from the OC-ES bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in OC coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconOC"
+    },
+    {
+      "title": "Spanish lexicon URI",
+      "description": "This online lexicon not only contains the ES lexical entries from the OC-ES bilingual dictionary (that can be found in the zipped dump) but also aggregates the lexical entries in ES coming from all the published Apertium RDF dictionaries.",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/lexiconES"
+    },
+    {
+      "title": "OC-ES translation set URI",
+      "access_url": "http://linguistic.linkeddata.es/id/apertium/tranSetOC-ES"
+    },
+    {
+      "title": "SPARQL endpoint",
+      "access_url": "http://linguistic.linkeddata.es/sparql/"
+    },
+    {
+      "title": "Dataset description in DCAT",
+      "description": "This extends the metadata in http://datahub.io/dataset/apertium-rdf-oc-es.rdf with licence and provenance",
+      "media_type": "RDF",
+      "access_url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-20T16:29:59.056Z/apertium-oc-es-dataset-metadata.rdf"
+    }
+  ]
+}

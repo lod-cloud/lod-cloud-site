@@ -1,0 +1,28 @@
+{
+  "identifier": "aspire-mmu",
+  "title": "Talis Aspire - Manchester Metropolitan University",
+  "description": {
+    "en": "Course reading lists from Manchester Metropolitan University."
+  },
+  "website": "http://lists.lib.mmu.ac.uk/index.html",
+  "triples": 4077093,
+  "keywords": [
+    "academic",
+    "bibliographic",
+    "library",
+    "lodcloud-diagram-2014-08-30",
+    "reading-lists"
+  ],
+  "example": [
+    {
+      "description": "Link to example resource list in RDFa",
+      "media_type": "text/html; charset=UTF-8",
+      "access_url": "http://lists.lib.mmu.ac.uk/lists/CB6CEEB7-47AF-F243-3E45-3C0A916F6C17.html"
+    },
+    {
+      "description": "Link to example resource list in RDF/XML",
+      "media_type": "application/rdf+xml",
+      "access_url": "http://lists.lib.mmu.ac.uk/lists/CB6CEEB7-47AF-F243-3E45-3C0A916F6C17.rdf"
+    }
+  ]
+}

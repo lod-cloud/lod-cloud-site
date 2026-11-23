@@ -1,0 +1,96 @@
+{
+  "identifier": "getty-aat",
+  "title": "Art & Architecture Thesaurus",
+  "description": {
+    "en": "The Art & Architecture Thesaurus® (AAT) is a structured, multilingual vocabulary including terms, descriptions, and other information for generic concepts related to art, architecture, and other cultural heritage, and conservation. For decades now, the AAT as been used as a primary reference by museums, art libraries, archives, visual resource catalogers, conservation specialists, archaeological projects, bibliographic projects, researchers, and information specialists who are dealing with the needs of these users. Like all of the Getty Vocabularies, the AAT is compliant with international standards and grows through contribution. \r\n\r\n** Openness **\r\nAAT data is released under Open Data Commons Attribution License. Adherence to ODC Attribution instructions for the correct assertion of attribution is encouraged. The preferred form of attribution for AAT is:\r\n\r\n\"*This [title or report or article or dataset] contains information from the Art & Architecture Thesaurus® (AAT) which is made available under the ODC Attribution License.*\"\r\n\r\nSpecial Case: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical AAT URIs is adequate to satisfy Section 4.3 of the ODC Attribution License."
+  },
+  "domain": "linguistics",
+  "website": "https://altawil.my.opendatasoft.com",
+  "license": "http://www.opendefinition.org/licenses/odc-by",
+  "triples": 0,
+  "contact_point": {
+    "name": "\"The Getty Research Institute\"",
+    "email": "abctawil@gmail.com"
+  },
+  "keywords": [
+    "Thesauri",
+    "architecture",
+    "art",
+    "conservation",
+    "cultural heritage",
+    "format-skos",
+    "format-skosxl",
+    "lod",
+    "skos",
+    "topic.schemata"
+  ],
+  "links": [
+    {
+      "target": "lcsh",
+      "value": 335
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Homepage",
+      "description": "This is the Linked Open Data publication of the Getty Vocabularies. The data is described semantically following linked data principles using the Resource Description Framework (RDF) format.",
+      "access_url": "http://vocab.getty.edu"
+    },
+    {
+      "title": "Getty Vocabulary Program ontology",
+      "access_url": "http://vocab.getty.edu/ontology"
+    },
+    {
+      "title": "Semantic Representation Documentation",
+      "access_url": "http://vocab.getty.edu/doc"
+    },
+    {
+      "title": "Total AAT statements",
+      "description": "NTriples zip, file size is 133.5 Mb",
+      "media_type": "application/zip",
+      "access_url": "http://vocab.getty.edu/dataset/aat/full.zip"
+    },
+    {
+      "title": "Explicit AAT statements",
+      "description": "NTriples zip, file size is 71 Mb",
+      "media_type": "application/zip",
+      "access_url": "http://vocab.getty.edu/dataset/aat/explicit.zip"
+    },
+    {
+      "title": "VOID Description",
+      "access_url": "http://vocab.getty.edu/.well-known/void"
+    }
+  ],
+  "example": [
+    {
+      "title": "Objects Facet",
+      "description": "Note: The Objects facet encompasses discrete tangible or visual things that are for the most part produced by human endeavor or otherwise fabricated or given form by human activity. Included are built works, images, written documents, and other works, having utilitarian or purely aesthetic purpose. Natural landscapes are included in this facet too.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/aat/300264092"
+    },
+    {
+      "title": "Furnishings and Equipment (Hierarchy Name)",
+      "description": "Note: The Furnishings and Equipment hierarchy contains terms for objects that are primarily movable that provide comfort, convenience, or protection in dwellings, places or business, or other public or private spaces. They may be useful or ornamental and may be used in indoor or outdoor spaces. Regarding other Hierarchies: Terms for objects with the primary purpose of storage receptacles or other forms of container (e.g., \"candle boxes,\" \"footlockers\") are in the Containers hierarchy.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/aat/300264551"
+    },
+    {
+      "title": "<containers by function or context>",
+      "description": "<containers by function or context> (containers (receptacles), Containers (hierarchy name), Furnishings and Equipment (hierarchy name))",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/aat/300197200"
+    },
+    {
+      "title": "Rhyta",
+      "description": "Note: Vessels from Ancient Greece, eastern Europe, or the Middle East that were typically made as a closed form with two openings, one at the top for filling and one at the base so that liquid could stream out. They are often in the shape of a horn or an animal's head, and were typically used as a drinking cup or for pouring wine into another vessel. Drinking was done by holding the rhyton above the drinker's head and catching the stream of liquid in the mouth.",
+      "media_type": "application/rdf+xml;charset=UTF-8",
+      "access_url": "http://vocab.getty.edu/aat/300198841"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "SPARQL Endpoint",
+      "access_url": "http://vocab.getty.edu/sparql"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "identifier": "eea",
+  "title": "European Environment Agency Published Products",
+  "description": {
+    "en": "The European Environment Agency (EEA) is an agency of the European Union. Our task is to provide sound, independent information on the environment. We are a major information source for those involved in developing, adopting, implementing and evaluating environmental policy, and also the general public.\r\n\r\nThe dataset contains metadata for various items published on the portal; reports, articles, speeches, datasets, indicators etc."
+  },
+  "domain": "government",
+  "website": "http://www.eea.europa.eu/",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://www.eea.europa.eu/publications",
+  "triples": 1137236,
+  "contact_point": {
+    "name": "Søren Roug",
+    "email": "Soren.Roug@eea.europa.eu"
+  },
+  "keywords": [
+    "environment",
+    "government",
+    "lod",
+    "lodcloud.nolinks",
+    "no-deref-vocab",
+    "published-by-producer"
+  ],
+  "other_download": [
+    {
+      "description": "EEA Full content catalogue for Linked Data spiders",
+      "media_type": "text/xml; charset=\"utf-8\"",
+      "access_url": "http://www.eea.europa.eu/sitemap-all-content-rdf.xml"
+    }
+  ],
+  "example": [
+    {
+      "description": "A publication example resource",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://www.eea.europa.eu/publications/progress-towards-kyoto/@@rdf"
+    },
+    {
+      "title": "Natura 2000 data - the European network of protected sites",
+      "description": "A dataset example resource",
+      "media_type": "application/rdf+xml; charset=utf-8",
+      "access_url": "http://www.eea.europa.eu/data-and-maps/data/natura-1/@@rdf"
+    }
+  ],
+  "sparql": [
+    {
+      "description": "SPARQL endpoint",
+      "access_url": "http://semantic.eea.europa.eu/sparql"
+    }
+  ]
+}
