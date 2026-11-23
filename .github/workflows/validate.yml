@@ -41,8 +41,15 @@ jobs:
       # Files changed by the pull request must have no problems at all;
       # everything else is checked against data/known-issues.json.
       - name: Validate dataset files (pull request)
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && !(github.base_ref == 'main' && github.head_ref == 'dev' && github.event.pull_request.head.repo.full_name == github.repository)
         run: python scripts/validate.py --changed-from HEAD^1 --format github
+
+      # dev into main: every file differs from main, so "changed files are strict" would
+      # hold all of them to the standard of a new submission. Each change already passed
+      # that check in its own pull request to dev.
+      - name: Validate dataset files (dev into main)
+        if: github.event_name == 'pull_request' && github.base_ref == 'main' && github.head_ref == 'dev' && github.event.pull_request.head.repo.full_name == github.repository
+        run: python scripts/validate.py --format github
 
       - name: Validate dataset files (push)
         if: github.event_name == 'push'
