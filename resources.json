@@ -1,0 +1,1302 @@
+{
+ "ftp://databnf:databnf@pef.bnf.fr/DATA/databnf_all_rdf_xml.tar.gz": {
+  "failures": 0,
+  "last_checked": "2026-11-23",
+  "status": "SKIPPED (ftp is not checked)"
+ },
+ "http://47.97.223.173:8000": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://aemet.linkeddata.es/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://alaska.eagle-i.net/sparqler/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://api.talis.com/stores/airports/services/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://api.talis.com/stores/rsinger-dev4/services/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://aseg.cs.concordia.ca/secold/download/static/secold_001_samples/sample_fqn_java.util.Collection.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://bdc.casnw.net/yyzc/sj/": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://bio2rdf.org/linkedspls:4b9d7052-a54f-3ee1-ab0e-633b087f4802": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://biordf.net/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://budapest.rkbexplorer.com/sparql/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://chem2bio2rdf.org/bindingdb/resource/bindingdb_ligand/1": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://cldbstest.eva.mpg.de/asjp/resource/language/id/l99.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://compling.hss.ntu.edu.sg/omw/wns/bul.zip": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://compling.hss.ntu.edu.sg/omw/wns/heb/citation.bib": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://compling.hss.ntu.edu.sg/omw/wns/ron.zip": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://core-project.kmi.open.ac.uk/data-description": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://ct-e-justice.aegean.gr:3030/gr-prison-releases/data": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://darmstadt.rkbexplorer.com/models/void.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://data.ascdc.tw/uc/media/lhu/005f94e6": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://data.cnr.it/dataset/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://data.dws.informatik.uni-mannheim.de/webisa/webisalod-instances.nq.gz": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://data.europeana.eu/download/1.1/datasets/nt/92040_Ag_EU_TEL_a0155_Serbia.nt.bz2": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://data.kasabi.com/dataset/chembl-rdf": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://data.lenka.no/dumps/kommunesentre-geonames.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://data.linkedopendata.it/istat/resource/Obs-DCIS_MATRIMONISTR-2586": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://data.oceandrilling.org/sparql": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://data.persee.fr/collection/ahess_0395-2649": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://data.sfb673.org/mexico/mexico-example.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://data.totl.net/tictactoe/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://dati.isprambiente.it/sparql": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://dbkwik.webdatacommons.org/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://dbtune.org/bbc/peel/sparql/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 503,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (503)"
+ },
+ "http://desaparecidos.ice.ufjf.br/index.php/aplicacao": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://disi.unitn.it/~knowdive/dataset/delicious/all/tags": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://download.bio2rdf.org/current/biomodels/biomodels.html": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/chembl/chembl_18.0_moa.ttl.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/drugbank/drugbank.html": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/hgnc/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/irefindex/bio2rdf-irefindex.nq": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/ncbigene/gene2accession.nq.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/pathwaycommons/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/sider/sider-adverse_effects_raw.nq.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.bio2rdf.org/current/wormbase/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.bio2rdf.org/release/3/genage/sitemap.xml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.bio2rdf.org/release/3/ndc/sitemap.xml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: DNS failure)"
+ },
+ "http://download.freebase.com/datadumps/latest/freebase-datadump-tsv.tar.bz2": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://dump.linkedopendata.it/grrt": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://ecb.publicdata.eu/sparql": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://el.dbpedia.org/page/Linux": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://environment.data.gov.uk/statistics/agriculture-horticulture-survey/june-2008#farm-types": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://era.rkbexplorer.com/sitemap.xml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://eupmedia.publicdata.eu/dump/eup_media_assets.ttl": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://eventmedia.eurecom.fr/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "http://fintrans.publicdata.eu/ec/resource/su/SCR.706541.1": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://ft.rkbexplorer.com/id/person-0001": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://geoname.linkedopendata.tw": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://gov.tso.co.uk/coins/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://harvard.eagle-i.net/i/0000012a-2511-4ba4-5617-79428000002f?format=application/xml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://hunter-cuny.eagle-i.net/sparqler/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://id.ndl.go.jp/auth/files/ndlsh-rdf.zip": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-May-22/r2-d2": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://institutions.publicdata.eu/all.ttl": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://issa.i3s.unice.fr/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://kaiko.getalp.org/dbnary/fra/dictionnaire": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://kasabi.com/dataset/renewable-energy-generators/": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://km.aifb.kit.edu/projects/btc-2010/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://lab.environment.data.gov.au/def/acorn/time-series.rdf": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://ldf.fi/ww1lod/6db396b8": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 405,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (405)"
+ },
+ "http://libris.kb.se/sparql": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://linguistic.linkeddata.es/id/apertium/tranSetEN-CA": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 503,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (503)"
+ },
+ "http://link.hnm.hu/lib/bib/MNMKVT19563": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://linked.opendata.cz/dump/vavai-organizations.trig": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://linked.opendata.cz/dumps/czso-unemployment-rate-vocabulary.trig": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://linked.opendata.cz/resource/domain/seznam.gov.cz/agendy/A385/2011-12-21": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://linked.opendata.cz/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Fdata.czso.cz%2Fresource%2Fdataset%2Fjob-applicants%2Fdistribution%3E&output=text%2Fturtle": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: connection failed)"
+ },
+ "http://linked.opendata.cz/sparql?query=DESCRIBE+%3Chttp%3A%2F%2Flinked.opendata.cz%2Fresource%2Fdataset%2Fsukl%2Fdrug-prices%2Fdistribution%3E&output=text%2Fturtle": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: connection failed)"
+ },
+ "http://linked.opendata.cz/sparql?query=DESCRIBE+%3Chttp://data.czso.cz/resource/observation/job-applicants-and-unemployment-rate/CZ0805/2013-12-31/F%3E&default-graph-uri=http%3A%2F%2Fdata.czso.cz%2Fresource%2Fdataset%2Fjob-applicants-and-unemployment-rate&output=text%2Fturtle": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: connection failed)"
+ },
+ "http://linked.opendata.cz/sparql?query=DESCRIBE+%3Chttp://linked.opendata.cz/resource/domain/vavai/zamer/AV0Z00950701%3E&default-graph-uri=http%3A%2F%2Flinked.opendata.cz%2Fresource%2Fdataset%2Fvavai%2Fresearch-plans&output=text%2Fturtle": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: connection failed)"
+ },
+ "http://linkeddata.finki.ukim.mk/lod/data/hifm#963089": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://linkedspl.bio2rdf.org/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://lod-a-lot.lod.labs.vu.nl/data/LOD_a_lot_v1.hdt.index.v1-1": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://lod.eurohelp.es/engimu/rdf/?project=PruebasFinales&file=ataun2014.csv": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://lod.taxonconcept.org/ontology/doc/index.html": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://logd.tw.rpi.edu/source/dfid-gov-uk/dataset/statistics-on-international-development-2009/version/2009-Nov-10/foreignAid_158_6": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://metoffice.dataincubator.org/areas/ta/falkirk": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://mismuseos.net/voidMisMuseosGNOSS.n3": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://montana.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://musicbrainz.dataincubator.org/label/ce24ab18-1bd6-4293-a486-546d13d6a5e2": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://newcastle.rkbexplorer.com/id/person-10": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://norpark.ml/F7124.html": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.html": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://onto.beef.org.pl/ontobeef/files/ontobeef-gemet.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://opendata.euskadi.net/contenidos/ds_localizaciones/farmacias_de_euskadi/farmacia": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://opendatacommunities.org/data/input-indicators-local-authority-funding-from-government-grant": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "http://opendatacommunities.org/datasets/imd-rank-2010.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "http://optima.jrc.it/Resources/LICENCE-EULA_JRC-Names_2011.pdf": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://periodicals.dataincubator.org/organization/nature-publishing-group.turtle": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://portalartroscopia.com/en/community/Arthroscopy/advanced-search/tag/Arthroscopy?rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://provenanceweb.org/source/provenanceweb/file/cr-aggregated-params/version/latest/conversion/provenanceweb-cr-aggregated-params-latest.ttl.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://psm.eagle-i.net/sparqler/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://purl.org/collections/nl/niod/botb-Haarlem": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://purl.org/obo/owl/GO#GO_0000701": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://purl.org/twc/lodcloud/source/tw-rpi-edu/file/cr-full-dump/version/latest/conversion/purl-org-twc-lodcloud.nt.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://purl.org/weso/datasets/pscs/sitc/v4/sitc-v4.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://purl.org/weso/pscs/resource/ds": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://rainbowdash.net/beatsperpony/foaf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://rdf.muninn-project.org/Muninn.rdf": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rdfize.com/geo/point/52.467358/-1.7167/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://red.gnoss.com/en/community/greencompetitiveness/resource/Guia-de-la-Productividad-para-empresas-de-tecnolog/c79fb300-c3b1-4212-a3a6-d94503de37ca?rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "http://reference.data.gov.uk/id/government-year/2010-2011": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://resource.geolba.ac.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=d7b07bce-7ce4-4bcb-85ae-e0f774e6fb8d/pp_project_geologische_einheiten.rdf&contentType=application/rdf%2Bxml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/38802?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/42280?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/44302?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/45138?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/45638?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/46273?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/46617?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/47059?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/47240?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rest.bioontology.org/bioportal/ontologies/download/47404?apikey=BP_API_KEY": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://rod.eionet.europa.eu/obligations.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://sails.clld.org/static/download/SAILS-dataset.n3.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://semantic.ckan.net/package/c/k/ckan.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://serendipity.utpl.edu.ec/lod/sparql": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://smcjournals.dataincubator.org/hills/A'cailliach": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://source.data.gov.uk/data/patents/bis-research-explorer/2010-03-04/patents.data.gov.uk.nt": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://sparql.dbacademic.tech/ds": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://spatial.ucd.ie/osn/skos/osm_semantic_network_mappings.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://status.davidhaberthuer.ch/foaf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://statusnet.20100.org/masaru20100/foaf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://tcga.deri.ie/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://tomcat-eurosentiment.paradigmatecnologico.com/dataset/static/corpora/graph000017_000001_metadata.nq": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://trafficscotland.dataincubator.org/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://uccaribe.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://upr.eagle-i.net/i/0000012a-250a-39df-43fb-601a80000000?format=application/xml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://viaf.org/viaf/data/viaf-20130615-clusters-rdf.xml.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://vivo.cornell.edu/individual/DonnaStevens/DonnaStevens.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://vocab.getty.edu/tgn/7015574": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://void.linkedopendata.it/grrp": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://webisa.webdatacommons.org/sparql": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://wiktionary.dbpedia.org/data/dog.n3": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://worldbank.270a.info/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "http://www.assets.funding.accounts..com": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (invalid URL)"
+ },
+ "http://www.cnr.it/ontology/cnr/individuo/unitaDiPersonaleInterno/MATRICOLA11472": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (TLS error)"
+ },
+ "http://www.eionet.europa.eu/gemet/void.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://www.govtrack.us/developers/data.xpd": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "http://www.igsnrr.cas.cn/sourcedb_igsnrr_cas/zw/zjrck/200906/t20090626_1842564.html": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://www.language-archives.org/static/sample-20160515.rdf.xml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 418,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (418)"
+ },
+ "http://www.languagelibrary.eu/owl/simple/psc/pscLemon.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://www.morelab.deusto.es/sitemap.xml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (TLS error)"
+ },
+ "http://www.open-biomed.org.uk/service/flybase/features/fbgn/{fbgn}": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://www.rdfabout.com/rdf/usgov/congress/99/bills/h4": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://www.rusmarc.ru/RDF/SubjHead/nlr66147783.rdf#concept": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://www.theses.fr/2006INPL032N.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "http://www.w3.org/ns/dcat#": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "http://www.zaragoza.es/datosabiertos/sparql?query=CONSTRUCT+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}%0D%0AWHERE+{%0D%0A++%3Fcatalogo+a+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23Catalog%3E%3B%0D%0A+++%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23dataset%3E+%3Fdataset.%0D%0A++%3Fdataset+%3Chttp%3A%2F%2Fvocab.deri.ie%2Fdcat%23distribution%3E+%3Fdistribucion%3B%0D%0A+++%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FaccrualPeriodicity%3E+%3Ffrecuencia%3B%0D%0A+++%3Fp+%3Fo.%0D%0A++%3Ffrecuencia+%3Ffrec_p+%3Ffrec_o+.%0D%0A++%3Fdistribucion+%3Fdist_p+%3Fdist_o+.%0D%0A}&format=application%2Frdf%2Bxml": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "http://www4.wiwiss.fu-berlin.de/euraxess/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ },
+ "http://zbw.eu/beta/external_identifiers/jel": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.rdf.zip": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://api.wordlift.it/datasets/wl0345.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "https://ckannet-storage.commondatastorage.googleapis.com/2014-10-14T10:43:25.510Z/lexin-nt.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "https://ckannet-storage.commondatastorage.googleapis.com/2014-11-14T21:12:37.992Z/apertium-en-ca-dataset-metadata.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "https://ckannet-storage.commondatastorage.googleapis.com/2015-03-06T10:17:32.780Z/apertium-eo-en-dataset-metadata.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "https://commondatastorage.googleapis.com/ckannet-storage/2012-05-29T154559/2012-05-23_vivo.iu.edu_export.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 403,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (403)"
+ },
+ "https://data.ascdc.tw/Book/crb/Book_Work/114487": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://data.ascdc.tw/en/index.php": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://data.cultureelerfgoed.nl/term/id/cht/export/term/id/cht.ttl": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://data.dnb.de/opendata/dnb-all_lds.ttl.gz": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://data.muziekweb.nl/Link/JK132334": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://datadump.betweenourworlds.org/2018-12.hdt": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://datadump.betweenourworlds.org/2021-06.hdt": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://datahub.ckan.io/dataset/1b6bef97-224b-4365-b814-1811ba07754a/resource/634b0c44-cdb7-4fd5-997e-37a5f89a5d81/download/udvietnamese.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "https://datahub.ckan.io/dataset/4a41b95f-30e4-41ac-b3f7-d51cf8520203/resource/a663c46c-a999-442a-bdbe-48ea80e14c89/download/udgalician.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "https://datahub.ckan.io/dataset/bcb61961-9337-4380-a548-b489e38f5c5e/resource/0ef1a07f-5914-4b18-9232-6fe4eff232ff/download/udsanskrit.rdf": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (timeout)"
+ },
+ "https://dblp.l3s.de/d2r/page/authors/A'lishia_Bowman": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 503,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (503)"
+ },
+ "https://disk.yandex.ru/d/oa34Ke5p1p14PA": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.ttl.gz": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://geomodeling.njnu.edu.cn/computableModel/resource/download/879da5ee-47df-4215-a62c-bfddbd84c7c9/0": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 412,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (412)"
+ },
+ "https://github.com/CIRCSE/index-graecorum-vocabulorum": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://github.com/UniversalDependencies/UD_English/archive/master.zip": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://github.com/UniversalDependencies/UD_Polish/archive/master.zip": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://github.com/downloads/cgueret/GoogleArt-wrapper/gartwrapper.nq.gz": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "https://github.com/m-pepe/BNCF-NS/blob/main/ns202503.zip": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://github.com/sonia04021991/earthquake-KG/blob/main/earthquake.rdf": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7aLpFYbsPrqHNpcPqaxaNHT2wiq4crOmnsl3bVGVckYQszeZO0IIJYuqCFEOBomMy&uniplatform=NZKPT": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (TLS error)"
+ },
+ "https://landweb.nascom.nasa.gov/": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (DNS failure)"
+ },
+ "https://linked.opendata.cz/sparql?query=DESCRIBE+%3Chttps%3A%2F%2Flinked.opendata.cz%2Fzdroj%2Fdatov%C3%A1-sada%2Fdatov%C3%A9-schr%C3%A1nky%2Fdistribution%3E&output=text%2Fturtle": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: connection failed)"
+ },
+ "https://mmisw.org/ont/api/v0/ont?format=jsonld&iri=https://mmisw.org/ont/~mhoangvslev/surface_forestiere": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/country": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://opendata.epa.gov/meta/cdr/void.ttl": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "https://purl.org/whonto/onto": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (host unreachable: timeout)"
+ },
+ "https://raw.github.com/bio2rdf/bio2rdf-mapping/master/2/omim/bio2rdf_omim_sio_mapping.owl": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://raw.githubusercontent.com/baixue1/linked-data/master/data/composer.ttl": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://ruian.linked.opendata.cz/soubor/ruian.zip": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "https://tplegacy.net/the-true-owners-in-establishing-the-kingdom-of-peace-and-unity-in-heaven-and-on-earth/": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://w3id.org/jp-textbook/高等学校/2017/国表/308": {
+  "failures": 0,
+  "http": 200,
+  "last_checked": "2026-11-23",
+  "last_ok": "2026-11-23",
+  "status": "OK"
+ },
+ "https://www.ebi.ac.uk/rdf/services/biosamples/sparql": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "http": 404,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (404)"
+ },
+ "https://www.snik.eu/ontology/bb/ChiefExecutiveOfficer": {
+  "failing_since": "2026-11-23",
+  "failures": 1,
+  "last_checked": "2026-11-23",
+  "status": "FAIL (connection failed)"
+ }
+}
