@@ -14,9 +14,10 @@ submit_url: https://github.com/lod-cloud/lod-cloud-site/issues/new/choose
 # Dataset records, relative to this directory (see _plugins/lodcloud.rb).
 dataset_dir: ../data/datasets
 
-# Diagram images and old versions are not produced by this site yet (#97, #98),
-# so they are loaded from here. Set to "" once the site serves them itself.
-cloud_base: https://lod-cloud.net
+# Where the diagrams (clouds/) are served from. The build downloads the current set from its
+# GitHub release into the site (scripts/fetch_clouds.py), so this is "" (the site itself).
+# A preview under a path (baseurl) sets both; see site/README.md.
+cloud_base: ""
 
 exclude:
   - Gemfile

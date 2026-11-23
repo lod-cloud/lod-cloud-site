@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="{{ '/lod-cloud.css' | relative_url }}" rel="stylesheet">
     <link href="{{ '/assets/site.css' | relative_url }}" rel="stylesheet">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    {% if site.baseurl != "" %}<meta name="robots" content="noindex">{% endif %}
     {{ page.extra_head }}
   </head>
   <body>

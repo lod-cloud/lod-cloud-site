@@ -138,6 +138,14 @@ module LODCloud
         site.pages << RedirectPage.new(site, "edit-dataset", r["identifier"],
                                        edit_base + ERB::Util.url_encode(LODCloud.filename(r["identifier"])))
       end
+      # /versions/<dir>/ held a diagram set; it is a release now (static hosting cannot redirect
+      # the individual files, so only the directory page goes to the release).
+      Array(site.data["versions"]).each do |v|
+        next unless v["release"]
+
+        site.pages << RedirectPage.new(site, "versions", (v["dir"] || v["date"]).to_s,
+                                       "#{site.config.fetch('github_url')}/releases/tag/#{ERB::Util.url_encode(v['release'])}")
+      end
       site.pages << Jekyll::PageWithoutAFile.new(site, site.source, "add-dataset", "index.html").tap do |p|
         href = ERB::Util.html_escape(site.config.fetch("submit_url"))
         p.content = %(<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Redirecting</title>) +
