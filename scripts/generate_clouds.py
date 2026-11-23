@@ -5,7 +5,7 @@
 
 For the whole cloud and each domain it runs lod-cloud-draw, then converts the
 SVG to a PNG (rsvg-convert) and, for the whole cloud, a small JPEG
-(ImageMagick). The settings files are in cloud-settings/. The canvas radius and
+(rsvg-convert, then ImageMagick). The settings files are in cloud-settings/. The canvas radius and
 iteration count are those used by the old generate-clouds.sh. With --versions
 it adds the new diagram to site/_data/versions.yml.
 """
@@ -36,7 +36,7 @@ CLOUDS = [
 ALGORITHMS = ["lbfgs", "sd"]
 RELEASE_PREFIX = "clouds-"  # release tag = prefix + directory name
 PNG_ZOOM = 3  # the old PNGs were 3x the SVG's width
-JPEG_SCALE = "40%"
+JPEG_SCALE = 0.4  # of the PNG size
 
 
 def draw(binary, data, stem, canvas, out, iterations):
@@ -63,11 +63,23 @@ def to_png(svg):
                     "-o", str(svg.with_suffix(".png")), str(svg)], check=True)
 
 
-def to_jpeg(png, jpeg):
+def to_jpeg(svg, jpeg):
+    """The small JPEG, drawn from the SVG at JPEG_SCALE of the PNG size.
+
+    Scaling down the full-size PNG with ImageMagick ran out of its pixel-cache
+    limit on a runner (the policy differs between images), so the SVG is drawn
+    small instead and ImageMagick only converts the small image.
+    """
     convert = shutil.which("magick") or shutil.which("convert")
     if not convert:
         raise SystemExit("ImageMagick (magick or convert) is required for the JPEG")
-    subprocess.run([convert, str(png), "-scale", JPEG_SCALE, str(jpeg)], check=True)
+    small = jpeg.with_suffix(".small.png")
+    subprocess.run(["rsvg-convert", "-z", str(PNG_ZOOM * JPEG_SCALE), "-b", "white", "-f", "png",
+                    "-o", str(small), str(svg)], check=True)
+    try:
+        subprocess.run([convert, str(small), "-quality", "85", str(jpeg)], check=True)
+    finally:
+        small.unlink(missing_ok=True)
 
 
 def count_datasets(svg):
@@ -117,7 +129,7 @@ def main(argv=None):
         draw(Path(args.binary).resolve(), data, stem, canvas, out, args.iterations)
         to_png(out / (stem + ".svg"))
         if stem == "lod-cloud":
-            to_jpeg(out / "lod-cloud.png", out / "lod-cloud-sm.jpg")
+            to_jpeg(out / "lod-cloud.svg", out / "lod-cloud-sm.jpg")
     shutil.copy(data, out / "lod-data.json")
     # The settings used are published with the diagrams, as in the old sets
     for settings in sorted(SETTINGS.glob("*.json")):
