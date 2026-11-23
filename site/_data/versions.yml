@@ -11,6 +11,14 @@
 #   colored   png / pdf / svg file names of the coloured diagram (optional)
 #   graph     JSON file with the data the diagram was drawn from (optional)
 
+- date: "2026-11-23"
+  release: clouds-2026-11-23
+  datasets: 1368
+  colored:
+    png: lod-cloud.png
+    svg: lod-cloud.svg
+  graph: lod-data.json
+
 - date: "2026-06-15"
   release: clouds-2026-06-15
   datasets: 1360
