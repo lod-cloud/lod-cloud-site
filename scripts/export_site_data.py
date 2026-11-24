@@ -12,6 +12,8 @@ data/datasets it writes (paths are relative to the output directory):
                                       (port of RDFView.java, plus DCAT-3, below)
     extract/rdf                       all datasets, N-Triples
     catalog.ttl, catalog.jsonld       the catalogue (dcat:Catalog) with all datasets
+    dataset/<id>/index.html           (already built by Jekyll) gets the dataset's RDF as JSON-LD
+                                      in a <script type="application/ld+json"> in its head
     dataset-redirects.json            identifier -> path, for 404.html
 
 The RDF is VoID as the old site had it (every old statement is kept, so consumers of the old
@@ -259,6 +261,36 @@ def add_catalog(g, records):
         g.add((CATALOG_URI, DCAT.dataset, dataset_uri(rec["identifier"])))
 
 
+# Prefixes for the JSON-LD embedded in the dataset pages (keeps it short and readable)
+JSONLD_CONTEXT = {"dcat": str(DCAT), "dcterms": str(DCTERMS), "foaf": str(FOAF), "rdfs": str(RDFS),
+                  "void": str(VOID), "vcard": str(VCARD), "skos": str(SKOS), "xsd": str(XSD)}
+JSONLD_ID = "dataset-jsonld"
+
+
+def json_for_html(text):
+    """JSON that is safe inside <script>: no "<" (so no </script> or <!--) and no line separators."""
+    return text.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026") \
+               .replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+
+
+def embed_jsonld(page, graph):
+    """Put the graph into the head of the dataset page as JSON-LD. Returns False if there is no page.
+
+    A client that fetches /dataset/<id> can then read the RDF from the page, which is all a
+    static host allows instead of content negotiation (#115). Running it again replaces the script.
+    """
+    if not page.is_file():
+        return False
+    html = page.read_text(encoding="utf-8")
+    html = re.sub(r'<script type="application/ld\+json" id="%s">.*?</script>\n?' % JSONLD_ID, "", html, flags=re.S)
+    data = graph.serialize(format="json-ld", context=JSONLD_CONTEXT, indent=1)
+    tag = '<script type="application/ld+json" id="%s">\n%s\n</script>\n' % (JSONLD_ID, json_for_html(data))
+    if "</head>" not in html:
+        return False
+    page.write_text(html.replace("</head>", tag + "</head>", 1), encoding="utf-8")
+    return True
+
+
 def new_graph():
     g = Graph()
     for prefix, ns in (("void", VOID), ("dcterms", DCTERMS), ("foaf", FOAF),
@@ -308,6 +340,7 @@ def export(records, out):
         add_dataset(all_rdf, rec)
         for directory, fmt in (("rdf", "xml"), ("ttl", "turtle"), ("nt", "nt")):
             write(out / directory / p, g.serialize(format=fmt))
+        embed_jsonld(out / "dataset" / p / "index.html", g)
     write(out / "extract" / "rdf", all_rdf.serialize(format="nt"))
     catalog = new_graph()
     for rec in records:

@@ -73,7 +73,7 @@ The Java application served these routes. Static hosting cannot do everything th
 
 | Old route | Now |
 |---|---|
-| `/dataset/<id>` | `/dataset/<id>/` (HTML). **No content negotiation**: a request with `Accept: text/turtle` etc. used to be redirected to the RDF, and now gets the HTML page. Each page advertises the other formats with `<link rel="alternate">` in its `<head>` (and links to them), which is the only discovery mechanism available. |
+| `/dataset/<id>` | `/dataset/<id>/` (HTML). **No content negotiation**: a request with `Accept: text/turtle` etc. used to be redirected to the RDF, and now gets the HTML page. Each page advertises the other formats with `<link rel="alternate">` in its `<head>` (and links to them), and **carries the dataset's RDF as JSON-LD** in a `<script type="application/ld+json" id="dataset-jsonld">` in the head, so a client that fetches the page can read the RDF from it. |
 | `/json/<id>`, `/api/<id>` (GET) | Same paths, the dataset in the old JSON format. |
 | `/rdf/<id>?format=ttl\|rdf\|nt` | `/rdf/<id>` (RDF/XML), `/ttl/<id>` (Turtle), `/nt/<id>` (N-Triples). A static server ignores `?format=`, so an old link to `/rdf/<id>` now returns **RDF/XML whatever the query says**: `?format=rdf` links are right; bare `/rdf/<id>` and `?format=ttl` (the old default) now return RDF/XML, not Turtle, and `?format=nt` links likewise. Use `/ttl/<id>` and `/nt/<id>`. |
 | `/extract/datasets` | Same path, and `/lod-data.json` (identical content), in the old format. |
@@ -117,6 +117,8 @@ Each dataset is a `void:Dataset` and a `dcat:Dataset`:
 | SPARQL endpoints | `void:sparqlEndpoint`, and a `dcat:Distribution` whose `dcat:accessService` is a `dcat:DataService` (`dcat:endpointURL`, `dcat:servesDataset`, `dcterms:conformsTo` the SPARQL protocol) |
 | examples | `void:exampleResource` |
 | each link | a `void:Linkset` named `<dataset>#linkset-<target>` with `void:subjectsTarget` (the dataset), `void:objectsTarget` (the target), `void:target` (both, as before) and `void:triples` when the count is known |
+
+**In the dataset pages.** Each dataset page has the same RDF as JSON-LD (the graph of `rdf/<id>`, with the namespace prefixes as the `@context`; the page grows by 4 to 10 KB) in its head, written by `scripts/export_site_data.py` into the page Jekyll built. The dataset URI (`http://lod-cloud.net/dataset/<id>`) is the subject, so the page and the dataset it describes share a URI; this does not meet the W3C 303 recommendation but is the best a static host allows. Text from the data is escaped (`<`, `>`, `&` as `\uXXXX`) so a record cannot end the script. `scripts/check_site_paths.py` fails if a page lacks it or describes another dataset. It is DCAT/VoID, not schema.org, so search engines' dataset search will not read it.
 
 `catalog.ttl` and `catalog.jsonld` hold the whole catalogue: a `dcat:Catalog` (`http://lod-cloud.net/#catalog`) with `dcat:dataset` for each dataset, the nine domains as a `skos:ConceptScheme` (`dcat:themeTaxonomy`), and all the datasets as above.
 

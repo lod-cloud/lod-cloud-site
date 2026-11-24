@@ -9,10 +9,30 @@ the rule that turns an identifier into a path; this fails if they disagree, or
 if anything is missing.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
-from export_site_data import ROOT, dataset_path, load_records
+from export_site_data import JSONLD_ID, ROOT, dataset_path, dataset_uri, load_records
+
+JSONLD = re.compile(r'<script type="application/ld\+json" id="%s">(.*?)</script>' % JSONLD_ID, re.S)
+
+
+def jsonld_problem(page, identifier):
+    """Why a dataset page's embedded JSON-LD is wrong, or None. (Escapes like \\u003c are plain JSON.)"""
+    found = JSONLD.findall(page.read_text(encoding="utf-8"))
+    if len(found) != 1:
+        return "has %d JSON-LD scripts, not 1" % len(found)
+    try:
+        data = json.loads(found[0])
+    except ValueError as e:
+        return "JSON-LD is not valid JSON: %s" % e
+    nodes = data.get("@graph", [data]) if isinstance(data, dict) else []
+    wanted = str(dataset_uri(identifier))
+    if not any(n.get("@id") == wanted or n.get("@id") == wanted.replace("http://lod-cloud.net/", "") for n in nodes
+               if isinstance(n, dict)):
+        return "JSON-LD does not describe %s" % wanted
+    return None
 
 
 def main():
@@ -27,6 +47,11 @@ def main():
                     site / "json" / p, site / "api" / p,
                     site / "rdf" / p, site / "ttl" / p, site / "nt" / p]
         missing += [str(e.relative_to(site)) for e in expected if not e.is_file()]
+        page = site / "dataset" / p / "index.html"
+        if page.is_file():
+            problem = jsonld_problem(page, rec["identifier"])
+            if problem:
+                missing.append("dataset/%s/index.html: %s" % (p, problem))
 
     redirects = json.loads((site / "dataset-redirects.json").read_text(encoding="utf-8"))
     for ident, p in redirects.items():
