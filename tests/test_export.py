@@ -86,11 +86,18 @@ class RdfTest(unittest.TestCase):
         self.assertIn((ds, DCTERMS.license, URIRef("https://creativecommons.org/licenses/by/4.0/")), g)
         self.assertIn((ds, DCTERMS.subject, Literal("media")), g)
 
-    def test_only_links_with_a_count_become_linksets(self):
+    def test_every_link_is_a_linkset_and_only_known_counts_have_triples(self):
         g = graph_of(FULL)
-        targets = {o for _, _, o in g.triples((None, ex.VOID.target, None))}
-        self.assertIn(URIRef("http://lod-cloud.net/dataset/other"), targets)
-        self.assertNotIn(URIRef("http://lod-cloud.net/dataset/unknown-count"), targets)
+        ds = URIRef("http://lod-cloud.net/dataset/full")
+        other = URIRef("http://lod-cloud.net/dataset/other")
+        ls = URIRef("http://lod-cloud.net/dataset/full#linkset-other")
+        for triple in ((ls, RDF.type, ex.VOID.Linkset), (ls, ex.VOID.subjectsTarget, ds),
+                       (ls, ex.VOID.objectsTarget, other), (ls, ex.VOID.target, ds), (ls, ex.VOID.target, other),
+                       (ls, ex.VOID.triples, Literal("12", datatype=XSD.integer))):
+            self.assertIn(triple, g)
+        unknown = URIRef("http://lod-cloud.net/dataset/full#linkset-unknown-count")
+        self.assertIn((unknown, ex.VOID.objectsTarget, URIRef("http://lod-cloud.net/dataset/unknown-count")), g)
+        self.assertEqual(list(g.objects(unknown, ex.VOID.triples)), [])
 
     def test_invalid_urls_are_skipped_or_escaped(self):
         rec = dict(MINIMAL, full_download=[{"download_url": "not a url"}, {"download_url": "http://x.org/a b"}])
@@ -103,6 +110,95 @@ class RdfTest(unittest.TestCase):
 
     def test_dataset_uri_uses_the_old_encoding(self):
         self.assertEqual(str(ex.dataset_uri("a b:c")), "http://lod-cloud.net/dataset/a+b%3Ac")
+
+
+DCAT = ex.DCAT
+VCARD = ex.VCARD
+
+
+class DcatTest(unittest.TestCase):
+    def setUp(self):
+        rec = dict(FULL, doi="10.1234/x", image="https://example.org/logo.png", namespace="https://example.org/ns/",
+                   full_download=[{"title": "Dump", "description": "All", "media_type": "text/turtle",
+                                   "download_url": "https://example.org/dump.ttl", "access_url": "https://example.org/page"}],
+                   sparql=[{"title": "Endpoint", "access_url": "https://example.org/sparql"}],
+                   other_download=[{"access_url": "https://example.org/doc", "media_type": "image"}])
+        self.g = graph_of(rec)
+        self.ds = URIRef("http://lod-cloud.net/dataset/full")
+
+    def one(self, s, p):
+        values = list(self.g.objects(s, p))
+        self.assertEqual(len(values), 1, (s, p, values))
+        return values[0]
+
+    def test_a_dataset_is_both_void_and_dcat(self):
+        for cls in (ex.VOID.Dataset, DCAT.Dataset):
+            self.assertIn((self.ds, RDF.type, cls), self.g)
+        self.assertIn((self.ds, DCTERMS.identifier, Literal("full")), self.g)
+        self.assertIn((self.ds, DCTERMS.identifier, Literal("https://doi.org/10.1234/x")), self.g)
+        self.assertIn((self.ds, DCAT.keyword, Literal("k")), self.g)
+        self.assertIn((self.ds, DCAT.landingPage, URIRef("https://example.org/")), self.g)
+        self.assertIn((self.ds, DCAT.theme, URIRef("http://lod-cloud.net/domain/media/")), self.g)
+        self.assertIn((self.ds, ex.VOID.uriSpace, URIRef("https://example.org/ns/")), self.g)
+
+    def test_a_full_download_is_a_distribution_and_still_a_void_dump(self):
+        self.assertIn((self.ds, ex.VOID.dataDump, URIRef("https://example.org/dump.ttl")), self.g)
+        dist = [d for d in self.g.objects(self.ds, DCAT.distribution)
+                if (d, DCAT.downloadURL, URIRef("https://example.org/dump.ttl")) in self.g]
+        self.assertEqual(len(dist), 1)
+        d = dist[0]
+        self.assertIn((d, RDF.type, DCAT.Distribution), self.g)
+        self.assertIn((d, DCAT.accessURL, URIRef("https://example.org/page")), self.g)
+        self.assertEqual(self.one(d, DCTERMS.title), Literal("Dump"))
+        self.assertEqual(self.one(d, DCAT.mediaType), URIRef("https://www.iana.org/assignments/media-types/text/turtle"))
+
+    def test_a_sparql_endpoint_is_a_data_service(self):
+        self.assertIn((self.ds, ex.VOID.sparqlEndpoint, URIRef("https://example.org/sparql")), self.g)
+        services = list(self.g.subjects(RDF.type, DCAT.DataService))
+        self.assertEqual(len(services), 1)
+        s = services[0]
+        self.assertEqual(self.one(s, DCAT.endpointURL), URIRef("https://example.org/sparql"))
+        self.assertEqual(self.one(s, DCAT.servesDataset), self.ds)
+        self.assertEqual(self.one(s, DCTERMS.conformsTo), ex.SPARQL_PROTOCOL)
+        self.assertEqual(len(list(self.g.subjects(DCAT.accessService, s))), 1)
+
+    def test_free_text_media_types_are_not_made_into_uris(self):
+        doc = [d for d in self.g.objects(self.ds, DCAT.distribution)
+               if (d, DCAT.accessURL, URIRef("https://example.org/doc")) in self.g][0]
+        self.assertEqual(list(self.g.objects(doc, DCAT.mediaType)), [])
+
+    def test_contact_point_is_a_vcard_and_the_old_publisher_stays(self):
+        c = self.one(self.ds, DCAT.contactPoint)
+        self.assertIn((c, RDF.type, VCARD.Kind), self.g)
+        self.assertEqual(self.one(c, VCARD.fn), Literal("A"))
+        self.assertEqual(self.one(c, VCARD.hasEmail), URIRef("mailto:a@example.org"))
+        self.assertEqual(len(list(self.g.objects(self.ds, DCTERMS.publisher))), 1)
+
+    def test_old_triples_are_all_still_there(self):
+        old = [(self.ds, ex.VOID.dataDump, URIRef("https://example.org/dump.ttl")),
+               (self.ds, ex.VOID.exampleResource, URIRef("https://example.org/r/1")),
+               (self.ds, DCTERMS.subject, Literal("media")), (self.ds, DCTERMS.subject, Literal("k"))]
+        for t in old:
+            self.assertIn(t, self.g)
+
+    def test_the_catalog_lists_the_datasets_and_the_domains(self):
+        g = ex.new_graph()
+        ex.add_dataset(g, FULL)
+        ex.add_catalog(g, [FULL, MINIMAL])
+        self.assertIn((ex.CATALOG_URI, RDF.type, DCAT.Catalog), g)
+        self.assertEqual({str(o) for o in g.objects(ex.CATALOG_URI, DCAT.dataset)},
+                         {"http://lod-cloud.net/dataset/full", "http://lod-cloud.net/dataset/min"})
+        concepts = list(g.subjects(RDF.type, ex.SKOS.Concept))
+        self.assertEqual(len(concepts), len(ex.DOMAINS))
+        self.assertIn((URIRef("http://lod-cloud.net/domain/media/"), ex.SKOS.prefLabel, Literal("Media", lang="en")), g)
+
+    def test_catalog_files_are_written_and_parse(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ex.export([FULL, MINIMAL], tmp)
+            ttl = Graph().parse(Path(tmp) / "catalog.ttl", format="turtle")
+            js = Graph().parse(Path(tmp) / "catalog.jsonld", format="json-ld")
+            self.assertTrue(isomorphic(ttl, js))
+            self.assertIn((ex.CATALOG_URI, DCAT.dataset, URIRef("http://lod-cloud.net/dataset/min")), ttl)
 
 
 class ExportTest(unittest.TestCase):

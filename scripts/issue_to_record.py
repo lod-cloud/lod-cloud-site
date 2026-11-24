@@ -27,6 +27,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import domains  # noqa: E402
 import validate  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -52,13 +53,8 @@ FIELDS = {
     "SPARQL endpoints": "sparql",
     "Links to other datasets": "links",
 }
-# Keep in sync with DOMAINS in site/_plugins/lodcloud.rb
-DOMAINS = {
-    "Cross-Domain": "cross_domain", "Geography": "geography", "Government": "government",
-    "Life Sciences": "life_sciences", "Linguistics": "linguistics", "Media": "media",
-    "Publications": "publications", "Social Networking": "social_networking",
-    "User-Generated": "user_generated",
-}
+# Label in the form -> key (scripts/domains.py)
+DOMAINS = {label: key for key, label in domains.DOMAINS.items()}
 # Key order of a new file (schema/README.md)
 ORDER = ["identifier", "title", "description", "domain", "website", "contact_point", "license", "triples",
          "namespace", "doi", "image", "keywords", "links", "full_download", "other_download", "example", "sparql"]

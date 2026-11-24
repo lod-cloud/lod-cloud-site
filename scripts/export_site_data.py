@@ -9,9 +9,15 @@ data/datasets it writes (paths are relative to the output directory):
     lod-data.json, extract/datasets   all datasets, old lod-data.json format
     json/<id>, api/<id>               one dataset, old format
     rdf/<id>, ttl/<id>, nt/<id>       one dataset as RDF/XML, Turtle, N-Triples
-                                      (port of RDFView.java)
+                                      (port of RDFView.java, plus DCAT-3, below)
     extract/rdf                       all datasets, N-Triples
+    catalog.ttl, catalog.jsonld       the catalogue (dcat:Catalog) with all datasets
     dataset-redirects.json            identifier -> path, for 404.html
+
+The RDF is VoID as the old site had it (every old statement is kept, so consumers of the old
+files are not affected) with DCAT-3 added to each dataset: it is also a dcat:Dataset, with
+dcat:Distribution (downloads), dcat:DataService (SPARQL endpoints), dcat:contactPoint,
+dcat:keyword, dcat:theme (the domain) and dcat:landingPage; the links are void:Linkset.
 
 <id> is the identifier, except identifiers containing characters that cannot
 be in a published file name (see UNSAFE), which are percent-encoded.
@@ -25,12 +31,20 @@ import urllib.parse
 from pathlib import Path
 
 from rdflib import BNode, Graph, Literal, Namespace, URIRef
-from rdflib.namespace import DCTERMS, FOAF, RDF, RDFS, XSD
+from rdflib.namespace import DCTERMS, FOAF, RDF, RDFS, SKOS, XSD
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from domains import DOMAINS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 VOID = Namespace("http://rdfs.org/ns/void#")
 DCAT = Namespace("http://www.w3.org/ns/dcat#")
+VCARD = Namespace("http://www.w3.org/2006/vcard/ns#")
 DATASET_URI = "http://lod-cloud.net/dataset/"
+DOMAIN_URI = "http://lod-cloud.net/domain/"
+CATALOG_URI = URIRef("http://lod-cloud.net/#catalog")
+MEDIA_TYPE_URI = "https://www.iana.org/assignments/media-types/"
+SPARQL_PROTOCOL = URIRef("https://www.w3.org/TR/sparql11-protocol/")
 RESOURCE_LISTS = ("full_download", "example", "sparql", "other_download")
 
 # Characters GitHub's upload-artifact refuses in a path (and NTFS forbids).
@@ -101,8 +115,20 @@ def iri(url):
     return URIRef(re.sub(r'[\x00-\x20"<>\\^`{|}]', lambda m: "%%%02X" % ord(m.group()), url))
 
 
+def media_type(value):
+    """The IANA URI of a media type such as text/turtle, or None (the data has some free text)."""
+    value = (value or "").strip().lower()
+    if re.fullmatch(r"[a-z0-9][a-z0-9.+-]*/[a-z0-9][a-z0-9.+-]*", value):
+        return URIRef(MEDIA_TYPE_URI + value)
+    return None
+
+
+def domain_uri(key):
+    return URIRef("%s%s/" % (DOMAIN_URI, key))
+
+
 def add_dataset(g, rec):
-    """Add the triples for one dataset (port of RDFView.createResource)."""
+    """Add the triples for one dataset: the old VoID ones (RDFView.createResource) and DCAT-3."""
     ident = rec["identifier"]
     ds = dataset_uri(ident)
 
@@ -114,15 +140,48 @@ def add_dataset(g, rec):
         if node is not None:
             g.add((subject, predicate, node))
 
+    def describe(node, resource):
+        """Title, description and media type of a download or endpoint, on its distribution."""
+        if resource.get("title"):
+            g.add((node, DCTERMS.title, Literal(resource["title"])))
+        if resource.get("description"):
+            g.add((node, DCTERMS.description, Literal(resource["description"])))
+        mt = media_type(resource.get("media_type"))
+        if mt is not None:
+            g.add((node, DCAT.mediaType, mt))
+
     g.add((ds, RDF.type, VOID.Dataset))
+    g.add((ds, RDF.type, DCAT.Dataset))
+    g.add((ds, DCTERMS.identifier, Literal(ident)))
     if rec.get("title"):
         g.add((ds, DCTERMS.title, Literal(rec["title"], lang="en")))
     for lang, text in sorted(rec.get("description", {}).items()):
         g.add((ds, DCTERMS.description, Literal(text, lang=lang)))
-    for r in rec.get("full_download", []):
-        add_url(ds, VOID.dataDump, r.get("download_url"))
-    for r in rec.get("sparql", []):
-        add_url(ds, VOID.sparqlEndpoint, r.get("access_url"))
+    for i, r in enumerate(rec.get("full_download", [])):
+        node = iri(r.get("download_url") or "")
+        if node is None:
+            continue
+        g.add((ds, VOID.dataDump, node))
+        b = bnode("full", i)
+        g.add((ds, DCAT.distribution, b))
+        g.add((b, RDF.type, DCAT.Distribution))
+        g.add((b, DCAT.downloadURL, node))
+        add_url(b, DCAT.accessURL, r.get("access_url"))
+        describe(b, r)
+    for i, r in enumerate(rec.get("sparql", [])):
+        node = iri(r.get("access_url") or "")
+        if node is None:
+            continue
+        g.add((ds, VOID.sparqlEndpoint, node))
+        b, service = bnode("sparql", i), bnode("service", i)
+        g.add((ds, DCAT.distribution, b))
+        g.add((b, RDF.type, DCAT.Distribution))
+        g.add((b, DCAT.accessService, service))
+        g.add((service, RDF.type, DCAT.DataService))
+        g.add((service, DCAT.endpointURL, node))
+        g.add((service, DCAT.servesDataset, ds))
+        g.add((service, DCTERMS.conformsTo, SPARQL_PROTOCOL))
+        describe(service, r)
     for r in rec.get("example", []):
         add_url(ds, VOID.exampleResource, r.get("access_url"))
     for i, r in enumerate(rec.get("other_download", [])):
@@ -130,12 +189,21 @@ def add_dataset(g, rec):
         if node is not None:
             b = bnode("dist", i)
             g.add((ds, DCAT.distribution, b))
+            g.add((b, RDF.type, DCAT.Distribution))
             g.add((b, DCAT.accessURL, node))
+            describe(b, r)
     for keyword in rec.get("keywords", []):
         g.add((ds, DCTERMS.subject, Literal(keyword)))
+        g.add((ds, DCAT.keyword, Literal(keyword)))
     if rec.get("domain"):
         g.add((ds, DCTERMS.subject, Literal(rec["domain"])))
+        g.add((ds, DCAT.theme, domain_uri(rec["domain"])))
     add_url(ds, FOAF.homepage, rec.get("website"))
+    add_url(ds, DCAT.landingPage, rec.get("website"))
+    add_url(ds, FOAF.depiction, rec.get("image"))
+    add_url(ds, VOID.uriSpace, rec.get("namespace"))
+    if rec.get("doi"):
+        g.add((ds, DCTERMS.identifier, Literal("https://doi.org/" + rec["doi"])))
     contact = rec.get("contact_point")
     if contact:
         b = bnode("publisher")
@@ -144,13 +212,25 @@ def add_dataset(g, rec):
             g.add((b, RDFS.label, Literal(contact["name"])))
         if contact.get("email"):
             g.add((b, FOAF.mbox, Literal(contact["email"])))
-    for i, link in enumerate(rec.get("links", [])):
-        if "value" not in link:
-            continue
-        b = bnode("link", i)
-        g.add((b, VOID.target, ds))
-        g.add((b, VOID.target, dataset_uri(link["target"])))
-        g.add((b, VOID.triples, Literal(str(link["value"]), datatype=XSD.integer)))
+        c = bnode("contact")
+        g.add((ds, DCAT.contactPoint, c))
+        g.add((c, RDF.type, VCARD.Kind))
+        if contact.get("name"):
+            g.add((c, VCARD.fn, Literal(contact["name"])))
+        if contact.get("email"):
+            add_url(c, VCARD.hasEmail, "mailto:" + contact["email"].strip())
+    for link in rec.get("links", []):
+        # A linkset of its own, named after the pair of datasets (the old site wrote an
+        # unnamed one, and only for links with a known count).
+        target = dataset_uri(link["target"])
+        ls = URIRef("%s#linkset-%s" % (ds, java_url_encode(link["target"])))
+        g.add((ls, RDF.type, VOID.Linkset))
+        g.add((ls, VOID.subjectsTarget, ds))
+        g.add((ls, VOID.objectsTarget, target))
+        g.add((ls, VOID.target, ds))
+        g.add((ls, VOID.target, target))
+        if "value" in link:
+            g.add((ls, VOID.triples, Literal(str(link["value"]), datatype=XSD.integer)))
     if "triples" in rec:
         g.add((ds, VOID.triples, Literal(str(rec["triples"]), datatype=XSD.integer)))
     # The Java code read "license_url", a field that never existed, so no
@@ -158,10 +238,32 @@ def add_dataset(g, rec):
     add_url(ds, DCTERMS.license, rec.get("license"))
 
 
+def add_catalog(g, records):
+    """The dcat:Catalog: the datasets, and the domains as a SKOS concept scheme (dcat:theme)."""
+    g.add((CATALOG_URI, RDF.type, DCAT.Catalog))
+    g.add((CATALOG_URI, DCTERMS.title, Literal("The Linked Open Data Cloud", lang="en")))
+    g.add((CATALOG_URI, DCTERMS.description, Literal(
+        "Datasets published as Linked Open Data, the catalogue behind the LOD Cloud diagram.", lang="en")))
+    g.add((CATALOG_URI, FOAF.homepage, URIRef("https://lod-cloud.net/")))
+    g.add((CATALOG_URI, DCAT.themeTaxonomy, URIRef(DOMAIN_URI)))
+    scheme = URIRef(DOMAIN_URI)
+    g.add((scheme, RDF.type, SKOS.ConceptScheme))
+    g.add((scheme, DCTERMS.title, Literal("Domains of the LOD Cloud", lang="en")))
+    for key, label in DOMAINS.items():
+        concept = domain_uri(key)
+        g.add((concept, RDF.type, SKOS.Concept))
+        g.add((concept, SKOS.prefLabel, Literal(label, lang="en")))
+        g.add((concept, SKOS.inScheme, scheme))
+        g.add((scheme, SKOS.hasTopConcept, concept))
+    for rec in records:
+        g.add((CATALOG_URI, DCAT.dataset, dataset_uri(rec["identifier"])))
+
+
 def new_graph():
     g = Graph()
     for prefix, ns in (("void", VOID), ("dcterms", DCTERMS), ("foaf", FOAF),
-                       ("dcat", DCAT), ("rdfs", RDFS), ("xsd", XSD)):
+                       ("dcat", DCAT), ("rdfs", RDFS), ("xsd", XSD), ("vcard", VCARD),
+                       ("skos", SKOS)):
         g.bind(prefix, ns)
     return g
 
@@ -207,6 +309,12 @@ def export(records, out):
         for directory, fmt in (("rdf", "xml"), ("ttl", "turtle"), ("nt", "nt")):
             write(out / directory / p, g.serialize(format=fmt))
     write(out / "extract" / "rdf", all_rdf.serialize(format="nt"))
+    catalog = new_graph()
+    for rec in records:
+        add_dataset(catalog, rec)
+    add_catalog(catalog, records)
+    write(out / "catalog.ttl", catalog.serialize(format="turtle"))
+    write(out / "catalog.jsonld", catalog.serialize(format="json-ld", indent=1))
 
     redirects = {i: p for p, i in paths.items() if p != i}
     write(out / "dataset-redirects.json", json.dumps(redirects, indent=1, ensure_ascii=False, sort_keys=True) + "\n")
