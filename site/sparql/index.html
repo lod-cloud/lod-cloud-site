@@ -1,0 +1,160 @@
+---
+layout: default
+title: SPARQL
+---
+<div class="container">
+  <h2 class="text-center">SPARQL over the catalogue</h2>
+  <p class="text-center text-muted">Prototype. Your browser loads <a href="{{ '/catalog.ttl' | relative_url }}">catalog.ttl</a>
+    (the DCAT/VoID description of all {{ site.data.datasets.size }} datasets and their links, about 11 MB) into an in-memory
+    store, <a href="https://github.com/oxigraph/oxigraph">Oxigraph</a> compiled to WebAssembly, and runs your SPARQL query
+    on it. Nothing is sent to a server.</p>
+
+  <noscript><p class="alert alert-warning">This page needs JavaScript. The data is at <a href="{{ '/catalog.ttl' | relative_url }}">catalog.ttl</a>.</p></noscript>
+
+  <div class="form-group">
+    <label for="examples"><b>Examples</b></label>
+    <select id="examples" class="form-control"></select>
+  </div>
+  <div class="form-group">
+    <label for="query"><b>Query</b></label>
+    <textarea id="query" class="form-control" rows="12" spellcheck="false" style="font-family: monospace;"></textarea>
+  </div>
+  <p>
+    <button id="load" type="button" class="btn btn-secondary">Load the catalogue</button>
+    <button id="run" type="button" class="btn btn-primary" disabled>Run</button>
+    <span id="status" class="text-muted ml-2" role="status"></span>
+  </p>
+  <div id="error" class="alert alert-danger" role="alert" hidden></div>
+  <div id="summary" class="text-muted"></div>
+  <div style="overflow-x: auto;"><table id="results" class="table table-sm table-striped" hidden></table></div>
+  <pre id="text" hidden></pre>
+</div>
+
+<script type="module">
+  // Pinned; the WebAssembly store is loaded from the CDN (4 MB, cached by the browser).
+  import init, * as oxigraph from "https://cdn.jsdelivr.net/npm/oxigraph@0.5.13/web.js";
+
+  const CATALOG = "{{ '/catalog.ttl' | relative_url }}";
+  const PREFIXES = {
+    dcat: "http://www.w3.org/ns/dcat#", dcterms: "http://purl.org/dc/terms/", void: "http://rdfs.org/ns/void#",
+    skos: "http://www.w3.org/2004/02/skos/core#", foaf: "http://xmlns.com/foaf/0.1/", vcard: "http://www.w3.org/2006/vcard/ns#",
+    rdfs: "http://www.w3.org/2000/01/rdf-schema#", xsd: "http://www.w3.org/2001/XMLSchema#",
+    rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#", lod: "http://lod-cloud.net/dataset/",
+  };
+  const HEAD = Object.entries(PREFIXES).filter(([k]) => k !== "rdf" && k !== "xsd")
+    .map(([k, v]) => "PREFIX " + k + ": <" + v + ">").join("\n") + "\n\n";
+  const EXAMPLES = {
+    "Datasets per domain": "SELECT ?domain (COUNT(?d) AS ?datasets) WHERE {\n  ?d dcat:theme ?t .\n  ?t skos:prefLabel ?domain\n}\nGROUP BY ?domain\nORDER BY DESC(?datasets)",
+    "Most linked-to datasets": "SELECT ?target (COUNT(?linkset) AS ?links) WHERE {\n  ?linkset a void:Linkset ;\n           void:objectsTarget ?target\n}\nGROUP BY ?target\nORDER BY DESC(?links)\nLIMIT 20",
+    "Datasets with a SPARQL endpoint": "SELECT ?title ?endpoint WHERE {\n  ?d dcterms:title ?title ;\n     void:sparqlEndpoint ?endpoint\n}\nORDER BY ?title\nLIMIT 100",
+    "Links from DBpedia, by size": "SELECT ?target ?triples WHERE {\n  ?linkset void:subjectsTarget lod:dbpedia ;\n           void:objectsTarget ?target ;\n           void:triples ?triples\n}\nORDER BY DESC(?triples)\nLIMIT 20",
+    "Title contains \"wordnet\"": "SELECT ?d ?title WHERE {\n  ?d dcterms:title ?title\n  FILTER(CONTAINS(LCASE(STR(?title)), \"wordnet\"))\n}\nORDER BY ?title",
+    "Datasets with a full download over 1 billion triples": "SELECT ?title ?triples WHERE {\n  ?d dcterms:title ?title ;\n     void:triples ?triples ;\n     void:dataDump ?dump\n  FILTER(?triples > 1000000000)\n}\nORDER BY DESC(?triples)",
+    "Describe a dataset (CONSTRUCT)": "CONSTRUCT { lod:wordnet-rdf ?p ?o } WHERE { lod:wordnet-rdf ?p ?o }",
+  };
+
+  const $ = (id) => document.getElementById(id);
+  let store = null;
+
+  const select = $("examples");
+  select.append(new Option("Choose an example", ""));
+  for (const name of Object.keys(EXAMPLES)) select.append(new Option(name, name));
+  select.addEventListener("change", () => { if (select.value) $("query").value = HEAD + EXAMPLES[select.value]; });
+  $("query").value = HEAD + EXAMPLES["Datasets per domain"];
+
+  // In a table, a literal is shown as its text (language and datatype in the tooltip)
+  function cell(term) {
+    if (term.termType !== "Literal") return { text: show(term), title: "" };
+    const dt = term.datatype && term.datatype.value ? term.datatype.value.replace(PREFIXES.xsd, "xsd:") : "";
+    return { text: term.value, title: term.language ? "@" + term.language : (dt && dt !== "xsd:string" ? dt : "") };
+  }
+
+  function show(term) {
+    if (term.termType === "NamedNode") {
+      for (const [k, v] of Object.entries(PREFIXES)) if (term.value.startsWith(v) && term.value.length > v.length) return k + ":" + term.value.slice(v.length);
+      return "<" + term.value + ">";
+    }
+    if (term.termType === "BlankNode") return "_:" + term.value;
+    if (term.termType === "Literal") {
+      if (term.language) return term.value + "@" + term.language;
+      const dt = term.datatype && term.datatype.value;
+      return dt && dt !== PREFIXES.xsd + "string" ? term.value + " (" + dt.replace(PREFIXES.xsd, "xsd:") + ")" : term.value;
+    }
+    return String(term.value);
+  }
+
+  function error(message) { $("error").textContent = message; $("error").hidden = !message; }
+
+  async function load() {
+    $("load").disabled = true; error("");
+    try {
+      $("status").textContent = "Loading the engine…";
+      await init();
+      const t0 = performance.now();
+      const response = await fetch(CATALOG);
+      if (!response.ok) throw new Error("catalog.ttl: HTTP " + response.status);
+      const reader = response.body.getReader(), chunks = []; let bytes = 0;
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        chunks.push(value); bytes += value.length;
+        $("status").textContent = "Downloading the catalogue… " + (bytes / 1048576).toFixed(1) + " MB";
+      }
+      const text = new TextDecoder().decode(await new Blob(chunks).arrayBuffer());
+      $("status").textContent = "Parsing…";
+      await new Promise((r) => setTimeout(r));   // let the status paint
+      const t1 = performance.now();
+      store = new oxigraph.Store();
+      store.load(text, { format: "text/turtle", base_iri: "http://lod-cloud.net/" });
+      $("status").textContent = "Loaded " + store.size.toLocaleString() + " triples (download " + ((t1 - t0) / 1000).toFixed(1) +
+        " s, parse " + ((performance.now() - t1) / 1000).toFixed(1) + " s).";
+      $("run").disabled = false;
+    } catch (e) {
+      $("load").disabled = false; $("status").textContent = ""; error(String(e.message || e));
+    }
+  }
+
+  function run() {
+    error(""); $("results").hidden = true; $("text").hidden = true; $("summary").textContent = "";
+    const t0 = performance.now();
+    try {
+      const result = store.query($("query").value);
+      const ms = (performance.now() - t0).toFixed(0);
+      if (typeof result === "boolean") { $("text").textContent = String(result); $("text").hidden = false; $("summary").textContent = "ASK, " + ms + " ms"; return; }
+      if (result.length && result[0] instanceof Map) {
+        const vars = [...result[0].keys()], table = $("results"), shown = Math.min(result.length, 500);
+        table.replaceChildren();
+        const head = table.createTHead().insertRow();
+        for (const v of vars) { const th = document.createElement("th"); th.textContent = v; head.append(th); }
+        const body = table.createTBody();
+        for (const row of result.slice(0, shown)) {
+          const tr = body.insertRow();
+          for (const v of vars) {
+            const td = tr.insertCell();
+            if (!row.has(v)) continue;
+            const c = cell(row.get(v));
+            td.textContent = c.text;
+            if (c.title) td.title = c.title;
+          }
+        }
+        table.hidden = false;
+        $("summary").textContent = result.length.toLocaleString() + " rows" + (shown < result.length ? " (first " + shown + " shown)" : "") + ", " + ms + " ms";
+      } else if (result.length && result[0].subject) {   // CONSTRUCT / DESCRIBE: triples
+        $("text").textContent = result.slice(0, 2000).map((q) => show(q.subject) + " " + show(q.predicate) + " " + show(q.object) + " .").join("\n");
+        $("text").hidden = false;
+        $("summary").textContent = result.length.toLocaleString() + " triples, " + ms + " ms";
+      } else {
+        $("summary").textContent = "No results (" + ms + " ms)";
+      }
+    } catch (e) { error(String(e.message || e)); }
+  }
+
+  $("load").addEventListener("click", load);
+  $("run").addEventListener("click", run);
+  $("query").addEventListener("keydown", (e) => { if ((e.ctrlKey || e.metaKey) && e.key === "Enter" && !$("run").disabled) run(); });
+
+  // ?q=<query>&run=1 opens a query, and runs it once the catalogue is loaded
+  const params = new URLSearchParams(location.search);
+  if (params.get("q")) $("query").value = params.get("q");
+  if (params.get("run") === "1") load().then(() => { if (store) run(); });
+</script>
