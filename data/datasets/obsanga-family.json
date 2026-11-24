@@ -1,0 +1,52 @@
+{
+  "identifier": "obsanga-family",
+  "title": "The Obsanga Family of Tibiao",
+  "description": {
+    "en": "A preliminary genealogical reconstruction of the Obsanga family from Tibiao, Antique Province, Philippines, based on 19th-century colonial records."
+  },
+  "domain": "publications",
+  "website": "https://doi.org/10.5281/zenodo.19150344",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "doi": "10.5281/zenodo.19150344",
+  "contact_point": {
+    "name": "Karl Romeo Soland y Lacson",
+    "email": "familienarchivlacsonsoland@gmail.com"
+  },
+  "keywords": [
+    "genealogy",
+    "philippines",
+    "principalia",
+    "history",
+    "linked-data",
+    "obsanga family",
+    "obsanga",
+    "antique",
+    "tibiao"
+  ],
+  "full_download": [
+    {
+      "title": "Obsanga Family JSON-LD Graph",
+      "description": "The primary structured data file containing the knowledge graph for the Obsanga lineage.",
+      "media_type": "application/ld+json",
+      "download_url": "https://zenodo.org/records/21088868/files/metadata_obsanga.json?download=1"
+    },
+    {
+      "title": "Complete Research Paper (Markdown)",
+      "description": "The full text of the working paper containing the methodology, historical context, and genealogical arguments.",
+      "media_type": "text/markdown",
+      "download_url": "https://zenodo.org/records/21088868/files/Working%20Paper_The%20Obsanga%20Family%20of%20Tibiao,%20Antique%20Province,%20Philippines_A%20Genealogical%20Reconstruction%20from%2019th-Century%20Colonial%20Records.md?download=1"
+    },
+    {
+      "title": "Complete Research Paper (PDF)",
+      "description": "The full text version of the research paper in PDF format for preservation and citation.",
+      "media_type": "application/pdf",
+      "download_url": "https://zenodo.org/records/21088868/files/Working%20Paper_The%20Obsanga%20Family%20of%20Tibiao,%20Antique%20Province,%20Philippines_A%20Genealogical%20Reconstruction%20from%2019th-Century%20Colonial%20Records.pdf?download=1"
+    },
+    {
+      "title": "Technical Report: Digital Identity Infrastructure and Linked Open Data Architecture",
+      "description": "The comprehensive technical report and architectural baseline detailing the semantic framework, ORCID/GND identifiers, and core research nodes.",
+      "download_url": "https://huggingface.co/datasets/Matutino/digital-identity-technical-report/raw/main/README.md"
+    }
+  ]
+}

@@ -42,7 +42,6 @@
     {
       "title": "dblp computer science bibliography – Daily RDF/N-Triple Dump Export",
       "description": "This file contains the current state of dblp in RDF/N-Triple data. The dblp computer science bibliography is the open indexing service and knowledge graph of the computer science community. dblp provides quality-checked and curated bibliographic metadata on major computer science journals, proceedings, and monographs, as well as metadata and identifiers about their authors and the venues they have been published in.",
-      "media_type": "application/n-triples+gzip",
       "download_url": "https://dblp.org/rdf/dblp.ttl.gz"
     }
   ],
@@ -67,11 +66,13 @@
     {
       "title": "Example resource",
       "description": "Creator resource of Chris Bizer.",
+      "media_type": "text/html; charset=utf-8",
       "access_url": "https://dblp.org/pid/b/ChristianBizer"
     },
     {
       "title": "Example resource",
       "description": "Publication resource of \"DBpedia: A Nucleus for a Web of Open Data\".",
+      "media_type": "text/html; charset=utf-8",
       "access_url": "https://dblp.org/rec/conf/semweb/AuerBKLCI07"
     },
     {

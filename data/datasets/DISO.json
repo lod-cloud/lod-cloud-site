@@ -1,0 +1,29 @@
+{
+  "identifier": "DISO",
+  "title": "DISO: Defence, Intelligence and Security Ontologies",
+  "description": {
+    "en": "DISO is a collection of publicly available OWL ontologies covering the domains of defence, intelligence, and security. Each ontology is accompanied by documentation, metadata and license information"
+  },
+  "domain": "government",
+  "website": "https://github.com/city-artificial-intelligence/diso",
+  "license": "https://opensource.org/licenses/MIT",
+  "triples": 0,
+  "doi": "10.5281/zenodo.20059506",
+  "contact_point": {
+    "name": "Ernesto Jimemez-Ruiz",
+    "email": "ernesto.jimenez-ruiz@citystgeorges.ac.uk"
+  },
+  "keywords": [
+    "Defence",
+    "Intelligence",
+    "National Security"
+  ],
+  "full_download": [
+    {
+      "title": "Improving Interoperability among Defence and National Security Ontologies: Analysis and Evaluation Tasks",
+      "description": "Zenodo dataset",
+      "media_type": "text/html",
+      "download_url": "https://doi.org/10.5281/zenodo.20059506"
+    }
+  ]
+}

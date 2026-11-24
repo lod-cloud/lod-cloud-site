@@ -9,6 +9,7 @@
   "license": "https://opendefinition.org/licenses/against-drm",
   "namespace": "http://rocznikibiblioteczne.ibi.uni.wroc.pl",
   "triples": 8939,
+  "image": "https://openid.net/specs/oauth-v2-form-post-response-mode-1_0.html#OAuth.Responses",
   "contact_point": {
     "name": "Karolina Grzeszczak",
     "email": "karolina.n.grzeszczak@gmail.com"

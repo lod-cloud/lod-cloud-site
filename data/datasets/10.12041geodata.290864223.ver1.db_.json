@@ -6,7 +6,7 @@
   },
   "domain": "geography",
   "website": "http://www.geodata.cn/data/datadetails.html?dataguid=290864223&docid=17580",
-  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
   "triples": 29,
   "contact_point": {
     "name": "li",

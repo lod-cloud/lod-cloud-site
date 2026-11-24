@@ -47,7 +47,7 @@
   "example": [
     {
       "description": "Example (RDF/XML)",
-      "media_type": "example/rdf+xml",
+      "media_type": "text/html",
       "access_url": "http://uberblic.org/resource/55c53674-2ac1-4070-8e56-3fd780ab9aa1#thing"
     }
   ],

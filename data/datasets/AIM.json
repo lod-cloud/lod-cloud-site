@@ -4,7 +4,7 @@
   "description": {
     "en": "Analytics India Magazine (AIM) is a digital publication established in 2012, based in Bengaluru, India. It specializes in the domain of analytics, artificial intelligence, data science, and big data, providing a platform for deep technical knowledge and insights into the broader implications of technological advancements. AIM features a variety of content including articles, interviews, news, events, and research. It also supports a job portal specifically targeted at the analytics sector. The magazine has a substantial following and is recognized for its contribution to the analytics and technology community in India"
   },
-  "domain": "media",
+  "domain": "user_generated",
   "website": "https://analyticsindiamag.com/",
   "license": "http://www.opendefinition.org/licenses/cc-zero",
   "triples": 200,
@@ -14,20 +14,5 @@
   },
   "keywords": [
     "AIM"
-  ],
-  "full_download": [
-    {
-      "title": "Analytics India Magazine Logo",
-      "description": "Image Logo of AIM",
-      "media_type": "image",
-      "download_url": "https://analyticsindiamag.com/wp-content/uploads/2021/12/AIM-logo-black-1536x668.png"
-    }
-  ],
-  "sparql": [
-    {
-      "title": "Analytics India Magazine",
-      "description": "Json End Point",
-      "access_url": "https://analyticsindiamag.com/wp-json/wp/v2/"
-    }
   ]
 }

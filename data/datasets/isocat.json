@@ -30,13 +30,11 @@
     {
       "title": "Data category (DC-1333 \"noun\", Example)",
       "description": "Part of speech assigned to words that designate a person, place, action, property or thing etc. that may have morphosyntactic properties like number or case and syntactic combination like modification by an adjective or determination by a determiner",
-      "media_type": "text/html;charset=UTF-8",
       "access_url": "http://www.isocat.org/datcat/DC-1333"
     },
     {
       "title": "ISOcat data categories (rest)",
       "description": "html, cat, dcif, rdf files",
-      "media_type": "text/html;charset=ISO-8859-1",
       "access_url": "http://www.isocat.org/rest/dc/"
     },
     {
@@ -50,7 +48,7 @@
     {
       "title": "Data category RDF example",
       "description": "A sample resource describing a category for the part of speech tag \"noun\"",
-      "media_type": "example/rdf+xml",
+      "media_type": "text/html",
       "access_url": "http://www.isocat.org/rest/dc/1333.rdf"
     }
   ]

@@ -1,0 +1,59 @@
+{
+  "identifier": "blandino-research-wikibase-cloud",
+  "title": "Blandino Research Knowledge Graph (BR-KG)",
+  "description": {
+    "en": "An open scientific Knowledge Graph implementing Linked Open Data (LOD) standards for first-principles theoretical derivations in physics and quantum geometry. It hosts entities, properties, ShEx validation schemas, and reproducible execution suites covering Fano plane symmetries, Polyakov string oscillations, fine-structure constant derivations (alpha), and exceptional Jordan-Clifford algebras"
+  },
+  "domain": "cross_domain",
+  "website": "https://blandino-research.wikibase.cloud",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "https://blandino-research.wikibase.cloud/entity/",
+  "triples": 1000,
+  "doi": "10.5281/zenodo.20635062",
+  "image": "https://api.fairsharing.org//rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaGdLIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8dee99166cb8c1ab27e84b2a927e69de5fe8f207/blandino-research-knowledge-graph-logo.jpg?disposition=inline",
+  "contact_point": {
+    "name": "Massimiliano Blandino",
+    "email": "blamaxim@gmail.com"
+  },
+  "keywords": [
+    "knowledge-graph",
+    "wikibase",
+    "linked-open-data",
+    "fine-structure-constant",
+    "fano-plane",
+    "polyakov-string",
+    "tensor-networks",
+    "quantum-geometry"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 50
+    }
+  ],
+  "full_download": [
+    {
+      "title": "MediaWiki XML Dump Export",
+      "download_url": "https://blandino-research.wikibase.cloud/wiki/Special:Export"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Zenodo Dataset Archive (JSON-LD & Turtle)",
+      "media_type": "application/x-turtle",
+      "access_url": "https://doi.org/10.5281/zenodo.20635062"
+    }
+  ],
+  "example": [
+    {
+      "title": "Root Entity Q3 (First-Principles Derivation of Fine-Structure Constant)",
+      "access_url": "https://blandino-research.wikibase.cloud/entity/Q3"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Wikibase SPARQL Endpoint",
+      "access_url": "https://blandino-research.wikibase.cloud/query/sparql"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "identifier": "ecocard-linked-data",
+  "title": "Ecocard Linked Data",
+  "description": {
+    "en": "Open knowledge graph of canonical identities, factual statements and provenance-aware relations about local businesses, professionals, territories, categories, content, offers and reviews in Brazil."
+  },
+  "domain": "cross_domain",
+  "website": "https://ecocard.bio.br/dataset",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "https://ecocard.bio.br/id/",
+  "triples": 1775476,
+  "image": "https://ecocard.bio.br/images/hotlink-ok/ecocard_logo.png",
+  "contact_point": {
+    "name": "Fredman Marketing — Ecocard",
+    "email": "ecocard.bio@gmail.com"
+  },
+  "keywords": [
+    "brazil",
+    "business",
+    "geography",
+    "linked data",
+    "local business",
+    "lod",
+    "provenance-metadata",
+    "schema.org",
+    "ecocard"
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 5595
+    },
+    {
+      "target": "yago",
+      "value": 5595
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Ecocard latest validated N-Quads dump",
+      "description": "Current SHACL-conformant gzip-compressed snapshot; its immutable URL and SHA-256 are published in the release manifest.",
+      "media_type": "application/n-quads",
+      "download_url": "https://ecocard.bio.br/dumps/latest/ecocard-full.nq.gz"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "DCAT 3 and VoID dataset description",
+      "description": "Machine-readable metadata describing the Ecocard Linked Data dataset, distributions, classes and external linksets.",
+      "access_url": "https://ecocard.bio.br/dataset?format=turtle"
+    },
+    {
+      "title": "Ecocard vocabulary",
+      "description": "Resolvable vocabulary containing the public Ecocard classes, properties and relations.",
+      "access_url": "https://ecocard.bio.br/vocab?format=turtle"
+    },
+    {
+      "title": "Ecocard SHACL shapes",
+      "description": "Public SHACL validation contract used to verify the conformance of Ecocard RDF releases.",
+      "access_url": "https://ecocard.bio.br/shapes?format=turtle"
+    },
+    {
+      "title": "Latest release manifest",
+      "description": "Machine-readable release metadata with version, statistics, SHA-256 checksums, external linksets and SHACL validation evidence.",
+      "media_type": "application/json",
+      "access_url": "https://ecocard.bio.br/dumps/latest/manifest.json"
+    }
+  ],
+  "example": [
+    {
+      "title": "Ecocard organization — Turtle representation",
+      "description": "Dereferenceable canonical identity of the Ecocard dataset publisher.",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "https://ecocard.bio.br/id/823a00f8-7e81-44f3-81d7-f90ba00cb2c2?format=turtle"
+    }
+  ]
+}
