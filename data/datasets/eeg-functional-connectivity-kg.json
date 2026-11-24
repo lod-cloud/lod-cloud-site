@@ -1,0 +1,41 @@
+{
+  "identifier": "eeg-functional-connectivity-kg",
+  "title": "EEG Functional Connectivity Knowledge Graph",
+  "description": {
+    "en": "Four RDF KGs representing EEG functional connectivity for CHB-MIT (epilepsy) and EEGMMIDB (motor imagery), built with the eego: ontology, encoded in TriG with PROV-O provenance."
+  },
+  "domain": "life_sciences",
+  "website": "https://github.com/albertonogales/eegraph-kg-paper",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://eegraph.org/ontology#",
+  "triples": 175671,
+  "doi": "10.5281/zenodo.23574953",
+  "contact_point": {
+    "name": "Alberto Nogales",
+    "email": "alberto.nogales@uah.es"
+  },
+  "keywords": [
+    "EEG",
+    "functional connectivity",
+    "neuroscience",
+    "epilepsy",
+    "motor imagery",
+    "knowledge graph",
+    "RDF",
+    "PROV-O"
+  ],
+  "full_download": [
+    {
+      "title": "EEG KG TriG files (CHB-MIT + EEGMMIDB)",
+      "description": "Four named-graph TriG files, 175,671 triples total",
+      "media_type": "application/trig",
+      "download_url": "https://doi.org/10.5281/zenodo.23574953"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "Knowledge-Graph EEG",
+      "access_url": "https://api.triplydb.com/datasets/AlbertoNogalesMoyano/Knowledge-Graph-EEG/sparql"
+    }
+  ]
+}

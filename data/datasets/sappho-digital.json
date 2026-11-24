@@ -1,0 +1,72 @@
+{
+  "identifier": "sappho-digital",
+  "title": "Sappho Digital: The German-Language Literary Reception of Sappho",
+  "description": {
+    "en": "Knowledge graph on the German-language literary reception of Sappho from the 15th to the 21st century. It contains bibliographic and biographical data on more than 1,000 reception testimonies and their authors. For 99 exemplary texts and 197 Sappho fragments it also models intertextual relations and the phenomena they share: references to persons, places and works, quotations, rhetorical topoi, characters, motifs, topics and plot variants. The data is modelled with CIDOC CRM (Erlangen OWL version), LRMoo and INTRO (Intertextual, Interpictorial, and Intermedial Relations Ontology), categorised with a SKOS vocabulary and linked to Wikidata, the GND, VIAF and DBpedia. It was created in a doctoral project at Freie Universität Berlin by Laura Untner."
+  },
+  "domain": "publications",
+  "website": "https://sappho-digital.com",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "Creative Commons Attribution 4.0 (CC-BY)",
+  "triples": 416385,
+  "image": "https://sappho-digital.com/images/sappho-reception-digital_logo.png",
+  "contact_point": {
+    "name": "Laura Untner",
+    "email": "laura.untner@fu-berlin.de"
+  },
+  "keywords": [
+    "literature",
+    "literary studies",
+    "reception studies",
+    "intertextuality",
+    "Sappho",
+    "digital humanities",
+    "CIDOC CRM",
+    "LRMoo",
+    "INTRO"
+  ],
+  "links": [
+    {
+      "target": "dbpedia",
+      "value": 543
+    },
+    {
+      "target": "dnb-gemeinsame-normdatei",
+      "value": 653
+    },
+    {
+      "target": "viaf",
+      "value": 621
+    },
+    {
+      "target": "wikidata",
+      "value": 2101
+    }
+  ],
+  "full_download": [
+    {
+      "title": "Sappho Digital RDF (Turtle)",
+      "description": "Asserted triples (without inferences), 416,385 triples. Turtle download.",
+      "media_type": "text/turtle",
+      "download_url": "https://raw.githubusercontent.com/laurauntner/sappho-digital/refs/heads/main/data/rdf/sappho-reception.ttl"
+    },
+    {
+      "title": "Sappho Digital RDF (RDF/XML)",
+      "description": "Asserted triples (without inferences), 416,385 triples. RDF/XML download.",
+      "media_type": "application/rdf+xml",
+      "download_url": "https://raw.githubusercontent.com/laurauntner/sappho-digital/refs/heads/main/data/rdf/sappho-reception.rdf"
+    },
+    {
+      "title": "Sappho Digital RDF (JSON-LD)",
+      "description": "Asserted triples (without inferences), 416,385 triples. JSON-LD download.",
+      "media_type": "application/ld+json",
+      "download_url": "https://raw.githubusercontent.com/laurauntner/sappho-digital/refs/heads/main/data/rdf/sappho-reception.jsonld"
+    }
+  ],
+  "example": [
+    {
+      "title": "Eduard Mörike, »Erinna an Sappho«",
+      "access_url": "https://sappho-digital.com/expression/bibl_19d5a7ab"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "identifier": "GMEOW",
+  "title": "Global Metadata and Entity Ontology for the Web",
+  "description": {
+    "en": "GMEOW is an ontology engine for machine and human minds that treats every mental act as an\n  *attributed, revisable claim* rather than a stored truth — a formal place to put not just\n  what an agent (or a person) believes, but **who held it, from what vantage, with what\n  confidence, on what evidence, by which kind of reasoning, in what state of awareness, and\n  whether it has since been defeated.** Its flagship use is **grounded agent memory** — store\n  / recall / revise — that can tell a recalled fact from a confabulated one and surfaces\n  disagreement as coexisting standpoints instead of overwriting the loser.\n   \n  - **One claim construct, reused everywhere.** A single reified *vantage × feature × result*\n    observation does the work of a measurement, a date, a categorization, an inference\n    conclusion, *and* a standpoint assertion — so new capabilities add almost no new primitives.\n\n  - **Truth is never a bit.** No `isTrue`, no factive \"knows.\" Belief is a flat lattice\n    (`believes` / `doubts` / `suspends` / `accepts`) with one entailment, `knowsThat ⊑ believes`;\n    truth rides a per-frame modality (□ / ◊ / refuted / \"bullshit\"), so contradictory claims\n    coexist rather than being ranked.\n\n  - **A full model of mind.** Endurant **states** (belief, the knowing-spectrum, intention,\n    emotion, metacognition) and occurrent **processes** (perceiving, reasoning, learning,\n    imagining, dreaming) over **content** typed by direction-of-fit (propositions, goals,\n    questions, concepts, imagined) — every faculty given a human face *and* a machine face\n    (belief↔logits, memory↔context, inference↔chain-of-thought).\n\n  - **Reasoning as a first-class, inspectable act.** Deduction / induction / abduction /\n    analogy, where a deduction's substrate is a real proof trace; calibration and\n    reality-monitoring (over/under-confidence, known-unknowns, an `originGenerated`\n    confabulation flag) are modeled directly.\n\n  - **Revision is suppression, never deletion.** A fired defeater marks the old conclusion\n    `displayable false` and closes its tenure while keeping the inference as audit — which\n    *is* the memory's `revise()` operation.\n\n  - **Authored once, then projected and linked widely.** Every fact is stated once across\n    GMEOW's **self-contained slices** and generated outward as lossy projections — OWL,\n    SHACL, JSON-LD, schema.org, citation and Crossref-deposit forms — while every term is\n    maximally aligned to **85 external vocabularies** and authority identifiers (schema.org,\n    Wikidata, PROV-O, FOAF, ORCID, DOI…), so a GMEOW graph is a first-class node in the\n    linked-data and persistent-identifier web.\n\n  - **Friendly front, rigorous engine.** Flat JSON / Pydantic / MCP tools are the front door\n    (no one learns RDF); reasoned RDF is the engine room."
+  },
+  "domain": "cross_domain",
+  "website": "https://blackcatinformatics.ca/gmeow",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "gmeow",
+  "triples": 37433,
+  "doi": "10.67342/26w4o",
+  "image": "https://blackcatinformatics.ca/gmeow/gmeow-logo.svg",
+  "contact_point": {
+    "name": "Patrick Colm Audley",
+    "email": "paudley@blackcat.ca"
+  },
+  "keywords": [
+    "\"grounded agent memory\"",
+    "\"claim provenance\"",
+    "\"epistemics\"",
+    "\"AI memory\"",
+    "\"hallucination detection\"",
+    "\"belief revision\"",
+    "\"knowledge graph\"",
+    "\"ontology\"",
+    "\"RDF\"",
+    "\"OWL\"",
+    "\"gUFO\"",
+    "\"FAIR\"",
+    "\"MCP\"",
+    "\"agentic AI\""
+  ],
+  "links": [
+    {
+      "target": "wikidata",
+      "value": 317
+    }
+  ],
+  "full_download": [
+    {
+      "title": "gmeow.ttl",
+      "description": "Canonical vocabulary in Turtle; the most readable RDF serialization.",
+      "download_url": "https://blackcatinformatics.ca/gmeow.ttl"
+    },
+    {
+      "title": "gmeow.rdf",
+      "description": "Canonical vocabulary as RDF/XML.",
+      "download_url": "https://blackcatinformatics.ca/gmeow.rdf"
+    },
+    {
+      "title": "gmeow.nt",
+      "description": "Canonical vocabulary as one triple per line for bulk load, diffing and streaming.",
+      "media_type": "application/n-triples",
+      "download_url": "https://blackcatinformatics.ca/gmeow.nt"
+    },
+    {
+      "title": "gmeow.jsonld",
+      "description": "Canonical vocabulary as JSON-LD.",
+      "media_type": "application/ld+json",
+      "download_url": "https://blackcatinformatics.ca/gmeow.jsonld"
+    },
+    {
+      "title": "void.ttl",
+      "description": "VoID dataset description.",
+      "download_url": "https://blackcatinformatics.ca/gmeow/void.ttl"
+    }
+  ],
+  "example": [
+    {
+      "title": "gmeow-example-schema-org.ttl",
+      "description": "Worked org example",
+      "media_type": "text/turtle; charset=utf-8",
+      "access_url": "https://blackcatinformatics.ca/gmeow/gmeow-example-schema-org.ttl"
+    }
+  ],
+  "sparql": [
+    {
+      "title": "GMEOW SPARQL 1.1 endpoint",
+      "description": "SPARQL 1.1 endpoint",
+      "access_url": "https://blackcatinformatics.ca/gmeow/sparql"
+    }
+  ]
+}

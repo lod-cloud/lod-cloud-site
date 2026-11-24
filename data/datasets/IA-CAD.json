@@ -1,0 +1,33 @@
+{
+  "identifier": "IA-CAD",
+  "title": "ATHENA (ATHletes’ psychosocial and sociocultural factors associated with unhealthy EatiNg Attitudes and behaviors)",
+  "description": {
+    "en": "ATHENA is an ontology and knowledge graph of published research on psychosocial and sociocultural factors associated with unhealthy eating attitudes and behaviours (UEAB) in sport. It represents 1,975 distinct statistical analyses from 182 scientific articles, using data extracted from studies included in a systematic literature review.\n\nATHENA links each analysis to its source publication, the UEAB and factors examined, and the characteristics of the population and sporting context studied. Where available, it records measurement instruments, statistical results, participant age and sex, sample size, sport discipline, level of participation, exercise frequency, and years of sport experience. Users can trace reported associations to their source publications and compare findings across populations, measures, and sports.\n\nThe dataset is represented in RDF. An OWL ontology defines the main entities and their relationships, and SKOS vocabularies organise UEAB, related factors, and sports into broader and more specific concepts. ATHENA uses the Bibliographic Ontology (BIBO) and Dublin Core Metadata Terms to describe source publications. The IA-CAD web interface allows researchers, healthcare professionals, and sport practitioners to explore the evidence and locate the source publications."
+  },
+  "domain": "life_sciences",
+  "website": "http://iadas.i3s.unice.fr/iadas/index.html",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "namespace": "http://ns.inria.fr/iadas/data/",
+  "triples": 149848,
+  "contact_point": {
+    "name": "IA-CAD Project",
+    "email": "Stephanie.MERIAUX@univ-cotedazur.fr"
+  },
+  "keywords": [
+    "Sport psychology",
+    "unhealthy eating attitudes and behaviours",
+    "disordered eating",
+    "eating disorders",
+    "athletes",
+    "psychosocial factors",
+    "sociocultural factors",
+    "systematic review"
+  ],
+  "full_download": [
+    {
+      "title": "rdf",
+      "media_type": "rdf",
+      "download_url": "https://github.com/Wimmics/IADAS"
+    }
+  ]
+}
