@@ -4,8 +4,9 @@
     scripts/generate_clouds.py --binary ./lod-cloud-draw --data lod-data.json --out out/2026-11-18
 
 For the whole cloud and each domain it runs lod-cloud-draw, then converts the
-SVG to a PNG (rsvg-convert) and, for the whole cloud, a small JPEG
-(rsvg-convert, then ImageMagick). The settings files are in cloud-settings/. The canvas radius and
+SVG to a lossless WebP (rsvg-convert to a PNG, then Pillow) and, for the whole cloud, a small
+JPEG (rsvg-convert, then ImageMagick). The PNGs are not published: they are twice the size of the
+lossless WebP, and the site build makes them from the WebP where a URL needs one (fetch_clouds.py). The settings files are in cloud-settings/. The canvas radius and
 iteration count are those used by the old generate-clouds.sh. With --versions
 it adds the new diagram to site/_data/versions.yml.
 """
@@ -37,6 +38,8 @@ ALGORITHMS = ["lbfgs", "sd"]
 RELEASE_PREFIX = "clouds-"  # release tag = prefix + directory name
 PNG_ZOOM = 3  # the old PNGs were 3x the SVG's width
 JPEG_SCALE = 0.4  # of the PNG size
+WEBP_METHOD = 4  # 0 (fast) to 6 (slow); 6 is no smaller here (23.1 against 23.2 MB for the ten images)
+PNG_LEVEL = 6
 MAX_PNG_PIXELS = 120_000_000  # a finished diagram is about 45 million (6,600 x 6,700)
 
 
@@ -79,9 +82,35 @@ def png_zoom(svg):
     return zoom
 
 
-def to_png(svg):
+def png_to_webp(png, webp):
+    """Lossless WebP of a PNG (half the size, the same pixels).
+
+    Pillow, not ImageMagick: ImageMagick's pixel-cache limit stopped on a runner at this size
+    (see to_jpeg). WebP is limited to 16,383 pixels a side, far above a finished diagram.
+    """
+    from PIL import Image
+    Image.MAX_IMAGE_PIXELS = None  # our own file, drawn by us
+    with Image.open(png) as im:
+        im.convert("RGB").save(webp, "WEBP", lossless=True, method=WEBP_METHOD)
+
+
+def webp_to_png(webp, png):
+    """The PNG of a lossless WebP, pixel for pixel."""
+    from PIL import Image
+    Image.MAX_IMAGE_PIXELS = None
+    with Image.open(webp) as im:
+        im.convert("RGB").save(png, "PNG", compress_level=PNG_LEVEL)
+
+
+def to_webp(svg):
+    """<stem>.webp next to the SVG, through a temporary PNG."""
+    png = svg.with_suffix(".tmp.png")
     subprocess.run(["rsvg-convert", "-z", str(png_zoom(svg)), "-b", "white", "-f", "png",
-                    "-o", str(svg.with_suffix(".png")), str(svg)], check=True)
+                    "-o", str(png), str(svg)], check=True)
+    try:
+        png_to_webp(png, svg.with_suffix(".webp"))
+    finally:
+        png.unlink(missing_ok=True)
 
 
 def to_jpeg(svg, jpeg):
@@ -111,7 +140,7 @@ def count_datasets(svg):
 def add_version(versions_yml, date, datasets):
     """Add the new diagram at the top of _data/versions.yml (keeps the file's comments)."""
     text = versions_yml.read_text(encoding="utf-8")
-    entry = ('- date: "%s"\n  release: %s%s\n  datasets: %d\n  colored:\n    png: lod-cloud.png\n'
+    entry = ('- date: "%s"\n  release: %s%s\n  datasets: %d\n  colored:\n    webp: lod-cloud.webp\n'
              '    svg: lod-cloud.svg\n  graph: lod-data.json\n\n') % (date, RELEASE_PREFIX, date, datasets)
     if 'date: "%s"' % date in text:
         raise SystemExit("%s already has an entry for %s" % (versions_yml, date))
@@ -148,7 +177,7 @@ def main(argv=None):
             continue
         print("Drawing %s" % stem, file=sys.stderr)
         draw(Path(args.binary).resolve(), data, stem, canvas, out, args.iterations)
-        to_png(out / (stem + ".svg"))
+        to_webp(out / (stem + ".svg"))
         if stem == "lod-cloud":
             to_jpeg(out / "lod-cloud.svg", out / "lod-cloud-sm.jpg")
     shutil.copy(data, out / "lod-data.json")

@@ -37,7 +37,7 @@ title: The Linked Open Data Cloud
             {% for dom in site.data.domains %}
             <div class="tab-pane fade{% if forloop.first %} show active{% endif %}" id="{{ dom.key }}" role="tabpanel" aria-labelledby="{{ dom.key }}-tab">
                 <a href="{{ site.cloud_base }}/clouds/{{ dom.stem }}.svg">
-                    <img src="{{ site.cloud_base }}/clouds/{{ dom.stem }}.png"
+                    <img src="{{ site.cloud_base }}/clouds/{{ dom.stem }}.webp"
                          width="100%"
                          alt="{{ dom.label }} Linked Open Data Cloud"
                          title="Click for Interactive SVG"/>

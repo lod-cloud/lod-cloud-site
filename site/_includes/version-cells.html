@@ -1,18 +1,20 @@
 {% comment %}
-  The three cells (png, pdf, svg) of one diagram set in the history table.
-  Parameters: files (png / pdf / svg file names, or nothing), base (URL prefix).
-  When a set has a png and an svg but no pdf the png cell spans two columns.
+  The three cells (png or webp, pdf, svg) of one diagram set in the history table.
+  Parameters: files (png / webp / pdf / svg file names, or nothing), base (URL prefix).
+  The first cell is the png, or the webp of a set made since #117. When a set has an image and an
+  svg but no pdf the first cell spans two columns.
 {% endcomment %}
 {% assign exts = "png,pdf,svg" | split: "," %}
 {% if include.files %}
   {% assign f = include.files %}
   {% assign merge = false %}
-  {% if f.png and f.svg and f.pdf == nil %}{% assign merge = true %}{% endif %}
+  {% if f.png %}{% assign image = f.png %}{% assign image_ext = "png" %}{% else %}{% assign image = f.webp %}{% assign image_ext = "webp" %}{% endif %}
+  {% if image and f.svg and f.pdf == nil %}{% assign merge = true %}{% endif %}
   {% for ext in exts %}
     {% if ext == "pdf" and merge %}{% continue %}{% endif %}
-    {% assign file = f[ext] %}
-    {% case ext %}{% when "pdf" %}{% assign mime = "application/pdf" %}{% when "svg" %}{% assign mime = "image/svg+xml" %}{% else %}{% assign mime = "image/png" %}{% endcase %}
-    <td{% if ext == "png" and merge %} colspan="2"{% endif %}>{% if file %}<a rel="dc:hasFormat" href="{{ include.base }}{{ file | uri_escape }}"><span property="dc:format" content="{{ mime }}">{{ ext }}</span></a>{% endif %}</td>
+    {% if ext == "png" %}{% assign file = image %}{% assign label = image_ext %}{% else %}{% assign file = f[ext] %}{% assign label = ext %}{% endif %}
+    {% case label %}{% when "pdf" %}{% assign mime = "application/pdf" %}{% when "svg" %}{% assign mime = "image/svg+xml" %}{% when "webp" %}{% assign mime = "image/webp" %}{% else %}{% assign mime = "image/png" %}{% endcase %}
+    <td{% if ext == "png" and merge %} colspan="2"{% endif %}>{% if file %}<a rel="dc:hasFormat" href="{{ include.base }}{{ file | uri_escape }}"><span property="dc:format" content="{{ mime }}">{{ label }}</span></a>{% endif %}</td>
   {% endfor %}
 {% else %}
   <td colspan="3"></td>
