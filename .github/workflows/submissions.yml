@@ -1,7 +1,7 @@
 name: Submissions
 
 # Turns an "Add a dataset" or "Update a dataset" issue (the forms in .github/ISSUE_TEMPLATE)
-# into a pull request against `dev` with the new or changed data/datasets file. The pull
+# into a pull request against `main` with the new or changed data/datasets file. The pull
 # request is checked like any other (Validate) and a maintainer merges it.
 #
 # Issue workflows run from the default branch (main), so this cannot be tried before the
@@ -35,7 +35,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: dev
           fetch-depth: 1
           persist-credentials: false
 
@@ -84,7 +83,7 @@ jobs:
           if [ -z "$existing" ]; then
             printf 'Submitted in #%s by @%s.\n\nChecked by the Validate workflow; a maintainer reviews it before it is merged.\n' \
               "$ISSUE" "$SUBMITTER" > "$RUNNER_TEMP/pr.md"
-            existing=$(gh pr create --repo "$GITHUB_REPOSITORY" --base dev --head "$BRANCH" \
+            existing=$(gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$BRANCH" \
               --title "$([ "$KIND" = add ] && echo Add || echo Update) dataset $IDENTIFIER (#$ISSUE)" \
               --body-file "$RUNNER_TEMP/pr.md")
           fi

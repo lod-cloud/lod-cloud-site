@@ -3,10 +3,10 @@ name: Site
 # Builds the Jekyll site in site/ and the data files from data/datasets, and checks it. A push
 # to main also publishes it to GitHub Pages (the `deploy` job), as the exact site that was
 # checked. Pages is at https://lod-cloud.github.io/lod-cloud-site/; lod-cloud.net is served
-# from it by the nginx reverse proxy (#105).
+# from it by a reverse proxy (#105).
 #
 # Repository variable PAGES_BASEURL: "/lod-cloud-site" while the site is only previewed at that
-# address (every link then includes the prefix, and pages say noindex); empty once nginx
+# address (every link then includes the prefix, and pages say noindex); empty once the proxy
 # serves it at the root of lod-cloud.net.
 on:
   pull_request:
