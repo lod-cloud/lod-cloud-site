@@ -201,6 +201,78 @@ class DcatTest(unittest.TestCase):
             self.assertIn((ex.CATALOG_URI, DCAT.dataset, URIRef("http://lod-cloud.net/dataset/min")), ttl)
 
 
+PAGE = "<!DOCTYPE html><html><head><title>x</title>\n</head><body>x</body></html>"
+
+
+class EmbedTest(unittest.TestCase):
+    def embed(self, rec, page_text=PAGE):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        page = Path(tmp.name) / "index.html"
+        page.write_text(page_text, encoding="utf-8")
+        self.assertTrue(ex.embed_jsonld(page, graph_of(rec)))
+        return page
+
+    def scripts(self, page):
+        import re
+        return re.findall(r'<script type="application/ld\+json" id="dataset-jsonld">(.*?)</script>',
+                          page.read_text(encoding="utf-8"), re.S)
+
+    def test_the_page_carries_the_datasets_rdf_as_json_ld(self):
+        found = self.scripts(self.embed(FULL))
+        self.assertEqual(len(found), 1)
+        g = Graph().parse(data=found[0], format="json-ld")
+        self.assertTrue(isomorphic(g, graph_of(FULL)))
+
+    def test_it_goes_in_the_head(self):
+        text = self.embed(FULL).read_text(encoding="utf-8")
+        self.assertLess(text.index('id="dataset-jsonld"'), text.index("</head>"))
+
+    def test_running_again_replaces_it(self):
+        page = self.embed(FULL)
+        ex.embed_jsonld(page, graph_of(dict(FULL, title="Changed")))
+        found = self.scripts(page)
+        self.assertEqual(len(found), 1)
+        self.assertIn("Changed", found[0])
+
+    def test_hostile_text_cannot_end_the_script(self):
+        rec = dict(MINIMAL, title='</script><script>alert(1)</script><!--', description={"en": "a & b <b>x</b>"})
+        page = self.embed(rec)
+        text = page.read_text(encoding="utf-8")
+        self.assertEqual(text.count("</script>"), 1)
+        self.assertNotIn("<script>alert", text)
+        g = Graph().parse(data=self.scripts(page)[0], format="json-ld")
+        self.assertIn(Literal(rec["title"], lang="en"), set(g.objects(None, DCTERMS.title)))
+
+    def test_no_page_or_no_head_is_not_an_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertFalse(ex.embed_jsonld(Path(tmp) / "none.html", graph_of(FULL)))
+            page = Path(tmp) / "bare.html"
+            page.write_text("no head")
+            self.assertFalse(ex.embed_jsonld(page, graph_of(FULL)))
+
+    def test_export_embeds_into_the_built_dataset_pages(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            for d in ("full", "x%3Ay"):
+                (Path(tmp) / "dataset" / d).mkdir(parents=True)
+                (Path(tmp) / "dataset" / d / "index.html").write_text(PAGE)
+            ex.export([FULL, {"identifier": "x:y", "title": "T"}], tmp)
+            for d in ("full", "x%3Ay"):
+                self.assertIn('id="dataset-jsonld"', (Path(tmp) / "dataset" / d / "index.html").read_text())
+
+
+class PageCheckTest(unittest.TestCase):
+    def test_the_site_check_finds_a_missing_or_wrong_script(self):
+        import check_site_paths as cp
+        with tempfile.TemporaryDirectory() as tmp:
+            page = Path(tmp) / "index.html"
+            page.write_text(PAGE)
+            self.assertIn("0 JSON-LD scripts", cp.jsonld_problem(page, "full"))
+            ex.embed_jsonld(page, graph_of(FULL))
+            self.assertIsNone(cp.jsonld_problem(page, "full"))
+            self.assertIn("does not describe", cp.jsonld_problem(page, "other"))
+
+
 class ExportTest(unittest.TestCase):
     def test_files_written(self):
         with tempfile.TemporaryDirectory() as tmp:
