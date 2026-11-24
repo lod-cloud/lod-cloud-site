@@ -98,7 +98,31 @@ The Java application served these routes. Static hosting cannot do everything th
 
 ### The RDF
 
-`rdf/<id>`, `ttl/<id>`, `nt/<id>` and `extract/rdf` are a port of `RDFView.java`, with the same VoID/DCAT/DCTerms/FOAF terms and dataset URIs (`http://lod-cloud.net/dataset/<id>`). Differences: the license is now emitted (the Java code read a field that never existed), IRIs with spaces and similar are percent-encoded instead of producing invalid N-Triples, and link targets are encoded the same way as dataset URIs. The model itself is unchanged; moving to DCAT-3 is #101.
+`rdf/<id>`, `ttl/<id>`, `nt/<id>` and `extract/rdf` are a port of `RDFView.java` (VoID, DCTerms, FOAF; dataset URIs `http://lod-cloud.net/dataset/<id>`), with **DCAT-3 added**. Every statement of the old files is still there, so consumers of the old RDF are not affected (checked against the old site's `extract/rdf`: no statement missing); the files are larger (`extract/rdf` 10.7 → 26 MB).
+
+Each dataset is a `void:Dataset` and a `dcat:Dataset`:
+
+| Data | RDF |
+|---|---|
+| identifier, DOI | `dcterms:identifier` (the DOI as `https://doi.org/...`) |
+| title, description (per language) | `dcterms:title`, `dcterms:description` |
+| website | `foaf:homepage` and `dcat:landingPage` |
+| domain | `dcterms:subject` (the key) and `dcat:theme` (a `skos:Concept`, `http://lod-cloud.net/domain/<key>/`) |
+| keywords | `dcterms:subject` and `dcat:keyword` |
+| contact | `dcterms:publisher` (as before) and `dcat:contactPoint` (a `vcard:Kind`) |
+| license, namespace, image | `dcterms:license`, `void:uriSpace`, `foaf:depiction` |
+| triples | `void:triples` |
+| full downloads | `void:dataDump`, and a `dcat:Distribution` with `dcat:downloadURL` (also `dcat:accessURL`, `dcterms:title`, `dcat:mediaType` as an IANA URI when the media type is one) |
+| other downloads | a `dcat:Distribution` with `dcat:accessURL` |
+| SPARQL endpoints | `void:sparqlEndpoint`, and a `dcat:Distribution` whose `dcat:accessService` is a `dcat:DataService` (`dcat:endpointURL`, `dcat:servesDataset`, `dcterms:conformsTo` the SPARQL protocol) |
+| examples | `void:exampleResource` |
+| each link | a `void:Linkset` named `<dataset>#linkset-<target>` with `void:subjectsTarget` (the dataset), `void:objectsTarget` (the target), `void:target` (both, as before) and `void:triples` when the count is known |
+
+`catalog.ttl` and `catalog.jsonld` hold the whole catalogue: a `dcat:Catalog` (`http://lod-cloud.net/#catalog`) with `dcat:dataset` for each dataset, the nine domains as a `skos:ConceptScheme` (`dcat:themeTaxonomy`), and all the datasets as above.
+
+Differences from the Java output: the license is emitted (the Java code read a field that never existed), IRIs with spaces and similar are percent-encoded instead of producing invalid N-Triples, link targets are encoded like dataset URIs, and links without a known count are linksets too (the old files left them out).
+
+**ShowVoc / MDR.** The [MDR ontology](https://w3id.org/mdr) extends DCAT, but its documentation defines no profile or example for describing a dataset, so nothing MDR-specific (`mdr:` classes) is emitted, and whether ShowVoc can ingest this as it is has not been tested (#103).
 
 ### Identifiers that cannot be file names
 
