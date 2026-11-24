@@ -37,10 +37,7 @@ jobs:
     env:
       DRY_RUN: ${{ github.event_name == 'pull_request' }}
     steps:
-      # dev holds the data and scripts until they reach main (#105)
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event_name != 'pull_request' && 'dev' || '' }}
 
       - uses: actions/setup-python@v5
         with:
