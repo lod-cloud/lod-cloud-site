@@ -10,9 +10,9 @@ name: Site
 # serves it at the root of lod-cloud.net.
 on:
   pull_request:
-    branches: [main, dev]
+    branches: [main]
   push:
-    branches: [main, dev]
+    branches: [main]
 
 permissions:
   contents: read
