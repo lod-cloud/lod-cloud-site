@@ -26,7 +26,7 @@
   "example": [
     {
       "description": "Example resource",
-      "media_type": "example/rdf+xml",
+      "media_type": "text/html; charset=UTF-8",
       "access_url": "http://hii.co.il/denny900/foaf"
     }
   ]

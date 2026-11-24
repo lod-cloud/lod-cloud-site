@@ -1,0 +1,27 @@
+{
+  "identifier": "LiGre",
+  "title": "Ligre Lemma bank for Ancient Greek",
+  "description": {
+    "en": "LiGre (Linking Greek) is a knowledge base of interoperable linguistic resources for Ancient Greek, published as Linked Open Data and modelled with OntoLex-Lemon and the LiLa ontology, so that it is interoperable with the LiLa Knowledge Base for Latin.  Its core is the LiGre Lemma Bank: 100,114 canonical forms (lemmas) of Ancient Greek, each with its written representation(s), part of speech (harmonised to Universal Dependencies) and, for nouns,  gender. Lemmas have persistent, version-independent IRIs under w3id.org; merged or erroneous lemmas are deprecated rather than deleted. Resources link to the lemmas as in LiLa: thePapyGreek–LiGre corpus (558 documentary papyri, 63,628 tokens from the PapyGreek treebanks) links its tokens via lila:hasLemma (45,870 links), and the IGVLL–LiGre linkset links 1,381 Greek source words of Latin loanwords in the Index Graecorum Vocabulorum in Linguam Latinam (part of LiLa) via ontolex:canonicalForm. Together they make it possible to query Greek and Latin resources across the two knowledge bases. All releases are versioned on Zenodo."
+  },
+  "domain": "linguistics",
+  "website": "https://ligre-lod.github.io",
+  "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+  "namespace": "https://w3id.org/ligre/data/",
+  "triples": 1323377,
+  "doi": "10.5281/zenodo.24085996",
+  "contact_point": {
+    "name": "Paulien Lemay",
+    "email": "paulien.lemay@ugent.be"
+  },
+  "keywords": [
+    "ancient greek",
+    "lemmabank",
+    "ontolex",
+    "lila",
+    "corpus",
+    "treebank",
+    "papyri",
+    "lexicon"
+  ]
+}

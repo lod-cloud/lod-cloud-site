@@ -24,6 +24,9 @@
  "GACS.json": [
   "schema: namespace: pattern"
  ],
+ "GMEOW.json": [
+  "schema: namespace: pattern"
+ ],
  "Generalized_Super_Ontology.json": [
   "schema: namespace: pattern"
  ],
@@ -3781,9 +3784,6 @@
  "reuters-128-nif-ner-corpus.json": [
   "schema: (record): required: website"
  ],
- "revyu.json": [
-  "link-target-missing: naplesplus"
- ],
  "riese.json": [
   "schema: (record): required: domain, contact_point"
  ],
@@ -3939,6 +3939,9 @@
  ],
  "santillana_guide_dataset.json": [
   "schema: (record): required: domain"
+ ],
+ "sappho-digital.json": [
+  "schema: namespace: pattern"
  ],
  "schemapedia.json": [
   "schema: (record): required: domain"

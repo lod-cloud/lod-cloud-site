@@ -6,6 +6,7 @@
   },
   "domain": "user_generated",
   "website": "http://revyu.com/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
   "namespace": "http://revyu.com/reviews/",
   "triples": 20000,
   "contact_point": {
@@ -31,16 +32,17 @@
   ],
   "links": [
     {
-      "target": "dbpedia",
-      "value": 29
+      "target": "10.12041geodata.290864223.ver1.db_",
+      "value": 46
     },
     {
-      "target": "naplesplus",
-      "value": 46
+      "target": "dbpedia",
+      "value": 29
     }
   ],
   "example": [
     {
+      "title": "Conciergerie Serris",
       "description": "Example review (RDF/XML)",
       "media_type": "text/html; charset=UTF-8",
       "access_url": "http://revyu.com/reviews/50fe0cce53f0ac2296a540442e45c8bbdb39cb75"
@@ -48,6 +50,7 @@
   ],
   "sparql": [
     {
+      "title": "Conciergerie Serris",
       "description": "SPARQL endpoint",
       "access_url": "http://revyu.com/sparql"
     }

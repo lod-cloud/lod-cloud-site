@@ -1,0 +1,58 @@
+{
+  "identifier": "obsanga-family-tibiao",
+  "title": "Die Erforschung der Familie Obsanga von Tibiao (Antique, Philippinen): Genealogische Konsolidierung, vorkoloniale Elite-Traditionen und interregionale Heiratsnetzwerke",
+  "description": {
+    "en": "Dieses Datenpaket umfasst zwei zusammenhängende forschungsgeschichtliche Arbeitspapiere zur Rekonstruktion und soziokulturellen Analyse der Familie Obsanga aus Tibiao (Provinz Antique, Philippinen) während der spanischen Kolonialzeit und des frühen 20. Jahrhunderts. Die Untersuchung basiert auf der systematischen Auswertung administrativer Primärquellen wie dem Padrón de polistas von 1886. Teil 1 widmet sich der paläografischen und onomastischen Bereinigung früherer Datenfragmente (Clavería-Namenskatalog von 1849). Teil 2 etablitert eine historische Kontinuitätsthese zum vorkolonialen Adel (Datus/Maginoos) und untersucht die dynastischen Heiratsallianzen (Songcog, Española, Lacson)."
+  },
+  "domain": "publications",
+  "website": "https://doi.org/10.5281/zenodo.21205758",
+  "license": "http://www.opendefinition.org/licenses/cc-by",
+  "triples": 0,
+  "doi": "10.5281/zenodo.21205758",
+  "contact_point": {
+    "name": "Karl Romeo Soland y Lacson",
+    "email": "familienarchivlacsonsoland@gmail.com"
+  },
+  "keywords": [
+    "Obsanga",
+    "Tibiao",
+    "Antique",
+    "Genealogy",
+    "Principalia",
+    "Linked Data",
+    "JSON-LD",
+    "Philippines",
+    "Claveria",
+    "Nobility",
+    "Cabeza de Barangay",
+    "Obsanga Family"
+  ],
+  "full_download": [
+    {
+      "title": "Arbeitspapier: Die Transformation der Principalía von Tibiao (Markdown-Format)",
+      "description": "Markdown-Datei zu Teil II der Forschungsarbeit über die Familie Obsanga aus Tibiao (Antique, Philippinen). Das Dokument bricht die rein archiv-deskriptive Datensicherung auf und analysiert eine strukturelle Kontinuitätsthese, die die lokale Familie direkt in der Linie vorkolonialer indigener Herrscherklassen (Datus/Maginoos) verortet. Gestützt auf vier historische Beweispfeiler (u. a. die Onomastik des Clavería-Katalogs und die duale Verwalter-Autorität im Padrón de polistas von 1886) sowie die Rekonstruktion elitärer, interregionaler Heiratsallianzen mit den Bürgermeister-Dynastien der Region (Songcog, Española, Lacson), dokumentiert die Arbeit die jahrhundertelange soziopolitische Kontinuität dieser ländlichen Elite.",
+      "media_type": "text/markdown",
+      "download_url": "https://zenodo.org/records/21205759/files/Arbeitspapier_Die%20Transformation%20der%20Principal%C3%ADa%20von%20Tibiao_Analyse%20der%20vorkolonialen%20Elite-Traditionen%20und%20der%20interregionalen%20Heiratsnetzwerke%20der%20Familie%20Obsanga%20(Analyse%20von%20Part%202).md?download=1"
+    },
+    {
+      "title": "Arbeitspapier: Von der Fragmentierung zur historischen Konsolidierung (Markdown-Format)",
+      "description": "Markdown-Datei zu Teil I der vergleichenden genealogischen Untersuchung über die Familie Obsanga aus Tibiao (Antique, Philippinen). Das Dokument korrigiert die historische Einordnung des seltenen indigenen Nachnamens im Clavería-Katalog von 1849 und schließt paläografische Lücken der Mutterlinie (Condino). Zudem verifiziert die Arbeit die konkreten administrativen Rollen zweier Familienmitglieder als Cabezas de Barangay im Padrón de polistas von 1886 und kontextualisiert die koloniale Nomenklatur des Begriffs „Labrador“ als landbesitzende ländliche Elite.",
+      "media_type": "text/markdown",
+      "download_url": "https://zenodo.org/records/21205759/files/Arbeitspapier_Von%20der%20Fragmentierung%20zur%20historischen%20Konsolidierung_Eine%20vergleichende%20Analyse%20der%20genealogischen%20und%20soziokulturellen%20Fortschritte%20in%20der%20Erforschung%20der%20Familie%20Obsanga%20von%20Tibiao%20(Antique,%20Philippinen).md?download=1"
+    }
+  ],
+  "other_download": [
+    {
+      "title": "Arbeitspapier: Die Transformation der Principalía von Tibiao (PDF-Format)",
+      "description": "PDF-Version des zweiten Arbeitspapiers (Teil II) für die menschliche Ansicht und wissenschaftliche Zitationszwecke.",
+      "media_type": "application/pdf",
+      "access_url": "https://zenodo.org/records/21205759/files/Arbeitspapier_Die%20Transformation%20der%20Principal%C3%ADa%20von%20Tibiao_Analyse%20der%20vorkolonialen%20Elite-Traditionen%20und%20der%20interregionalen%20Heiratsnetzwerke%20der%20Familie%20Obsanga%20(Analyse%20von%20Part%202).pdf?download=1"
+    },
+    {
+      "title": "Arbeitspapier: Von der Fragmentierung zur historischen Konsolidierung (PDF-Format)",
+      "description": "PDF-Version des ersten Arbeitspapiers (Teil I) für die menschliche Ansicht und wissenschaftliche Zitationszwecke.",
+      "media_type": "application/pdf",
+      "access_url": "https://zenodo.org/records/21205759/files/Arbeitspapier_Von%20der%20Fragmentierung%20zur%20historischen%20Konsolidierung_Eine%20vergleichende%20Analyse%20der%20genealogischen%20und%20soziokulturellen%20Fortschritte%20in%20der%20Erforschung%20der%20Familie%20Obsanga%20von%20Tibiao%20(Antique,%20Philippinen).pdf?download=1"
+    }
+  ]
+}

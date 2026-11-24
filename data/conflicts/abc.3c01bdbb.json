@@ -4,12 +4,13 @@
   "description": {
     "en": "Test"
   },
-  "domain": "user_generated",
+  "domain": "cross_domain",
   "website": "https://lod-cloud.net",
-  "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "license": "http://www.opendefinition.org/licenses/cc-zero",
+  "namespace": "m0r3n0_cabr0n",
   "triples": 0,
   "contact_point": {
-    "name": "Suheyb",
-    "email": "abc@gmail.com"
+    "name": "Erick Sergueid Garibo Hernandez",
+    "email": "19m0r3n0cabr0n94@gmail.com"
   }
 }

@@ -50,7 +50,6 @@
   "other_download": [
     {
       "description": "Paul Veyne's resource URI with 303 redirection",
-      "media_type": "text/html;charset=UTF-8",
       "access_url": "http://www.idref.fr/027182800/id"
     }
   ],

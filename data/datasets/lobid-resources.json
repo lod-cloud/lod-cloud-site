@@ -97,7 +97,6 @@
     {
       "title": "lobid resources ntriples dump",
       "description": "All the Open Data from the hbz catalog as ntriples.",
-      "media_type": "application/x-gzip",
       "access_url": "http://lobid.org/download/dumps/DE-605/lod/resources-dump.nt.gz"
     },
     {
