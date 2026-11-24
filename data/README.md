@@ -1,14 +1,8 @@
 # Dataset data
 
-**This is a snapshot, not yet the live data.** Until the site moves to GitHub Pages (#105) the old server remains authoritative and new submissions still go there. Do not edit these files before cutover: they will be regenerated from a fresh pull of the live data and edits would be overwritten.
+One JSON file per dataset in `datasets/`, following `../schema/dataset.schema.json` (see `../schema/README.md` for the field reference and filename rule). **These files are the data of the LOD Cloud**: they are edited by pull request (or with the issue forms), and the site, the exports and the diagrams are built from them. See `../CONTRIBUTING.md`.
 
-One JSON file per dataset in `datasets/`, following `../schema/dataset.schema.json` (see `../schema/README.md` for the field reference and filename rule).
-
-These files were generated from the legacy `lod-data.json` by `../scripts/migrate_lod_data.py`:
-
-    python3 scripts/migrate_lod_data.py lod-data.json data --report report.md
-
-The script is only needed once, to cut over from the old server; after that the files are edited directly. It also prints a report of what it normalised and what still violates the schema.
+They were first generated from the legacy `lod-data.json` of the old server by `../scripts/migrate_lod_data.py` (the final pull was on 2026-11-24, when the site moved to GitHub Pages, #105). The script is only kept for the record; do not re-run it, it replaces `datasets/` and `conflicts/` completely.
 
 ## `conflicts/`
 
@@ -26,21 +20,21 @@ Five legacy records have an identifier that differs from another only by case, w
 
 ## Known data problems
 
-The migration only makes mechanical fixes, so many records do not yet satisfy the schema (missing domain, website, description or contact email, links to datasets that no longer exist, malformed URLs). The validation script (#90) will carry a known-issues list so that existing problems do not block every pull request while new and changed records are held to the schema.
+The migration only makes mechanical fixes, so many records do not yet satisfy the schema (missing domain, website, description or contact email, links to datasets that no longer exist, malformed URLs). `known-issues.json` (below) lists them, so that existing problems do not block every pull request while new and changed records are held to the schema.
 
 ## Validation
 
     pip install -r scripts/requirements.txt
     python3 scripts/validate.py                       # whole data set, known issues allowed
-    python3 scripts/validate.py --changed-from main   # files changed since main must have no problems at all
+    python3 scripts/validate.py --changed-from origin/main   # files changed since main must have no problems at all
     python3 scripts/validate.py --strict a.json b.json
     python3 -m unittest discover tests                # tests for the validator itself
 
-`known-issues.json` lists, per file, the problems that existed when the data was migrated (2,646 across 1,067 files). They are tolerated so unrelated changes are not blocked, but any file you change must be fully valid, and any new problem anywhere fails. When you fix problems, regenerate the list with `python3 scripts/validate.py --write-known-issues` (it only ever needs to shrink; the run reports entries that no longer occur).
+`known-issues.json` lists, per file, the problems that existed when the data was migrated (2,647 across 1,068 files at the final pull). They are tolerated so unrelated changes are not blocked, but any file you change must be fully valid, and any new problem anywhere fails. When you fix problems, regenerate the list with `python3 scripts/validate.py --write-known-issues` (it only ever needs to shrink; the run reports entries that no longer occur).
 
 ## Adding and changing datasets
 
-Contributors who do not want to edit JSON use the issue forms (**Submit a dataset** on the site, or *New issue* here): *Add a dataset* and *Update a dataset*. The **Submissions** workflow (`.github/workflows/submissions.yml`, `scripts/issue_to_record.py`) turns the issue into a pull request against `dev` with the new or changed file in `data/datasets`, commits it with the submitter as co-author, and links the pull request in a comment on the issue. The Validate workflow then checks it like any other pull request, and a maintainer reviews and merges it (there is no auto-merge).
+Contributors who do not want to edit JSON use the issue forms (**Submit a dataset** on the site, or *New issue* here): *Add a dataset* and *Update a dataset*. The **Submissions** workflow (`.github/workflows/submissions.yml`, `scripts/issue_to_record.py`) turns the issue into a pull request against `main` with the new or changed file in `data/datasets`, commits it with the submitter as co-author, and links the pull request in a comment on the issue. The Validate workflow then checks it like any other pull request, and a maintainer reviews and merges it (there is no auto-merge).
 
 - If the form cannot be turned into a valid record, the workflow comments with the list of problems and opens nothing; editing the issue runs it again, and updates the pull request if there already is one.
 - In an update a blank field means "unchanged", and a filled-in list (downloads, endpoints, keywords, links) replaces the current one. Removing a value is done by editing the file.
@@ -61,7 +55,7 @@ The workflow only runs once it is on `main`. Until the App exists, the workflow 
 
 ## Link status
 
-Whether the download, example and SPARQL URLs still respond is checked weekly by the **Links** workflow (`scripts/check_links.py`). The result for each URL (`status`, `http`, `last_checked`, `last_ok`, `failures`: the number of failed checks in a row) is kept in `resources.json` on the `link-status` branch, not in the dataset files and not on `main` or `dev`. The results are informational: some servers block the addresses of GitHub's runners, so a single failure means little and `failures` is the number to look at.
+Whether the download, example and SPARQL URLs still respond is checked weekly by the **Links** workflow (`scripts/check_links.py`). The result for each URL (`status`, `http`, `last_checked`, `last_ok`, `failures`: the number of failed checks in a row) is kept in `resources.json` on the `link-status` branch, not in the dataset files and not on `main`. The results are informational: some servers block the addresses of GitHub's runners, so a single failure means little and `failures` is the number to look at.
 
 To keep the number of requests to other people's servers down, each distinct URL is requested once (HEAD, or GET for examples), one request at a time per host; a URL that was OK is not checked again for 28 days; and a host that cannot be reached is given up after three connection errors. To try it: `python3 scripts/check_links.py --state /tmp/resources.json --limit 100`.
 

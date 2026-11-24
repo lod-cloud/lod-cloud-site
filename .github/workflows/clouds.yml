@@ -40,10 +40,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
-      # dev holds the site and scripts until they reach main (#105)
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event_name != 'pull_request' && 'dev' || '' }}
 
       - uses: actions/setup-python@v5
         with:
@@ -108,6 +105,6 @@ jobs:
           git add site/_data/versions.yml
           git commit -m "Add the LOD Cloud diagram of $DATE"
           git push origin "$BRANCH"
-          gh pr create --base dev --head "$BRANCH" \
+          gh pr create --base main --head "$BRANCH" \
             --title "Add the LOD Cloud diagram of $DATE" \
             --body "Adds the release [clouds-$DATE](${{ github.server_url }}/${{ github.repository }}/releases/tag/clouds-$DATE) to the history table."

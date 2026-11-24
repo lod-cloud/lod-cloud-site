@@ -43,7 +43,7 @@ Text from dataset files is escaped, and URLs are only emitted if they start with
 
 ## Publishing
 
-`.github/workflows/site.yml` builds and checks the site on every pull request and push. A push to `main` also publishes the checked site to GitHub Pages (Settings → Pages → Source: *GitHub Actions*), at `https://lod-cloud.github.io/lod-cloud-site/`. `lod-cloud.net` is served from there by the nginx reverse proxy, which maps `/` to that address (#105), so the site is built for the root of its host (`baseurl: ""`).
+`.github/workflows/site.yml` builds and checks the site on every pull request and push. A push to `main` also publishes the checked site to GitHub Pages (Settings → Pages → Source: *GitHub Actions*), at `https://lod-cloud.github.io/lod-cloud-site/`. `lod-cloud.net` is served from there by a reverse proxy that maps `/` to that address (#105), so the site is built for the root of its host (`baseurl: ""`).
 
 - **Preview.** While the site is only reachable at the Pages address, the repository variable `PAGES_BASEURL` is `/lod-cloud-site`: the build then prefixes every link with it and the pages say `noindex`. Setting it to empty (or deleting it) at the cutover makes the next push to `main` build for the root.
 - **Diagrams.** `scripts/fetch_clouds.py` downloads the files of the newest release listed in `_data/versions.yml` into `_site/clouds/`, because release downloads are attachments and cannot be shown in a page or used as an interactive SVG. `/versions/<dir>/` pages redirect to the release of that set; the old file URLs below them (`/versions/<dir>/lod-cloud.png`) are not redirected, because static hosting has no way to.
