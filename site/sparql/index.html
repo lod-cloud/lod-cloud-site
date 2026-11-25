@@ -4,10 +4,6 @@ title: SPARQL
 ---
 <div class="container">
   <h2 class="text-center">SPARQL over the catalogue</h2>
-  <p class="text-center text-muted">Prototype. Your browser loads <a href="{{ '/catalog.ttl' | relative_url }}">catalog.ttl</a>
-    (the DCAT/VoID description of all {{ site.data.datasets.size }} datasets and their links, about 11 MB) into an in-memory
-    store, <a href="https://github.com/oxigraph/oxigraph">Oxigraph</a> compiled to WebAssembly, and runs your SPARQL query
-    on it. Nothing is sent to a server.</p>
 
   <noscript><p class="alert alert-warning">This page needs JavaScript. The data is at <a href="{{ '/catalog.ttl' | relative_url }}">catalog.ttl</a>.</p></noscript>
 
@@ -20,8 +16,7 @@ title: SPARQL
     <textarea id="query" class="form-control" rows="12" spellcheck="false" style="font-family: monospace;"></textarea>
   </div>
   <p>
-    <button id="load" type="button" class="btn btn-secondary">Load the catalogue</button>
-    <button id="run" type="button" class="btn btn-primary" disabled>Run</button>
+    <button id="run" type="button" class="btn btn-primary">Run</button>
     <span id="status" class="text-muted ml-2" role="status"></span>
   </p>
   <div id="error" class="alert alert-danger" role="alert" hidden></div>
@@ -85,8 +80,9 @@ title: SPARQL
 
   function error(message) { $("error").textContent = message; $("error").hidden = !message; }
 
+  // The first run loads the engine and the catalogue (a few seconds); later runs reuse the store
   async function load() {
-    $("load").disabled = true; error("");
+    error("");
     try {
       $("status").textContent = "Loading the engine…";
       await init();
@@ -108,13 +104,20 @@ title: SPARQL
       store.load(text, { format: "text/turtle", base_iri: "http://lod-cloud.net/" });
       $("status").textContent = "Loaded " + store.size.toLocaleString() + " triples (download " + ((t1 - t0) / 1000).toFixed(1) +
         " s, parse " + ((performance.now() - t1) / 1000).toFixed(1) + " s).";
-      $("run").disabled = false;
     } catch (e) {
-      $("load").disabled = false; $("status").textContent = ""; error(String(e.message || e));
+      $("status").textContent = ""; error(String(e.message || e));
     }
   }
 
-  function run() {
+  let busy = false;
+  async function run() {
+    if (busy) return;
+    if (!store) {
+      busy = true; $("run").disabled = true; $("run").textContent = "Loading catalogue…";
+      await load();
+      busy = false; $("run").disabled = false; $("run").textContent = "Run";
+      if (!store) return;
+    }
     error(""); $("results").hidden = true; $("text").hidden = true; $("summary").textContent = "";
     const t0 = performance.now();
     try {
@@ -149,12 +152,11 @@ title: SPARQL
     } catch (e) { error(String(e.message || e)); }
   }
 
-  $("load").addEventListener("click", load);
   $("run").addEventListener("click", run);
-  $("query").addEventListener("keydown", (e) => { if ((e.ctrlKey || e.metaKey) && e.key === "Enter" && !$("run").disabled) run(); });
+  $("query").addEventListener("keydown", (e) => { if ((e.ctrlKey || e.metaKey) && e.key === "Enter") run(); });
 
-  // ?q=<query>&run=1 opens a query, and runs it once the catalogue is loaded
+  // ?q=<query>&run=1 opens a query and runs it
   const params = new URLSearchParams(location.search);
   if (params.get("q")) $("query").value = params.get("q");
-  if (params.get("run") === "1") load().then(() => { if (store) run(); });
+  if (params.get("run") === "1") run();
 </script>
