@@ -126,6 +126,14 @@ Differences from the Java output: the license is emitted (the Java code read a f
 
 **ShowVoc / MDR.** The [MDR ontology](https://w3id.org/mdr) extends DCAT, but its documentation defines no profile or example for describing a dataset, so nothing MDR-specific (`mdr:` classes) is emitted, and whether ShowVoc can ingest this as it is has not been tested (#103).
 
+### SPARQL in the browser
+
+`/sparql/` (prototype, linked from the home page) loads `catalog.ttl` into [Oxigraph](https://github.com/oxigraph/oxigraph) compiled to WebAssembly (`oxigraph@0.5.13` from jsDelivr, 4 MB) and runs SPARQL queries on it in the browser; nothing goes to a server. Seven examples (datasets per domain, most linked-to datasets, endpoints, links from DBpedia, a title search, large datasets, a CONSTRUCT); `?q=<query>&run=1` opens and runs a query; results are shown as text, never as HTML.
+
+Measured on the real catalogue (197,347 triples, 10.7 MB): Oxigraph loads it in 0.4 s (+109 MB of memory) and answers each example in 1 to 30 ms. Comunica with N3 (the other candidate) takes 0.8 s and +193 MB, queries 20 to 430 ms, and it needs a bundling step for the browser (its dependencies are 21 MB unpacked; I did not measure a browser bundle). Both were measured in Node, not in a browser; only Oxigraph was tried in a browser (Chromium via Playwright). The cost is the download: Pages sends `catalog.ttl` uncompressed (10.7 MB; 0.9 MB gzipped), so the reverse proxy should compress `text/turtle` (and `application/ld+json`, `application/n-triples`).
+
+The export refuses to publish an IRI that a strict RDF parser (Oxigraph, RDF4J, Jena) would reject: `[` and `]` are percent-encoded outside an IPv6 host, and a contact email that is not an address (one record has `a [at] b [dot] c`) gets no `vcard:hasEmail`.
+
 ### Identifiers that cannot be file names
 
 28 identifiers contain a character that GitHub's artifact upload and Windows reject in a path (`" < > : | * ? \`, e.g. `ISSN:0080-3626`). Their pages and files are written under the percent-encoded name (`dataset/ISSN%3A0080-3626/`), and `404.html` sends a browser that asks for `/dataset/ISSN:0080-3626` or `/edit-dataset/...` there, using `dataset-redirects.json`. The rule exists twice (`LODCloud.dataset_path` in the plugin and `dataset_path` in `scripts/export_site_data.py`); `scripts/check_site_paths.py` fails the build if they disagree. This has not been tested on GitHub Pages itself (#105).

@@ -204,6 +204,31 @@ class DcatTest(unittest.TestCase):
 PAGE = "<!DOCTYPE html><html><head><title>x</title>\n</head><body>x</body></html>"
 
 
+class IriTest(unittest.TestCase):
+    def test_brackets_are_escaped_except_in_an_ipv6_host(self):
+        self.assertEqual(str(ex.iri("http://x.org/a[1]")), "http://x.org/a%5B1%5D")
+        self.assertEqual(str(ex.iri("http://[::1]:8080/a[1]")), "http://[::1]:8080/a%5B1%5D")
+        self.assertEqual(str(ex.iri("mailto:a [at] b")), "mailto:a%20%5Bat%5D%20b")
+
+    def test_an_obfuscated_email_gives_no_vcard_email_but_keeps_the_foaf_mbox(self):
+        rec = dict(MINIMAL, contact_point={"name": "N", "email": "bernard [dot] vatant [at] example [dot] com"})
+        g = graph_of(rec)
+        self.assertEqual(list(g.objects(None, VCARD.hasEmail)), [])
+        self.assertEqual(len(list(g.objects(None, ex.FOAF.mbox))), 1)
+        self.assertEqual(invalid_iris(g), [])
+
+    def test_every_iri_of_the_real_example_data_is_one_a_strict_parser_accepts(self):
+        g = ex.new_graph()
+        for rec in (FULL, MINIMAL, dict(MINIMAL, full_download=[{"download_url": "http://x.org/a b[1]|{c}"}],
+                                        website="http://[2001:db8::1]/x")):
+            ex.add_dataset(g, rec)
+        self.assertEqual(invalid_iris(g), [])
+
+
+def invalid_iris(g):
+    return ex.invalid_iris(g)
+
+
 class EmbedTest(unittest.TestCase):
     def embed(self, rec, page_text=PAGE):
         tmp = tempfile.TemporaryDirectory()

@@ -114,7 +114,10 @@ def iri(url):
     url = url.strip()
     if not re.match(r"^[A-Za-z][A-Za-z0-9+.-]*:", url):
         return None
-    return URIRef(re.sub(r'[\x00-\x20"<>\\^`{|}]', lambda m: "%%%02X" % ord(m.group()), url))
+    # "[" and "]" are only allowed around an IPv6 address in the host
+    m = re.match(r"^([A-Za-z][A-Za-z0-9+.-]*://)(\[[0-9A-Fa-f:.]+\])?(.*)$", url, re.S)
+    head, host, rest = (m.group(1), m.group(2) or "", m.group(3)) if m else ("", "", url)
+    return URIRef(head + host + re.sub(r'[\x00-\x20"<>\\^`{|}\[\]]', lambda c: "%%%02X" % ord(c.group()), rest))
 
 
 def media_type(value):
@@ -127,6 +130,22 @@ def media_type(value):
 
 def domain_uri(key):
     return URIRef("%s%s/" % (DOMAIN_URI, key))
+
+
+IRI_FORBIDDEN = re.compile(r'[\x00-\x20"<>\\^`{|}]')
+
+
+def invalid_iris(graph, limit=5):
+    """IRIs in the graph that a strict RDF parser (Oxigraph, RDF4J, Jena) would refuse."""
+    bad = []
+    for node in graph.all_nodes():
+        if isinstance(node, URIRef):
+            text = re.sub(r"^([A-Za-z][A-Za-z0-9+.-]*://)\[[0-9A-Fa-f:.]+\]", r"\1", str(node))  # an IPv6 host
+            if IRI_FORBIDDEN.search(text) or "[" in text or "]" in text:
+                bad.append(str(node))
+                if len(bad) >= limit:
+                    break
+    return bad
 
 
 def add_dataset(g, rec):
@@ -220,7 +239,9 @@ def add_dataset(g, rec):
         if contact.get("name"):
             g.add((c, VCARD.fn, Literal(contact["name"])))
         if contact.get("email"):
-            add_url(c, VCARD.hasEmail, "mailto:" + contact["email"].strip())
+            email = contact["email"].strip()
+            if re.fullmatch(r"[^@\s\[\]]+@[^@\s\[\]]+\.[^@\s\[\]]+", email):  # not "a [at] b [dot] c"
+                add_url(c, VCARD.hasEmail, "mailto:" + email)
     for link in rec.get("links", []):
         # A linkset of its own, named after the pair of datasets (the old site wrote an
         # unnamed one, and only for links with a known count).
@@ -341,6 +362,9 @@ def export(records, out):
         for directory, fmt in (("rdf", "xml"), ("ttl", "turtle"), ("nt", "nt")):
             write(out / directory / p, g.serialize(format=fmt))
         embed_jsonld(out / "dataset" / p / "index.html", g)
+    bad = invalid_iris(all_rdf)
+    if bad:
+        raise SystemExit("IRIs that a strict RDF parser would refuse: %s" % ", ".join(bad))
     write(out / "extract" / "rdf", all_rdf.serialize(format="nt"))
     catalog = new_graph()
     for rec in records:
