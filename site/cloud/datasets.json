@@ -1,0 +1,12 @@
+---
+layout: null
+---
+{%- comment -%}
+  For the diagram explorer (cloud/index.html): identifier => [title, domain, page URL, unavailable (1) or not (0)].
+{%- endcomment -%}
+{
+{%- for d in site.data.datasets -%}
+{%- assign avail = site.data.availability[d.identifier] -%}
+{{ d.identifier | jsonify }}:[{{ d.title | jsonify }},{{ d.domain | jsonify }},{{ d.identifier | dataset_url | jsonify }},{% if avail.state %}1{% else %}0{% endif %}]{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+}

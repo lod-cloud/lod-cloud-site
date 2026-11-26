@@ -12,10 +12,10 @@ title: The Linked Open Data Cloud
     <section class="lod-cloud" id="diagram">
         <div class="container-fluid p-0">
             <div class="rows no-gutters">
-                <a href="{{ site.cloud_base }}/clouds/lod-cloud.svg">
+                <a href="{{ '/cloud/' | relative_url }}">
                     <img src="{{ site.cloud_base }}/clouds/lod-cloud-sm.jpg" width="100%" 
                                                     alt="Linked Open Data Cloud Image" 
-                                                    title="Click for Interactive SVG"/>
+                                                    title="Click to explore the diagram"/>
                 </a>
             </div>
         </div>
@@ -36,11 +36,11 @@ title: The Linked Open Data Cloud
         <div class="tab-content" id="myTabContent">
             {% for dom in site.data.domains %}
             <div class="tab-pane fade{% if forloop.first %} show active{% endif %}" id="{{ dom.key }}" role="tabpanel" aria-labelledby="{{ dom.key }}-tab">
-                <a href="{{ site.cloud_base }}/clouds/{{ dom.stem }}.svg">
+                <a href="{{ '/cloud/' | relative_url }}?domain={{ dom.key }}">
                     <img src="{{ site.cloud_base }}/clouds/{{ dom.stem }}.webp"
                          width="100%"
                          alt="{{ dom.label }} Linked Open Data Cloud"
-                         title="Click for Interactive SVG"/>
+                         title="Click to explore the diagram"/>
                 </a>
             </div>
             {% endfor %}

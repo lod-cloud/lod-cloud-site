@@ -7,3 +7,54 @@
 .dataset td.triple_count { text-align: right; }
 .dataset .unavailable-notice { margin-top: 1rem; }
 ul.dataset-list { columns: 2 20rem; }
+
+/* The interactive diagram (cloud/index.html, assets/cloud.js) */
+.container-fluid.cloud-page { padding-top: .75rem; }
+.cloud-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.cloud-toolbar select { width: auto; }
+.cloud-search input { width: 18rem; max-width: 100%; }
+.cloud-check { margin: 0; font-size: .9rem; white-space: nowrap; }
+.cloud-domains { display: flex; flex-wrap: wrap; gap: .25rem; margin: .5rem 0; }
+.cloud-chip { display: inline-block; border: 1px solid #ccc; border-radius: 1rem; padding: .1rem .6rem;
+              font-size: .85rem; background: #fff; color: #212529; line-height: 1.5; }
+button.cloud-chip { cursor: pointer; }
+.cloud-chip[aria-pressed="false"] { opacity: .45; text-decoration: line-through; }
+.cloud-chip .sw { display: inline-block; width: .8rem; height: .8rem; border-radius: 50%;
+                  margin-right: .3rem; vertical-align: -1px; border: 1px solid rgba(0,0,0,.3); }
+.cloud-stage { position: relative; }
+.cloud-view { height: calc(100vh - 13rem); min-height: 320px; border: 1px solid #dee2e6; background: #fff;
+              overflow: hidden; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+.cloud-view:focus { outline: 2px solid #80bdff; outline-offset: -2px; }
+.cloud-view.dragging { cursor: grabbing; }
+.cloud-view svg { display: block; width: 100%; height: 100%; }
+.cloud-view circle { stroke: #333; stroke-width: 1.5px; fill-opacity: .8; }
+.cloud-view .bubble text { text-anchor: middle; font-size: .5em; }
+.cloud-view .node-g { cursor: pointer; }
+.cloud-view .node-g.unavailable circle { stroke-dasharray: 4 3; }
+.cloud-view line { stroke: #555; stroke-opacity: .5; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.cloud-view .off { display: none; }
+.cloud-view svg.focus line { stroke-opacity: .05; }
+.cloud-view svg.focus .node-g { opacity: .2; }
+.cloud-view svg.focus .node-g.hl { opacity: 1; }
+.cloud-view svg.focus .node-g.hl-self circle { stroke: #e80000; stroke-width: 4px; }
+.cloud-view svg.focus line.hl-out { stroke: #1a9c1d; stroke-opacity: 1; stroke-width: 2.5px; }
+.cloud-view svg.focus line.hl-in { stroke: #be1b38; stroke-opacity: 1; stroke-width: 2.5px; }
+.cloud-view svg.focus line.hl-in.hl-out { stroke-dasharray: 6 4; }
+.cloud-info { position: absolute; top: .5rem; right: .5rem; width: 21rem; max-width: calc(100% - 1rem);
+              max-height: calc(100% - 1rem); overflow: auto; padding: .75rem 1rem; font-size: .9rem;
+              box-shadow: 0 .25rem 1rem rgba(0,0,0,.15); }
+.cloud-info ul { padding-left: 1.1rem; margin-bottom: .25rem; }
+.cloud-info .cloud-links summary, .cloud-info div.cloud-links { font-weight: bold; }
+.cloud-info .cloud-links summary { cursor: pointer; }
+.cloud-info button.linklike { border: 0; background: none; padding: 0; color: #007bff; text-align: left; cursor: pointer; }
+.cloud-info button.linklike:hover { text-decoration: underline; }
+@media (max-width: 575.98px) {
+  .cloud-info { position: static; width: auto; max-width: none; max-height: none; margin-top: .5rem; box-shadow: none; }
+}
+
+/* The top menu: one row, centred, wrapping only on narrow screens */
+nav ul.site-menu { display: flex; flex-wrap: wrap; justify-content: center; width: 100%; margin: 0; padding: 0; }
+@media (max-width: 575.98px) {
+  nav ul.site-menu li { height: auto; }
+  nav ul.site-menu li a { padding: 2px 8px; }
+}

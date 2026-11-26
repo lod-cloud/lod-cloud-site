@@ -30,6 +30,7 @@ Check the result with `python3 scripts/check_site_paths.py _site` and `python3 s
 | `_layouts/` | `default` (page frame), `dataset`, `domain` |
 | `_data/versions.yml`, `_includes/versions-table.html` | History table on the home page: one entry per published diagram in the data file, rendered as rows (see the comments at the top of the file for the fields) |
 | `index.html`, `datasets/index.html` | Home page and the list of all datasets |
+| `cloud/index.html`, `cloud/datasets.json`, `assets/cloud.js` | The interactive diagram (below) |
 | `privacy.html`, `ipfs-how-to.html` | Static pages carried over unchanged |
 | `404.html` | Not-found page; also sends old URLs of identifiers with an encoded path to the right place (below) |
 
@@ -66,6 +67,23 @@ so the history table links to them but the page cannot show them; the current di
 be served from Pages (to do at cutover, #105). The 45 sets from the old site are uploaded to releases once, by
 a local script that is not part of the repository; entries in `versions.yml` without `release:` still link to
 `versions/` on `cloud_base`.
+
+### The interactive diagram
+
+`/cloud/` (#107; the home page and the domain pages link their images to it) shows the current
+`clouds/lod-cloud.svg`, or with `?domain=<key>` that domain's subcloud, inside the page: zoom (wheel, pinch,
+`+`/`−`, `0` to fit), pan (drag, arrow keys), a filter by domain (double-click a domain to show only it), an
+option to hide unavailable datasets, and a search. Clicking a dataset highlights its links and opens a panel
+listing the datasets it links to and those linking to it; `?d=<identifier>` opens with a dataset selected, and
+the address follows the selection so it can be shared. Ctrl- or Cmd-click opens the dataset page as before.
+
+It uses the SVG that `lod-cloud-draw` writes, with nothing added to the generator: each dataset is a `<g>`
+with a `<circle>` (its `<title>` is the identifier) and an `<a>`; each link is a `<line>` whose `targetId`
+is the dataset whose record has the link and `sourceId` the dataset it links to. The SVG's own script and
+style are removed and the page's replace them. Titles, page URLs and availability come from
+`cloud/datasets.json`, built with the site. A dataset's domain in the filter is the colour it is drawn in,
+because `lod-cloud-draw` colours the records that have no `domain` as well (218 in November 2026). The
+datasets drawn are those in the diagram, which is regenerated monthly, so a dataset added since is not in it.
 
 ## Old URLs
 

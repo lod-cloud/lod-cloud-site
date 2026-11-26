@@ -4,9 +4,9 @@ layout: default
 <div class="container">
   <h1>{{ page.label | escape }}</h1>
   <p><a href="{{ '/#subclouds' | relative_url }}">All subclouds</a></p>
-  <a href="{{ site.cloud_base }}/clouds/{{ page.stem }}.svg">
+  <a href="{{ '/cloud/' | relative_url }}?domain={{ page.domain }}">
     <img src="{{ site.cloud_base }}/clouds/{{ page.stem }}.webp" width="100%"
-         alt="{{ page.label | escape }} Linked Open Data Cloud" title="Click for Interactive SVG"/>
+         alt="{{ page.label | escape }} Linked Open Data Cloud" title="Click to explore the diagram"/>
   </a>
 
   <h3>{{ page.datasets.size }} datasets</h3>
