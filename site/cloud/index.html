@@ -1,0 +1,55 @@
+---
+layout: default
+title: Explore the diagram
+---
+{%- comment -%}
+  The interactive diagram (#107): the current SVG from /clouds/, inlined, with zoom and pan,
+  a domain filter, search, and a panel listing each dataset's links. ?domain=<key> opens that
+  domain's subcloud, ?d=<identifier> selects a dataset. The script is assets/cloud.js.
+{%- endcomment -%}
+<div class="container-fluid cloud-page">
+  <div class="cloud-toolbar">
+    <select id="cloud-select" class="form-control form-control-sm" aria-label="Diagram">
+      <option value="">The whole cloud</option>
+      {% for dom in site.data.domains %}<option value="{{ dom.key }}">{{ dom.label }} subcloud</option>
+      {% endfor %}
+    </select>
+    <form id="cloud-search" class="cloud-search" role="search" autocomplete="off">
+      <input id="cloud-q" class="form-control form-control-sm" type="search" list="cloud-names"
+             placeholder="Find a dataset" aria-label="Find a dataset">
+      <datalist id="cloud-names"></datalist>
+    </form>
+    <span class="cloud-zoom" role="group" aria-label="Zoom">
+      <button type="button" class="btn btn-sm btn-outline-secondary" data-zoom="in" title="Zoom in (+)" aria-label="Zoom in">+</button>
+      <button type="button" class="btn btn-sm btn-outline-secondary" data-zoom="out" title="Zoom out (−)" aria-label="Zoom out">−</button>
+      <button type="button" class="btn btn-sm btn-outline-secondary" data-zoom="fit" title="Show the whole diagram (0)">Fit</button>
+    </span>
+    <label class="cloud-check"><input type="checkbox" id="cloud-unavailable"> Hide unavailable</label>
+    <span id="cloud-status" class="text-muted" role="status"></span>
+  </div>
+  <div id="cloud-domains" class="cloud-domains" role="group" aria-label="Domains shown"></div>
+
+  <div class="cloud-stage">
+    <div id="cloud-view" class="cloud-view" tabindex="0"
+         aria-label="The LOD cloud diagram. Drag or use the arrow keys to move, scroll or + and − to zoom.">
+      <noscript><p class="p-3">This page needs JavaScript. The diagram itself is at
+        <a href="{{ site.cloud_base }}/clouds/lod-cloud.svg">lod-cloud.svg</a>.</p></noscript>
+    </div>
+    <aside id="cloud-info" class="cloud-info card" hidden aria-live="polite"></aside>
+  </div>
+  <p class="text-muted small mt-2 mb-0">
+    Drag to move, scroll or pinch to zoom, click a dataset to see its links.
+    <span style="color:#1a9c1d">Green</span>: links from it; <span style="color:#be1b38">red</span>: links to it.
+    The diagram as a file: <a id="cloud-file" href="{{ site.cloud_base }}/clouds/lod-cloud.svg">SVG</a>;
+    older diagrams are listed under <a href="{{ '/#about' | relative_url }}">History</a>.
+  </p>
+</div>
+
+<script>
+  window.LOD_CLOUD = {
+    clouds: "{{ site.cloud_base }}/clouds/",
+    datasets: "{{ '/cloud/datasets.json' | relative_url }}",
+    domains: {{ site.data.domains | jsonify }}
+  };
+</script>
+<script src="{{ '/assets/cloud.js' | relative_url }}"></script>
