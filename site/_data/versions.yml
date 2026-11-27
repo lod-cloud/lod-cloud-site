@@ -207,12 +207,6 @@
     png: lod-cloud.png
     svg: lod-cloud.svg
 
-- date: "2018-08-28"
-  datasets: 1224
-  colored:
-    png: lod-cloud.png
-    svg: lod-cloud.svg
-
 - date: "2018-07-30"
   release: clouds-2018-07-30
   datasets: 1220
